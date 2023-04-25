@@ -84,6 +84,27 @@ body{
   <ul class="nav navbar-nav">
   <li><a href="https://superfilmes.netlify.app/"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
 
+  <li class="dropdown">
+  <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-film mr-2"></i>&nbsp;Gêneros<i class="fa fa-angle-down fa-fw"></i></a>
+  <ul class="dropdown-menu">
+ 
+  <li> <a class="dropdown-item" href="https://superfilmes.netlify.app/acao">Ação</a></li>
+  <li> <a class="dropdown-item" href="https://superfilmes.netlify.app/animacao">Animação</a></li>
+  <li> <a class="dropdown-item" href="https://superfilmes.netlify.app/aventura">Aventura</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/comedia">Comédia</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/crime">Crime</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/documentario/">Documentário</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/drama/">Drama</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/familia/">Família</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/fantasia/">Fantasia</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/ficcao/">Ficção científica</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/historia/">História</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/misterio/">Mistério</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/romance/">Romance</a></li>
+  <li><a class="dropdown-item" href="https://superfilmes.netlify.app/terror/">Terror</a></li>
+  </ul>
+  </li>
+ 
   <li class="nav-item">
     <a class="nav-link" href="https://jptv.netlify.app/">TV ONLINE</a>
   </li>
@@ -136,7 +157,27 @@ body{
   <ul class="flexbox">
   <li class="hidden-md"><a href="https://superfilmes.netlify.app/"><i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
 
-
+  <li class="has-dropdown">
+  <a href="https://superfilmes.netlify.app/"><i class="fas fa-film mr-2"></i>&nbsp;Gêneros<i class="fa fa-angle-down fa-fw"></i></a>
+  <div class="dropdown">
+  <ul class="flexbox">
+      <li> <a class="dropdown-item" href="https://superfilmes.netlify.app/acao">Ação</a></li>
+      <li> <a class="dropdown-item" href="https://superfilmes.netlify.app/animacao">Animação</a></li>
+      <li> <a class="dropdown-item" href="https://superfilmes.netlify.app/aventura">Aventura</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/comedia">Comédia</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/crime">Crime</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/documentario/">Documentário</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/drama/">Drama</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/familia/">Família</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/fantasia/">Fantasia</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/ficcao/">Ficção científica</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/historia/">História</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/misterio/">Mistério</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/romance/">Romance</a></li>
+      <li><a class="dropdown-item" href="https://superfilmes.netlify.app/terror/">Terror</a></li>
+  </ul>
+  </div>
+  </li>
 
   
  
@@ -222,178 +263,104 @@ body{
         <section class="bg-primary p-t-40 p-b-40">
           <div class="container">       
     <div class="row min-gutter">
+        <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/76z8q24vMul7IPguc0QUODF3THk.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Plano Perfeito" /><center>
+            <button class="btn btn-primary" onclick="openMovie('O Plano Perfeito', 'https://embedder.net/e/movie?imdb=tt0454848')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/ikqAxUAEH4BloLjVgR8MWNX3qtU.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Mogli: O Menino Lobo" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Mogli: O Menino Lobo', 'https://embedder.net/e/movie?imdb=tt0061852')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/tA5OE1P8GAEuASNtus5zhJrooI4.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Noites Brutais" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Noites Brutais', 'https://embedder.net/e/movie?imdb=tt15791034')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/oBFAs9hMdSgHKMvW6VLnh5SOfof.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="A Pequena Sereia" /><center>
+            <button class="btn btn-primary" onclick="openMovie('A Pequena Sereia', 'https://embedder.net/e/movie?imdb=tt0097757')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/A4SVyLxB7WGzW8GGiKs3pizTUte.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Stardust: O Mistério da Estrela" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Stardust: O Mistério da Estrela', 'https://embedder.net/e/movie?imdb=tt0486655')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/llnIydfVBpZZ5rCfhzDonq5BIST.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Homens de Coragem" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Homens de Coragem', 'https://embedder.net/e/movie?imdb=tt3829920')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/9W49fy5G7v9Ed3CXtvMi41YqZtt.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="300" /><center>
+            <button class="btn btn-primary" onclick="openMovie('300', 'https://embedder.net/e/movie?imdb=tt0416449')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/oXHNdN1hjg6RFQ5NP618KSAIrdE.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Pior Vizinho do Mundo" /><center>
+            <button class="btn btn-primary" onclick="openMovie('O Pior Vizinho do Mundo', 'https://embedder.net/e/movie?imdb=tt7405458')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/ohzOag8jcGOG3pxAl0e09FkdWNs.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Jovens, Loucos e Rebeldes" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Jovens, Loucos e Rebeldes', 'https://embedder.net/e/movie?imdb=tt0106677')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/pQLJiY9XfiO3IN1x0l0E51XSwgV.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="One Piece: Stampede" /><center>
+            <button class="btn btn-primary" onclick="openMovie('One Piece: Stampede', 'https://embedder.net/e/movie?imdb=tt9430698')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/aqr4CdX6eeA5UkVAJzKZMs7FeEw.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Superbad: É Hoje" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Superbad: É Hoje', 'https://embedder.net/e/movie?imdb=tt0829482')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/Lw92onUVD9eg04JltAas5KWkSy.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Kick-Ass: Quebrando Tudo" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Kick-Ass: Quebrando Tudo', 'https://embedder.net/e/movie?imdb=tt1250777')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/7YkeIFriVpYPqOQkK1KnrrTSTuY.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Um Sonho Possível" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Um Sonho Possível', 'https://embedder.net/e/movie?imdb=tt0878804')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/l1FfRmKRNXRSqXT5GlMo16MX2LX.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Harry Potter e a Pedra Filosofal" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Harry Potter e a Pedra Filosofal', 'https://embedder.net/e/movie?imdb=tt0241527')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/ulMbGa8XEz0zMXkDkIX4PN3a51.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Antes Só do que Mal Acompanhado" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Antes Só do que Mal Acompanhado', 'https://embedder.net/e/movie?imdb=tt0093748')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/w5EPR88Kz73eRvnwmgUUKcZQt27.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Rei do Show" /><center>
+            <button class="btn btn-primary" onclick="openMovie('O Rei do Show', 'https://embedder.net/e/movie?imdb=tt1485796')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/jZofpz4gmiH7MQAYWrgvTtdIq3l.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Menino que Descobriu o Vento" /><center>
+            <button class="btn btn-primary" onclick="openMovie('O Menino que Descobriu o Vento', 'https://embedder.net/e/movie?imdb=tt7533152')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/hTQQ5l9mxA3Rob8PTyvrNNGuj6y.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Harry Potter e o Enigma do Príncipe" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Harry Potter e o Enigma do Príncipe', 'https://embedder.net/e/movie?imdb=tt0417741')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/d8CNgb0AtZz7CSORffdwODK66iK.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Nasce uma Estrela" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Nasce uma Estrela', 'https://embedder.net/e/movie?imdb=tt1517451')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/fgnzRbeuGstANw2Ef4A1pdr1I0y.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Zumbilândia" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Zumbilândia', 'https://embedder.net/e/movie?imdb=tt1156398')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/1rYTtQ14rPB3KOgk5TjkUqiQFch.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Em Ritmo de Fuga" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Em Ritmo de Fuga', 'https://embedder.net/e/movie?imdb=tt3890160')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/y8GROCjgD8amoFufSx2USKrOy7d.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Poderoso Chefão: Parte III" /><center>
+            <button class="btn btn-primary" onclick="openMovie('O Poderoso Chefão: Parte III', 'https://embedder.net/e/movie?imdb=tt0099674')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/nq4taYpb2PjN1Cwni23GOZJbOaR.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Mulan" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Mulan', 'https://embedder.net/e/movie?imdb=tt0120762')">Assistir</button></center>
+         </div>
+         <div class="col-sm-2 col-xs-4">
+            <img src="https://image.tmdb.org/t/p/w300/afBJ2k0p4ojBFHbMcJY9fZHxjRh.jpg" style=" max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Atleta A" /><center>
+            <button class="btn btn-primary" onclick="openMovie('Atleta A', 'https://embedder.net/e/movie?imdb=tt11905462')">Assistir</button></center>
+         </div>
 
-      <div class="col-sm-2 col-xs-4">
-         <img src="https://image.tmdb.org/t/p/w300//w0GjWn94mtzKOV1T1ae0MfOHnHo.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="The Black Spider HD DUB - LEG" />
-         <center><button class="btn btn-primary" onclick="openMovie('The Black Spider HD DUB - LEG', 'https://embed.embedplayer.site/tt12953604')">Assistir</button></center>
-     </div>
-     
-
-     <div class="col-sm-2 col-xs-4">
-         <img src="https://image.tmdb.org/t/p/w300//8fwJt0qZieQ7dKaiiqehObWpXYT.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="The Price We Pay HD DUB - LEG" />
-         <center><button class="btn btn-primary" onclick="openMovie('The Price We Pay HD DUB - LEG', 'https://embed.embedplayer.site/tt15441472')">Assistir</button></center>
-     </div>
-     
-
-     <div class="col-sm-2 col-xs-4">
-         <img src="https://image.tmdb.org/t/p/w300//e49Sr3Lxfk2psYhv1SzQjs7MeGo.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Theres Something Wrong with the Children HD DUB - LEG" />
-         <center><button class="btn btn-primary" onclick="openMovie('Theres Something Wrong with the Children HD DUB - LEG', 'https://embed.embedplayer.site/tt16127696')">Assistir</button></center>
-     </div>
-     
-
-     <div class="col-sm-2 col-xs-4">
-         <img src="https://image.tmdb.org/t/p/w300//z0EBydaGK8yaW6NZXli5HgdElOf.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Limmensità HD - DUB/ LEG" />
-         <center><button class="btn btn-primary" onclick="openMovie('Limmensità HD - DUB/ LEG', 'https://embed.embedplayer.site/tt13051724')">Assistir</button></center>
-     </div>
-     
-
-     <div class="col-sm-2 col-xs-4">
-         <img src="https://image.tmdb.org/t/p/w300//9jdFFoRtlwI67K5bFcZX4TkvgcN.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Brillantes HD LEG - DUB" />
-         <center><button class="btn btn-primary" onclick="openMovie('Brillantes HD LEG - DUB', 'https://embed.embedplayer.site/tt19512418')">Assistir</button></center>
-     </div>
-     
-     <div class="col-sm-2 col-xs-4">
-      <img src="https://image.tmdb.org/t/p/w300//eD2lTDAkD9ehTJtypX24jTnt0hQ.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Mega Lightning HD DUB - LEG" />
-      <center><button class="btn btn-primary" onclick="openMovie('Mega Lightning HD DUB - LEG', 'https://embed.embedplayer.site/tt19119598')">Assistir</button></center>
-  </div>
-  
-
-  <div class="col-sm-2 col-xs-4">
-      <img src="https://image.tmdb.org/t/p/w300//zwAHIor0Yxn6VUnyVGIWk1fDYrv.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Desaparecida HD DUB - LEG" />
-      <center><button class="btn btn-primary" onclick="openMovie('Desaparecida HD DUB - LEG', 'https://embed.embedplayer.site/tt10855768')">Assistir</button></center>
-  </div>
-  
-
-  <div class="col-sm-2 col-xs-4">
-      <img src="https://image.tmdb.org/t/p/w300//vCwm7Iy8ZpfCf0aFmyJR9xeWhTq.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="La Guerre des Lulus HD LEG - DUB" />
-      <center><button class="btn btn-primary" onclick="openMovie('La Guerre des Lulus HD LEG - DUB', 'https://embed.embedplayer.site/tt22039496')">Assistir</button></center>
-  </div>
-  
-
-  <div class="col-sm-2 col-xs-4">
-      <img src="https://image.tmdb.org/t/p/w300//lutKUOeedR5TZdfuMbD4fcAy64b.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Narvik HD DUB - LEG" />
-      <center><button class="btn btn-primary" onclick="openMovie('Narvik HD DUB - LEG', 'https://embed.embedplayer.site/tt9737876')">Assistir</button></center>
-  </div>
-  
-
-  <div class="col-sm-2 col-xs-4">
-      <img src="https://image.tmdb.org/t/p/w300//9NooPiMm8xK8NNIgQQQS89y1MlG.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Sorry About the Demon HD LEG - DUB" />
-      <center><button class="btn btn-primary" onclick="openMovie('Sorry About the Demon HD LEG - DUB', 'https://embed.embedplayer.site/tt15262634')">Assistir</button></center>
-  </div>
-  <div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//fDeqyKwEtms2IFtT8SDvURZWqAF.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Battlebox HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Battlebox HD DUB - LEG', 'https://embed.embedplayer.site/tt14085258')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//s5qc66PAMhRVcn77hjF1Ol8Wy7n.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Betrayed by My Bridesmaid HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Betrayed by My Bridesmaid HD DUB - LEG', 'https://embed.embedplayer.site/tt22814042')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//A7vFFZHbDyxfjuYKzJwruTnwwjT.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Black Warrant HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Black Warrant HD DUB - LEG', 'https://embed.embedplayer.site/tt11696342')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//uezoDxRTXskctvNfhmhwRS30Ji3.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Halloween Friends HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Halloween Friends HD DUB - LEG', 'https://embed.embedplayer.site/tt21847522')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//5DNRr2juXdwtvktwXxwuk9Usk8O.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Infinity Pool HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Infinity Pool HD DUB - LEG', 'https://embed.embedplayer.site/tt10365998')">Assistir</button></center>
-</div>
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//dnyWreS4fGHRtoykSzxiGd3SHP3.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Presence HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Presence HD DUB - LEG', 'https://embed.embedplayer.site/tt12993004')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//3wsqyIYHqzONk7FZ3BPckShEqYO.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="The Man on the Other Side HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('The Man on the Other Side HD DUB - LEG', 'https://embed.embedplayer.site/tt8000096')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//9K11BlnlBz5BoDlc1M9zUOVeoKv.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="The Phantom Lake Kids in The Beast Walks Among Us HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('The Phantom Lake Kids in The Beast Walks Among Us HD DUB - LEG', 'https://embed.embedplayer.site/tt15576024')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//jixBLmH4gQuTKTenZr89egvqZbW.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="80 pelo Brady HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('80 pelo Brady HD DUB - LEG', 'https://embed.embedplayer.site/tt18079362')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//s8cMSDnrXzyXVduv4D2qhKkRGJD.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Bad Behind Bars: Jodi Arias HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Bad Behind Bars: Jodi Arias HD DUB - LEG', 'https://embed.embedplayer.site/tt23695384')">Assistir</button></center>
-</div>
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//uoOER1jlLCgxxY9IeyuZVKQWX5z.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Navio de Sangue HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('Navio de Sangue HD DUB', 'https://embed.embedplayer.site/tt8009938')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//4EaMMsKs0g6gucK9dJwo1B5BOGn.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Rei Macaco: A Lenda Começa HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('O Rei Macaco: A Lenda Começa HD DUB', 'https://embed.embedplayer.site/tt9692040')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//f3HkD0GxSuOZehm370aSAdgpGet.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Querido David HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('Querido David HD DUB', 'https://embed.embedplayer.site/tt21986198')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//4ONGOxqOqStYqufm97TxtzQ41xJ.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Confessions HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Confessions HD DUB - LEG', 'https://embed.embedplayer.site/tt14678156')">Assistir</button></center>
-</div>
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//l3BeIb50L527NvfE42KNoyOIUro.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Ghost Book Obakezukan HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('Ghost Book Obakezukan HD DUB - LEG', 'https://embed.embedplayer.site/tt21343502')">Assistir</button></center>
-</div>
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//gWfa1uahpIXlNkv7AMEvQt4VMde.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Lobo Viking HD DUB - LEG" />
-   <center><button class="btn btn-primary" onclick="openMovie('O Lobo Viking HD DUB - LEG', 'https://embed.embedplayer.site/tt13051810')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//9hoNGfSq3ZiolERu1yFEOWhGLPL.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Império da Luz HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('Império da Luz HD DUB', 'https://embed.embedplayer.site/tt14402146')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//uOoPOjz93DbZzMAcm2g8xa1WxK6.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Suplente HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('O Suplente HD DUB', 'https://embed.embedplayer.site/tt15941636')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//wyBM5BKBt8D7rdjzd65UXIMf9BO.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Pamela Anderson - Uma História de Amor HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('Pamela Anderson - Uma História de Amor HD DUB', 'https://embed.embedplayer.site/tt18376122')">Assistir</button></center>
-</div>
-
-
-<div class="col-sm-2 col-xs-4">
-   <img src="https://image.tmdb.org/t/p/w300//lC99lme4UplMUICswlA4mfe5GNx.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Fantasy Football HD DUB" />
-   <center><button class="btn btn-primary" onclick="openMovie('Fantasy Football HD DUB', 'https://embed.embedplayer.site/tt15035506')">Assistir</button></center>
-</div>
-
-
+                           
     </div>
           
           
@@ -448,7 +415,7 @@ body{
       </div>
       </section>
     
-   <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;The Black Spider HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;The Price We Pay HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Theres Something Wrong with the Children HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Limmensità HD - DUB/ LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Brillantes HD LEG - DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Mega Lightning HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Desaparecida HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;La Guerre des Lulus HD LEG - DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Narvik HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Sorry About the Demon HD LEG - DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Battlebox HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Betrayed by My Bridesmaid HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Black Warrant HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Halloween Friends HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Infinity Pool HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Presence HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;The Man on the Other Side HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;The Phantom Lake Kids in The Beast Walks Among Us HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;80 pelo Brady HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Bad Behind Bars: Jodi Arias HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Navio de Sangue HD DUB</h1><h1 class="bold no-margin medium-3">&nbsp;O Rei Macaco: A Lenda Começa HD DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Querido David HD DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Confessions HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Ghost Book Obakezukan HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;O Lobo Viking HD DUB - LEG</h1><h1 class="bold no-margin medium-3">&nbsp;Império da Luz HD DUB</h1><h1 class="bold no-margin medium-3">&nbsp;O Suplente HD DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Pamela Anderson - Uma História de Amor HD DUB</h1><h1 class="bold no-margin medium-3">&nbsp;Fantasy Football HD DUB</h1></div></center>
+      <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;O Plano Perfeito</h1><h1 class="bold no-margin medium-3">&nbsp;Mogli: O Menino Lobo</h1><h1 class="bold no-margin medium-3">&nbsp;Noites Brutais</h1><h1 class="bold no-margin medium-3">&nbsp;A Pequena Sereia</h1><h1 class="bold no-margin medium-3">&nbsp;Stardust: O Mistério da Estrela</h1><h1 class="bold no-margin medium-3">&nbsp;Homens de Coragem</h1><h1 class="bold no-margin medium-3">&nbsp;300</h1><h1 class="bold no-margin medium-3">&nbsp;O Pior Vizinho do Mundo</h1><h1 class="bold no-margin medium-3">&nbsp;Jovens, Loucos e Rebeldes</h1><h1 class="bold no-margin medium-3">&nbsp;One Piece: Stampede</h1><h1 class="bold no-margin medium-3">&nbsp;Superbad: É Hoje</h1><h1 class="bold no-margin medium-3">&nbsp;Kick-Ass: Quebrando Tudo</h1><h1 class="bold no-margin medium-3">&nbsp;Um Sonho Possível</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e a Pedra Filosofal</h1><h1 class="bold no-margin medium-3">&nbsp;Antes Só do que Mal Acompanhado</h1><h1 class="bold no-margin medium-3">&nbsp;O Rei do Show</h1><h1 class="bold no-margin medium-3">&nbsp;O Menino que Descobriu o Vento</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e o Enigma do Príncipe</h1><h1 class="bold no-margin medium-3">&nbsp;Nasce uma Estrela</h1><h1 class="bold no-margin medium-3">&nbsp;Zumbilândia</h1><h1 class="bold no-margin medium-3">&nbsp;Em Ritmo de Fuga</h1><h1 class="bold no-margin medium-3">&nbsp;O Poderoso Chefão: Parte III</h1><h1 class="bold no-margin medium-3">&nbsp;Mulan</h1><h1 class="bold no-margin medium-3">&nbsp;Atleta A</h1></div></center>
 
      
       <section class="p-t-40 p-b-80">
