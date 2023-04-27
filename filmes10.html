@@ -246,11 +246,68 @@ body{
     <p></p>
       <section class="destaques container">
       <div class="row p-t-20 p-b-40">
-      
-      <div class="text-center-xs" style="padding: 2px;">
-      <h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Filmes online 10</h1>
-      <p></p>
-      <p></p>
+         <style>
+            #movie-backdrop {
+               width: 100%;
+               height: auto;
+               object-fit: cover;
+               cursor: pointer;
+              }
+              
+              #movie-title {
+               font-size: 36px;
+               color: #58FA58;
+              }
+              
+              #movie-overview {
+               font-size: 18px;
+               line-height: 1.5;
+              }
+           </style>
+           
+           <div id="movie-container" style="background-color:#0000CD">
+            <img id="movie-backdrop" src="">
+            <h2 id="movie-title" style="color: white;"></h2>
+            <p id="movie-overview" style="color: white;"></p>
+           </div>
+           
+           <script>
+            const apiKey = "fcfe44809de84129fab53e785124bb95";
+         const movieIds = [388, 9325, 913290, 10144, 2270, 395991, 1271, 937278, 9571, 568012, 8363, 23483, 22881, 671, 2609, 316029, 491480, 767, 332562, 19908, 339403, 242, 10674, 684700
+         ];
+         
+         function displayRandomMovie() {
+           const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+           const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+           
+           fetch(apiUrl)
+             .then(response => response.json())
+             .then(data => {
+               const backdropPath = data.backdrop_path;
+               const movieTitle = data.title;
+               const movieOverview = data.overview;
+         
+               const movieBackdrop = document.getElementById("movie-backdrop");
+               movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+         
+               movieBackdrop.addEventListener("", () => {
+                 const detailsUrl = ``;
+                 window.open(detailsUrl, "_blank");
+               });
+         
+               const movieTitleElement = document.getElementById("movie-title");
+               movieTitleElement.textContent = movieTitle;
+         
+               const movieOverviewElement = document.getElementById("movie-overview");
+               movieOverviewElement.textContent = movieOverview;
+             })
+             .catch(error => {
+               console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+             });
+         }
+         
+         displayRandomMovie();
+           </script>
       <section class="video bg-silver b-radius-5 padding-5">
   
    
@@ -414,8 +471,8 @@ body{
       
       </div>
       </section>
-    
-      <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;O Plano Perfeito</h1><h1 class="bold no-margin medium-3">&nbsp;Mogli: O Menino Lobo</h1><h1 class="bold no-margin medium-3">&nbsp;Noites Brutais</h1><h1 class="bold no-margin medium-3">&nbsp;A Pequena Sereia</h1><h1 class="bold no-margin medium-3">&nbsp;Stardust: O Mistério da Estrela</h1><h1 class="bold no-margin medium-3">&nbsp;Homens de Coragem</h1><h1 class="bold no-margin medium-3">&nbsp;300</h1><h1 class="bold no-margin medium-3">&nbsp;O Pior Vizinho do Mundo</h1><h1 class="bold no-margin medium-3">&nbsp;Jovens, Loucos e Rebeldes</h1><h1 class="bold no-margin medium-3">&nbsp;One Piece: Stampede</h1><h1 class="bold no-margin medium-3">&nbsp;Superbad: É Hoje</h1><h1 class="bold no-margin medium-3">&nbsp;Kick-Ass: Quebrando Tudo</h1><h1 class="bold no-margin medium-3">&nbsp;Um Sonho Possível</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e a Pedra Filosofal</h1><h1 class="bold no-margin medium-3">&nbsp;Antes Só do que Mal Acompanhado</h1><h1 class="bold no-margin medium-3">&nbsp;O Rei do Show</h1><h1 class="bold no-margin medium-3">&nbsp;O Menino que Descobriu o Vento</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e o Enigma do Príncipe</h1><h1 class="bold no-margin medium-3">&nbsp;Nasce uma Estrela</h1><h1 class="bold no-margin medium-3">&nbsp;Zumbilândia</h1><h1 class="bold no-margin medium-3">&nbsp;Em Ritmo de Fuga</h1><h1 class="bold no-margin medium-3">&nbsp;O Poderoso Chefão: Parte III</h1><h1 class="bold no-margin medium-3">&nbsp;Mulan</h1><h1 class="bold no-margin medium-3">&nbsp;Atleta A</h1></div></center>
+      <div id="title" style="background-color:#0000CD">
+      <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;O Plano Perfeito</h1><h1 class="bold no-margin medium-3">&nbsp;Mogli: O Menino Lobo</h1><h1 class="bold no-margin medium-3">&nbsp;Noites Brutais</h1><h1 class="bold no-margin medium-3">&nbsp;A Pequena Sereia</h1><h1 class="bold no-margin medium-3">&nbsp;Stardust: O Mistério da Estrela</h1><h1 class="bold no-margin medium-3">&nbsp;Homens de Coragem</h1><h1 class="bold no-margin medium-3">&nbsp;300</h1><h1 class="bold no-margin medium-3">&nbsp;O Pior Vizinho do Mundo</h1><h1 class="bold no-margin medium-3">&nbsp;Jovens, Loucos e Rebeldes</h1><h1 class="bold no-margin medium-3">&nbsp;One Piece: Stampede</h1><h1 class="bold no-margin medium-3">&nbsp;Superbad: É Hoje</h1><h1 class="bold no-margin medium-3">&nbsp;Kick-Ass: Quebrando Tudo</h1><h1 class="bold no-margin medium-3">&nbsp;Um Sonho Possível</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e a Pedra Filosofal</h1><h1 class="bold no-margin medium-3">&nbsp;Antes Só do que Mal Acompanhado</h1><h1 class="bold no-margin medium-3">&nbsp;O Rei do Show</h1><h1 class="bold no-margin medium-3">&nbsp;O Menino que Descobriu o Vento</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e o Enigma do Príncipe</h1><h1 class="bold no-margin medium-3">&nbsp;Nasce uma Estrela</h1><h1 class="bold no-margin medium-3">&nbsp;Zumbilândia</h1><h1 class="bold no-margin medium-3">&nbsp;Em Ritmo de Fuga</h1><h1 class="bold no-margin medium-3">&nbsp;O Poderoso Chefão: Parte III</h1><h1 class="bold no-margin medium-3">&nbsp;Mulan</h1><h1 class="bold no-margin medium-3">&nbsp;Atleta A</h1></div></center></div>
 
      
       <section class="p-t-40 p-b-80">

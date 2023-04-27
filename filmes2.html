@@ -251,11 +251,69 @@
    <p></p>
     <section class="destaques container">
     <div class="row p-t-20 p-b-40">
-    
-    <div class="text-center-xs" style="padding: 2px;">
-    <h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Filmes online 2</h1>
-    <p></p>
-    <p></p>
+      <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+        </style>
+        
+        <div id="movie-container" style="background-color:#0000CD">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [289, 101, 1124, 8587, 496243, 901, 77338, 634649, 914, 77, 679, 670, 694, 372058, 10681, 49026, 299534, 475557, 324857, 85, 533514, 821, 414906, 603692
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
+
     <section class="video bg-silver b-radius-5 padding-5">
 
  
@@ -271,99 +329,99 @@
 
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/pQjUifS7GXimKOtRwPf8nXWw1bd.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Casablanca" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Casablanca', 'https://embedder.net/v/tt0034583')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Casablanca', 'https://embedder.net/e/movie?imdb=tt0034583')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/eThcNkIpmPYUVYZ5PMs7o5Fts1D.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Profissional" /><center>
-      <button class="btn btn-primary" onclick="openMovie('O Profissional', 'https://embedder.net/v/tt0110413')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('O Profissional', 'https://embedder.net/e/movie?imdb=tt0110413')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/9QxqZI7ssVzyKEBwdUvOt3AUWzA.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Grande Truque" /><center>
-      <button class="btn btn-primary" onclick="openMovie('O Grande Truque', 'https://embedder.net/v/tt0482571')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('O Grande Truque', 'https://embedder.net/e/movie?imdb=tt0482571')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/8aIvm8OaJISOpVTt7rMIh7X35G5.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Rei Leão" /><center>
-      <button class="btn btn-primary" onclick="openMovie('O Rei Leão', 'https://embedder.net/v/tt0110357')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('O Rei Leão', 'https://embedder.net/e/movie?imdb=tt0110357')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/igw938inb6Fy0YVcwIyxQ7Lu5FO.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Parasita" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Parasita', 'https://embedder.net/v/tt6751668')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Parasita', 'https://embedder.net/e/movie?imdb=tt6751668')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/q3vMcFPcLL0jClcAYG5iFEwL3eE.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Luzes da Cidade" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Luzes da Cidade', 'https://embedder.net/v/tt0021749')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Luzes da Cidade', 'https://embedder.net/e/movie?imdb=tt0021749')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/4QWcBKwg3FLUws2Y3n56mrYZSMw.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Intocaveis" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Intocaveis', 'https://embedder.net/v/tt1675434')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Intocaveis', 'https://embedder.net/e/movie?imdb=tt1675434')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Homem-Aranha: Sem Volta Para Casa" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Homem-Aranha: Sem Volta Para Casa', 'https://embedder.net/v/tt10872600')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Homem-Aranha: Sem Volta Para Casa', 'https://embedder.net/e/movie?imdb=tt10872600')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/ypiEVkeQd8NxI7AabS8eGkjNBf6.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Grande Ditador" /><center>
-      <button class="btn btn-primary" onclick="openMovie('O Grande Ditador', 'https://embedder.net/v/tt0032553')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('O Grande Ditador', 'https://embedder.net/e/movie?imdb=tt0032553')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/7leBWM27Q0TUnvmhw6WnFNgGn4G.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Amnésia" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Amnésia', 'https://embedder.net/v/tt0209144')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Amnésia', 'https://embedder.net/e/movie?imdb=tt0209144')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/kUNcoTjBvnnO4tMu9rCR9cQrhWy.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Aliens: O Resgate" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Aliens: O Resgate', 'https://embedder.net/v/tt0090605')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Aliens: O Resgate', 'https://embedder.net/e/movie?imdb=tt0090605')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/o4pkvVh8BPFOawIJ79dgoD5wvvZ.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Oldboy" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Oldboy', 'https://embedder.net/v/tt0364569')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Oldboy', 'https://embedder.net/e/movie?imdb=tt0364569')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/7ceEaLciLfksJkSHqp0vLE5eLyy.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="O Iluminado" /><center>
-      <button class="btn btn-primary" onclick="openMovie('O Iluminado', 'https://embedder.net/v/tt0081505')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('O Iluminado', 'https://embedder.net/e/movie?imdb=tt0081505')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/7bAtBUQRC1M4zaIlihesBPTAJ8a.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Seu Nome" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Seu Nome', 'https://embedder.net/v/tt5311514')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Seu Nome', 'https://embedder.net/e/movie?imdb=tt5311514')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="WALL-E" /><center>
-      <button class="btn btn-primary" onclick="openMovie('WALL-E', 'https://embedder.net/v/tt0910970')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('WALL-E', 'https://embedder.net/e/movie?imdb=tt0910970')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/zRwO5BPPgkTNo1PoomZPE7wkKvQ.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Batman: O Cavaleiro das Trevas Ressurge" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Batman: O Cavaleiro das Trevas Ressurge', 'https://embedder.net/v/tt1345836')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Batman: O Cavaleiro das Trevas Ressurge', 'https://embedder.net/e/movie?imdb=tt1345836')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/q6725aR8Zs4IwGMXzZT8aC8lh41.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Vingadores: Ultimato" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Vingadores: Ultimato', 'https://embedder.net/v/tt4154796')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Vingadores: Ultimato', 'https://embedder.net/e/movie?imdb=tt4154796')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/xLxgVxFWvb9hhUyCDDXxRPPnFck.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Coringa" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Coringa', 'https://embedder.net/v/tt7286456')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Coringa', 'https://embedder.net/e/movie?imdb=tt7286456')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/tv1MHGKwRNKXzuJsNH9aZqU2djI.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Homem-Aranha no Aranhaverso" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Homem-Aranha no Aranhaverso', 'https://embedder.net/v/tt4633694')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Homem-Aranha no Aranhaverso', 'https://embedder.net/e/movie?imdb=tt4633694')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/og4GvSmw3qwiBK8eJF2Txcncian.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Indiana Jones e os Caçadores da Arca Perdida" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Indiana Jones e os Caçadores da Arca Perdida', 'https://embedder.net/v/tt0082971')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Indiana Jones e os Caçadores da Arca Perdida', 'https://embedder.net/e/movie?imdb=tt0082971')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/mpNG6z33xOtUWuOU83BE0bvorxi.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Violet Evergarden: O Filme" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Violet Evergarden: O Filme', 'https://embedder.net/v/tt8652818')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Violet Evergarden: O Filme', 'https://embedder.net/e/movie?imdb=tt8652818')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/3ollXGoWPfbZZrNCLH6Y7o3ufoU.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Julgamento em Nuremberg" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Julgamento em Nuremberg', 'https://embedder.net/v/tt0055031')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Julgamento em Nuremberg', 'https://embedder.net/e/movie?imdb=tt0055031')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="Batman" /><center>
-      <button class="btn btn-primary" onclick="openMovie('Batman', 'https://embedder.net/v/tt1877830')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('Batman', 'https://embedder.net/e/movie?imdb=tt1877830')">Assistir</button></center>
    </div>
    <div class="col-sm-2 col-xs-4">
       <img src="https://image.tmdb.org/t/p/w300/rXTqhpkpj6E0YilQ49PK1SSqLhm.jpg" style="max-height: 250px; min-height: 190px;" class="m-t-10 b-radius-5 img-responsive center-block" alt="John Wick 4: Baba Yaga" /><center>
-      <button class="btn btn-primary" onclick="openMovie('John Wick 4: Baba Yaga', 'https://embedder.net/v/tt10366206')">Assistir</button></center>
+      <button class="btn btn-primary" onclick="openMovie('John Wick 4: Baba Yaga', 'https://embedder.net/e/movie?imdb=tt10366206')">Assistir</button></center>
    </div>
    
         
@@ -421,8 +479,8 @@
     </style>
     
     </div>
-    </section>
-    <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;Casablanca</h1><h1 class="bold no-margin medium-3">&nbsp;O Profissional</h1><h1 class="bold no-margin medium-3">&nbsp;O Grande Truque</h1><h1 class="bold no-margin medium-3">&nbsp;O Rei Leão</h1><h1 class="bold no-margin medium-3">&nbsp;Parasita</h1><h1 class="bold no-margin medium-3">&nbsp;Luzes da Cidade</h1><h1 class="bold no-margin medium-3">&nbsp;Intocaveis</h1><h1 class="bold no-margin medium-3">&nbsp;Homem-Aranha: Sem Volta Para Casa</h1><h1 class="bold no-margin medium-3">&nbsp;O Grande Ditador</h1><h1 class="bold no-margin medium-3">&nbsp;Amnésia</h1><h1 class="bold no-margin medium-3">&nbsp;Aliens: O Resgate</h1><h1 class="bold no-margin medium-3">&nbsp;Oldboy</h1><h1 class="bold no-margin medium-3">&nbsp;O Iluminado</h1><h1 class="bold no-margin medium-3">&nbsp;Seu Nome</h1><h1 class="bold no-margin medium-3">&nbsp;WALL-E</h1><h1 class="bold no-margin medium-3">&nbsp;Batman: O Cavaleiro das Trevas Ressurge</h1><h1 class="bold no-margin medium-3">&nbsp;Vingadores: Ultimato</h1><h1 class="bold no-margin medium-3">&nbsp;Coringa</h1><h1 class="bold no-margin medium-3">&nbsp;Homem-Aranha no Aranhaverso</h1><h1 class="bold no-margin medium-3">&nbsp;Indiana Jones e os Caçadores da Arca Perdida</h1><h1 class="bold no-margin medium-3">&nbsp;Violet Evergarden: O Filme</h1><h1 class="bold no-margin medium-3">&nbsp;Julgamento em Nuremberg</h1><h1 class="bold no-margin medium-3">&nbsp;Batman</h1><h1 class="bold no-margin medium-3">&nbsp;John Wick 4: Baba Yaga</h1></div></center>
+    </section><div id="title" style="background-color:#0000CD">
+    <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;Casablanca</h1><h1 class="bold no-margin medium-3">&nbsp;O Profissional</h1><h1 class="bold no-margin medium-3">&nbsp;O Grande Truque</h1><h1 class="bold no-margin medium-3">&nbsp;O Rei Leão</h1><h1 class="bold no-margin medium-3">&nbsp;Parasita</h1><h1 class="bold no-margin medium-3">&nbsp;Luzes da Cidade</h1><h1 class="bold no-margin medium-3">&nbsp;Intocaveis</h1><h1 class="bold no-margin medium-3">&nbsp;Homem-Aranha: Sem Volta Para Casa</h1><h1 class="bold no-margin medium-3">&nbsp;O Grande Ditador</h1><h1 class="bold no-margin medium-3">&nbsp;Amnésia</h1><h1 class="bold no-margin medium-3">&nbsp;Aliens: O Resgate</h1><h1 class="bold no-margin medium-3">&nbsp;Oldboy</h1><h1 class="bold no-margin medium-3">&nbsp;O Iluminado</h1><h1 class="bold no-margin medium-3">&nbsp;Seu Nome</h1><h1 class="bold no-margin medium-3">&nbsp;WALL-E</h1><h1 class="bold no-margin medium-3">&nbsp;Batman: O Cavaleiro das Trevas Ressurge</h1><h1 class="bold no-margin medium-3">&nbsp;Vingadores: Ultimato</h1><h1 class="bold no-margin medium-3">&nbsp;Coringa</h1><h1 class="bold no-margin medium-3">&nbsp;Homem-Aranha no Aranhaverso</h1><h1 class="bold no-margin medium-3">&nbsp;Indiana Jones e os Caçadores da Arca Perdida</h1><h1 class="bold no-margin medium-3">&nbsp;Violet Evergarden: O Filme</h1><h1 class="bold no-margin medium-3">&nbsp;Julgamento em Nuremberg</h1><h1 class="bold no-margin medium-3">&nbsp;Batman</h1><h1 class="bold no-margin medium-3">&nbsp;John Wick 4: Baba Yaga</h1></div></center></div>
 
 
    

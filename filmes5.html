@@ -247,11 +247,68 @@ body{
   <p></p>
     <section class="destaques container">
     <div class="row p-t-20 p-b-40">
-    
-    <div class="text-center-xs" style="padding: 2px;">
-    <h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Filmes online 5</h1>
-    <p></p>
-    <p></p>
+      <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+        </style>
+        
+        <div id="movie-container" style="background-color:#0000CD">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [275, 118340, 63, 84892, 335984, 901563, 508442, 666, 7347, 47931, 36557, 805, 899082, 776503, 667241, 1402, 14813, 393, 24428, 9475, 293660, 579974, 1372, 812
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
     <section class="video bg-silver b-radius-5 padding-5">
 
  
@@ -418,8 +475,8 @@ body{
     
     </div>
     </section>
-  
-    <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;Fargo: Uma Comédia de Erros</h1><h1 class="bold no-margin medium-3">&nbsp;Guardiões da Galáxia</h1><h1 class="bold no-margin medium-3">&nbsp;Os 12 Macacos</h1><h1 class="bold no-margin medium-3">&nbsp;As Vantagens de Ser Invisível</h1><h1 class="bold no-margin medium-3">&nbsp;Blade Runner 2049</h1><h1 class="bold no-margin medium-3">&nbsp;Close</h1><h1 class="bold no-margin medium-3">&nbsp;Soul</h1><h1 class="bold no-margin medium-3">&nbsp;Central do Brasil</h1><h1 class="bold no-margin medium-3">&nbsp;Tropa de Elite</h1><h1 class="bold no-margin medium-3">&nbsp;Tropa de Elite 2: O Inimigo Agora é Outro</h1><h1 class="bold no-margin medium-3">&nbsp;007: Cassino Royale</h1><h1 class="bold no-margin medium-3">&nbsp;O Bebê de Rosemary</h1><h1 class="bold no-margin medium-3">&nbsp;Comemoração de 20 anos de Harry Potter: De Volta a Hogwarts</h1><h1 class="bold no-margin medium-3">&nbsp;No Ritmo do Coração</h1><h1 class="bold no-margin medium-3">&nbsp;Cabeça de Nêgo</h1><h1 class="bold no-margin medium-3">&nbsp;À Procura da Felicidade</h1><h1 class="bold no-margin medium-3">&nbsp;Um Conto de Natal do Mickey</h1><h1 class="bold no-margin medium-3">&nbsp;Kill Bill: Volume 2</h1><h1 class="bold no-margin medium-3">&nbsp;Os Vingadores: The Avengers</h1><h1 class="bold no-margin medium-3">&nbsp;Perfume de Mulher</h1><h1 class="bold no-margin medium-3">&nbsp;Deadpool</h1><h1 class="bold no-margin medium-3">&nbsp;RRR: Revolta, Rebelião, Revolução</h1><h1 class="bold no-margin medium-3">&nbsp;Diamante de Sangue</h1><h1 class="bold no-margin medium-3">&nbsp;Aladdin</h1></div></center>
+    <div id="title" style="background-color:#0000CD">
+    <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;Fargo: Uma Comédia de Erros</h1><h1 class="bold no-margin medium-3">&nbsp;Guardiões da Galáxia</h1><h1 class="bold no-margin medium-3">&nbsp;Os 12 Macacos</h1><h1 class="bold no-margin medium-3">&nbsp;As Vantagens de Ser Invisível</h1><h1 class="bold no-margin medium-3">&nbsp;Blade Runner 2049</h1><h1 class="bold no-margin medium-3">&nbsp;Close</h1><h1 class="bold no-margin medium-3">&nbsp;Soul</h1><h1 class="bold no-margin medium-3">&nbsp;Central do Brasil</h1><h1 class="bold no-margin medium-3">&nbsp;Tropa de Elite</h1><h1 class="bold no-margin medium-3">&nbsp;Tropa de Elite 2: O Inimigo Agora é Outro</h1><h1 class="bold no-margin medium-3">&nbsp;007: Cassino Royale</h1><h1 class="bold no-margin medium-3">&nbsp;O Bebê de Rosemary</h1><h1 class="bold no-margin medium-3">&nbsp;Comemoração de 20 anos de Harry Potter: De Volta a Hogwarts</h1><h1 class="bold no-margin medium-3">&nbsp;No Ritmo do Coração</h1><h1 class="bold no-margin medium-3">&nbsp;Cabeça de Nêgo</h1><h1 class="bold no-margin medium-3">&nbsp;À Procura da Felicidade</h1><h1 class="bold no-margin medium-3">&nbsp;Um Conto de Natal do Mickey</h1><h1 class="bold no-margin medium-3">&nbsp;Kill Bill: Volume 2</h1><h1 class="bold no-margin medium-3">&nbsp;Os Vingadores: The Avengers</h1><h1 class="bold no-margin medium-3">&nbsp;Perfume de Mulher</h1><h1 class="bold no-margin medium-3">&nbsp;Deadpool</h1><h1 class="bold no-margin medium-3">&nbsp;RRR: Revolta, Rebelião, Revolução</h1><h1 class="bold no-margin medium-3">&nbsp;Diamante de Sangue</h1><h1 class="bold no-margin medium-3">&nbsp;Aladdin</h1></div></center></div>
 
    
     <section class="p-t-40 p-b-80">

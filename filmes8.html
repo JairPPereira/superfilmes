@@ -246,11 +246,68 @@ body{
     <p></p>
       <section class="destaques container">
       <div class="row p-t-20 p-b-40">
-      
-      <div class="text-center-xs" style="padding: 2px;">
-      <h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Filmes online 8</h1>
-      <p></p>
-      <p></p>
+         <style>
+            #movie-backdrop {
+               width: 100%;
+               height: auto;
+               object-fit: cover;
+               cursor: pointer;
+              }
+              
+              #movie-title {
+               font-size: 36px;
+               color: #58FA58;
+              }
+              
+              #movie-overview {
+               font-size: 18px;
+               line-height: 1.5;
+              }
+           </style>
+           
+           <div id="movie-container" style="background-color:#0000CD">
+            <img id="movie-backdrop" src="">
+            <h2 id="movie-title" style="color: white;"></h2>
+            <p id="movie-overview" style="color: white;"></p>
+           </div>
+           
+           <script>
+            const apiKey = "fcfe44809de84129fab53e785124bb95";
+         const movieIds = [4922, 983, 255551, 4347, 878564, 122906, 207703, 728754, 1949, 161, 4584, 2034, 9509, 574674, 9340, 756, 571, 855, 194662, 873, 242828, 266856, 475, 11621
+         ];
+         
+         function displayRandomMovie() {
+           const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+           const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+           
+           fetch(apiUrl)
+             .then(response => response.json())
+             .then(data => {
+               const backdropPath = data.backdrop_path;
+               const movieTitle = data.title;
+               const movieOverview = data.overview;
+         
+               const movieBackdrop = document.getElementById("movie-backdrop");
+               movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+         
+               movieBackdrop.addEventListener("", () => {
+                 const detailsUrl = ``;
+                 window.open(detailsUrl, "_blank");
+               });
+         
+               const movieTitleElement = document.getElementById("movie-title");
+               movieTitleElement.textContent = movieTitle;
+         
+               const movieOverviewElement = document.getElementById("movie-overview");
+               movieOverviewElement.textContent = movieOverview;
+             })
+             .catch(error => {
+               console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+             });
+         }
+         
+         displayRandomMovie();
+           </script>
       <section class="video bg-silver b-radius-5 padding-5">
   
    
@@ -414,8 +471,8 @@ body{
       
       </div>
       </section>
-    
-      <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;O Curioso Caso de Benjamin Button</h1><h1 class="bold no-margin medium-3">&nbsp;O Homem Que Queria Ser Rei</h1><h1 class="bold no-margin medium-3">&nbsp;O Fim e o Princípio</h1><h1 class="bold no-margin medium-3">&nbsp;Desejo e Reparação</h1><h1 class="bold no-margin medium-3">&nbsp;Juice WRLD: Into the Abyss</h1><h1 class="bold no-margin medium-3">&nbsp;Questão de Tempo</h1><h1 class="bold no-margin medium-3">&nbsp;Kingsman: Serviço Secreto</h1><h1 class="bold no-margin medium-3">&nbsp;STAND BY ME Doraemon 2</h1><h1 class="bold no-margin medium-3">&nbsp;Zodíaco</h1><h1 class="bold no-margin medium-3">&nbsp;Onze Homens e um Segredo</h1><h1 class="bold no-margin medium-3">&nbsp;Razão e Sensibilidade</h1><h1 class="bold no-margin medium-3">&nbsp;Dia de Treinamento</h1><h1 class="bold no-margin medium-3">&nbsp;Chamas da Vingança</h1><h1 class="bold no-margin medium-3">&nbsp;Estou Me Guardando para Quando o Carnaval Chegar</h1><h1 class="bold no-margin medium-3">&nbsp;Os Goonies</h1><h1 class="bold no-margin medium-3">&nbsp;Fantasia</h1><h1 class="bold no-margin medium-3">&nbsp;Os Pássaros</h1><h1 class="bold no-margin medium-3">&nbsp;Falcão Negro em Perigo</h1><h1 class="bold no-margin medium-3">&nbsp;Birdman ou (A Inesperada Virtude da Ignorância)</h1><h1 class="bold no-margin medium-3">&nbsp;A Cor Púrpura</h1><h1 class="bold no-margin medium-3">&nbsp;As Memórias de Marnie</h1><h1 class="bold no-margin medium-3">&nbsp;A Teoria de Tudo</h1><h1 class="bold no-margin medium-3">&nbsp;Bonnie e Clyde: Uma Rajada de Balas</h1><h1 class="bold no-margin medium-3">&nbsp;Porco Rosso: O Último Herói Romântico</h1></div></center>
+      <div id="title" style="background-color:#0000CD">   
+      <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;O Curioso Caso de Benjamin Button</h1><h1 class="bold no-margin medium-3">&nbsp;O Homem Que Queria Ser Rei</h1><h1 class="bold no-margin medium-3">&nbsp;O Fim e o Princípio</h1><h1 class="bold no-margin medium-3">&nbsp;Desejo e Reparação</h1><h1 class="bold no-margin medium-3">&nbsp;Juice WRLD: Into the Abyss</h1><h1 class="bold no-margin medium-3">&nbsp;Questão de Tempo</h1><h1 class="bold no-margin medium-3">&nbsp;Kingsman: Serviço Secreto</h1><h1 class="bold no-margin medium-3">&nbsp;STAND BY ME Doraemon 2</h1><h1 class="bold no-margin medium-3">&nbsp;Zodíaco</h1><h1 class="bold no-margin medium-3">&nbsp;Onze Homens e um Segredo</h1><h1 class="bold no-margin medium-3">&nbsp;Razão e Sensibilidade</h1><h1 class="bold no-margin medium-3">&nbsp;Dia de Treinamento</h1><h1 class="bold no-margin medium-3">&nbsp;Chamas da Vingança</h1><h1 class="bold no-margin medium-3">&nbsp;Estou Me Guardando para Quando o Carnaval Chegar</h1><h1 class="bold no-margin medium-3">&nbsp;Os Goonies</h1><h1 class="bold no-margin medium-3">&nbsp;Fantasia</h1><h1 class="bold no-margin medium-3">&nbsp;Os Pássaros</h1><h1 class="bold no-margin medium-3">&nbsp;Falcão Negro em Perigo</h1><h1 class="bold no-margin medium-3">&nbsp;Birdman ou (A Inesperada Virtude da Ignorância)</h1><h1 class="bold no-margin medium-3">&nbsp;A Cor Púrpura</h1><h1 class="bold no-margin medium-3">&nbsp;As Memórias de Marnie</h1><h1 class="bold no-margin medium-3">&nbsp;A Teoria de Tudo</h1><h1 class="bold no-margin medium-3">&nbsp;Bonnie e Clyde: Uma Rajada de Balas</h1><h1 class="bold no-margin medium-3">&nbsp;Porco Rosso: O Último Herói Romântico</h1></div></center></div>
 
      
       <section class="p-t-40 p-b-80">

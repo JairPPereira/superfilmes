@@ -247,10 +247,68 @@ body{
     <section class="destaques container">
     <div class="row p-t-20 p-b-40">
     
-    <div class="text-center-xs" style="padding: 2px;">
-    <h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Filmes online 6</h1>
-    <p></p>
-    <p></p>
+      <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+        </style>
+        
+        <div id="movie-container" style="background-color:#0000CD">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [301502, 9479, 546554, 31151, 284053, 747, 597, 1726, 484936, 925, 237791, 515001, 637881, 406997, 1018, 162, 673, 64, 729766, 737828, 137113, 808, 229, 100402
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
     <section class="video bg-silver b-radius-5 padding-5">
 
  
@@ -415,8 +473,8 @@ body{
     
     </div>
     </section>
-  
-    <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;Blonde</h1><h1 class="bold no-margin medium-3">&nbsp;O Estranho Mundo de Jack</h1><h1 class="bold no-margin medium-3">&nbsp;Entre Facas e Segredos</h1><h1 class="bold no-margin medium-3">&nbsp;Elvis É Assim</h1><h1 class="bold no-margin medium-3">&nbsp;Thor: Ragnarok</h1><h1 class="bold no-margin medium-3">&nbsp;Todo Mundo Quase Morto</h1><h1 class="bold no-margin medium-3">&nbsp;Titanic</h1><h1 class="bold no-margin medium-3">&nbsp;Homem de Ferro</h1><h1 class="bold no-margin medium-3">&nbsp;A Última Resistência</h1><h1 class="bold no-margin medium-3">&nbsp;Faça a Coisa Certa</h1><h1 class="bold no-margin medium-3">&nbsp;Hoje Eu Quero Voltar Sozinho</h1><h1 class="bold no-margin medium-3">&nbsp;Jojo Rabbit</h1><h1 class="bold no-margin medium-3">&nbsp;Depois a Louca Sou Eu</h1><h1 class="bold no-margin medium-3">&nbsp;Extraordinário</h1><h1 class="bold no-margin medium-3">&nbsp;Cidade dos Sonhos</h1><h1 class="bold no-margin medium-3">&nbsp;Edward Mãos de Tesoura</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e o Prisioneiro de Azkaban</h1><h1 class="bold no-margin medium-3">&nbsp;Fale com Ela</h1><h1 class="bold no-margin medium-3">&nbsp;Mahalia</h1><h1 class="bold no-margin medium-3">&nbsp;Os Under-Undergrounds, O Começo</h1><h1 class="bold no-margin medium-3">&nbsp;No Limite do Amanhã</h1><h1 class="bold no-margin medium-3">&nbsp;Shrek</h1><h1 class="bold no-margin medium-3">&nbsp;A Noiva de Frankenstein</h1><h1 class="bold no-margin medium-3">&nbsp;Capitão América 2: O Soldado Invernal</h1></div></center>
+    <div id="title" style="background-color:#0000CD">
+    <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Superfilmes</h1><h1 class="bold no-margin medium-3">&nbsp;Blonde</h1><h1 class="bold no-margin medium-3">&nbsp;O Estranho Mundo de Jack</h1><h1 class="bold no-margin medium-3">&nbsp;Entre Facas e Segredos</h1><h1 class="bold no-margin medium-3">&nbsp;Elvis É Assim</h1><h1 class="bold no-margin medium-3">&nbsp;Thor: Ragnarok</h1><h1 class="bold no-margin medium-3">&nbsp;Todo Mundo Quase Morto</h1><h1 class="bold no-margin medium-3">&nbsp;Titanic</h1><h1 class="bold no-margin medium-3">&nbsp;Homem de Ferro</h1><h1 class="bold no-margin medium-3">&nbsp;A Última Resistência</h1><h1 class="bold no-margin medium-3">&nbsp;Faça a Coisa Certa</h1><h1 class="bold no-margin medium-3">&nbsp;Hoje Eu Quero Voltar Sozinho</h1><h1 class="bold no-margin medium-3">&nbsp;Jojo Rabbit</h1><h1 class="bold no-margin medium-3">&nbsp;Depois a Louca Sou Eu</h1><h1 class="bold no-margin medium-3">&nbsp;Extraordinário</h1><h1 class="bold no-margin medium-3">&nbsp;Cidade dos Sonhos</h1><h1 class="bold no-margin medium-3">&nbsp;Edward Mãos de Tesoura</h1><h1 class="bold no-margin medium-3">&nbsp;Harry Potter e o Prisioneiro de Azkaban</h1><h1 class="bold no-margin medium-3">&nbsp;Fale com Ela</h1><h1 class="bold no-margin medium-3">&nbsp;Mahalia</h1><h1 class="bold no-margin medium-3">&nbsp;Os Under-Undergrounds, O Começo</h1><h1 class="bold no-margin medium-3">&nbsp;No Limite do Amanhã</h1><h1 class="bold no-margin medium-3">&nbsp;Shrek</h1><h1 class="bold no-margin medium-3">&nbsp;A Noiva de Frankenstein</h1><h1 class="bold no-margin medium-3">&nbsp;Capitão América 2: O Soldado Invernal</h1></div></center></div>
 
    
     <section class="p-t-40 p-b-80">
