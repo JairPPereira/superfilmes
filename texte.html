@@ -313,6 +313,17 @@
       
       displayRandomMovie();
         </script>
+        <script>
+            function openMovie(titulo, url) {
+                window.location.href = 'reproduzir_filme.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
+            }
+        
+            function reproduzirFilme(titulo, url) {
+                alert('Reproduzindo ' + titulo + ' de ' + url);
+                // resto do código para carregar o player de vídeo...
+            }
+            
+        </script>
 
     <section class="video bg-silver b-radius-5 padding-5">
 
@@ -431,17 +442,7 @@
    
   
   </div>
-  <script>
-    function openMovie(titulo, url) {
-        window.location.href = 'reproduzir_filme.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
-    }
 
-    function reproduzirFilme(titulo, url) {
-        alert('Reproduzindo ' + titulo + ' de ' + url);
-        // resto do código para carregar o player de vídeo...
-    }
-    
-</script>
 
     </div>
     </section>
