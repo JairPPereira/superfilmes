@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Reproduzir Filme</title>
+</head>
+<body>
+    <div id="player"></div>
+    
+    <script>
+        // função que recebe o título e o URL do filme selecionado e carrega o player de vídeo
+        function reproduzirFilme(titulo, url) {
+            // cria o elemento iframe que será usado para exibir o player de vídeo
+            var player = document.createElement('iframe');
+            player.width = '100%';
+            player.height = '500px';
+            player.src = url;
+            
+            // adiciona o player de vídeo à página
+            var playerDiv = document.getElementById('player');
+            playerDiv.innerHTML = '<h2>' + titulo + '</h2>';
+            playerDiv.appendChild(player);
+        }
+    </script>
+</body>
+</html>
