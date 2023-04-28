@@ -321,6 +321,7 @@
             function reproduzirFilme(titulo, url) {
                 alert('Reproduzindo ' + titulo + ' de ' + url);
                 // resto do código para carregar o player de vídeo...
+                window.location.href = 'reproduzir_filme.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
             }
             
         </script>
