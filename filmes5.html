@@ -309,14 +309,19 @@ body{
       
       displayRandomMovie();
         </script>
+        <script>
+         function openMovie(titulo, url) {
+             window.location.href = 'https://superfilmes.netlify.app/reproduzir_filme.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
+         }
+     
+         function reproduzirFilme(titulo, url) {
+             alert('Reproduzindo ' + titulo + ' de ' + url);
+             // resto do código para carregar o player de vídeo...
+             window.location.href = 'https://superfilmes.netlify.app/reproduzir_filme.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
+         }
+         
+     </script>
     <section class="video bg-silver b-radius-5 padding-5">
-
- 
-      <iframe id="movie-iframe" scrolling="no" data-draggable="none" width="100%" allow="autoplay; encrypted-media; fullscreen; pincture in pincture"
-      marginwidth="0"
-      marginheight="0"
-      data-popup="none" 
-      ></iframe>
 
       <section class="bg-primary p-t-40 p-b-40">
         <div class="container">       
@@ -435,11 +440,7 @@ body{
    
   
   </div>
-  <script>
-    function openMovie(title, url) {
-        document.getElementById("movie-iframe").src = url;
-    }
-</script>
+
 
     </div>
     </section>
