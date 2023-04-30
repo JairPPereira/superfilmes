@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aster Cima - Single Movie</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&amp;display=swap" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="icon" href="assets/images/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="assets/images/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="assets/images/logo.ico">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/icofont.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index-2.html">
+                    <img src="assets/images/logo-3.png" class="img-fluid logo" alt="Logo">
+                </a>
+
+                <!-- Buttons Group -->
+                <div class="btns-header-group d-sm-flex d-lg-none">
+                  
+
+                  
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <i class="icofont-navigation-menu"></i>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav flex-md-wrap main-menu m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index-2.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Movies</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="movies.html">Action</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Adventure</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Animation</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Biography</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Christmas</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Comedy</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Crime</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Documentary</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Drama</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Family</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Fantasy</a></li>
+                                <li><a class="dropdown-item" href="movies.html">Foreign</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">TV
+                                Series</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="episodes.html">Action</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Adventure</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Animation</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Biography</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Christmas</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Comedy</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Crime</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Documentary</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Drama</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Family</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Fantasy</a></li>
+                                <li><a class="dropdown-item" href="episodes.html">Foreign</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="episodes.html">TV programs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movies.html">Top IMDB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Other</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav d-none d-lg-flex me-left">
+                        <li class="nav-item">
+                         
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+ 
+
+    <div class="single-media-section pt-3 pb-3">
+        <div class="page-cover"
+            style="background-image: url('../../../image.tmdb.org/t/p/w1280/cP8YNG3XUeBmO8Jk7Skzq3vwHy1.jpg')"></div>
+
+        <div class="container">
+            <div class="row">
+                <!-- start media-box -->
+             
+
+
+                <!-- start cast & actors sliders -->
+              
+                <!-- end media-box -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+           
+        <div id="player"></div>
+             
+           
+            </div>
+    <style>
+        #movie-backdrop {
+           width: 100%;
+           height: auto;
+           object-fit: cover;
+           cursor: pointer;
+          }
+          
+          #movie-title {
+           font-size: 36px;
+           color: #58FA58;
+          }
+          
+          #movie-overview {
+           font-size: 18px;
+           line-height: 1.5;
+          }
+       </style>
+    <script>
+        function getParametroDaUrl(parametro) {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get(parametro);
+        }
+    
+        const titulo = getParametroDaUrl('titulo');
+        const url = getParametroDaUrl('url');
+    
+        function openMovie(titulo, url) {
+            const player = document.createElement('iframe');
+            player.src = url;
+            player.style.width = '100%';
+            player.style.border = 'none';
+    
+            const divPlayer = document.getElementById('player');
+            divPlayer.innerHTML = '';
+            divPlayer.appendChild(player);
+    
+            document.getElementById('titulo').innerHTML = titulo;
+        }
+    
+        openMovie(titulo, url);
+    </script>
+    
+        </div>
+        </section>
+        <style>
+          
+          h1{
+            color: white;
+    
+          }
+        iframe {
+            aspect-ratio: 16/9;
+            border: none;
+            width: 100%;
+    
+            background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkDVkMCg-o5b2M0hQZOkX5Fu7apID01J66POZKxX3XYXzP5N9FpFYMGNTiUqzrbWRGL33Kkfafv0KXYowrIS6QJx1BIVpQWFWqEUvIs2Dj-ToA9ZOQqgtaDpP2dR89aa0lmGmJyanPvRVEiGxINyRjJMSSNvBZ9bmPxYKqEksPF3t2sg4mKyIGnvY/s16000/Post%20Instagram%20dia%20mundial%20do%20cinema%20ousado%20vermelho%20e%20preto.png);
+            background-size: cover;
+            background-position: center;
+        }
+        .pagination {
+          background-color: #0000CD;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          border-radius: 8px;
+        }
+        </style>
+    <div class="section-watch pt-5 pb-5-">
+     
+            </div>
+        </div>
+    </div>
+
+    <!-- start servers-download-list -->
+
+
+
+    <!-- start footer -->
+    <footer>
+  
+
+        <div class="copy-right pt-4 pb-4">
+            <div class="container">
+                <div class="text-center">
+                    <p>Copyright © Aster-Cima With over +10000 Movies and Series for Free </p>
+                    <i>
+                        <small>This site does not store any files on our server, we only linked to the media which is
+                            hosted on 3rd party services.</small>
+                    </i>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Login Modal -->
+
+
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+
+<!-- Mirrored from leeucode.site/demo/aster-cima/single-movie.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 30 Apr 2023 04:27:56 GMT -->
+</html>
