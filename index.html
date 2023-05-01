@@ -27,7 +27,7 @@
     
     <!-- css -->
     <link rel="stylesheet" href="https://superfilmes.netlify.app/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="https://superfilmes.netlify.app/assets/css/slick.css">
     <link rel="stylesheet" href="/assets/css/icofont.css">
     <link rel="stylesheet" href="https://superfilmes.netlify.app/style.css">
     <script>
@@ -147,10 +147,85 @@
 
     <section class="all-media">
         <!-- Start top-media -->
+        <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+           p1{
+            color: white;
+    
+          }
+          h1{
+              color: white;
+      
+            }
+          h2{
+              color: white;
+            }
+
+        </style>
+        
+        <div id="movie-container" style="background-color:#5367ff">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [676710, 997776, 789602, 420808, 1085103, 335795, 868759, 437586, 796185, 842945, 1068141, 713704, 6947, 192, 1063422, 768362, 9276, 817758, 952021, 392629, 646389, 978406, 448776,
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
        
 
         <div class="container-fluid mt-2">
             <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-5">
+
                 <div class="col mt-3">
                     <!-- start media-box -->
                     <div class="media-box">
@@ -160,7 +235,6 @@
                         <!-- Start rate-quality-info -->
                         <div class="media-info">
                             <h5 class="media-box-title">O Grande Mauricinho</h5>
-                            
                         </div>
                     </div>
                     <!-- end media-box -->
@@ -295,7 +369,7 @@
                     </div>
                     <!-- end media-box -->
                 </div>
-             
+        
                 <div class="col mt-3">
                     <!-- start media-box -->
                     <div class="media-box">
@@ -452,36 +526,10 @@
                     </div>
                     <!-- end media-box -->
                 </div>
-                
-
-                <style>
-      
-                    p1{
-                      color: white;
               
-                    }
-                    h1{
-                        color: white;
-                
-                      }
-                      h2{
-                        color: white;
-                      }
-                  iframe {
-                      aspect-ratio: 16/9;
-                      border: none;
-                      width: 100%;
-              
-                      background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkDVkMCg-o5b2M0hQZOkX5Fu7apID01J66POZKxX3XYXzP5N9FpFYMGNTiUqzrbWRGL33Kkfafv0KXYowrIS6QJx1BIVpQWFWqEUvIs2Dj-ToA9ZOQqgtaDpP2dR89aa0lmGmJyanPvRVEiGxINyRjJMSSNvBZ9bmPxYKqEksPF3t2sg4mKyIGnvY/s16000/Post%20Instagram%20dia%20mundial%20do%20cinema%20ousado%20vermelho%20e%20preto.png);
-                      background-size: cover;
-                      background-position: center;
-                  }
-                
-               
-                  </style>
                 </section>
                 <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Super Filmes</h1></br><p1 class="bold no-margin medium-3">&nbsp;O Grande Mauricinho</p1></br><p1 class="bold no-margin medium-3">&nbsp;Liga da Justiça x RWBY: Super-Heróis e Caçadores - Parte 1</p1></br><p1 class="bold no-margin medium-3">&nbsp;Raquel 1:1</p1></br><p1 class="bold no-margin medium-3">&nbsp;Peter Pan & Wendy</p1></br><p1 class="bold no-margin medium-3">&nbsp;Tic-Tac: A Maternidade do Mal</p1></br><p1 class="bold no-margin medium-3">&nbsp;Monster High: O Filme</p1></br><p1 class="bold no-margin medium-3">&nbsp;Ghosted: Sem Resposta</p1></br><p1 class="bold no-margin medium-3">&nbsp;Anos 90</p1></br><p1 class="bold no-margin medium-3">&nbsp;Os Três Mosqueteiros: D’Artagnan</p1></br><p1 class="bold no-margin medium-3">&nbsp;Caçador de Tormentas</p1></br><p1 class="bold no-margin medium-3">&nbsp;Power Rangers: Agora e Sempre</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Morte do Demônio: A Ascensão</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Vila</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Nome da Rosa</p1></br><p1 class="bold no-margin medium-3">&nbsp;Excluídos</p1></br><p1 class="bold no-margin medium-3">&nbsp;Desaparecida</p1></br><p1 class="bold no-margin medium-3">&nbsp;Prova Final</p1></br><p1 class="bold no-margin medium-3">&nbsp;TÁR</p1></br><p1 class="bold no-margin medium-3">&nbsp;Desapega!</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Receita Fatal</p1></br><p1 class="bold no-margin medium-3">&nbsp;Alerta Máximo</p1></br><p1 class="bold no-margin medium-3">&nbsp;Visitas Extraterrestres</p1></br><p1 class="bold no-margin medium-3">&nbsp;Uma Prece Antes do Amanhecer</p1></br></div></center>
-                       
+
                        </div>
             </div>
 
@@ -535,7 +583,7 @@
         <!-- Start Categories footer-navbar -->
         <nav class="navbar footer-navbar">
             <div class="container">
-                <h2>Página 1</h2>        
+                <h2>Página 1</h2>
             </div>
         </nav>
 

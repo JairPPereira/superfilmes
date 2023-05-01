@@ -147,6 +147,80 @@
 
     <section class="all-media">
         <!-- Start top-media -->
+        <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+           p1{
+            color: white;
+    
+          }
+          h1{
+              color: white;
+      
+            }
+          h2{
+              color: white;
+            }
+
+        </style>
+        
+        <div id="movie-container" style="background-color:#5367ff">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [12159, 2018, 29697, 928, 80, 35169, 364689, 643866, 934433, 700391, 722149, 960258, 242224, 260535, 11258, 606954, 529485, 657561, 621, 9482, 726649, 14854, 840427, 9475,
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
        
 
         <div class="container-fluid mt-2">
@@ -464,36 +538,11 @@
                     </div>
                     <!-- end media-box -->
                 </div>
-                
-
-                <style>
-      
-                    p1{
-                      color: white;
+                    
               
-                    }
-                    h1{
-                        color: white;
-                
-                      }
-                      h2{
-                        color: white;
-                      }
-                  iframe {
-                      aspect-ratio: 16/9;
-                      border: none;
-                      width: 100%;
-              
-                      background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkDVkMCg-o5b2M0hQZOkX5Fu7apID01J66POZKxX3XYXzP5N9FpFYMGNTiUqzrbWRGL33Kkfafv0KXYowrIS6QJx1BIVpQWFWqEUvIs2Dj-ToA9ZOQqgtaDpP2dR89aa0lmGmJyanPvRVEiGxINyRjJMSSNvBZ9bmPxYKqEksPF3t2sg4mKyIGnvY/s16000/Post%20Instagram%20dia%20mundial%20do%20cinema%20ousado%20vermelho%20e%20preto.png);
-                      background-size: cover;
-                      background-position: center;
-                  }
-                
-               
-                  </style>
                 </section>
                 <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Super Filmes</h1></br><p1 class="bold no-margin medium-3">&nbsp;Amor Além da Vida</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Casamento dos Meus Sonhos</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Fazendeiro e Deus</p1></br><p1 class="bold no-margin medium-3">&nbsp;Gremlins 2: A Nova Geração</p1></br><p1 class="bold no-margin medium-3">&nbsp;Antes do Pôr do Sol</p1></br><p1 class="bold no-margin medium-3">&nbsp;Deu a Louca nos Bichos</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Touro Ferdinando</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Maldição do Peregrino</p1></br><p1 class="bold no-margin medium-3">&nbsp;Pânico VI</p1></br><p1 class="bold no-margin medium-3">&nbsp;65: Ameaça Pré-Histórica</p1></br><p1 class="bold no-margin medium-3">&nbsp;Luther: O Cair da Noite</p1></br><p1 class="bold no-margin medium-3">&nbsp;Tubarão: Mar de Sangue</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Babadook</p1></br><p1 class="bold no-margin medium-3">&nbsp;Os Batutinhas: Uma Nova Aventura</p1></br><p1 class="bold no-margin medium-3">&nbsp;Tempestade</p1></br><p1 class="bold no-margin medium-3">&nbsp;Loucuras de Verão</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Caminho de Volta</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Árvore dos Desejos</p1></br><p1 class="bold no-margin medium-3">&nbsp;Grease: Nos Tempos da Brilhantina</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Juiz</p1></br><p1 class="bold no-margin medium-3">&nbsp;Anelka - O incompreendido</p1></br><p1 class="bold no-margin medium-3">&nbsp;McQuade: O Lobo Solitário</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Pai que Move Montanhas</p1></br><p1 class="bold no-margin medium-3">&nbsp;Perfume de Mulher</p1></br></div></center>
-                       
+
                        </div>
             </div>
 
@@ -547,7 +596,7 @@
         <!-- Start Categories footer-navbar -->
         <nav class="navbar footer-navbar">
             <div class="container">
-                <h2>Página 5</h2>  
+                <h2>Página 5</h2>
             </div>
         </nav>
 
