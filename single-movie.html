@@ -145,8 +145,10 @@
         </div>
     </div>
     <div class="container">
-
         <div id="player"></div>
+        <h2 id="titulo"></h2>
+        <div id="sinopse"></div>
+    
              
            
             </div>
@@ -168,33 +170,46 @@
            line-height: 1.5;
           }
        </style>
-    <script>
-        function getParametroDaUrl(parametro) {
-            const queryString = window.location.search;
-            const urlParams = new URLSearchParams(queryString);
-            return urlParams.get(parametro);
-        }
-    
-        const titulo = getParametroDaUrl('titulo');
-        const url = getParametroDaUrl('url');
-    
-        function openMovie(titulo, url) {
-            const player = document.createElement('iframe');
-            player.src = url;
-            player.style.width = '100%';
-            player.style.border = 'none';
-    
-            const divPlayer = document.getElementById('player');
-            divPlayer.innerHTML = '';
-            divPlayer.appendChild(player);
-    
-            document.getElementById('titulo').innerHTML = titulo;
-        }
-    
-        openMovie(titulo, url);
-    </script>
-
-      
+       <!DOCTYPE html>
+       <html>
+         <head>
+           <title>Detalhes do Filme</title>
+         </head>
+         <body>
+     
+           <div id="player"></div>
+           <h2 id="titulo"></h2>
+           <div id="sinopse"></div>
+           <script>
+            function getParametroDaUrl(parametro) {
+                const queryString = window.location.search;
+                const urlParams = new URLSearchParams(queryString);
+                return urlParams.get(parametro);
+            }
+        
+            const titulo = getParametroDaUrl('titulo');
+            const url = getParametroDaUrl('url');
+        
+            function openMovie(titulo, url) {
+                const player = document.createElement('iframe');
+                player.src = url;
+                player.style.width = '100%';
+                player.style.border = 'none';
+        
+                const divPlayer = document.getElementById('player');
+                divPlayer.innerHTML = '';
+                divPlayer.appendChild(player);
+        
+                document.getElementById('titulo').innerHTML = titulo;
+            }
+        
+            openMovie(titulo, url);
+        </script>
+         </body>
+       </html>
+       
+  
+        
         </div>
   
         </section>
