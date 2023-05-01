@@ -147,351 +147,399 @@
 
     <section class="all-media">
         <!-- Start top-media -->
+        <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+           p1{
+            color: white;
+    
+          }
+          h1{
+              color: white;
+      
+            }
+          h2{
+              color: white;
+            }
+
+        </style>
+        
+        <div id="movie-container" style="background-color:#5367ff">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [1083308, 788752, 1086351, 672741, 180, 842725, 560964, 401698, 5968, 191384, 11778, 543583, 49821, 877269, 9599, 41275, 724885, 484907, 640146, 849, 1850, 10406, 1162, 30914,
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
        
 
         <div class="container-fluid mt-2">
             <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-5">
-               <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Mais Cedo Morto do que Casado', 'https://embedder.net/e/movie?imdb=tt26448700')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ewS8BeUqoNmzF7JQm07CiukwONb.jpg);"></div>
-                      <a onclick="openMovie('Mais Cedo Morto do que Casado', 'https://embedder.net/e/movie?imdb=tt26448700')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Mais Cedo Morto do que Casado</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('O Lobo Viking', 'https://embedder.net/e/movie?imdb=tt13051810')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gWfa1uahpIXlNkv7AMEvQt4VMde.jpg);"></div>
-                      <a onclick="openMovie('O Lobo Viking', 'https://embedder.net/e/movie?imdb=tt13051810')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">O Lobo Viking</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Whindersson Nunes: Isso não é um culto', 'https://embedder.net/e/movie?imdb=tt26440342')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/om3ojwYvXOkEifztuSIFKqUruly.jpg);"></div>
-                      <a onclick="openMovie('Whindersson Nunes: Isso não é um culto', 'https://embedder.net/e/movie?imdb=tt26440342')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Whindersson Nunes: Isso não é um culto</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Até a Morte: Sobreviver é a Melhor Vingança', 'https://embedder.net/e/movie?imdb=tt11804152')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/blWUQPSyv4vWJ8S8MS9lU9BD9Mf.jpg);"></div>
-                      <a onclick="openMovie('Até a Morte: Sobreviver é a Melhor Vingança', 'https://embedder.net/e/movie?imdb=tt11804152')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Até a Morte: Sobreviver é a Melhor Vingança</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Minority Report: A Nova Lei', 'https://embedder.net/e/movie?imdb=tt0181689')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zJhHMqaAKnIZ1egGTRk7jOH80xH.jpg);"></div>
-                      <a onclick="openMovie('Minority Report: A Nova Lei', 'https://embedder.net/e/movie?imdb=tt0181689')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Minority Report: A Nova Lei</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Imersão', 'https://embedder.net/e/movie?imdb=tt13845792')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gTa2Vt5PSYRbOKG7WygvA6yiTuF.jpg);"></div>
-                      <a onclick="openMovie('Imersão', 'https://embedder.net/e/movie?imdb=tt13845792')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Imersão</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Junglee - Protegendo a Selva', 'https://embedder.net/e/movie?imdb=tt7463730')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/8SX0Yd6D6YFR3EyXlJmDoaKRwbL.jpg);"></div>
-                      <a onclick="openMovie('Junglee - Protegendo a Selva', 'https://embedder.net/e/movie?imdb=tt7463730')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Junglee - Protegendo a Selva</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Beijos Escondidos', 'https://embedder.net/e/movie?imdb=tt5572566')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/o1MYewl9UfEKJBNYneeJJG1CDGA.jpg);"></div>
-                      <a onclick="openMovie('Beijos Escondidos', 'https://embedder.net/e/movie?imdb=tt5572566')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Beijos Escondidos</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('A Dama de Vermelho', 'https://embedder.net/e/movie?imdb=tt0088414')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/9CCvGclc8YmOmdoAqjCUda0LnQK.jpg);"></div>
-                      <a onclick="openMovie('A Dama de Vermelho', 'https://embedder.net/e/movie?imdb=tt0088414')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">A Dama de Vermelho</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Roberto Carlos em Ritmo de Aventura', 'https://embedder.net/e/movie?imdb=tt0188180')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/jPfxsd7agja7tYJV76LahR3mfko.jpg);"></div>
-                      <a onclick="openMovie('Roberto Carlos em Ritmo de Aventura', 'https://embedder.net/e/movie?imdb=tt0188180')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Roberto Carlos em Ritmo de Aventura</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('O Franco Atirador', 'https://embedder.net/e/movie?imdb=tt0077416')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/xjeaIyoZOWnPCX5E1JvzmkNv4QC.jpg);"></div>
-                      <a onclick="openMovie('O Franco Atirador', 'https://embedder.net/e/movie?imdb=tt0077416')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">O Franco Atirador</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Cinderela e o Príncipe Secreto', 'https://embedder.net/e/movie?imdb=tt6241270')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/caMtietnPdDz8EHSgH3nzijhEws.jpg);"></div>
-                      <a onclick="openMovie('Cinderela e o Príncipe Secreto', 'https://embedder.net/e/movie?imdb=tt6241270')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Cinderela e o Príncipe Secreto</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('400 Contra 1: Uma História do Crime Organizado', 'https://embedder.net/e/movie?imdb=tt1781755')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/sMncURxEueGeBxdmx2gTFaNUgzF.jpg);"></div>
-                      <a onclick="openMovie('400 Contra 1: Uma História do Crime Organizado', 'https://embedder.net/e/movie?imdb=tt1781755')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">400 Contra 1: Uma História do Crime Organizado</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Mundo Estranho', 'https://embedder.net/e/movie?imdb=tt10298840')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/4KXsKY8j87jr1oX2uwO1tMbl4Px.jpg);"></div>
-                      <a onclick="openMovie('Mundo Estranho', 'https://embedder.net/e/movie?imdb=tt10298840')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Mundo Estranho</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('A Bolha Assassina', 'https://embedder.net/e/movie?imdb=tt0094761')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qHVFeoVN0UvzjpDnGNWx9f2scUZ.jpg);"></div>
-                      <a onclick="openMovie('A Bolha Assassina', 'https://embedder.net/e/movie?imdb=tt0094761')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">A Bolha Assassina</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Python: A Cobra Assassina', 'https://embedder.net/e/movie?imdb=tt0209264')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lDbTpRHTRFWBK4j0FAWpE4M5WT2.jpg);"></div>
-                      <a onclick="openMovie('Python: A Cobra Assassina', 'https://embedder.net/e/movie?imdb=tt0209264')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Python: A Cobra Assassina</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('A Maldição: Despertar dos Mortos', 'https://embedder.net/e/movie?imdb=tt17640714')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/k3IgF9W8ZD6BBdz2bljQAHydFCe.jpg);"></div>
-                      <a onclick="openMovie('A Maldição: Despertar dos Mortos', 'https://embedder.net/e/movie?imdb=tt17640714')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">A Maldição: Despertar dos Mortos</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('A Madrasta', 'https://embedder.net/e/movie?imdb=tt4788734')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/xx3s9HORABYz3F3ZVPtomSANpYu.jpg);"></div>
-                      <a onclick="openMovie('A Madrasta', 'https://embedder.net/e/movie?imdb=tt4788734')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">A Madrasta</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Homem-Formiga e a Vespa: Quantumania', 'https://embedder.net/e/movie?imdb=tt10954600')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/mZBO9lcWAYEZ5F15xPQOQfA3Dm4.jpg);"></div>
-                      <a onclick="openMovie('Homem-Formiga e a Vespa: Quantumania', 'https://embedder.net/e/movie?imdb=tt10954600')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Homem-Formiga e a Vespa: Quantumania</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Krull', 'https://embedder.net/e/movie?imdb=tt0085811')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/b1anwwbh00R3iOgM88L5jf7qHBt.jpg);"></div>
-                      <a onclick="openMovie('Krull', 'https://embedder.net/e/movie?imdb=tt0085811')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Krull</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('O Mundo de Andy', 'https://embedder.net/e/movie?imdb=tt0125664')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qwabM2f4OHtm2c6PT2yd9qBw0TZ.jpg);"></div>
-                      <a onclick="openMovie('O Mundo de Andy', 'https://embedder.net/e/movie?imdb=tt0125664')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">O Mundo de Andy</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('O Homem da Califórnia', 'https://embedder.net/e/movie?imdb=tt0104187')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/fnyUrMLaaCGoZiqDhzy8xxTnJpw.jpg);"></div>
-                      <a onclick="openMovie('O Homem da Califórnia', 'https://embedder.net/e/movie?imdb=tt0104187')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">O Homem da Califórnia</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('O Milagre de Anne Sullivan', 'https://embedder.net/e/movie?imdb=tt0056241')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/3dI6UVM5W1sz3MU9gNK5nVDcAyQ.jpg);"></div>
-                      <a onclick="openMovie('O Milagre de Anne Sullivan', 'https://embedder.net/e/movie?imdb=tt0056241')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">O Milagre de Anne Sullivan</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              <div class="col mt-3">
-                  <!-- start media-box -->
-                  <div class="media-box">
-                      <a onclick="openMovie('Esta Noite Encarnarei no Teu Cadáver', 'https://embedder.net/e/movie?imdb=tt0060380')" class="full-click"></a>
-                      <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/kph6N2xuTUSCjrSCSnecrkf9WZs.jpg);"></div>
-                      <a onclick="openMovie('Esta Noite Encarnarei no Teu Cadáver', 'https://embedder.net/e/movie?imdb=tt0060380')" class="media-play"><i class="icofont-ui-play"></i></a>
-                      <!-- Start rate-quality-info -->
-                      <div class="media-info">
-                          <h5 class="media-box-title">Esta Noite Encarnarei no Teu Cadáver</h5>
-                      </div>
-                  </div>
-                  <!-- end media-box -->
-              </div>
-              
-              
-                
 
-                <style>
-      
-                    p1{
-                      color: white;
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Mais Cedo Morto do que Casado', 'https://embedder.net/e/movie?imdb=tt26448700')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ewS8BeUqoNmzF7JQm07CiukwONb.jpg);"></div>
+                        <a onclick="openMovie('Mais Cedo Morto do que Casado', 'https://embedder.net/e/movie?imdb=tt26448700')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Mais Cedo Morto do que Casado</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('O Lobo Viking', 'https://embedder.net/e/movie?imdb=tt13051810')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gWfa1uahpIXlNkv7AMEvQt4VMde.jpg);"></div>
+                        <a onclick="openMovie('O Lobo Viking', 'https://embedder.net/e/movie?imdb=tt13051810')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">O Lobo Viking</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Whindersson Nunes: Isso não é um culto', 'https://embedder.net/e/movie?imdb=tt26440342')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/om3ojwYvXOkEifztuSIFKqUruly.jpg);"></div>
+                        <a onclick="openMovie('Whindersson Nunes: Isso não é um culto', 'https://embedder.net/e/movie?imdb=tt26440342')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Whindersson Nunes: Isso não é um culto</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Até a Morte: Sobreviver é a Melhor Vingança', 'https://embedder.net/e/movie?imdb=tt11804152')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/blWUQPSyv4vWJ8S8MS9lU9BD9Mf.jpg);"></div>
+                        <a onclick="openMovie('Até a Morte: Sobreviver é a Melhor Vingança', 'https://embedder.net/e/movie?imdb=tt11804152')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Até a Morte: Sobreviver é a Melhor Vingança</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Minority Report: A Nova Lei', 'https://embedder.net/e/movie?imdb=tt0181689')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zJhHMqaAKnIZ1egGTRk7jOH80xH.jpg);"></div>
+                        <a onclick="openMovie('Minority Report: A Nova Lei', 'https://embedder.net/e/movie?imdb=tt0181689')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Minority Report: A Nova Lei</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Imersão', 'https://embedder.net/e/movie?imdb=tt13845792')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gTa2Vt5PSYRbOKG7WygvA6yiTuF.jpg);"></div>
+                        <a onclick="openMovie('Imersão', 'https://embedder.net/e/movie?imdb=tt13845792')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Imersão</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Junglee - Protegendo a Selva', 'https://embedder.net/e/movie?imdb=tt7463730')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/8SX0Yd6D6YFR3EyXlJmDoaKRwbL.jpg);"></div>
+                        <a onclick="openMovie('Junglee - Protegendo a Selva', 'https://embedder.net/e/movie?imdb=tt7463730')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Junglee - Protegendo a Selva</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Beijos Escondidos', 'https://embedder.net/e/movie?imdb=tt5572566')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/o1MYewl9UfEKJBNYneeJJG1CDGA.jpg);"></div>
+                        <a onclick="openMovie('Beijos Escondidos', 'https://embedder.net/e/movie?imdb=tt5572566')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Beijos Escondidos</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('A Dama de Vermelho', 'https://embedder.net/e/movie?imdb=tt0088414')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/9CCvGclc8YmOmdoAqjCUda0LnQK.jpg);"></div>
+                        <a onclick="openMovie('A Dama de Vermelho', 'https://embedder.net/e/movie?imdb=tt0088414')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">A Dama de Vermelho</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Roberto Carlos em Ritmo de Aventura', 'https://embedder.net/e/movie?imdb=tt0188180')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/jPfxsd7agja7tYJV76LahR3mfko.jpg);"></div>
+                        <a onclick="openMovie('Roberto Carlos em Ritmo de Aventura', 'https://embedder.net/e/movie?imdb=tt0188180')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Roberto Carlos em Ritmo de Aventura</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('O Franco Atirador', 'https://embedder.net/e/movie?imdb=tt0077416')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/xjeaIyoZOWnPCX5E1JvzmkNv4QC.jpg);"></div>
+                        <a onclick="openMovie('O Franco Atirador', 'https://embedder.net/e/movie?imdb=tt0077416')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">O Franco Atirador</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Cinderela e o Príncipe Secreto', 'https://embedder.net/e/movie?imdb=tt6241270')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/caMtietnPdDz8EHSgH3nzijhEws.jpg);"></div>
+                        <a onclick="openMovie('Cinderela e o Príncipe Secreto', 'https://embedder.net/e/movie?imdb=tt6241270')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Cinderela e o Príncipe Secreto</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('400 Contra 1: Uma História do Crime Organizado', 'https://embedder.net/e/movie?imdb=tt1781755')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/sMncURxEueGeBxdmx2gTFaNUgzF.jpg);"></div>
+                        <a onclick="openMovie('400 Contra 1: Uma História do Crime Organizado', 'https://embedder.net/e/movie?imdb=tt1781755')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">400 Contra 1: Uma História do Crime Organizado</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Mundo Estranho', 'https://embedder.net/e/movie?imdb=tt10298840')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/4KXsKY8j87jr1oX2uwO1tMbl4Px.jpg);"></div>
+                        <a onclick="openMovie('Mundo Estranho', 'https://embedder.net/e/movie?imdb=tt10298840')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Mundo Estranho</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('A Bolha Assassina', 'https://embedder.net/e/movie?imdb=tt0094761')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qHVFeoVN0UvzjpDnGNWx9f2scUZ.jpg);"></div>
+                        <a onclick="openMovie('A Bolha Assassina', 'https://embedder.net/e/movie?imdb=tt0094761')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">A Bolha Assassina</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Python: A Cobra Assassina', 'https://embedder.net/e/movie?imdb=tt0209264')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lDbTpRHTRFWBK4j0FAWpE4M5WT2.jpg);"></div>
+                        <a onclick="openMovie('Python: A Cobra Assassina', 'https://embedder.net/e/movie?imdb=tt0209264')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Python: A Cobra Assassina</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('A Maldição: Despertar dos Mortos', 'https://embedder.net/e/movie?imdb=tt17640714')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/k3IgF9W8ZD6BBdz2bljQAHydFCe.jpg);"></div>
+                        <a onclick="openMovie('A Maldição: Despertar dos Mortos', 'https://embedder.net/e/movie?imdb=tt17640714')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">A Maldição: Despertar dos Mortos</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('A Madrasta', 'https://embedder.net/e/movie?imdb=tt4788734')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/xx3s9HORABYz3F3ZVPtomSANpYu.jpg);"></div>
+                        <a onclick="openMovie('A Madrasta', 'https://embedder.net/e/movie?imdb=tt4788734')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">A Madrasta</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Homem-Formiga e a Vespa: Quantumania', 'https://embedder.net/e/movie?imdb=tt10954600')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/mZBO9lcWAYEZ5F15xPQOQfA3Dm4.jpg);"></div>
+                        <a onclick="openMovie('Homem-Formiga e a Vespa: Quantumania', 'https://embedder.net/e/movie?imdb=tt10954600')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Homem-Formiga e a Vespa: Quantumania</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Krull', 'https://embedder.net/e/movie?imdb=tt0085811')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/b1anwwbh00R3iOgM88L5jf7qHBt.jpg);"></div>
+                        <a onclick="openMovie('Krull', 'https://embedder.net/e/movie?imdb=tt0085811')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Krull</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('O Mundo de Andy', 'https://embedder.net/e/movie?imdb=tt0125664')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qwabM2f4OHtm2c6PT2yd9qBw0TZ.jpg);"></div>
+                        <a onclick="openMovie('O Mundo de Andy', 'https://embedder.net/e/movie?imdb=tt0125664')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">O Mundo de Andy</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('O Homem da Califórnia', 'https://embedder.net/e/movie?imdb=tt0104187')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/fnyUrMLaaCGoZiqDhzy8xxTnJpw.jpg);"></div>
+                        <a onclick="openMovie('O Homem da Califórnia', 'https://embedder.net/e/movie?imdb=tt0104187')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">O Homem da Califórnia</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('O Milagre de Anne Sullivan', 'https://embedder.net/e/movie?imdb=tt0056241')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/3dI6UVM5W1sz3MU9gNK5nVDcAyQ.jpg);"></div>
+                        <a onclick="openMovie('O Milagre de Anne Sullivan', 'https://embedder.net/e/movie?imdb=tt0056241')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">O Milagre de Anne Sullivan</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Esta Noite Encarnarei no Teu Cadáver', 'https://embedder.net/e/movie?imdb=tt0060380')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/kph6N2xuTUSCjrSCSnecrkf9WZs.jpg);"></div>
+                        <a onclick="openMovie('Esta Noite Encarnarei no Teu Cadáver', 'https://embedder.net/e/movie?imdb=tt0060380')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Esta Noite Encarnarei no Teu Cadáver</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                    
               
-                    }
-                    h1{
-                        color: white;
-                
-                      }
-                      h2{
-                        color: white;
-                      }
-                  iframe {
-                      aspect-ratio: 16/9;
-                      border: none;
-                      width: 100%;
-              
-                      background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkDVkMCg-o5b2M0hQZOkX5Fu7apID01J66POZKxX3XYXzP5N9FpFYMGNTiUqzrbWRGL33Kkfafv0KXYowrIS6QJx1BIVpQWFWqEUvIs2Dj-ToA9ZOQqgtaDpP2dR89aa0lmGmJyanPvRVEiGxINyRjJMSSNvBZ9bmPxYKqEksPF3t2sg4mKyIGnvY/s16000/Post%20Instagram%20dia%20mundial%20do%20cinema%20ousado%20vermelho%20e%20preto.png);
-                      background-size: cover;
-                      background-position: center;
-                  }
-                
-               
-                  </style>
                 </section>
                 <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Super Filmes</h1></br><p1 class="bold no-margin medium-3">&nbsp;Mais Cedo Morto do que Casado</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Lobo Viking</p1></br><p1 class="bold no-margin medium-3">&nbsp;Whindersson Nunes: Isso não é um culto</p1></br><p1 class="bold no-margin medium-3">&nbsp;Até a Morte: Sobreviver é a Melhor Vingança</p1></br><p1 class="bold no-margin medium-3">&nbsp;Minority Report: A Nova Lei</p1></br><p1 class="bold no-margin medium-3">&nbsp;Imersão</p1></br><p1 class="bold no-margin medium-3">&nbsp;Junglee - Protegendo a Selva</p1></br><p1 class="bold no-margin medium-3">&nbsp;Beijos Escondidos</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Dama de Vermelho</p1></br><p1 class="bold no-margin medium-3">&nbsp;Roberto Carlos em Ritmo de Aventura</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Franco Atirador</p1></br><p1 class="bold no-margin medium-3">&nbsp;Cinderela e o Príncipe Secreto</p1></br><p1 class="bold no-margin medium-3">&nbsp;400 Contra 1: Uma História do Crime Organizado</p1></br><p1 class="bold no-margin medium-3">&nbsp;Mundo Estranho</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Bolha Assassina</p1></br><p1 class="bold no-margin medium-3">&nbsp;Python: A Cobra Assassina</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Maldição: Despertar dos Mortos</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Madrasta</p1></br><p1 class="bold no-margin medium-3">&nbsp;Homem-Formiga e a Vespa: Quantumania</p1></br><p1 class="bold no-margin medium-3">&nbsp;Krull</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Mundo de Andy</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Homem da Califórnia</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Milagre de Anne Sullivan</p1></br><p1 class="bold no-margin medium-3">&nbsp;Esta Noite Encarnarei no Teu Cadáver</p1></br></div></center>
                        </div>
@@ -499,47 +547,47 @@
 
             <!-- Start pagination -->
             <ul class="pagination aster-pagination justify-content-center mt-5 mb-5">
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/">
-                       <i class="icofont-simple-left"></i>
-                   </a>
-               </li>
-               <li class="page-item active">
-                   <a class="page-link"  href="https://superfilmes.netlify.app/">1</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">2</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes3.html">3</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes4.html">4</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes5.html">5</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes6.html">6</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes7.html">7</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes8.html">8</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes9.html">9</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes10.html">10</a>
-               </li>
-               <li class="page-item">
-                   <a class="page-link" href="https://superfilmes.netlify.app/filmes11.html">
-                       <i class="icofont-simple-right"></i>
-                   </a>
-               </li>
-           </ul>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/">
+                        <i class="icofont-simple-left"></i>
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link"  href="https://superfilmes.netlify.app/">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes3.html">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes4.html">4</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes5.html">5</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes6.html">6</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes7.html">7</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes8.html">8</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes9.html">9</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes10.html">10</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes11.html">
+                        <i class="icofont-simple-right"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
 
