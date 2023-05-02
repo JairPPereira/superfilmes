@@ -5,8 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUPER FILMES</title>
-
+    <title>SUPERFILMES - Assistir fILMES ONLINE</title>
+    <meta name="description" content="Na SUPERFILMES você pode assistir centenas de FILMES. Escolha um filme e assista grátis!">
+    <meta name="keywords" content="SUPERFILMES">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="SUPER FILMES ONLINE">
+    <meta property="og:type" content="website">
+    <meta name="monetag" content="3bf5e82d8c5ed60b587f1511df86c8b9">
+    <meta property="og:site_name" content="Assista na SUPERFILMES">
+    <meta property="og:description" content="Na SUPERFILMES você pode assistir centenas de filmes. Escolha um filme e assista grátis!">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp9iYB3cFNtmhkz-hzS-U54duDOUPY4mCVmAcQwfKRpvnyYDbDRC59Ox9Uz14v3E1jVxeoMb525-RgxwaIWm0Cf8EYd_P_SAzHQXSkoJswCoW5WbYcADOojswEvTu9ur-T8_FxkUBVTb_BR169Yw6Ycx5nMUYjlZO00f9Z0MvL8IlHbg4EpIAnTLHB/s16000/ICONSUPER.png">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -18,17 +26,17 @@
     <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp9iYB3cFNtmhkz-hzS-U54duDOUPY4mCVmAcQwfKRpvnyYDbDRC59Ox9Uz14v3E1jVxeoMb525-RgxwaIWm0Cf8EYd_P_SAzHQXSkoJswCoW5WbYcADOojswEvTu9ur-T8_FxkUBVTb_BR169Yw6Ycx5nMUYjlZO00f9Z0MvL8IlHbg4EpIAnTLHB/s16000/ICONSUPER.png">
     
     <!-- css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/icofont.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://superfilmes.netlify.app/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://superfilmes.netlify.app/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/icofont.css">
+    <link rel="stylesheet" href="https://superfilmes.netlify.app/style.css">
     <script>
         function openMovie(titulo, url) {
             window.location.href = 'single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
         }
     
         function reproduzirFilme(titulo, url) {
-            alert('Reproduzindo ' + titulo + ' de ' + url);
+            alert('Reproduzindo ' + + ' de ' + url);
             // resto do código para carregar o player de vídeo...
             window.location.href = 'single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
         }
@@ -92,7 +100,30 @@
                           <li class="nav-item">
                            <a class="nav-link" href="https://superfilmes.netlify.app/servidor2/">SERVIDOR 2</a>
                          </li>                
-                     
+                         <li class="nav-item">
+                            <table cellpadding=0 cellspacing=0 border=0 >
+                                <tr>
+                                   <td  style="font-family: Arial, Helvetica, sans-serif; font-size: 15pt;">
+                                      <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+                                      <input type="hidden" name="si" value="26311974">
+                                      <input type="hidden" name="pid" value="r">
+                                      <input type="hidden" name="n" value="0">
+                                      <input type="hidden" name="_charset_" value="">
+                                      <input type="hidden" name="bcd" value="&#247;">
+                                      <input type="text" name="query" size="15"> 
+                                      <input type="submit" value="search">
+                                      </form>
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td style="text-align:left; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
+                                      <a style="text-decoration:none; color:#247;" href="https://www.freefind.com"  rel="nofollow">search engine</a><a style="text-decoration:none; color:gray;" href="https://www.freefind.com"  rel="nofollow"> by
+                                      <span style="color: #606060;">freefind</span></a>
+                                   </td>
+                                
+                                </tr>
+                                </table>   
+                         </li>
                     </ul>
                     <ul class="navbar-nav d-none d-lg-flex me-left">
                         <li class="nav-item">
@@ -116,379 +147,509 @@
 
     <section class="all-media">
         <!-- Start top-media -->
+        <style>
+         #movie-backdrop {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            cursor: pointer;
+           }
+           
+           #movie-title {
+            font-size: 36px;
+            color: #58FA58;
+           }
+           
+           #movie-overview {
+            font-size: 18px;
+            line-height: 1.5;
+           }
+           p1{
+            color: white;
+    
+          }
+          h1{
+              color: white;
+      
+            }
+          h2{
+              color: white;
+            }
+
+        </style>
+        
+        <div id="movie-container" style="background-color:#5367ff">
+         <img id="movie-backdrop" src="">
+         <h2 id="movie-title" style="color: white;"></h2>
+         <p id="movie-overview" style="color: white;"></p>
+        </div>
+        
+        <script>
+         const apiKey = "fcfe44809de84129fab53e785124bb95";
+      const movieIds = [584561, 966576, 1079721, 624091, 941501, 1103510, 912726, 779157, 998093, 820427, 733063, 999996, 1016630, 799571, 1084892, 1059372, 1057103, 1012370, 917007, 921355, 667705, 1102935, 246011, 9449, 136459, 24405, 345363
+      ];
+      
+      function displayRandomMovie() {
+        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
+        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
+        
+        fetch(apiUrl)
+          .then(response => response.json())
+          .then(data => {
+            const backdropPath = data.backdrop_path;
+            const movieTitle = data.title;
+            const movieOverview = data.overview;
+      
+            const movieBackdrop = document.getElementById("movie-backdrop");
+            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
+      
+            movieBackdrop.addEventListener("", () => {
+              const detailsUrl = ``;
+              window.open(detailsUrl, "_blank");
+            });
+      
+            const movieTitleElement = document.getElementById("movie-title");
+            movieTitleElement.textContent = movieTitle;
+      
+            const movieOverviewElement = document.getElementById("movie-overview");
+            movieOverviewElement.textContent = movieOverview;
+          })
+          .catch(error => {
+            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
+          });
+      }
+      
+      displayRandomMovie();
+        </script>
        
 
         <div class="container-fluid mt-2">
             <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-5">
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('O Grande Mauricinho', 'https://embedder.net/e/movie?imdb=tt10473036')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qcCZnuFQv6faxbXUb9pa8Le5ujB.jpg);"></div>
-                        <a onclick="openMovie('O Grande Mauricinho', 'https://embedder.net/e/movie?imdb=tt10473036')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">O Grande Mauricinho</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Liga da Justiça x RWBY: Super-Heróis e Caçadores - Parte 1', 'https://embedder.net/e/movie?imdb=tt24548912')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gs9thnvpkf6HCx2lJZlY5YaLQ7s.jpg);"></div>
-                        <a onclick="openMovie('Liga da Justiça x RWBY: Super-Heróis e Caçadores - Parte 1', 'https://embedder.net/e/movie?imdb=tt24548912')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Liga da Justiça x RWBY: Super-Heróis e Caçadores - Parte 1</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Raquel 1:1', 'https://embedder.net/e/movie?imdb=tt7466970')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/numZOhSuBd3qzJyjQ49wlBNOqce.jpg);"></div>
-                        <a onclick="openMovie('Raquel 1:1', 'https://embedder.net/e/movie?imdb=tt7466970')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Raquel 1:1</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Peter Pan & Wendy', 'https://embedder.net/e/movie?imdb=tt5635026')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/AkWxiUsc32qJHLwt7vt5AvUFNlx.jpg);"></div>
-                        <a onclick="openMovie('Peter Pan & Wendy', 'https://embedder.net/e/movie?imdb=tt5635026')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Peter Pan & Wendy</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Tic-Tac: A Maternidade do Mal', 'https://embedder.net/e/movie?imdb=tt17219484')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/dpKHaXmAeiVaV1FQVIWStyg0Cws.jpg);"></div>
-                        <a onclick="openMovie('Tic-Tac: A Maternidade do Mal', 'https://embedder.net/e/movie?imdb=tt17219484')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Tic-Tac: A Maternidade do Mal</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Monster High: O Filme', 'https://embedder.net/e/movie?imdb=tt1447981')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/tn3GWm0Erehkpur8PUuYWxGpul5.jpg);"></div>
-                        <a onclick="openMovie('Monster High: O Filme', 'https://embedder.net/e/movie?imdb=tt1447981')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Monster High: O Filme</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Ghosted: Sem Resposta', 'https://embedder.net/e/movie?imdb=tt15326988')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/89p7MQ3I5wKzOEO0OCCXEdUqX9R.jpg);"></div>
-                        <a onclick="openMovie('Ghosted: Sem Resposta', 'https://embedder.net/e/movie?imdb=tt15326988')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Ghosted: Sem Resposta</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Anos 90', 'https://embedder.net/e/movie?imdb=tt5613484')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gTKHNZT3ntvwN8Sy6DzbUzuTdpt.jpg);"></div>
-                        <a onclick="openMovie('Anos 90', 'https://embedder.net/e/movie?imdb=tt5613484')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Anos 90</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Os Três Mosqueteiros: D’Artagnan', 'https://embedder.net/e/movie?imdb=tt12672536')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lm0pfF0HSLsSpFlhGCmR6Bhl8EE.jpg);"></div>
-                        <a onclick="openMovie('Os Três Mosqueteiros: D’Artagnan', 'https://embedder.net/e/movie?imdb=tt12672536')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Os Três Mosqueteiros: D’Artagnan</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Caçador de Tormentas', 'https://embedder.net/e/movie?imdb=tt10559102')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/g0UOstAfVWAK5FazCMfdWdkM38i.jpg);"></div>
-                        <a onclick="openMovie('Caçador de Tormentas', 'https://embedder.net/e/movie?imdb=tt10559102')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Caçador de Tormentas</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Power Rangers: Agora e Sempre', 'https://embedder.net/e/movie?imdb=tt23219684')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lB1psIWct40ZSJPLp8wsQ98y0dI.jpg);"></div>
-                        <a onclick="openMovie('Power Rangers: Agora e Sempre', 'https://embedder.net/e/movie?imdb=tt23219684')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Power Rangers: Agora e Sempre</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-             
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('A Morte do Demônio: A Ascensão', 'https://embedder.net/e/movie?imdb=tt13345606')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/5E4nVa3dXTHG2zx9iO7b0UIMsa7.jpg);"></div>
-                        <a onclick="openMovie('A Morte do Demônio: A Ascensão', 'https://embedder.net/e/movie?imdb=tt13345606')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">A Morte do Demônio: A Ascensão</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('A Vila', 'https://embedder.net/e/movie?imdb=tt0368447')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/rKPMAssCxiioVrwQqMBJbsou9zN.jpg);"></div>
-                        <a onclick="openMovie('A Vila', 'https://embedder.net/e/movie?imdb=tt0368447')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">A Vila</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('O Nome da Rosa', 'https://embedder.net/e/movie?imdb=tt0091605')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/8o6U4vBbAop4344tMnzdu8pN7Qy.jpg);"></div>
-                        <a onclick="openMovie('O Nome da Rosa', 'https://embedder.net/e/movie?imdb=tt0091605')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">O Nome da Rosa</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Excluídos', 'https://embedder.net/e/movie?imdb=tt16437278')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/w3nvKg5Ntog0VeWsBqCysxfNNFL.jpg);"></div>
-                        <a onclick="openMovie('Excluídos', 'https://embedder.net/e/movie?imdb=tt16437278')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Excluídos</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Desaparecida', 'https://embedder.net/e/movie?imdb=tt10855768')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zwAHIor0Yxn6VUnyVGIWk1fDYrv.jpg);"></div>
-                        <a onclick="openMovie('Desaparecida', 'https://embedder.net/e/movie?imdb=tt10855768')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Desaparecida</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Prova Final', 'https://embedder.net/e/movie?imdb=tt0133751')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/leVEAb37sssYg8qLeo46Pc8IcH9.jpg);"></div>
-                        <a onclick="openMovie('Prova Final', 'https://embedder.net/e/movie?imdb=tt0133751')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Prova Final</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('TÁR', 'https://embedder.net/e/movie?imdb=tt14444726')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg);"></div>
-                        <a onclick="openMovie('TÁR', 'https://embedder.net/e/movie?imdb=tt14444726')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">TÁR</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Desapega!', 'https://embedder.net/e/movie?imdb=tt15489762')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/b0aRBdFnIi1MZbsW7QTZvRHcpo3.jpg);"></div>
-                        <a onclick="openMovie('Desapega!', 'https://embedder.net/e/movie?imdb=tt15489762')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Desapega!</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('A Receita Fatal', 'https://embedder.net/e/movie?imdb=tt5673202')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/y5YlUgaQ4Nq1Si61ALWteYbPUW9.jpg);"></div>
-                        <a onclick="openMovie('A Receita Fatal', 'https://embedder.net/e/movie?imdb=tt5673202')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">A Receita Fatal</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Alerta Máximo', 'https://embedder.net/e/movie?imdb=tt5884796')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/6yuyOVARnEHZPBmaY1mDvF4woel.jpg);"></div>
-                        <a onclick="openMovie('Alerta Máximo', 'https://embedder.net/e/movie?imdb=tt5884796')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Alerta Máximo</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Visitas Extraterrestres', 'https://embedder.net/e/movie?imdb=tt19849214')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/mC0GjHcnrkQRVBmHEVd54dGV1m0.jpg);"></div>
-                        <a onclick="openMovie('Visitas Extraterrestres', 'https://embedder.net/e/movie?imdb=tt19849214')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Visitas Extraterrestres</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                <div class="col mt-3">
-                    <!-- start media-box -->
-                    <div class="media-box">
-                        <a onclick="openMovie('Uma Prece Antes do Amanhecer', 'https://embedder.net/e/movie?imdb=tt4080956')" class="full-click"></a>
-                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/pS7MWnE9jzKytQ101KbddnahRRZ.jpg);"></div>
-                        <a onclick="openMovie('Uma Prece Antes do Amanhecer', 'https://embedder.net/e/movie?imdb=tt4080956')" class="media-play"><i class="icofont-ui-play"></i></a>
-                        <!-- Start rate-quality-info -->
-                        <div class="media-info">
-                            <h5 class="media-box-title">Uma Prece Antes do Amanhecer</h5>
-                        </div>
-                    </div>
-                    <!-- end media-box -->
-                </div>
-                
 
-                <style>
-      
-                    p1{
-                      color: white;
-              
-                    }
-                    h1{
-                        color: white;
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('The Sacred Riana: Beginning', 'https://superflixapi.net/filme/tt9900552')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//qulT5tgAKIOszYPAPi5zFvmSuD4.jpg);"></div>
+                        <a onclick="openMovie('The Sacred Riana: Beginning', 'https://superflixapi.net/filme/tt9900552')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">The Sacred Riana: Beginning</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
                 
-                      }
-                  iframe {
-                      aspect-ratio: 16/9;
-                      border: none;
-                      width: 100%;
-              
-                      background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkDVkMCg-o5b2M0hQZOkX5Fu7apID01J66POZKxX3XYXzP5N9FpFYMGNTiUqzrbWRGL33Kkfafv0KXYowrIS6QJx1BIVpQWFWqEUvIs2Dj-ToA9ZOQqgtaDpP2dR89aa0lmGmJyanPvRVEiGxINyRjJMSSNvBZ9bmPxYKqEksPF3t2sg4mKyIGnvY/s16000/Post%20Instagram%20dia%20mundial%20do%20cinema%20ousado%20vermelho%20e%20preto.png);
-                      background-size: cover;
-                      background-position: center;
-                  }
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('A Busca pelo Ouro de Tom Sawyer', 'https://superflixapi.net/filme/tt14033342')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//zceLrHeYOgJHw1tw6MUi15N2NUz.jpg);"></div>
+                        <a onclick="openMovie('A Busca pelo Ouro de Tom Sawyer', 'https://superflixapi.net/filme/tt14033342')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">A Busca pelo Ouro de Tom Sawyer</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
                 
-               
-                  </style>
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Strong Enough', 'https://superflixapi.net/filme/tt17158126')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//yByQdXlJISKHhmIhV8HpLr06XUV.jpg);"></div>
+                        <a onclick="openMovie('Strong Enough', 'https://superflixapi.net/filme/tt17158126')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Strong Enough</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Sri Asih', 'https://superflixapi.net/filme/tt10994712')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//iy5srhwdsOKEcNGFMFfgA7PgLAH.jpg);"></div>
+                        <a onclick="openMovie('Sri Asih', 'https://superflixapi.net/filme/tt10994712')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Sri Asih</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Secret Lives of College Escorts', 'https://superflixapi.net/filme/tt15293072')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//hmQRx3Fv6Cg500GVqPhCHDyidr7.jpg);"></div>
+                        <a onclick="openMovie('Secret Lives of College Escorts', 'https://superflixapi.net/filme/tt15293072')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Secret Lives of College Escorts</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Rooming With Danger', 'https://superflixapi.net/filme/tt27231759')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//uBD5yDyNOzLPiNvFNwQ1cBKZZJa.jpg);"></div>
+                        <a onclick="openMovie('Rooming With Danger', 'https://superflixapi.net/filme/tt27231759')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Rooming With Danger</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Rheingold', 'https://superflixapi.net/filme/tt15536668')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//6vdcG03SXerh3PXmfl9wkVJtccK.jpg);"></div>
+                        <a onclick="openMovie('Rheingold', 'https://superflixapi.net/filme/tt15536668')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Rheingold</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Puppet Master: Doktor Death', 'https://superflixapi.net/filme/tt21114402')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//n5iTzJx79Q4pJuetsbJu4QrNpT.jpg);"></div>
+                        <a onclick="openMovie('Puppet Master: Doktor Death', 'https://superflixapi.net/filme/tt21114402')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Puppet Master: Doktor Death</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Nanahimik ang Gabi', 'https://superflixapi.net/filme/tt25147662')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//kyLu1gq6R9MXsvb0yjmvNU90aWB.jpg);"></div>
+                        <a onclick="openMovie('Nanahimik ang Gabi', 'https://superflixapi.net/filme/tt25147662')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Nanahimik ang Gabi</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('La maniobra de la tortuga', 'https://superflixapi.net/filme/tt6378536')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//3WtPRtnlNh3DhKVL231NgO07cUA.jpg);"></div>
+                        <a onclick="openMovie('La maniobra de la tortuga', 'https://superflixapi.net/filme/tt6378536')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">La maniobra de la tortuga</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Jailangkung: Sandekala', 'https://superflixapi.net/filme/tt21600496')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//t86d7Us4hW9yVqf8ctDj834d1RD.jpg);"></div>
+                        <a onclick="openMovie('Jailangkung: Sandekala', 'https://superflixapi.net/filme/tt21600496')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Jailangkung: Sandekala</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('The Invisible War - Niewidzialna wojna', 'https://superflixapi.net/filme/tt18342318')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//mjMArT45sisnfg0UArSnWdV58Qm.jpg);"></div>
+                        <a onclick="openMovie('The Invisible War - Niewidzialna wojna', 'https://superflixapi.net/filme/tt18342318')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">The Invisible War - Niewidzialna wojna</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Haw', 'https://superflixapi.net/filme/tt21072246')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//nJDSXpmH59dmYG7m0Powldf8pzg.jpg);"></div>
+                        <a onclick="openMovie('Haw', 'https://superflixapi.net/filme/tt21072246')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Haw</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Garis Waktu', 'https://superflixapi.net/filme/tt13938818')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//o1Ro2KhIYERPXTQHyXymGlO7ZzT.jpg);"></div>
+                        <a onclick="openMovie('Garis Waktu', 'https://superflixapi.net/filme/tt13938818')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Garis Waktu</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Every Breath She Takes', 'https://superflixapi.net/filme/tt26735946')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//a8paSLa6JhBJhzIJ2nLvFPTvxKz.jpg);"></div>
+                        <a onclick="openMovie('Every Breath She Takes', 'https://superflixapi.net/filme/tt26735946')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Every Breath She Takes</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Querido David', 'https://superflixapi.net/filme/tt21986198')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//f3HkD0GxSuOZehm370aSAdgpGet.jpg);"></div>
+                        <a onclick="openMovie('Querido David', 'https://superflixapi.net/filme/tt21986198')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Querido David</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Coast Guard Malaysia: Ops Helang', 'https://superflixapi.net/filme/tt24581070')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//iKlhU6Rr2LLIIgBCKuarARov4a4.jpg);"></div>
+                        <a onclick="openMovie('Coast Guard Malaysia: Ops Helang', 'https://superflixapi.net/filme/tt24581070')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Coast Guard Malaysia: Ops Helang</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Big Lies In a Small Town', 'https://superflixapi.net/filme/tt20873622')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//7gvqwOJp3OxMaNzCDoCjz8hcv36.jpg);"></div>
+                        <a onclick="openMovie('Big Lies In a Small Town', 'https://superflixapi.net/filme/tt20873622')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Big Lies In a Small Town</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('O Nascimento do Mal', 'https://superflixapi.net/filme/tt4896168')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//8PKdNYRop8sc0AjU3Il2qhNWLjX.jpg);"></div>
+                        <a onclick="openMovie('O Nascimento do Mal', 'https://superflixapi.net/filme/tt4896168')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">O Nascimento do Mal</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Assassin', 'https://superflixapi.net/filme/tt14555174')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//7N0BJPs616SSwE4hVs0jjWuiy5k.jpg);"></div>
+                        <a onclick="openMovie('Assassin', 'https://superflixapi.net/filme/tt14555174')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Assassin</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Ang Babaeng Walang Pakiramdam', 'https://superflixapi.net/filme/tt14859258')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//opaYbnUJsHioVRQSvtCc4saDg6j.jpg);"></div>
+                        <a onclick="openMovie('Ang Babaeng Walang Pakiramdam', 'https://superflixapi.net/filme/tt14859258')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Ang Babaeng Walang Pakiramdam</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('The Matchmaker', 'https://superflixapi.net/filme/tt22497824')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//53h5Z8ll4ahF08CQcZvDeRVGyvw.jpg);"></div>
+                        <a onclick="openMovie('The Matchmaker', 'https://superflixapi.net/filme/tt22497824')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">The Matchmaker</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Desventura do Verão', 'https://superflixapi.net/filme/tt2402985')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//o2GYdbshaBeWZn0V4tFLyiyg0BS.jpg);"></div>
+                        <a onclick="openMovie('Desventura do Verão', 'https://superflixapi.net/filme/tt2402985')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Desventura do Verão</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Os Pequeninos', 'https://superflixapi.net/filme/tt0118755')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//gWebyRvPFChtDBk14QJ7HFv4APo.jpg);"></div>
+                        <a onclick="openMovie('Os Pequeninos', 'https://superflixapi.net/filme/tt0118755')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Os Pequeninos</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Victor e o Segredo da Mansão Crocodilo', 'https://superflixapi.net/filme/tt2113644')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//o2f1Ks5K9tbw2gFPhjGVlyvayPB.jpg);"></div>
+                        <a onclick="openMovie('Victor e o Segredo da Mansão Crocodilo', 'https://superflixapi.net/filme/tt2113644')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Victor e o Segredo da Mansão Crocodilo</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Uma Loira Em Apuros', 'https://superflixapi.net/filme/tt0109403')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//mEG6fTyTjsA1vzTTqCXsiJzjdQ5.jpg);"></div>
+                        <a onclick="openMovie('Uma Loira Em Apuros', 'https://superflixapi.net/filme/tt0109403')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Uma Loira Em Apuros</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+                <div class="col mt-3">
+                    <!-- start media-box -->
+                    <div class="media-box">
+                        <a onclick="openMovie('Um Cruzeiro Muito Louco', 'https://superflixapi.net/filme/tt4058572')" class="full-click"></a>
+                        <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300//p6GojtUBwRa3sWc08eQ4ibGRaME.jpg);"></div>
+                        <a onclick="openMovie('Um Cruzeiro Muito Louco', 'https://superflixapi.net/filme/tt4058572')" class="media-play"><i class="icofont-ui-play"></i></a>
+                        <!-- Start rate-quality-info -->
+                        <div class="media-info">
+                            <h5 class="media-box-title">Um Cruzeiro Muito Louco</h5>
+                        </div>
+                    </div>
+                    <!-- end media-box -->
+                </div>
+                
+              
                 </section>
-                <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Super Filmes</h1><p1 class="bold no-margin medium-3">&nbsp;O Grande Mauricinho</p1><p1 class="bold no-margin medium-3">&nbsp;Liga da Justiça x RWBY: Super-Heróis e Caçadores - Parte 1</p1><p1 class="bold no-margin medium-3">&nbsp;Raquel 1:1</p1><p1 class="bold no-margin medium-3">&nbsp;Peter Pan & Wendy</p1><p1 class="bold no-margin medium-3">&nbsp;Tic-Tac: A Maternidade do Mal</p1><p1 class="bold no-margin medium-3">&nbsp;Monster High: O Filme</p1><p1 class="bold no-margin medium-3">&nbsp;Ghosted: Sem Resposta</p1><p1 class="bold no-margin medium-3">&nbsp;Anos 90</p1><p1 class="bold no-margin medium-3">&nbsp;Os Três Mosqueteiros: D’Artagnan</p1><p1 class="bold no-margin medium-3">&nbsp;Caçador de Tormentas</p1><p1 class="bold no-margin medium-3">&nbsp;Power Rangers: Agora e Sempre</p1><p1 class="bold no-margin medium-3">&nbsp;A Morte do Demônio: A Ascensão</p1><p1 class="bold no-margin medium-3">&nbsp;A Vila</p1><p1 class="bold no-margin medium-3">&nbsp;O Nome da Rosa</p1><p1 class="bold no-margin medium-3">&nbsp;Excluídos</p1><p1 class="bold no-margin medium-3">&nbsp;Desaparecida</p1><p1 class="bold no-margin medium-3">&nbsp;Prova Final</p1><p1 class="bold no-margin medium-3">&nbsp;TÁR</p1><p1 class="bold no-margin medium-3">&nbsp;Desapega!</p1><p1 class="bold no-margin medium-3">&nbsp;A Receita Fatal</p1><p1 class="bold no-margin medium-3">&nbsp;Alerta Máximo</p1><p1 class="bold no-margin medium-3">&nbsp;Visitas Extraterrestres</p1><p1 class="bold no-margin medium-3">&nbsp;Uma Prece Antes do Amanhecer</p1></div></center>
-                       
+              <center><div class="text-center-xs" style="padding: 2px;"><h1 class="bold no-margin medium-3"><i class="fas fa-tv fa-fw"></i>&nbsp;Assista na Super Filmes</h1></br><p1 class="bold no-margin medium-3">&nbsp;The Sacred Riana: Beginning</p1></br><p1 class="bold no-margin medium-3">&nbsp;A Busca pelo Ouro de Tom Sawyer</p1></br><p1 class="bold no-margin medium-3">&nbsp;Strong Enough</p1></br><p1 class="bold no-margin medium-3">&nbsp;Sri Asih</p1></br><p1 class="bold no-margin medium-3">&nbsp;Secret Lives of College Escorts</p1></br><p1 class="bold no-margin medium-3">&nbsp;Rooming With Danger</p1></br><p1 class="bold no-margin medium-3">&nbsp;Rheingold</p1></br><p1 class="bold no-margin medium-3">&nbsp;Puppet Master: Doktor Death</p1></br><p1 class="bold no-margin medium-3">&nbsp;Nanahimik ang Gabi</p1></br><p1 class="bold no-margin medium-3">&nbsp;La maniobra de la tortuga</p1></br><p1 class="bold no-margin medium-3">&nbsp;Jailangkung: Sandekala</p1></br><p1 class="bold no-margin medium-3">&nbsp;The Invisible War - Niewidzialna wojna</p1></br><p1 class="bold no-margin medium-3">&nbsp;Haw</p1></br><p1 class="bold no-margin medium-3">&nbsp;Garis Waktu</p1></br><p1 class="bold no-margin medium-3">&nbsp;Every Breath She Takes</p1></br><p1 class="bold no-margin medium-3">&nbsp;Querido David</p1></br><p1 class="bold no-margin medium-3">&nbsp;Coast Guard Malaysia: Ops Helang</p1></br><p1 class="bold no-margin medium-3">&nbsp;Big Lies In a Small Town</p1></br><p1 class="bold no-margin medium-3">&nbsp;O Nascimento do Mal</p1></br><p1 class="bold no-margin medium-3">&nbsp;Assassin</p1></br><p1 class="bold no-margin medium-3">&nbsp;Ang Babaeng Walang Pakiramdam</p1></br><p1 class="bold no-margin medium-3">&nbsp;The Matchmaker</p1></br><p1 class="bold no-margin medium-3">&nbsp;Desventura do Verão</p1></br><p1 class="bold no-margin medium-3">&nbsp;Os Pequeninos</p1></br><p1 class="bold no-margin medium-3">&nbsp;Victor e o Segredo da Mansão Crocodilo</p1></br><p1 class="bold no-margin medium-3">&nbsp;Uma Loira Em Apuros</p1></br><p1 class="bold no-margin medium-3">&nbsp;Um Cruzeiro Muito Louco</p1></br></div></center>
+
                        </div>
             </div>
 
             <!-- Start pagination -->
             <ul class="pagination aster-pagination justify-content-center mt-5 mb-5">
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/">
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/">
                         <i class="icofont-simple-left"></i>
                     </a>
                 </li>
                 <li class="page-item active">
-                    <a class="page-link"  href="https://superfilmes.netlify.app/">1</a>
+                    <a class="page-link"  href="https://superfilmes.netlify.app/servidor2/">1</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">2</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes2.html">2</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">3</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes3.html">3</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">4</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes4.html">4</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">5</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes5.html">5</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">6</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/filmes6.html">6</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">7</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes7.html">7</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">8</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes8.html">8</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">9</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes9.html">9</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">10</a>
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes10.html">10</a>
                 </li>
                 <li class="page-item">
-                    <a class="page-link" href="https://superfilmes.netlify.app/filmes2.html">
+                    <a class="page-link" href="https://superfilmes.netlify.app/servidor2/filmes11.html">
                         <i class="icofont-simple-right"></i>
                     </a>
                 </li>
@@ -500,7 +661,7 @@
         <!-- Start Categories footer-navbar -->
         <nav class="navbar footer-navbar">
             <div class="container">
-                
+                <h2>Página 2</h2>
             </div>
         </nav>
 
@@ -530,11 +691,11 @@
         </div>
     </div>
 
-    <script src="assets/js/jquery-3.6.1.min.js"></script>
-    <script src="assets/js/jquery.nicescroll.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="https://superfilmes.netlify.app/assets/js/jquery-3.6.1.min.js"></script>
+    <script src="https://superfilmes.netlify.app/assets/js/jquery.nicescroll.min.js"></script>
+    <script src="https://superfilmes.netlify.app/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://superfilmes.netlify.app/assets/js/slick.min.js"></script>
+    <script src="https://superfilmes.netlify.app/assets/js/app.js"></script>
 </body>
 
 </html>
