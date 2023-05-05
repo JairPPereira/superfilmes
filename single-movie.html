@@ -69,7 +69,6 @@
             aspect-ratio: 16/9;
             border: none;
             width: 100%;
-    
             background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifkDVkMCg-o5b2M0hQZOkX5Fu7apID01J66POZKxX3XYXzP5N9FpFYMGNTiUqzrbWRGL33Kkfafv0KXYowrIS6QJx1BIVpQWFWqEUvIs2Dj-ToA9ZOQqgtaDpP2dR89aa0lmGmJyanPvRVEiGxINyRjJMSSNvBZ9bmPxYKqEksPF3t2sg4mKyIGnvY/s16000/Post%20Instagram%20dia%20mundial%20do%20cinema%20ousado%20vermelho%20e%20preto.png);
             background-size: cover;
             background-position: center;
@@ -268,7 +267,15 @@
          player.src = url;
          player.style.width = '100%';
          player.style.border = 'none';
- 
+         player.setAttribute('allowfullscreen', '');
+         player.setAttribute('allow', 'autoplay; encrypted-media; fullscreen; picture-in-picture');
+         player.setAttribute('target', '_blank');
+         player.setAttribute('scrolling', 'no');
+         player.setAttribute('data-draggable', 'none');
+         player.setAttribute('marginwidth', '0');
+         player.setAttribute('marginheight', '0');
+         player.setAttribute('data-popup', 'none');
+         player.setAttribute('frameborder', '0');
          const divPlayer = document.getElementById('player');
          divPlayer.innerHTML = '';
          divPlayer.appendChild(player);
