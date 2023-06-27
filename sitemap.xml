@@ -1,1132 +1,1120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<!-- created with https://site-analyzer.pro -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://superfilmes.netlify.app/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://superfilmes.netlify.app/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>1.0</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/acao</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/animacao/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/animacao</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/aventura</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/comedia</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/crime/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/crime</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/documentario/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/documentario/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/drama/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/drama/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/familia/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/familia/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/fantasia/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/fantasia/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/ficcao/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/ficcao/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/historia/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes10.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/misterio/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes11.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/romance/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes12.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/terror/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes13.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes14.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes2.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes15.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes3.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes16.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes4.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes17.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes5.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes18.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes6.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes19.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes7.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes2.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes8.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes20.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes9.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes21.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes10.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes22.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes11.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://superfilmes.netlify.app/filmes23.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao2.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes24.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao3.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes25.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao4.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes26.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao5.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes27.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao6.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes28.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao7.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes29.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao8.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes3.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao9.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes30.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao10.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes31.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao11.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes32.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/animacao/filmes2.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes33.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/animacao/filmes3.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes34.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/animacao/filmes4.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes35.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/animacao/filmes5.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes36.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes2.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes37.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes4.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes38.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes5.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes39.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes6.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes4.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes7.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes40.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes8.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes41.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes9.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes42.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes10.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes43.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes11.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes44.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/aventura/filmes28.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes45.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes2.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes46.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes3.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes47.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes4.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes48.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes5.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes49.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes6.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes5.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes7.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes50.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes8.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes51.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes9.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes52.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes10.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes53.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes11.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes54.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/comedia/filmes44.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes55.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes20.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes56.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes2.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes57.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes3.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes58.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes4.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes59.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes5.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes6.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes6.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes60.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes7.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes61.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes8.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes62.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes9.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes63.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes10.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes64.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes11.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes65.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes12.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes66.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes13.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes67.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes14.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes68.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes15.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes69.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes16.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes7.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes17.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes70.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes18.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes71.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes19.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes72.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes21.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.64</priority>
+	<loc>https://superfilmes.netlify.app/filmes73.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao12.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes74.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao13.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes75.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao14.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes76.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao15.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes77.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao16.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes78.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao17.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes79.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao18.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes8.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao19.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes80.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao20.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes81.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao21.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/filmes9.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes12.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/historia/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes13.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/misterio/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes14.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/romance/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes15.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes16.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes10.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes17.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes11.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes18.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes12.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes19.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes13.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes20.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes14.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes21.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes15.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes22.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes16.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes23.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes17.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes24.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes18.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes25.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes19.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes26.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes2.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes27.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes20.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes28.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes21.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes29.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes22.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes30.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes23.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes31.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.51</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes24.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao22.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes25.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao23.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes26.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao24.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes27.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao25.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes28.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao26.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes29.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao27.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes3.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao28.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes30.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao29.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes31.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/acao/acao30.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes32.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes22.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes33.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes23.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes34.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes24</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes35.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes25.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes36.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes26.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes37.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes27.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes38.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes28.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes39.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes29.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes4.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes30.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes40.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes31.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes41.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes32</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes42.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes33.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes43.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes34.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes44.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes35.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes45.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes36.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes46.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes37.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes47.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes38.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes48.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes39.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes49.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes40.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes5.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes41.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.41</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes50.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes32</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes51.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes33.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes52.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes34.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes53.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes35.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes54.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes36.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes55.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes37.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes56.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes38.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes57.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes39.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes58.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes40.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes59.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes41.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes6.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes42.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes60.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes43.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes61.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes44.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes62.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes45.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes63.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes46.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes64.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes47.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes65.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes48.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes66.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes49.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes67.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes50.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes68.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes51.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.33</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes69.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes42.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes7.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes43.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes70.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes44.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes71.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes45.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes72.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes46.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes73.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes47.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes74.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes48.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes75.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes49.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes76.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes50.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes77.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes51.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes78.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes52.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes79.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes53.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes8.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes54.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes80.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes55.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes81.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes56.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes82.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes57.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes83.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes58.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes84.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes59.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes85.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes60.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes86.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/filmes61.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.26</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes87.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes52.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes88.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes53.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes89.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes54.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes9.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes55.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes90.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes56.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
+	<loc>https://superfilmes.netlify.app/servidor2/filmes91.html</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.8</priority>
+	<changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes57.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
+	<loc>https://superfilmes.netlify.app/terror/</loc>
+	<lastmod>2023-06-28T01:26:05+03:00</lastmod>
+	<priority>0.9</priority>
+	<changefreq>weekly</changefreq>
 </url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes58.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes59.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes60.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes61.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes62.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes63.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes64.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes65.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes66.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes67.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes68.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes69.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes70.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes71.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.21</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes62.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes63.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes64.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes65.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes66.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes67.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes68.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes69.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes70.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes71.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes72.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes73.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes74.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes75.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes76.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes77.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes78.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes79.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes80.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/filmes81.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.17</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes72.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.13</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes73.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.13</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes74.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.13</priority>
-</url>
-<url>
-  <loc>https://superfilmes.netlify.app/servidor2/filmes75.html</loc>
-  <lastmod>2023-06-27T22:15:34+00:00</lastmod>
-  <priority>0.13</priority>
-</url>
-
-
 </urlset>
