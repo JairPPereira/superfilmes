@@ -129,8 +129,8 @@
     
                          </li>
                          <li class="nav-item">
-                            <input type="text" id="searchInput" placeholder="Digite o título">
-                            <div id="searchResults"></div> 
+                      
+                          
                          </li>
                     </ul>
                     <ul class="navbar-nav d-none d-lg-flex me-left">
@@ -152,32 +152,7 @@
             </div>
         </div>
     </div>
-    <script>
-        // Função para buscar os títulos
-        function searchTitles() {
-          // Limpar os resultados anteriores
-          $('#searchResults').empty();
-    
-          // Obter o texto de busca digitado pelo usuário
-          var searchText = $('#searchInput').val().toLowerCase();
-    
-          // Percorrer cada elemento com a classe "media-box"
-          $('.media-box').each(function() {
-            // Obter o título do elemento atual
-            var title = $(this).find('.media-box-title').text().toLowerCase();
-    
-            // Verificar se o título contém o texto de busca
-            if (title.includes(searchText)) {
-              // Clonar o elemento atual e adicionar aos resultados
-              var result = $(this).clone();
-              $('#searchResults').append(result);
-            }
-          });
-        }
-    
-        // Chamar a função de busca quando o usuário digitar algo
-        $('#searchInput').on('input', searchTitles);
-      </script>
+
     <section class="all-media">
         <!-- Start top-media -->
         <style>
