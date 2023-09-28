@@ -1,11 +1,14 @@
 const apiKey = "fcfe44809de84129fab53e785124bb95";
-const movieIds = [950071, 968051, 353577, 1088812, 1113448, 1122634, 1152797, 1072371, 991708, 884184, 962279, 1093994, 753601, 885583, 1126418, 869523, 807023, 1165111, 1579, 844409, 892494, 1158385, 1088080, 983768,
+const movieIds = [
+  25095, 299054, 983507, 977770, 575157, 1115128, 1151703, 763820, 729120,
+  945729, 860267, 804464, 1143190, 820525, 1073337, 1078862, 850871, 1172009,
+  763261, 1124624, 1072074, 1075969, 1018754, 790493
 ];
 
 function displayRandomMovie() {
   const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
   const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
-  
+
   fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
@@ -16,13 +19,9 @@ function displayRandomMovie() {
       const movieBackdrop = document.getElementById("movie-backdrop");
       movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
 
-      function openMovie(titulo, url) {
-        window.location.href = 'single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
-    }
-
       movieBackdrop.addEventListener("click", () => {
-        const detailsUrl = `https://jp-app.netlify.app/details/${randomMovieId}`;
-        window.open(detailsUrl, "_blank");
+        const iframeUrl = `https://embedder.net/e/${randomMovieId}`;
+        window.open(`single-movie2.html?iframeUrl=${encodeURIComponent(iframeUrl)}`, "_blank");
       });
 
       const movieTitleElement = document.getElementById("movie-title");
