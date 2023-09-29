@@ -260,6 +260,10 @@
             if (iframeElement.requestFullscreen) {
             iframeElement.requestFullscreen()();
              }
+
+              // Recarregar o iframe após ser carregado
+              iframeElement.contentWindow.location.reload(true);
+
           });
         } else {
           // Caso o URL do iframe não seja válido, você pode exibir uma mensagem de erro ou fazer qualquer outra coisa que desejar.
