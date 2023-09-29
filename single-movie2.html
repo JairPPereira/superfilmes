@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="/assets/css/icofont.css">
     <link rel="stylesheet" href="https://superfilmes.pages.dev/style.css">
     
-
+   
   
     <style>
         #movie-backdrop {
@@ -261,8 +261,7 @@
             iframeElement.requestFullscreen()();
              }
 
-              // Recarregar o iframe após ser carregado
-              iframeElement.contentWindow.location.reload(true);
+      
 
           });
         } else {
@@ -297,7 +296,23 @@
     </footer>
     <!-- Login Modal -->
     
-  
+    <script>
+      // Adiciona um ouvinte de eventos para detectar o duplo clique
+      document.body.addEventListener('dblclick', toggleFullScreen);
+
+      // Função para alternar entre tela cheia e modo normal
+      function toggleFullScreen() {
+          if (!document.fullscreenElement) {
+              document.documentElement.requestFullscreen().catch(err => {
+                  console.error(`Erro ao tentar entrar em modo de tela cheia: ${err.message}`);
+              });
+          } else {
+              if (document.exitFullscreen) {
+                  document.exitFullscreen();
+              }
+          }
+      }
+  </script>
 
 
     <script src="https://superfilmes.pages.dev/assets/js/jquery-3.6.1.min.js"></script>

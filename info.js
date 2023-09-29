@@ -19,7 +19,7 @@ function displayRandomMovie() {
 
       movieBackdrop.addEventListener("click", () => {
         const iframeUrl = `https://embedder.net/e/${randomMovieId}`;
-        window.open(`single-movie2.html?iframeUrl=${encodeURIComponent(iframeUrl)}`, "_blank");
+        window.open(`single-movie3.html?iframeUrl=${encodeURIComponent(iframeUrl)}`, "_blank");
       });
 
       const movieTitleElement = document.getElementById("movie-title");

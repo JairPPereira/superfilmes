@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFrame em Toda a Página</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            
+            overflow: hidden; /* Impede a barra de rolagem da página */
+        }
+
+        iframe {
+            width: 100%;
+            height: 98%;
+            border: none; /* Remove a borda do iframe, se desejar */
+        }
+    </style>
+
+    </head>
+    
+    <body>
+      <script>
+        // Recupere o parâmetro da URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const iframeUrl = urlParams.get("iframeUrl");
+    
+        // Verifique se o URL do iframe é válido
+        if (iframeUrl) {
+          // Crie um elemento iframe
+          const iframeElement = document.createElement("iframe");
+          iframeElement.src = iframeUrl;
+          iframeElement.allowFullscreen = true; // Permite que o iframe entre em tela cheia
+          iframeElement.allowPaymentRequest = true; // Permite solicitações de pagamento no iframe (opcional)
+          iframeElement.allow = "fullscreen picture-in-picture"; // Permite tela cheia e imagem sobre imagem
+    
+          // Adicione o iframe à página
+          document.body.appendChild(iframeElement);
+    
+          // Adicione um evento para entrar em tela cheia quando o iframe estiver carregado
+          iframeElement.addEventListener("load", () => {
+            if (iframeElement.requestFullscreen) {
+              iframeElement.requestFullscreen();
+            } else if (iframeElement.mozRequestFullScreen) { // Firefox
+              iframeElement.mozRequestFullScreen();
+            } else if (iframeElement.webkitRequestFullscreen) { // Chrome, Safari e Opera
+              iframeElement.webkitRequestFullscreen();
+            }
+            // Habilitar o modo de imagem sobre imagem (picture-in-picture) no iframe
+            if (iframeElement.requestPictureInPicture) {
+            iframeElement.requestPictureInPicture();
+             }
+            if (iframeElement.requestFullscreen) {
+            iframeElement.requestFullscreen()();
+             }
+
+      
+
+          });
+        } else {
+          // Caso o URL do iframe não seja válido, você pode exibir uma mensagem de erro ou fazer qualquer outra coisa que desejar.
+          console.error("URL do iframe não fornecido.");
+        }
+      </script> 
+
+      <script>
+        // Adiciona um ouvinte de eventos para detectar o duplo clique
+        document.body.addEventListener('dblclick', toggleFullScreen);
+  
+        // Função para alternar entre tela cheia e modo normal
+        function toggleFullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.error(`Erro ao tentar entrar em modo de tela cheia: ${err.message}`);
+                });
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        }
+    </script>
+
+
+    </body>
+    
+    </html>
