@@ -10,7 +10,6 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            background-color: black;
             overflow: hidden; /* Impede a barra de rolagem da página */
         }
 
@@ -34,9 +33,9 @@
           // Crie um elemento iframe
           const iframeElement = document.createElement("iframe");
           iframeElement.src = iframeUrl;
-          iframeElement.allowFullscreen = true; // Permite que o iframe entre em tela cheia
           iframeElement.allowPaymentRequest = true; // Permite solicitações de pagamento no iframe (opcional)
-          iframeElement.allow = "fullscreen picture-in-picture"; // Permite tela cheia e imagem sobre imagem
+          iframeElement.allow = "fullscreen picture-in-picture";
+          iframeElement.allow = "fullscreen"; // Permite tela cheia e imagem sobre imagem
     
           // Adicione o iframe à página
           document.body.appendChild(iframeElement);
