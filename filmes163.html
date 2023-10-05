@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="/assets/css/icofont.css">
     <link rel="stylesheet" href="https://superfilmes.pages.dev/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/info.js"></script>
     <script>
         function openMovie(titulo, url) {
             window.location.href = 'single-movie.html?titulo=' + encodeURIComponent(titulo) + '&url=' + encodeURIComponent(url);
@@ -184,70 +185,16 @@
           h2{
               color: white;
             }
-            .iframe-container {
-                position: relative;
-                overflow: hidden;
 
-            }
-            
         </style>
-        <div class="iframe-container">
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '9eb89198db8244276e84c866974bf4e3',
-                    'format' : 'iframe',
-                    'height' : 60,
-                    'width' : 468,
-                    'params' : {}
-                };
-                document.write('<scr' + 'ipt type="text/javascript" src="//www.profitablecreativeformat.com/9eb89198db8244276e84c866974bf4e3/invoke.js"></scr' + 'ipt>');
-            </script>
-        </div>
-        <div id="movie-container" style="background-color:#5367ff">
-         <img id="movie-backdrop" src="">
+
+        <div id="movie-container" style="background-color:#5367ff"><center><h2>Clique na imagem e assista</h2></center>
+         <img id="movie-backdrop" src="" alt="Clique e assista">
          <h2 id="movie-title" style="color: white;"></h2>
          <p id="movie-overview" style="color: white;"></p>
-        </div>
         
-        <script>
-         const apiKey = "fcfe44809de84129fab53e785124bb95";
-      const movieIds = [45162, 376134, 500854, 24982, 785457
-      ];
-      
-      function displayRandomMovie() {
-        const randomMovieId = movieIds[Math.floor(Math.random() * movieIds.length)];
-        const apiUrl = `https://api.themoviedb.org/3/movie/${randomMovieId}?api_key=${apiKey}&language=pt-BR`;
-        
-        fetch(apiUrl)
-          .then(response => response.json())
-          .then(data => {
-            const backdropPath = data.backdrop_path;
-            const movieTitle = data.title;
-            const movieOverview = data.overview;
-      
-            const movieBackdrop = document.getElementById("movie-backdrop");
-            movieBackdrop.src = `https://image.tmdb.org/t/p/original/${backdropPath}`;
-      
-            movieBackdrop.addEventListener("", () => {
-              const detailsUrl = ``;
-              window.open(detailsUrl, "_blank");
-            });
-      
-            const movieTitleElement = document.getElementById("movie-title");
-            movieTitleElement.textContent = movieTitle;
-      
-            const movieOverviewElement = document.getElementById("movie-overview");
-            movieOverviewElement.textContent = movieOverview;
-          })
-          .catch(error => {
-            console.error(`Erro ao obter informações do filme ${randomMovieId}: ${error}`);
-          });
-      }
-      
-      displayRandomMovie();
-        </script>
-       
-
+         <p></p>    
+        </div> 
         <div class="container-fluid mt-2">
             <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-5">
 
