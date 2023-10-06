@@ -155,13 +155,7 @@
     
           // Adicione um evento para entrar em tela cheia quando o iframe estiver carregado
           iframeElement.addEventListener("load", () => {
-            if (iframeElement.requestFullscreen) {
-              iframeElement.requestFullscreen();
-            } else if (iframeElement.mozRequestFullScreen) { // Firefox
-              iframeElement.mozRequestFullScreen();
-            } else if (iframeElement.webkitRequestFullscreen) { // Chrome, Safari e Opera
-              iframeElement.webkitRequestFullscreen();
-            }
+          
             // Habilitar o modo de imagem sobre imagem (picture-in-picture) no iframe
             if (iframeElement.requestPictureInPicture) {
             iframeElement.requestPictureInPicture();
@@ -179,23 +173,6 @@
         }
       </script> 
 
-      <script>
-        // Adiciona um ouvinte de eventos para detectar o duplo clique
-        document.body.addEventListener('dblclick', toggleFullScreen);
-  
-        // Função para alternar entre tela cheia e modo normal
-        function toggleFullScreen() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen().catch(err => {
-                    console.error(`Erro ao tentar entrar em modo de tela cheia: ${err.message}`);
-                });
-            } else {
-                if (document.exitFullscreen) {
-                    document.exitFullscreen();
-                }
-            }
-        }
-    </script>
     <script async="async" data-cfasync="false" src="//pl20624997.highcpmrevenuegate.com/2f2c43f35f50d41db242947b1c8ad063/invoke.js"></script>
     <div id="container-2f2c43f35f50d41db242947b1c8ad063"></div>
 
