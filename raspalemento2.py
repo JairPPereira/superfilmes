@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 # URL da página web que você deseja raspar
-url = "https://embedder.net/lib/movies?page=7"
+url = "https://embedder.net/lib/movies?page=8"
 
 # Faz uma requisição GET para a página web
 response = requests.get(url)

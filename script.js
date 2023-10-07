@@ -990,7 +990,153 @@ var filmes = [
         descricao: 'Um mergulho exploratório nas profundezas do oceano de uma ousada equipe de pesquisa se transforma em caos quando uma operação de mineração malévola ameaça sua missão e os força a uma batalha de alto risco pela sobrevivência.',
         imdb: 'tt9224104',
         imagem: 'https://image.tmdb.org/t/p/w300/8tBhAn6qVRQzf5yvEcxjgPMgTkw.jpg'
-    }    
+    },
+    {
+        titulo: 'Miraculous: As Aventuras de Ladybug - O Filme',
+        descricao: 'Marinette Dupain-Cheng, de dezesseis anos, está temendo o primeiro dia de aula, onde ela sofre bullying, não tem amigos e não se encaixa, mas seu mundo vira de cabeça para baixo quando ela é escolhida para se tornar a super-heroína Ladybug e ela conhece seu parceiro Cat Noir.',
+        imdb: 'tt10364034',
+        imagem: 'https://image.tmdb.org/t/p/w300/eZEKKCNW0vI7B7AZNdCAeq2mMAw.jpg'
+    },
+    {
+        titulo: 'Brilho Eterno de uma Mente sem Lembranças',
+        descricao: 'Joel se surpreende ao saber que seu amor verdadeiro, Clementine, o apagou completamente de sua memória. Ele decide fazer o mesmo, mas muda de ideia. Preso dentro da própria mente enquanto os especialistas se mantêm ocupados em seu apartamento, Joel precisa avisá-los para parar.',
+        imdb: 'tt0338013',
+        imagem: 'https://image.tmdb.org/t/p/w300/fQS6DsbA0T465kW2gz2WGmHXIh3.jpg'
+    },
+    {
+        titulo: 'Amor(es) Verdadeiro(s)',
+        descricao: 'Uma mulher é inesperadamente forçada a escolher entre o marido que há muito pensava estar morto e o noivo que finalmente a trouxe de volta à vida.',
+        imdb: 'tt14770620',
+        imagem: 'https://image.tmdb.org/t/p/w300/q1FnsCD8H3p2YiYkWc1MZNspoLj.jpg'
+    },
+    {
+        titulo: 'Duna',
+        descricao: 'Em 10.190 D.C., um duque e sua família são mandados pelo Imperador para Arrakis, um árido planeta conhecido como Duna, que tem uma matéria essencial às viagens interplanetárias: a Especiaria. O motivo desta mudança é que o Imperador planeja destruir o duque e sua família, mas seu filho escapa e procura se vingar usando a ecologia deste mundo como uma de suas armas.',
+        imdb: 'tt0087182',
+        imagem: 'https://image.tmdb.org/t/p/w300/3QOlGVuY2jeo0lX4XMMsTWkqmUg.jpg'
+    },
+    {
+        titulo: 'Lady Bird - A Hora de Voar',
+        descricao: 'Christine McPherson está no último ano do colégio e o que mais deseja é ir fazer faculdade longe de Sacramento, Califórnia, ideia rejeitada por sua mãe. Lady Bird, como a garota de forte personalidade exige ser chamada, não se dá por vencida e leva o plano de ir embora adiante mesmo assim. Enquanto a hora não chega, ela se divide entre as obrigações estudantis no colégio católico, o primeiro namoro, típicos rituais de passagem para a vida adulta e inúmeros desentendimentos com a progenitora.',
+        imdb: 'tt4925292',
+        imagem: 'https://image.tmdb.org/t/p/w300/wxfKcpFPmK9isnxXyvCMbqmBtdg.jpg'
+    },
+    {
+        titulo: 'Felicidade para Principiantes',
+        descricao: 'Após o divórcio, uma professora se aventura a recomeçar na vida e no amor quando decide fazer uma reveladora caminhada de longa distância.',
+        imdb: 'tt15509244',
+        imagem: 'https://image.tmdb.org/t/p/w300/sejOOSFyqNd2KHWo9s3FiP7JCTv.jpg'
+    },
+    {
+        titulo: 'Projeto Extração',
+        descricao: 'Quando uma refinaria de petróleo administrada pela China é atacada em Mosul, no Iraque, um empreiteiro de segurança privada chinês é chamado para resgatar os trabalhadores do petróleo.  Ele descobre, no entanto, que o verdadeiro plano dos atacantes é roubar uma fortuna em petróleo e se une a um ex-fuzileiro naval americano para detê-los.',
+        imdb: 'tt6879446',
+        imagem: 'https://image.tmdb.org/t/p/w300/t3vZkkM5G40pUJxUzkz69H777Hm.jpg'
+    },
+    {
+        titulo: 'Operação Valquíria',
+        descricao: 'A história é sobre uma das histórias mais heróicas da Segunda Guerra Mundial, mas também uma das mais desconhecidas. Gravemente ferido em combate, o coronel alemão Claus von Stauffenberg (Tom Cruise) retorna para a África para se juntar à resistência alemã e ajudar a criar a Operação Valkyrie, um complexo plano que irá permitir a substituição de Hitler no poder assim que ele estiver morto. O destino e as circunstâncias fazem com que Stauffenberg se torne uma peça central na missão. Ele não só tem que liderar o golpe e tomar o controle do governo de seu país, como fica encarregado de matar Hitler com as próprias mãos.',
+        imdb: 'tt0985699',
+        imagem: 'https://image.tmdb.org/t/p/w300/5ugPC5Ch8JQc2yV1ZDWEuJ8yiTy.jpg'
+    },
+    {
+        titulo: 'Mansão Mal-Assombrada',
+        descricao: 'A confusão começa quando Jim Evers, um agente imobiliário viciado em trabalho, interrompe uma viagem de família para tentar fechar um negócio em uma mansão. Chegando lá, Jim descobre não só que a casa é mal-assombrada, mas também que tem poucas horas para quebrar uma terrível maldição!',
+        imdb: 'tt0338094',
+        imagem: 'https://image.tmdb.org/t/p/w300/fNQi49H609SEay0MjM6u0EOfqjG.jpg'
+    },
+    {
+        titulo: 'Os Três Mosqueteiros',
+        descricao: 'O jovem D Artagnan, depois de sair da Gasconha e viajar para Paris, conhece os mosqueteiros Athos, Aramis e Porthos, e tentam impedir que o Cardeal Richelieu e sua agente Milady de Winter causem uma guerra entre a França e a Inglaterra.',
+        imdb: 'tt1509767',
+        imagem: 'https://image.tmdb.org/t/p/w300/wJy0zURpPTi1TLC1PQOmLlTwDiH.jpg'
+    },
+    {
+        titulo: 'Os Jovens Titãs Assistem A Space Jam',
+        descricao: 'Os Teen Titans são visitados pelos Nerdlucks, os vilões do Space Jam que tentaram capturar Michael Jordan e os Looney Tunes. Surpreso ao descobrir que seus companheiros Titãs nunca viram o Space Jam, Cyborg organiza uma festa exclusiva para assistir ao filme.',
+        imdb: 'tt14851194',
+        imagem: 'https://image.tmdb.org/t/p/w300/7bdNPv3vsLXhUTrVhweTSGiqEwp.jpg'
+    },
+    {
+        titulo: 'The Blackening',
+        descricao: 'Sete amigos vão embora no fim de semana e acabam presos em uma cabana com um assassino que quer vingança. Será que sua esperteza e conhecimento de filmes de terror os ajudarão a sobreviver? Provavelmente não.',
+        imdb: 'tt11703244',
+        imagem: 'https://image.tmdb.org/t/p/w300/ooB4KSRRhp7XYRQUmsi82iFnMNC.jpg'
+    },
+    {
+        titulo: 'A Última Coisa que Mary Viu',
+        descricao: 'Inverno de 1843. Uma jovem está sob investigação após a misteriosa morte da matriarca de sua família. Sua lembrança dos eventos lança uma nova luz sobre as forças atemporais por trás da tragédia.',
+        imdb: 'tt9741180',
+        imagem: 'https://image.tmdb.org/t/p/w300/gVFwfzPXfUcRI3mpb6rSX1LYtMj.jpg'
+    },
+    {
+        titulo: 'The Hand of God: A Mão de Deus',
+        descricao: 'Na Nápoles dos anos 80, um jovem louco por futebol se vê diante de uma tragédia familiar que define seu futuro incerto, porém promissor, como cineasta.',
+        imdb: 'tt12680684',
+        imagem: 'https://image.tmdb.org/t/p/w300/yRZrr8E12jEK07n6LCiVN6bsJUU.jpg'
+    },
+    {
+        titulo: 'Desaparecida: O Caso Lucie Blackman',
+        descricao: 'Segue a turbulenta e complexa investigação sobre o assassinato da turista britânica Lucie Blackman.',
+        imdb: 'tt19113292',
+        imagem: 'https://image.tmdb.org/t/p/w300/bz44Ug0pzMwV0kjNTeS4y1lxUar.jpg'
+    },
+    {
+        titulo: 'Querida Zoe',
+        descricao: 'Quando Tess sofre uma terrível perda em sua família, ela se aproxima de seu pai biológico e encontra nele um inesperado apoio.',
+        imdb: 'tt1657865',
+        imagem: 'https://image.tmdb.org/t/p/w300/tLyKCXea2INdSCyOlGOvDnR3feO.jpg'
+    },
+    {
+        titulo: 'Campeonato dos Sonhos',
+        descricao: 'Passando por um baque na carreira, um jogador de futebol aceita ser técnico de um time de moradores de rua. Nesse processo, ele encontra o crescimento pessoal.',
+        imdb: 'tt13814704',
+        imagem: 'https://image.tmdb.org/t/p/w300/2mVp9HGAudUZ1rv66tMC6kK22JM.jpg'
+    },
+    {
+        titulo: 'Sr. Carrinho e os Cavaleiros Templários',
+        descricao: 'Um historiador de arte encontra uma cruz templária e precisa se unir a um grupo nada convencional de aventureiros para conseguir desvendar os segredos dessa relíquia.',
+        imdb: 'tt27876411',
+        imagem: 'https://image.tmdb.org/t/p/w300/qWuCK5h5o7pQDILZgQYHSIc59TX.jpg'
+    },
+    {
+        titulo: 'Explorando o Desconhecido: A Máquina do Tempo Cósmica',
+        descricao: 'Siga uma equipe de engenheiros e cientistas em uma missão ambiciosa para lançar o Telescópio Espacial James Webb e dar o próximo salto gigantesco na compreensão do universo.',
+        imdb: 'tt27837488',
+        imagem: 'https://image.tmdb.org/t/p/w300/8mJkevQKSKyinWRa6XGVyluXJq8.jpg'
+    },
+    {
+        titulo: 'Os (Quase) Ídolos da Bahía Colorada',
+        descricao: 'Romeo e Preciado são dois meios-irmãos que se reencontram para honrar a memória do pai em uma corrida de carros cheia de adrenalina e música mexicana.',
+        imdb: 'tt21737024',
+        imagem: 'https://image.tmdb.org/t/p/w300/olT4pIcEwP3160jXETWP1zawaCe.jpg'
+    },
+    {
+        titulo: 'O Serviço de Entregas da Kiki',
+        descricao: 'Kiki é uma jovem bruxa que acabou de completar 13 anos. Segundo a tradição, quando atingem essa idade, todas as bruxas devem sair de casa por um ano para aprender a viver por conta própria. Ela se muda para a cidade de Korico, junto com Jiji, seu gato falante. Lá ela aprende a seguir em frente com sua vida, apesar de todas as dificuldades que possam surgir.',
+        imdb: 'tt0097814',
+        imagem: 'https://image.tmdb.org/t/p/w300/eM4mDoXpOTwqMldmCy76cftok9m.jpg'
+    },
+    {
+        titulo: 'Clonaram Tyrone!',
+        descricao: 'Uma série de incidentes sinistros coloca um trio inusitado no rastro de uma grande conspiração.',
+        imdb: 'tt9873892',
+        imagem: 'https://image.tmdb.org/t/p/w300/uLYdX64xJVZEFRQJZQU4A2ueMyB.jpg'
+    },
+    {
+        titulo: 'O Castelo no Céu',
+        descricao: 'Pazu, um aprendiz de engenheiro, conhece uma jovem garota dona de um colar brilhante, Sheeta, e descobrem que ambos estão procurando pelo legendário castelo flutuante. Assim começa uma aventura com piratas gananciosos dos céus, agentes secretos e obstáculos que tentam esconder a verdade e resgatar o misterioso colar.',
+        imdb: 'tt0092067',
+        imagem: 'https://image.tmdb.org/t/p/w300/1yoI4FyiUamyWhZtnfH81se206f.jpg'
+    },
+    {
+        titulo: 'Eu Posso Ouvir o Oceano',
+        descricao: 'O estudante universitário Taku recorda a chegada da aluna Rikako, dois anos atrás, e o fatídico verão que colocou à prova sua amizade com Yutaka.',
+        imdb: 'tt0108432',
+        imagem: 'https://image.tmdb.org/t/p/w300/7xNEkYR9EkcBG1EjiOwyl0oXLU7.jpg'
+    },
+
+    
    
 ];
 
