@@ -1135,7 +1135,150 @@ var filmes = [
         imdb: 'tt0108432',
         imagem: 'https://image.tmdb.org/t/p/w300/7xNEkYR9EkcBG1EjiOwyl0oXLU7.jpg'
     },
-
+    {
+        titulo: 'Ponyo - Uma Amizade que Veio do Mar',
+        descricao: 'Sosuke é um garoto de cinco anos que mora em um penhasco com vista para o Mar Interior. Um dia, ao brincar na praia, encontra Ponyo, um peixinho dourado cuja cabeça está presa em um pote de geleia. Ele salva a peixinho e a coloca em um balde verde. Trata-se de amor à primeira vista, já que Sosuke promete que irá cuidar dela. Só que Fujimoto, que um dia foi humano e hoje é feiticeiro no fundo do mar, exige que Ponyo retorne às profundezas do oceano. Para ficar ao lado de Sosuke, Ponyo toma a decisão de tornar-se humana.',
+        imdb: 'tt0876563',
+        imagem: 'https://image.tmdb.org/t/p/w300/cvpsmNWc8nyePJMbyMc9X5lLN6L.jpg'
+    },
+    {
+        titulo: 'A Vilã',
+        descricao: 'Treinada desde criança para ser uma assassina de elite, Sook-hee embarca em uma onda de violência e vingança para finalmente ganhar sua liberdade e escapar de seu passado.',
+        imdb: 'tt6777338',
+        imagem: 'https://image.tmdb.org/t/p/w300/sU2fQEZ6paXXxJ4CKiUa0hbOIx0.jpg'
+    },
+    {
+        titulo: 'Lupin III: O Segredo de Mamo',
+        descricao: 'Embarcado em mais uma incrível peripécia, o ladrão Arsène Lupin III e seus comparsas, Daisuke Jigen e Goemon Ishikawa, buscam uma misteriosa pedra encontrada numa pirâmide do Egito. Atraída pela promessa de uma eternidade de beleza e juventude, a aventureira Fujiko Mine une-se a um sinistro sábio conhecido com Mamo para trair Lupin e roubar o artefato. Com o inspetor Zenigata em seu encalço, a busca por Fujiko leva Lupin e seus amigos à misteriosa ilha de Mamo, onde descobrem os obscuros segredos que representam uma ameaça ao mundo inteiro. Agora, depende de Lupin impedir que o cientista coloque em prática o seu melhor plano para dominar a humanidade.',
+        imdb: 'tt0078187',
+        imagem: 'https://image.tmdb.org/t/p/w300/fMLbX1RdVGDyJn9eraKa7HzaaEj.jpg'
+    },
+    {
+        titulo: 'Lupin III: O Castelo de Cagliostro',
+        descricao: 'Lupin é um famoso ladrão  e, após um roubo bem sucedido, percebe que foi enganado e roubou notas falsas. Disposto a encontrar a origem do dinheiro falso, ele descobre que ele vem de um país distante e esquecido, já famoso pela fabricação de dinheiro falso no mundo todo e encontra Clarisse, a herdeira da Família Real de Cagliostro. Clarisse está em perigo devido ao segredo que sua família esconde.',
+        imdb: 'tt0079833',
+        imagem: 'https://image.tmdb.org/t/p/w300/zQRfJDWbSh3C3bGw34QHJeUnlZF.jpg'
+    },
+    {
+        titulo: 'Uma Fazenda Maluca 2: Queijo de Cabra',
+        descricao: 'O jovem Zuzanka, Honzik e Goat procuram os pais das crianças, que o diabo aparentemente sequestrou para puni-los por produzirem queijo de cabra diabolicamente bom. No entanto, as crianças encontram seus pais não no inferno, mas no castelo, onde devem fazer queijo para Kobyl, o conselheiro do rei. Kobyl ganhou as boas graças do rei graças ao queijo. Após uma aventura perigosa e cafona, Kobyl acaba no inferno e os membros da família se reencontram.',
+        imdb: 'tt2491648',
+        imagem: 'https://image.tmdb.org/t/p/w300/zbqvfoCo4q1DrMzzc4kdocyZcFo.jpg'
+    },
+    {
+        titulo: 'Lupin III: O Ouro da Babilônia',
+        descricao: 'Na cidade de Nova York, várias tábuas de pedra foram desenterradas que contam uma história sobre o ouro da Babilônia. Duas famílias da máfia estão atrás dele, assim como o próprio Lupin III. Uma velha bêbada chamada Rosetta parece saber muito sobre este tesouro do que aparenta. Enquanto Zenigata fez um grupo de parceiras que vão algemar Lupin o 3º, a corrida pelo ouro de Babel já começou.',
+        imdb: 'tt0089943',
+        imagem: 'https://image.tmdb.org/t/p/w300/q5CQfjWGcHemKXbYNfCDBcQsJfc.jpg'
+    },
+    {
+        titulo: 'Fallen',
+        descricao: 'Após ser responsabilizada pela misteriosa morte do namorado, Lucinda Price é mandada para o reformatório Sword & Cross, onde se aproxima de Daniel Grigori, sem saber que ele é um anjo apaixonado por ela há milênios. Ao mesmo tempo, Lucinda não consegue se afastar de Cam Briel, que também é um anjo e há tempos luta pelo seu amor. Por viver isolada do mundo exterior e assombrada por estranhas visões, ela começa a desvendar aos poucos os segredos de seu passado e descobre a verdadeira identidade dos anjos caídos, bem como o amor que nutriram por ela ao longo de séculos. Lucinda deve, então, fazer sua escolha.',
+        imdb: 'tt1564777',
+        imagem: 'https://image.tmdb.org/t/p/w300/t4wfwph9hvvrtLcQdNf0JwK3fVR.jpg'
+    },
+    {
+        titulo: 'Ela é o Cara',
+        descricao: 'Viola (Amanda Bynes) é uma boa jogadora de futebol, mas sempre é impedida de jogar com os garotos de sua escola devido ao preconceito de que mulher não pode ser tão boa no esporte quanto um homem. Furiosa, Viola aproveita a viagem de seu irmão Sebastian (James Kirk) e decide se passar por ele em sua escola, jogando no time masculino de futebol. Ela tem apenas duas semanas para mostrar que sabe jogar futebol, mas acaba se apaixonando por Duke (Channing Tatum), seu companheiro de quarto, que acredita que ela é um homem.',
+        imdb: 'tt0454945',
+        imagem: 'https://image.tmdb.org/t/p/w300/ooZWyBiibhT8il0MGjOYQYYJcsT.jpg'
+    },
+    {
+        titulo: 'Pacto Secreto',
+        descricao: 'Cassidy (Briana Evigan), Ellie (Rumer Willis), Megan (Audrina Patridge), Jessica (Leah Pipes) e Claire (Jamie Chung) são irmãs de fraternidade em uma faculdade. Elas juraram manter entre elas sigilo, companheirismo e solidariedade, independentemente do que aconteça. A lealdade entre elas é testada quando uma brincadeira dá errado e Megan é brutalmente assassinada. Com medo de que seus futuros sejam destruídos, elas decidem não confessar o crime e esconder o cadáver. Um ano depois, na época da formatura, as amigas decidem realizar uma festa de despedida na casa da fraternidade. No decorrer da festa as garotas recebem vídeos no celular, com cenas da noite do assassinato de Megan, enviadas por um remetente anônimo.',
+        imdb: 'tt1232783',
+        imagem: 'https://image.tmdb.org/t/p/w300/p6ljEqL37ZV8OOQsI8LOGHjPsmS.jpg'
+    },
+    {
+        titulo: 'A Matriarca',
+        descricao: 'Após sobreviver a uma overdose, uma mulher retorna à casa onde cresceu para enfrentar seus demônios interiores, mas descobre a presença de uma entidade real.',
+        imdb: 'tt17202326',
+        imagem: 'https://image.tmdb.org/t/p/w300/o57VVZImE6RcZAffPepZyuwNLKs.jpg'
+    },
+    {
+        titulo: 'Liga da Justiça: A Nova Fronteira',
+        descricao: 'Neste épico de origem, uma descrição virtual dos super-heróis incluindo não só o Superman, Batman e a Mulher Maravilha, mas também o Lanterna Verde, Martian Manhunter e Flash, estes heróis bem diferentes devem superar seus medos e superstições um dos outros para forjar uma aliança contra uma criatura tão formidável que será preciso todos os poderes combinados para prevalecer!',
+        imdb: 'tt0902272',
+        imagem: 'https://image.tmdb.org/t/p/w300/pQjMxF8DBsLhFD9CJZUhA28Me1g.jpg'
+    },
+    {
+        titulo: 'Lanterna Verde: Primeiro Vôo',
+        descricao: 'Depois de receber das mãos de uma lienígena um anel eu lhe dá poderes sobre-humanos, o piloto Hal Jordan entra para a Tropa dos Lanternas Verdes, onde é supervisionado pelo respeitado Sinestro, Quando Jordan descobre que seu supervisor é na verdade o cabeça de uma conspiração que ameaça a filosofia e as tradições da Tropa, ele busca dominar rapidamente seus novos poderes para combater os traidores e manter a ordem no universo.',
+        imdb: 'tt1384590',
+        imagem: 'https://image.tmdb.org/t/p/w300/745szFCV9ZGvBPvlwxcSKDqW6QK.jpg'
+    },
+    {
+        titulo: 'Quatro Vidas de um Cachorro',
+        descricao: 'Um cachorro morre e reencarna várias vezes na Terra. Embora encontre novas pessoas e viva muitas aventuras, ele mantém o sonho de reencontrar Ethan, o seu primeiro dono, que sempre foi seu maior amigo.',
+        imdb: 'tt1753383',
+        imagem: 'https://image.tmdb.org/t/p/w300/3W5jF8z5GkOHEslaIv89Ncp06J4.jpg'
+    },
+    {
+        titulo: 'Superman & Batman: Apocalipse',
+        descricao: 'Semanas depois dos eventos que levaram à prisão de Lex Luthor após o Impeachment na presidência dos Estados Unidos, e do sucesso de Batman em salvar o mundo do impacto de um meteoro, uma nave espacial cai na Baía de Gotham City. Estava a bordo uma jovem de aparência adolescente e que manifesta super-poderes idênticos ao do Superman ao ser perseguida por policiais e assustar a população.',
+        imdb: 'tt1673430',
+        imagem: 'https://image.tmdb.org/t/p/w300/vZqD8QMXiZh977LipOsXQmaMM7l.jpg'
+    },
+    {
+        titulo: 'A Descoberta',
+        descricao: 'Um ano após a existência da vida após a morte ser comprovada cientificamente, milhões de pessoas recorrem ao suicídio para chegar lá. Um homem e uma mulher se apaixonam nesse cenário nada propício ao amor enquanto tentam aceitar as suas próprias tragédias pessoais e descobrir a verdadeira natureza do pós-vida. The Discovery é mais um filme original Netflix, e estreia em 31 de março.',
+        imdb: 'tt5155780',
+        imagem: 'https://image.tmdb.org/t/p/w300/lgLyPfWHkmt8v8ulz04NL2FFHQ4.jpg'
+    },
+    {
+        titulo: 'Tinta Bruta',
+        descricao: 'Pedro é um jovem que tenta sobreviver em meio a um processo criminal, à partida da irmã e aos olhares que recebe sempre que sai na rua. Sob o codinome GarotoNeon, Pedro se apresenta no escuro do seu quarto para milhares de anônimos ao redor do mundo, pela internet. Com o corpo coberto de tinta, ele realiza performances eróticas na frente da webcam. Ao descobrir que outro rapaz de sua cidade está copiando sua técnica, Pedro decide ir atrás do mesmo.',
+        imdb: 'tt7925066',
+        imagem: 'https://image.tmdb.org/t/p/w300/6zW8OKgJKaO5JHzZe6geZd2vpgT.jpg'
+    },
+    {
+        titulo: 'Fantasmas do Abismo',
+        descricao: 'Neste documentário, James Cameron e Bill Paxton mergulham para capturar imagens do Titanic.',
+        imdb: 'tt0297144',
+        imagem: 'https://image.tmdb.org/t/p/w300/4iJG3uN4DvtX9vZ5kE5XUdqfB6b.jpg'
+    },
+    {
+        titulo: 'Esticando a Festa',
+        descricao: 'A vida de Cassie é uma grande festa, até que ela morre em um acidente. Agora, essa jovem popular tem a chance de voltar à Terra e consertar seus erros.',
+        imdb: 'tt11742798',
+        imagem: 'https://image.tmdb.org/t/p/w300/1bkcOEt4zvc5tBl6xFxTbkSqhEQ.jpg'
+    },
+    {
+        titulo: 'O Leonardo Perdido',
+        descricao: 'O filme narra o mistério em torno de "Salvator Mundi", a primeira pintura de Leonardo da Vinci a ser descoberta há mais de um século, que agora aparentemente desapareceu.',
+        imdb: 'tt11225756',
+        imagem: 'https://image.tmdb.org/t/p/w300/8CCtH4klPFUOtW6sO17fJUnEIhj.jpg'
+    },
+    {
+        titulo: 'As Semanas Mágicas',
+        descricao: 'Três casais modernos tentam conciliar relacionamentos e carreiras com os desafios da vida com filhos.',
+        imdb: 'tt22506746',
+        imagem: 'https://image.tmdb.org/t/p/w300/4G83nVZiPyFTQ6KBnWhEdKr3mX2.jpg'
+    },
+    {
+        titulo: 'Explorando o Desconhecido: Robôs Assassinos',
+        descricao: 'O que acontece quando uma máquina passa a tomar decisões de vida ou morte? Este documentário explora os perigos da inteligência artificial em aplicações militares.',
+        imdb: 'tt27837442',
+        imagem: 'https://image.tmdb.org/t/p/w300/hjvYHMOmeO5AQyFTymgYlSYrHdO.jpg'
+    },
+    {
+        titulo: 'O Demônio dos Mares',
+        descricao: 'O petroleiro Paul Sturges leva sua família de férias para a Bahia Azul. Lá, ele percebe que a cidade costeira desmoronou misteriosamente. Paul começa o dia com uma visita de rotina, com sua família, para inspecionar uma plataforma de petróleo nas proximidades. A situação se torna um pesadelo quando, das profundezas do oceano, um tubarão gigante surge: o demônio negro. Sob a ameaça constante do tubarão primitivo, Paul terá que encontrar um jeito de levar sua família de volta para a costa de forma segura.',
+        imdb: 'tt10279472',
+        imagem: 'https://image.tmdb.org/t/p/w300/873A55IZrwEP98hn82EGdS0xv0N.jpg'
+    },
+    {
+        titulo: 'Batman Lego: O Filme - Super Heróis Se Unem',
+        descricao: 'Esta adaptação do videogame apresenta Batman, Flash, Mulher Maravilha, Lanterna Verde, Coringa e mesmo Yoda e Indiana Jones em uma aventura cômica, parodiando os filmes de super-heróis. Esta Liga da Justiça deve combater os vilões Lex Luthor e Coringa, que pretendem destruir a cidade de Gotham.',
+        imdb: 'tt2465238',
+        imagem: 'https://image.tmdb.org/t/p/w300/kMULqTVLgbrjfcLzSsSWAjlc6Tj.jpg'
+    },
+    {
+        titulo: 'Lego Batman: O Filme',
+        descricao: 'No spin-off de Uma Aventura Lego, Batman (Will Arnett) descobre que adotou acidentalmente um garoto órfão. Ele se torna ninguém menos que seu ajudante Robin (Michael Cera). A dupla formada pelo arrogante Homem-Morcego e o seu empolgado ajudante deve combater o crime e prender o Coringa (Zach Galifianakis).',
+        imdb: 'tt4116284',
+        imagem: 'https://image.tmdb.org/t/p/w300/qVf6lTFzDsBZUbYbk8m9dk9SipX.jpg'
+    },
     
    
 ];
