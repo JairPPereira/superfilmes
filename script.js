@@ -851,6 +851,146 @@ var filmes = [
         imdb: 'tt10172266',
         imagem: 'https://image.tmdb.org/t/p/w300/4f19r2t4gjbgMC6RbE8GYF2h46j.jpg'
     },
+
+    {
+        titulo: 'Táticas do Amor 2',
+        descricao: 'Asli nunca acreditou no casamento. Mas agora que ela descobriu que seu amado Kerem também pensa assim, ela vai fazer de tudo para convencê-lo a fazer o pedido.',
+        imdb: 'tt21308698',
+        imagem: 'https://image.tmdb.org/t/p/w300/fQTigx0WsCBdxeVZnaH6KqA8YoN.jpg'
+    },
+    {
+        titulo: 'Dirty Dancing 2 - Noites de Havana',
+        descricao: 'Em 1958, logo após a mudança para Cuba com seus pais, Katey Mille (Romola Garai), uma garota 18 anos, desafia seu círculo social ao encontrar-se com Javier (Diego Luna), um garçom cubano apaixonado pela dança.',
+        imdb: 'tt0338096',
+        imagem: 'https://image.tmdb.org/t/p/w300/w0wPl3d1yvveInjV2kpO2NCZNMz.jpg'
+    },
+    {
+        titulo: 'Akira',
+        descricao: 'Uma grande explosão fez com que Tóquio fosse destruída em 1988. Em seu lugar, foi construída Neo-Tóquio, que, em 2019, sofre com atentados terroristas por toda a cidade. Kaneda e Tetsuo são amigos que integram uma gangue de motoqueiros. Eles disputam rachas violentos com uma gangue rival, os Palhaços, até que um dia, Tetsuo encontra Takashi, uma estranha criança com poderes que fugiu do hospital onde era mantido como cobaia. Tetsuo é ferido no encontro e, antes de receber a ajuda dos amigos, é levado por integrantes do exército, liderados pelo coronel Shikishima. A partir de então, Tetsuo passa a desenvolver poderes inimagináveis, o que faz com que seja comparado ao lendário Akira, responsável pela explosão de 1988. Paralelamente, Kaneda se interessa por Kei, uma garota envolvida com espiões, que tenta decifrar o enigma por trás das cobaias controladas pelo exército.',
+        imdb: 'tt0094625',
+        imagem: 'https://image.tmdb.org/t/p/w300/erQNsU5jCkWGPzDFwF5Qhuncv2K.jpg'
+    },
+
+    {
+        titulo: 'O Silêncio da Montanha',
+        descricao: 'Itália, 1915. Os jovens Andreas (William Moseley) e Francesca (Eugenia Costantini) se conhecem no casamento da irmã dele e logo se apaixonam perdidamente. Na mesma época, a Itália declara guerra a Áustria-Hungria e a Primeira Guerra Mundial eclode. Andreas é chamado a lutar no fronte, nas montanhas Dolomitri, localizadas no norte da Itália, mas deixa com Francesca um sinalizador para que ela acenda caso esteja em perigo. Quando o conflito se agrava, o batalhão do rapaz descobre que o seu vilarejo está sendo atacado, e no momento em que a moça pede ajuda, ele precisa decidir entre lutar pelo seu país ou por sua amada.',
+        imdb: 'tt2014295',
+        imagem: 'https://image.tmdb.org/t/p/w300/d4dOQfb8BirpAy8m0r01xIGfGcN.jpg'
+    },
+    {
+        titulo: 'Armas em Jogo',
+        descricao: 'Miles se sente empacado em sua vida: seu emprego não tem futuro e ele continua apaixonado por sua ex-namorada. Um dia, ele se vê forçado a participar de uma perigosa competição realizada pela gangue Skizm. O torneio é transmitido online por um sombrio site e as pessoas da cidade se juntam para ver qual dos participantes consegue mais espectadores online. Ao descobrir que sua ex-namorada foi sequestrada por um grupo armado que participa da disputa, Miles decide deixar para trás seus medos e enfrentá-los.',
+        imdb: 'tt6902676',
+        imagem: 'https://image.tmdb.org/t/p/w300/uSypWMagzI7jJ7cq2TStGnYyyfL.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninjas: Caos Mutante',
+        descricao: 'Depois de anos sendo protegidos do mundo humano, os irmãos tartarugas saem para ganhar os corações dos nova yorkinos e serem aceitos como adolescentes normais através de seus atos heroicos. Sua nova amiga, April O’Neil, vai ajudá-los a derrotar um misterioso sindicado do crime, mas eles logo se veem em maus lençóis quando um exército de mutantes vai atrás deles.',
+        imdb: 'tt8589698',
+        imagem: 'https://image.tmdb.org/t/p/w300/x0naXPYoLxzTzRgwKhzAjQPngnw.jpg'
+    },
+    {
+        titulo: 'Devilreaux',
+        descricao: 'Uma série de assassinatos ocorridos em 1800 será vingada por um vodu proibido, despertado acidentalmente por um grupo de adolescentes.',
+        imdb: 'tt8010548',
+        imagem: 'https://image.tmdb.org/t/p/w300/wKBMwKwKbICPXAjGVuGQ7CyQ4Qz.jpg'
+    },
+    {
+        titulo: 'Gran Turismo: De Jogador a Corredor',
+        descricao: 'Baseado na história de Jann Mardenborough, e relata a trajetória de um jogador de videogame que utilizou suas habilidades nos simuladores para se tornar um piloto profissional de verdade.',
+        imdb: 'tt4495098',
+        imagem: 'https://image.tmdb.org/t/p/w300/1FRIsFSl1AOpmpBIRnUFqO6U06A.jpg'
+    },
+    {
+        titulo: 'Paint',
+        descricao: 'Carl Nargle, o pintor da televisão pública n.º 1 de Vermont, está convencido de que tem tudo, uma van personalizada e seguidores pendurados em todas as suas fotos até que um artista mais jovem e melhor rouba tudo o que Carl ama.',
+        imdb: 'tt14472156',
+        imagem: 'https://image.tmdb.org/t/p/w300/jZ1PhCyXEySYR7f9q52KYb62Bwp.jpg'
+    },
+    {
+        titulo: 'Operação: Arma Secreta',
+        descricao: 'Um agente militar contratado para apreender uma arma que transforma pessoas em assassinos está em busca de vingança após seu irmão se tornar uma vítima.',
+        imdb: 'tt28290233',
+        imagem: 'https://image.tmdb.org/t/p/w300/lHRid7SIsqHAG8hlxbg2u5E9ouN.jpg'
+    },
+    {
+        titulo: 'Fim dos Tempos',
+        descricao: 'Uma ameaça apocalíptica chega do céu trazendo uma série de mortes violentas e inexplicáveis que se espalham pelo país. A causa do fenômeno estarrecente permanece desconhecida. O professor de ciências, Elliot Moore, ao lado de sua esposa Alma e seu colega Julian, tenta escapar do assassino invisível indo para a Pensilvânia, mas logo torna-se evidente que ninguém está fora de perigo.',
+        imdb: 'tt0949731',
+        imagem: 'https://image.tmdb.org/t/p/w300/4miUoIJADDOY4MXrnpoRxHX670Z.jpg'
+    },
+    {
+        titulo: 'Shark Below Zero',
+        descricao: 'Tubarões brancos foram vistos em todo o Canadá até a costa da Terra Nova. Após a primeira suspeita de ataque de tubarão branco no Canadá em mais de 150 anos, os especialistas Greg Skomal, Heather Bowlby, Megan Winton e Warren Joyce investigam o que leva a jornada do tubarão branco ao limite mais ao norte de seu alcance.',
+        imdb: 'tt27999920',
+        imagem: 'https://image.tmdb.org/t/p/w300/c1UAwMeuBXVluMNCJ4EYqFfy52E.jpg'
+    },
+    {
+        titulo: 'Resgatados dos Tubarões',
+        descricao: 'A comunidade científica continua dividida com relação à possibilidade de golfinhos e baleias intencionalmente salvarem humanos de ataques de tubarões. Mas para as pessoas que passaram por essa situação estarrecedora, a resposta é clara.',
+        imdb: 'tt27999682',
+        imagem: 'https://image.tmdb.org/t/p/w300/3df3FZ0q0DCTFUwmi7d43fuaIaQ.jpg'
+    },
+    {
+        titulo: 'Vulcões e Tubarões: Havaí',
+        descricao: 'Para descobrir por que os tubarões são atraídos pelos vulcões do Havaí, o Dr. Mike Heithaus e a Dra. Frances Farabaugh mergulham com uma das espécies mais perigosas do mundo.',
+        imdb: 'tt27999923',
+        imagem: 'https://image.tmdb.org/t/p/w300/q3N44XL6l1AHRyDgTN1BRTEfRvV.jpg'
+    },
+    {
+        titulo: 'Amor Desaparecido',
+        descricao: 'Uma jornalista busca a verdade sobre o marido de uma mulher, um piloto que desapareceu em combate durante a Segunda Guerra Mundial.',
+        imdb: 'tt1709157',
+        imagem: 'https://image.tmdb.org/t/p/w300/27dUAfHoW5rTGjgTxO8to88PvOR.jpg'
+    },
+    {
+        titulo: 'Amor à Toda Velocidade',
+        descricao: 'Em Las Vegas, um piloto de corrida (Elvis Presley) quer participar do 1º Grande Prêmio da cidade, mas perde o dinheiro que usaria para comprar um motor. Ele então passa a trabalhar como garçom e se envolve com uma professora de natação (Ann-Margret), que sente-se incomodada pela obsessão que ele tem por corridas, pois teme que algo lhe aconteça. Ela fica então dividida quando é cortejada por um nobre italiano (Cesare Danova), que adora carros, mas diz que largaria tudo se encontrasse a mulher ideal.',
+        imdb: 'tt0058725',
+        imagem: 'https://image.tmdb.org/t/p/w300/kxcEkFykPZ0IDjbVg9xQBrvv3tr.jpg'
+    },
+    {
+        titulo: 'Sansão',
+        descricao: 'Sansão (Taylor James) é um homem com uma força sobrenatural que recebeu um chamado divino para libertar seu povo da escravidão. Quando ele perde seu amor para um cruel príncipe filisteu, o jovem hebreu parte em uma jornada para defender seu povo, sacrificando o que for preciso para vingar seu amor, seu povo e seu Deus.',
+        imdb: 'tt6951892',
+        imagem: 'https://image.tmdb.org/t/p/w300/8FCkStF9Cy3o5TtV4jBAZqA2qYF.jpg'
+    },
+    {
+        titulo: 'Reds',
+        descricao: 'Um pouco antes da Primeira Guerra Mundial John Reed (Warren Beatty), um jornalista americano, conhece Louise Bryant (Diane Keaton), uma mulher casada, que larga o marido para ficar com Reed e se torna uma importante feminista. Eles se envolvem em disputas políticas e trabalhistas nos Estados Unidos, e vão para a Rússia a tempo de participarem da Revolução de outubro de 1917, quando os comunistas assumiram o poder. Este acontecimento inspira o casal, que volta aos Estados Unidos esperando liderar uma revolução semelhante.',
+        imdb: 'tt0082979',
+        imagem: 'https://image.tmdb.org/t/p/w300/3jOs4aWI7XSVIEaF8KMojNre7A7.jpg'
+    },
+    {
+        titulo: 'Terra e Liberdade',
+        descricao: 'Primavera de 1936, um jovem comunista desempregado, David, deixa sua cidade natal Liverpool para se juntar à luta contra o fascismo na Espanha. Ele se junta a um grupo internacional de milícia, homens e mulheres, o POUM (Partido Obrero de Unificación Marxista). Depois de ser ferido, ele vai para Barcelona, ​​onde decide se juntar a outro grupo de milícia. Eles permanecem em Barc celona e acabam brigando outros grupos antifascistas. David está decepcionado e decide voltar para sua antiga milícia.',
+        imdb: 'tt0114671',
+        imagem: 'https://image.tmdb.org/t/p/w300/u5QRqW0vFYMHFzeQJ4oFgJtu5Xp.jpg'
+    },
+    {
+        titulo: 'Quando Você Terminar de Salvar o Mundo',
+        descricao: 'Evelyn e seu filho alheio Ziggy procuram substitutos um para o outro. Enquanto Evelyn tenta ser mãe de uma adolescente despretensiosa em seu abrigo, Ziggy se atrapalha em sua busca por uma jovem brilhante na escola.',
+        imdb: 'tt12121582',
+        imagem: 'https://image.tmdb.org/t/p/w300/pZyeoBDQJFPGfd0Mu8XIElGBjZz.jpg'
+    },
+    {
+        titulo: 'Fale Comigo',
+        descricao: 'Quando um grupo de amigos descobre como conjurar espíritos usando uma antiga mão embalsamada, eles ficam viciados na nova emoção. Até que um deles vai longe demais e abre a porta para o mundo espiritual.',
+        imdb: 'tt10638522',
+        imagem: 'https://image.tmdb.org/t/p/w300/6tIhfkc52XQnxzbMYeV9XK90NTG.jpg'
+    },
+    {
+        titulo: 'Nefarious',
+        descricao: 'No dia de sua execução, um assassino em série passa por uma avaliação psiquiátrica na qual ele afirma ser um demônio, e ainda alega que antes de seu tempo acabar, o psiquiatra cometerá três assassinatos.',
+        imdb: 'tt14537248',
+        imagem: 'https://image.tmdb.org/t/p/w300/xwjWUAajQJPj5aik1tounPguZbz.jpg'
+    },
+    {
+        titulo: 'Megatubarão 2',
+        descricao: 'Um mergulho exploratório nas profundezas do oceano de uma ousada equipe de pesquisa se transforma em caos quando uma operação de mineração malévola ameaça sua missão e os força a uma batalha de alto risco pela sobrevivência.',
+        imdb: 'tt9224104',
+        imagem: 'https://image.tmdb.org/t/p/w300/8tBhAn6qVRQzf5yvEcxjgPMgTkw.jpg'
+    }    
    
 ];
 
