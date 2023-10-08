@@ -1430,6 +1430,150 @@ var filmes = [
         imdb: 'tt2123516',
         imagem: 'https://image.tmdb.org/t/p/w300/iSPCeuGiN06540ZUCfcunc4hOm3.jpg'
     }, 
+    {
+        titulo: 'Sisu',
+        descricao: 'Nas profundezas do deserto da Lapônia, Aatami Korpi está em busca de ouro. De vez em quando, o sobrevoo de bombardeiros e os sons distantes da guerra podem ser ouvidos na noite de outono. Finalmente, o trabalho árduo é recompensado e o pó de ouro na panela se transforma em pedaços de ouro, e Aatami sai para levar seu tesouro de ouro para a cidade mais próxima. Depois que ele se depara com a patrulha nazista liderada pelo SS Obersturmführer Bruno Helldorf, começa uma perseguição de tirar o fôlego e faminta por ouro através do deserto destruído e minado da Lapônia.',
+        imdb: 'tt14846026',
+        imagem: 'https://image.tmdb.org/t/p/w300/uCAaaAQEDrTllYR4dtsEsfQa8We.jpg'
+    },
+    {
+        titulo: 'Filho da Mãe',
+        descricao: 'O documentário mostra a deliciosa intimidade do ator com Dona Déa, sua inspiração para criar a Dona Hermínia. Com imagens inéditas, o filme acompanha os bastidores divertidos e emocionantes da última turnê do artista.',
+        imdb: 'tt21339834',
+        imagem: 'https://image.tmdb.org/t/p/w300/z8ZbaGCahlXwri66rPHjgw54jo1.jpg'
+    },
+    {
+        titulo: 'Pooka',
+        descricao: 'Um ator relutante consegue um trabalho para as épocas festivas como o mascote do brinquedo mais vendido do ano, Pooka. Mas, aos poucos ele desenvolve duas personalidades - uma quando está com a fantasia e outra quando não está.',
+        imdb: 'tt8870814',
+        imagem: 'https://image.tmdb.org/t/p/w300/q6Rmmz5MYWHBqqdxhW6nsj0vgts.jpg'
+    },
+    {
+        titulo: 'Super Quem? Heróis Por Acidente',
+        descricao: 'Cedric é um ator que, após anos tendo sua carreira vista como chacota, encontra uma oportunidade que promete mudar sua vida: dar vida ao personagem super-herói Badman! Nome familiar, não? Só que um acidente de carro não estava nos planos de Cedric. Assim que o ator desperta da batida, sua vida real se torna um apagão, e ele passa a acreditar que é legitimamente Badman, o super-herói.',
+        imdb: 'tt13774454',
+        imagem: 'https://image.tmdb.org/t/p/w300/b9XVAP8AWQ30uRkKNTvmER8OVMa.jpg'
+    },
+    {
+        titulo: 'Uma Fazenda Maluca',
+        descricao: 'Baseado em um clássico conto da literatura checa. Esta história fala sobre a amizade do relojoeiro Jemmy, um pequeno rapaz de uma vila que chega a Praga Medieval com sua cabra. Lá, Jemmy acaba se apaixonando por Katy, uma jovem de Praga. A cabra acaba ficando com ciúmes e passa a odiar Katy. A dupla, porém, tem como missão salvar o relógio Astronômico de Praga dos gananciosos vereadores que estão impedindo a criação de outros relógios.',
+        imdb: 'tt1308650',
+        imagem: 'https://image.tmdb.org/t/p/w300/5DV34HGjjRjMQoRRyMPjIoV9FdL.jpg'
+    },
+    {
+        titulo: 'O Mínimo Para Viver',
+        descricao: 'Uma jovem (Lily Collins) está lidando com um problema que afeta muitos jovens no mundo: a anorexia. Sem perspectivas de se livrar da doença e ter uma vida feliz e saudável, a moça passa os dias sem esperança. Porém, quando ela encontra um médico (Keanu Reeves) não convencional que a desafia a enfrentar sua condição e abraçar a vida, tudo pode mudar.',
+        imdb: 'tt5541240',
+        imagem: 'https://image.tmdb.org/t/p/w300/jKbr1VbR0NKpuspJHh1qg3xz7FT.jpg'
+    },
+    {
+        titulo: 'Doze Homens e Outro Segredo',
+        descricao: 'Após o sucesso do roubo e de conseguir de volta sua esposa, Danny Ocean (George Clooney) reparte o dinheiro e cada um da equipe vai viver de forma discreta. No entanto, Terry Benedict, o dono do cassino assaltado, reaparece e exige a quantia roubada de volta com juros, mas os membros da gangue já gastaram grande parte do dinheiro. Danny e sua equipe concluem que a melhor opção é roubar uma raríssima obra que está sendo exibido em um museu de Roma, no valor que eles precisam.',
+        imdb: 'tt0349903',
+        imagem: 'https://image.tmdb.org/t/p/w300/jLt2z5Zg3lDHuWU0NabkLDSvfDy.jpg'
+    },
+    {
+        titulo: 'Treze Homens e um Novo Segredo',
+        descricao: 'Reuben Tischkoff, o homem que bancou financeiramente o assalto triplo aos cassinos de Terry Benedict, foi traído por Willie Bank, um inescrupuloso dono de cassinos. Com Reuben no hospital, Danny Ocean, Rusty Ryan e sua trupe mais uma vez se reúnem para iniciar um plano de vingança. O objetivo é derrotar Bank na noite de inauguração de seu mais luxuoso cassino, chamado The Bank, derrotando-o financeiramente e também atingindo sua reputação.',
+        imdb: 'tt0496806',
+        imagem: 'https://image.tmdb.org/t/p/w300/hWmFe0A26TNmnfHrHdmKmN0N6QZ.jpg'
+    },
+    {
+        titulo: 'Às Cegas',
+        descricao: 'Após um ataque violento, Ellen se tornou reclusa em seu apartamento para se recuperar. Mas logo ela mergulha na paranóia, incapaz de convencer ninguém de que seu agressor voltou para aterrorizá-la, escondendo-se à vista de todos.',
+        imdb: 'tt10303430',
+        imagem: 'https://image.tmdb.org/t/p/w300/7UEqRremYl9cxCPAApYtvqRpcqW.jpg'
+    },
+    {
+        titulo: 'Bela Vingança',
+        descricao: 'Uma jovem mulher assombrada por uma tragédia em seu passado se vinga nos homens predadores que cruzam seu caminho.',
+        imdb: 'tt9620292',
+        imagem: 'https://image.tmdb.org/t/p/w300/r7FwclLTWB8i6XfBNTtUsyONlgN.jpg'
+    },
+    {
+        titulo: 'Barbie e As Três Mosqueteiras',
+        descricao: 'A jovem Corinne tem um grande sonho - ser uma mosqueteira! O problema é que esse é um trabalho só para homens. Mas, mesmo assim, Corinne decide ir para Paris e lutar por aquilo que quer. Lá, ela conhece Viveca, Aramina e Reneé, três moças que têm o mesmo objetivo. Juntas, elas vão treinar muito para, um dia, provar seu valor. E essa oportunidade está mais perto do que elas imaginam. O malvado regente Felipe está conspirando contra o príncipe Louis para tomar poder. Agora, para desmascarar esse terrível vilão e salvar a vida de Louis, as quatro corajosas guerreiras vão precisar de todas as suas habilidades. E, quem sabe, ainda provar para o príncipe que são dignas de se juntar aos soldados do reino.',
+        imdb: 'tt1484922',
+        imagem: 'https://image.tmdb.org/t/p/w300/aulv0DUM41tmEM9BoDVaczBojsz.jpg'
+    },
+    {
+        titulo: 'Nunca Fui Beijada',
+        descricao: 'Josie Geller (Drew Barrymore) está pronta para uma mudança radical. Ela é a mais jovem editora de um grande jornal, mas nunca foi levada a sério como jornalista, apesar de ser uma profissional supercompetente. Dedica todo o seu tempo exclusivamente ao trabalho, já sua vida pessoal é uma outra história.  Ainda marcada pela sua reputação de adolescente babaca, Josie é uma garota de 25 anos que nunca namorou e nunca foi beijada... até agora! Contra tudo e todos, Josie consegue sua primeira missão como repórter. Ela precisa fingir que é uma estudante e entrar numa escola para descobrir a intimidade dos jovens alunos. A situação torna-se hilariante quando Josie revive sua própria história conhece um amor em potencial e sente na própria pelo os dramas da adolescência.',
+        imdb: 'tt0151738',
+        imagem: 'https://image.tmdb.org/t/p/w300/txX1wXYysKGkDGi4EsHTcq1KwZz.jpg'
+    },
+    {
+        titulo: 'O Jogo de Amor – "Odio"',
+        descricao: 'Resolvendo alcançar o sucesso profissional sem comprometer sua ética, Lucy embarca em um jogo implacável de luta contra o frio e eficiente inimigo Joshua, uma rivalidade que é complicada por sua crescente atração por ele.',
+        imdb: 'tt8718158',
+        imagem: 'https://image.tmdb.org/t/p/w300/nWTeXUGWsSDoDLC4UucMeM07gA5.jpg'
+    },
+    {
+        titulo: 'Dezesseis Luas',
+        descricao: 'Ethan conhece a mulher dos seus sonhos quando Lena aparece em sua cidade, e os dois acabam se apaixonando. Mas, para salvar o romance, eles precisam descobrir os segredos obscuros de suas famílias, guardados a sete chaves.',
+        imdb: 'tt1559547',
+        imagem: 'https://image.tmdb.org/t/p/w300/8BcxlJFLBk9DpDpcKYFExc4iubS.jpg'
+    },
+    {
+        titulo: 'Louca Obsessão',
+        descricao: 'Depois de terminar seu mais novo manuscrito, o escritor de sucesso, Paul Sheldon, decide sair para comemorar. O problema é que está nevando demais e Paul acaba sofrendo um terrível acidente. Ele é salvo e abrigado por uma ex-enfermeira chamada Annie Wilkes, que se auto-intitula sua fã número um. Aparentemente uma simpática e doce senhora, Annie, aos poucos, vai se revelando uma sádica psicótica, que começa a torturar Paul quando descobre que ele matou sua personagem favorita em seu último livro publicado. Agora, Paul Sheldon terá de usar suas artimanhas de escritor para ganhar tempo, enganar Annie e, com sorte, escapar deste pesadelo.',
+        imdb: 'tt0100157',
+        imagem: 'https://image.tmdb.org/t/p/w300/3aANzopHLOlJLrq9LfbJI5zY2IP.jpg'
+    },
+    {
+        titulo: 'Batman: Ataque ao Arkham',
+        descricao: 'Bem-vindo ao coração sombrio de Gotham City. Do centro das sombras surge o Asilo Arkham, um depósito purulento de tudo que é vil, perigoso e delirante, com uma população que cresce exponencialmente graças ao Cavaleiro das Trevas. Mas quando Batman frustra o mais recente plano do Charada e uma importante parte de uma evidência precisa ser secretamente recuperada no Arkham, a solução vem de uma inesperada fonte: uma equipe secreta de ataque do governo montada no submundo de Gotham City. O assassino Pistoleiro lidera o Esquadrão Suicida: Arlequina, Nevasca, Capitão Bumerangue, Tubarão Rei e Aranha Negra, um bando de desonestos que conhecem o Asilo Arkham e seus residentes muitíssimo bem.',
+        imdb: 'tt3139086',
+        imagem: 'https://image.tmdb.org/t/p/w300/gX2Uy1GnIB8bbeP7EfXBUxzGmqY.jpg'
+    },
+    {
+        titulo: 'Mulher Maravilha',
+        descricao: 'Mulher Maravilha contará a origem da amazona na mísitca ilha grega de Temíscera e sua inevitável jornada pelo mundo dos homens, onde ela se estabelce como heroína que segue suas próprias regras. Entretanto, o conflito se estabelece quando o deus da guerra, Ares, escapa da sua prisão e jura vingança contra o mundo dos mortais e dos deuses. Cabe à Mulher-Maravilha impedi-lo.',
+        imdb: 'tt1186373',
+        imagem: 'https://image.tmdb.org/t/p/w300/wUhVYGSEWyb9xOl9kWspxLTpAxQ.jpg'
+    },
+    {
+        titulo: 'Apóstolo',
+        descricao: 'Um homem misterioso viaja para uma ilha remota em busca de sua irmã desaparecida. Ele tenta resgatar sua irmã depois que ela foi sequestrada por um culto religioso, que está exigindo um resgate por seu retorno. Mas logo se torna claro que o culto vai lamentar o dia que ceifou este homem, que escava cada vez mais profundamente nos segredos e mentiras sobre os quais a comunidade está construída.',
+        imdb: 'tt6217306',
+        imagem: 'https://image.tmdb.org/t/p/w300/p7KGpuO13YUsRxFSPcANFs1MAx1.jpg'
+    },
+    {
+        titulo: 'Viajantes - Instinto e Desejo',
+        descricao: 'Um grupo de jovens é enviado ao espaço numa missão para povoar um planeta recém descoberto. Depois que o capitão da missão é misteriosamente morto, a jovem tripulação vai ao caos, revertendo para um estado primitivo, tribal, e cedendo aos seus desejos mais selvagens.',
+        imdb: 'tt9664108',
+        imagem: 'https://image.tmdb.org/t/p/w300/50mYEEOiueKarAhlHAz5qOTuIzX.jpg'
+    },
+    {
+        titulo: 'Ligadas pelo Desejo',
+        descricao: 'Corky é uma ex-presidiária lésbica que arranja um emprego como encanadora em um prédio. Lá ela conhece Caesar, que trabalha fazendo lavagem de dinheiro para a Máfia, e sua namorada, Violet. As duas mulheres começam, então, um romance, e planejam roubar dois milhões de dólares que estão sob os cuidados de Caesar, antes que ele os devolva para seu chefe. Mas o plano começa a dar errado quando ele tem uma reação inesperada.',
+        imdb: 'tt0115736',
+        imagem: 'https://image.tmdb.org/t/p/w300/jvy0RFmTRJDlceqqF4bfbxfd7Dk.jpg'
+    },
+    {
+        titulo: 'Tesla: O Homem Elétrico',
+        descricao: 'A história real do gênio revolucionário Nikola Tesla. De sua relação com Thomas Edison a seus experimentos com a eletricidade e a criação de um novo sistema mundial de transmissão de energia sem fio.',
+        imdb: 'tt5259822',
+        imagem: 'https://image.tmdb.org/t/p/w300/xD6ytmowMxYcrPCh4oYhcWyuTF0.jpg'
+    },
+    {
+        titulo: 'iNumber Number: O Ouro de Joanesburgo',
+        descricao: 'Encarregado de investigar um histórico roubo de ouro em Joanesburgo, um policial infiltrado precisa escolher entre a lei e a própria consciência.',
+        imdb: 'tt27728519',
+        imagem: 'https://image.tmdb.org/t/p/w300/lfsbL4QcmMKJvdVYE36tPRmoaiv.jpg'
+    },
+    {
+        titulo: 'A Descoberta Perfeita',
+        descricao: 'Uma editora de moda vê seu retorno profissional ameaçado ao descobrir que o rapaz que ela beijou em uma festa é um colega de trabalho e, pior, filho da nova chefe! ',
+        imdb: 'tt8400584',
+        imagem: 'https://image.tmdb.org/t/p/w300/xlN4vXWzvoZ2LCdhsyFv4zOZBY6.jpg'
+    },
+    {
+        titulo: 'Amor em Foco',
+        descricao: 'Duas avós intrometidas fazem os netos se reencontrarem e reacendem uma paixão da infância, além de desentendimentos do passado.',
+        imdb: 'tt21257152',
+        imagem: 'https://image.tmdb.org/t/p/w300/iiKXokniuqAwhVZjLhIGJhXIKzk.jpg'
+    },
 ];
 
 // Função para buscar filmes
