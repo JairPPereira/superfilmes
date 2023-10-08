@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="/assets/css/icofont.css">
     <link rel="stylesheet" href="https://superfilmes.pages.dev/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="busca.js"></script>
+    <script src="/busca.js"></script>
     <script src="script.js"></script>
     <script src="/info.js"></script>
     <script>
@@ -140,6 +140,8 @@
             </div>
         </nav>
     </header>
+
+
             </div>
         </div>
     </div>
@@ -187,6 +189,8 @@
         
 
         <div class="container-fluid mt-2">
+            <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-5">
+            <div id="search-results"></div></div>
             <div class="row row-cols-2 row-cols-sm-4 row-cols-lg-5" id="filmes-container">
                 <script>
                    document.getElementById('filmes-container').innerHTML = adicionarFilmesNaPagina(10);
