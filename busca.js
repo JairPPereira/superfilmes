@@ -1574,6 +1574,150 @@ var filmes = [
         imdb: 'tt21257152',
         imagem: 'https://image.tmdb.org/t/p/w300/iiKXokniuqAwhVZjLhIGJhXIKzk.jpg'
     },
+    {
+        titulo: 'Que Horas Eu Te Pego?',
+        descricao: 'Uma jovem falida é contratada para namorar um adolescente introvertido e socialmente desajeitado, que está se preparando para a faculdade.',
+        imdb: 'tt15671028',
+        imagem: 'https://image.tmdb.org/t/p/w300/en47PkDX8IhtQA3i1MYslx8eH91.jpg'
+    },
+    {
+        titulo: 'Barraco de Família',
+        descricao: 'Cleide recebe a visita de sua filha Kellen, uma funkeira de sucesso que, depois de um ano sem dar notícias, reaparece na vila onde a família mora. Como toda mãe que se preze, Cleide sabe que onde há fumaça, há fogo, e desconfia da mudança repentina de atitude da filha. Vai rolar muita confusão nesse barraco de família.',
+        imdb: 'tt19408362',
+        imagem: 'https://image.tmdb.org/t/p/w300/f5IqNMb4IVdijcaHI3oXyM6sEhE.jpg'
+    },
+    {
+        titulo: 'Mafia Mamma: De Repente Criminosa',
+        descricao: 'Uma mãe suburbana herda o império da máfia de seu falecido avô na Itália. Guiada pelo consigliere de confiança da empresa, ela desafia de forma hilária as expectativas de todos ao se ver presa no meio de uma guerra mortal de máfia',
+        imdb: 'tt13923456',
+        imagem: 'https://image.tmdb.org/t/p/w300/ldMp0tTPzlcjdoAJI1jfnDXRrfX.jpg'
+    },
+    {
+        titulo: 'Monstros do Homem',
+        descricao: 'Uma empresa de robótica que tenta ganhar um lucrativo contrato militar se alia a um agente corrupto da CIA para conduzir um teste ilegal de campo ao vivo. Eles lançam quatro protótipos de robôs armados em um campo suspeito de fabricação de drogas no Triângulo Dourado, presumindo que estariam matando traficantes de drogas que ninguém perderia. Seis médicos em uma missão humanitária testemunham o massacre brutal e se tornam os principais alvos.',
+        imdb: 'tt6456326',
+        imagem: 'https://image.tmdb.org/t/p/w300/uoYHGazS5wLQFJe7tqZ39M8dA7Q.jpg'
+    },
+    {
+        titulo: 'Royalteen: Princesa Margrethe',
+        descricao: 'Após o escândalo no baile de formatura, a princesa Margrethe só quer levar uma vida normal. Mas, por trás da imagem de perfeição, ela lida com problemas familiares.',
+        imdb: 'tt22488414',
+        imagem: 'https://image.tmdb.org/t/p/w300/oWmcC2RENbkdS3BuPor530KzKDc.jpg'
+    },
+    {
+        titulo: 'Royalteen',
+        descricao: 'Ela começou um romance inesperado com o príncipe herdeiro, mas vai ter que fazer de tudo para impedir que seu passado escandaloso (e um grande segredo) sejam revelados.',
+        imdb: 'tt15022184',
+        imagem: 'https://image.tmdb.org/t/p/w300/n7ptP3khuhWHrTvFO0VCVPs6EVY.jpg'
+    },
+    {
+        titulo: 'Amor Não Tem Idade',
+        descricao: 'Maggie Delaney é uma mãe divorciada que se aventura no mundo do namoro com a ajuda de Michael, o pai solteiro do amigo de seu filho. Ao mesmo tempo, a mãe de Maggie e sua filha adolescente começam seus próprios romances.',
+        imdb: 'tt20859028',
+        imagem: 'https://image.tmdb.org/t/p/w300/4FaXdT2g7jOOpCT2vgXDkfIMEKv.jpg'
+    },
+    {
+        titulo: 'Amor Sem Limites',
+        descricao: 'O sofisticado traficante de drogas Sev e sua sensual namorada Maddie levam uma vida sem limites. De festas loucas a aventuras movidas a drogas, a vida é boa para o casal até que um amigo de infância aparece do nada e pede ajuda. Esse evento desencadeia uma sequência de acontecimentos irreversíveis que colocam seu amor e suas vidas em risco.',
+        imdb: 'tt5212808',
+        imagem: 'https://image.tmdb.org/t/p/w300/rsnZmL3oW0XUU9tICw7JB1zLa4m.jpg'
+    },
+    {
+        titulo: 'O Mistério de Maya',
+        descricao: 'Neste documentário, um casal acusado de abuso infantil enfrenta as autoridades da Flórida para recuperar a guarda da filha doente.',
+        imdb: 'tt27542448',
+        imagem: 'https://image.tmdb.org/t/p/w300/9niJrWHUCnPnDTrnYmVki663Esf.jpg'
+    },
+    {
+        titulo: 'O Pacto',
+        descricao: 'Um sargento do Exército é resgatado de uma missão no Afeganistão pelo seu intérprete. Naquela que seria a sua última missão no estrangeiro, Kinley fica à beira da morte mas sobrevive graças a Ahmed, que o protege e o carrega por quilometros a fim de garantir a sua segurança. Sem se lembrar muito bem do que aconteceu, o sargento apenas sabe que quando o homem se encontra em risco de vida, como a sua família, é a sua verdadeira missão retribuir o favor e ajudá-lo a sobreviver.',
+        imdb: 'tt4873118',
+        imagem: 'https://image.tmdb.org/t/p/w300/pTQZT9R6YjKrweJ0llPtq57j1Z0.jpg'
+    },
+    {
+        titulo: 'Demônio de Neon',
+        descricao: 'Jesse (Elle Fannng) é uma jovem de 18 anos que acaba de chegar a Los Angeles. Dona de uma beleza natural impressionante, ela tenta a sorte como modelo profissional. Após tirar algumas fotos mórbidas para um jovem fotógrafo, é contratada por uma conceituada agência de modelos. Bastante ingênua, ela passa a lidar com o ego sempre inflado das demais modelos e também com a maquiadora Ruby (Jena Malone), que possui intenções ocultas com a jovem.',
+        imdb: 'tt1974419',
+        imagem: 'https://image.tmdb.org/t/p/w300/tZzE1utUG5psYaT58cZbrrx7nyx.jpg'
+    },
+    {
+        titulo: 'Beau Tem Medo',
+        descricao: 'Um homem paranoico embarca em uma odisseia épica para voltar para casa e encontrar sua mãe.',
+        imdb: 'tt13521006',
+        imagem: 'https://image.tmdb.org/t/p/w300/vPZnGnrLok0S5ZHPL5H8RG4PmEK.jpg'
+    },
+    {
+        titulo: 'Cães de Guerra',
+        descricao: 'Após uma experiência mal sucedida em fazer negócios com o governo, dois amigos moradores de Miami Beach, que levam uma vida tranquila e que só queriam dinheiro para sustentar seu vício em maconha, descobrem que existe um mercado ilícito em expansão com a venda de armas para o exterior. Ao fechar um contrato de 300 milhões de dólares, eles terão de ir para o Afeganistão acompanhar a explosiva transação pessoalmente',
+        imdb: 'tt2005151',
+        imagem: 'https://image.tmdb.org/t/p/w300/uv9g0yF3z10tWWq24OQewQf6r5e.jpg'
+    },
+    {
+        titulo: 'Enquanto Estivermos Juntos',
+        descricao: 'A história real de Jeremy Camp, famoso cantor de rock cristão e indicado ao Grammy. A obra deseja focar como a religião foi essencial para o artista superar dores de sua vida, principalmente quando sua esposa Melissa é vítima de câncer.',
+        imdb: 'tt9779516',
+        imagem: 'https://image.tmdb.org/t/p/w300/FyxWixSh2EHN44SbbC640NcaUF.jpg'
+    },
+    {
+        titulo: 'A Janela Secreta',
+        descricao: 'Mort Rainey é um escritor em crise, que acaba de se separar de sua esposa após tê-la flagrado com outro homem. Mort decide se isolar em uma cabana à beira do lago Tashmore, em busca de tranquilidade. Porém lá aparece John Shooter, que começa a atormentá-lo ao acusá-lo seguidamente de plágio',
+        imdb: 'tt0363988',
+        imagem: 'https://image.tmdb.org/t/p/w300/dJ2XE9EQVixJVLfMUSF85E4TiaA.jpg'
+    },
+    {
+        titulo: 'Alexandre e o Dia Terrível, Horrível, Espantoso e Horroroso',
+        descricao: 'Alexandre é um garoto de 11 anos que enfrenta o pior dia de sua vida. Primeiro, ele acorda com chiclete grudado em seu cabelo. Na hora de se vestir, ele tropeça e deixa cair sua malha na pia cheia de água. No café da manhã, seus irmãos encontram belos prêmios na caixa de cereal, mas Alexander não encontra nada. O resto do dia reserva muitas outras más notícias e acontecimentos ruins.',
+        imdb: 'tt1698641',
+        imagem: 'https://image.tmdb.org/t/p/w300/7DhdFeIxE9zCnjF7qGkjNxHQIr9.jpg'
+    },
+    {
+        titulo: 'Se Algo Acontecer... Te Amo',
+        descricao: 'Pais enlutados lutam com a perda de sua filha após um tiroteio na escola. Uma elegia ao luto.  O filme foi produzido pela Gilbert Films e Oh Good Productions.',
+        imdb: 'tt11768948',
+        imagem: 'https://image.tmdb.org/t/p/w300/81sFRZluM59eRmvhNMSPQItRfOV.jpg'
+    },
+    {
+        titulo: 'Indiana Jones e A Relíquia do Destino',
+        descricao: 'Encontrando-se em uma nova era, aproximando-se da aposentadoria, Indy luta para se encaixar em um mundo que parece tê-lo superado. Mas quando os tentáculos de um mal muito familiar retornam na forma de um antigo rival, Indy deve colocar seu chapéu e pegar seu chicote mais uma vez para garantir que um antigo e poderoso artefato não caia nas mãos erradas.',
+        imdb: 'tt1462764',
+        imagem: 'https://image.tmdb.org/t/p/w300/9EnfMH0nTPCna87Mh3G8Q6W2wze.jpg'
+    },
+    {
+        titulo: 'O Nascimento do Mal',
+        descricao: 'Depois de anos tentando desesperadamente criar uma família, Julie (Melissa Barrera) está finalmente grávida de novo e se mudando para uma nova casa com seu marido Daniel (Guy Burnet). Ambos estão ansiosos para um novo começo. Quando Julie é colocada em repouso absoluto na cama, ela lentamente começa ser consumida pela monotonia e a ansiedade de suas novas compulsões. Experiências horríveis e assustadoras no apartamento logo começam a cair sobre Julie, despertando demônios de seu passado e fazendo com que outras pessoas questionem sua sanidade. Presa e forçada a enfrentar seu passado e o sobrenatural, Julie luta para proteger a si mesma e a seu bebê ainda não nascido.',
+        imdb: 'tt4896168',
+        imagem: 'https://image.tmdb.org/t/p/w300/dyZF3BqHD24J4UTdwK8OMuK5mfI.jpg'
+    },
+    {
+        titulo: 'Nimona',
+        descricao: 'Um cavaleiro acusado de um crime terrível recorre a uma adolescente que muda de forma para provar sua inocência.  Mas e se ela for o monstro que ele jurou destruir?',
+        imdb: 'tt19500164',
+        imagem: 'https://image.tmdb.org/t/p/w300/dHFUte9BLYhihC9YqKWyxmWXnZu.jpg'
+    },
+    {
+        titulo: 'O Amor Mandou Mensagem',
+        descricao: 'Mira Ray, ainda tentando superar a morte de seu noivo, manda uma série de mensagens para seu número antigo, não sabendo que o mesmo foi transferido para Rob Burns, um jornalista. Ele acaba ficando intrigado e cativado pelas mensagens românticas. Quando é designado a escrever um perfil da cantora Celine Dion, ele pede conselhos a artista em como pode conhecer Mira pessoalmente (sem ser esquisito) e conquistar seu coração.',
+        imdb: 'tt10276482',
+        imagem: 'https://image.tmdb.org/t/p/w300/s3SntheUQWJysPSZGcegQj473Pq.jpg'
+    },
+    {
+        titulo: 'Awake',
+        descricao: 'O caos se instala no planeta depois que um acontecimento global neutraliza todos os equipamentos eletrônicos e acaba com a capacidade humana de dormir. Mas Jill (Gina Rodriguez), uma ex-militar com um passado problemático, pode ter a chave para a cura: sua própria filha.',
+        imdb: 'tt10418662',
+        imagem: 'https://image.tmdb.org/t/p/w300/uZkNbB8isWXHMDNoIbqXvmslBMC.jpg'
+    },
+    {
+        titulo: 'Através da Minha Janela: Além-mar',
+        descricao: 'Raquel e Ares enfrentam mais desafios em seu relacionamento agora que moram e estudam em países diferentes.',
+        imdb: 'tt21245882',
+        imagem: 'https://image.tmdb.org/t/p/w300/252wEUZ6lr4a5sF7DUzRRH3iGEO.jpg'
+    },
+    {
+        titulo: 'Elementos',
+        descricao: 'Em uma cidade onde moradores do fogo, da água, da terra e do ar vivem juntos, uma jovem impetuosa e um homem tranquilo estão prestes a descobrir algo elementar: o quanto realmente têm em comum.',
+        imdb: 'tt15789038',
+        imagem: 'https://image.tmdb.org/t/p/w300/88OGFOcFI04CL4uucb6I7ZzUqD6.jpg'
+    },
 ];
 
 // Função para buscar filmes
