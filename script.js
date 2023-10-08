@@ -1279,7 +1279,150 @@ var filmes = [
         imdb: 'tt4116284',
         imagem: 'https://image.tmdb.org/t/p/w300/qVf6lTFzDsBZUbYbk8m9dk9SipX.jpg'
     },
-    
+    {
+        titulo: 'Asteroid City',
+        descricao: 'O roteiro de uma convenção dos Astrônomos Júnior/Cadetes do Espaço, organizada para reunir estudantes de todo o país, e suas famílias, para uma competição escolar de bolsas de estudos é espetacularmente interrompido por eventos que podem impactar e transformar o mundo.',
+        imdb: 'tt14230388',
+        imagem: 'https://image.tmdb.org/t/p/w300/4BYYVj8mFDAgeQBz89eJRCpMEYI.jpg'
+    },
+    {
+        titulo: 'Bird Box Barcelona',
+        descricao: 'Depois que uma força misteriosa dizima a população do mundo, Sebastian precisa enfrentar uma jornada de sobrevivência pelas ruas desoladas de Barcelona. Mas, ao se aliar a outros sobreviventes em busca de um lugar seguro, eles descobrem uma ameaça ainda mais sinistra que não para de crescer.',
+        imdb: 'tt14400246',
+        imagem: 'https://image.tmdb.org/t/p/w300/iTGBHdL12QEpLyRVlykDuiYxzAG.jpg'
+    },
+    {
+        titulo: 'A Missão',
+        descricao: 'No final do século XVIII Mendoza (Robert De Niro), um mercador de escravos, fica com crise de consciência por ter matado Felipe (Aidan Quinn), seu irmão, num duelo, pois Felipe se envolveu com Carlotta (Cherie Lunghi). Ela havia se apaixonado por Felipe e Mendoza não aceitou isto, pois ela tinha um relacionamento com ele. Para tentar se penitenciar Mendoza se torna um padre e se une a Gabriel (Jeremy Irons), um jesuíta bem intencionado que luta para defender os índios, mas se depara com interesses econômicos.',
+        imdb: 'tt0091530',
+        imagem: 'https://image.tmdb.org/t/p/w300/itBZgfqQ6yHL7KN80M3BxO02Knp.jpg'
+    },
+    {
+        titulo: 'To End All War: Oppenheimer & the Atomic Bomb',
+        descricao: 'Explore como o impulso implacável de um homem e a invenção da bomba atômica mudaram a natureza da guerra para sempre, levaram à morte de centenas de milhares de pessoas e desencadearam a histeria em massa.',
+        imdb: 'tt28240284',
+        imagem: 'https://image.tmdb.org/t/p/w300/xwkYWcs8aypUtk3xDRUh0ndo4GA.jpg'
+    },
+    {
+        titulo: 'Aranhas! Um Experimento Que Deu Errado',
+        descricao: 'Em um misterioso laboratório localizado no deserto, as aranhas experimentais usadas para pesquisa genética se transformam em monstros gigantes e o laboratório é reduzido a um ninho infestado de insetos. Alguns dias depois, uma equipe especial de operações liderada pelo capitão Gao Qiang escolta o Dr. Chen, um cientista do Grupo Kwon Plant, para resgatar as pessoas presas e tentar recuperar os dados científicos relevantes, mas o Dr. Chen esconde a situação real que está acontecendo dentro do laboratório...',
+        imdb: 'tt18298604',
+        imagem: 'https://image.tmdb.org/t/p/w300/uwWKxXedTIqWQ1bPXE4kkbjIjv8.jpg'
+    },
+    {
+        titulo: 'De Tirar o Fôlego',
+        descricao: 'Mesmo em caminhos diferentes no esporte, uma premiada mergulhadora e um especialista em segurança pareciam destinados a se encontrar. Esta obra retrata as emocionantes conquistas e os riscos inevitáveis da jornada em busca de um sonho nas profundezas do oceano.',
+        imdb: 'tt24132732',
+        imagem: 'https://image.tmdb.org/t/p/w300/pmIXPqjZl50UP2dbglEKDfOOBZV.jpg'
+    },
+    {
+        titulo: 'Resident Evil: Ilha da Morte',
+        descricao: 'Em San Francisco, Jill Valentine está lidando com um surto de zumbis e um novo T-Virus, Leon Kennedy está no encalço de um cientista DARPA sequestrado e Claire Redfield está investigando um peixe monstruoso que está matando baleias na baía. Acompanhados por Chris Redfield e Rebecca Chambers, eles descobrem que as pistas de seus casos separados convergem para o mesmo local, a Ilha de Alcatraz, onde um novo mal se estabeleceu e aguarda sua chegada.',
+        imdb: 'tt26674627',
+        imagem: 'https://image.tmdb.org/t/p/w300/nEWftodqakZu0RcfqhVr9f7ZdUH.jpg'
+    },
+    {
+        titulo: 'Abercrombie & Fitch: Ascensão e Queda',
+        descricao: 'Este documentário explora o reinado da A&F na cultura pop na virada do milênio e mostra como a marca prosperou através da exclusão.',
+        imdb: 'tt19034522',
+        imagem: 'https://image.tmdb.org/t/p/w300/8Zi3lyy7hOw2VGeLJ0A813oSGis.jpg'
+    },
+    {
+        titulo: 'Oppenheimer',
+        descricao: 'A história do físico americano J. Robert Oppenheimer, seu papel no Projeto Manhattan e no desenvolvimento da bomba atômica durante a Segunda Guerra Mundial, e o quanto isso mudaria a história do mundo para sempre.',
+        imdb: 'tt15398776',
+        imagem: 'https://image.tmdb.org/t/p/w300/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg'
+    },
+    {
+        titulo: 'Barbie',
+        descricao: 'No mundo mágico das Barbies, "Barbieland", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no "mundo real", onde descobre que a beleza está no interior de cada um.',
+        imdb: 'tt1517268',
+        imagem: 'https://image.tmdb.org/t/p/w300/iuFNMS8U5cb6xfzi51Dbkovj7vM.jpg'
+    },
+    {
+        titulo: 'Sobrenatural: A Porta Vermelha',
+        descricao: 'Josh Lambert segue para o leste para deixar seu filho, Dalton, na faculdade. Mas demônios reprimidos do passado voltam repentinamente para assombrar os dois.',
+        imdb: 'tt13405778',
+        imagem: 'https://image.tmdb.org/t/p/w300/A2XloB9BYZtMzWOR78uguOoCfH5.jpg'
+    },
+    {
+        titulo: 'Daisy Quokka: O Animal Mais Feroz Do Mundo',
+        descricao: 'A otimista quokka Daisy sonha em ganhar os "Jogos Mais Assustadores do Mundo". Ela contará com a ajuda de um ex-campeão, um crocodilo rabugento, que a ajudará a provar que os verdadeiros campeões podem ter qualquer tamanho.',
+        imdb: 'tt11482894',
+        imagem: 'https://image.tmdb.org/t/p/w300/p9dbwWKE8SQqyHoN3Vo8BHpt8fc.jpg'
+    },
+    {
+        titulo: 'Frio nos Ossos',
+        descricao: 'Uma mãe, seu marido deficiente e sua filha adolescente têm seu cotidiano simples e isolado perturbado quando dois criminosos em fuga tentam se refugiar em sua casa. Mas mal sabem eles dos segredos escondidos nesta casa.',
+        imdb: 'tt19858164',
+        imagem: 'https://image.tmdb.org/t/p/w300/ttPNKyqXv3kK92tCw4zI7tjOaOn.jpg'
+    },
+    {
+        titulo: 'Irmãos Por Escolha',
+        descricao: 'Este documentário traz uma visão de dentro das Agulhas Negras, a maior academia militar do Brasil, e mostra o caminho de jovens ao se tornarem oficiais militares.',
+        imdb: 'tt28022751',
+        imagem: 'https://image.tmdb.org/t/p/w300/fN8SBoDHYT2zO1x80GhhX605WuX.jpg'
+    },
+    {
+        titulo: 'Sing Street: Música e Sonho',
+        descricao: 'Um jovem, que cresce nas efervescentes ruas da Dublin da década de 80, foge de casa e da nova escola mudando-se para Londres e começando uma banda para tentar conquistar o coração de uma garota misteriosa.',
+        imdb: 'tt3544112',
+        imagem: 'https://image.tmdb.org/t/p/w300/jihKpntyd6G1nOJsW2VjMa9jgSU.jpg'
+    },
+    {
+        titulo: 'Unicorn Wars',
+        descricao: 'Esta história acompanha dois soldados ursinhos de pelúcia: Azulín, que deseja que o sangue de unicórnio seja bonito para sempre; e Gordi, que só quer ser aceito e querido.',
+        imdb: 'tt10483152',
+        imagem: 'https://image.tmdb.org/t/p/w300/joOEYpfltqoqkaiQio24TUTntGM.jpg'
+    },
+    {
+        titulo: 'Ursinho Pooh: Sangue e Mel',
+        descricao: 'Depois de serem abandonados por Christopher Robin, que foi para a faculdade, Pooh e Leitão matam qualquer um que se atreva a se aventurar na Floresta dos Sonhos Azuis.',
+        imdb: 'tt19623240',
+        imagem: 'https://image.tmdb.org/t/p/w300/ewF3IlGscc7FjgGEPcQvZsAsgAW.jpg'
+    },
+    {
+        titulo: 'A Noite nos Persegue',
+        descricao: 'Após poupar a vida de uma garota durante um massacre, um assassino de elite se torna o alvo do ataque de criminosos.',
+        imdb: 'tt6116856',
+        imagem: 'https://image.tmdb.org/t/p/w300/eh2e6feFLOmlQDcKSDCJCwXVsUd.jpg'
+    },
+    {
+        titulo: 'Ana e Vitória',
+        descricao: 'Ana e Vitória se conhecem em uma festa e decidem cantar juntas. São descobertas por um empresário carioca e chegam ao estrelato, recebendo um disco de platina. Ana está em busca do amor de sua vida e Vitória em busca de um amor livre e sem amarras. Será que conseguirão viver um grande amor?',
+        imdb: 'tt8583378',
+        imagem: 'https://image.tmdb.org/t/p/w300/cgpI8BlXW5OWWUQc1A1zFrMRrBG.jpg'
+    },
+    {
+        titulo: 'Ele é Demais',
+        descricao: 'Neste remake do clássico adolescente "Ela é Demais", uma influenciadora aceita o desafio de transformar um garoto pouco popular em rei do baile.',
+        imdb: 'tt4590256',
+        imagem: 'https://image.tmdb.org/t/p/w300/dR5s6KTvHFBzVMiSiFFHkOhEbbJ.jpg'
+    },
+    {
+        titulo: 'Tammy: Fora de Controle',
+        descricao: 'Tammy é uma mulher que perde seu emprego na mesmo época em que descobre que estava sendo traída pelo marido. A partir daí, ela pega a estrada para uma longa viagem com sua avó, que abusa de bebidas e de palavrões.',
+        imdb: 'tt2103254',
+        imagem: 'https://image.tmdb.org/t/p/w300/xF1fM9RwCCCmFi8z7lvl2eBSvJ.jpg'
+    },
+    {
+        titulo: 'Moloch',
+        descricao: 'Betriek vive à beira de uma turfeira no norte da Holanda. Quando ela e sua família são atacados por um estranho aleatório uma noite, Betriek sai em busca de uma explicação. Quanto mais ela procura, mais ela se convence de que está sendo caçada por algo obscuro.',
+        imdb: 'tt14412446',
+        imagem: 'https://image.tmdb.org/t/p/w300/3jVzYOnylmvo7ZnGerjfoRj2wFz.jpg'
+    },
+    {
+        titulo: 'Ruby Marinho - Monstro Adolescente',
+        descricao: 'Uma adolescente tímida descobre que faz parte de uma lendária linhagem real dos míticos krakens do mar e que seu destino, nas profundezas dos oceanos, é maior do que ela jamais sonhou.',
+        imdb: 'tt27155038',
+        imagem: 'https://image.tmdb.org/t/p/w300/nNcxpjCtcawf8wQmTwnA0u1jukC.jpg'
+    },
+    {
+        titulo: 'Ben 10: Mutante Rex Heróis Unidos',
+        descricao: ' ',
+        imdb: 'tt2123516',
+        imagem: 'https://image.tmdb.org/t/p/w300/iSPCeuGiN06540ZUCfcunc4hOm3.jpg'
+    }, 
    
 ];
 
