@@ -7,6 +7,84 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'A Arte da Sobrevivência',
+        descricao: 'Durante a Segunda Guerra Mundial, Antonio é um clarinetista italiano, que se apaixona por Martina, uma violinista tcheca. Ambos são levados ao campo de concentração de Terezín, onde sua história de amor é intercalada com a de outros artistas judeus que, ao promovem uma série de atividades culturais, descobrem que a arte é uma importante aliada da sobrevivência.',
+        imdb: 'tt15053106',
+        imagem: 'https://image.tmdb.org/t/p/w300/lxRlS1EN0ByrhqkisV41l0havin.jpg'
+    },
+    {
+        titulo: 'Angela',
+        descricao: 'Após uma tumultuada separação e ter que ceder a guarda dos seus três filhos, a famosa socialite Angela Diniz conhece Raul, e acredita ter encontrado alguém que ama seu espírito livre tanto quanto ela. A atração avassaladora fez o casal largar tudo e viver o sonho de reconstruir suas vidas na casa de praia. Mas a vida tranquila rapidamente se transforma quando Raul começa a se mostrar um homem agressivo, violento e controlador. A relação declina para o abuso e a violência, dando origem a um dos casos de assassinato mais famosos de todos os tempos no Brasil.',
+        imdb: 'tt28118695',
+        imagem: 'https://image.tmdb.org/t/p/w300/qIRRUoeJPXJQ0lSuW3OI9NYLb10.jpg'
+    },
+    {
+        titulo: 'A Bailarina',
+        descricao: 'Sofrendo com a morte da melhor amiga após não conseguir protegê-la, uma antiga guarda-costas vai fazer de tudo para realizar seu último pedido: vingança.',
+        imdb: 'tt26350277',
+        imagem: 'https://image.tmdb.org/t/p/w300/5BEYUwi4PCTfCaoGCL17DD9h7sM.jpg'
+    },
+    {
+        titulo: 'Círculo de Espiões',
+        descricao: 'Quando uma traição na unidade de inteligência tem consequências fatais, uma agente implacável sai em busca de vingança.',
+        imdb: 'tt15433600',
+        imagem: 'https://image.tmdb.org/t/p/w300/jGUcSkXhBpgqIjSW5f5QKAmi2SQ.jpg'
+    },
+    {
+        titulo: 'Dezesseis Facadas',
+        descricao: 'Trinta e cinco anos após o chocante assassinato de três adolescentes, o infame "Sweet Sixteen Killer" retorna na noite de Halloween para fazer uma quarta vítima. Jamie, de dezessete anos, ignora o aviso de sua mãe superprotetora e fica cara a cara com o maníaco mascarado e, fugindo para salvar sua vida, acidentalmente viaja no tempo de volta para 1987, o ano do assassinatos originais. Forçada a navegar na cultura desconhecida e ultrajante dos anos 1980, Jamie se une a sua mãe adolescente para derrubar o assassino de uma vez por todas, antes que ela fique presa no passado para sempre.',
+        imdb: 'tt11426232',
+        imagem: 'https://image.tmdb.org/t/p/w300/o5tWAiHfxEvu2z1qkJKU4gW1uPY.jpg'
+    },
+    {
+        titulo: 'Jogo Justo',
+        descricao: 'Uma promoção inesperada em um fundo de investimentos competitivo leva o relacionamento de um jovem casal ao limite, ameaçando muito mais do que o recente noivado deles.',
+        imdb: 'tt16304446',
+        imagem: 'https://image.tmdb.org/t/p/w300/AteINDGu2VqyI1M8mBZXYMA7Yhs.jpg'
+    },
+    {
+        titulo: 'Loucas em Apuros',
+        descricao: 'Esta comédia acompanha quatro amigas asiáticas e seus processos de descoberta interior e da vida. Enquanto viajam para a Ásia a procura da mãe biológica de umas delas, elas enfrentam situações inusitadas e fortalecem ainda mais o laço entre elas.',
+        imdb: 'tt15268244',
+        imagem: 'https://image.tmdb.org/t/p/w300/kjFuCcTiTTmFbaNWIMcwrnZpMpr.jpg'
+    },
+    {
+        titulo: 'Mate-me se Puder',
+        descricao: 'A excêntrica milionária Olivia envia à meia-irmã Agatha e a um grupo de velhos conhecidos um misterioso convite para um fim de semana em seu iate, onde descobrirão o verdadeiro motivo da comemoração: um... assassinato? Pega de surpresa por uma morte inesperada, e com ajuda da polícia, Agatha tentará descobrir se foi apenas um acidente ou um elaborado plano de vingança.',
+        imdb: 'tt13022120',
+        imagem: 'https://image.tmdb.org/t/p/w300/e2ghk75hCIu7N2Xk7baIJtvwMPP.jpg'
+    },
+    {
+        titulo: 'O Rei dos Assassinos',
+        descricao: 'Os maiores assassinos do mundo são contratados simultaneamente para matar Jorge Drakos, auto-declarado como Rei dos Assassinos, porém eles descobrem estão presos em uma competição para ver quem é o verdadeiro Rei dos Assassinos.',
+        imdb: 'tt14057604',
+        imagem: 'https://image.tmdb.org/t/p/w300/tHA2wltMBWuaTzOzSf7P2bzhmIy.jpg'
+    },
+    {
+        titulo: 'Uma Bela Manhã',
+        descricao: 'Sandra é uma jovem mãe viúva que equilibra as tarefas de criar sua filha enquanto cuida de seu pai doente, que está batalhando contra uma condição neurológica degenerativa. O velho amigo Clément entra em sua vida, e em uma época de estresse familiar, ela começa um caso ardente.',
+        imdb: 'tt13482828',
+        imagem: 'https://image.tmdb.org/t/p/w300/f0zZGfxM6GOuOuZY61m0JcfGi4S.jpg'
+    },
+    {
+        titulo: 'Vidas em Jogo',
+        descricao: 'Na Hungria, durante o período da Guerra Fria, um oficial de segurança parece levar a vida perfeita, mas tudo muda quando surge um lendário espião querendo reviver uma antiga história do passado. Começa um duelo onde nada é o que parece e até o mais simples gesto humano pode custar a sua vida.',
+        imdb: 'tt13400142',
+        imagem: 'https://image.tmdb.org/t/p/w300/1ohnWjUgVrJVK8tLpG1MHotgJMk.jpg'
+    },
+    {
+        titulo: 'O Exorcista: O Devoto',
+        descricao: 'Quando sua filha e sua melhor amiga são possuídas por um espírito demoníaco, um pai desesperado procura a ajuda de Chris MacNeil (Ellen Burstyn), cuja filha Regan sobreviveu a uma possessão semelhante na década de 1970.',
+        imdb: 'tt12921446',
+        imagem: 'https://image.tmdb.org/t/p/w300/l6nMIFfpkL5cQz4ulSV0llwOWoh.jpg'
+    },
+    {
+        titulo: 'Virando o Jogo',
+        descricao: 'Depois de sofrer uma derrota esmagadora, todos pensavam que o Abilene Eagles, um time de futebol americano do Ensino Médio, não teria a menor chance de competir pelo título na temporada seguinte. No entanto, a liderança de Chad Mitchell e a figura paterna de Harold Christian incentivarão os jogadores a enfrentar desafios dentro e fora de campo e transformarão a história do clube e do esporte americano para sempre.',
+        imdb: 'tt6384920',
+        imagem: 'https://image.tmdb.org/t/p/w300/ybWVBbq9W2MCzjL2UMBmqrc8eEc.jpg'
+    },
+    {
         titulo: 'Do Not Disturb',
         descricao: 'Um homem de meia-idade consegue emprego em um hotel depois da pandemia, mas alguns hóspedes transformam sua primeira noite em uma aventura insana.',
         imdb: 'tt23049270',
@@ -1718,6 +1796,216 @@ var filmes = [
         imdb: 'tt15789038',
         imagem: 'https://image.tmdb.org/t/p/w300/88OGFOcFI04CL4uucb6I7ZzUqD6.jpg'
     },
+    {
+        titulo: 'Rye Lane: Um Amor Inesperado',
+        descricao: 'Dois jovens, na casa dos vinte, abalados com seus términos e que se conectam em um dia agitado no sul de Londres, se ajudando a lidar com o pesadelo que são seus ex enquanto recuperam a fé no romance."',
+        imdb: 'tt15893750',
+        imagem: 'https://image.tmdb.org/t/p/w300/ljqrimXtkF47gSKcDyVLZ03ctYG.jpg'
+    },
+    {
+        titulo: 'Viva o México!',
+        descricao: 'Pancho volta à sua cidade natal com a esposa e os filhos para receber a herança deixada pelo avô. Mas seus parentes não vão deixar barato.',
+        imdb: 'tt22185848',
+        imagem: 'https://image.tmdb.org/t/p/w300/mZWLkJQeVy990LMFGlFJphOaioh.jpg'
+    },
+    {
+        titulo: 'Pray Away',
+        descricao: 'Sobreviventes e ex-líderes do movimento da "terapia de conversão" falam sobre seus efeitos nocivos sobre a comunidade LGBTQIAP+ e a terrível persistência da prática.',
+        imdb: 'tt11224358',
+        imagem: 'https://image.tmdb.org/t/p/w300/1wikrtZZZoThwnHulB7klQek4Ai.jpg'
+    },
+    {
+        titulo: 'Um Ano Inesquecível - Outono',
+        descricao: 'Anna Júlia e João Paulo são o típico casal improvável: ela odeia música e tudo que mais quer é um estágio e estabilidade para ajudar o pai em casa. Ele é um jovem músico de rua que sonha em viver da sua arte. Mesmo assim, a paixão entre os dois acontece, e em um dos lugares mais simbólicos de São Paulo: a Avenida Paulista. A movimentada capital é o cenário ideal para a desafiadora jornada que ambos terão que enfrentar para ficar juntos.',
+        imdb: 'tt27856735',
+        imagem: 'https://image.tmdb.org/t/p/w300/bIco5SOsxCHiLVOIVxKwV3axT1K.jpg'
+    },
+    {
+        titulo: 'Por Que Você Me Matou?',
+        descricao: 'Em busca de justiça e vingança, uma família usa as redes sociais para encontrar as pessoas que mataram a filha de 24 anos.',
+        imdb: 'tt14318430',
+        imagem: 'https://image.tmdb.org/t/p/w300/u2eBUmtBLTzb0M2BDxuNqB9trlz.jpg'
+    },
+    {
+        titulo: 'No Caminho da Cura',
+        descricao: 'Homens que sofreram abusos sexuais por membros da igreja católica buscam a cura para seus traumas.',
+        imdb: 'tt14300912',
+        imagem: 'https://image.tmdb.org/t/p/w300/1t1bf7upwyEDq0OGpz0DvNhk7Ki.jpg'
+    },
+    {
+        titulo: 'Hipnótico',
+        descricao: 'Enquanto busca incansavelmente por sua filha desaparecida, o detetive Danny Rourke se vê envolvido em uma conspiração criminosa que desafia a realidade.',
+        imdb: 'tt8080204',
+        imagem: 'https://image.tmdb.org/t/p/w300/3IhGkkalwXguTlceGSl8XUJZOVI.jpg'
+    },
+    {
+        titulo: 'A Mãe do Ano',
+        descricao: 'A ex-agente especial Nina volta para a ativa depois que o filho que ela nunca teve a chance de conhecer é sequestrado.',
+        imdb: 'tt19724192',
+        imagem: 'https://image.tmdb.org/t/p/w300/3kTffR2pOxjwVP1qI5RwWnktI4y.jpg'
+    },
+    {
+        titulo: 'Levo Você Comigo',
+        descricao: 'Baseado em uma história real, este romance de décadas entre um aspirante a chef e um professor segue sua jornada traiçoeira do México a Nova York com sonhos, esperanças e memórias a reboque.',
+        imdb: 'tt11388990',
+        imagem: 'https://image.tmdb.org/t/p/w300/4AiQsYiuqaxAIjXqfJImGnLjEA3.jpg'
+    },
+    {
+        titulo: 'Black Clover: A Espada do Rei Mago',
+        descricao: 'Um garoto destemido e sem poderes mágicos luta pelo título de Rei Mago – enfrentando quatro rivais que foram banidos e agora ameaçam destruir o Reino Clover.',
+        imdb: 'tt22868844',
+        imagem: 'https://image.tmdb.org/t/p/w300/5KK0FJGdZI7jMhfwyJTg1LGR2z8.jpg'
+    },
+    {
+        titulo: 'Minha Culpa',
+        descricao: 'Noah é obrigada a mudar de cidade, deixando seus amigos e namorado para trás, após sua mãe se casar com um novo marido rico. Lá ela conhece Nick, seu novo meio-irmão, e os dois se apaixonam loucamente, vivendo um grande romance proibido.',
+        imdb: 'tt21909764',
+        imagem: 'https://image.tmdb.org/t/p/w300/a59iGvF609yAZ5tfZUoQ3XipeQH.jpg'
+    }, 
+    {
+        titulo: 'Resgate 2',
+        descricao: 'Depois de escapar da morte por um triz, o mercenário Tyler Rake encara mais uma missão perigosa: resgatar a família de um criminoso implacável.',
+        imdb: 'tt12263384',
+        imagem: 'https://image.tmdb.org/t/p/w300/AfwqKLQwjgPu8bIL1mqhHTlnQv0.jpg'
+    },
+    {
+        titulo: 'Chef Jack: O Cozinheiro Aventureiro',
+        descricao: 'Chef jack e Leonard irão cruzar as Ilhas Culinárias para completar as provas da “Convergência de Sabores”, a maior competição gastronômica do mundo e tentar vencer seus concorrentes.',
+        imdb: 'tt24067350',
+        imagem: 'https://image.tmdb.org/t/p/w300/4gIHOuxO94QJ6Bg7e1kNuiHdKQ.jpg'
+    },
+    {
+        titulo: 'Seja Você Mesma',
+        descricao: 'Merve se apaixonou pela vida boêmia, mas não foi correspondida. Prestes a ser despejada, ela tem que trabalhar e se envolve em uma situação complicada com o chefe.',
+        imdb: 'tt19121700',
+        imagem: 'https://image.tmdb.org/t/p/w300/7J4cEAWO5tI4UaSDXU7VVFWXZ4.jpg'
+    },
+    {
+        titulo: 'Ilusões Perdidas',
+        descricao: 'Lucien é um jovem poeta desconhecido da França do século XIX. Ele tem grandes esperanças e quer escolher seu destino. Ele larga a gráfica de sua província natal para tentar a sorte em Paris, nos braços de sua protetora. Logo deixado por conta própria na fabulosa vila, o jovem rapaz vai descobrir os bastidores de um mundo condenado à lei do lucro e das falsidades. Uma comédia humana na qual tudo se compra e se vende, da literatura à imprensa, da política aos sentimentos, das reputações às almas. Ele vai amar, sofrer, e sobreviver às suas ilusões.',
+        imdb: 'tt10505316',
+        imagem: 'https://image.tmdb.org/t/p/w300/6ovwvY0NajegyC2xtwxD9GEhdFp.jpg'
+    },
+    {
+        titulo: 'Black Friday',
+        descricao: 'Um grupo de empregados de uma loja de brinquedos deve proteger-se mutuamente de uma horda de compradores infectados por parasitas.',
+        imdb: 'tt11649338',
+        imagem: 'https://image.tmdb.org/t/p/w300/vf9Ex4EwSPlwbva4ZJdljsQQOML.jpg'
+    },
+    {
+        titulo: 'Barba, Cabelo & Bigode',
+        descricao: 'Na tentativa de salvar o salão da mãe da falência, um filho dedicado descobre que tem muito talento para ser barbeiro e atrai clientes de toda a periferia',
+        imdb: 'tt21265550',
+        imagem: 'https://image.tmdb.org/t/p/w300/jvLZHjiJRj2uefPoBlBaF0ohxsL.jpg'
+    },
+    {
+        titulo: 'Dois Doidões em Harvard 2',
+        descricao: 'Dois viciados preguiçosos embarcam em uma aventura alucinante para encontrar sua reserva roubada e a bíblia da erva com a receita do melhor broto.',
+        imdb: 'tt8861802',
+        imagem: 'https://image.tmdb.org/t/p/w300/z9NjhugUtE0Fm2TCEU6wk1rjYqu.jpg'
+    },
+    {
+        titulo: 'Dois Doidões em Harvard',
+        descricao: 'Silas (Method Man) e Jamal (Redman) estão bastante tensos na hora de fazer um exame que irá decidir em qual faculdade eles poderão ingressar. Para “relaxar” um pouco, os dois colegas decidem puxar um fumo antes da prova. A fumaça mágica que sai de seus baseados evoca o fantasma de Ivory (Chuck Davis), um outro colega de fumo que havia morrido recentemente. Bem relacionado com todos os espíritos inteligentes “do outro lado”, Ivory ajuda os amigos na hora do exame, e ambos são aprovados com nota máxima. Como prêmio, eles são convidados a entrar na prestigiada Universidade de Harvard, um lugar repleto de ricaços, brancos e mauricinhos. Silas e Jamal, sempre auxiliados pelo fantasma de Ivory, vão deixar a Universidade de cabeça para baixo.',
+        imdb: 'tt0278488',
+        imagem: 'https://image.tmdb.org/t/p/w300/lRWYv3GhHPz9ONTnLuGx790vKE8.jpg'
+    },
+    {
+        titulo: 'Uma Linda Vida',
+        descricao: 'Um jovem pescador se transforma em uma revelação musical, mas seu passado é um obstáculo. Será que ele consegue superar seus traumas e conquistar a fama e o amor?',
+        imdb: 'tt15282148',
+        imagem: 'https://image.tmdb.org/t/p/w300/oBnrrPcR6W4i58Ke9uZGWpiIl4G.jpg'
+    },
+    {
+        titulo: 'A Festa de Formatura',
+        descricao: 'Um grupo de atores veteranos da Broadway vão sem aviso a uma festa de final de ano de uma escola que não permitiu que uma de suas alunas fosse ao baile acompanhada de sua namorada.',
+        imdb: 'tt10161886',
+        imagem: 'https://image.tmdb.org/t/p/w300/A5P45oHuKIuMD1YYtksPuJ7sveQ.jpg'
+    },
+    {
+        titulo: 'The Flash',
+        descricao: 'Acompanhe as aventuras do homem mais veloz do planeta, o cientista da Central City Police Barry Allen, que após um trágico acidente adquire o poder da velocidade.',
+        imdb: 'tt0439572',
+        imagem: 'https://image.tmdb.org/t/p/w300/gCp4ATDNhhZyxZiLYkpQlMEiWWG.jpg'
+    },
+    {
+        titulo: 'Transformers: O Despertar das Feras',
+        descricao: 'Transformers: O Despertar das Feras traz mais uma aventura épica pelo universo dos transformers. Ambientada nos anos 1990, o filme apresentará os Maximals, Predacons e Terrorcons à batalha existente na Terra entre Autobots e Decepticons.',
+        imdb: 'tt5090568',
+        imagem: 'https://image.tmdb.org/t/p/w300/zEqwfO5R2LrrLgV61xm8M9TmNTG.jpg'
+    },
+    {
+        titulo: 'Homem-Aranha: Através do Aranhaverso',
+        descricao: 'Miles Morales retorna para o próximo capítulo da saga do Aranhaverso, uma aventura épica que transportará o Homem-Aranha em tempo integral e amigável do bairro do Brooklyn através do Multiverso para unir forças com Gwen Stacy e uma nova equipe de Homens-Aranha para enfrentar com um vilão mais poderoso do que qualquer coisa que eles já encontraram.',
+        imdb: 'tt9362722',
+        imagem: 'https://image.tmdb.org/t/p/w300/6a7NItazspSV8Fl7u46ccxwPKk4.jpg'
+    },
+    {
+        titulo: 'Terra dos Sonhos',
+        descricao: 'Uma destemida jovem órfã embarca em uma jornada pela terra dos sonhos para encontrar uma pérola mágica e realizar seu maior desejo.',
+        imdb: 'tt13320662',
+        imagem: 'https://image.tmdb.org/t/p/w300/pKul2I03FI6QYxHnhMOkQ72EDPE.jpg'
+    },
+    {
+        titulo: 'A Última Festa',
+        descricao: 'Um grupo de quatro amigos em sua festa de formatura do Ensino Médio. Cada protagonista com seu dilema amoroso para resolver ao longo da noite, todos conectados pelas questões dessa geração. É a última noite enquanto adolescentes. A última noite com os amigos antes da separação por diferentes faculdades. A última noite antes do resto de suas vidas.',
+        imdb: 'tt22012140',
+        imagem: 'https://image.tmdb.org/t/p/w300/hIu8sxTz6YPRI30do9ZkTZ9JV00.jpg'
+    },
+    {
+        titulo: 'A Extorsão',
+        descricao: 'Guillermo Francella é Alejandro, um experiente piloto à beira da aposentadoria, chantageado e forçado a levar uma misteriosa carga de Buenos Aires a Madri para não ser penalizado por um grave erro que cometeu no trabalho.',
+        imdb: 'tt14803538',
+        imagem: 'https://image.tmdb.org/t/p/w300/wAQvIuLJRFo0LCr0gLQTng9KRco.jpg'
+    },
+    {
+        titulo: 'Homens Brancos Não Sabem Enterrar',
+        descricao: 'Neste remake moderno do filme icônico, Jeremy, ex-astro do basquete cujas lesões paralisaram sua carreira, junta-se a Kamal, um jogador promissor que estragou seu próprio futuro no esporte. Equilibrando relacionamentos delicados, pressões financeiras e conflitos internos, esses jogadores de basquete de rua aparentemente opostos se unem numa última tentativa de viver seus sonhos.',
+        imdb: 'tt6436620',
+        imagem: 'https://image.tmdb.org/t/p/w300/jK3nu1ZvjmQXOVhNz2OcdmF9nE9.jpg'
+    },
+    {
+        titulo: 'Fiéis',
+        descricao: 'Duas amigas criam uma complicada rede de mentiras, mas tudo vem à tona depois que uma delas desaparece.',
+        imdb: 'tt20119468',
+        imagem: 'https://image.tmdb.org/t/p/w300/tRIiyvty7h6d9F5Al2nxcxwI09f.jpg'
+    },
+    {
+        titulo: 'Nina Para Sempre',
+        descricao: 'Depois que o amor de sua vida, Nina, morre tragicamente em um acidente de carro, Rob tenta sem sucesso tirar a própria vida. Conforme ele aprende a lidar com sua dor, ele acaba se apaixonando por uma colega de trabalho, Holly. O relacionamento deles fica complicado quando Nina, incapaz de encontrar descanso na vida após a morte, volta para atormentá-los sempre que fazem sexo. Rob e Holly procuram desesperadamente uma maneira de lidar com seu estranho trio para que Nina possa finalmente descansar para sempre.',
+        imdb: 'tt2885628',
+        imagem: 'https://image.tmdb.org/t/p/w300/l6fIaMjMx4bCHLvgCcnNfWctfm2.jpg'
+    },
+    {
+        titulo: 'Noites Alienígenas',
+        descricao: '"Noites Alienígenas" expõe uma Amazônia urbana, onde a ancestralidade dos povos tradicionais resiste à contemporaneidade que insiste em negar a floresta. Com elementos narrativos fantasiosos, o longa apresenta a história de três personagens da periferia de Rio Branco, impactados pelo conflito entre facções criminosas e pela violência urbana, que, nos últimos dez anos, quase triplicou o assassinato de crianças e jovens no Estado do Acre.',
+        imdb: 'tt17370648',
+        imagem: 'https://image.tmdb.org/t/p/w300/ersvxPWpGg92UNjaeqoZ70znevK.jpg'
+    },
+    {
+        titulo: 'Tempestade Infinita',
+        descricao: 'Ao subir o Monte Washington em Nova Hampshire, uma experiente alpinista decide voltar antes de chegar ao cume enquanto uma nevasca se aproxima. Mas ao descer, ela encontra um homem sozinho e desamparado, e se encarrega de tirar os dois da montanha antes que anoiteça e eles sucumbam à tempestade. Baseado em uma história real.',
+        imdb: 'tt14060232',
+        imagem: 'https://image.tmdb.org/t/p/w300/jYN6Ezx8jm8BI6g2PANVvmUST3p.jpg'
+    },
+    {
+        titulo: 'Quem Fica com o Bar?',
+        descricao: 'Depois do seu término, Nina e Allen dividiram amigavelmente todos os seus pertences, exceto pelo seu bar preferido. Com a ajuda de amigos e dos funcionários, o ex-casal faz uma competição ridícula para decidir quem ficará com o lugar.',
+        imdb: 'tt15250656',
+        imagem: 'https://image.tmdb.org/t/p/w300/sicJmpsyetX00Bpu8UmoSawxyel.jpg'
+    },
+    {
+        titulo: 'Meu Nome é Chihiro',
+        descricao: 'Uma ex-acompanhante irreverente começa a trabalhar no restaurante de uma cidadezinha do litoral e alegra a todos que cruzam o seu caminho.',
+        imdb: 'tt21825858',
+        imagem: 'https://image.tmdb.org/t/p/w300/hkvq6vqz6j1gSojBYkpTjSauFZD.jpg'
+    },
+    {
+        titulo: 'Uma Garota de Muita Sorte',
+        descricao: 'Uma mulher de sucesso na cidade de Nova York vê sua vida virada de cabeça para baixo quando é forçada a enfrentar uma verdade sombria que ameaça desvendar sua vida meticulosamente trabalhada.',
+        imdb: 'tt4595186',
+        imagem: 'https://image.tmdb.org/t/p/w300/9qJOLqZ7Gcx8HeCkt5iYqEyMjJs.jpg'
+    },    
 ];
 
 // Função para buscar filmes
