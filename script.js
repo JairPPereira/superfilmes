@@ -2001,7 +2001,151 @@ var filmes = [
         descricao: 'Uma mulher de sucesso na cidade de Nova York vê sua vida virada de cabeça para baixo quando é forçada a enfrentar uma verdade sombria que ameaça desvendar sua vida meticulosamente trabalhada.',
         imdb: 'tt4595186',
         imagem: 'https://image.tmdb.org/t/p/w300/9qJOLqZ7Gcx8HeCkt5iYqEyMjJs.jpg'
-    },  
+    }, 
+    {
+        titulo: 'Viagem Entre Estranhos',
+        descricao: 'Quatro desconhecidos se encontram no centro de Madri para ir de carro a Cieza graças a um aplicativo de compartilhamento de caronas. Tudo transcorre normalmente, mas o motorista parece estar escondendo alguma coisa e se comporta de forma estranha.',
+        imdb: 'tt11645056',
+        imagem: 'https://image.tmdb.org/t/p/w300/ooTkGnu4P6fc4mlxtA8JXP4U2OV.jpg'
+    },
+    {
+        titulo: 'Um Homem de Ação',
+        descricao: 'Inspirado na vida de Lucio Urtubia, Um Homem de Ação explora a figura do anarquista espanhol que colocou em prática uma lucrativa operação de falsificação de cheques de viagem e entrou na mira do maior banco dos Estados Unidos.',
+        imdb: 'tt12703292',
+        imagem: 'https://image.tmdb.org/t/p/w300/lMNgLp0LdUO6tLIUy43aSoIayxV.jpg'
+    },
+    {
+        titulo: 'Tudo Sobre Sexo',
+        descricao: 'Sage, Morgan e Casey, três amigas na casa dos vinte e poucos anos, lutam para equilibrar suas vidas profissionais e pessoais. Com muito bom humor e um toque de sexo, elas enfrentam as dores crescentes, confusas, hilárias e terríveis da idade adulta.',
+        imdb: 'tt9730822',
+        imagem: 'https://image.tmdb.org/t/p/w300/jctlbKSXur5YRF7VpM1Jfla6AwY.jpg'
+    },
+    {
+        titulo: 'They/Them: O Acampamento',
+        descricao: 'Vários campistas queer e trans se reúnem em um acampamento para uma semana de programação destinada a ajudá-los a encontrar ‘uma nova sensação de liberdade’. À medida que os métodos do acampamento se tornam cada vez mais psicologicamente perturbadores, os campistas devem trabalhar juntos para se proteger. Quando um misterioso assassino começa a fazer vítimas, as coisas ficam ainda mais perigosas.',
+        imdb: 'tt14502344',
+        imagem: 'https://image.tmdb.org/t/p/w300/n6QwqjxAu4ly5PB4IHVFJ5CHPbS.jpg'
+    },
+    {
+        titulo: 'O Livro dos Prazeres',
+        descricao: 'Lóri é uma professora na casa dos 30 anos que não se aprofunda nas suas relações. Conhece e deseja Ulisses, professor de filosofia mais velho que lhe ensina a viver o amor, dizendo que aguardará até que ela esteja pronta.',
+        imdb: 'tt13350988',
+        imagem: 'https://image.tmdb.org/t/p/w300/ahQ7b9yJzSpxlPGLYhwZuYctvb8.jpg'
+    },
+    {
+        titulo: 'Hormônios à Flor da Pele',
+        descricao: 'Enquanto tentam sobreviver ao ensino médio, Charly e Paula vivem os hormônios à flor da pele e o medo de perder a amizade se revelarem o que sentem um pelo outro.',
+        imdb: 'tt20256412',
+        imagem: 'https://image.tmdb.org/t/p/w300/xpDndQSw95YOIq5a3RSTo9ZZavw.jpg'
+    },
+    {
+        titulo: 'O Time da Redenção',
+        descricao: 'Após o fiasco nos Jogos Olímpicos de 2004, o time de basquete masculino dos EUA busca a redenção e parte para a briga pelo ouro nos Jogos de Pequim de 2008.',
+        imdb: 'tt21837726',
+        imagem: 'https://image.tmdb.org/t/p/w300/8G9XOb9bO9LusWEI2dOAyaCf8Bb.jpg'
+    },
+    {
+        titulo: 'Os 800',
+        descricao: 'Durante a Batalha de Xangai em 1937, quando um grupo de soldados chineses lutaram para defender o armazém de Sihang, ondas de forças japonesas avançavam, cercando oitocentos soldados chineses.',
+        imdb: 'tt7294150',
+        imagem: 'https://image.tmdb.org/t/p/w300/mx0PP392PYCZ4x0xNryO5ry637X.jpg'
+    },
+    {
+        titulo: 'Perseguição às Bruxas',
+        descricao: 'Em uma América moderna onde as bruxas são reais e a bruxaria ilegal, uma adolescente deve enfrentar seus demônios, pois ela ajuda duas bruxas jovens a evitar a aplicação da lei e cruzar a fronteira sul para obter asilo no México.',
+        imdb: 'tt10160974',
+        imagem: 'https://image.tmdb.org/t/p/w300/8L7u2Bh0y9QCf0bO0K0y7gzytaK.jpg'
+    },
+    {
+        titulo: 'Meu Nome é Vingança',
+        descricao: 'Sofia era uma adolescente como qualquer outra, que gostava de dividir seu tempo livre entre partidas de hóquei e aulas de direção off-road — até o dia em que ela desobedece às ordens do pai e posta, em segredo, uma foto dele no Instagram. Mal sabia ela que aquele post mudaria as vidas deles para sempre. Seguindo as pistas no mundo online, dois criminosos conseguem encontrar a casa da família e acabam assassinando, a sangue frio, a mãe e o tio da jovem. A tragédia vai dar início a um acerto de contas que estava dormente por quase vinte anos.',
+        imdb: 'tt15229674',
+        imagem: 'https://image.tmdb.org/t/p/w300/tlZGDi8anF7Fcs5HGVaTEMnv1hp.jpg'
+    },
+    {
+        titulo: 'Os Suburbanos: O Filme',
+        descricao: 'O suburbano Jeferson de Souza dos Santos faz de tudo para encontrar o sucesso como cantor em uma banda de pagode. Tendo que se dividir entre limpar a piscina do dono de uma gravadora, ter um caso tórrido com a esposa dele, se ver envolvido num golpe e ainda aceitar as novidades na família, Jefinho ainda arranja tempo para compor a canção que alavancará definitivamente sua carreira musical, o hit instantâneo “Xavasca Guerreira”.',
+        imdb: 'tt21990918',
+        imagem: 'https://image.tmdb.org/t/p/w300/wosEdGvBzt8nVLHAJ9cljfo0AEG.jpg'
+    },
+    {
+        titulo: 'Os 13 Sobreviventes da Caverna',
+        descricao: 'Neste documentário cativante, os jovens de uma equipe juvenil de futebol contam como conseguiram sobreviver depois de ficarem presos na caverna Tham Luang em 2018.',
+        imdb: 'tt22029210',
+        imagem: 'https://image.tmdb.org/t/p/w300/xF55KYpT70qho6PkJf4NQpgjNdL.jpg'
+    },
+    {
+        titulo: 'O Skate Me Levou',
+        descricao: 'O Documentário conta a trajetória de vida de Roger Mancha, que hoje é técnico da Seleção Brasileira de Skate. Mancha é um dos skatista mais importantes do Skate Brasileiro, responsável por elevar o nível do carrinho em terras tupiniquins, andando em transições, ruas, de base ou de switchstance. Mancha fez parte de equipes icônicas como a internacional City Stars.',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/9Rckj6QGD9eadX8VSsOM2lD4gT3.jpg'
+    },
+    {
+        titulo: 'O Perdoado',
+        descricao: 'Viajando pelo deserto marroquino para participar da luxuosa festa de fim de semana de um velho amigo, os ricos londrinos David (Ralph Fiennes) e Jo (Jessica Chastain) se envolvem em um trágico acidente com um adolescente local. Chegando tarde na grande vila, o casal tenta encobrir o incidente com a polícia local. Mas quando o pai do garoto chega em busca de justiça, um confronto tenso forçará David e Jo a aceitar seu ato e enfrentar as consequências.',
+        imdb: 'tt3696180',
+        imagem: 'https://image.tmdb.org/t/p/w300/6qDIG0G0ARjgej8pOoazZqzi3Uz.jpg'
+    },
+    {
+        titulo: 'O Assassino da Internet',
+        descricao: 'Baseado em uma história real, este suspense acompanha a história de um estudante de medicina cuja vida perfeita é um disfarce para sua obsessão assassina por mulheres.',
+        imdb: 'tt1772373',
+        imagem: 'https://image.tmdb.org/t/p/w300/nIqPClkwweKvqfFU6xsP3L2pxuT.jpg'
+    },
+    {
+        titulo: 'Nove Dias',
+        descricao: 'Em uma casa distante da realidade que conhecemos, um homem recluso entrevista possíveis almas humanas, candidatas para renascer.',
+        imdb: 'tt10451852',
+        imagem: 'https://image.tmdb.org/t/p/w300/oMlyNKkdBCJX2t1zKy8dl8t2BXS.jpg'
+    },
+    {
+        titulo: 'Natureza Selvagem',
+        descricao: 'Oito adolescentes mantidos em campos de concentração nazistas são libertados por russos. Eles são entregues aos cuidados de Jadwiga num local abandonado na floresta polonesa e, além de carregarem diversos traumas, terão que enfrentar fome, sede e um grupo de violentos lobos.',
+        imdb: 'tt7203520',
+        imagem: 'https://image.tmdb.org/t/p/w300/89vDPAvu2a02spYKrXxEv45IL6i.jpg'
+    },
+    {
+        titulo: 'Nossa Mãe é Para Sempre',
+        descricao: 'Um ano após a sua morte, uma mãe superprotetora visita seus três filhos durante as festividades do Día de Muertos. Decepcionada com o que vê, ela decide testar os limites da vida após a morte para colocá-los de volta nos trilhos.',
+        imdb: 'tt17371682',
+        imagem: 'https://image.tmdb.org/t/p/w300/coPl2pKqOtwiq7HttcUlrkYe1y3.jpg'
+    },
+    {
+        titulo: 'Noite de Sustos',
+        descricao: 'Quando uma loja de Halloween abre em um shopping deserto deserto, três amigos, pensando que já superaram as gostosuras ou travessuras, decidem passar a noite trancados lá dentro. Mas sua noite de diversão cheia de sustos logo se transforma em sobrevivência bizarra.',
+        imdb: 'tt11426228',
+        imagem: 'https://image.tmdb.org/t/p/w300/jaMEBAjQpJdbBZzORtr92E5Rldd.jpg'
+    },
+    {
+        titulo: 'Milagre na Caverna',
+        descricao: 'Quando um time de futebol juvenil de 12 meninos, de 11 a 16 anos, e seu técnico de 25 anos estão presos no fundo de uma caverna no norte da Tailândia, milhares de voluntários e soldados de todo o mundo se unem em uma corrida contra o tempo para encontrá-los . Uma vez que os meninos são encontrados vivos dez dias depois, a única saída é um mergulho-mergulho impossível de cinco horas que apenas mergulhadores de caverna experientes poderiam sobreviver. Na Irlanda, Jim Warny, eletricista de fábrica de aviões e mergulhador recreativo de cavernas, recebe a ligação: "Quando você pode estar aqui?" Chegando à Tailândia, Jim sai do avião e entra na caverna - uma missão de três dias no fio da navalha está em andamento. Baseado em eventos reais.',
+        imdb: 'tt8726180',
+        imagem: 'https://image.tmdb.org/t/p/w300/7GbYdBcgn0RxRkEesZ1H3f6xI2z.jpg'
+    },
+    {
+        titulo: 'Amor Em Grande Estilo',
+        descricao: 'Ella trabalha como costureira freelancer em uma revista de moda de alto perfil, e conhece o belo e charmoso Derek, que está prestes a assumir o negócio de revistas de seu pai.',
+        imdb: 'tt21653744',
+        imagem: 'https://image.tmdb.org/t/p/w300/5gXKzzbIEast05swrejhQu4J5rz.jpg'
+    },
+    {
+        titulo: 'Tin & Tina',
+        descricao: 'Um casal que sofreu um aborto traumático decide adotar dois gêmeos que viviam em um convento. Só que a obsessão das crianças pela religião começa a incomodar.',
+        imdb: 'tt7354440',
+        imagem: 'https://image.tmdb.org/t/p/w300/gwVAb3hMYl5F68mvKGl2eqDOj0G.jpg'
+    },
+    {
+        titulo: 'Orgulho e Preconceito: Tornando-se Elizabeth Bennet',
+        descricao: 'A aspirante a atriz Kate Miller é uma popular celebridade da internet nos Estados Unidos, fazendo vídeos para seus milhares de seguidores. Após conseguir o papel de sua vida ao ser escalada para interpretar Elizabeth Bennet em uma nova adaptação cinematográfica do famoso romance "Orgulho e Preconceito", Kate tem dificuldade em aprender o sotaque britânico necessário para o sucesso de sua atuação. Até que ela conhece Will, o ator britânico com formação clássica que interpreta seu par no filme.',
+        imdb: 'tt7919184',
+        imagem: 'https://image.tmdb.org/t/p/w300/sxznJhZRFvxDMzy8tLGv5Eitdw9.jpg'
+    },
+    {
+        titulo: 'La Situación',
+        descricao: 'Três amigas em busca de uma misteriosa herança na Argentina. Elas passam por uma sequência de perrengues e situações perigosas e ao mesmo tempo hilárias, ao se envolverem sem saber com traficantes locais.',
+        imdb: 'tt22651782',
+        imagem: 'https://image.tmdb.org/t/p/w300/3BNqD7CtGlEjwbSshW5cPAc3Qec.jpg'
+    }, 
 ];
 
 // Função para adicionar filmes à página
