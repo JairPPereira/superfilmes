@@ -24368,8 +24368,8 @@ var filmes = [
 
 // Função para adicionar filmes à página
 function adicionarFilmesNaPagina(pagina) {
-    var inicio = pagina * 30;
-    var fim = Math.min(inicio + 30, filmes.length);
+    var inicio = pagina * 25;
+    var fim = Math.min(inicio + 25, filmes.length);
     var listaHTML = '';
 
     for (var i = inicio; i < fim; i++) {
