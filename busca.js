@@ -2152,145 +2152,145 @@ var filmes = [
     },  
     {
         titulo: 'A Pequena Sereia',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Ariel é uma curiosa sereia que deseja experimentar a vida em terra firme e, contra a vontade de seu pai, visita a superfície. Ariel se vê em uma inesperada jornada de autodescoberta ao encontrar um príncipe, uma bruxa do mar e um novo mundo incrível.',
         imdb: 'tt5971474',
         imagem: 'https://image.tmdb.org/t/p/w300/85u2q8iUBDq2gj5iJrdD4lzckRq.jpg'
     },
     {
         titulo: 'O Diário da Princesa',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Mia (Anne Hathaway) é uma garota de 15 anos que vive com sua mãe (Caroline Goodall) em Manhattan e repentinamente descobre que seu pai é na verdade o Príncipe de Genovia, um pequeno país europeu. Ela recebe então a visita de sua avó recém-descoberta (Julie Andrews), que passa a lhe dar aulas de etiqueta, ensinando-a como se deve portar uma princesa. Mas quando se aproxima a data de seu aniversário ela precisa definir que caminho pretende tomar em sua vida: tornar-se uma princesa e se mudar para Genovia ou permencer em Manhattan morando com sua mãe.',
         imdb: 'tt0247638',
         imagem: 'https://image.tmdb.org/t/p/w300/lT45oWEZVntdoibp4oEXE4ngTTa.jpg'
     },
     {
         titulo: 'O Diário da Princesa 2: Casamento Real',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Cinco anos após os acontecimentos do primeiro filme, em que Mia decide tornar-se a princesa de Genóvia, ela se muda para o palácio real de sua avó, Clarisse. É então informada de que não permanecerá como princesa por muito tempo, já que em breve terá que ser coroada rainha. No entanto, a legislação genoviana estabelece que as futuras rainhas devem se casar antes de serem empossadas no cargo. Surge, por isso, uma legião de pretendentes repentinamente na vida da jovem.',
         imdb: 'tt0368933',
         imagem: 'https://image.tmdb.org/t/p/w300/5MoDnvPW64Sfw3QZ6ADnCYopnTv.jpg'
     },
     {
         titulo: 'Garota vs. Monstro',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Skylar mal pode esperar pela festa de Halloween da escola. Proibida de sair de casa, ela foge e, acidentalmente, desperta uma criatura adormecida há anos, ao mesmo tempo em que descobre pertencer à quinta geração de Caçadores de Monstros da família.',
         imdb: 'tt2326087',
         imagem: 'https://image.tmdb.org/t/p/w300/nJxRRX2IaBF5tpzTrpPTRFXX2bY.jpg'
     },
     {
         titulo: 'Programa de Proteção para Princesas',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Quando a corte de um pequeno país é posta em risco, a princesa Rosalinda é colocada em um programa de proteção especial. Ela é levada para uma cidade rural e passa a lidar com os altos e baixos da vida de uma adolescente comum. Lá ela conhece Carter, com quem desenvolve uma bela amizade.',
         imdb: 'tt1196339',
         imagem: 'https://image.tmdb.org/t/p/w300/zuQDHKbFgtBMtFqUMX0J8orEfAT.jpg'
     },
     {
         titulo: 'Lemonade Mouth: Uma Banda Diferente',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Cinco calouros se conhecem durante uma detenção na escola e, à primeira vista, eles parecem não ter nada em comum. Mas, através da música, eles se tornam inseparáveis e descobrem que podem ser a maior banda de garagem da história! Enfrentando vários desafios, Olivia, Stella, Wen, Mohini e Charlie descobrem que podem fazer a diferença quando podem se apoiar uns nos outros e se livrar de tudo o que os mantêm longe de seus sonhos.',
         imdb: 'tt1648204',
         imagem: 'https://image.tmdb.org/t/p/w300/q5OCL75RKk4D21u4QkGCJVYpEyH.jpg'
     },
     {
         titulo: 'Freaky Friday: Sexta-Feira Muito Louca',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Quando Katherine e sua filha adolescente rebelde, Ellie, vivem estressadas uma com a outra. Quando uma ampulheta mágica que pertencia ao falecido pai da família faz com que elas troquem de corpo, elas experimentam o que é viver a vida uma da outra.',
         imdb: 'tt7631348',
         imagem: 'https://image.tmdb.org/t/p/w300/zhu2Qy6S7dX204NXsUxToY2Njv.jpg'
     },
     {
         titulo: 'Hércules',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Dono de uma força sobre-humana, o jovem mortal Hércules precisa provar que é um herói para seu pai, o grande deus Zeus. Ele e seus amigos, Pégaso, um cavalo alado e Phil, seu treinador particular, são enganados por Hades, um vilão de cabeça quente que quer conquistar o Monte Olimpo. Hércules precisa decidir entre seus poderes e Meg, seu verdadeiro amor. Só depois de aprender que o importante não é o tamanho de sua força, mas o tamanho de seu coração, ele vai se tornar realmente invencível.',
         imdb: 'tt0119282',
         imagem: 'https://image.tmdb.org/t/p/w300/gKwBRP5o8t6BpUfSeIy09q9AiH0.jpg'
     },
     {
         titulo: 'Sexta-Feira Muito Louca',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Tess e Anna são mãe e filha que vivem às turras. Decididas a acabar com as brigas, elas repentinamente trocam de corpos. Agora cada uma precisa aprender a lidar com a vida da outra, com as confusões crescendo ainda mais pelo fato de Tess estar de casamento marcado.',
         imdb: 'tt0322330',
         imagem: 'https://image.tmdb.org/t/p/w300/zcCZ7LaN6Ly20Tu6Hdw44RRiBEI.jpg'
     },
     {
         titulo: 'La La Land: Cantando Estações',
-        descricao: 'Descrição do filme 10',
+        descricao: 'O pianista Sebastian conhece a atriz Mia, e os dois se apaixonam perdidamente. Em busca de oportunidades para suas carreiras na competitiva Los Angeles, os jovens tentam fazer o relacionamento amoroso dar certo, enquanto perseguem fama e sucesso.',
         imdb: 'tt3783958',
         imagem: 'https://image.tmdb.org/t/p/w300/AvMietG6xuobpSSdmVnKuTjv4bL.jpg'
     },
     {
         titulo: 'Festa no Céu',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Um grupo de crianças bagunceiras é encaminhado a uma visita guiada ao museu como “punição” pelo mau comportamento. Lá, uma guia diferente resolve percorrer um caminho alternativo e os apresenta ao "Livro da Vida", que contém todas as histórias. A mais simbólica delas, baseada nas tradições mexicanas, envolve três mundos. Catrina/La Muerte é uma adorada deusa ancestral, que governa a Terra dos Lembrados. Ela é ex-mulher de Xibalba, o governante trapaceiro da Terra dos Esquecidos. Em uma visita à Terra dos Vivos, eles fazem uma aposta. Se a jovem e bela Maria, filha da maior autoridade da cidade de San Angel, escolher se casar com o emotivo violinista Manolo, Catrina ganha e Xibalba não poderá mais interferir no Mundo dos Vivos, como gosta de fazer. Se o preferido for o valente Joaquim, Xibalba passa a governar também o Mundo dos Lembrados.',
         imdb: 'tt2262227',
         imagem: 'https://image.tmdb.org/t/p/w300/l6luVQ9F7t7wErnSOq6Vd0SgDxV.jpg'
     },
     {
         titulo: 'Confissões de uma Adolescente em Crise',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Lola Drew (Lindsay Lohan) é uma adolescente mimada que está acostumada a ser o centro das atenções por onde quer que passe. Após se mudar para um subúrbio em Nova Jersey, ela é obrigada a trocar de escola. Lá conhece Carla Santini (Megan Fox), a garota mais popular da escola, justamente o posto que Lola tinha em sua antiga escola. Decidida a conquistar o posto na nova escola, Lola passa a disputar popularidade com Carla, especialmente na montagem da próxima peça teatral do colégio, "Pigmaleão".',
         imdb: 'tt0361467',
         imagem: 'https://image.tmdb.org/t/p/w300/fYE56DTY3jAVfb3dErEtyLu0YVa.jpg'
     },
     {
         titulo: 'Animais Noturnos',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Um escritor pede a sua ex-mulher para ler o manuscrito de seu novo romance, uma história sobre um homem de família cuja vida dá uma guinada sombria.',
         imdb: 'tt4550098',
         imagem: 'https://image.tmdb.org/t/p/w300/5T2t0m8VHofFxk2LhMmDYhMod6l.jpg'
     },
     {
         titulo: 'Velozes & Furiosos 10',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Ao longo de muitas missões e contra probabilidades impossíveis, Dom Toretto e sua família foram mais espertos, mais nervosos e superaram todos os inimigos em seu caminho. Agora, eles enfrentam o oponente mais letal que já enfrentaram: uma ameaça terrível emergindo das sombras do passado, alimentada por vingança de sangue e determinada a destruir esta família e destruir tudo - e todos - que Dom ama, para sempre. .',
         imdb: 'tt5433140',
         imagem: 'https://image.tmdb.org/t/p/w300/4CWoalqAsRzXD9AFbByD1KnH40E.jpg'
     },
     {
         titulo: 'Evangelion: 1.11 Você (Não) Está Sozinho',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Tokyo-3 permanece em pé após a maior parte da civilização ter sido dizimada no Segundo Impacto. Agora, a cidade sofre o ataque incessante dos estranhos e mortais Anjos, criaturas bizarras empenhadas em exterminar a raça humana. Para combater esse cruel inimigo, a agência governamental NERV constrói uma frota de máquinas humanóides (os EVAs) e Shinji Ikari é chamado para entrar em ação! Vivendo uma vida de solidão e questionando sua própria existência, Shinji se esforça para aceitar a responsabilidade para a batalha pela sobrevivência da humanidade.',
         imdb: 'tt0923811',
         imagem: 'https://image.tmdb.org/t/p/w300/fc4yj5OpifBQJGHoLvcF2on5qW5.jpg'
     },
     {
         titulo: 'Guerra Mundial Z',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Um vírus letal se espalha rapidamente e transforma seres humanos em zumbis. O ex-agente da ONU Gerry Lane é chamado para investigar a epidemia que está acabando com a humanidade, iniciando uma verdadeira corrida contra o tempo.',
         imdb: 'tt0816711',
         imagem: 'https://image.tmdb.org/t/p/w300/5HImW2XT2oN001IzZ4aw2IOLC4j.jpg'
     },
     {
         titulo: 'Perfect Blue',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Mima Kirigoe é membro de uma banda de música pop japonesa (J-Pop), chamada "CHAM!", que decide deixar a banda para se dedicar à carreira de atriz. Alguns fãs ficam descontentes com a repentina mudança de carreira, pois Mima, sendo um ídolo pop, é vista como uma menina inocente e angelical. Conforme avança em sua nova carreira, Mima mergulha em um intenso drama psicológico no qual fantasia e realidade se confundem colocando em dúvida sua ética moral.',
         imdb: 'tt0156887',
         imagem: 'https://image.tmdb.org/t/p/w300/79vujbsWEbX4dzffBV541QXN6sf.jpg'
     },
     {
         titulo: 'Lembranças',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Tyler tem uma relação complicada com seu pai desde uma tragédia em sua família. Rebelde e problemático, ele acha que ninguém entende seu sofrimento, até que conhece a simpática e carinhosa Ally. Mas justamente quando o jovem redescobre a felicidade, segredos começam a surgir e ameaçam o romance.',
         imdb: 'tt1403981',
         imagem: 'https://image.tmdb.org/t/p/w300/pnmG02dRGXKeHSbzeCZxSGzaIBX.jpg'
     },
     {
         titulo: 'Garotos',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Sieger, um garoto tímido de 15 anos, está treinando para o campeonato nacional de revezamento, onde conhece o intrigante e imprevisível Marc. Eles desenvolvem uma amizade que parece ser nada fora do comum, mas Sieger secretamente cultiva sentimentos mais fortes por Marc. Ele inicia uma luta solitária consigo mesmo, quando descobre que Marc também é apaixonado por ele.',
         imdb: 'tt3318220',
         imagem: 'https://image.tmdb.org/t/p/w300/gqDDvWsX179jQogj6kWxlHJKRiK.jpg'
     },
     {
         titulo: 'Na Palma da Mão',
-        descricao: 'Descrição do filme 20',
+        descricao: 'A vida de uma mulher vira de cabeça para baixo quando um homem perigoso encontra um celular perdido e começa a seguir tudo o que ela faz.',
         imdb: 'tt26160190',
         imagem: 'https://image.tmdb.org/t/p/w300/w6mwigYytOx5ksy1NLnEuq0mUAM.jpg'
     },
     {
         titulo: 'O Segredo de Brokeback Mountain',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Um conto de amor sobre o relacionamento de dois jovens, Ennis Del Mar, um rancheiro de Wyoming e Jack Twist, um vaqueiro de rodeio, que se encontram no verão de 1963, e nos anos seguintes lutam secretamente para entender e se manter o amor que nutrem um pelo outro.',
         imdb: 'tt0388795',
         imagem: 'https://image.tmdb.org/t/p/w300/qZ7fvWbPABjdU8JciIS9f9jCRCb.jpg'
     },
     {
         titulo: 'Dança Comigo?',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Há vários anos o advogado John Clark, especialista em testamentos, leva uma vida rotineira do trabalho para casa e de casa para o trabalho. Apesar de amar sua mulher, Beverly, e seus filhos, John sente que algo está faltando algo em sua vida. Por acaso vê na janela de uma academia Paulina, uma bela professora de dança. Esperando se aproximar dela, John se matricula na academia. Paulina rapidamente elimina qualquer possibilidade de envolvimento com John, mas isto não o faz deixar de ir às aulas, pois ele acha cada vez mais relaxante e divertido dançar.',
         imdb: 'tt0358135',
         imagem: 'https://image.tmdb.org/t/p/w300/nBjSWrqs84g8fSbuCoU3WC0t8VX.jpg'
     },
     {
         titulo: 'Ghost: Do Outro Lado da Vida',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Sam Wheat é um jovem executivo apaixonado por sua namorada, Molly. Ele acaba morto em um assalto, mas seu espírito não vai para o outro plano e descobre que Molly também corre perigo. Para salvá-la, Sam pede ajuda a uma médium que consegue ouvi-lo.',
         imdb: 'tt0099653',
         imagem: 'https://image.tmdb.org/t/p/w300/nGSeOwr3XRP2M7bBjcOol8vi2jT.jpg'
     },
     {
         titulo: 'Procura-se Susan Desesperadamente',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Cansada da vida conjugal, Roberta (Rosanna Arquette) deixa-se seduzir por uma série de anúncios de classificados nos quais alguém procura Susan (Madonna) desesperadamente. Em Nova York, Susan é seguida por Roberta, que acaba vestindo uma jaqueta trocada numa loja pela outra e, aos poucos, agarra-se ao destino dessa personagem: Vê-se às voltas com bandidos, sofre um pequeno acidente que lhe causa amnésia e assume inadvertidamente a identidade de Susan.',
         imdb: 'tt0089017',
         imagem: 'https://image.tmdb.org/t/p/w300/zCYwnbvtuR8wJt6MejUvolSuCow.jpg'
     }, 
