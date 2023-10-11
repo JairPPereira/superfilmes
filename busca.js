@@ -24248,7 +24248,13 @@ function searchMovies() {
                 <div class="media-info">
                     <h5 class="media-box-title">${filme.titulo}</h5>
                 </div>
+                <div class="info">
+            <h5 class="media-box-title">${filme.descricao}</h5>
+        </div>
+             
             </div>
+            
+      
         `;
         searchResults.appendChild(movieBox);
     });
