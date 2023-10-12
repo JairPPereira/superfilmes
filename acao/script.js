@@ -1439,6 +1439,1446 @@ var filmes = [
         imdb: 'tt0092644',
         imagem: 'https://image.tmdb.org/t/p/w300/rGG30UP6IYG7Lq0zSr6wRT2h3Ua.jpg'
     },
+    {
+        titulo: 'Dark Web: Cicada 3301',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt8110246',
+        imagem: 'https://image.tmdb.org/t/p/w300/tJlLfuvIBBn5aFoyW1IQWeFHl6v.jpg'
+    },
+    {
+        titulo: 'No Lugar Errado',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt15837458',
+        imagem: 'https://image.tmdb.org/t/p/w300/cFlGsQVzmzBei9D95RtSLCyZS6D.jpg'
+    },
+    {
+        titulo: 'Oeste Sem Lei',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt3205376',
+        imagem: 'https://image.tmdb.org/t/p/w300/4eU9wJ9kaksqZZMewnbgpzJyxgm.jpg'
+    },
+    {
+        titulo: 'Inspetor Bugiganga',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0141369',
+        imagem: 'https://image.tmdb.org/t/p/w300/qYPR9K2TUqdK7G1jYbKwIsx1JMB.jpg'
+    },
+    {
+        titulo: 'Enola Holmes 2',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt14641788',
+        imagem: 'https://image.tmdb.org/t/p/w300/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg'
+    },
+    {
+        titulo: 'O Turista',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt1243957',
+        imagem: 'https://image.tmdb.org/t/p/w300/q3VomS6Rj0J1S1xBdQy92LQ8b7k.jpg'
+    },
+    {
+        titulo: 'Monster Hunter',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt6475714',
+        imagem: 'https://image.tmdb.org/t/p/w300/2QhhILPAv7MKFd1q57ssQeEV2su.jpg'
+    },
+    {
+        titulo: 'A Volta do Juízo Final',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt5742568',
+        imagem: 'https://image.tmdb.org/t/p/w300/lQOrFfaFTtSSmOtDCSM2EzHguOq.jpg'
+    },
+    {
+        titulo: 'Alien: A Ressurreição',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0118583',
+        imagem: 'https://image.tmdb.org/t/p/w300/amyRbmL84H9m8wk0g46ZHhpMJTE.jpg'
+    },
+    {
+        titulo: 'Aliens: O Resgate',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt0090605',
+        imagem: 'https://image.tmdb.org/t/p/w300/kUNcoTjBvnnO4tMu9rCR9cQrhWy.jpg'
+    },
+    {
+        titulo: 'Born Racer',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt6936350',
+        imagem: 'https://image.tmdb.org/t/p/w300/ArytU7HSgxNfqOW5rdRgp9jMm2m.jpg'
+    },
+    {
+        titulo: 'Retorno da Lenda',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt12731980',
+        imagem: 'https://image.tmdb.org/t/p/w300/a5TMox6zYw686BbVS8D1UTPUYGI.jpg'
+    },
+    {
+        titulo: 'Roubando Mussolini',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt14270848',
+        imagem: 'https://image.tmdb.org/t/p/w300/mo4JxW3rWsOF87XNeAoeewESrMY.jpg'
+    },
+    {
+        titulo: 'Sala de Espionagem',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt16527290',
+        imagem: 'https://image.tmdb.org/t/p/w300/bIIlLOfJiqR9O1N5RJcHI1MmIFK.jpg'
+    },
+    {
+        titulo: 'Cloverfield: Monstro',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt1060277',
+        imagem: 'https://image.tmdb.org/t/p/w300/6FDbOI1AAMtvb6QkKkxnKTm7NiI.jpg'
+    },
+    {
+        titulo: 'Assalto na Paulista',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt20417610',
+        imagem: 'https://image.tmdb.org/t/p/w300/g4j5D2lCue9gIDvYg89VdSBXq1y.jpg'
+    },
+    {
+        titulo: 'A Escola do Bem e do Mal',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt2935622',
+        imagem: 'https://image.tmdb.org/t/p/w300/fbo6sHohCSQDOY6RYPQX3zO886y.jpg'
+    },
+    {
+        titulo: 'Lanterna Verde: Cuidado Com Meu Poder',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt20192230',
+        imagem: 'https://image.tmdb.org/t/p/w300/kjfcOlpNZocBB3lbw8KHMPT9Ov4.jpg'
+    },
+    {
+        titulo: 'Adão Negro',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt6443346',
+        imagem: 'https://image.tmdb.org/t/p/w300/gE1KNghdInNh0VDcfFQlAy4PTEL.jpg'
+    },
+    {
+        titulo: 'RRR: Revolta, Rebelião, Revolução',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt8178634',
+        imagem: 'https://image.tmdb.org/t/p/w300/d0W61w08KPAxO63uuM0Xspxb27l.jpg'
+    },
+    {
+        titulo: 'Mar em Chamas',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt12753120',
+        imagem: 'https://image.tmdb.org/t/p/w300/znrMRCeim6z8BVdCh9NdBuLFxi2.jpg'
+    },
+    {
+        titulo: 'Esquadrão Secreto',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt14001894',
+        imagem: 'https://image.tmdb.org/t/p/w300/pCl8JaMDkibswcNuEFLoDVNmO4k.jpg'
+    },
+    {
+        titulo: 'Trem-Bala',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt12593682',
+        imagem: 'https://image.tmdb.org/t/p/w300/77zENVKgbc4bhmlLfHRUbVZ99N5.jpg'
+    },
+    {
+        titulo: 'Lou',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt5315210',
+        imagem: 'https://image.tmdb.org/t/p/w300/djM2s4wSaATn4jVB33cV05PEbV7.jpg'
+    },
+    {
+        titulo: 'Athena',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt15445056',
+        imagem: 'https://image.tmdb.org/t/p/w300/66hefmZ1ZVLO1Hb57sZVGSlDAmM.jpg'
+    },
+    {
+        titulo: 'Vingança e Redenção',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt14686544',
+        imagem: 'https://image.tmdb.org/t/p/w300/6hLaPB3OFcRZMFQT6skxLnnErpF.jpg'
+    },
+    {
+        titulo: 'A Mulher Rei',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt8093700',
+        imagem: 'https://image.tmdb.org/t/p/w300/ml7Ypdeev7s1MK38dQN0OXoZ8p9.jpg'
+    },
+    {
+        titulo: 'Valerian e a Cidade dos Mil Planetas',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt2239822',
+        imagem: 'https://image.tmdb.org/t/p/w300/x69DC2NnchOhNykhbkjgpuqC2SD.jpg'
+    },
+    {
+        titulo: 'Independence Day: O Ressurgimento',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt1628841',
+        imagem: 'https://image.tmdb.org/t/p/w300/fpQEX5OrVfI6KftsuqpGTapKYpT.jpg'
+    },
+    {
+        titulo: 'As Panteras',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt0160127',
+        imagem: 'https://image.tmdb.org/t/p/w300/2Tsl98OKwckXZzCvfOiTMAXZIEz.jpg'
+    },
+    {
+        titulo: 'As Panteras: Detonando',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt0305357',
+        imagem: 'https://image.tmdb.org/t/p/w300/4GZLHlKuvQCqNnKfT3GNZYnlFFc.jpg'
+    },
+    {
+        titulo: 'O Advogado dos 5 Crimes',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt0133985',
+        imagem: 'https://image.tmdb.org/t/p/w300/eTta5YVnhcbhn0C8uDmP3Lp9BcB.jpg'
+    },
+    {
+        titulo: 'Seul em Alta Velocidade',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt13611770',
+        imagem: 'https://image.tmdb.org/t/p/w300/gJlannhekQTz6jzBojWHMNdDbEu.jpg'
+    },
+    {
+        titulo: 'Tron: O Legado',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt1104001',
+        imagem: 'https://image.tmdb.org/t/p/w300/wlHzvzXE9AvMgrVsKHg2PweC3aC.jpg'
+    },
+    {
+        titulo: 'Anjos da Noite: Underworld',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt0320691',
+        imagem: 'https://image.tmdb.org/t/p/w300/rz9oAnjaHV8Mbsneyv13xt72k2F.jpg'
+    },
+    {
+        titulo: 'Anjos da Noite: A Rebelião',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt0834001',
+        imagem: 'https://image.tmdb.org/t/p/w300/atPv2WJzlD76ZQP3wjaixZooR1l.jpg'
+    },
+    {
+        titulo: 'Anjos da Noite: O Despertar',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt1496025',
+        imagem: 'https://image.tmdb.org/t/p/w300/u6GY91MCrmUdMeUIxbw9JXvblES.jpg'
+    },
+    {
+        titulo: 'Anjos da Noite: Guerras de Sangue',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt3717252',
+        imagem: 'https://image.tmdb.org/t/p/w300/mNqzSbagMFI3BbF1SPCRjqHLYlk.jpg'
+    },
+    {
+        titulo: 'Jackass 3',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt1116184',
+        imagem: 'https://image.tmdb.org/t/p/w300/j29DmvYVzrC268s6zI0gP8Kz8nB.jpg'
+    },
+    {
+        titulo: 'Armageddon',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt0120591',
+        imagem: 'https://image.tmdb.org/t/p/w300/czJoGeLEGF1lLxyAj8u3HMxBy7o.jpg'
+    },
+    {
+        titulo: 'Sucker Punch: Mundo Surreal',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt0978764',
+        imagem: 'https://image.tmdb.org/t/p/w300/uUDZWIOUxtVhU1YwlOxvNlnZM5h.jpg'
+    },
+    {
+        titulo: 'Máquina Mortífera',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt0093409',
+        imagem: 'https://image.tmdb.org/t/p/w300/mE6PI7AR9GYCOu7M0zmTuzJGGCa.jpg'
+    },
+    {
+        titulo: 'One Piece Filme 01: O Grande Pirata do Ouro!',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt0814243',
+        imagem: 'https://image.tmdb.org/t/p/w300/4ed1n7FBP6jUKxSguwQ89euSMGP.jpg'
+    },
+    {
+        titulo: 'One Piece Filme 02: Aventura na Ilha Nejimaki',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt0832449',
+        imagem: 'https://image.tmdb.org/t/p/w300/dCQSqo3eZGCvpViSrirfk6EU865.jpg'
+    },
+    {
+        titulo: 'One Piece: Z',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt2375379',
+        imagem: 'https://image.tmdb.org/t/p/w300/yVL6WuhJvY8sZyx2rOYcuFQ0RuX.jpg'
+    },
+    {
+        titulo: 'One Piece Gold: O Filme',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt5251328',
+        imagem: 'https://image.tmdb.org/t/p/w300/pHuiZmj4aaThV8akzsA5zMcTtox.jpg'
+    },
+    {
+        titulo: 'O Lendário Cão Guerreiro',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt4428398',
+        imagem: 'https://image.tmdb.org/t/p/w300/rpK3dukkvCa3E7iOPphsBGTO2dS.jpg'
+    },
+    {
+        titulo: 'Código: Imperador',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt13660916',
+        imagem: 'https://image.tmdb.org/t/p/w300/74HVV4JR2rT01S9NDZie4YWBLUD.jpg'
+    },
+    {
+        titulo: 'Dupla Jornada',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt13314558',
+        imagem: 'https://image.tmdb.org/t/p/w300/gmY6yEyvLlkqrgqYNXPp1llPZeT.jpg'
+    },
+    {
+        titulo: 'Samaritano',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt5500218',
+        imagem: 'https://image.tmdb.org/t/p/w300/z0de9eo5QznG9KEijDvROHrYSfo.jpg'
+    },
+    {
+        titulo: 'O Despertar das Tartarugas Ninja: O Filme',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt9784708',
+        imagem: 'https://image.tmdb.org/t/p/w300/1lJgQ0cTKsU4gVEVkNOc6jEJU0o.jpg'
+    },
+    {
+        titulo: 'Pequenos Espiões 3: Game Over',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0338459',
+        imagem: 'https://image.tmdb.org/t/p/w300/1LlK2KfVSkz1ALDtV0jwfYbSVX4.jpg'
+    },
+    {
+        titulo: 'Pequenos Espiões 2: A Ilha dos Sonhos Perdidos',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0287717',
+        imagem: 'https://image.tmdb.org/t/p/w300/okbpLqjaUmtYfLlpnNq1vMuLz1w.jpg'
+    },
+    {
+        titulo: 'Pequenos Espiões',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt0227538',
+        imagem: 'https://image.tmdb.org/t/p/w300/h7GC3f0YBKw6DrLXxdFNMZ1BhwR.jpg'
+    },
+    {
+        titulo: 'Fuga de Los Angeles',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt0116225',
+        imagem: 'https://image.tmdb.org/t/p/w300/5P6dMv6FrQGCqy8707Pg1mliiAk.jpg'
+    },
+    {
+        titulo: 'Os Últimos Cavaleiros',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt2493486',
+        imagem: 'https://image.tmdb.org/t/p/w300/znKE6rRND5dkrR8MO8yQsWKCJj2.jpg'
+    },
+    {
+        titulo: 'V de Vingança',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0434409',
+        imagem: 'https://image.tmdb.org/t/p/w300/rvrFkBKTrVCT1nVRuCaemQFRn0.jpg'
+    },
+    {
+        titulo: 'O Homem Sem Sombra',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt0164052',
+        imagem: 'https://image.tmdb.org/t/p/w300/wmQHFXEQztzcEbR1ap2vmeJuc4R.jpg'
+    },
+    {
+        titulo: 'Soldado Anônimo 3: O Cerco',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt4616014',
+        imagem: 'https://image.tmdb.org/t/p/w300/bc9BHYmTjkiPpr3xISgIz0ssgPv.jpg'
+    },
+    {
+        titulo: 'Soldado Anônimo 2: Campo Em Chamas',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt3699508',
+        imagem: 'https://image.tmdb.org/t/p/w300/nqPumNNafnqUyk9DNuxTSrisq6X.jpg'
+    },
+    {
+        titulo: 'O Justiceiro: Estrada do Caos',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt3505812',
+        imagem: 'https://image.tmdb.org/t/p/w300/2YYxSzOq66PEOppuQ2XxWm0QRDf.jpg'
+    },
+    {
+        titulo: '2012',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt1190080',
+        imagem: 'https://image.tmdb.org/t/p/w300/6ZwQWTKeLfmGyaCxKWEqEM7Ewtq.jpg'
+    },
+    {
+        titulo: 'Castle Falls',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt11377298',
+        imagem: 'https://image.tmdb.org/t/p/w300/hcmtEns8LZdkztVz5kX3cirugaa.jpg'
+    },
+    {
+        titulo: 'A Última Vítima',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt12773826',
+        imagem: 'https://image.tmdb.org/t/p/w300/hoJ4G6JVJL8OEB37mRr4t1jn8l0.jpg'
+    },
+    {
+        titulo: 'ONE PIECE FILM RED',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt16183464',
+        imagem: 'https://image.tmdb.org/t/p/w300/cGsmel2XgRONJkpTaRmxqvpdUxw.jpg'
+    },
+    {
+        titulo: 'Ben 10: Corrida Contra o Tempo',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt1037011',
+        imagem: 'https://image.tmdb.org/t/p/w300/zTdYoROAO5T8IsUodUgrnceT3Y1.jpg'
+    },
+    {
+        titulo: 'A Sentinela',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt11734264',
+        imagem: 'https://image.tmdb.org/t/p/w300/56Z9eh4k9pzR6Yhy201nq2Qoa0n.jpg'
+    },
+    {
+        titulo: 'Liga da Justiça: Crise em Duas Terras',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt1494772',
+        imagem: 'https://image.tmdb.org/t/p/w300/bdlmUeBn2k2LGADnJKsyzuegaXC.jpg'
+    },
+    {
+        titulo: 'Escola da Morte',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt6905696',
+        imagem: 'https://image.tmdb.org/t/p/w300/dInT3pJxb4fViZgTIpVSjTCf5eL.jpg'
+    },
+    {
+        titulo: 'Speed Racer',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt0811080',
+        imagem: 'https://image.tmdb.org/t/p/w300/arJV6ypZidAn4qiJXrvow3KbBqZ.jpg'
+    },
+    {
+        titulo: 'Carter',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt21237030',
+        imagem: 'https://image.tmdb.org/t/p/w300/cPKmoSTrPjvSjvKHvnMm1qs0Upa.jpg'
+    },
+    {
+        titulo: 'Os Incríveis',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt0317705',
+        imagem: 'https://image.tmdb.org/t/p/w300/z8k5EhZZTLsCRF8NWjSe6snWNZg.jpg'
+    },
+    {
+        titulo: 'Círculo de Fogo',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt1663662',
+        imagem: 'https://image.tmdb.org/t/p/w300/uFaWzdxzITZxHKaKwyG26QfzHiG.jpg'
+    },
+    {
+        titulo: 'Os Mercenários 3',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt2333784',
+        imagem: 'https://image.tmdb.org/t/p/w300/vd22faXhHRCr8d1FSiXuFfnpSKv.jpg'
+    },
+    {
+        titulo: 'Os Mercenários 2',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt1764651',
+        imagem: 'https://image.tmdb.org/t/p/w300/gEDpD6l2CJ8aLbtYLL2ecQ3yk09.jpg'
+    },
+    {
+        titulo: 'Os Mercenários',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt1320253',
+        imagem: 'https://image.tmdb.org/t/p/w300/tTfRV9lOBi3YDJpYXqbj4Ai04g2.jpg'
+    },
+    {
+        titulo: 'Caos',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0402910',
+        imagem: 'https://image.tmdb.org/t/p/w300/wSZYVssIv4kjRJuyimzc1gBJC2e.jpg'
+    },
+    {
+        titulo: 'Exterminador: Cavaleiros e Dragões',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt12876132',
+        imagem: 'https://image.tmdb.org/t/p/w300/ykhI6BEEUG39Mrg47V1YpIrk5vy.jpg'
+    },
+    {
+        titulo: 'DC Liga dos Superpets',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt8912936',
+        imagem: 'https://image.tmdb.org/t/p/w300/sexnQm1YEJMYo7hZgVP1Y6rEyWz.jpg'
+    },
+    {
+        titulo: 'Tudo em Todo o Lugar ao Mesmo Tempo',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt6710474',
+        imagem: 'https://image.tmdb.org/t/p/w300/bW21kbvqAt2kMGlaU8qY86C8kQE.jpg'
+    },
+    {
+        titulo: 'Os Bad Boys',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0112442',
+        imagem: 'https://image.tmdb.org/t/p/w300/tMhMdsz9KFSh4ZrJQ8KWPksd305.jpg'
+    },
+    {
+        titulo: 'O Substituto 2',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt0120847',
+        imagem: 'https://image.tmdb.org/t/p/w300/3aycfYtvd4RmTNG8lqkD4PhSUB3.jpg'
+    },
+    {
+        titulo: 'O Tigre e o Dragão',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt0190332',
+        imagem: 'https://image.tmdb.org/t/p/w300/6ZPfaWGAir5qgGK0VfBOzOqB3yF.jpg'
+    },
+    {
+        titulo: 'O Assassino: O Primeiro Alvo',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt1961175',
+        imagem: 'https://image.tmdb.org/t/p/w300/juJrnDHS8kIDzdjtLkP9329bmah.jpg'
+    },
+    {
+        titulo: 'Encontro Explosivo',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt1013743',
+        imagem: 'https://image.tmdb.org/t/p/w300/6qKLKSfvYYGFLP9qubm2eXoaV9X.jpg'
+    },
+    {
+        titulo: 'Ninja 2: A Vingança',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt2458106',
+        imagem: 'https://image.tmdb.org/t/p/w300/bdPk58U7rNYzXfvvvm3buVhMRIx.jpg'
+    },
+    {
+        titulo: 'Ninja',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt1182921',
+        imagem: 'https://image.tmdb.org/t/p/w300/tKjH1IQVeUmHOlxZinQdjFHkFVG.jpg'
+    },
+    {
+        titulo: 'Tracers: Nos Limites',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt2401097',
+        imagem: 'https://image.tmdb.org/t/p/w300/yGedOHE4uy4onbvTp8xsIVd41Hx.jpg'
+    },
+    {
+        titulo: 'Guerreira De Sangue',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt4327752',
+        imagem: 'https://image.tmdb.org/t/p/w300/bGB1rSwpw2wio96htGODLe9Ptfc.jpg'
+    },
+    {
+        titulo: 'Ultraman R&B: O Filme - O Cristal da União',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt9890758',
+        imagem: 'https://image.tmdb.org/t/p/w300/8xSRDVb7lyXlarTbqmwhkS027KH.jpg'
+    },
+    {
+        titulo: 'Cabras da Peste',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt14111726',
+        imagem: 'https://image.tmdb.org/t/p/w300/uBo98gD5feDSh24DWpw3NStXjpz.jpg'
+    },
+    {
+        titulo: 'Platoon',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt0091763',
+        imagem: 'https://image.tmdb.org/t/p/w300/lTwR2lFlU9MITmornRYbihksyLt.jpg'
+    },
+    {
+        titulo: 'Dragon Ball Super: Super Hero',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt14614892',
+        imagem: 'https://image.tmdb.org/t/p/w300/FiqBRypTDyHzqcxdbpPb3ddFep.jpg'
+    },
+    {
+        titulo: 'A Bruxa - Parte 1: A Subversão',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt8574252',
+        imagem: 'https://image.tmdb.org/t/p/w300/979reU4oeyHuqQn8D8zHrmUUq6P.jpg'
+    },
+    {
+        titulo: 'A Bruxa - Parte 2: A Colisão',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt13721828',
+        imagem: 'https://image.tmdb.org/t/p/w300/cah6iIYQBctvCmBjsKGb1NCiygr.jpg'
+    },
+    {
+        titulo: 'Dois Amigos e uma Ameaça Alienígena',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt14866710',
+        imagem: 'https://image.tmdb.org/t/p/w300/jDCuTGYlZChQ1acAVbXHJnAxiF7.jpg'
+    },
+    {
+        titulo: 'No Rastro do Tráfico',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt10427010',
+        imagem: 'https://image.tmdb.org/t/p/w300/dB5vP9rfJqhM8lGreEABbqIKTMD.jpg'
+    },
+    {
+        titulo: 'O Predador: A Caçada',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt11866324',
+        imagem: 'https://image.tmdb.org/t/p/w300/g7Ii9sYAFG96W7cvMQ4zXq39RJ5.jpg'
+    },
+    {
+        titulo: 'Atômica',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt2406566',
+        imagem: 'https://image.tmdb.org/t/p/w300/oNPmUi8sADtGNwSGk5qTxxUMlUy.jpg'
+    },
+    {
+        titulo: 'A Liga Extraordinária',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0311429',
+        imagem: 'https://image.tmdb.org/t/p/w300/xQXs7u7ApBDMkChO0xjw8Sw0YfN.jpg'
+    },
+    {
+        titulo: 'Rogue - O Assassino',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0499556',
+        imagem: 'https://image.tmdb.org/t/p/w300/68Bu8QIYcpv3XZZkrUoqQFfwfHx.jpg'
+    },
+    {
+        titulo: 'Fantástica - Uma Aventura no Mundo Boonie Bears',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt6857250',
+        imagem: 'https://image.tmdb.org/t/p/w300/tg2ixwNGT1FHsKpGVWSBw49aF8y.jpg'
+    },
+    {
+        titulo: 'As Aventuras de Errol Flynn',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt5303442',
+        imagem: 'https://image.tmdb.org/t/p/w300/oPMEpcDlZVGa8xBhUUHteaPrvHw.jpg'
+    },
+    {
+        titulo: 'Lancelot: O Primeiro Cavaleiro',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt0113071',
+        imagem: 'https://image.tmdb.org/t/p/w300/hRV2J7FZvYvBcM9vWEAeCBAGkTA.jpg'
+    },
+    {
+        titulo: 'Romeu Tem Que Morrer',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0165929',
+        imagem: 'https://image.tmdb.org/t/p/w300/wwCuBA58NukJIqx81sD785RGh0i.jpg'
+    },
+    {
+        titulo: 'A Força da Natureza',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt10308928',
+        imagem: 'https://image.tmdb.org/t/p/w300/aCbYUY1xuyaxbp5F1KuyH7AIvHg.jpg'
+    },
+    {
+        titulo: 'Mortal',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt5715066',
+        imagem: 'https://image.tmdb.org/t/p/w300/aVbqhqYtlxwEGihTEhewZAgDOCX.jpg'
+    },
+    {
+        titulo: 'Carga Mortal',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt6170506',
+        imagem: 'https://image.tmdb.org/t/p/w300/cjxMMKnuULfVyQ5EE0PbBYiMtuB.jpg'
+    },
+    {
+        titulo: 'Mortal Kombat: A Aniquilação',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt0119707',
+        imagem: 'https://image.tmdb.org/t/p/w300/jnqPIhG2nn0cGZujaSG9ojIGgq.jpg'
+    },
+    {
+        titulo: 'Entrega Mortal',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt1884457',
+        imagem: 'https://image.tmdb.org/t/p/w300/yYjjE7FPO2nZA13dBzVcYXwFaIH.jpg'
+    },
+    {
+        titulo: 'Aliança Mortal',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt2395199',
+        imagem: 'https://image.tmdb.org/t/p/w300/AhDJFm4pZ3Wdlq7IKmvpRXEWqbf.jpg'
+    },
+    {
+        titulo: 'Godzilla II: Rei dos Monstros',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt3741700',
+        imagem: 'https://image.tmdb.org/t/p/w300/2umU3r6V4V2gTmSnZJmH61nTorF.jpg'
+    },
+    {
+        titulo: 'Godzilla',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt0831387',
+        imagem: 'https://image.tmdb.org/t/p/w300/9dyFXQwmFHI1gMn2JEczgKD1hwO.jpg'
+    },
+    {
+        titulo: 'Lutador Misterioso',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt11201180',
+        imagem: 'https://image.tmdb.org/t/p/w300/kYZmkpiBWL2TuPbbvV5cwa6fdqP.jpg'
+    },
+    {
+        titulo: 'O Amanhecer Mais Escuro',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt6017594',
+        imagem: 'https://image.tmdb.org/t/p/w300/cCMNQdHiFvjGfEgtpFARyZuoNwh.jpg'
+    },
+    {
+        titulo: 'Uma Noite no Museu',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt0477347',
+        imagem: 'https://image.tmdb.org/t/p/w300/4b7dG2IHcu4s9BoAqXIMrzf832H.jpg'
+    },
+    {
+        titulo: 'Uma Noite no Museu 2',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt1078912',
+        imagem: 'https://image.tmdb.org/t/p/w300/9nybhG2tnYNl2a8MpKFWml9SHl5.jpg'
+    },
+    {
+        titulo: 'O Homem do Tai Chi',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt2016940',
+        imagem: 'https://image.tmdb.org/t/p/w300/7Jvo3Uf4yRIXPfKz4md4fgPQ5fD.jpg'
+    },
+    {
+        titulo: 'O Guerreiro do Futuro',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt0322651',
+        imagem: 'https://image.tmdb.org/t/p/w300/hthAaRa4tqrIr2IeEvARYQzpjh7.jpg'
+    },
+    {
+        titulo: 'Rápida e Mortal',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt0114214',
+        imagem: 'https://image.tmdb.org/t/p/w300/3Wj0oiuoAmVgSceDXl7sSR1muq1.jpg'
+    },
+    {
+        titulo: 'O Último Mestre do Ar',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt0938283',
+        imagem: 'https://image.tmdb.org/t/p/w300/fIlnPOGWqtRQj7vQdO7iAGAQ1uJ.jpg'
+    },
+    {
+        titulo: 'Han Solo: Uma História Star Wars',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt3778644',
+        imagem: 'https://image.tmdb.org/t/p/w300/jAMEX0syUh6sbjBiysibzrFpbo.jpg'
+    },
+    {
+        titulo: 'Star Wars: O Despertar da Força',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt2488496',
+        imagem: 'https://image.tmdb.org/t/p/w300/lqMDbo4rXnakFgc4C6LzPv6pG7F.jpg'
+    },
+    {
+        titulo: 'Star Wars: Episódio IX - A Ascensão Skywalker',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt2527338',
+        imagem: 'https://image.tmdb.org/t/p/w300/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg'
+    },
+    {
+        titulo: 'Rogue One: Uma História Star Wars',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt3748528',
+        imagem: 'https://image.tmdb.org/t/p/w300/74C2YX0NLWnozVMRS56d5CKDdEv.jpg'
+    },
+    {
+        titulo: 'Guerra nas Estrelas: O Império Contra-Ataca',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt0080684',
+        imagem: 'https://image.tmdb.org/t/p/w300/dLGT8b4Ut10z44uYLaip4QiwKta.jpg'
+    },
+    {
+        titulo: 'Guerra nas Estrelas',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt0076759',
+        imagem: 'https://image.tmdb.org/t/p/w300/dw7X9YPjjAfIxKHW04V64Bb9TB0.jpg'
+    },
+    {
+        titulo: 'Star Wars: Episódio III - A Vingança dos Sith',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt0121766',
+        imagem: 'https://image.tmdb.org/t/p/w300/nuF5yWtTJEEAd4Qa6cVkYz1XCST.jpg'
+    },
+    {
+        titulo: 'Star Wars: Episódio II - Ataque dos Clones',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0121765',
+        imagem: 'https://image.tmdb.org/t/p/w300/9m1nJ2MfTG5QEmjOCg0b4YCo4W8.jpg'
+    },
+    {
+        titulo: 'Marcado para Morrer',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt0113360',
+        imagem: 'https://image.tmdb.org/t/p/w300/fLCGLAGWwnBxEJQFSNvfzn7BlQ5.jpg'
+    },
+    {
+        titulo: '24 Horas: A Redenção',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt0813980',
+        imagem: 'https://image.tmdb.org/t/p/w300/tcKmFtVPgQMO6W21pqtEloY28Bj.jpg'
+    },
+    {
+        titulo: 'Caçada Selvagem',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt7615052',
+        imagem: 'https://image.tmdb.org/t/p/w300/paclnjtBlAcEh1ddUbCbT1azPIc.jpg'
+    },
+    {
+        titulo: 'Robin Hood: O Príncipe dos Ladrões',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt0102798',
+        imagem: 'https://image.tmdb.org/t/p/w300/e7iNpwTsxKGnKHdxPVWghD0Av7j.jpg'
+    },
+    {
+        titulo: 'O Último Passageiro',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt1858481',
+        imagem: 'https://image.tmdb.org/t/p/w300/s28PZ0XDIjgRTAmJlBvvQLBmvwJ.jpg'
+    },
+    {
+        titulo: 'A Hora do Acerto',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt0386005',
+        imagem: 'https://image.tmdb.org/t/p/w300/d4a3r24yLya4Lq0EszxrwzODyzX.jpg'
+    },
+    {
+        titulo: 'Risco Total',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt0106582',
+        imagem: 'https://image.tmdb.org/t/p/w300/2neSG07q03vM5jVA70LC3MB9dnE.jpg'
+    },
+    {
+        titulo: 'A Lenda de Kamui',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt1156479',
+        imagem: 'https://image.tmdb.org/t/p/w300/ygpQwR5D9q4sug4lj1EBV0acqid.jpg'
+    },
+    {
+        titulo: 'Círculo de Fogo: A Revolta',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt2557478',
+        imagem: 'https://image.tmdb.org/t/p/w300/qIWM0wgkmUlrEnYYkZ73EdNL0aX.jpg'
+    },
+    {
+        titulo: 'Bright: Alma de Samurai',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt14837960',
+        imagem: 'https://image.tmdb.org/t/p/w300/3TWRvY9XkDiFFcr72n0vs0oc0Vg.jpg'
+    },
+    {
+        titulo: 'Kung Pow: O Mestre da Kung-Fu-São',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt0240468',
+        imagem: 'https://image.tmdb.org/t/p/w300/8twRIXhh7EoLZWcihWRKJEgdAXq.jpg'
+    },
+    {
+        titulo: 'Agente Oculto',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt1649418',
+        imagem: 'https://image.tmdb.org/t/p/w300/1f10KUKW7KyNt8bF8NHmwbBQ9fs.jpg'
+    },
+    {
+        titulo: 'Aventura em Duas Rodas',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt9671918',
+        imagem: 'https://image.tmdb.org/t/p/w300/gVKYg7HseTtYFavutwC2mZJn8iO.jpg'
+    },
+    {
+        titulo: 'Pitbull - Força Bruta',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt15205194',
+        imagem: 'https://image.tmdb.org/t/p/w300/hwbw4Ng7dV9EBA136a3sNiFwVZw.jpg'
+    },
+    {
+        titulo: 'Vingadores: Guerra Infinita',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt4154756',
+        imagem: 'https://image.tmdb.org/t/p/w300/89QTZmn34iwXYeCpVxhC9UrT8sX.jpg'
+    },
+    {
+        titulo: 'Flashpoint',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt0992911',
+        imagem: 'https://image.tmdb.org/t/p/w300/gc5bgm9RMl0XGF8BNVHqMwKSgx3.jpg'
+    },
+    {
+        titulo: 'Ruas de Fogo',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt0088194',
+        imagem: 'https://image.tmdb.org/t/p/w300/kyZGS5fsfZgfk6aQMYcX4HodZ1z.jpg'
+    },
+    {
+        titulo: 'Céu em Chamas',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt6157600',
+        imagem: 'https://image.tmdb.org/t/p/w300/63mTxkeY9hsb9nFIUEiR2yBopuz.jpg'
+    },
+    {
+        titulo: 'À Prova de Balas',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0115783',
+        imagem: 'https://image.tmdb.org/t/p/w300/9Jdz2Kekifx5fFipZRDroPfmpyi.jpg'
+    },
+    {
+        titulo: 'Nova York Sitiada',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0133952',
+        imagem: 'https://image.tmdb.org/t/p/w300/hwRH4eeIA09RLaKo8F6LIBttQdn.jpg'
+    },
+    {
+        titulo: 'Luna: Em Busca da Verdade',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt5089068',
+        imagem: 'https://image.tmdb.org/t/p/w300/u8EAqDfUXzWsrx2QkHskuWjfL1Z.jpg'
+    },
+    {
+        titulo: 'Um Tira e Meio – A Nova Recruta',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt6212210',
+        imagem: 'https://image.tmdb.org/t/p/w300/7oxV17djCcUE2xFgrL5YE7RedX.jpg'
+    },
+    {
+        titulo: 'O Grande Desafio',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt0184526',
+        imagem: 'https://image.tmdb.org/t/p/w300/8sSQVFmKhPq6wuArxY4u6yjNAqf.jpg'
+    },
+    {
+        titulo: 'Duro de Espiar',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0117723',
+        imagem: 'https://image.tmdb.org/t/p/w300/vXC16Yo38e0v3G34cxSk2fzRG2L.jpg'
+    },
+    {
+        titulo: 'Hot Seat',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt15690300',
+        imagem: 'https://image.tmdb.org/t/p/w300/TUmSO5EPIZAfRSOEjmbrgbTw8i.jpg'
+    },
+    {
+        titulo: 'As Meninas Superpoderosas: O Filme',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt0289408',
+        imagem: 'https://image.tmdb.org/t/p/w300/fYQIXrPHtYSSBm9IQkCuWaWEBVo.jpg'
+    },
+    {
+        titulo: 'Despertar de um Pesadelo',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt0116908',
+        imagem: 'https://image.tmdb.org/t/p/w300/vLHtlBAVC633xbII1fpBF23Kykx.jpg'
+    },
+    {
+        titulo: 'Vingança',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt6738136',
+        imagem: 'https://image.tmdb.org/t/p/w300/tUMY2i0e0KUfslvjBBnRYGBxhL4.jpg'
+    },
+    {
+        titulo: 'Cyborg X',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt3899262',
+        imagem: 'https://image.tmdb.org/t/p/w300/83hXrNOZTnEEhDnHorjDBowWvxd.jpg'
+    },
+    {
+        titulo: 'Hacker',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt2717822',
+        imagem: 'https://image.tmdb.org/t/p/w300/20M7sHjKS0MvuJEMV66tJFdz8YC.jpg'
+    },
+    {
+        titulo: 'Bad Ass 3: Dois Durões em Bayou',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt3525346',
+        imagem: 'https://image.tmdb.org/t/p/w300/q65L3VruvaRDNJQHcQw8w4488ov.jpg'
+    },
+    {
+        titulo: 'Profecia: A Guardiã do Destino',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt0365658',
+        imagem: 'https://image.tmdb.org/t/p/w300/oqctDFTbDW1Df8Mb3dQ0Wt85Ho3.jpg'
+    },
+    {
+        titulo: 'Tripla Ameaça',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt6643972',
+        imagem: 'https://image.tmdb.org/t/p/w300/kRbg3j9VDTjVIYt73f8IfjzxMyk.jpg'
+    },
+    {
+        titulo: 'O Dia Depois de Amanhã',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt0319262',
+        imagem: 'https://image.tmdb.org/t/p/w300/AeTqUixVRlB0oS6JVgjCxLGvwls.jpg'
+    },
+    {
+        titulo: 'Duro na Queda',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt10022974',
+        imagem: 'https://image.tmdb.org/t/p/w300/qvzcwPg6ukHugArAp9XeBvaz58.jpg'
+    },
+    {
+        titulo: 'Te Peguei!',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt2854926',
+        imagem: 'https://image.tmdb.org/t/p/w300/gI6zwlVk1Bu3FnkcDkCYYHsBhTz.jpg'
+    },
+    {
+        titulo: 'Crônicas da Tribo Fantasma',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt4819498',
+        imagem: 'https://image.tmdb.org/t/p/w300/sWuVJpOWNM0UVD0bGwbLZTzu294.jpg'
+    },
+    {
+        titulo: 'Duro de Matar: Um Bom Dia para Morrer',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt1606378',
+        imagem: 'https://image.tmdb.org/t/p/w300/qlBdUUjm7Q5CMyv5yRNNhfnydVd.jpg'
+    },
+    {
+        titulo: 'Duro de Matar 4.0',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt0337978',
+        imagem: 'https://image.tmdb.org/t/p/w300/fjvKqLHjnUm2PxVHjhQ8FLbInbl.jpg'
+    },
+    {
+        titulo: 'Duro de Matar: A Vingança',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt0112864',
+        imagem: 'https://image.tmdb.org/t/p/w300/j9Gdu7UEMLDnobLTKybARFVOvDh.jpg'
+    },
+    {
+        titulo: 'Duro de Matar',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt0095016',
+        imagem: 'https://image.tmdb.org/t/p/w300/rauTKnFle1sp4aXjtYgx4tCWNiK.jpg'
+    },
+    {
+        titulo: 'Duro de Matar 2',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt0099423',
+        imagem: 'https://image.tmdb.org/t/p/w300/z5uiLFzjgeYhnpHmBlFg7s1YHwp.jpg'
+    },
+    {
+        titulo: 'Caça às Bruxas',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0479997',
+        imagem: 'https://image.tmdb.org/t/p/w300/oNyEYVm295JdZXbRi40XcqjOs7G.jpg'
+    },
+    {
+        titulo: 'O Elevador da Morte',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0247303',
+        imagem: 'https://image.tmdb.org/t/p/w300/iFq2Jp3MQefzRPrMzUlLMa0vkDO.jpg'
+    },
+    {
+        titulo: 'Um Espião e Meio',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt1489889',
+        imagem: 'https://image.tmdb.org/t/p/w300/4IG7rUmzM3pdZvWwBBLIwDfFVim.jpg'
+    },
+    {
+        titulo: 'A Princesa',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt13406136',
+        imagem: 'https://image.tmdb.org/t/p/w300/kp6SsW7uwDYRxkqUysIHJYTZ3hV.jpg'
+    },
+    {
+        titulo: 'Minha Vingança',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt11650226',
+        imagem: 'https://image.tmdb.org/t/p/w300/yCc3nAORSMTOpIk2qAKLQA7gAVg.jpg'
+    },
+    {
+        titulo: 'Ameaça Profunda',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt5774060',
+        imagem: 'https://image.tmdb.org/t/p/w300/k56yNPnwRj2vLGV9os3h26Gii8P.jpg'
+    },
+    {
+        titulo: 'O Caçador e a Rainha do Gelo',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt2381991',
+        imagem: 'https://image.tmdb.org/t/p/w300/zIkesM1c2MxRuGitGiGZ9pmis7g.jpg'
+    },
+    {
+        titulo: 'Brigada 49',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt0349710',
+        imagem: 'https://image.tmdb.org/t/p/w300/4NhoLDXG87WYMTL9uqVydRGGhmH.jpg'
+    },
+    {
+        titulo: 'Conan, o Destruidor',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt0087078',
+        imagem: 'https://image.tmdb.org/t/p/w300/v7oGgmntwi8ZwVN0wId7yH1wmFT.jpg'
+    },
+    {
+        titulo: 'O Mestre Invencível',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt0080179',
+        imagem: 'https://image.tmdb.org/t/p/w300/5lc23qh7F0MWQJweFaUfk6rdLQE.jpg'
+    },
+    {
+        titulo: 'A Rede',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt0113957',
+        imagem: 'https://image.tmdb.org/t/p/w300/cRb3PYrt3YvCsi9FsGpq61FeDZt.jpg'
+    },
+    {
+        titulo: 'Contrabando',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt1524137',
+        imagem: 'https://image.tmdb.org/t/p/w300/bk39VBQJC1fPoN33wBeAtziYa0h.jpg'
+    },
+    {
+        titulo: 'Greyhound - Na Mira do Inimigo',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt6048922',
+        imagem: 'https://image.tmdb.org/t/p/w300/el7iWlogQ4Mv6A0qvBn4ZyxHGiW.jpg'
+    },
+    {
+        titulo: 'Vovó... Zona 3: Tal Pai, Tal Filho',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt1464174',
+        imagem: 'https://image.tmdb.org/t/p/w300/cpGNXhl0zLAd8zeVIbtRPvDoNQm.jpg'
+    },
+    {
+        titulo: 'O Inferno de Dante',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt0118928',
+        imagem: 'https://image.tmdb.org/t/p/w300/cXUuR4KhrmNsux41ju31rQ3EBmh.jpg'
+    },
+    {
+        titulo: 'Robin Hood: A Origem',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt4532826',
+        imagem: 'https://image.tmdb.org/t/p/w300/aGkgDTOfgiXUIWC52tjFUZnzrWZ.jpg'
+    },
+    {
+        titulo: 'Procurada',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt3984356',
+        imagem: 'https://image.tmdb.org/t/p/w300/zftgIV8k5PzFfumIq79a7qMapoH.jpg'
+    },
+    {
+        titulo: 'Guerra contra Aliens',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt9562694',
+        imagem: 'https://image.tmdb.org/t/p/w300/ri3zFC4E70j321qNPnO3LWYqTDU.jpg'
+    },
+    {
+        titulo: 'Segundo em Comando',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt0458471',
+        imagem: 'https://image.tmdb.org/t/p/w300/yfClcix0iwBaAsm4QRPbmmFAcYk.jpg'
+    },
+    {
+        titulo: 'Do Fundo do Mar 3',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt11946300',
+        imagem: 'https://image.tmdb.org/t/p/w300/azvgqitNO0kConxAP0TUjMlpBUI.jpg'
+    },
+    {
+        titulo: 'Invasão Zumbi',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt5700672',
+        imagem: 'https://image.tmdb.org/t/p/w300/QqHtwk0oHYed26zra9WGQGyBSm.jpg'
+    },
+    {
+        titulo: 'O Demolidor',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt0106697',
+        imagem: 'https://image.tmdb.org/t/p/w300/2BjAYQNwmdIZF6XQQ2rLOrios1Q.jpg'
+    },
+    {
+        titulo: 'Relação Explosiva',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt2097307',
+        imagem: 'https://image.tmdb.org/t/p/w300/kW7B4ZkfICmIONtfoMu2CJoFgzp.jpg'
+    },
+    {
+        titulo: 'Timecop: O Guardião do Tempo',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt0111438',
+        imagem: 'https://image.tmdb.org/t/p/w300/9icQABTwqS67xz6GCMaBOzBM1uX.jpg'
+    },
+    {
+        titulo: 'Inimigo do Estado',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0120660',
+        imagem: 'https://image.tmdb.org/t/p/w300/eRIi2QdEaG5UgguUALg8AiWX8Uh.jpg'
+    },
+    {
+        titulo: 'Chumbo Grosso',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0425112',
+        imagem: 'https://image.tmdb.org/t/p/w300/bqT6jMz8J7vhZo7lMd6q5d8ijjd.jpg'
+    },
+    {
+        titulo: 'A Fúria do Justiceiro',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt0102984',
+        imagem: 'https://image.tmdb.org/t/p/w300/ebKQARbBprjhXHjYFbWmtRozMce.jpg'
+    },
+    {
+        titulo: 'Fúria Silenciosa',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt0084684',
+        imagem: 'https://image.tmdb.org/t/p/w300/gxJm7yFKkbp5UojwOi71nNr3cmE.jpg'
+    },
+    {
+        titulo: 'Fúria Sobre Rodas',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt1502404',
+        imagem: 'https://image.tmdb.org/t/p/w300/tufE5dzOEnhygnhQQGy89uYOHzj.jpg'
+    },
+    {
+        titulo: 'O Corvo: A Cidade dos Anjos',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0115986',
+        imagem: 'https://image.tmdb.org/t/p/w300/ogT6xmdZKyRtPYf2IorWamuqaas.jpg'
+    },
+    {
+        titulo: 'A Batalha das Ardenas - A Última Ofensiva de Hitler',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt5815078',
+        imagem: 'https://image.tmdb.org/t/p/w300/brVPZyqIdTAScO8vg1Au8fbsd0b.jpg'
+    },
+    {
+        titulo: 'Silverton: Cerco Fechado',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt18563148',
+        imagem: 'https://image.tmdb.org/t/p/w300/mp2GAIoW9czkSlyZHlqii9Bc6i6.jpg'
+    },
+    {
+        titulo: 'Devorados Vivos',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt1870527',
+        imagem: 'https://image.tmdb.org/t/p/w300/4OLcbailKWlB0li18iD6fy6k5TL.jpg'
+    },
+    {
+        titulo: 'O Sobrevivente',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt13694706',
+        imagem: 'https://image.tmdb.org/t/p/w300/eGasiClJNhuQa80IZwwlV1Mb0Qm.jpg'
+    },
+    {
+        titulo: 'A Tribo II',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt0811124',
+        imagem: 'https://image.tmdb.org/t/p/w300/8unm1Ui0ypBLnsCwtiQvyK7CIQX.jpg'
+    },
+    {
+        titulo: 'A Tribo',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt1308169',
+        imagem: 'https://image.tmdb.org/t/p/w300/aHwJWh2fuGkpCvQ4ca1KADMKmxw.jpg'
+    },
+    {
+        titulo: 'Billy The Kid: O Fora da Lei',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt4975920',
+        imagem: 'https://image.tmdb.org/t/p/w300/2vlhQKwzEPoZC5cTfzLHrmKjbsk.jpg'
+    },
+    {
+        titulo: 'Highlander 3: O Feiticeiro',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt0110027',
+        imagem: 'https://image.tmdb.org/t/p/w300/9wPvpoLU6KJLEbMwhh4K25QvvTn.jpg'
+    },
+    {
+        titulo: 'Highlander 4: A Batalha Final',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt0144964',
+        imagem: 'https://image.tmdb.org/t/p/w300/rYmzsjiKb30yBqegRCbOREAZJrj.jpg'
+    },
+    {
+        titulo: 'Em Busca de Ohana',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt10332588',
+        imagem: 'https://image.tmdb.org/t/p/w300/vcQY8T1owyMMRmp9dZiUTUQVxKW.jpg'
+    },
+    {
+        titulo: 'Em Fuga',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt13680520',
+        imagem: 'https://image.tmdb.org/t/p/w300/dkZAsGX4xXsy6rhTnvi5EdbB0Qx.jpg'
+    },
+    {
+        titulo: 'Um Drink no Inferno',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt0116367',
+        imagem: 'https://image.tmdb.org/t/p/w300/vVO9dJdZwXJfiqesM2TFp5jrw92.jpg'
+    },
+    {
+        titulo: 'Justiça em Família',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt10731768',
+        imagem: 'https://image.tmdb.org/t/p/w300/cygRJp2OQKsiGbJxKq5TbvzW9QR.jpg'
+    },
+    {
+        titulo: 'Rambo: Até o Fim',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt1206885',
+        imagem: 'https://image.tmdb.org/t/p/w300/vaoCd6iZ6xmBTvsiuWjcMWY6wdm.jpg'
+    },
+    {
+        titulo: 'Os Novos Mutantes',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt4682266',
+        imagem: 'https://image.tmdb.org/t/p/w300/6RcWaW43UWIJzhIp6bcmui2efd.jpg'
+    },
+    {
+        titulo: 'O Homem de Toronto',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt11671006',
+        imagem: 'https://image.tmdb.org/t/p/w300/8lpUE9YaNWMGueBxg6n8IvrjnSL.jpg'
+    },
+    {
+        titulo: 'Correr Atirando',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt14039086',
+        imagem: 'https://image.tmdb.org/t/p/w300/j252tH00eMyANiqhaLkemlkO16v.jpg'
+    },
+    {
+        titulo: 'Sicario - Perigo no Abrigo',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt10375916',
+        imagem: 'https://image.tmdb.org/t/p/w300/tqHoz9tdsQJ3US1Pb7eZdBDi8op.jpg'
+    },
+    {
+        titulo: 'O Peso do Talento',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt11291274',
+        imagem: 'https://image.tmdb.org/t/p/w300/4KahLgGArTECtUJWN9ACGR6l1S.jpg'
+    },
+    {
+        titulo: 'Até o Fim!',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt13454228',
+        imagem: 'https://image.tmdb.org/t/p/w300/qmTwhD0N2IA5SzN1xxVK70UYiy2.jpg'
+    },
+    {
+        titulo: 'Elektra',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt0357277',
+        imagem: 'https://image.tmdb.org/t/p/w300/gC6s6NKHneSrOKyQZnUMb443RKU.jpg'
+    },
+    {
+        titulo: '12 Heróis',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt1413492',
+        imagem: 'https://image.tmdb.org/t/p/w300/mBgAJeIx1d5kxU8nR748o9qnAUK.jpg'
+    },
+    {
+        titulo: 'Cowboy Bebop - O Filme',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt0275277',
+        imagem: 'https://image.tmdb.org/t/p/w300/zgI6Th73JRwATaD0bA3FVVDjUow.jpg'
+    },
+    {
+        titulo: 'A Assassina',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0107843',
+        imagem: 'https://image.tmdb.org/t/p/w300/zxS0PgB9ngEQUGqLSf8QKoQAq9V.jpg'
+    },
+    {
+        titulo: 'The Lego Movie 7',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt3513498',
+        imagem: 'https://image.tmdb.org/t/p/w300/naoItRpLWdEPe8CJUNy4r04HHSa.jpg'
+    },
+    {
+        titulo: 'Comando para Matar',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt0088944',
+        imagem: 'https://image.tmdb.org/t/p/w300/c02d619U138A3eBt3ZhMPrlwiaM.jpg'
+    },
+    {
+        titulo: 'Van Helsing: O Caçador de Monstros',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt0338526',
+        imagem: 'https://image.tmdb.org/t/p/w300/s8fhGCLWbFDbBAOitRzVlMPk5pd.jpg'
+    },
+    {
+        titulo: 'Miss Simpatia',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt0212346',
+        imagem: 'https://image.tmdb.org/t/p/w300/9oae5r1ATLwVY7yJyTXhMaZSGGq.jpg'
+    },
+    {
+        titulo: 'A Lenda do Tesouro Perdido',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt0368891',
+        imagem: 'https://image.tmdb.org/t/p/w300/5TAQBqvokRt2qHEgi7ipeX1Bif9.jpg'
+    },
+    {
+        titulo: 'Tenet',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt6723592',
+        imagem: 'https://image.tmdb.org/t/p/w300/oh8XmxWlySHgGLlx8QOBmq9k72j.jpg'
+    },
+    {
+        titulo: 'Contrato Perigoso',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt10323676',
+        imagem: 'https://image.tmdb.org/t/p/w300/dq9r4v9yWkSmMvffTMiNy3heTZ6.jpg'
+    },
+    {
+        titulo: 'Heróis de Guerra',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt5951188',
+        imagem: 'https://image.tmdb.org/t/p/w300/AttAWFTg1K4Qxjo12nMhu8NQIFR.jpg'
+    },
+    {
+        titulo: 'Fúria Incontrolável',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt10059518',
+        imagem: 'https://image.tmdb.org/t/p/w300/kDt37orVVcJ4tbB2azkMc4nqn1U.jpg'
+    },
+    {
+        titulo: 'Lightyear',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt10298810',
+        imagem: 'https://image.tmdb.org/t/p/w300/wc3cGQUF4P2Jetawf7YqzaWQsNc.jpg'
+    },
+    {
+        titulo: 'Agentes Selvagens',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt8028842',
+        imagem: 'https://image.tmdb.org/t/p/w300/tRbKCQxQ6PF9GWMWknN3LVm9sCZ.jpg'
+    },
+    {
+        titulo: 'A Vigilante do Amanhã: Ghost in the Shell',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt1219827',
+        imagem: 'https://image.tmdb.org/t/p/w300/4KTaQLYRuac12gdPAYhXGHLSOW4.jpg'
+    },
+    {
+        titulo: 'A Lenda do Tesouro Perdido: Livro dos Segredos',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt0465234',
+        imagem: 'https://image.tmdb.org/t/p/w300/uieqgufMTYPIq5Zcs5rfJ0b1eMb.jpg'
+    },
+    {
+        titulo: 'Legião',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt1038686',
+        imagem: 'https://image.tmdb.org/t/p/w300/4w83G68shLcuFcHaWfdPxPu1pUA.jpg'
+    },
+    {
+        titulo: 'Upgrade: Atualização',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt6499752',
+        imagem: 'https://image.tmdb.org/t/p/w300/yVRDpj9wg6sYnBugfxUbnjBdHWo.jpg'
+    },
 ];
 
 // Função para adicionar filmes à página
