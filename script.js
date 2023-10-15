@@ -1,85 +1,85 @@
 var filmes = [
     {
         titulo: 'Cemitério Maldito: A Origem',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Em 1969, o jovem Jud Crandall sonha em deixar para trás sua cidade natal, Ludlow, mas logo descobre segredos sinistros no local. Ele é forçado a enfrentar a sombria história de sua família, que o manterá para sempre conectado à cidadezinha.',
         imdb: 'tt14145436',
         imagem: 'https://image.tmdb.org/t/p/w300/cTtrFUxMKUX4ZGfMfydym2AZQba.jpg'
     },
     {
         titulo: 'Medusa: Rainha das Serpentes',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Depois de ser picada por uma cobra, a vida de uma jovem começa a dar uma guinada para o pior, pois um vírus mortal assola seu corpo.',
         imdb: 'tt12060154',
         imagem: 'https://image.tmdb.org/t/p/w300/fs8RXnnJkYKo53R8A6eakzcTTHj.jpg'
     },
     {
         titulo: 'Sala Verde',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Após terminarem seu show, uma banda de rock acaba testemunhando um terrível ato de violência e um brutal assassinato. Como eles são as únicas testemunhas do crime, eles logos se tornam o principal alvo de uma gangue de skinheads. A banda, então, terá que se refugiar na "sala verde" se quiser sobreviver a "queima de arquivos" promovida pelos brutais assassinos.',
         imdb: 'tt4062536',
         imagem: 'https://image.tmdb.org/t/p/w300/4W6TeOnwAyNq3Zp8NP9gwYPZ1pK.jpg'
     },
     {
         titulo: 'Diário de um Adolescente',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Jim Carrol sonha em ser um astro do basquete, mas as pressões e angústias típicas da adolescência o levam a experimentar heroína. Viciado, é expulso do colégio e se une a um grupo de drogados descobrindo o inferno do submundo.',
         imdb: 'tt0112461',
         imagem: 'https://image.tmdb.org/t/p/w300/mdQoyPS3QICr3texSpvNqkdmqD.jpg'
     },
     {
         titulo: 'Não Abra!',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Sam (Megan Suri), uma adolescente que lida com os conflitos entre sua origem indiana e a vida nos EUA, acidentalmente liberta uma antiga entidade demoníaca de um jarro que jamais deveria ter sido aberto. À medida que o mal se alimenta dos seus piores medos, Sam precisará desvendar segredos ancestrais para tentar salvar sua vida e a de todos ao seu redor.',
         imdb: 'tt15683734',
         imagem: 'https://image.tmdb.org/t/p/w300/8CZWjmF154BOrzgsvtdwgzlqyKh.jpg'
     },
     {
         titulo: 'Retratos Fantasmas',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Como em tantas cidades do mundo ao longo do século 20, milhões de pessoas foram ao cinema no centro do Recife. Com a passagem do tempo, as ruínas dos grandes cinemas revelam algumas verdades sobre a vida em sociedade.',
         imdb: 'tt27502227',
         imagem: 'https://image.tmdb.org/t/p/w300/akVsEkPbb41DQ0vODFZRtzXjuyy.jpg'
     },
     {
         titulo: 'The Loud House: Uma Verdadeira Família Assombrada',
-        descricao: 'Descrição do filme 7',
+        descricao: 'A família Loud está se preparando para o "Espantacular" da família. Mas a mãe simplesmente não pôde distribuir doces após descobrir cáries em todas as crianças! A família se redime distribuindo doces da Vanzilla, enquanto Luna faz um show musical.',
         imdb: 'tt27428598',
         imagem: 'https://image.tmdb.org/t/p/w300/30we4NrF5F1FcBDklBGXvCDn1pG.jpg'
     },
     {
         titulo: 'Perigo no Recife',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Após o assassinato de sua irmã, Nic, sua irmã mais nova e dois amigos buscam consolo em uma aventura de caiaque nas ilhas do Pacífico. Horas depois da viagem, as mulheres são perseguidas por um tubarão e devem se unir, enfrentar seus medos e salvar umas às outras.',
         imdb: 'tt12735282',
         imagem: 'https://image.tmdb.org/t/p/w300/1W8IGuXEUrAYHaR0wQn3MyZiQFo.jpg'
     },
     {
         titulo: 'Muti: Crime e Poder',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Um detetive à beira da aposentadoria se une a um professor de Estudos Africanos para rastrear um serial killer que está realizando a antiga prática de magia negra de Muti.',
         imdb: 'tt13141250',
         imagem: 'https://image.tmdb.org/t/p/w300/z2fgGa0B5Bk8Ak3ScaTEEnO7qCZ.jpg'
     },
     {
         titulo: 'Homens à beira de um ataque de nervos',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Sete homens, com idades entre 17 e 70 anos, que são completamente opostos, se não à beira de um colapso nervoso, se encontram embarcados em uma terapia de grupo no deserto. Este curso misterioso, "exclusivamente reservado aos homens", supostamente opera milagres.',
         imdb: 'tt10945232',
         imagem: 'https://image.tmdb.org/t/p/w300/1xHzWFq0TLaFLWw4J6h44rZmZJ2.jpg'
     },
     {
         titulo: 'Awareness: A Realidade é Uma Ilusão',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Um adolescente e seu pai vivem à margem da sociedade de forma peculiar: eles aplicam golpes usando os poderes do adolescente. Mas as coisas acabam saindo do controle quando Ian é exposto em público, o que dá início a uma guerra em que os dois lados querem obter benefícios com seu dom!',
         imdb: 'tt18556326',
         imagem: 'https://image.tmdb.org/t/p/w300/msgWkL23ZslTVZJRYJIng83mYny.jpg'
     },
     {
         titulo: 'Era uma Vez uma Estrela',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Em 1970, uma trupe de cinema itinerante encara obstáculos em suas viagens pela Tailândia para entreter plateias sedentas por filmes com dublagem ao vivo.',
         imdb: 'tt22696288',
         imagem: 'https://image.tmdb.org/t/p/w300/9CELDhMAq2rbQsSqJYotWGCkeRO.jpg'
     },
     {
         titulo: 'A Porta ao Lado',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Mari e Rafa vivem um relacionamento tradicional, estável e sem altos e baixos. O casamento segue tranquilo até o dia em que se muda para o apartamento ao lado o casal Isis e Fred. Os novos vizinhos vivem um relacionamento aberto, separam sexo de amor e decidiram não ter filhos. O encontro dos dois casais irá provocar desejos, dúvidas, inseguranças, mentiras e transformações nos quatro, fazendo com que cada um reavalie suas escolhas.',
         imdb: 'tt21186266',
         imagem: 'https://image.tmdb.org/t/p/w300/8pYsfzwI20pzzwVeEIPS2Sb0zFA.jpg'
     },
     {
         titulo: 'A Era de Ouro',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Neil Bogart funda a gravadora Casablanca Records na década de 1970 e assina com grandes artistas como Donna Summer, Parliament, Gladys Knight, Isley Brothers, Village People, Bill Withers e Kiss. Com uma equipe de jovens e entusiasmados amantes da música, a Casablanca reescreve a história e muda a indústria fonográfica para sempre.',
         imdb: 'tt2071590',
         imagem: 'https://image.tmdb.org/t/p/w300/p7HiwisHEP9l1bF3LMnoF3R63nn.jpg'
     },
