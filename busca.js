@@ -7,6 +7,90 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Cemitério Maldito: A Origem',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt14145436',
+        imagem: 'https://image.tmdb.org/t/p/w300/cTtrFUxMKUX4ZGfMfydym2AZQba.jpg'
+    },
+    {
+        titulo: 'Medusa: Rainha das Serpentes',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt12060154',
+        imagem: 'https://image.tmdb.org/t/p/w300/fs8RXnnJkYKo53R8A6eakzcTTHj.jpg'
+    },
+    {
+        titulo: 'Sala Verde',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt4062536',
+        imagem: 'https://image.tmdb.org/t/p/w300/4W6TeOnwAyNq3Zp8NP9gwYPZ1pK.jpg'
+    },
+    {
+        titulo: 'Diário de um Adolescente',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0112461',
+        imagem: 'https://image.tmdb.org/t/p/w300/mdQoyPS3QICr3texSpvNqkdmqD.jpg'
+    },
+    {
+        titulo: 'Não Abra!',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt15683734',
+        imagem: 'https://image.tmdb.org/t/p/w300/8CZWjmF154BOrzgsvtdwgzlqyKh.jpg'
+    },
+    {
+        titulo: 'Retratos Fantasmas',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt27502227',
+        imagem: 'https://image.tmdb.org/t/p/w300/akVsEkPbb41DQ0vODFZRtzXjuyy.jpg'
+    },
+    {
+        titulo: 'The Loud House: Uma Verdadeira Família Assombrada',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt27428598',
+        imagem: 'https://image.tmdb.org/t/p/w300/30we4NrF5F1FcBDklBGXvCDn1pG.jpg'
+    },
+    {
+        titulo: 'Perigo no Recife',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt12735282',
+        imagem: 'https://image.tmdb.org/t/p/w300/1W8IGuXEUrAYHaR0wQn3MyZiQFo.jpg'
+    },
+    {
+        titulo: 'Muti: Crime e Poder',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt13141250',
+        imagem: 'https://image.tmdb.org/t/p/w300/z2fgGa0B5Bk8Ak3ScaTEEnO7qCZ.jpg'
+    },
+    {
+        titulo: 'Homens à beira de um ataque de nervos',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt10945232',
+        imagem: 'https://image.tmdb.org/t/p/w300/1xHzWFq0TLaFLWw4J6h44rZmZJ2.jpg'
+    },
+    {
+        titulo: 'Awareness: A Realidade é Uma Ilusão',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt18556326',
+        imagem: 'https://image.tmdb.org/t/p/w300/msgWkL23ZslTVZJRYJIng83mYny.jpg'
+    },
+    {
+        titulo: 'Era uma Vez uma Estrela',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt22696288',
+        imagem: 'https://image.tmdb.org/t/p/w300/9CELDhMAq2rbQsSqJYotWGCkeRO.jpg'
+    },
+    {
+        titulo: 'A Porta ao Lado',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt21186266',
+        imagem: 'https://image.tmdb.org/t/p/w300/8pYsfzwI20pzzwVeEIPS2Sb0zFA.jpg'
+    },
+    {
+        titulo: 'A Era de Ouro',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt2071590',
+        imagem: 'https://image.tmdb.org/t/p/w300/p7HiwisHEP9l1bF3LMnoF3R63nn.jpg'
+    },
+    {
         titulo: 'A Arte da Sobrevivência',
         descricao: 'Durante a Segunda Guerra Mundial, Antonio é um clarinetista italiano, que se apaixona por Martina, uma violinista tcheca. Ambos são levados ao campo de concentração de Terezín, onde sua história de amor é intercalada com a de outros artistas judeus que, ao promovem uma série de atividades culturais, descobrem que a arte é uma importante aliada da sobrevivência.',
         imdb: 'tt15053106',
