@@ -13,7 +13,7 @@ var filmes = [
     },
     {
         titulo: 'Sala Verde',
-        descricao: 'Após terminarem seu show, uma banda de rock acaba testemunhando um terrível ato de violência e um brutal assassinato. Como eles são as únicas testemunhas do crime, eles logos se tornam o principal alvo de uma gangue de skinheads. A banda, então, terá que se refugiar na "sala verde" se quiser sobreviver a "queima de arquivos" promovida pelos brutais assassinos.',
+        descricao: 'Após terminarem seu show, uma banda de rock acaba testemunhando um terrível ato de violência e um brutal assassinato. Como eles são as únicas testemunhas do crime, eles logos se tornam o principal alvo de uma gangue de skinheads. A banda, então, terá que se refugiar na "sala verde" se quiser sobreviver a queima de arquivos promovida pelos brutais assassinos.',
         imdb: 'tt4062536',
         imagem: 'https://image.tmdb.org/t/p/w300/4W6TeOnwAyNq3Zp8NP9gwYPZ1pK.jpg'
     },
