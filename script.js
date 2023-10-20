@@ -2520,19 +2520,19 @@ var filmes = [
     },
     {
         titulo: 'Mais que Amigos',
-        descricao: 'Descrição do filme 1',
+        descricao: 'A primeira comédia romântica de um grande estúdio sobre dois homens gays talvez, possivelmente, provavelmente, tropeçando em direção ao amor. Pode ser. Ambos estão muito ocupados.',
         imdb: 'tt9731598',
         imagem: 'https://image.tmdb.org/t/p/w300/fDwxAM6z1Igkwv7b4qobwf46xdM.jpg'
     },
     {
         titulo: 'A Roleta da Morte',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Sete pessoas acordam sequestradas em uma mansão para fazerem parte de um jogo mortal. À medida que o relógio avança, para sobreviver, os sete competidores devem escolher um morrerá e o escolhido terá que concordar. Em 60 minutos, os maiores segredos virão à tona e eles descobrirão que estão todos unidos por um passado sombrio.',
         imdb: 'tt21087452',
         imagem: 'https://image.tmdb.org/t/p/w300/yDziA0OTfZq19IBlQ6EUemraSfY.jpg'
     },
     {
         titulo: 'A Tr3s',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Sexualmente desajeitada, Stacy Johnson decide tomar as rédeas de sua vida, cancelar seu ex e vencer seu medo de fazer um ménage com seu novo namorado e uma desconhecida misteriosa. O que poderia dar errado?',
         imdb: 'tt19845038',
         imagem: 'https://image.tmdb.org/t/p/w300/qCIbW6ocszh1URnIS6ikw1BQCjV.jpg'
     },
@@ -2544,121 +2544,115 @@ var filmes = [
     },
     {
         titulo: 'Guia de Viagem para o Amor',
-        descricao: 'Descrição do filme 5',
+        descricao: 'No Vietnã a trabalho, uma agente de viagens americana conhece um guia de turismo charmoso que mostra a ela o lado bom de uma vida de aventuras.',
         imdb: 'tt20115096',
         imagem: 'https://image.tmdb.org/t/p/w300/2nhTfuDkks0MZgx0gncPvz1L59p.jpg'
     },
     {
         titulo: 'Air: A História Por Trás do Logo',
-        descricao: 'Descrição do filme 6',
+        descricao: 'A história do esforço da Nike para contratar o astro do basquete em ascensão Michael Jordan para sua empresa de calçados em meados da década de 1980, um endosso que parecia impossível na época, mas que, graças ao vendedor de tênis independente Sonny Vaccarro, se tornaria o relacionamento mais significativo entre uma marca atlética e um atleta de todos os tempos.',
         imdb: 'tt16419074',
         imagem: 'https://image.tmdb.org/t/p/w300/8OGQCOp6BxwvekhZBQCzVd77Y6l.jpg'
     },
     {
-        titulo: 'D.P.A. e a Biblioteca Banida',
-        descricao: 'Descrição do filme 7',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/2jQ7Wtm6MNNn5J8rleBJrwSkedu.jpg'
-    },
-    {
         titulo: 'Asterix e Obelix no Reino do Meio',
-        descricao: 'Descrição do filme 8',
+        descricao: 'A única filha do imperador chinês Han Xuandi, escapa de um príncipe rigoroso e procura ajuda dos gauleses e dos dois bravos guerreiros Asterix e Obelix.',
         imdb: 'tt11210390',
         imagem: 'https://image.tmdb.org/t/p/w300/cc04u9rMTbT3SIZUTEbDp4OmcQy.jpg'
     },
     {
         titulo: 'Sombras de um Crime',
-        descricao: 'Descrição do filme 9',
+        descricao: 'O detetive Phillip Marlowe se envolve em uma investigação com uma família rica em Bay City, Califórnia, depois que uma mulher misteriosa o contrata para encontrar seu ex-amante.',
         imdb: 'tt6722802',
         imagem: 'https://image.tmdb.org/t/p/w300/vRSbYibtGcEYBFfCAkkvSCF9eES.jpg'
     },
     {
         titulo: 'Os Japão',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Quando o Imperador do Japão morre sem deixar descendentes, a busca do herdeiro do império leva surpreendentemente até Sevilha.',
         imdb: 'tt7858496',
         imagem: 'https://image.tmdb.org/t/p/w300/sBiLI4x3fpNCpGAjc4Naeh7w3zz.jpg'
     },
     {
         titulo: 'Lendas da Guerra',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Em tempos de guerra, o traidor Dou Zhun estava no poder e usou veneno venenoso para domesticar os curandeiros. Yao Ren 19 escapou após um julgamento do corpo e escapou por acaso. Por acaso, ela foi resgatada pela garota Cicada Clothing e batizada de Yizhibu. Os dois ficaram cada vez mais tristes. Do outro lado, Dou Jun mandou alguém perseguir 19, os aldeões foram mortos inocentemente, cigarras caíram do penhasco, um pedaço de pano foi pego e a memória foi adulterada ... Três anos depois, foi um grande desastre Cicada recomendado para assassinar Dou Jun, reunir-se com um pedaço de pano que perdeu a memória e se tornou Dou Junyi. Cheio de ódio transformado em luto, um lado é o país de origem, o outro lado é o amor, para onde eles deveriam ir no mundo caótico.',
         imdb: 'tt15090814',
         imagem: 'https://image.tmdb.org/t/p/w300/aC0YLhS0K5JbONctAlIZVvxXO0c.jpg'
     },
     {
         titulo: 'Fanfic',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Dois estudantes do ensino médio formam uma conexão intensa enquanto navegam pelos desafios de descobrir e expressar seu verdadeiro eu.',
         imdb: 'tt27612422',
         imagem: 'https://image.tmdb.org/t/p/w300/6qgkVtpVabAzjQaJTgx3Vmqnmyj.jpg'
     },
     {
         titulo: 'Duas Pecadoras e Uma Mula',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Duas prostitutas são expulsas da cidade e encontram um caçador de recompensas ferido que precisa de ajuda. Elas cuidam do homem e decidem ajudá-lo a capturar um fora da lei impiedoso.',
         imdb: 'tt14940240',
         imagem: 'https://image.tmdb.org/t/p/w300/aRaO9OMNfsw03C04NHEgzBVWCiK.jpg'
     },
     {
         titulo: 'A Mãe',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Enquanto foge de assaltantes perigosos, uma assassina sai de seu esconderijo para proteger sua filha que ela deixou no início da vida.',
         imdb: 'tt6968614',
         imagem: 'https://image.tmdb.org/t/p/w300/5OeWHBMifiRPMz6eS23miS5ttED.jpg'
     },
     {
         titulo: 'A Cratera',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Caleb Channing foi criado numa colônia de mineração lunar e está prestes a ser transferido permanentemente para um planeta idílico e distante após a morte do pai. Mas, antes de partir, ele e seus três melhores amigos, Dylan, Borney e Marcus, juntamente com Addison, uma recém-chegada da Terra, querem realizar o último desejo do pai dele. Então eles roubam um rover para viver uma última aventura e partem em uma jornada para explorar uma cratera misteriosa.',
         imdb: 'tt5264838',
         imagem: 'https://image.tmdb.org/t/p/w300/65CXDhp2Y0ro847Lzq9l1iQ9Hn6.jpg'
     },
     {
         titulo: 'O Urso do Pó Branco',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Um grupo excêntrico de policiais, criminosos, turistas e adolescentes se convergem numa floresta da Geórgia, onde um urso negro de 200kg ingeriu uma quantidade impressionante de cocaína e partiu para uma fúria movida a coca por mais golpe... e sangue.',
         imdb: 'tt14209916',
         imagem: 'https://image.tmdb.org/t/p/w300/h2tS3f9s386fitoHjDMvQGm2w8q.jpg'
     },
     {
         titulo: 'Madame X',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Uma mulher casada numa familia rica é comprometida pela morte acidental de um homem que a perseguia romanticamente, e é forçada pela sogra a assumir uma nova identidade para salvar a reputação do marido e do filho pequeno. Ela vagueia pelo mundo, tentando esquecer seu desgosto com a ajuda de álcool e homens desagradáveis, eventualmente retornando para a cidade de sua queda, onde ela mata um chantagista que ameaça expor seu passado. Surpreendentemente, ela é acusada em seu julgamento por assassinato por seu filho agora adulto, que é um defensor público. Na esperança de continuar a proteger seu filho, ela se recusa a dar seu nome verdadeiro e é conhecida na corte como a ré Madame X.',
         imdb: 'tt0060645',
         imagem: 'https://image.tmdb.org/t/p/w300/pF9m0GruyTuC4H4cBROEzEaf42C.jpg'
     },
     {
         titulo: 'Trapaça',
         descricao: 'Descrição do filme 18',
-        imdb: 'tt1800241',
+        imdb: 'Irving Rosenfeld é um grande trapaceiro, que trabalha junto da sócia e amante Sydney Prosser. Os dois são forçados a colaborar com Richie DiMaso, um agente do FBI que infiltra Rosenfeld no mundo da máfia. Ao mesmo tempo, o trio também se envolve na política do país, através do candidato Carmine Polito. Os planos parecem dar certo, até a esposa de Irving, Rosalyn, aparecer e mudar as regras do jogo.',
         imagem: 'https://image.tmdb.org/t/p/w300/hDvBteFNrro6e4UdHBenC0hbDio.jpg'
     },
     {
         titulo: 'Pinóquio por Guillermo Del Toro',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Uma versão mais sombria do clássico conto de fadas infantil, onde um boneco de madeira se transforma em um menino vivo de verdade.',
         imdb: 'tt1488589',
         imagem: 'https://image.tmdb.org/t/p/w300/x3IkO2sW4rSSVluFDz8isr6YDm8.jpg'
     },
     {
         titulo: 'O Segredo de Marrowbone',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Quatro irmãos, devastados com a morte trágica da mãe, decidem se refugiar em uma localidade rural, temendo ser separados pelo serviço social. No entanto, o local esconde um obscuro e perigoso segredo que desafiará a união e sobrevivência dos quatro.',
         imdb: 'tt5886440',
         imagem: 'https://image.tmdb.org/t/p/w300/94Uo1TNBKzA5iBl5zOOrdTuWV9f.jpg'
     },
     {
         titulo: 'Oferenda ao Demônio',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Após o desaparecimento de uma jovem judia, o filho de um agente funerário hassídico volta para casa com sua esposa grávida na esperança de se reconciliar com seu pai. Mal sabem eles que logo abaixo deles no necrotério da família, um antigo mal com planos sinistros para o feto se esconde dentro de um cadáver misterioso.',
         imdb: 'tt13103732',
         imagem: 'https://image.tmdb.org/t/p/w300/lI8sI9pQuJmdYJgp6JuPIPg7Rqx.jpg'
     },
     {
         titulo: 'O Juízo',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Augusto Menezes muda-se com a mulher Tereza e o filho, Marinho, para uma fazenda abandonada, herdada do avô, na esperança de colocar a vida nos trilhos. A propriedade, no entanto, carrega o carma da traição ao escravo Couraça, que busca ao longo dos séculos a vingança contra a família de Augusto.',
         imdb: 'tt5269624',
         imagem: 'https://image.tmdb.org/t/p/w300/zVdOTQ7ioVKhIwEMxILfqTbqzsq.jpg'
     },
     {
         titulo: 'Malcolm X',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Uma homenagem ao controverso ativista negro e líder da luta pela liberação negra. Ele chegou ao fundo do poço durante seu encarceramento nos anos 50, tornou-se um muçulmano negro e, mais tarde, líder da Nação do Islã. Seu assassinato em 1965 deixou um legado de autodeterminação e orgulho racial.',
         imdb: 'tt0104797',
         imagem: 'https://image.tmdb.org/t/p/w300/ttcqfFRLsGxStkTd5YjfMD2uKv0.jpg'
     },
     {
         titulo: 'Rebelião',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Copper Jack Stone propositalmente organiza um assalto a banco, a fim de ser jogado na prisão com o notório Balam chefão russo. Balam é mais do que apenas um criminoso da máfia; ele é um senhor do crime muito astuto e perigoso.',
         imdb: 'tt4642044',
         imagem: 'https://image.tmdb.org/t/p/w300/5Q2pHzDfJ8QlUA2vx2yAXWJkof7.jpg'
     },

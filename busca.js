@@ -2559,12 +2559,6 @@ var filmes = [
         imagem: 'https://image.tmdb.org/t/p/w300/8OGQCOp6BxwvekhZBQCzVd77Y6l.jpg'
     },
     {
-        titulo: 'D.P.A. e a Biblioteca Banida',
-        descricao: 'Descrição do filme 7',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/2jQ7Wtm6MNNn5J8rleBJrwSkedu.jpg'
-    },
-    {
         titulo: 'Asterix e Obelix no Reino do Meio',
         descricao: 'Descrição do filme 8',
         imdb: 'tt11210390',
