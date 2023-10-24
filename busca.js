@@ -8,145 +8,145 @@ function searchMovies(event) {
 var filmes = [
     {
         titulo: 'Cercados',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Em busca de uma mina de ouro, a ex-soldado Mo Washington vai ao oeste americano. Quando uma emboscada a faz sequestrar um bandido, uma batalha no ambiente selvagem se inicia.',
         imdb: 'tt2572212',
         imagem: 'https://image.tmdb.org/t/p/w300/53zYYgWqxxmTaMlsIfiCWCLRwJf.jpg'
     },
     {
         titulo: 'Colheita Sombria',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Em uma cidadezinha rural, um ritual mortal acontece todos os anos quando um pesadelo chamado Jack Dentes de Serra se ergue do milharal e desafia os jovens locais a luta sangrenta por sobrevivência.',
         imdb: 'tt9204328',
         imagem: 'https://image.tmdb.org/t/p/w300/eeePA5kvAt5swaBAi3YLJjLDHHz.jpg'
     },
     {
         titulo: 'Conferência Mortal',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Durante um evento que aparentava ser inofensivo, um grupo inusitado de funcionários precisa enfrentar não apenas suas diferenças como também um misterioso assassino.',
         imdb: 'tt26547864',
         imagem: 'https://image.tmdb.org/t/p/w300/nGaXnZmSpEKlg16e6PNxWga3UJL.jpg'
     },
     {
         titulo: 'Crypto Boy',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Após um conflito com o pai, um jovem se ilude com as promessas audaciosas de liberdade financeira feitas por um empresário do mundo das criptomoedas.',
         imdb: 'tt24785544',
         imagem: 'https://image.tmdb.org/t/p/w300/6QOukjAgAm9L1WNiOjqJzlg5luU.jpg'
     },
     {
         titulo: 'Diamantes do Caos',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Quatro adolescentes em um vilarejo rural da Nigéria encontram uma bolsa com vários diamantes brutos. Mas logo outras pessoas aparecem em busca desse tesouro.',
         imdb: 'tt29168830',
         imagem: 'https://image.tmdb.org/t/p/w300/sBH3IkwCCMGIWAkdQ00tOEmLPkm.jpg'
     },
     {
         titulo: 'Jogando a Linha',
-        descricao: 'Descrição do filme 6',
+        descricao: 'No seu último dia de missão no Afeganistão, o fuzileiro naval especialista em operações de reconhecimento John Colter [Sinqua Walls] sofre um incidente devastador em combate que muda a vida dele para sempre. Fisicamente ferido e psicologicamente em estado de choque, Colter é repatriado para um hospital de veteranos em Montana. Quando o tratamento e a terapia convencionais não funcionam, Colter...',
         imdb: 'tt9201772',
         imagem: 'https://image.tmdb.org/t/p/w300/tQpEqBoOWkNJRGpSQDTTsXCxVVL.jpg'
     },
     {
         titulo: 'Disco Inferno',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Um jovem casal se prepara para incendiar a pista na discoteca mais quente de Los Angeles e acaba conjurando uma presença sombria que anseia por seu futuro bebê.',
         imdb: 'tt29291452',
         imagem: 'https://image.tmdb.org/t/p/w300/mqlHnsj2l7NkXbmu7ZXcVvP8uda.jpg'
     },
     {
         titulo: 'Kandasamys: O Bebê',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Os sogros chegam às Ilhas Maurício para o nascimento do neto e aprontam todas no quarto filme da franquia Kandasamys.',
         imdb: 'tt27048691',
         imagem: 'https://image.tmdb.org/t/p/w300/byF0OTIt67FXCqan5bjPgF1v0Hi.jpg'
     },
     {
         titulo: 'Assassinos da Lua das Flores',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Na década de 1920, em Oklahoma, o povo da nação Osage começa a ser assassinado após petróleo ser descoberto sob suas terras, até que o FBl entra em cena para desvendar o mistério.',
         imdb: 'tt5537002',
         imagem: 'https://image.tmdb.org/t/p/w300/sz0HswdqLa6I5ialoyBvn5gm0r5.jpg'
     },
     {
         titulo: 'Massa Cinzenta',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Aurora sempre soube, através de sua mãe, que as habilidades sobre-humanas que possuem também as tornam perigosas. Agora, em uma noite fatídica e fatal, Aurora descobrirá se sua mãe estava falando a verdade.',
         imdb: 'tt25947954',
         imagem: 'https://image.tmdb.org/t/p/w300/4EuZtw5Z6dVn5IOe7whR9Qy8UET.jpg'
     },
     {
         titulo: 'Mortal Kombat Legends: Cage - Bom de Briga',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Na Hollywood dos anos 1980, o astro de ação Johnny Cage está procurando se tornar um ator do primeiro escalão. Mas, quando sua companheira, Jennifer, desaparece do set, ele se vê jogado em um mundo cheio de sombras e perigo. Ao embarcar em uma jornada sangrenta, Johnny rapidamente descobre que a Cidade dos Anjos tem mais do que alguns demônios em seu meio. Ele enfrenta uma sinistra sociedade secreta tramando um esquema nefasto, mas a luta brutal contra os guerreiros sanguinários de Netherrealm está apenas começando.',
         imdb: 'tt22698070',
         imagem: 'https://image.tmdb.org/t/p/w300/1eKWqTHp4OgKdx1QX1O9LxKHr1M.jpg'
     },
     {
         titulo: 'O Próprio Enterro',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Inspirado em eventos reais, quando um acordo dá errado, o dono da funerária Jeremiah O’Keefe (vencedor do Oscar® Tommy Lee Jones) contrata o advogado Willie E. Gary (vencedor do Oscar® Jamie Foxx) para salvar o negócio de sua família. Os ânimos explodem e o riso surge quando o vínculo dos dois expõe a corrupção corporativa e a injustiça racial nessa história inspiradora e triunfante.',
         imdb: 'tt5648882',
         imagem: 'https://image.tmdb.org/t/p/w300/4Fxb4goCtkHluDwymYvHW1xoC6P.jpg'
     },
     {
         titulo: 'O Diabo no Tribunal',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Por meio de reconstituições e gravações caseiras, este documentário sombrio investiga a suposta possessão de um garoto e um subsequente assassinato brutal.',
         imdb: 'tt28810493',
         imagem: 'https://image.tmdb.org/t/p/w300/6ZxFx9aQkZyd2SbxKt59x8WooPQ.jpg'
     },
     {
         titulo: 'O Porteiro',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Confusão é o que não falta no prédio onde Waldisney trabalha como porteiro. Todo dia é um bafafá entre os vizinhos, mas ao lado da zeladora Rosivalda, ele é craque em manter essa bagunça organizada. Tudo isso muda quando o prédio é assaltado e Waldisney agora precisa provar para o delegado que ele pode até ser meio atrapalhado, mas ladrão ele não é, não!',
         imdb: 'tt28603694',
         imagem: 'https://image.tmdb.org/t/p/w300/8UIXPu4LRu6Zho8ruWhIjpeY439.jpg'
     },
     {
         titulo: 'Sayen: A Rota Seca',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Sayen segue uma pista que a leva ao pitoresco Deserto de Atacama. Lá, ela relutantemente se alia a uma garota de Atacma, Quimal, na tentativa de limpar o nome do pai e impedir que a cidade dela vire um descampado árido devido ao uso predatório de água pela Acteon.',
         imdb: 'tt27351936',
         imagem: 'https://image.tmdb.org/t/p/w300/bPf85Ro1XgWnhJMfAZa3SdQ4Muf.jpg'
     },
     {
         titulo: 'Scarygirl',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Quando seu mundo é envolvido pela escuridão, a pequena Arkie precisa superar seus medos e viajar para uma misteriosa cidade de luz para salvar seu pai de um perigoso cientista e impedir a destruição de seu planeta.',
         imdb: 'tt4556264',
         imagem: 'https://image.tmdb.org/t/p/w300/1tcLXVaXFG9OObnCN3a5KrymrQG.jpg'
     },
     {
         titulo: 'Tiozões',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Um pai ranzinza de meia-idade e seus dois melhores amigos se sentem ultrapassados em um mundo repleto de CEOs bem mais jovens e diretoras de escola poderosas.',
         imdb: 'tt18394190',
         imagem: 'https://image.tmdb.org/t/p/w300/pslwfOD7sFLmpRcHklHOFf2aoDi.jpg'
     },
     {
         titulo: 'Tudo Por um Ex-Namorado',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Frida é uma terapeuta que utiliza recursos artísticos para tratar seus pacientes e, justo quando o seu namorado resolve voltar com a ex, ela descobre estar grávida. Sem conseguir aceitar o fim do relacionamento, Frida decide utilizar métodos alternativos para reconquistá-lo.',
         imdb: 'tt15819902',
         imagem: 'https://image.tmdb.org/t/p/w300/wd7Y9KCVDUzEIj1j1o3EZSxaKcU.jpg'
     },
     {
         titulo: 'Se Beber, Não Case!',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Dois dias antes de seu casamento, Doug e três amigos vão de carro até Las Vegas para uma louca e memorável despedida de solteiro. Quando os três padrinhos acordam na manhã seguinte, eles não conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam levá-lo de volta a Los Angeles a tempo de chegar ao altar.',
         imdb: 'tt1119646',
         imagem: 'https://image.tmdb.org/t/p/w300/6Hi9g065cxrQc2TLh5zwmTOurvK.jpg'
     },
     {
         titulo: 'Se Beber, Não Case! - Parte II',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Phil, Stu, Alan e Doug viajam à exótica Tailândia para o casamento de Stu. O que poderia dar errado? Dois anos depois da desastrosa despedida de solteiro de Doug em Las Vegas, agora é a vez de Stu. Ele decide se casar na Tailândia, país de sua futura mulher. Com medo de que os incidentes da despedida de solteiro em Las Vegas se repitam, Stu organiza muito bem a comemoração, mas nada sai como o esperado, e as confusões prometem ser inimagináveis.',
         imdb: 'tt1411697',
         imagem: 'https://image.tmdb.org/t/p/w300/lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg'
     },
     {
         titulo: 'A Chamada',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Com seus filhos presos no banco de trás e uma bomba que explodirá se eles saírem do carro, um trajeto normal se torna um jogo distorcido de vida ou morte enquanto Matt Turner segue as instruções cada vez mais perigosas de um estranho em uma corrida contra o tempo para salvar sua família.',
         imdb: 'tt6906292',
         imagem: 'https://image.tmdb.org/t/p/w300/eqaSh2PjYcGpS6rybz6UjLNuvrg.jpg'
     },
     {
         titulo: 'A Outra Zoey',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Zoey Miller, uma estudante com especialização em computação, superinteligente e desinteressada no amor romântico, tem sua vida virada de cabeça para baixo quando Zach, um popular jogador de futebol universitário, fica com amnésia e confunde Zoey com a sua namorada.',
         imdb: 'tt11951276',
         imagem: 'https://image.tmdb.org/t/p/w300/9lZd2rV8Jgupu2bGTVgahKj5Gvc.jpg'
     },
     {
         titulo: 'A Ressurreição da Múmia',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Quando um sarcófago amaldiçoado cai nas mãos de Everett Randolph, um inescrupuloso vendedor ambulante, ele se torna obcecado pela ideia de ressuscitar a princesa mumificada dentro dele.',
         imdb: 'tt20141822',
         imagem: 'https://image.tmdb.org/t/p/w300/qIrJYG0ffdbkR0f0a6slVLXOnjQ.jpg'
     },
     {
         titulo: 'A Vida Diante de Seus Olhos',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Quando sua casa é invadida, uma instrutora de yoga vê a vida passar diante dos olhos e embarca em uma viagem ao passado para tentar salvar o homem que ama.',
         imdb: 'tt29291436',
         imagem: 'https://image.tmdb.org/t/p/w300/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg'
     },
