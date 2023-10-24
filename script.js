@@ -145,115 +145,115 @@ var filmes = [
     },
     {
         titulo: 'Se Beber, Não Case! - Parte III',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Faz dois anos desde que o quarteto, conhecido como Wolfpack, quase escapou de um desastre em Bangkok. Agora, Phil, Stu e Doug vivem felizes em casa, mas Alan não. Ainda sem rumo na vida, Alan não tem tomado seus remédios e está vivendo sob impulsos naturais. Está nas mãos dos amigos ajudá-lo com sua crise pessoal, embarcando em uma viagem para o lugar onde tudo começou: Las Vegas.',
         imdb: 'tt1951261',
         imagem: 'https://image.tmdb.org/t/p/w300/7QobPkQLohlXAoIGuN97F3C6xJw.jpg'
     },
     {
         titulo: 'Jumper',
-        descricao: 'Descrição do filme 2',
+        descricao: 'David Rice é um "jumper", alguém capaz de se teleportar para qualquer lugar do planeta que queira. Ele usa seus poderes para se divertir, até que um dia descobre que está sendo perseguido por uma organização secreta, que pretende matar todos os Jumpers. A partir de então David se une a outro jumper e passa a enfrentar uma guerra que já existe há milhares de anos.',
         imdb: 'tt0489099',
         imagem: 'https://image.tmdb.org/t/p/w300/3pPZ9JhNz3VMmASVir5SMHvTDUU.jpg'
     },
     {
         titulo: 'Poltergeist II: O Outro Lado',
-        descricao: 'Descrição do filme 3',
+        descricao: 'A família Freeling se muda em uma tentativa de se recuperar do trauma causado pelo seqüestro de Carol Anne (Heather O Rourke) pela Besta. No entanto, ela não será descartada assim tão facilmente. Assim, a Besta reaparece como o Reverendo Kane (Julian Beck), um religioso que foi responsável pela morte de muitos dos seus seguidores. O objetivo da Besta ter Carol Anne, mas para isto precisa ser mais forte que o amor da família dela, que se uniu a uma mediúnica que já os tinha ajudado no passado e a um sábio índio.',
         imdb: 'tt0091778',
         imagem: 'https://image.tmdb.org/t/p/w300/aVl8hnQhLfDOIpKggOMPEml00zb.jpg'
     },
     {
         titulo: 'Poltergeist III: O Capítulo Final',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Um terapeuta tenta curar Carol Anne (Heather O Rourke) dos traumas deixados por suas experiências apavorantes. Porém, ao remexer em suas lembranças, as forças do mal retornam na pele do Reverendo Kane para ameaçá-la mais uma vez.',
         imdb: 'tt0095889',
         imagem: 'https://image.tmdb.org/t/p/w300/sy9I3frVLlKFFampjlO32RvDx96.jpg'
     },
     {
         titulo: 'Da Magia à Sedução',
-        descricao: 'Descrição do filme 5',
+        descricao: 'As mulheres da família Owens tem poderes mágicos. Mas uma maldição as persegue há mais de duzentos anos: qualquer homem que se apaixona por uma delas, morre. Descendentes da bruxa que começou este feitiço, Sally (Sandra Bullock) e Gillian (Nicole Kidman) são duas irmãs que foram criadas por suas tias (Dianne Wiest e Stockard Channing). Já adultas, enquanto Sally se mostra bastante reservada, Gillian foge de casa para ter o primeiro de muitos namorados. Após algum tempo, Sally se casa e tem duas filhas, mas seu marido acaba morrendo atropelado. Até que chega o momento em que ela deve ajudar Gillian, que se envolveu com Jimmy Angelov (Goran Visnjic), um búlgaro agressivo que as ameaça. Sentindo que correm perigo, as duas o envenenam, mas, temendo as conseqüências de tal ato, Gillian convence Sally que o melhor é trazê-lo de volta a vida. Uma decisão que trará uma série de complicações com polícia e com seus próprios poderes.',
         imdb: 'tt0120791',
         imagem: 'https://image.tmdb.org/t/p/w300/sGRwVHB7KPGjIlqFtCIHTG9trOw.jpg'
     },
     {
         titulo: 'Polar',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Um assassino prestes a se aposentar precisa adiar a boa vida quando seu chefe ganancioso envia um bando de matadores jovens e cruéis para exterminá-lo.',
         imdb: 'tt4139588',
         imagem: 'https://image.tmdb.org/t/p/w300/2btxGF270fxOeNJInRNnFtZGkAA.jpg'
     },
     {
         titulo: 'A Maldição de Carrie',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Há vinte e três anos a telecinética Carrie White foi humilhada em um baile no seu colégio. Carrie foi tomada de um ódio tão intenso que imaginou que todos debochavam dela, quando na verdade apenas alguns a estavam humilhando. Usando seus poderes paranormais, ela fechou as portas e incendeou o ginásio, matando todos, com exceção de Sue Snell (Amy Irving). Em 1999, a situação começa a se repetir, quando Rachel Lang (Emily Bergl), a meia-irmã de Carrie que também telecinética e menosprezada por seus colegas, está prestes a ir em um baile sem que ninguém tenha idéia de seus poderes. Entretanto, Sue Snell, que agora conselheira da escola, desconfia que Rachel tem o mesmo dom de Carrie e teme que uma tragédia similar possa acontecer, tentando inutilmente advertir Rachel sobre isto. Paralelamente, alguns alunos do colégio planejam para a noite do baile algo que Rachel nunca vai esquecer, sem imaginar que eles vão morrer antes que esta mesma noite termine.',
         imdb: 'tt0144814',
         imagem: 'https://image.tmdb.org/t/p/w300/cYyVRSZZohW9lxXU1XTTzde6Vca.jpg'
     },
     {
         titulo: 'Carrie: A Estranha',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Carrie White é uma adolescente solitária. Ela sofre constantemente com os abusos da mãe, uma mulher religiosa, e dos colegas da sua escola. Aos poucos, a garota vai perdendo a sanidade mental, até que descobre os seus poderes telecinéticos. A noite da formatura do colégio está chegando e tudo pode acontecer.',
         imdb: 'tt0319970',
         imagem: 'https://image.tmdb.org/t/p/w300/7Z0mUte1KJsF451Jyv4JLI22VsO.jpg'
     },
     {
         titulo: 'Carrie, A Estranha',
-        descricao: 'Descrição do filme 9',
+        descricao: 'A quieta e sensível adolescente Carrie White enfrenta insultos dos colegas na escola e abuso em casa de sua mãe, uma fanática religiosa. Quando estranhos acontecimentos começam a acontecer em torno de Carrie, ela começa a suspeitar que tem poderes sobrenaturais.',
         imdb: 'tt0074285',
         imagem: 'https://image.tmdb.org/t/p/w300/v8tLK9Ou5SOSf5dR3Vnsqw219A3.jpg'
     },
     {
         titulo: 'Kate',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Após ser envenenada de forma irreversível, uma assassina implacável tem menos de 24 horas para se vingar.',
         imdb: 'tt7737528',
         imagem: 'https://image.tmdb.org/t/p/w300/uJgdT1boTSP0dDIjdTgGleg71l4.jpg'
     },
     {
         titulo: 'Lobisomem na Noite',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Em uma noite escura e sombria, uma cabala secreta de caçadores de monstros emerge das sombras e se reúne no templo de Bloodstone após a morte de seu líder. Em um estranho e macabro memorial à vida do líder, os participantes são lançados em uma misteriosa e mortal competição por uma poderosa relíquia – uma caçada que acabará por colocá-los cara a cara com um monstro perigoso.',
         imdb: 'tt15318872',
         imagem: 'https://image.tmdb.org/t/p/w300/N9jyoeH3wKhiHYNYLE9Pnnls9D.jpg'
     },
     {
         titulo: 'O Homem do Futuro',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Zero é um cientista ridicularizado cuja última invenção o levou ao passado, lhe dando a chance de refazer sua vida. De volta à época de faculdade, ele reencontra Helena, sua paixão, mas acaba interferindo em acontecimentos do futuro. Agora, Zero precisa consertar o futuro sem perder Helena de novo.',
         imdb: 'tt2027178',
         imagem: 'https://image.tmdb.org/t/p/w300/ajjvpHJcO9TD45Y0aLZU5yBeW2G.jpg'
     },
     {
         titulo: 'O Rei das Sombras',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Após a morte do pai, dois meios-irmãos se veem em lados opostos de um conflito com consequências trágicas.',
         imdb: 'tt26763229',
         imagem: 'https://image.tmdb.org/t/p/w300/o0UxfLtPJ7rN1lKyBMFwbw5ngNU.jpg'
     },
     {
         titulo: 'As Tartarugas Ninja: O Retorno',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Estranhos acontecimentos tomam Nova York. Leonardo e o Mestre Splinter resolvem ir atrás de Raphael, Donatello e Michelangelo para reagrupar as Tartarugas Ninja. Versão animada baseada na série de TV e nos três filmes lançados sobre as adolescentes tartarugas ninja que vivem nos esgotos de Nova York.',
         imdb: 'tt0453556',
         imagem: 'https://image.tmdb.org/t/p/w300/vNSwMohSS0XMXXbcmw3RsBaE35q.jpg'
     },
     {
         titulo: 'As Tartarugas Ninja III',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Um cetro mágico comprado pela jornalista April O Neill acidentalmente a transporta a para o Japão do século XVII. As Tartarugas Ninja também viajam no tempo no intuito de salvá-la, mas Michelangelo se perde do grupo. Para reencontrá-lo e salvar April, Donatello, Raphael e Leonardo precisam ajudar uma vila a enfrentar o malvado Lorde Norinaga.',
         imdb: 'tt0108308',
         imagem: 'https://image.tmdb.org/t/p/w300/vQ4DQb617N4ipB7LPfUIfGR3X9P.jpg'
     },
     {
         titulo: 'As Tartarugas Ninja II: O Segredo do Ooze',
-        descricao: 'Descrição do filme 16',
+        descricao: 'As Tartarugas Ninja estão procurando um novo lugar para morar nos esgotos de Nova York, quando encontram integrantes do clã Foot, liderado por Destruidor. É quando eles descobrem o Ooze, a substância que transformou as próprias Tartarugas Ninja. O Destruidor usa este material para criar dois novos capangas, Tokka e Rahzar, e os envia para provocar destruições na cidade. Com a ajuda da jornalista April O Neill, do professor Jordan Perry e do entregador de pizza Keno, as Tartarugas Ninja precisam detê-los.',
         imdb: 'tt0103060',
         imagem: 'https://image.tmdb.org/t/p/w300/RPXIoMjVtT7OOPnbcXceyoFRTh.jpg'
     },
     {
         titulo: 'As Tartarugas Ninja',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Depois de ser atacada por trombadinhas, a repórter April O Neil é salva por tartarugas mutantes, que passaram a se dedicar a combater o crime desde que foram contaminadas por uma substância radioativa nos esgotos de Nova York e se tornarem guerreiros após serem treinados pelo mestre Splinter. Aliadas a Casey Jones, elas combatem a organização Foot, que lança uma onda de crimes na cidade sob o comando do perigoso Demolidor.',
         imdb: 'tt0100758',
         imagem: 'https://image.tmdb.org/t/p/w300/dkCdKgl24TMzwEfAtKrBNxqujv8.jpg'
     },
     {
         titulo: 'Cabo do Medo',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Quando o advogado Sam Bowden retém provas que poderiam livrar o agressor sexual Max Cady das acusações de estupro, ele passa 14 anos na prisão. Ao ser libertado, Max, sabendo do que o advogado fez, se dedica a perseguir e destruir a família Bowden.',
         imdb: 'tt0101540',
         imagem: 'https://image.tmdb.org/t/p/w300/AfUtnysJQGFH5mZsoQNjle9Nibg.jpg'
     },
     {
         titulo: 'Cabana da Possessão',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Vikki e seus amigos viajam para as montanhas e se hospedam em uma cabana que possui uma apavorante história. Pouco a pouco, ela começa a ser dominada por uma força misteriosa e incontrolável, que a obriga a cometer as piores atrocidades. A noite será marcada por uma luta desesperada pela sobrevivência à medida que Vikki é possuída por um espírito maligno e tenta matar seus amigos.',
         imdb: 'tt3763748',
         imagem: 'https://image.tmdb.org/t/p/w300/byNUpSJROMwBetra4bLaq0Yffe4.jpg'
     },
