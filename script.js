@@ -1,5 +1,263 @@
 var filmes = [
     {
+        titulo: 'Cercados',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt2572212',
+        imagem: 'https://image.tmdb.org/t/p/w300/53zYYgWqxxmTaMlsIfiCWCLRwJf.jpg'
+    },
+    {
+        titulo: 'Colheita Sombria',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt9204328',
+        imagem: 'https://image.tmdb.org/t/p/w300/eeePA5kvAt5swaBAi3YLJjLDHHz.jpg'
+    },
+    {
+        titulo: 'Conferência Mortal',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt26547864',
+        imagem: 'https://image.tmdb.org/t/p/w300/nGaXnZmSpEKlg16e6PNxWga3UJL.jpg'
+    },
+    {
+        titulo: 'Crypto Boy',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt24785544',
+        imagem: 'https://image.tmdb.org/t/p/w300/6QOukjAgAm9L1WNiOjqJzlg5luU.jpg'
+    },
+    {
+        titulo: 'Diamantes do Caos',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt29168830',
+        imagem: 'https://image.tmdb.org/t/p/w300/sBH3IkwCCMGIWAkdQ00tOEmLPkm.jpg'
+    },
+    {
+        titulo: 'Jogando a Linha',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt9201772',
+        imagem: 'https://image.tmdb.org/t/p/w300/tQpEqBoOWkNJRGpSQDTTsXCxVVL.jpg'
+    },
+    {
+        titulo: 'Disco Inferno',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt29291452',
+        imagem: 'https://image.tmdb.org/t/p/w300/mqlHnsj2l7NkXbmu7ZXcVvP8uda.jpg'
+    },
+    {
+        titulo: 'Kandasamys: O Bebê',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt27048691',
+        imagem: 'https://image.tmdb.org/t/p/w300/byF0OTIt67FXCqan5bjPgF1v0Hi.jpg'
+    },
+    {
+        titulo: 'Assassinos da Lua das Flores',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt5537002',
+        imagem: 'https://image.tmdb.org/t/p/w300/sz0HswdqLa6I5ialoyBvn5gm0r5.jpg'
+    },
+    {
+        titulo: 'Massa Cinzenta',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt25947954',
+        imagem: 'https://image.tmdb.org/t/p/w300/4EuZtw5Z6dVn5IOe7whR9Qy8UET.jpg'
+    },
+    {
+        titulo: 'Mortal Kombat Legends: Cage - Bom de Briga',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt22698070',
+        imagem: 'https://image.tmdb.org/t/p/w300/1eKWqTHp4OgKdx1QX1O9LxKHr1M.jpg'
+    },
+    {
+        titulo: 'O Próprio Enterro',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt5648882',
+        imagem: 'https://image.tmdb.org/t/p/w300/4Fxb4goCtkHluDwymYvHW1xoC6P.jpg'
+    },
+    {
+        titulo: 'O Diabo no Tribunal',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt28810493',
+        imagem: 'https://image.tmdb.org/t/p/w300/6ZxFx9aQkZyd2SbxKt59x8WooPQ.jpg'
+    },
+    {
+        titulo: 'O Porteiro',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt28603694',
+        imagem: 'https://image.tmdb.org/t/p/w300/8UIXPu4LRu6Zho8ruWhIjpeY439.jpg'
+    },
+    {
+        titulo: 'Sayen: A Rota Seca',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt27351936',
+        imagem: 'https://image.tmdb.org/t/p/w300/bPf85Ro1XgWnhJMfAZa3SdQ4Muf.jpg'
+    },
+    {
+        titulo: 'Scarygirl',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt4556264',
+        imagem: 'https://image.tmdb.org/t/p/w300/1tcLXVaXFG9OObnCN3a5KrymrQG.jpg'
+    },
+    {
+        titulo: 'Tiozões',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt18394190',
+        imagem: 'https://image.tmdb.org/t/p/w300/pslwfOD7sFLmpRcHklHOFf2aoDi.jpg'
+    },
+    {
+        titulo: 'Tudo Por um Ex-Namorado',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt15819902',
+        imagem: 'https://image.tmdb.org/t/p/w300/wd7Y9KCVDUzEIj1j1o3EZSxaKcU.jpg'
+    },
+    {
+        titulo: 'Se Beber, Não Case!',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt1119646',
+        imagem: 'https://image.tmdb.org/t/p/w300/6Hi9g065cxrQc2TLh5zwmTOurvK.jpg'
+    },
+    {
+        titulo: 'Se Beber, Não Case! - Parte II',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt1411697',
+        imagem: 'https://image.tmdb.org/t/p/w300/lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg'
+    },
+    {
+        titulo: 'A Chamada',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt6906292',
+        imagem: 'https://image.tmdb.org/t/p/w300/eqaSh2PjYcGpS6rybz6UjLNuvrg.jpg'
+    },
+    {
+        titulo: 'A Outra Zoey',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt11951276',
+        imagem: 'https://image.tmdb.org/t/p/w300/9lZd2rV8Jgupu2bGTVgahKj5Gvc.jpg'
+    },
+    {
+        titulo: 'A Ressurreição da Múmia',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt20141822',
+        imagem: 'https://image.tmdb.org/t/p/w300/qIrJYG0ffdbkR0f0a6slVLXOnjQ.jpg'
+    },
+    {
+        titulo: 'A Vida Diante de Seus Olhos',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt29291436',
+        imagem: 'https://image.tmdb.org/t/p/w300/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg'
+    },
+    {
+        titulo: 'Se Beber, Não Case! - Parte III',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt1951261',
+        imagem: 'https://image.tmdb.org/t/p/w300/7QobPkQLohlXAoIGuN97F3C6xJw.jpg'
+    },
+    {
+        titulo: 'Jumper',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt0489099',
+        imagem: 'https://image.tmdb.org/t/p/w300/3pPZ9JhNz3VMmASVir5SMHvTDUU.jpg'
+    },
+    {
+        titulo: 'Poltergeist II: O Outro Lado',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt0091778',
+        imagem: 'https://image.tmdb.org/t/p/w300/aVl8hnQhLfDOIpKggOMPEml00zb.jpg'
+    },
+    {
+        titulo: 'Poltergeist III: O Capítulo Final',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt0095889',
+        imagem: 'https://image.tmdb.org/t/p/w300/sy9I3frVLlKFFampjlO32RvDx96.jpg'
+    },
+    {
+        titulo: 'Da Magia à Sedução',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt0120791',
+        imagem: 'https://image.tmdb.org/t/p/w300/sGRwVHB7KPGjIlqFtCIHTG9trOw.jpg'
+    },
+    {
+        titulo: 'Polar',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt4139588',
+        imagem: 'https://image.tmdb.org/t/p/w300/2btxGF270fxOeNJInRNnFtZGkAA.jpg'
+    },
+    {
+        titulo: 'A Maldição de Carrie',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt0144814',
+        imagem: 'https://image.tmdb.org/t/p/w300/cYyVRSZZohW9lxXU1XTTzde6Vca.jpg'
+    },
+    {
+        titulo: 'Carrie: A Estranha',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt0319970',
+        imagem: 'https://image.tmdb.org/t/p/w300/7Z0mUte1KJsF451Jyv4JLI22VsO.jpg'
+    },
+    {
+        titulo: 'Carrie, A Estranha',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt0074285',
+        imagem: 'https://image.tmdb.org/t/p/w300/v8tLK9Ou5SOSf5dR3Vnsqw219A3.jpg'
+    },
+    {
+        titulo: 'Kate',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt7737528',
+        imagem: 'https://image.tmdb.org/t/p/w300/uJgdT1boTSP0dDIjdTgGleg71l4.jpg'
+    },
+    {
+        titulo: 'Lobisomem na Noite',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt15318872',
+        imagem: 'https://image.tmdb.org/t/p/w300/N9jyoeH3wKhiHYNYLE9Pnnls9D.jpg'
+    },
+    {
+        titulo: 'O Homem do Futuro',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt2027178',
+        imagem: 'https://image.tmdb.org/t/p/w300/ajjvpHJcO9TD45Y0aLZU5yBeW2G.jpg'
+    },
+    {
+        titulo: 'O Rei das Sombras',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt26763229',
+        imagem: 'https://image.tmdb.org/t/p/w300/o0UxfLtPJ7rN1lKyBMFwbw5ngNU.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja: O Retorno',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt0453556',
+        imagem: 'https://image.tmdb.org/t/p/w300/vNSwMohSS0XMXXbcmw3RsBaE35q.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja III',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt0108308',
+        imagem: 'https://image.tmdb.org/t/p/w300/vQ4DQb617N4ipB7LPfUIfGR3X9P.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja II: O Segredo do Ooze',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt0103060',
+        imagem: 'https://image.tmdb.org/t/p/w300/RPXIoMjVtT7OOPnbcXceyoFRTh.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt0100758',
+        imagem: 'https://image.tmdb.org/t/p/w300/dkCdKgl24TMzwEfAtKrBNxqujv8.jpg'
+    },
+    {
+        titulo: 'Cabo do Medo',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt0101540',
+        imagem: 'https://image.tmdb.org/t/p/w300/AfUtnysJQGFH5mZsoQNjle9Nibg.jpg'
+    },
+    {
+        titulo: 'Cabana da Possessão',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt3763748',
+        imagem: 'https://image.tmdb.org/t/p/w300/byNUpSJROMwBetra4bLaq0Yffe4.jpg'
+    },
+    {
         titulo: 'Cemitério Maldito: A Origem',
         descricao: 'Em 1969, o jovem Jud Crandall sonha em deixar para trás sua cidade natal, Ludlow, mas logo descobre segredos sinistros no local. Ele é forçado a enfrentar a sombria história de sua família, que o manterá para sempre conectado à cidadezinha.',
         imdb: 'tt14145436',
