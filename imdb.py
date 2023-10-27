@@ -5,12 +5,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Cercados', 'https://embedder.net/e/movie?imdb=tt2572212')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/53zYYgWqxxmTaMlsIfiCWCLRwJf.jpg);"></div>
-<a onclick="openMovie('Cercados', 'https://embedder.net/e/movie?imdb=tt2572212')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Um Broto Legal', 'https://embedder.net/e/movie?imdb=tt21220538')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/jgKAAhnJ63nhrGrjrWl7cv7QFG7.jpg);"></div>
+<a onclick="openMovie('Um Broto Legal', 'https://embedder.net/e/movie?imdb=tt21220538')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Cercados</h5>
+<h5 class="media-box-title">Um Broto Legal</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -19,12 +19,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Colheita Sombria', 'https://embedder.net/e/movie?imdb=tt9204328')" class="full-click"></a>        
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/eeePA5kvAt5swaBAi3YLJjLDHHz.jpg);"></div>
-<a onclick="openMovie('Colheita Sombria', 'https://embedder.net/e/movie?imdb=tt9204328')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('The Island', 'https://embedder.net/e/movie?imdb=tt21853596')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ajb1rMiorchfRemYHZCkbV9DBg6.jpg);"></div>
+<a onclick="openMovie('The Island', 'https://embedder.net/e/movie?imdb=tt21853596')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Colheita Sombria</h5>
+<h5 class="media-box-title">The Island</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -33,12 +33,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Conferência Mortal', 'https://embedder.net/e/movie?imdb=tt26547864')" class="full-click"></a>     
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/nGaXnZmSpEKlg16e6PNxWga3UJL.jpg);"></div>
-<a onclick="openMovie('Conferência Mortal', 'https://embedder.net/e/movie?imdb=tt26547864')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('The Hill', 'https://embedder.net/e/movie?imdb=tt8051894')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gKh28PVUqt1vY2oAdFlauXkDacW.jpg);"></div>
+<a onclick="openMovie('The Hill', 'https://embedder.net/e/movie?imdb=tt8051894')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Conferência Mortal</h5>
+<h5 class="media-box-title">The Hill</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -47,12 +47,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Crypto Boy', 'https://embedder.net/e/movie?imdb=tt24785544')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/6QOukjAgAm9L1WNiOjqJzlg5luU.jpg);"></div>
-<a onclick="openMovie('Crypto Boy', 'https://embedder.net/e/movie?imdb=tt24785544')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Stalker: O Jogo da Morte', 'https://embedder.net/e/movie?imdb=tt7211648')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/h4VrgOmIOHPHygSAHMMThEKmCO4.jpg);"></div>
+<a onclick="openMovie('Stalker: O Jogo da Morte', 'https://embedder.net/e/movie?imdb=tt7211648')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Crypto Boy</h5>
+<h5 class="media-box-title">Stalker: O Jogo da Morte</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -61,12 +61,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Diamantes do Caos', 'https://embedder.net/e/movie?imdb=tt29168830')" class="full-click"></a>      
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/sBH3IkwCCMGIWAkdQ00tOEmLPkm.jpg);"></div>
-<a onclick="openMovie('Diamantes do Caos', 'https://embedder.net/e/movie?imdb=tt29168830')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Sob o Domínio do Mal', 'https://embedder.net/e/movie?imdb=tt10703978')" class="full-click"></a>   
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/4ZzZezjTeS5NtZBpTyqMIAYl3ik.jpg);"></div>
+<a onclick="openMovie('Sob o Domínio do Mal', 'https://embedder.net/e/movie?imdb=tt10703978')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Diamantes do Caos</h5>
+<h5 class="media-box-title">Sob o Domínio do Mal</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -75,12 +75,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Jogando a Linha', 'https://embedder.net/e/movie?imdb=tt9201772')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/tQpEqBoOWkNJRGpSQDTTsXCxVVL.jpg);"></div>
-<a onclick="openMovie('Jogando a Linha', 'https://embedder.net/e/movie?imdb=tt9201772')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Snag', 'https://embedder.net/e/movie?imdb=tt26082308')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/nhj4Q39qMSk6X5Ly9j9Yqyjrg5A.jpg);"></div>
+<a onclick="openMovie('Snag', 'https://embedder.net/e/movie?imdb=tt26082308')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Jogando a Linha</h5>
+<h5 class="media-box-title">Snag</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -89,12 +89,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Disco Inferno', 'https://embedder.net/e/movie?imdb=tt29291452')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/mqlHnsj2l7NkXbmu7ZXcVvP8uda.jpg);"></div>
-<a onclick="openMovie('Disco Inferno', 'https://embedder.net/e/movie?imdb=tt29291452')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Slotherhouse', 'https://embedder.net/e/movie?imdb=tt15422224')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/cPeZYjtt0B2a1gXVKPC6j1xM7fi.jpg);"></div>
+<a onclick="openMovie('Slotherhouse', 'https://embedder.net/e/movie?imdb=tt15422224')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Disco Inferno</h5>
+<h5 class="media-box-title">Slotherhouse</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -103,12 +103,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Kandasamys: O Bebê', 'https://embedder.net/e/movie?imdb=tt27048691')" class="full-click"></a>     
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/byF0OTIt67FXCqan5bjPgF1v0Hi.jpg);"></div>
-<a onclick="openMovie('Kandasamys: O Bebê', 'https://embedder.net/e/movie?imdb=tt27048691')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Sem Rastro', 'https://embedder.net/e/movie?imdb=tt18074198')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/m3ZNSvplELOkVZKPXElMwdapIr4.jpg);"></div>
+<a onclick="openMovie('Sem Rastro', 'https://embedder.net/e/movie?imdb=tt18074198')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Kandasamys: O Bebê</h5>
+<h5 class="media-box-title">Sem Rastro</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -117,12 +117,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Assassinos da Lua das Flores', 'https://embedder.net/e/movie?imdb=tt5537002')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/sz0HswdqLa6I5ialoyBvn5gm0r5.jpg);"></div>
-<a onclick="openMovie('Assassinos da Lua das Flores', 'https://embedder.net/e/movie?imdb=tt5537002')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Resgate em 12 Horas', 'https://embedder.net/e/movie?imdb=tt14012572')" class="full-click"></a>    
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/m19SDzdaCwcO6p7S5q0YP335x1Z.jpg);"></div>
+<a onclick="openMovie('Resgate em 12 Horas', 'https://embedder.net/e/movie?imdb=tt14012572')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Assassinos da Lua das Flores</h5>
+<h5 class="media-box-title">Resgate em 12 Horas</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -131,12 +131,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Massa Cinzenta', 'https://embedder.net/e/movie?imdb=tt25947954')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/4EuZtw5Z6dVn5IOe7whR9Qy8UET.jpg);"></div>
-<a onclick="openMovie('Massa Cinzenta', 'https://embedder.net/e/movie?imdb=tt25947954')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Raiva', 'https://embedder.net/e/movie?imdb=tt28492037')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/1xIvYJ6HcmD5lcXlaOhChPxLLcY.jpg);"></div>
+<a onclick="openMovie('Raiva', 'https://embedder.net/e/movie?imdb=tt28492037')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Massa Cinzenta</h5>
+<h5 class="media-box-title">Raiva</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -145,12 +145,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Mortal Kombat Legends: Cage - Bom de Briga', 'https://embedder.net/e/movie?imdb=tt22698070')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/1eKWqTHp4OgKdx1QX1O9LxKHr1M.jpg);"></div>
-<a onclick="openMovie('Mortal Kombat Legends: Cage - Bom de Briga', 'https://embedder.net/e/movie?imdb=tt22698070')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Pornhub: Sexo Bilionário', 'https://embedder.net/e/movie?imdb=tt26739529')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ae9ooWLtS4LEsSBCUvaFkrrxqiH.jpg);"></div>
+<a onclick="openMovie('Pornhub: Sexo Bilionário', 'https://embedder.net/e/movie?imdb=tt26739529')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Mortal Kombat Legends: Cage - Bom de Briga</h5>
+<h5 class="media-box-title">Pornhub: Sexo Bilionário</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -159,12 +159,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('O Próprio Enterro', 'https://embedder.net/e/movie?imdb=tt5648882')" class="full-click"></a>       
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/4Fxb4goCtkHluDwymYvHW1xoC6P.jpg);"></div>
-<a onclick="openMovie('O Próprio Enterro', 'https://embedder.net/e/movie?imdb=tt5648882')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Outra Alma', 'https://embedder.net/e/movie?imdb=tt5165620')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/hFV6FXi8oDOfbXuBKODafOev06K.jpg);"></div>
+<a onclick="openMovie('Outra Alma', 'https://embedder.net/e/movie?imdb=tt5165620')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">O Próprio Enterro</h5>
+<h5 class="media-box-title">Outra Alma</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -173,12 +173,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('O Diabo no Tribunal', 'https://embedder.net/e/movie?imdb=tt28810493')" class="full-click"></a>    
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/6ZxFx9aQkZyd2SbxKt59x8WooPQ.jpg);"></div>
-<a onclick="openMovie('O Diabo no Tribunal', 'https://embedder.net/e/movie?imdb=tt28810493')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Osmar, a Primeira Fatia do Pão de Forma', 'https://embedder.net/e/movie?imdb=None')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/oW9y28wcG6NApOEikKVRsMewThu.jpg);"></div>
+<a onclick="openMovie('Osmar, a Primeira Fatia do Pão de Forma', 'https://embedder.net/e/movie?imdb=None')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">O Diabo no Tribunal</h5>
+<h5 class="media-box-title">Osmar, a Primeira Fatia do Pão de Forma</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -187,12 +187,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('O Porteiro', 'https://embedder.net/e/movie?imdb=tt28603694')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/8UIXPu4LRu6Zho8ruWhIjpeY439.jpg);"></div>
-<a onclick="openMovie('O Porteiro', 'https://embedder.net/e/movie?imdb=tt28603694')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Os Peludos', 'https://embedder.net/e/movie?imdb=tt15547806')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/q0poNkSayOtlwRzY6MKHTQcBauq.jpg);"></div>
+<a onclick="openMovie('Os Peludos', 'https://embedder.net/e/movie?imdb=tt15547806')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">O Porteiro</h5>
+<h5 class="media-box-title">Os Peludos</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -201,12 +201,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Sayen: A Rota Seca', 'https://embedder.net/e/movie?imdb=tt27351936')" class="full-click"></a>     
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/bPf85Ro1XgWnhJMfAZa3SdQ4Muf.jpg);"></div>
-<a onclick="openMovie('Sayen: A Rota Seca', 'https://embedder.net/e/movie?imdb=tt27351936')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Os Aventureiros – A Origem', 'https://embedder.net/e/movie?imdb=None')" class="full-click"></a>   
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qKyfHivRX3wRbY4zgN1oFdjqBqH.jpg);"></div>
+<a onclick="openMovie('Os Aventureiros – A Origem', 'https://embedder.net/e/movie?imdb=None')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Sayen: A Rota Seca</h5>
+<h5 class="media-box-title">Os Aventureiros – A Origem</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -215,12 +215,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Scarygirl', 'https://embedder.net/e/movie?imdb=tt4556264')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/1tcLXVaXFG9OObnCN3a5KrymrQG.jpg);"></div>
-<a onclick="openMovie('Scarygirl', 'https://embedder.net/e/movie?imdb=tt4556264')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Os Reis da Rua Mulberry: Que Reine o Amor', 'https://embedder.net/e/movie?imdb=tt13014820')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/3Tr5ziHzI6nEJyXwcyr0z29mA77.jpg);"></div>
+<a onclick="openMovie('Os Reis da Rua Mulberry: Que Reine o Amor', 'https://embedder.net/e/movie?imdb=tt13014820')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Scarygirl</h5>
+<h5 class="media-box-title">Os Reis da Rua Mulberry: Que Reine o Amor</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -229,12 +229,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Tiozões', 'https://embedder.net/e/movie?imdb=tt18394190')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/pslwfOD7sFLmpRcHklHOFf2aoDi.jpg);"></div>
-<a onclick="openMovie('Tiozões', 'https://embedder.net/e/movie?imdb=tt18394190')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('O Preço do Prazer', 'https://embedder.net/e/movie?imdb=tt11871074')" class="full-click"></a>      
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/uvnvE2lwwcFH4Smc4ilz194EdoD.jpg);"></div>
+<a onclick="openMovie('O Preço do Prazer', 'https://embedder.net/e/movie?imdb=tt11871074')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Tiozões</h5>
+<h5 class="media-box-title">O Preço do Prazer</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -243,12 +243,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Tudo Por um Ex-Namorado', 'https://embedder.net/e/movie?imdb=tt15819902')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/wd7Y9KCVDUzEIj1j1o3EZSxaKcU.jpg);"></div>
-<a onclick="openMovie('Tudo Por um Ex-Namorado', 'https://embedder.net/e/movie?imdb=tt15819902')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('O Preço do Poder', 'https://embedder.net/e/movie?imdb=tt11152422')" class="full-click"></a>       
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/dtDfNAUoCPJVKexcRx2JlT2JAxI.jpg);"></div>
+<a onclick="openMovie('O Preço do Poder', 'https://embedder.net/e/movie?imdb=tt11152422')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Tudo Por um Ex-Namorado</h5>
+<h5 class="media-box-title">O Preço do Poder</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -257,12 +257,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Se Beber, Não Case!', 'https://embedder.net/e/movie?imdb=tt1119646')" class="full-click"></a>     
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/6Hi9g065cxrQc2TLh5zwmTOurvK.jpg);"></div>
-<a onclick="openMovie('Se Beber, Não Case!', 'https://embedder.net/e/movie?imdb=tt1119646')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('O Motorista de Aplicativo', 'https://embedder.net/e/movie?imdb=tt11957450')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lfcR6c3MPoScJnzqfZCdKfNZVqB.jpg);"></div>
+<a onclick="openMovie('O Motorista de Aplicativo', 'https://embedder.net/e/movie?imdb=tt11957450')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Se Beber, Não Case!</h5>
+<h5 class="media-box-title">O Motorista de Aplicativo</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -271,12 +271,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('Se Beber, Não Case! - Parte II', 'https://embedder.net/e/movie?imdb=tt1411697')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lvwO6R9RImeq3UBbh6DPWG3Iiqw.jpg);"></div>
-<a onclick="openMovie('Se Beber, Não Case! - Parte II', 'https://embedder.net/e/movie?imdb=tt1411697')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('O Lodo', 'https://embedder.net/e/movie?imdb=tt11701102')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/rtAbde8LTcD7aMxm1i5gVJnqVH5.jpg);"></div>
+<a onclick="openMovie('O Lodo', 'https://embedder.net/e/movie?imdb=tt11701102')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">Se Beber, Não Case! - Parte II</h5>
+<h5 class="media-box-title">O Lodo</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -285,12 +285,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('A Chamada', 'https://embedder.net/e/movie?imdb=tt6906292')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/eqaSh2PjYcGpS6rybz6UjLNuvrg.jpg);"></div>
-<a onclick="openMovie('A Chamada', 'https://embedder.net/e/movie?imdb=tt6906292')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('As Gêmeas Silenciosas', 'https://embedder.net/e/movie?imdb=tt11052678')" class="full-click"></a>  
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zPZJuUSjFMvht73XDrvj0HbYWJC.jpg);"></div>
+<a onclick="openMovie('As Gêmeas Silenciosas', 'https://embedder.net/e/movie?imdb=tt11052678')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">A Chamada</h5>
+<h5 class="media-box-title">As Gêmeas Silenciosas</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -299,12 +299,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('A Outra Zoey', 'https://embedder.net/e/movie?imdb=tt11951276')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/9lZd2rV8Jgupu2bGTVgahKj5Gvc.jpg);"></div>
-<a onclick="openMovie('A Outra Zoey', 'https://embedder.net/e/movie?imdb=tt11951276')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Assombrosas', 'https://embedder.net/e/movie?imdb=tt18315204')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/6Etd8hNlq0VhnrIxPpDmwPGGQrU.jpg);"></div>
+<a onclick="openMovie('Assombrosas', 'https://embedder.net/e/movie?imdb=tt18315204')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">A Outra Zoey</h5>
+<h5 class="media-box-title">Assombrosas</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -313,12 +313,12 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('A Ressurreição da Múmia', 'https://embedder.net/e/movie?imdb=tt20141822')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/qIrJYG0ffdbkR0f0a6slVLXOnjQ.jpg);"></div>
-<a onclick="openMovie('A Ressurreição da Múmia', 'https://embedder.net/e/movie?imdb=tt20141822')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Aventura em Legacy Peak', 'https://embedder.net/e/movie?imdb=tt21104674')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/9tMLvle4KpP210u647x5yQ4bTM3.jpg);"></div>
+<a onclick="openMovie('Aventura em Legacy Peak', 'https://embedder.net/e/movie?imdb=tt21104674')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">A Ressurreição da Múmia</h5>
+<h5 class="media-box-title">Aventura em Legacy Peak</h5>
 </div>
 <!-- end media-box -->
 </div>
@@ -327,16 +327,16 @@ html = """
 <div class="col mt-3">
 <!-- start media-box -->
 <div class="media-box">
-<a onclick="openMovie('A Vida Diante de Seus Olhos', 'https://embedder.net/e/movie?imdb=tt29291436')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/djREwz46Ssm5LlMD9yN2ckvzVWU.jpg);"></div>
-<a onclick="openMovie('A Vida Diante de Seus Olhos', 'https://embedder.net/e/movie?imdb=tt29291436')" class="media-play"><i class="icofont-ui-play"></i></a>
+<a onclick="openMovie('Casamento em Família', 'https://embedder.net/e/movie?imdb=tt20879602')" class="full-click"></a>   
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/1vi88La90aTwEtsRMNqXNwtTXn3.jpg);"></div>
+<a onclick="openMovie('Casamento em Família', 'https://embedder.net/e/movie?imdb=tt20879602')" class="media-play"><i class="icofont-ui-play"></i></a>
 <!-- Start rate-quality-info -->
 <div class="media-info">
-<h5 class="media-box-title">A Vida Diante de Seus Olhos</h5>
+<h5 class="media-box-title">Casamento em Família</h5>
 </div>
 <!-- end media-box -->
 </div>
-</div>
+</div>   
 """
 
 # Parse o HTML usando BeautifulSoup

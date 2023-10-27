@@ -1,5 +1,281 @@
 var filmes = [
     {
+        titulo: 'Um Broto Legal',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt21220538',
+        imagem: 'https://image.tmdb.org/t/p/w300/jgKAAhnJ63nhrGrjrWl7cv7QFG7.jpg'
+    },
+    {
+        titulo: 'The Island',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt21853596',
+        imagem: 'https://image.tmdb.org/t/p/w300/ajb1rMiorchfRemYHZCkbV9DBg6.jpg'
+    },
+    {
+        titulo: 'The Hill',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt8051894',
+        imagem: 'https://image.tmdb.org/t/p/w300/gKh28PVUqt1vY2oAdFlauXkDacW.jpg'
+    },
+    {
+        titulo: 'Stalker: O Jogo da Morte',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt7211648',
+        imagem: 'https://image.tmdb.org/t/p/w300/h4VrgOmIOHPHygSAHMMThEKmCO4.jpg'
+    },
+    {
+        titulo: 'Sob o Domínio do Mal',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt10703978',
+        imagem: 'https://image.tmdb.org/t/p/w300/4ZzZezjTeS5NtZBpTyqMIAYl3ik.jpg'
+    },
+    {
+        titulo: 'Snag',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt26082308',
+        imagem: 'https://image.tmdb.org/t/p/w300/nhj4Q39qMSk6X5Ly9j9Yqyjrg5A.jpg'
+    },
+    {
+        titulo: 'Slotherhouse',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt15422224',
+        imagem: 'https://image.tmdb.org/t/p/w300/cPeZYjtt0B2a1gXVKPC6j1xM7fi.jpg'
+    },
+    {
+        titulo: 'Sem Rastro',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt18074198',
+        imagem: 'https://image.tmdb.org/t/p/w300/m3ZNSvplELOkVZKPXElMwdapIr4.jpg'
+    },
+    {
+        titulo: 'Resgate em 12 Horas',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt14012572',
+        imagem: 'https://image.tmdb.org/t/p/w300/m19SDzdaCwcO6p7S5q0YP335x1Z.jpg'
+    },
+    {
+        titulo: 'Raiva',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt28492037',
+        imagem: 'https://image.tmdb.org/t/p/w300/1xIvYJ6HcmD5lcXlaOhChPxLLcY.jpg'
+    },
+    {
+        titulo: 'Pornhub: Sexo Bilionário',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt26739529',
+        imagem: 'https://image.tmdb.org/t/p/w300/ae9ooWLtS4LEsSBCUvaFkrrxqiH.jpg'
+    },
+    {
+        titulo: 'Outra Alma',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt5165620',
+        imagem: 'https://image.tmdb.org/t/p/w300/hFV6FXi8oDOfbXuBKODafOev06K.jpg'
+    },
+    {
+        titulo: 'Osmar, a Primeira Fatia do Pão de Forma',
+        descricao: 'Descrição do filme 13',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/oW9y28wcG6NApOEikKVRsMewThu.jpg'
+    },
+    {
+        titulo: 'Os Peludos',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt15547806',
+        imagem: 'https://image.tmdb.org/t/p/w300/q0poNkSayOtlwRzY6MKHTQcBauq.jpg'
+    },
+    {
+        titulo: 'Os Aventureiros – A Origem',
+        descricao: 'Descrição do filme 15',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/qKyfHivRX3wRbY4zgN1oFdjqBqH.jpg'
+    },
+    {
+        titulo: 'Os Reis da Rua Mulberry: Que Reine o Amor',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt13014820',
+        imagem: 'https://image.tmdb.org/t/p/w300/3Tr5ziHzI6nEJyXwcyr0z29mA77.jpg'
+    },
+    {
+        titulo: 'O Preço do Prazer',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt11871074',
+        imagem: 'https://image.tmdb.org/t/p/w300/uvnvE2lwwcFH4Smc4ilz194EdoD.jpg'
+    },
+    {
+        titulo: 'O Preço do Poder',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt11152422',
+        imagem: 'https://image.tmdb.org/t/p/w300/dtDfNAUoCPJVKexcRx2JlT2JAxI.jpg'
+    },
+    {
+        titulo: 'O Motorista de Aplicativo',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt11957450',
+        imagem: 'https://image.tmdb.org/t/p/w300/lfcR6c3MPoScJnzqfZCdKfNZVqB.jpg'
+    },
+    {
+        titulo: 'O Lodo',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt11701102',
+        imagem: 'https://image.tmdb.org/t/p/w300/rtAbde8LTcD7aMxm1i5gVJnqVH5.jpg'
+    },
+    {
+        titulo: 'As Gêmeas Silenciosas',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt11052678',
+        imagem: 'https://image.tmdb.org/t/p/w300/zPZJuUSjFMvht73XDrvj0HbYWJC.jpg'
+    },
+    {
+        titulo: 'Assombrosas',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt18315204',
+        imagem: 'https://image.tmdb.org/t/p/w300/6Etd8hNlq0VhnrIxPpDmwPGGQrU.jpg'
+    },
+    {
+        titulo: 'Aventura em Legacy Peak',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt21104674',
+        imagem: 'https://image.tmdb.org/t/p/w300/9tMLvle4KpP210u647x5yQ4bTM3.jpg'
+    },
+    {
+        titulo: 'Casamento em Família',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt20879602',
+        imagem: 'https://image.tmdb.org/t/p/w300/1vi88La90aTwEtsRMNqXNwtTXn3.jpg'
+    },
+    {
+        titulo: 'Cheia de Graça',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt4184744',
+        imagem: 'https://image.tmdb.org/t/p/w300/7HgcL2MsgXwzOU2OsQRr0jpF3Oa.jpg'
+    },
+    {
+        titulo: 'Dez Minutos Para a Meia-Noite',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt10369866',
+        imagem: 'https://image.tmdb.org/t/p/w300/8jgWWwrlGSHpWZfVkR6MJzXZU74.jpg'
+    },
+    {
+        titulo: 'Duas Bruxas: A Herança Diabólica',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt10963926',
+        imagem: 'https://image.tmdb.org/t/p/w300/roIvnwBdGyiE1Yc8KYA9XZXhOXF.jpg'
+    },
+    {
+        titulo: 'Fé nas Alturas',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt13929998',
+        imagem: 'https://image.tmdb.org/t/p/w300/r6S1YciOhggxTgYQJlZHf4U5KWo.jpg'
+    },
+    {
+        titulo: 'Inu-Oh',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt10540510',
+        imagem: 'https://image.tmdb.org/t/p/w300/96mbrDL8CiCJSmNH6Fd1BP6IFhj.jpg'
+    },
+    {
+        titulo: 'Já Era Hora',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt15654800',
+        imagem: 'https://image.tmdb.org/t/p/w300/a8Sg7wHxquACYe4IIKyH0rORMp9.jpg'
+    },
+    {
+        titulo: 'Jack Walker, Um Herói em Ação',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt8474040',
+        imagem: 'https://image.tmdb.org/t/p/w300/4pru9cSmnHDGFio5BX9n2j2cCVb.jpg'
+    },
+    {
+        titulo: 'Mansão Mal-Assombrada',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt1695843',
+        imagem: 'https://image.tmdb.org/t/p/w300/3puybXuYPlZPRplIVSrExZnWibb.jpg'
+    },
+    {
+        titulo: 'Nada Será Como Antes',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt11394288',
+        imagem: 'https://image.tmdb.org/t/p/w300/rROrBVkYyVFKwzZqOjNXLKspV96.jpg'
+    },
+    {
+        titulo: 'Monster High 2',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt23026954',
+        imagem: 'https://image.tmdb.org/t/p/w300/mClrCMfGpOqTSiuCTSK67WZ92x5.jpg'
+    },
+    {
+        titulo: 'Não Durma',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt4329806',
+        imagem: 'https://image.tmdb.org/t/p/w300/kIZGBjlAY2lvpUBPnUCtPLVu51X.jpg'
+    },
+    {
+        titulo: 'O Faixa Preta',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt23651588',
+        imagem: 'https://image.tmdb.org/t/p/w300/tdXSgI3jxRbZOoBWxvpnMjkRfBV.jpg'
+    },
+    {
+        titulo: 'No Limite do Mal',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt13982526',
+        imagem: 'https://image.tmdb.org/t/p/w300/kiiRWx1I6HpWt16osBQhNZ2LCct.jpg'
+    },
+    {
+        titulo: 'O Dia que Mudou o Mundo',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt9178020',
+        imagem: 'https://image.tmdb.org/t/p/w300/n1Uw2cMlQr9oz6sbekuEcCs4e9U.jpg'
+    },
+    {
+        titulo: 'Contágio',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt1598778',
+        imagem: 'https://image.tmdb.org/t/p/w300/vKCC5qNMJAdJwOKZoVSAzGJRO2x.jpg'
+    },
+    {
+        titulo: 'Número 23',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt0481369',
+        imagem: 'https://image.tmdb.org/t/p/w300/fQ0mtie1RvN6lvSTS8rh0SXKanR.jpg'
+    },
+    {
+        titulo: 'Não Fale o Mal',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt14253846',
+        imagem: 'https://image.tmdb.org/t/p/w300/vCBC2DX5jQjPpVe9oqeCa19l1Fo.jpg'
+    },
+    {
+        titulo: 'A Elefanta do Mágico',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt2560092',
+        imagem: 'https://image.tmdb.org/t/p/w300/g7weieVLynnkcFqOWA5WAmjffNB.jpg'
+    },
+    {
+        titulo: 'A Maldição de Villisca',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt3320500',
+        imagem: 'https://image.tmdb.org/t/p/w300/zqWyPODcqBGvw6FOoCWtJt6bP8T.jpg'
+    },
+    {
+        titulo: 'Ah, Belinda',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt20567314',
+        imagem: 'https://image.tmdb.org/t/p/w300/6MI2WO2ThKMz8LSdpxBvaIAt8FE.jpg'
+    },
+    {
+        titulo: 'O Jogo da Invocação',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt10092698',
+        imagem: 'https://image.tmdb.org/t/p/w300/v2DQ58q9XMruPQSUqifMCzvl586.jpg'
+    },
+    {
+        titulo: 'As Múmias e o Anel Perdido',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt23177868',
+        imagem: 'https://image.tmdb.org/t/p/w300/olT9HuXfnMVFqDGjLhllKe5EuQP.jpg'
+    },
+    {
         titulo: 'Cercados',
         descricao: 'Em busca de uma mina de ouro, a ex-soldado Mo Washington vai ao oeste americano. Quando uma emboscada a faz sequestrar um bandido, uma batalha no ambiente selvagem se inicia.',
         imdb: 'tt2572212',
