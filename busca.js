@@ -2929,139 +2929,139 @@ var filmes = [
     },
     {
         titulo: 'Domingo',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Múltiplos pontos de vista de uma família burguesa do interior gaúcho no dia 1º de janeiro de 2003, quando o Brasil vivia a histórica posse do presidente Luís Inácio Lula da Silva. Durante uma festa extravagante, muitas verdades estão prestes a vir à tona e o mal estar entre os convidados fica evidente.',
         imdb: 'tt9025112',
         imagem: 'https://image.tmdb.org/t/p/w300/zIzySOMQhxfIfnc0t21Gih90uAn.jpg'
     },
     {
         titulo: 'Z: A Cidade Perdida',
-        descricao: 'Descrição do filme 3',
+        descricao: 'A incrível história real do explorador britânico Percy Fawcett (Charlie Hunnam), que viaja para a Amazônia no século XX e descobre evidências de uma civilização avançada desconhecida que pode ter habitado a região. Depois de ter sido ridicularizado pelo corpo científico que considera as populações indígenas como "selvagens", Fawcett está determinado a retornar à sua amada selva e provar seu caso.',
         imdb: 'tt1212428',
         imagem: 'https://image.tmdb.org/t/p/w300/ms4UmEmc0cyK5AN2EGPfadkbXae.jpg'
     },
     {
         titulo: 'Nas Ondas da Fé',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Hickson é um homem de fé que se vira como pode para pagar os boletos no fim do mês. De técnico de informática a locutor de carro de telemensagem, não tem nada que Hickson não tope fazer. E foi exatamente assim que ele conquistou um emprego em uma rádio evangélica. Com talento, dedicação e um empurrãozinho de Jéssika, sua esposa, ele vai descobrir que nem mesmo o céu é limite!',
         imdb: 'tt21994054',
         imagem: 'https://image.tmdb.org/t/p/w300/fddUEnP5pII7U1f09pQVjw9Gv4v.jpg'
     },
     {
         titulo: 'Manobras do Destino',
-        descricao: 'Descrição do filme 5',
+        descricao: 'A história inspiradora de um campeão de bicicross que superou uma infância abusiva através das lições de amor e vida de sua família adotiva inter-racial.',
         imdb: 'tt6102104',
         imagem: 'https://image.tmdb.org/t/p/w300/29ZSBmqQfzSGNh8f1m2YkqljNZ9.jpg'
     },
     {
         titulo: 'O Menu',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Um casal viaja para uma ilha costeira para comer em um restaurante exclusivo onde o chef preparou um cardápio farto, com algumas surpresas chocantes.',
         imdb: 'tt9764362',
         imagem: 'https://image.tmdb.org/t/p/w300/rxNelQvAjOmNGUUHRujmsHiPEIh.jpg'
     },
     {
         titulo: 'A Outra',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Anne e Mary são irmãs que foram convencidas por seu pai e tio ambiciosos a aumentar o status da família tentando conquistar o coração de Henry Tudor, o rei da Inglaterra. Elas são levadas à corte e logo Maria conquista o rei, dando-lhe um filho ilegítimo. Porém isto não faz com que Ana desista de seu intento, buscando de todas as formas passar para trás tanto sua irmã quanto a rainha Catarina de Aragão.',
         imdb: 'tt0467200',
         imagem: 'https://image.tmdb.org/t/p/w300/kViXw0u8iAeaT8WFpPNfCRDdH9z.jpg'
     },
     {
         titulo: 'O Telefone do Sr. Harrigan',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Craig (Jaeden Martell) é um garoto do interior que faz uma amizade improvável com o Sr. Harrigan (Donald Sutherland), um bilionário idoso e recluso. O vínculo entre os dois nasce da paixão em comum que os dois têm por livros. Após a morte do Sr. Harrigan, Craig se surpreende com a possibilidade de se comunicar com o amigo por um celular que foi enterrado com ele. Esta história sobrenatural de amadurecimento mostra que algumas ligações jamais são perdidas.',
         imdb: 'tt12908110',
         imagem: 'https://image.tmdb.org/t/p/w300/sFmQ7dpwSjVs7FVH0VqnAllftEX.jpg'
     },
     {
         titulo: 'Meninas Malvadas',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Criada na selva africana por seus pais zoólogos, Cady acha que sabe tudo sobre "sobrevivência dos mais bem dotados". Mas a lei da selva toma um significado totalmente novo, quando a garota de 15 anos, educada em casa, entra na escola pública pela primeira vez. Tentando encontrar seu lugar entre esportistas, cerebrais e outras subculturas, Cady cruza o caminho com a espécie mais perigosa: a Abelha Rainha, mais conhecida como a descolada e calculista Regina, líder da turma mais transada, As Poderosas. Mas quando Cady se apaixona pelo ex-namorado de Regina, a Abelha Rainha recebe a ferroada e trama para arruinar a vida social de Cady. As garras de Cady logo aparecem, quando ela pula de cabeça em uma hilariante "guerra de garotas", que vai fazer o colégio todo procurar abrigo.',
         imdb: 'tt0377092',
         imagem: 'https://image.tmdb.org/t/p/w300/crXx4pzKET0ZyhSJDYMR3lS0Xnk.jpg'
     },
     {
         titulo: 'Guardiões da Galáxia: Volume 3',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Peter Quill, que ainda está a recuperar da perda de Gamora, tem que reunir a sua equipa para defender o universo e proteger um dos seus. Uma missão que, se não for concluída com sucesso, pode levar ao fim dos Guardiões como os conhecemos.',
         imdb: 'tt6791350',
         imagem: 'https://image.tmdb.org/t/p/w300/mgFdvrwlzYi6wLq3zgzOwkiT43k.jpg'
     },
     {
         titulo: 'Você Vai Lembrar Meu Nome',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Edouard é um professor de história aposentado que começa a perder a memória. Como ninguém ao seu redor pode vigiá-lo, ele é colocado aos cuidados de Berenice, uma jovem rebelde e sem perspectiva de futuro. O encontro entre eles cria uma amizade inesperada que levará Edouard a revisitar um trauma que ele escolheu esquecer e Berenice a encontrar sentido em sua vida.',
         imdb: 'tt9330648',
         imagem: 'https://image.tmdb.org/t/p/w300/zjZ8fmIRR4RDHSRsvobspaY1mi9.jpg'
     },
     {
         titulo: 'Golpe Baixo',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Paul Crewe é um ex-astro do futebol americano preso por dirigir bêbado uma noite. Ele é enviado para a Penitenciária Allenville, uma das prisões mais cruéis do país. Quando o diretor do presídio pede para Crewe montar um time para jogar contra os guardas da prisão, Crewe convoca Caretaker, um negociante malandro que pode conseguir para os prisioneiros o que eles quiserem. Os dois conseguem montar o Mean Machine, um dos times mais loucos já vistos para jogar!',
         imdb: 'tt0398165',
         imagem: 'https://image.tmdb.org/t/p/w300/9n7AN86mkPYNO8FcFMjkfbVuUSu.jpg'
     },
     {
         titulo: 'Colateral',
-        descricao: 'Descrição do filme 13',
+        descricao: 'O taxista Max está trabalhando em uma noite aparentemente tranquila de Los Angeles, até que pega como passageiro Vincent, um assassino de aluguel que está na cidade para completar o plano de um cartel do narcotráfico. Vincent precisa aguardar que as testemunhas de um crime morram e, para isso, conta com Max para despistar a polícia local e o FBI. Obrigado a seguir ordens, Max precisa ainda lutar contra a possibilidade de ser morto, já que Vincent pode usá-lo para proteção pessoal.',
         imdb: 'tt0369339',
         imagem: 'https://image.tmdb.org/t/p/w300/xJ6dDSQYDZeEGgSu2b0NMif3UMX.jpg'
     },
     {
         titulo: 'Quem Vai Ficar com Mary?',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Apaixonado desde os tempos do colegial por Mary, o trapalhão Ted localiza de novo a garota do seus sonhos 13 anos mais tarde com a ajuda de um investigador particular muito pilantra, que também apaixona-se por ela. Para complicar ainda mais, os dois descobrem que qualquer homem que conheça a deslumbrante Mary fica louco para se casar com ela.',
         imdb: 'tt0129387',
         imagem: 'https://image.tmdb.org/t/p/w300/nUi2j9Mp8HEE0r7Iq7nq4RIesO4.jpg'
     },
     {
         titulo: 'Quero Ficar Com Polly',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Reuben Feffer é um homem prevenido, que detesta correr riscos. Porém um fato insólito muda completamente sua vida: sua esposa o abandona com um mergulhador, em plena lua-de-mel. Desolado com o ocorrido, Reuben acaba se envolvendo com Polly (Jennifer Aniston), uma mulher agitada que gosta de viver a vida intensamente.',
         imdb: 'tt0343135',
         imagem: 'https://image.tmdb.org/t/p/w300/tWe964ouAeuAmntQKn1rG8jMBre.jpg'
     },
     {
         titulo: 'Rainhas em Fuga',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Quatro amigas decidem embarcar juntas em uma jornada após enfrentarem diferentes encruzilhadas em suas vidas.',
         imdb: 'tt21736218',
         imagem: 'https://image.tmdb.org/t/p/w300/iL0hVqtK0NUa6B9UJXkoq5jSXAz.jpg'
     },
     {
         titulo: 'O Encontro Mais Longo de Todos',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Quando Khani e Matt se conheceram por um aplicativo, o casal jamais poderia imaginar que a COVID-19 transformaria uma viagem de alguns dias em uma aventura de meses.',
         imdb: 'tt27218658',
         imagem: 'https://image.tmdb.org/t/p/w300/pzusJE1LqhG06S92IdPYlTu8N1p.jpg'
     },
     {
         titulo: 'Surpresa! Fiquei Noiva',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Genie Burns, proprietária da Surprise Enterprise, é a idealizadora de festas surpresa em locais onde ninguém suspeita. Apesar de correr riscos e das loucuras do seu trabalho, em sua vida amorosa, ela jamais se arrisca - até agora!',
         imdb: 'tt5789944',
         imagem: 'https://image.tmdb.org/t/p/w300/qo6qDVHP8zxou3HXOXXfM5izf17.jpg'
     },
     {
         titulo: 'Quasimodo',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Um corcunda sem sorte sonha com o amor, mas se envolve em uma disputa assassina entre o Papa e o Rei da França, quando um ordena que o corcunda mate o outro.',
         imdb: 'tt1609497',
         imagem: 'https://image.tmdb.org/t/p/w300/yRitoZ1fVLhUsK7bzu84lJQMg1g.jpg'
     },
     {
         titulo: 'Os Esquecidos',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Telly Paretta é uma mãe que luta para lidar com a perda de seu filho de 8 anos de idade. Ela fica atordoada quando seu psiquiatra revela que ela criou oito anos de memórias sobre um filho que ela nunca teve. Porém, quando ela conhece um homem que teve uma experiência semelhante, Telly embarca em uma busca para provar a existência de seu filho e sua sanidade.',
         imdb: 'tt0356618',
         imagem: 'https://image.tmdb.org/t/p/w300/uIoTlZf4NvSEXhAjQ1cn9tTvVQj.jpg'
     },
     {
         titulo: 'Os Cavaleiros do Zodíaco - Saint Seiya: O Começo',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Quando um órfão de rua teimoso em busca de sua irmã sequestrada involuntariamente toca em poderes ocultos, ele descobre que pode ser a única pessoa viva que pode proteger uma deusa reencarnada, enviada para vigiar a humanidade. Ele só se tornará um Cavaleiro do Zodíaco quando puder deixar sua irmã ir e abraçar seu destino.',
         imdb: 'tt6528290',
         imagem: 'https://image.tmdb.org/t/p/w300/omPLRVEydDJdkXoBw87PWQ3heCY.jpg'
     },
     {
         titulo: 'O Chamado 4: Samara Ressurge',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Ichijo Fumika é uma estudante de pós-graduação com um QI de 200 que tenta investigar as estranhas mortes que acontecem em todo o país depois que essas pessoas supostamente assistiram a um vídeo amaldiçoado e sua irmã mais nova também fez o mesmo por curiosidade.',
         imdb: 'tt19815280',
         imagem: 'https://image.tmdb.org/t/p/w300/7IlDfL40rIe1bVERCxXUJJfx2en.jpg'
     },
     {
         titulo: 'O Grande Mauricinho',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Esta história segue Maurice, um pateta gato malandro, que tem o golpe perfeito para ganhar dinheiro. Ele encontra um garoto de aparência burra que toca flauta e tem sua própria horda de ratos, que são estranhamente alfabetizados.',
         imdb: 'tt10473036',
         imagem: 'https://image.tmdb.org/t/p/w300/qcCZnuFQv6faxbXUb9pa8Le5ujB.jpg'
     },
     {
         titulo: 'Liga da Justiça x RWBY: Super-Heróis e Caçadores - Parte 1',
-        descricao: 'Descrição do filme 24',
+        descricao: 'A Liga da Justiça está em um mundo chamado Remnant e foram transformados em adolescentes! Os heróis de Remnant - Ruby, Weiss, Blake e Yang - descobrem que seu mundo foi mudado.',
         imdb: 'tt24548912',
         imagem: 'https://image.tmdb.org/t/p/w300/gs9thnvpkf6HCx2lJZlY5YaLQ7s.jpg'
     },
