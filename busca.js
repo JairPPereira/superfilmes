@@ -3331,139 +3331,133 @@ var filmes = [
     },
     {
         titulo: 'Raquel 1:1',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Raquel é uma adolescente religiosa que retorna à pacata cidade onde nasceu em busca de uma vida nova junto ao seu pai. Em seus primeiros dias, ela passa por uma experiência misteriosa durante a qual acredita ter recebido uma importante e controvérsia missão relacionada à Bíblia. Ao lado de suas novas amigas, um grupo de garotas evangélicas da igreja local, Raquel mergulha na sua espiritualidade e revive traumas profundos do passado. Com o apoio de alguns e condenação de outros, Raquel tenta se balancear em um inquietante espiral de fé, razão e loucura.',
         imdb: 'tt7466970',
         imagem: 'https://image.tmdb.org/t/p/w300/numZOhSuBd3qzJyjQ49wlBNOqce.jpg'
     },
     {
         titulo: 'Peter Pan & Wendy',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Wendy Darling, uma jovem que não quer ir para o colégio interno, conhece Peter Pan, um menino que se recusa a crescer. Com seus irmãos e uma fada, Tinker Bell, ela viaja com Peter para o mundo mágico da Terra do Nunca. Lá, ela encontra o pirata perverso, Capitão Gancho, e embarca em uma aventura emocionante que vai mudar sua vida para sempre.',
         imdb: 'tt5635026',
         imagem: 'https://image.tmdb.org/t/p/w300/AkWxiUsc32qJHLwt7vt5AvUFNlx.jpg'
     },
     {
         titulo: 'Tic-Tac: A Maternidade do Mal',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Ella é uma estrela em ascensão no Design de Interiores, mora em uma casa digna de revista e é casada com um marido amoroso. Mas Ella se sente excluída porque... Ella não quer filhos. Quando Ella fica sabendo de um ensaio clínico em que seu problema está sendo considerado uma questão de fertilidade, ela decide se inscrever. Para sua surpresa, o tratamento funciona, mas a que custo?',
         imdb: 'tt17219484',
         imagem: 'https://image.tmdb.org/t/p/w300/dpKHaXmAeiVaV1FQVIWStyg0Cws.jpg'
     },
     {
         titulo: 'Monster High: O Filme',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Conheça Clawdeen Wolf, que nasceu metade humana e metade lobisomem, depois que ela chega em sua nova escola, Monster High. Ela rapidamente faz amizade com suas colegas Frankie Stein e Draculaura, e pela primeira vez em sua vida, Clawdeen sente que finalmente encontrou um lugar onde ela se encaixa e pode realmente ser ela mesma, apesar de manter sua metade humana em segredo. Quando um plano desonesto para destruir Monster High ameaça revelar sua verdadeira identidade, Clawdeen deve aprender a abraçar seu verdadeiro coração de monstro e encontrar uma maneira de salvar o dia.',
         imdb: 'tt1447981',
         imagem: 'https://image.tmdb.org/t/p/w300/tn3GWm0Erehkpur8PUuYWxGpul5.jpg'
     },
     {
         titulo: 'Ghosted: Sem Resposta',
-        descricao: 'Descrição do filme 5',
+        descricao: 'O corretíssimo Cole se apaixona pela enigmática Sadie, mas logo enfrenta a chocante descoberta de que ela é uma agente secreta. Antes que eles possam decidir se terão ou não um segundo encontro, Cole e Sadie são arrastados para uma aventura internacional para salvar o mundo.',
         imdb: 'tt15326988',
         imagem: 'https://image.tmdb.org/t/p/w300/89p7MQ3I5wKzOEO0OCCXEdUqX9R.jpg'
     },
     {
         titulo: 'Anos 90',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Aos 13 anos, Stevie é um garoto de Los Angeles tentando curtir o início da adolescência enquanto tenta relevar o relacionamento abusivo com o irmão mais velho. Em plena década de 90, ele descobre o skate e aprende lições de vida com o seu novo grupo de amigos.',
         imdb: 'tt5613484',
         imagem: 'https://image.tmdb.org/t/p/w300/gTKHNZT3ntvwN8Sy6DzbUzuTdpt.jpg'
     },
     {
-        titulo: 'Os Três Mosqueteiros: D’Artagnan',
-        descricao: 'Descrição do filme 7',
+        titulo: 'Os Três Mosqueteiros: D Artagnan',
+        descricao: 'Os Três Mosqueteiros: D Artagnan é um filme de ação e aventura e o primeiro de uma saga épica de duas partes dirigida por Martin Bourboulon, baseada no romance "Os Três Mosqueteiros" de Alexandre Dumas, publicado em 1844.',
         imdb: 'tt12672536',
         imagem: 'https://image.tmdb.org/t/p/w300/lm0pfF0HSLsSpFlhGCmR6Bhl8EE.jpg'
     },
     {
         titulo: 'Caçador de Tormentas',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Com Alec Baldwin. William segue os passos de seu pai caçador de tempestades e agora enfrentará o maior desafio da sua vida para seguir seu legado.',
         imdb: 'tt10559102',
         imagem: 'https://image.tmdb.org/t/p/w300/g0UOstAfVWAK5FazCMfdWdkM38i.jpg'
     },
     {
         titulo: 'Power Rangers: Agora e Sempre',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Três décadas depois que o poderoso Zordon criou os Power Rangers, o grupo fica frente a frente com uma ameaça do passado. Em meio a uma crise global, os heróis são chamados mais uma vez para salvar o mundo. Este especial que celebra o trigésimo aniversário da franquia é inspirado no famoso lema "Uma vez Ranger, sempre Ranger", o que significa: os integrantes da família Ranger são sempre recebidos de braços abertos.',
         imdb: 'tt23219684',
         imagem: 'https://image.tmdb.org/t/p/w300/lB1psIWct40ZSJPLp8wsQ98y0dI.jpg'
     },
     {
-        titulo: 'Olavo Tem Razão - O Filme',
-        descricao: 'Descrição do filme 10',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/23znVCWbJ5HgthMzVxGHhz4PxYe.jpg'
-    },
-    {
         titulo: 'A Morte do Demônio: A Ascensão',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Duas irmãs distantes cujo reencontro é interrompido por demônios devoradores de carne que aparecem de repente, levando-as a uma batalha primal pela sobrevivência, enfrentando a versão mais assustadora que se possa imaginar de uma família.',
         imdb: 'tt13345606',
         imagem: 'https://image.tmdb.org/t/p/w300/5E4nVa3dXTHG2zx9iO7b0UIMsa7.jpg'
     },
     {
         titulo: 'A Vila',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Os habitantes de uma comunidade cercada por uma floresta temem que perigosas criaturas vivam lá. Eles pensam que se ficarem fora da floresta, eles serão deixados ilesos. Quando uma das moradoras da vila fica doente, o menino que a ama ignora os mais velhos da vila para ir à próxima cidade em busca de remédio.',
         imdb: 'tt0368447',
         imagem: 'https://image.tmdb.org/t/p/w300/rKPMAssCxiioVrwQqMBJbsou9zN.jpg'
     },
     {
         titulo: 'O Nome da Rosa',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Em 1327, William de Baskerville, um monge franciscano, e Adso von Melk, um noviço que o acompanha, chegam a um remoto mosteiro no norte da Itália. William de Baskerville pretende participar de um conclave para decidir se a Igreja deve doar parte de suas riquezas, mas a atenção é desviada por vários assassinatos que acontecem no mosteiro. William de Baskerville começa a investigar o caso, que se mostra bastante intrincando, além dos mais religiosos acreditarem que é obra do Demônio. William de Baskerville não partilha desta opinião, mas antes que ele conclua as investigações Bernardo Gui (F. Murray Abraham), o Grão-Inquisidor, chega no local e está pronto para torturar qualquer suspeito de heresia que tenha cometido assassinatos em nome do Diabo. Considerando que ele não gosta de Baskerville, ele é inclinado a colocá-lo no topo da lista dos que são diabolicamente influenciados.',
         imdb: 'tt0091605',
         imagem: 'https://image.tmdb.org/t/p/w300/8o6U4vBbAop4344tMnzdu8pN7Qy.jpg'
     },
     {
         titulo: 'Excluídos',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Uma mulher conseguiu construir meticulosamente uma vida de privilégios. Mas a chegada de dois estranhos à cidade ameaça derrubar esse castelo de cartas.',
         imdb: 'tt16437278',
         imagem: 'https://image.tmdb.org/t/p/w300/w3nvKg5Ntog0VeWsBqCysxfNNFL.jpg'
     },
     {
         titulo: 'Desaparecida',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Quando sua mãe desaparece durante uma viagem de férias na Colômbia com seu novo namorado, a busca de June por respostas. Presa há milhares de quilômetros em Los Angeles, June faz uso dos recursos tecnológicos para tentar encontrá-la. Mas quanto mais fundo ela cava, mais questões surgem; e quando se depara com segredos de sua mãe, descobre que talvez nunca tenha conhecido sua mãe de verdade.',
         imdb: 'tt10855768',
         imagem: 'https://image.tmdb.org/t/p/w300/zwAHIor0Yxn6VUnyVGIWk1fDYrv.jpg'
     },
     {
         titulo: 'Prova Final',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Repentinamente, em uma escola de uma pequena cidade no Ohio, os professores começam a agir estranhamente. Dois estudantes escondidos em um armário testemunham dois professores matando a enfermeira do colégio, mas logo a vítima aparece viva e eles logo concluem que algum alienígena está se apossando do corpos. Assim, o medo toma conta deles e de seus amigos, pois qualquer um pode ser dominado por este ser que ninguém sabe de onde veio, mas parece ter um objetivo definido: possuir todos os terrestres que surjam na sua frente.',
         imdb: 'tt0133751',
         imagem: 'https://image.tmdb.org/t/p/w300/leVEAb37sssYg8qLeo46Pc8IcH9.jpg'
     },
     {
         titulo: 'TÁR',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Situado no mundo internacional da música clássica, a cinebiografia centra-se em Lydia Tár (Cate Blanchett). Amplamente considerada uma das maiores compositoras/regentes vivas e a primeira maestrina chefe de uma grande orquestra alemã.',
         imdb: 'tt14444726',
         imagem: 'https://image.tmdb.org/t/p/w300/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg'
     },
     {
         titulo: 'Desapega!',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Após sete anos controlada de seu vício em compras, Rita assume a liderança de um grupo de apoio a compradores compulsivos para ajudar outras pessoas a darem a volta por cima. Começando um novo romance com Otávio e toda trabalhada no equilíbrio, parece que nada pode apagar o seu brilho. Mas quando Duda, sua única filha e melhor amiga, revela que tem planos de sair de casa, Rita vai precisar aprender a desapegar para não cair na tentação de uma boa promoção.',
         imdb: 'tt15489762',
         imagem: 'https://image.tmdb.org/t/p/w300/b0aRBdFnIi1MZbsW7QTZvRHcpo3.jpg'
     },
     {
         titulo: 'A Receita Fatal',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Com seu cunhado, o deputado Bill Todd, concorrendo contra o rude xerife Grant em uma acirrada eleição, para eleger o novo xerife local, a irmã lidando com o final da gravidez e um encontro assustador com um ladrão de carros em sua mente - Hannah sente que sua vida chegou ao seu ponto de ebulição. Mas as coisas continuam a esquentar quando ela descobre o corpo de Grant - espancado, segurando um de seus cupcakes caseiros - e Bill se torna o principal suspeito.',
         imdb: 'tt5673202',
         imagem: 'https://image.tmdb.org/t/p/w300/y5YlUgaQ4Nq1Si61ALWteYbPUW9.jpg'
     },
     {
         titulo: 'Alerta Máximo',
-        descricao: 'Descrição do filme 20',
+        descricao: 'O piloto Brodie Torrance salva seus passageiros de um raio pousando em uma ilha. Os moradores rebeldes e perigosos do local fazem a tripulação refém e Torrance procura ajuda de um passageiro acusado de assassinato.',
         imdb: 'tt5884796',
         imagem: 'https://image.tmdb.org/t/p/w300/6yuyOVARnEHZPBmaY1mDvF4woel.jpg'
     },
     {
         titulo: 'Visitas Extraterrestres',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Em 2021, um relatório do Pentágono revelou o que o governo negou por décadas: óvnis são reais e podem ser uma ameaça ao nosso planeta. Agora, ex-membros das Forças Armadas americanas quebram o silêncio sobre seus contatos.',
         imdb: 'tt19849214',
         imagem: 'https://image.tmdb.org/t/p/w300/mC0GjHcnrkQRVBmHEVd54dGV1m0.jpg'
     },
     {
         titulo: 'Uma Prece Antes do Amanhecer',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Encarcerado em uma das prisões mais bárbaras e mortais do planeta, a Klong Prem, na Tailândia, Billy Moore (Joe Cole) está buscando meios para se manter vivo e passar por todos aqueles pesadelos. Sendo assim, para sobreviver, decide adentrar no mundo do Muay Thai, sem nem imaginar que iniciar esta arte marcial viria a transformar sua vida para sempre.',
         imdb: 'tt4080956',
         imagem: 'https://image.tmdb.org/t/p/w300/pS7MWnE9jzKytQ101KbddnahRRZ.jpg'
     },
     {
         titulo: 'Vício Perfeito',
-        descricao: 'Descrição do filme 23',
+        descricao: 'A treinadora de sucesso de MMA Sienna Lane descobre que seu namorado Jax, o atual campeão de luta de MMA clandestino, a está traindo com sua própria irmã. Sienna decide se vingar treinando o único homem capaz de vencê-lo: seu arqui-inimigo Kayden.',
         imdb: 'tt12965390',
         imagem: 'https://image.tmdb.org/t/p/w300/1bFE8TlLU7r3IwwGHN7au8xPIds.jpg'
     },
@@ -3475,7 +3469,7 @@ var filmes = [
     },
 {
     titulo: 'Os Piratas da Rua Debaixo',
-    descricao: 'Descrição do filme 1',
+    descricao: 'Quando uma família de piratas se muda para a chata Sandsborough, os vizinhos não ficam muito felizes. Michiel e seu novo amigo pirata Billy tentam fazer com que a família se misture, mas seu arqui-inimigo chega à cidade e planeja roubar um tesouro.',
     imdb: 'tt10727214',
     imagem: 'https://image.tmdb.org/t/p/w300/9p0uScG0xssIrANgcYLcDiNSLCK.jpg'
 },
