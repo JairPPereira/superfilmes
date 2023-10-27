@@ -278,7 +278,7 @@ var filmes = [
     },
     {
         titulo: 'Sala Verde',
-        descricao: 'Após terminarem seu show, uma banda de rock acaba testemunhando um terrível ato de violência e um brutal assassinato. Como eles são as únicas testemunhas do crime, eles logos se tornam o principal alvo de uma gangue de skinheads. A banda, então, terá que se refugiar na "sala verde" se quiser sobreviver a "queima de arquivos" promovida pelos brutais assassinos.',
+        descricao: 'Após terminarem seu show, uma banda de rock acaba testemunhando um terrível ato de violência e um brutal assassinato. Como eles são as únicas testemunhas do crime, eles logos se tornam o principal alvo de uma gangue de skinheads. A banda, então, terá que se refugiar na "sala verde" se quiser sobreviver a queima de arquivos promovida pelos brutais assassinos.',
         imdb: 'tt4062536',
         imagem: 'https://image.tmdb.org/t/p/w300/4W6TeOnwAyNq3Zp8NP9gwYPZ1pK.jpg'
     },
@@ -374,7 +374,7 @@ var filmes = [
     },
     {
         titulo: 'Dezesseis Facadas',
-        descricao: 'Trinta e cinco anos após o chocante assassinato de três adolescentes, o infame "Sweet Sixteen Killer" retorna na noite de Halloween para fazer uma quarta vítima. Jamie, de dezessete anos, ignora o aviso de sua mãe superprotetora e fica cara a cara com o maníaco mascarado e, fugindo para salvar sua vida, acidentalmente viaja no tempo de volta para 1987, o ano do assassinatos originais. Forçada a navegar na cultura desconhecida e ultrajante dos anos 1980, Jamie se une a sua mãe adolescente para derrubar o assassino de uma vez por todas, antes que ela fique presa no passado para sempre.',
+        descricao: 'Trinta e cinco anos após o chocante assassinato de três adolescentes, o infame Sweet Sixteen Killer retorna na noite de Halloween para fazer uma quarta vítima. Jamie, de dezessete anos, ignora o aviso de sua mãe superprotetora e fica cara a cara com o maníaco mascarado e, fugindo para salvar sua vida, acidentalmente viaja no tempo de volta para 1987, o ano do assassinatos originais. Forçada a navegar na cultura desconhecida e ultrajante dos anos 1980, Jamie se une a sua mãe adolescente para derrubar o assassino de uma vez por todas, antes que ela fique presa no passado para sempre.',
         imdb: 'tt11426232',
         imagem: 'https://image.tmdb.org/t/p/w300/o5tWAiHfxEvu2z1qkJKU4gW1uPY.jpg'
     },
@@ -1850,6 +1850,7 @@ var filmes = [
         imdb: 'tt2123516',
         imagem: 'https://image.tmdb.org/t/p/w300/iSPCeuGiN06540ZUCfcunc4hOm3.jpg'
     }, 
+
     {
         titulo: 'Sisu',
         descricao: 'Nas profundezas do deserto da Lapônia, Aatami Korpi está em busca de ouro. De vez em quando, o sobrevoo de bombardeiros e os sons distantes da guerra podem ser ouvidos na noite de outono. Finalmente, o trabalho árduo é recompensado e o pó de ouro na panela se transforma em pedaços de ouro, e Aatami sai para levar seu tesouro de ouro para a cidade mais próxima. Depois que ele se depara com a patrulha nazista liderada pelo SS Obersturmführer Bruno Helldorf, começa uma perseguição de tirar o fôlego e faminta por ouro através do deserto destruído e minado da Lapônia.',
@@ -1994,6 +1995,7 @@ var filmes = [
         imdb: 'tt21257152',
         imagem: 'https://image.tmdb.org/t/p/w300/iiKXokniuqAwhVZjLhIGJhXIKzk.jpg'
     },
+
     {
         titulo: 'Que Horas Eu Te Pego?',
         descricao: 'Uma jovem falida é contratada para namorar um adolescente introvertido e socialmente desajeitado, que está se preparando para a faculdade.',
@@ -2138,6 +2140,7 @@ var filmes = [
         imdb: 'tt15789038',
         imagem: 'https://image.tmdb.org/t/p/w300/88OGFOcFI04CL4uucb6I7ZzUqD6.jpg'
     },
+
     {
         titulo: 'Rye Lane: Um Amor Inesperado',
         descricao: 'Dois jovens, na casa dos vinte, abalados com seus términos e que se conectam em um dia agitado no sul de Londres, se ajudando a lidar com o pesadelo que são seus ex enquanto recuperam a fé no romance."',
@@ -2347,7 +2350,7 @@ var filmes = [
         descricao: 'Uma mulher de sucesso na cidade de Nova York vê sua vida virada de cabeça para baixo quando é forçada a enfrentar uma verdade sombria que ameaça desvendar sua vida meticulosamente trabalhada.',
         imdb: 'tt4595186',
         imagem: 'https://image.tmdb.org/t/p/w300/9qJOLqZ7Gcx8HeCkt5iYqEyMjJs.jpg'
-    },
+    }, 
     {
         titulo: 'Viagem Entre Estranhos',
         descricao: 'Quatro desconhecidos se encontram no centro de Madri para ir de carro a Cieza graças a um aplicativo de compartilhamento de caronas. Tudo transcorre normalmente, mas o motorista parece estar escondendo alguma coisa e se comporta de forma estranha.',
@@ -2491,7 +2494,7 @@ var filmes = [
         descricao: 'Três amigas em busca de uma misteriosa herança na Argentina. Elas passam por uma sequência de perrengues e situações perigosas e ao mesmo tempo hilárias, ao se envolverem sem saber com traficantes locais.',
         imdb: 'tt22651782',
         imagem: 'https://image.tmdb.org/t/p/w300/3BNqD7CtGlEjwbSshW5cPAc3Qec.jpg'
-    },  
+    },
     {
         titulo: 'A Pequena Sereia',
         descricao: 'Ariel é uma curiosa sereia que deseja experimentar a vida em terra firme e, contra a vontade de seu pai, visita a superfície. Ariel se vê em uma inesperada jornada de autodescoberta ao encontrar um príncipe, uma bruxa do mar e um novo mundo incrível.',
@@ -2635,166 +2638,166 @@ var filmes = [
         descricao: 'Cansada da vida conjugal, Roberta (Rosanna Arquette) deixa-se seduzir por uma série de anúncios de classificados nos quais alguém procura Susan (Madonna) desesperadamente. Em Nova York, Susan é seguida por Roberta, que acaba vestindo uma jaqueta trocada numa loja pela outra e, aos poucos, agarra-se ao destino dessa personagem: Vê-se às voltas com bandidos, sofre um pequeno acidente que lhe causa amnésia e assume inadvertidamente a identidade de Susan.',
         imdb: 'tt0089017',
         imagem: 'https://image.tmdb.org/t/p/w300/zCYwnbvtuR8wJt6MejUvolSuCow.jpg'
-    }, 
+    },
     {
         titulo: 'O Pintassilgo',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Theodore Decker sobreviveu a um atentato terrorista em uma galeria de arte, mas perdeu sua mãe no local. Vivendo em Las Vegas, ele acaba ingressando em uma carreira perigosa e à margem da lei: a falsificação de obras.',
         imdb: 'tt3864056',
         imagem: 'https://image.tmdb.org/t/p/w300/ilZwaOoNWPbsxAxc0B72IZExq8b.jpg'
     },
     {
         titulo: 'Princesa Mononoke',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Um príncipe infectado por uma doença sabe que irá morrer, a menos que encontre a cura. Sendo a sua última esperança, segue para o leste e, durante o caminho, encontra animais da floresta lutando contra a sua exploração, liderados pela princesa Mononoke.',
         imdb: 'tt0119698',
         imagem: 'https://image.tmdb.org/t/p/w300/7EadOwHmyQgOnlghRiWBygNtnjl.jpg'
     },
     {
         titulo: 'Infinity Pool',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Enquanto ficam em um resort isolado na ilha, James e Em estão desfrutando de umas férias perfeitas de praias intocadas, funcionários excepcionais e tomando sol. Mas guiados pela sedutora e misteriosa Gabi, eles se aventuram fora dos terrenos do resort e se encontram em uma cultura cheia de violência, hedonismo e horror incalculável.',
         imdb: 'tt10365998',
         imagem: 'https://image.tmdb.org/t/p/w300/5DNRr2juXdwtvktwXxwuk9Usk8O.jpg'
     },
     {
         titulo: 'Asagao to Kase-san.',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Yamada é uma tímida colegial do segundo ano que é membro do clube de hortaliças. Kase da classe ao lado dela é uma linda garota que é a ás da equipe de atletismo da escola. Graças às Glórias da Manhã plantadas por Yamada, a distância entre duas pessoas que nunca trocaram palavras encolhe pouco a pouco.',
         imdb: 'tt7456468',
         imagem: 'https://image.tmdb.org/t/p/w300/69Fy0t0QWGk1xPh0f3qcboT2VUs.jpg'
     },
     {
         titulo: 'Um Geek Encantador',
-        descricao: 'Descrição do filme 5',
+        descricao: 'O sonho de Dylan Schoenfield é ser eleita a rainha do baile da escola. Após a bolsa da jovem cair em uma fonte, Josh Rosen a recupera e pede a Dylan que ela seja a estrela de seu documentário sobre popularidade. Ao longo das filmagens, o casal terá de lidar com suas diferenças e algo mais que surgirá entre eles.',
         imdb: 'tt1835977',
         imagem: 'https://image.tmdb.org/t/p/w300/9k9Ky1iCxRLiEjYpgAtoxtVMa92.jpg'
     },
     {
         titulo: 'Violet Evergarden Gaiden: Eternidade e a Boneca de Automemória',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Isabella, a filha da nobre família York, está matriculada em uma escola só para garotas para tornar-se uma dama digna de nobreza. No entanto, ela desistiu do seu futuro, vendo a prestigiosa escola como nada mais do que uma prisão do mundo exterior. Sua família nota sua dificuldade em suas aulas e decide contratar Violet Evergarden para lhe dar aulas pessoais.',
         imdb: 'tt10477558',
         imagem: 'https://image.tmdb.org/t/p/w300/hfUMPxcN9AGgOYRQNsN8tpVMExI.jpg'
     },
     {
         titulo: 'Ernest & Celestine',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Na sociedade tradicional dos ursos, a amizade entre estes animais e os ratos não é algo bem visto. Ernest é um grande urso, palhaço e músico, que vai acolher em sua casa a ratinha Célestine, uma orfã que escapou do mundo subterrâneo dos roedores. Com muita amizade, os dois vão encontrar uma vida confortável, mudando, para sempre, as normas desse mundo.',
         imdb: 'tt1816518',
         imagem: 'https://image.tmdb.org/t/p/w300/3pNUKmcLhix0qEXsOUEVN15risM.jpg'
     },
     {
         titulo: 'A Incrível História de Adaline',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Adaline Bowman nasceu na virada do século XX e levava uma vida normal até sofrer um grave acidente de carro. Desde então, ela milagrosamente parou de envelhecer e acabou se tornando um ser imortal com eterna aparência de 29 anos. Adaline vive uma existência solitária, nunca se permitindo criar laços com ninguém para não ter seu segredo revelado. Mas tudo muda quando ela conhece o jovem e belo Ellis Jones, um filantropo por quem pode valer a pena arriscar sua imortalidade.',
         imdb: 'tt1655441',
         imagem: 'https://image.tmdb.org/t/p/w300/gU84OUm9c4R44Zx8U1YPbCzKqIo.jpg'
     },
     {
         titulo: 'Treinando o Papai',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Joe Kingman, um rico e famoso jogador de futebol americano, e sua equipe tentam ganhar um campeonato. Repentinamente, Joe é surpreendido por uma grande notícia: ele tem uma filha, resultado da última aventura amorosa com sua ex-esposa. Agora ele precisa equilibrar sua vida pessoal e profissional com as necessidades da filha.',
         imdb: 'tt0492956',
         imagem: 'https://image.tmdb.org/t/p/w300/ikQBghrihLICc1E9CjvNkek0MQw.jpg'
     },
     {
         titulo: 'Sexy por Acidente',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Renee (Amy Schumer), uma mulher comum, luta diariamente com sua insegurança. Depois de cair de bicicleta e bater a cabeça, ela de repente acorda acreditando ser a mulher maiz capaz e bonita do mundo. E com isso Renee começa a viver a vida mais confiante e sem medo das falhas.',
         imdb: 'tt6791096',
         imagem: 'https://image.tmdb.org/t/p/w300/zAVxVGlxWFOV9ae4hPh9eau2PDk.jpg'
     },
     {
         titulo: 'O Destino de Júpiter',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Jupiter Jones é a descendente de uma linhagem que a coloca como a próxima ocupante do posto de Rainha do Universo. Sem saber disto, ela segue sua vida pacata trabalhando como empregada doméstica nos Estados Unidos, país onde vive após deixar a Rússia. Um dia, ela recebe a visita de Caine, um ex-militar alterado geneticamente que tem por missão protegê-la a todo custo e levá-la para assumir seu lugar de direito.',
         imdb: 'tt1617661',
         imagem: 'https://image.tmdb.org/t/p/w300/u1p4Fw1nqYOQcRgD63sJmX3ZjgU.jpg'
     },
     {
         titulo: 'Do Que os Homens Gostam',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Uma mulher (Taraji P. Henson) é excluída pelos agentes esportivos masculinos em sua profissão, mas ganha uma vantagem inesperada para contratar a próxima estrela da NBA quando desenvolve a capacidade de ouvir os pensamentos dos homens.',
         imdb: 'tt7634968',
         imagem: 'https://image.tmdb.org/t/p/w300/6UDohjhxprSjsnZfqbbpuwxDPSS.jpg'
     },
     {
         titulo: 'O Fada do Dente',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Derek Thompson (Dwayne Johnson) é um jogador de hóquei frustrado que só faz sucesso por causa de suas violentas faltas que, invariavelmente, arrancam um dente do adversário. Daí vem o apelido, dado pelo fãs, de Fada dos Dentes. Ele, porém, não acredita em lendas e quase conta para a pequena Tess (Destiny Whittlock), filha de sua namorada (Ashley Judd), que esse negócio de fada trocar dente por moeda é uma grande mentira. Como punição por ser um "destruidor de sonhos", Derek é transformado em uma fada do dente.',
         imdb: 'tt0808510',
         imagem: 'https://image.tmdb.org/t/p/w300/hk67XO1Fa1TVU3hmdCMqsnil1Ox.jpg'
     },
     {
         titulo: 'Emicida: AmarElo - É Tudo Pra Ontem',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Nos bastidores do show no Theatro Municipal de São Paulo, o rapper e ativista Emicida celebra o grande legado da cultura negra brasileira.',
         imdb: 'tt13458600',
         imagem: 'https://image.tmdb.org/t/p/w300/Ac23UNPF7aNpxCRGdx9Aqfg4jsU.jpg'
     },
     {
         titulo: 'Let It Shine',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Cyrus é um talentoso jovem compositor que ambiciona fazer carreira no rap e conquistar seu amor, Roxanne. Tímido, não tem coragem de subir num palco, tampouco de declarar seus sentimentos. Ele cede ao amigo Kris uma balada que escreveu para Roxanne e a garota fica encantada com as palavras, sem imaginar que elas vieram na verdade de Cyrus.',
         imdb: 'tt2165933',
         imagem: 'https://image.tmdb.org/t/p/w300/h0tbtqdPPCe7gYSuNppOd066xBL.jpg'
     },
     {
         titulo: 'Re:ZERO -Starting Life in Another World- Laços Congelados',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Durante o evento de pré-triagem Re: Zero kara Hajimeru Isekai Seikatsu: Memory Snow OVA, foi anunciado que a franquia Re: Zero receberá outro OVA. Ele adaptará o romance anterior "Hyouketsu no Kizuna", que foi incluído no primeiro volume de Blu-ray e DVD da série de TV. O episódio girará em torno de Emilia e seu encontro com Pack durante a viagem para a Mansão Roswaal para ser candidata à eleição real.',
         imdb: 'tt11285348',
         imagem: 'https://image.tmdb.org/t/p/w300/4fkROBkc3zHVRbmf65A4V46pznD.jpg'
     },
     {
         titulo: 'SUGA: Road to D-DAY',
-        descricao: 'Descrição do filme 17',
+        descricao: 'SUGA, integrante do grupo de renome mundial, BTS, está trabalhando em seu novo álbum. Ele embarca numa jornada para descobrir sua história através da música, enquanto interage com artistas de várias cidades ao redor do mundo.',
         imdb: 'tt27410896',
         imagem: 'https://image.tmdb.org/t/p/w300/u2fkIhqMEUdoHeKIKym8yJ4W3p3.jpg'
     },
     {
         titulo: 'Ron Bugado',
-        descricao: 'Descrição do filme 18',
+        descricao: 'A história de Barney, um garoto de 11 anos que se torna amigo de um robô que não funciona direito. A dupla vai se aventurar em um mundo onde robôs falam, andam e são melhores amigos dos humanos.',
         imdb: 'tt7504818',
         imagem: 'https://image.tmdb.org/t/p/w300/h8eqqC9KLoN8TUe1EXtIqwX8BpP.jpg'
     },
     {
         titulo: 'A Luz do Demônio',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Irmã Ann é uma inquieta de 25 anos que acredita devotamente que realizar exorcismos é sua vocação. Mas ela está em desacordo com as tradições da instituição: freiras não podem realizar exorcismos, apenas padres. Com o apoio de um mentor, um professor que percebe seu dom especial, ela pode observar sessões de treinamento reais. Seu desejo de provar a si mesma toma um rumo pessoal quando ela conhece um dos pacientes mais perturbados da escola. Durante seus encontros angustiantes, a Irmã Ann fica cara a cara com uma força demoníaca que infesta a escola e tem laços misteriosos com seu próprio passado. É então que o poder do mal e suas próprias habilidades surpreendentes são plenamente realizadas.',
         imdb: 'tt9271672',
         imagem: 'https://image.tmdb.org/t/p/w300/mYa1vhjTYakyNCB65lR8Y7jujBn.jpg'
     },
     {
         titulo: 'Belo Desastre',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Intrigado com a resistência de um calouro da faculdade, um boxeador oferece uma simples aposta: se ele perder sua próxima luta, ele deve permanecer sem sexo por um mês.',
         imdb: 'tt2316548',
         imagem: 'https://image.tmdb.org/t/p/w300/uNIadSJbxQ0p0DtJLUPfVW6TAEu.jpg'
     },
     {
         titulo: 'Vozes e Vultos',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Depois de trocar a cidade grande pelo interior, uma mulher descobre que seu marido e sua casa nova escondem segredos sinistros.',
         imdb: 'tt10962368',
         imagem: 'https://image.tmdb.org/t/p/w300/bsxQvbWiBa13Vsas5Sj0JhR73QF.jpg'
     },
     {
         titulo: 'Águas Rasas',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Nancy (Blake Lively) é uma jovem médica que está tendo de lidar com a recente perda da mãe. Seguindo uma dica sua, ela vai surfar em uma paradisíaca praia isolada, onde acaba sendo atacada por um enorme tubarão. Desesperada e ferida, ela consegue se proteger temporariamente em um recife de corais, mas precisa encontrar logo uma maneira de sair da água.',
         imdb: 'tt4052882',
         imagem: 'https://image.tmdb.org/t/p/w300/eZxPtVGK4oix9BYCnD4EDKjKUnk.jpg'
     },
     {
         titulo: 'Um Contratempo',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Após acordar ao lado de sua amante assassinada em um quarto de hotel, um empresário contrata uma advogada para descobrir como ele acabou sendo suspeito de um homicídio.',
         imdb: 'tt4857264',
         imagem: 'https://image.tmdb.org/t/p/w300/pOnbhr6DbPgKjvcNexbRdmR37De.jpg'
     },
     {
         titulo: 'Labirinto: A Magia do Tempo',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Frustrada por ter de cuidar do irmão caçula enquanto seus pais estão fora, a adolescente Sarah sonha em se livrar da criança, que não para de chorar. Atendendo seu pedido, o Rei dos Duendes, personagem de um dos livros de Sarah, ganha vida e sequestra o bebê. Arrependida, a menina terá de enfrentar um labirinto e resgatar o irmão antes da meia-noite para evitar que ele seja transformado em um duende.',
         imdb: 'tt0091369',
         imagem: 'https://image.tmdb.org/t/p/w300/yMybltHkdlQOuvhF3lJ7MSMRgVk.jpg'
     },
     {
         titulo: 'Mais que Amigos',
-        descricao: 'Descrição do filme 1',
+        descricao: 'A primeira comédia romântica de um grande estúdio sobre dois homens gays talvez, possivelmente, provavelmente, tropeçando em direção ao amor. Pode ser. Ambos estão muito ocupados.',
         imdb: 'tt9731598',
         imagem: 'https://image.tmdb.org/t/p/w300/fDwxAM6z1Igkwv7b4qobwf46xdM.jpg'
     },
     {
         titulo: 'A Roleta da Morte',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Sete pessoas acordam sequestradas em uma mansão para fazerem parte de um jogo mortal. À medida que o relógio avança, para sobreviver, os sete competidores devem escolher um morrerá e o escolhido terá que concordar. Em 60 minutos, os maiores segredos virão à tona e eles descobrirão que estão todos unidos por um passado sombrio.',
         imdb: 'tt21087452',
         imagem: 'https://image.tmdb.org/t/p/w300/yDziA0OTfZq19IBlQ6EUemraSfY.jpg'
     },
     {
         titulo: 'A Tr3s',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Sexualmente desajeitada, Stacy Johnson decide tomar as rédeas de sua vida, cancelar seu ex e vencer seu medo de fazer um ménage com seu novo namorado e uma desconhecida misteriosa. O que poderia dar errado?',
         imdb: 'tt19845038',
         imagem: 'https://image.tmdb.org/t/p/w300/qCIbW6ocszh1URnIS6ikw1BQCjV.jpg'
     },
@@ -2806,121 +2809,121 @@ var filmes = [
     },
     {
         titulo: 'Guia de Viagem para o Amor',
-        descricao: 'Descrição do filme 5',
+        descricao: 'No Vietnã a trabalho, uma agente de viagens americana conhece um guia de turismo charmoso que mostra a ela o lado bom de uma vida de aventuras.',
         imdb: 'tt20115096',
         imagem: 'https://image.tmdb.org/t/p/w300/2nhTfuDkks0MZgx0gncPvz1L59p.jpg'
     },
     {
         titulo: 'Air: A História Por Trás do Logo',
-        descricao: 'Descrição do filme 6',
+        descricao: 'A história do esforço da Nike para contratar o astro do basquete em ascensão Michael Jordan para sua empresa de calçados em meados da década de 1980, um endosso que parecia impossível na época, mas que, graças ao vendedor de tênis independente Sonny Vaccarro, se tornaria o relacionamento mais significativo entre uma marca atlética e um atleta de todos os tempos.',
         imdb: 'tt16419074',
         imagem: 'https://image.tmdb.org/t/p/w300/8OGQCOp6BxwvekhZBQCzVd77Y6l.jpg'
     },
     {
         titulo: 'Asterix e Obelix no Reino do Meio',
-        descricao: 'Descrição do filme 8',
+        descricao: 'A única filha do imperador chinês Han Xuandi, escapa de um príncipe rigoroso e procura ajuda dos gauleses e dos dois bravos guerreiros Asterix e Obelix.',
         imdb: 'tt11210390',
         imagem: 'https://image.tmdb.org/t/p/w300/cc04u9rMTbT3SIZUTEbDp4OmcQy.jpg'
     },
     {
         titulo: 'Sombras de um Crime',
-        descricao: 'Descrição do filme 9',
+        descricao: 'O detetive Phillip Marlowe se envolve em uma investigação com uma família rica em Bay City, Califórnia, depois que uma mulher misteriosa o contrata para encontrar seu ex-amante.',
         imdb: 'tt6722802',
         imagem: 'https://image.tmdb.org/t/p/w300/vRSbYibtGcEYBFfCAkkvSCF9eES.jpg'
     },
     {
         titulo: 'Os Japão',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Quando o Imperador do Japão morre sem deixar descendentes, a busca do herdeiro do império leva surpreendentemente até Sevilha.',
         imdb: 'tt7858496',
         imagem: 'https://image.tmdb.org/t/p/w300/sBiLI4x3fpNCpGAjc4Naeh7w3zz.jpg'
     },
     {
         titulo: 'Lendas da Guerra',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Em tempos de guerra, o traidor Dou Zhun estava no poder e usou veneno venenoso para domesticar os curandeiros. Yao Ren 19 escapou após um julgamento do corpo e escapou por acaso. Por acaso, ela foi resgatada pela garota Cicada Clothing e batizada de Yizhibu. Os dois ficaram cada vez mais tristes. Do outro lado, Dou Jun mandou alguém perseguir 19, os aldeões foram mortos inocentemente, cigarras caíram do penhasco, um pedaço de pano foi pego e a memória foi adulterada ... Três anos depois, foi um grande desastre Cicada recomendado para assassinar Dou Jun, reunir-se com um pedaço de pano que perdeu a memória e se tornou Dou Junyi. Cheio de ódio transformado em luto, um lado é o país de origem, o outro lado é o amor, para onde eles deveriam ir no mundo caótico.',
         imdb: 'tt15090814',
         imagem: 'https://image.tmdb.org/t/p/w300/aC0YLhS0K5JbONctAlIZVvxXO0c.jpg'
     },
     {
         titulo: 'Fanfic',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Dois estudantes do ensino médio formam uma conexão intensa enquanto navegam pelos desafios de descobrir e expressar seu verdadeiro eu.',
         imdb: 'tt27612422',
         imagem: 'https://image.tmdb.org/t/p/w300/6qgkVtpVabAzjQaJTgx3Vmqnmyj.jpg'
     },
     {
         titulo: 'Duas Pecadoras e Uma Mula',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Duas prostitutas são expulsas da cidade e encontram um caçador de recompensas ferido que precisa de ajuda. Elas cuidam do homem e decidem ajudá-lo a capturar um fora da lei impiedoso.',
         imdb: 'tt14940240',
         imagem: 'https://image.tmdb.org/t/p/w300/aRaO9OMNfsw03C04NHEgzBVWCiK.jpg'
     },
     {
         titulo: 'A Mãe',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Enquanto foge de assaltantes perigosos, uma assassina sai de seu esconderijo para proteger sua filha que ela deixou no início da vida.',
         imdb: 'tt6968614',
         imagem: 'https://image.tmdb.org/t/p/w300/5OeWHBMifiRPMz6eS23miS5ttED.jpg'
     },
     {
         titulo: 'A Cratera',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Caleb Channing foi criado numa colônia de mineração lunar e está prestes a ser transferido permanentemente para um planeta idílico e distante após a morte do pai. Mas, antes de partir, ele e seus três melhores amigos, Dylan, Borney e Marcus, juntamente com Addison, uma recém-chegada da Terra, querem realizar o último desejo do pai dele. Então eles roubam um rover para viver uma última aventura e partem em uma jornada para explorar uma cratera misteriosa.',
         imdb: 'tt5264838',
         imagem: 'https://image.tmdb.org/t/p/w300/65CXDhp2Y0ro847Lzq9l1iQ9Hn6.jpg'
     },
     {
         titulo: 'O Urso do Pó Branco',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Um grupo excêntrico de policiais, criminosos, turistas e adolescentes se convergem numa floresta da Geórgia, onde um urso negro de 200kg ingeriu uma quantidade impressionante de cocaína e partiu para uma fúria movida a coca por mais golpe... e sangue.',
         imdb: 'tt14209916',
         imagem: 'https://image.tmdb.org/t/p/w300/h2tS3f9s386fitoHjDMvQGm2w8q.jpg'
     },
     {
         titulo: 'Madame X',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Uma mulher casada numa familia rica é comprometida pela morte acidental de um homem que a perseguia romanticamente, e é forçada pela sogra a assumir uma nova identidade para salvar a reputação do marido e do filho pequeno. Ela vagueia pelo mundo, tentando esquecer seu desgosto com a ajuda de álcool e homens desagradáveis, eventualmente retornando para a cidade de sua queda, onde ela mata um chantagista que ameaça expor seu passado. Surpreendentemente, ela é acusada em seu julgamento por assassinato por seu filho agora adulto, que é um defensor público. Na esperança de continuar a proteger seu filho, ela se recusa a dar seu nome verdadeiro e é conhecida na corte como a ré Madame X.',
         imdb: 'tt0060645',
         imagem: 'https://image.tmdb.org/t/p/w300/pF9m0GruyTuC4H4cBROEzEaf42C.jpg'
     },
     {
         titulo: 'Trapaça',
         descricao: 'Descrição do filme 18',
-        imdb: 'tt1800241',
+        imdb: 'Irving Rosenfeld é um grande trapaceiro, que trabalha junto da sócia e amante Sydney Prosser. Os dois são forçados a colaborar com Richie DiMaso, um agente do FBI que infiltra Rosenfeld no mundo da máfia. Ao mesmo tempo, o trio também se envolve na política do país, através do candidato Carmine Polito. Os planos parecem dar certo, até a esposa de Irving, Rosalyn, aparecer e mudar as regras do jogo.',
         imagem: 'https://image.tmdb.org/t/p/w300/hDvBteFNrro6e4UdHBenC0hbDio.jpg'
     },
     {
         titulo: 'Pinóquio por Guillermo Del Toro',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Uma versão mais sombria do clássico conto de fadas infantil, onde um boneco de madeira se transforma em um menino vivo de verdade.',
         imdb: 'tt1488589',
         imagem: 'https://image.tmdb.org/t/p/w300/x3IkO2sW4rSSVluFDz8isr6YDm8.jpg'
     },
     {
         titulo: 'O Segredo de Marrowbone',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Quatro irmãos, devastados com a morte trágica da mãe, decidem se refugiar em uma localidade rural, temendo ser separados pelo serviço social. No entanto, o local esconde um obscuro e perigoso segredo que desafiará a união e sobrevivência dos quatro.',
         imdb: 'tt5886440',
         imagem: 'https://image.tmdb.org/t/p/w300/94Uo1TNBKzA5iBl5zOOrdTuWV9f.jpg'
     },
     {
         titulo: 'Oferenda ao Demônio',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Após o desaparecimento de uma jovem judia, o filho de um agente funerário hassídico volta para casa com sua esposa grávida na esperança de se reconciliar com seu pai. Mal sabem eles que logo abaixo deles no necrotério da família, um antigo mal com planos sinistros para o feto se esconde dentro de um cadáver misterioso.',
         imdb: 'tt13103732',
         imagem: 'https://image.tmdb.org/t/p/w300/lI8sI9pQuJmdYJgp6JuPIPg7Rqx.jpg'
     },
     {
         titulo: 'O Juízo',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Augusto Menezes muda-se com a mulher Tereza e o filho, Marinho, para uma fazenda abandonada, herdada do avô, na esperança de colocar a vida nos trilhos. A propriedade, no entanto, carrega o carma da traição ao escravo Couraça, que busca ao longo dos séculos a vingança contra a família de Augusto.',
         imdb: 'tt5269624',
         imagem: 'https://image.tmdb.org/t/p/w300/zVdOTQ7ioVKhIwEMxILfqTbqzsq.jpg'
     },
     {
         titulo: 'Malcolm X',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Uma homenagem ao controverso ativista negro e líder da luta pela liberação negra. Ele chegou ao fundo do poço durante seu encarceramento nos anos 50, tornou-se um muçulmano negro e, mais tarde, líder da Nação do Islã. Seu assassinato em 1965 deixou um legado de autodeterminação e orgulho racial.',
         imdb: 'tt0104797',
         imagem: 'https://image.tmdb.org/t/p/w300/ttcqfFRLsGxStkTd5YjfMD2uKv0.jpg'
     },
     {
         titulo: 'Rebelião',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Copper Jack Stone propositalmente organiza um assalto a banco, a fim de ser jogado na prisão com o notório Balam chefão russo. Balam é mais do que apenas um criminoso da máfia; ele é um senhor do crime muito astuto e perigoso.',
         imdb: 'tt4642044',
         imagem: 'https://image.tmdb.org/t/p/w300/5Q2pHzDfJ8QlUA2vx2yAXWJkof7.jpg'
     },
     {
         titulo: 'Piedade',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Praia da Saudade, Piedade. O bar Paraíso do Mar é reconhecido por sua deliciosa moqueca de cação e cerveja sempre gelada. O lugar, construído por Humberto Bezerra há mais de 30 anos, hoje é gerido por sua viúva Dona Carminha e pelo filho mais velho, Omar. O cotidiano dessa família será abalado com a chegada de Aurélio, um executivo de São Paulo que irá trazer à tona segredos há muito tempo escondidos e que, inusitadamente, conectam a família de Dona Carminha a Sandro, dono de um cinema pornô do outro lado da cidade.',
         imdb: 'tt6566846',
         imagem: 'https://image.tmdb.org/t/p/w300/rUVrAAXXjGhYflRUtbyqgREABKD.jpg'
     },
@@ -3296,7 +3299,6 @@ var filmes = [
     imdb: 'tt14923260',
     imagem: 'https://image.tmdb.org/t/p/w300/9CbBbgftaC2fQYwHYMfrSXkKML0.jpg'
 },
-
 {
     titulo: 'A Baleia',
     descricao: 'Descrição do filme 16',
@@ -3350,7 +3352,7 @@ var filmes = [
     descricao: 'Descrição do filme 24',
     imdb: 'tt4960748',
     imagem: 'https://image.tmdb.org/t/p/w300/ogb70EGzxqdbH5p8mmWJ5CEYSp3.jpg'
-}, 
+},
 {
     titulo: 'Transformers',
     descricao: 'Descrição do filme 1',

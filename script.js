@@ -2916,7 +2916,7 @@ var filmes = [
     },
     {
         titulo: 'Piedade',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Praia da Saudade, Piedade. O bar Paraíso do Mar é reconhecido por sua deliciosa moqueca de cação e cerveja sempre gelada. O lugar, construído por Humberto Bezerra há mais de 30 anos, hoje é gerido por sua viúva Dona Carminha e pelo filho mais velho, Omar. O cotidiano dessa família será abalado com a chegada de Aurélio, um executivo de São Paulo que irá trazer à tona segredos há muito tempo escondidos e que, inusitadamente, conectam a família de Dona Carminha a Sandro, dono de um cinema pornô do outro lado da cidade.',
         imdb: 'tt6566846',
         imagem: 'https://image.tmdb.org/t/p/w300/rUVrAAXXjGhYflRUtbyqgREABKD.jpg'
     },
