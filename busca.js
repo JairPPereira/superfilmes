@@ -140,133 +140,133 @@ var filmes = [
     },
     {
         titulo: 'Cheia de Graça',
-        descricao: 'Descrição do filme 1',
+        descricao: 'O filme conta a história do Novo Testamento a partir da perspectiva da Virgem Maria, seguindo seus últimos dias de vida, no qual ela se retira para um lugar tranquilo. Mas o apóstolo Pedro chega a ela por respostas e oprimido pela responsabilidade de espalhar a vida de Jesus em meio a um contexto conturbado. Assim, a mãe de Jesus, irá guiá-lo em sua busca por respostas, dando a paz tão necessária.',
         imdb: 'tt4184744',
         imagem: 'https://image.tmdb.org/t/p/w300/7HgcL2MsgXwzOU2OsQRr0jpF3Oa.jpg'
     },
     {
         titulo: 'Dez Minutos Para a Meia-Noite',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Devido a uma forte tempestade, uma veterana apresentadora fica presa em uma estação de rádio. Depois de ser mordida por um morcego, ela passa a aterrorizar os seus colegas de trabalho enquanto lentamente se transforma em uma vampira.',
         imdb: 'tt10369866',
         imagem: 'https://image.tmdb.org/t/p/w300/8jgWWwrlGSHpWZfVkR6MJzXZU74.jpg'
     },
     {
         titulo: 'Duas Bruxas: A Herança Diabólica',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Uma mulher grávida está convencida de que foi amaldiçoada por uma bruxa. Enquanto outra mulher, com impulsos violentos, espera herdar os poderes de sua bisavó. Duas gerações de bruxas e as terríveis consequências para aqueles que cruzam seu caminho.',
         imdb: 'tt10963926',
         imagem: 'https://image.tmdb.org/t/p/w300/roIvnwBdGyiE1Yc8KYA9XZXhOXF.jpg'
     },
     {
         titulo: 'Fé nas Alturas',
-        descricao: 'Descrição do filme 4',
+        descricao: 'O passageiro Doug White segue uma verdadeira história de fé e sobrevivência, numa jornada angustiante para pousar um avião com segurança e salvar a vida de toda sua família, após o piloto da aeronave morrer de forma inesperada durante o voo.',
         imdb: 'tt13929998',
         imagem: 'https://image.tmdb.org/t/p/w300/r6S1YciOhggxTgYQJlZHf4U5KWo.jpg'
     },
     {
         titulo: 'Inu-Oh',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Inu-Oh era uma figura da vida real, um dramaturgo de Sarugaku Noh que foi extremamente popular no século XIV. No entanto, ele é praticamente desconhecido para as pessoas hoje em dia, pois poucos documentos sobre sua vida sobreviveram. Agora, cerca de 600 anos depois, este projeto de Inu-Oh retrata a irmandade entre o lendário Inu-Oh, que desapareceu da história, e um certo tocador de Biwa. Além de tudo, o filme é cheio de cenas de música e dança.',
         imdb: 'tt10540510',
         imagem: 'https://image.tmdb.org/t/p/w300/96mbrDL8CiCJSmNH6Fd1BP6IFhj.jpg'
     },
     {
         titulo: 'Já Era Hora',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Nesta comédia dramática, um homem que trabalha demais e vive apressado começa a pular de ano em ano sem perceber. Agora, ele só quer que o tempo passe mais devagar.',
         imdb: 'tt15654800',
         imagem: 'https://image.tmdb.org/t/p/w300/a8Sg7wHxquACYe4IIKyH0rORMp9.jpg'
     },
     {
         titulo: 'Jack Walker, Um Herói em Ação',
-        descricao: 'Descrição do filme 7',
+        descricao: 'GJack Walker, o maior astro de cinema de ação da Alemanha, está retornando em uma comédia de baixo orçamento, mas o elenco e a equipe não fazem ideia de que a produção foi tomada por criminosos de verdade.',
         imdb: 'tt8474040',
         imagem: 'https://image.tmdb.org/t/p/w300/4pru9cSmnHDGFio5BX9n2j2cCVb.jpg'
     },
     {
         titulo: 'Mansão Mal-Assombrada',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Uma mãe solteira chamada Gabbie contrata um guia turístico, um médium, um padre e um historiador para ajudar a exorcizar sua mansão recém-comprada; depois de descobrir que é habitado por fantasmas.',
         imdb: 'tt1695843',
         imagem: 'https://image.tmdb.org/t/p/w300/3puybXuYPlZPRplIVSrExZnWibb.jpg'
     },
     {
         titulo: 'Nada Será Como Antes',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Rodrigo é um adolescente solitário, extremamente dependente de sua mãe. Mas tudo muda quando ela arranja um novo namorado, que vai morar com eles nos arredores da Cidade do México. Rodrigo precisa decidir se aceita o seu novo padrasto ou se luta pela atenção da mãe, mesmo que isso custe a felicidade da pessoa que mais ama.',
         imdb: 'tt11394288',
         imagem: 'https://image.tmdb.org/t/p/w300/rROrBVkYyVFKwzZqOjNXLKspV96.jpg'
     },
     {
         titulo: 'Monster High 2',
-        descricao: 'Descrição do filme 10',
+        descricao: 'O filme segue Clawdeen Wolf (Miia Harris), Draculaura (Naya Damasen) e Frankie Stein (Ceci Balagot) em seu segundo ano em Monster High. O poder das três amigas é posto à prova enquanto elas enfrentam desafios em um novo ano: novos alunos, novos poderes, amizades em evolução e uma ameaça ainda maior que pode não apenas romper a amizade, mas mudar o mundo para sempre. O filme também apresentará a nova personagem Toralei (Salena Qureshi), uma mulher-gato mal-humorada, que retorna após um ano no exterior em Scaris, França.',
         imdb: 'tt23026954',
         imagem: 'https://image.tmdb.org/t/p/w300/mClrCMfGpOqTSiuCTSK67WZ92x5.jpg'
     },
     {
         titulo: 'Não Durma',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Shawn e Zach são dois jovens amantes que se mudam para uma nova casa. À medida em que estranhos eventos começam a ocorrer, Zach relembra de episódios da sua infância que podem ter sido causados por uma possessão demoníaca.',
         imdb: 'tt4329806',
         imagem: 'https://image.tmdb.org/t/p/w300/kIZGBjlAY2lvpUBPnUCtPLVu51X.jpg'
     },
     {
         titulo: 'O Faixa Preta',
-        descricao: 'Descrição do filme 12',
+        descricao: 'As batalhas de Fernando Tererê dentro dos tatames, com a conquista de grandes competições, e também fora do esporte, onde se envolveu com drogas e apresentou outros problemas.',
         imdb: 'tt23651588',
         imagem: 'https://image.tmdb.org/t/p/w300/tdXSgI3jxRbZOoBWxvpnMjkRfBV.jpg'
     },
     {
         titulo: 'No Limite do Mal',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Dois adolescentes estão desaparecidos após participarem de uma festa na floresta. O capitão Giorgio Rio, pai de um dos adolescentes, junto ao tenente Fabio Meda, começa uma investigação implacável que vai trazer inesperadas revelações.',
         imdb: 'tt13982526',
         imagem: 'https://image.tmdb.org/t/p/w300/kiiRWx1I6HpWt16osBQhNZ2LCct.jpg'
     },
     {
         titulo: 'O Dia que Mudou o Mundo',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Berlinale 2021. Nesta versão diferente de uma história de 11 de setembro, Asli e Saeed são um jovem casal pronto para começar suas vidas juntos como imigrantes na Alemanha. O futuro deles parece brilhante, mas ele toma uma decisão que mudará o mundo para sempre. Baseado em uma história verídica.',
         imdb: 'tt9178020',
         imagem: 'https://image.tmdb.org/t/p/w300/n1Uw2cMlQr9oz6sbekuEcCs4e9U.jpg'
     },
     {
         titulo: 'Contágio',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Pouco depois de voltar de uma viagem de negócios, Beth Emhoff morre de uma suposta gripe. Enquanto a epidemia mortal se espalha, os médicos precisam identificar o vírus para conseguir combatê-lo e acabar com o pânico da população.',
         imdb: 'tt1598778',
         imagem: 'https://image.tmdb.org/t/p/w300/vKCC5qNMJAdJwOKZoVSAzGJRO2x.jpg'
     },
     {
         titulo: 'Número 23',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Um homem encontra um livro obscuro sobre o número 23 e inicia uma jornada sombria. À medida que ele se torna cada vez mais obcecado com o conteúdo, ele se convence de que o livro é baseado em sua vida. Para o seu desespero, ele descobre ainda que graves consequências estão armazenadas para o principal personagem da obra.',
         imdb: 'tt0481369',
         imagem: 'https://image.tmdb.org/t/p/w300/fQ0mtie1RvN6lvSTS8rh0SXKanR.jpg'
     },
     {
         titulo: 'Não Fale o Mal',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Após conhecerem uma família holandesa durante suas férias na Tosca, uma família dinamarquesa recebe o convite de passar o fim de semana na casa de seus novos amigos. Mas não demora muito para que mal-entendidos revelem que a família holandesa não é quem diziam ser.',
         imdb: 'tt14253846',
         imagem: 'https://image.tmdb.org/t/p/w300/vCBC2DX5jQjPpVe9oqeCa19l1Fo.jpg'
     },
     {
         titulo: 'A Elefanta do Mágico',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Um garoto aceita o desafio proposto por um rei: realizar três tarefas impossíveis para ganhar uma elefanta mágica e ter a chance de ir atrás de seu destino.',
         imdb: 'tt2560092',
         imagem: 'https://image.tmdb.org/t/p/w300/g7weieVLynnkcFqOWA5WAmjffNB.jpg'
     },
     {
         titulo: 'A Maldição de Villisca',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Na noite de junho de 1912, oito pessoas foram mortas a machadadas na pequena cidade de Villisca. Mais de um século depois, três amigos obcecados por histórias de fantasmas visitam a casa à procura de respostas.',
         imdb: 'tt3320500',
         imagem: 'https://image.tmdb.org/t/p/w300/zqWyPODcqBGvw6FOoCWtJt6bP8T.jpg'
     },
     {
         titulo: 'Ah, Belinda',
-        descricao: 'Descrição do filme 20',
+        descricao: 'A vida perfeita de uma jovem atriz muda completamente quando ela aceita um papel em um comercial e acaba indo parar no mundo da personagem.',
         imdb: 'tt20567314',
         imagem: 'https://image.tmdb.org/t/p/w300/6MI2WO2ThKMz8LSdpxBvaIAt8FE.jpg'
     },
     {
         titulo: 'O Jogo da Invocação',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Duas crianças brincam com seu sádico primo mais velho e despertam uma entidade cruel conhecida como O Skarrow.',
         imdb: 'tt10092698',
         imagem: 'https://image.tmdb.org/t/p/w300/v2DQ58q9XMruPQSUqifMCzvl586.jpg'
     },
     {
         titulo: 'As Múmias e o Anel Perdido',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Acompanha as divertidas aventuras de três múmias egípcias que vivem numa cidade secreta subterrânea sob as pirâmides do antigo Egito – uma princesa, um piloto de corrida de bigas e o irmão mais novo dele, inseparável de seu bebê crocodilo de estimação. Após uma série de infelizes acasos, o trio de múmias e seu pet embarcam numa hilária e agitada jornada na Londres atual à procura de um anel ancestral, de propriedade da Família Real das Múmias, roubado pelo ambicioso arqueólogo Lorde Carnaby.',
         imdb: 'tt23177868',
         imagem: 'https://image.tmdb.org/t/p/w300/olT9HuXfnMVFqDGjLhllKe5EuQP.jpg'
     },
