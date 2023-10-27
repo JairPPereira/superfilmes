@@ -1,145 +1,133 @@
 var filmes = [
     {
         titulo: 'Um Broto Legal',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Um Broto Legal conta a história da primeira cantora de rock nacional, Celly Campello. Ela, junto ao seu irmão Tony Campello, tem sua história e trajetória contada, desde Taubaté até outros estados do Brasil.',
         imdb: 'tt21220538',
         imagem: 'https://image.tmdb.org/t/p/w300/jgKAAhnJ63nhrGrjrWl7cv7QFG7.jpg'
     },
     {
         titulo: 'The Island',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Quando seu irmão é morto, o oficial da polícia de Los Angeles Mark deixa a cidade para retornar à ilha em que cresceu. Buscando respostas e, finalmente, vingança, ele logo se vê em uma batalha sangrenta com o magnata corrupto que assumiu a ilha paradisíaca.',
         imdb: 'tt21853596',
         imagem: 'https://image.tmdb.org/t/p/w300/ajb1rMiorchfRemYHZCkbV9DBg6.jpg'
     },
     {
         titulo: 'The Hill',
-        descricao: 'Descrição do filme 3',
+        descricao: '',
         imdb: 'tt8051894',
         imagem: 'https://image.tmdb.org/t/p/w300/gKh28PVUqt1vY2oAdFlauXkDacW.jpg'
     },
     {
         titulo: 'Stalker: O Jogo da Morte',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Mia tem um emprego chato, mas seu trabalho paralelo como influenciadora digital está ganhando seguidores e chamando atração. Ela está se tornando uma estrela, apesar de suas postagens serem encenadas e fakes. Quando Mia se torna alvo de um seguidor sádico, ela tem de resolver uma série de jogos on-line para evitar que as pessoas com as quais ela se preocupa sejam mortas.',
         imdb: 'tt7211648',
         imagem: 'https://image.tmdb.org/t/p/w300/h4VrgOmIOHPHygSAHMMThEKmCO4.jpg'
     },
     {
         titulo: 'Sob o Domínio do Mal',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Sara acorda em uma casa que ela não reconhece, junto de um marido que ela não se recorda. À medida em que ela tenta juntar as peças do quebra-cabeça de seu passado, ela se sente cada vez mais ameaçada pelos habitantes do local.',
         imdb: 'tt10703978',
         imagem: 'https://image.tmdb.org/t/p/w300/4ZzZezjTeS5NtZBpTyqMIAYl3ik.jpg'
     },
     {
         titulo: 'Snag',
-        descricao: 'Descrição do filme 6',
+        descricao: 'A existência silenciosa de um lobo solitário australiano é destruída quando ele descobre que a mulher que amou e pensou estar morta está viva e é mantida em cativeiro por gângsteres implacáveis. Agora, para enfrentar esta perigosa organização criminosa, ele deve procurar aliados e invadir um mundo de violência para resgatar o amor de sua vida neste violento conto de fadas moderno e realista.',
         imdb: 'tt26082308',
         imagem: 'https://image.tmdb.org/t/p/w300/nhj4Q39qMSk6X5Ly9j9Yqyjrg5A.jpg'
     },
     {
         titulo: 'Slotherhouse',
-        descricao: 'Descrição do filme 7',
+        descricao: '',
         imdb: 'tt15422224',
         imagem: 'https://image.tmdb.org/t/p/w300/cPeZYjtt0B2a1gXVKPC6j1xM7fi.jpg'
     },
     {
         titulo: 'Sem Rastro',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Quando a irmã mais nova de Lisa desaparece repentinamente sem deixar vestígios, ela retorna à sua aldeia natal para procurar a garota desaparecida sozinha. Mas antes que ela possa seguir uma pista real, uma garota morta é encontrada no rio.',
         imdb: 'tt18074198',
         imagem: 'https://image.tmdb.org/t/p/w300/m3ZNSvplELOkVZKPXElMwdapIr4.jpg'
     },
     {
         titulo: 'Resgate em 12 Horas',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Durante uma viagem em família, a filha de uma agente do FBI é sequestrada por uma organização criminosa especializada em traficar órgãos de crianças. Agora ela precisará se juntar a um criminoso e correr contra o tempo para salvar a garota.',
         imdb: 'tt14012572',
         imagem: 'https://image.tmdb.org/t/p/w300/m19SDzdaCwcO6p7S5q0YP335x1Z.jpg'
     },
     {
         titulo: 'Raiva',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Alan e seu pai fogem da dolorosa perda de sua mãe. Enquanto se escondem em um alojamento isolado, Alan descobre mensagens escondidas de seu tio que o levam a acreditar que seu pai é um lobisomem. Sua vida e as vidas de seus vizinhos estão em perigo. Alan decide fazer algo de uma vez por todas. Destruir a besta não parece um plano exagerado na realidade violenta em que ele vive todos os dias.',
         imdb: 'tt28492037',
         imagem: 'https://image.tmdb.org/t/p/w300/1xIvYJ6HcmD5lcXlaOhChPxLLcY.jpg'
     },
     {
         titulo: 'Pornhub: Sexo Bilionário',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Com depoimentos de artistas, defensores de sobreviventes de exploração sexual e ex-funcionários, este documentário mostra em detalhes os sucessos e escândalos do site Pornhub.',
         imdb: 'tt26739529',
         imagem: 'https://image.tmdb.org/t/p/w300/ae9ooWLtS4LEsSBCUvaFkrrxqiH.jpg'
     },
     {
         titulo: 'Outra Alma',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Um casal em fuga luta para salvar sua filha da possessão por um demônio.',
         imdb: 'tt5165620',
         imagem: 'https://image.tmdb.org/t/p/w300/hFV6FXi8oDOfbXuBKODafOev06K.jpg'
     },
     {
-        titulo: 'Osmar, a Primeira Fatia do Pão de Forma',
-        descricao: 'Descrição do filme 13',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/oW9y28wcG6NApOEikKVRsMewThu.jpg'
-    },
-    {
         titulo: 'Os Peludos',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Poucas pessoas sabem que todas as casas são habitadas por finlandeses. São criaturas peludas que aparecem no mundo humano para cuidar de uma casa e manter a lareira. Finnick é um jovem finlandês, que não parece se importar com sua responsabilidade de fazer da casa um lar. Ele está apenas fazendo brincadeiras com «seu povo» e é por isso que nenhuma das famílias quis ficar muito tempo em sua casa. Tudo muda quando uma nova família chega à sua casa, onde os truques de Finnick não funcionam, e ele conhece Christine, de 13 anos, e eventos inexplicáveis ​​começam a acontecer na cidade. Finnick e Christine, que são tão diferentes, terão que se unir e trabalhar juntos para resolver o mistério dos eventos e salvar a cidade.',
         imdb: 'tt15547806',
         imagem: 'https://image.tmdb.org/t/p/w300/q0poNkSayOtlwRzY6MKHTQcBauq.jpg'
     },
     {
-        titulo: 'Os Aventureiros – A Origem',
-        descricao: 'Descrição do filme 15',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/qKyfHivRX3wRbY4zgN1oFdjqBqH.jpg'
-    },
-    {
         titulo: 'Os Reis da Rua Mulberry: Que Reine o Amor',
-        descricao: 'Descrição do filme 16',
+        descricao: 'E se dois jovens de Kwazulu Natal pudessem derrotar o tirânico senhor do crime local que ameaça suas famílias acreditando que é possível ser um herói de Bollywood? O espirituoso Ticky (Aaqil Hoosen) é como um artista tjara - impetuoso e ousado, com pouco respeito pelas regras. Ele escapa da realidade de sua existência no distrito de Sugarhill dos anos 80 vivendo em um mundo dos sonhos de Bollywood, onde ele é um herói de ação imbatível. Quando o tímido Baboo (Shaan Nathoo) se muda para a vizinhança com seu esnobe pai acadêmico, Ticky pensa que ele é o maior perdedor que já viu - mas logo os dois meninos são ameaçados pela ameaça comum do valentão local e senhor do crime Raja (Neville Pillay).',
         imdb: 'tt13014820',
         imagem: 'https://image.tmdb.org/t/p/w300/3Tr5ziHzI6nEJyXwcyr0z29mA77.jpg'
     },
     {
         titulo: 'O Preço do Prazer',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Qual o seu preço? Uma jovem bela e ambiciosa sonha com uma vida de luxo e se torna uma acompanhante VIP no mundo árabe. Mas logo esse mundo inacessível revelará seu lado mais sombrio e perigoso.',
         imdb: 'tt11871074',
         imagem: 'https://image.tmdb.org/t/p/w300/uvnvE2lwwcFH4Smc4ilz194EdoD.jpg'
     },
     {
         titulo: 'O Preço do Poder',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Renzo Petrucci é um obstinado diretor de uma empresa multinacional de petróleo, que é obrigado a deixar o cargo após acusações de corrupção. Convencido de que foi traído pela mulher que assumiu o seu cargo, ele decide se vingar matando-a e reconquistando o seu lugar na empresa.',
         imdb: 'tt11152422',
         imagem: 'https://image.tmdb.org/t/p/w300/dtDfNAUoCPJVKexcRx2JlT2JAxI.jpg'
     },
     {
         titulo: 'O Motorista de Aplicativo',
-        descricao: 'Descrição do filme 19',
+        descricao: 'O romance de um jovem é ameaçado quando ele se torna amigo de um motorista instável.',
         imdb: 'tt11957450',
         imagem: 'https://image.tmdb.org/t/p/w300/lfcR6c3MPoScJnzqfZCdKfNZVqB.jpg'
     },
     {
         titulo: 'O Lodo',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Para curar uma depressão, Manfredo, funcionário de uma empresa de seguros, procura um psiquiatra, o Dr. Pink. O médico insiste em saber de seu passado, mas há algo que Manfredo não deseja revelar e ele abandona o tratamento. O Dr.Pink passa a persegui-lo e a vida de Manfredo se transforma num verdadeiro inferno.',
         imdb: 'tt11701102',
         imagem: 'https://image.tmdb.org/t/p/w300/rtAbde8LTcD7aMxm1i5gVJnqVH5.jpg'
     },
     {
         titulo: 'As Gêmeas Silenciosas',
-        descricao: 'Descrição do filme 21',
+        descricao: 'June e Jennifer são gêmeas da única família negra de uma pequena cidade do País de Gales. Após uma onda de vandalismo, são condenadas a um notório hospital psiquiátrico, onde enfrentam a decisão de se separarem para sobreviver ou morrerem juntas.',
         imdb: 'tt11052678',
         imagem: 'https://image.tmdb.org/t/p/w300/zPZJuUSjFMvht73XDrvj0HbYWJC.jpg'
     },
     {
         titulo: 'Assombrosas',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Madri, Espanha, 1998. Os muitos recursos e habilidades de Gloria, Paz e Sagrario, três mulheres de meia-idade investigando eventos paranormais, são postos à prova quando seu líder, Padre Pilón, tem um encontro desagradável.',
         imdb: 'tt18315204',
         imagem: 'https://image.tmdb.org/t/p/w300/6Etd8hNlq0VhnrIxPpDmwPGGQrU.jpg'
     },
     {
         titulo: 'Aventura em Legacy Peak',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Um homem sem experiência com crianças, propõe uma viagem para conquistar os corações dos filhos de sua noiva, mas suas férias se transformam numa batalha pela sobrevivência antes mesmo que a família possa começar sua nova vida.',
         imdb: 'tt21104674',
         imagem: 'https://image.tmdb.org/t/p/w300/9tMLvle4KpP210u647x5yQ4bTM3.jpg'
     },
     {
         titulo: 'Casamento em Família',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Um casal precisa definir os próximos passos de seu relacionamento depois que um momento embaraçoso acontece em um casamento de amigos que eles foram. Sem saberem, seus pais estão tendo um caso, uns com os outros, o que vai deixar as coisas ainda mais complicadas quando eles se reúnem para discutir se devem ou não se casarem com suas respectivas famílias.',
         imdb: 'tt20879602',
         imagem: 'https://image.tmdb.org/t/p/w300/1vi88La90aTwEtsRMNqXNwtTXn3.jpg'
     },
