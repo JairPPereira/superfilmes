@@ -3822,139 +3822,139 @@ var filmes = [
 },
 {
     titulo: 'A História do Mundo em 2 Horas',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Neste especial, contaremos 14 milhões de anos de história, através de uma viagem rápida de 120 minutos, desde o início dos tempos até a atualidade, fazendo escalas para explorar os pontos mais marcantes, os momentos históricos e as conexões extraordinárias entre o passado distante e nossa vida cotidiana. Esta é uma nova forma de ver a história do universo, do planeta Terra e da humanidade: o surgimento da vida, os avanços do homem e o crescimento da civilização.',
     imdb: 'tt2086853',
     imagem: 'https://image.tmdb.org/t/p/w300/5eTbZASaBiafbaOhvxUMgVHUDlq.jpg'
 },
 {
     titulo: 'Sem Evidências',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Em 1993, os adolescentes Damien Echols, Jason Baldwin e Jessie Misskelley Jr. foram acusados de assassinar brutalmente três crianças de oito anos. Em um julgamento repleto de polêmicas e incertezas, eles foram condenados. Após uma longa batalha judicial, foram soltos no ano passado. Adaptação do livro "The Devil s Knot: The True Story of the West Memphis Three".',
     imdb: 'tt0804463',
     imagem: 'https://image.tmdb.org/t/p/w300/xtfhSGn6hBE3m47CCmDKLoyf60U.jpg'
 },
 {
     titulo: 'Trabalhando para o Inimigo',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Dennis Nash (Andrew Garfield) perdeu a sua casa por conta da hipoteca e teve que se mudar para um pobre hotel com sua mãe (Laura Dern) e seu filho pequeno . Desesperado para reaver seu lar, ele aceita trabalhar com o imoral agente imobiliário Rick Carver (Michael Shannon), que foi a pessoa responsável pela sua perda. Logo, ele tem que ajudar Carver a expulsar outras pessoas e a desviar dinheiro do governo. Enquanto seus problemas financeiros desaparecem, a consciência de Nash passa a atormentá-lo.',
     imdb: 'tt2891174',
     imagem: 'https://image.tmdb.org/t/p/w300/35JR6OlN2VSt0hX6kvV7FH5nMmx.jpg'
 },
 {
     titulo: 'De Repente 70',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Uma jovem escritora em busca de inspiração acorda magicamente presa no corpo de uma mulher de 70 anos. Ela experimentará pela primeira vez a liberdade de ser quem é sem os medos e expectativas da juventude.',
     imdb: 'tt14330236',
     imagem: 'https://image.tmdb.org/t/p/w300/fvPQQKCTbMRK4Mo6C91nPVcjFeA.jpg'
 },
 {
     titulo: 'Swindle',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Baseado no livro Swindle de Gordon Korman, este filme é sobre um menino chamado Griffin que encontra um valioso cartão de beisebol multimilionário. Depois de vender acidentalmente o cartão com prejuízo de um milhão de dólares, ele pede a ajuda de seu melhor amigo Ben e seus colegas para recuperar o cartão de beisebol.',
     imdb: 'tt2545440',
     imagem: 'https://image.tmdb.org/t/p/w300/gccrJwdNv0roucBpG6Dus0gw4Xb.jpg'
 },
 {
     titulo: 'O Sorriso de Monalisa',
-    descricao: 'Descrição do filme 7',
+    descricao: 'Katharine Watson (Julia Roberts) é uma recém-graduada professora que consegue emprego no conceituado colégio Wellesley, para lecionar aulas de História da Arte. Incomodada com o conservadorismo da sociedade e do próprio colégio em que trabalha, Katharine decide lutar contra estas normas e acaba inspirando suas alunas a enfrentarem os desafios da vida.',
     imdb: 'tt0304415',
     imagem: 'https://image.tmdb.org/t/p/w300/ImjEyKaxAspC5TcUslkeTYveHv.jpg'
 },
 {
     titulo: 'O Delinquente Delicado',
-    descricao: 'Descrição do filme 8',
+    descricao: 'Sidney L. Pythias (Jerry Lewis) é um jovem que trabalha como zelador e é confundido como membro de uma gangue constituída por delinqüentes juvenis, sendo preso por ordem do capitão Riley (Horace McMahon). Seu chefe, Mike Damon (Darren McGavin), um policial honesto, pretende salvá-lo da criminalidade tentando transformá-lo também em um policial. Martha Henshaw (Martha Hyer), uma moça que é a representante da Câmara dos Vereadores e que tem como missão investigar os bairros cheios de criminalidade, considera Sidney uma pessoa muito perigosa. A visão de Martha é muito diferente em relação à visão de Mike, fazendo com que os dois entrem em desacordos sobre qual é a melhor maneira de fazer de Sidney um cidadão comum.',
     imdb: 'tt0050301',
     imagem: 'https://image.tmdb.org/t/p/w300/pDmoKAzRPH6wVE9ovZUmgd7w3I9.jpg'
 },
 {
     titulo: 'As Gatinhas do Sul',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Bell e Belle são duas melhores amigas que mudam-se para Atlanta. Mas, no caminho, elas conhecem um policial bonitão chamado Rhett Butler que as desvia dos planos iniciais.',
     imdb: 'tt0423238',
     imagem: 'https://image.tmdb.org/t/p/w300/7KtUc4RmMEOFA5yq68FRH8OJHGA.jpg'
 },
 {
     titulo: 'John Wick 4: Baba Yaga',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Com o preço por sua cabeça cada vez maior, John Wick leva sua luta contra a alta mesa global enquanto procura os jogadores mais poderosos do submundo, de Nova York a Paris, de Osaka a Berlim.',
     imdb: 'tt10366206',
     imagem: 'https://image.tmdb.org/t/p/w300/rXTqhpkpj6E0YilQ49PK1SSqLhm.jpg'
 },
 {
     titulo: 'Renfield - Dando Sangue pelo Chefe',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Renfield, o sofrido ajudante do chefe mais narcisista da história, Drácula, é forçado a encontrar as vítimas para seu mestre e fazer tudo o que ele lhe pede, qualquer que seja o grau de degradação da ordem recebida. Mas agora, depois de séculos de servidão, Renfield está pronto para descobrir se há vida lá fora, para além da sombra do Príncipe das Trevas. Se pelo menos ele puder descobrir como dar fim à sua dependência dele.',
     imdb: 'tt11358390',
     imagem: 'https://image.tmdb.org/t/p/w300/nnryxxmgS17IBKvu23Hpg1mimZU.jpg'
 },
 {
     titulo: 'Batman: A Perdição Chegou a Gotham',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Durante uma longa viagem de descoberta, na qual adotou três órfãos pelo mundo, Bruce Wayne encontra o Pinguim no ártico e descobre que um culto planeja a destruição de Gotham City. Agora, ele precisa voltar para casa e vestir o manto do Batman para proteger a cidade onde seus pais foram assassinados por um louco vinte anos antes. Mas será que o herói que acredita na ciência conseguirá manter sua sanidade quando descobrir que não está enfrentando criminosos ou loucos, mas magia antiga, demônios de fogo e deuses antigos interdimensionais?',
     imdb: 'tt24223450',
     imagem: 'https://image.tmdb.org/t/p/w300/ejHdsATVNWDIhuTgIKXmenFqGTc.jpg'
 },
 {
     titulo: 'Inside',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Em seu território, ninguém chega aos pés de Nemo (Willem Dafoe). O ladrão profissional se especializou em roubo de arte e é considerado um verdadeiro gênio na indústria. Um dia, outro golpe é iminente: junto com seus cúmplices, ele quer roubar um renomado colecionador de suas obras. Mas assim que ele invade a luxuosa cobertura, algo completamente inesperado acontece: o sofisticado sistema de segurança do apartamento bloqueia todas as saídas e entradas e depois desmorona. Nemo agora está sozinho e, acima de tudo, preso.',
     imdb: 'tt14781036',
     imagem: 'https://image.tmdb.org/t/p/w300/dXsiWJWwGwYwOQ6DfYFt5pPBMwT.jpg'
 },
 {
     titulo: 'Kill Boksoon',
-    descricao: 'Descrição do filme 14',
+    descricao: 'No trabalho, assassina renomada. Em casa, mãe solo de uma adolescente. Para ela, o desafio não é matar. Duro mesmo é a maternidade...',
     imdb: 'tt16900880',
     imagem: 'https://image.tmdb.org/t/p/w300/2eRQ55y4OWXZjmdwfBmyMEPTdyy.jpg'
 },
 {
     titulo: 'Meu Amigo Lutcha',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Durante uma visita à família no México, o adolescente Alex faz um amigo improvável: um chupacabra que vive escondido no galpão de seu avô. Para salvar a criatura, Alex e seus primos embarcam em uma grande aventura.',
     imdb: 'tt14923260',
     imagem: 'https://image.tmdb.org/t/p/w300/9CbBbgftaC2fQYwHYMfrSXkKML0.jpg'
 },
 {
     titulo: 'A Baleia',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Um professor de inglês recluso que sofre de obesidade severa tenta se reconectar com sua filha adolescente distante para uma última chance de redenção.',
     imdb: 'tt13833688',
     imagem: 'https://image.tmdb.org/t/p/w300/4hhd8JuwsHTvpqW9wW9oebsHVu0.jpg'
 },
 {
     titulo: 'O Exorcista do Papa',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Inspirado nos arquivos reais do Padre Gabriele Amorth, Chefe Exorcista do Vaticano, o padre que realizou mais de 100.000 exorcismos em sua vida, faleceu em 2016 aos 91 anos. Amorth escreveu duas memórias – An Exorcist Tells His Story e An Exorcist: More Stories – e detalhou suas experiências lutando contra Satanás e demônios que agarraram as pessoas em seu mal. O filme, sendo o retrato da figura da vida real, acompanha Amorth (Russell Crowe) enquanto ele investiga a terrível possessão de um menino e acaba descobrindo uma conspiração secular que o Vaticano tentou desesperadamente manter no esquecimento.',
     imdb: 'tt13375076',
     imagem: 'https://image.tmdb.org/t/p/w300/rBDAkmDdRv1bG996JPPNq0cMOVG.jpg'
 },
 {
     titulo: 'Tetris',
-    descricao: 'Descrição do filme 18',
+    descricao: 'Em 1988, o vendedor americano de vídeo games Henk Rogers descobre o Tetris. Quando ele se propõe a levar o jogo para o mundo e se depara com uma perigosa teia de mentiras e corrupção por trás da Cortina de Ferro.',
     imdb: 'tt12758060',
     imagem: 'https://image.tmdb.org/t/p/w300/4F2QwCOYHJJjecSvdOjStuVLkpu.jpg'
 },
 {
     titulo: 'Dungeons & Dragons: Honra Entre Rebeldes',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Em um mundo repleto de dragões, elfos, anões, orcs e outras criaturas fantásticas, sobreviver é sempre um grande desafio. Raven Hightower é um humano que se arrisca entre os lugares mais perigosos e misteriosos desse universo, sempre com a ajuda de outros aventureiros que, assim como ele, estão dispostos a combater o mal e a derrotar as mais terríveis criaturas que surgem em seus caminhos.',
     imdb: 'tt2906216',
     imagem: 'https://image.tmdb.org/t/p/w300/85ivt7lJm3J5Mqybdh59m09eksV.jpg'
 },
 {
     titulo: 'Um Pacto de Amizade',
-    descricao: 'Descrição do filme 20',
+    descricao: 'É época do baile de formatura e o último ano do ensino médio para Mandy. Ela e seu melhor amigo e companheiro, Ben, estão cercados por convites para o baile. Mandy está focada em entrar em Harvard, a universidade dos seus sonhos, mas quando ela começa a dar aulas particulares ao astro do basquete Graham, ela precisa reavaliar se a universidade dos seus sonhos vale o custo de tudo em que ela acredita.',
     imdb: 'tt17321230',
     imagem: 'https://image.tmdb.org/t/p/w300/f1NEx4lohw47WSuNqQife0GxWLv.jpg'
 },
 {
     titulo: 'Corrosão',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Uma jornalista acaba de sofrer uma perda muito dolorosa: seu bebê morre no parto. E além de viver o luto de um fato tão trágico, e recuperar sua própria saúde, ela ainda precisará administrar outras ameaças. A mulher começa a ter visões assustadoras e se sentir sob ataque.',
     imdb: 'tt27403906',
     imagem: 'https://image.tmdb.org/t/p/w300/9WIHpY4qVYVYyRq220K4LVQwpjt.jpg'
 },
 {
     titulo: 'O Último Reino: Sete Reis Devem Morrer',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Após a morte do rei Eduardo, Uhtred de Bebbanburg e seus companheiros se aventuram por um reino dividido na esperança de finalmente unir a Inglaterra.',
     imdb: 'tt15767808',
     imagem: 'https://image.tmdb.org/t/p/w300/xUvSeFhdsJbKFOaHnB9TeTZpJKs.jpg'
 },
 {
     titulo: 'Marcel, a Concha de Sapatos',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Marcel é uma adorável concha de um centímetro de altura que leva uma existência colorida com sua avó Connie e seu fiapo de estimação, Alan. Antes parte de uma extensa comunidade de conchas, eles agora vivem sozinhos como os únicos sobreviventes de uma misteriosa tragédia. Mas quando um documentarista os descobre em meio à confusão de seu Airbnb, o curta-metragem que ele publica online traz a Marcel milhões de fãs apaixonados, bem como perigos sem precedentes e uma nova esperança de encontrar sua família há muito perdida.',
     imdb: 'tt15339456',
     imagem: 'https://image.tmdb.org/t/p/w300/8hIj0OJI6NDMqOQTt9miZlAVIQP.jpg'
 },
 {
     titulo: 'Till: A Busca por Justiça',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Em 1955, depois de Emmett Till ser assassinado num linchamento brutal, a sua mãe promete expor o racismo por detrás do ataque.',
     imdb: 'tt4960748',
     imagem: 'https://image.tmdb.org/t/p/w300/ogb70EGzxqdbH5p8mmWJ5CEYSp3.jpg'
 },
