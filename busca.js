@@ -8,139 +8,127 @@ function searchMovies(event) {
 var filmes = [
     {
         titulo: 'Five Nights at Freddys - O Pesadelo Sem Fim',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Enquanto passa sua primeira noite no trabalho, um problemático guarda de segurança da Pizzaria Freddy Fazbear logo percebe que não será uma tarefa fácil sobreviver ao seu primeiro turno.',
         imdb: 'tt4589218',
         imagem: 'https://image.tmdb.org/t/p/w300/1yUbmAiw2cUSpyXNIaiST7JzCtG.jpg'
     },
     {
         titulo: 'Desvio de Conduta',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Quando um homem desesperado encontra um saco de dinheiro perdido nas margens da Ilha do Príncipe Eduardo, sua decisão de mantê-lo em segredo transforma sua pitoresca vila de pescadores em uma cena de crime crescente.',
         imdb: 'tt5915444',
         imagem: 'https://image.tmdb.org/t/p/w300/1dJuX3YlWxfK54r6GbTaxoEwgGA.jpg'
     },
     {
         titulo: 'Dignitate',
-        descricao: 'Descrição do filme 3',
+        descricao: '',
         imdb: 'tt10816420',
         imagem: 'https://image.tmdb.org/t/p/w300/gatofk9nify9JpBBURFbjLqpIpV.jpg'
     },
     {
         titulo: 'Do Outro Lado da Fronteira',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Depois de ter o coração partido pelo seu primeiro amor, um jovem cantor decide se juntar ao seu tio, deixar a Califórnia e embarcar numa épica jornada rumo ao México, onde ele irá se reconectar com suas raízes e descobrirá mais sobre si mesmo.',
         imdb: 'tt4072296',
         imagem: 'https://image.tmdb.org/t/p/w300/1z8PDr9hiM4LHmOSU26fibuSer5.jpg'
     },
     {
         titulo: 'É Culpa da Alegria',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Charlie sofre de cataplexia, um distúrbio neurológico que causa paralisação súbita quando ele sente alguma emoção forte - em particular, felicidade. Ele desenvolve várias técnicas para se proteger de prazeres e alegrias, mas elas são testadas quando ele conhece a bela e vivaz Francesca.',
         imdb: 'tt3009772',
         imagem: 'https://image.tmdb.org/t/p/w300/sp2JMBYeOAPf38zAGSF0cNyEhtW.jpg'
     },
     {
         titulo: 'Encontrando o Caminho',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Alaska é uma adolescente passando por uma fase rebelde e problemática, brigando com seu pai e seus colegas de escola. Ao completar 18 anos, ela perde o controle e acaba sendo detida e obrigada a cumprir serviço comunitário em um asilo, onde é encarregada de cuidar da hostil Senhora Foster. Alaska enfrenta a pressão da família e seus próprios demônios do passado na tentativa de cumprir a pena e evitar a prisão. Durante esse processo de aprendizado e autoconhecimento, ela recupera sua fé, se reconecta com Deus e busca um novo caminho.',
         imdb: 'tt7838654',
         imagem: 'https://image.tmdb.org/t/p/w300/fTfac1Oy6gm0jWEsxzH94fMRi8l.jpg'
     },
     {
         titulo: 'Era Uma Vez em Londres',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Durante a década de 1930, as ruas de Londres nunca foram tão perigosas. Foi neste período que começou o reinado de três décadas de Billy Hill e Jack Comer, dois dos maiores gangsteres do país, que pavimentaram o caminho para que os irmãos Kray exercessem o seu domínio sobre a capital inglesa.',
         imdb: 'tt4444956',
         imagem: 'https://image.tmdb.org/t/p/w300/8SSEYwqCYNJDjhRbXR93DNEEKWX.jpg'
     },
     {
         titulo: 'Everything Is Both',
-        descricao: 'Descrição do filme 8',
+        descricao: '',
         imdb: 'tt14783444',
         imagem: 'https://image.tmdb.org/t/p/w300/7U4nNHX1PQjSto9XMIAucv83TmF.jpg'
     },
     {
         titulo: 'Family History Mysteries: Buried Past',
-        descricao: 'Descrição do filme 9',
+        descricao: '',
         imdb: 'tt23870962',
         imagem: 'https://image.tmdb.org/t/p/w300/tNLKLnpu5byyekxPsV0Lbpr1GTG.jpg'
     },
     {
         titulo: 'Guerreiro Virtual',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Após a morte de sua esposa, o guarda-costas profissional Lung Wei foi para o exterior para encontrar médicos para sua filha, mas em vez disso encontrou um novo emprego como testador de realidade virtual.',
         imdb: 'tt18933046',
         imagem: 'https://image.tmdb.org/t/p/w300/5ITRvcMqKUETNskzw2mcU6C9k6d.jpg'
     },
     {
         titulo: 'Histórias de Meninas',
-        descricao: 'Descrição do filme 11',
+        descricao: 'No início dos anos 1990, em Zaragoza, na Espanha, Celia é uma menina de 11 anos que vive com sua mãe viúva e estuda em uma escola religiosa. Até que Brisa, uma menina vinda de Barcelona, chega à escola e abre as portas da adolescência para Celia. Juntas, elas viverão o despertar sexual, questionarão a morte e descobrirão que a educação feminina é cheia de tabus e contradições.',
         imdb: 'tt10434142',
         imagem: 'https://image.tmdb.org/t/p/w300/aGeud4Kor6RKhx2jXWyDo7Dyryy.jpg'
     },
     {
         titulo: 'Hudson – Os Altos e Baixos da Vida',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Em uma jornada para espalhar as cinzas de sua mãe, um homem recluso e tímido encontra amizades inesperadas e uma chance de começar a viver sua vida.',
         imdb: 'tt7391126',
         imagem: 'https://image.tmdb.org/t/p/w300/50srGK3wzqcKz7po5OQ7fn43CLf.jpg'
     },
     {
-        titulo: 'Impuros: O Filme',
-        descricao: 'Descrição do filme 13',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/9UFRFJ8PoXdy1OA6XW0i1hGjyFF.jpg'
-    },
-    {
         titulo: '纹身',
-        descricao: 'Descrição do filme 14',
+        descricao: '',
         imdb: 'tt8619856',
         imagem: 'https://image.tmdb.org/t/p/w300/o9KJmNTMM9wlWFZ8yTEgewxS2sE.jpg'
     },
     {
         titulo: 'Já Estou Te Vendo',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Letícia cria um site para encontrar sua prima desaparecida. Quando está próxima de descobrir o real culpado pelo sumiço da garota, a adolescente percebe que já estava sendo vigiada há muito tempo.',
         imdb: 'tt21938086',
         imagem: 'https://image.tmdb.org/t/p/w300/wOPgbD5xTjbRCcGAJ6k3rQJk11O.jpg'
     },
     {
         titulo: 'Kursk: A Última Missão',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Baseado em fatos reais, o filme narra a explosão e o naufrágio do submarino russo Kursk no ano de 2000. Os tripulantes precisam sobreviver às águas geladas do Mar de Barents enquanto esperam por um resgate que pode não chegar por causa do descaso das autoridades.',
         imdb: 'tt4951982',
         imagem: 'https://image.tmdb.org/t/p/w300/e2IfN9oSfu7n1raLplXx4hjRdUc.jpg'
     },
     {
         titulo: 'Maior que o Mundo',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Para tentar esquecer a morte de Paul, o homem de sua vida, Corine deixa Paris e embarca em uma viagem para gravar um documentário na Mongólia. Até que ela conhece a xamã Oyun e sua vida muda, pois Corine tem um dom raro que Oyun pretende revelar. Após aceitar participar dessa jornada de descoberta, Corine passa a conhecer uma nova cultura, rituais ancestrais e, mais importante que tudo, ela mesma.',
         imdb: 'tt7265272',
         imagem: 'https://image.tmdb.org/t/p/w300/4kBYriZGKavfk27qg2IBsVO6Xan.jpg'
     },
     {
         titulo: 'Luciferina',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Natalia é uma noviça de 19 anos que relutantemente retorna para casa para se despedir de seu pai, que está morrendo. Mas, quando ela encontra com sua irmã e os seus amigos, ela decide viajar para a selva em busca de uma planta mística. Lá, ao invés de prazer, eles encontram um mundo de Missas Sombrias, gravidez estranhas, mortes sangrentas e um encontro sexualmente violento com o próprio diabo.',
         imdb: 'tt8072078',
         imagem: 'https://image.tmdb.org/t/p/w300/jDjiT5dVwL0B3CgBHhBQo9yB1Yv.jpg'
     },
     {
         titulo: 'Missão Despedida de Solteira',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Cinco jovens mulheres, amigas desde o colégio, se encontram na despedida de solteira de uma delas. Mas a noiva não dá sinal de vida e, enquanto esperam por ela aparecer, as amigas conversam sobre homens, amor, sexo, frustrações e ambições.',
         imdb: 'tt13250314',
         imagem: 'https://image.tmdb.org/t/p/w300/3u8wB2GbfwLfmsN0Ihta7YZdb9T.jpg'
     },
     {
-        titulo: '落魄保镖之危机疑云',
-        descricao: 'Descrição do filme 20',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/gGP1goqJGGPD2YMp6YLxtmHW1WX.jpg'
-    },
-    {
         titulo: 'Desencontros Amorosos',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Um grupo de amigos se encontra em diferentes estágios de suas relações amorosas, mas nenhum está muito feliz com suas escolhas. Emmy e Samantha estão prestes a se casar, Josh acaba de descobrir que foi traído por sua namorada e Niall está aproveitando a vida, saindo com o maior número de pessoas possível.',
         imdb: 'tt9011040',
         imagem: 'https://image.tmdb.org/t/p/w300/43PGEGYAvgpUE9EvET2YkfITWU7.jpg'
     },
     {
         titulo: 'Verão 2003',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Jamie é pega de surpresa pelo falecimento da avó. No meio de uma crise familiar, a adolescente vê sua situação complicar-se ainda mais com o desenrolar de um amor que parece impossível.',
         imdb: 'tt7284204',
         imagem: 'https://image.tmdb.org/t/p/w300/yGWszbTJRmQVJv98abEyfdLOsHh.jpg'
     },
     {
         titulo: 'Vingança em Duas Rodas',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Ao saber da morte de seu irmão, um homem chamado Shen retorna ao seu antigo reduto para encontrar os homens responsáveis ​​e fazer justiça com suas próprias mãos. Ele descobre que um motoqueiro chamado Cobra e sua gangue feroz, The Midnight Squad, foram os responsáveis​​...',
         imdb: 'tt13930868',
         imagem: 'https://image.tmdb.org/t/p/w300/essd7DICfIsaE5iJgwdDr03vygy.jpg'
     },
