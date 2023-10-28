@@ -127,109 +127,109 @@ var filmes = [
     },
     {
         titulo: 'Você Não Está Sozinha',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Após a morte prematura de seu ex-marido, Emma recupera a custódia de sua filha Isla, e espera reconstruir o relacionamento depois de muitos anos separadas.',
         imdb: 'tt6332158',
         imagem: 'https://image.tmdb.org/t/p/w300/m2IJvRrBm3oxdL0vCvSZsgkWEHC.jpg'
     },
     {
         titulo: 'A Cor da Vingança',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Eric Williams é um homem foragido há 27 anos por um assassinato que não cometeu. Quando sua filha é brutalmente atacada por uma gangue de Londres e a polícia decide não fazer nada, ele decide retornar à sua cidade para fazer justiça com as próprias mãos.',
         imdb: 'tt2793072',
         imagem: 'https://image.tmdb.org/t/p/w300/w65phx3T8pvrdtuOQFniNElssNr.jpg'
     },
     {
         titulo: 'Women Is Losers',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Em 1960 em São Francisco, a brilhante e talentosa estudante católica Celina Guerrera sobreviveu a uma difícil vida doméstica seguindo as regras. Isso até que uma indiscrição crie uma série de consequências devastadoras. Enquanto Celina enfrenta os obstáculos combinados de ser jovem e sozinha, ela se propõe a superar a opressão da pobreza e investir em um futuro que abre novos precedentes para a época.',
         imdb: 'tt9024096',
         imagem: 'https://image.tmdb.org/t/p/w300/8Q0nxmmRvCpUiO9HuUvFV4khIQa.jpg'
     },
     {
         titulo: 'A Fuga do Prisioneiro 614',
-        descricao: 'Descrição do filme 3',
+        descricao: 'No filme acompanhamos Martin Starr e Jack McDorman dois delegados bem-intencionados, mas desastrados, que são demitidos pelo seu xerife arrogante (Ron Perlman). Com a esperança de recuperar seus distintivos, eles decidem ir atrás de um prisioneiro fugitivo apenas para perceber que ele é uma vítima inocente de um sistema judicial racista e se deparam com um dilema moral.',
         imdb: 'tt7375578',
         imagem: 'https://image.tmdb.org/t/p/w300/t9l2H6uOsGBUPT4rWmv98TM6fOn.jpg'
     },
     {
         titulo: 'A Última Fronteira do Oeste',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Durante a Grande Depressão, o banco toma o rancho da família de Stratton Eiseley e ele se vê obrigado a desbravar o oeste selvagem do estado de Montana. Lutando para sobreviver, Stratton faz amizade com nativos, mas uma nova tragédia em sua vida o obrigará a encontrar sua força interior e lutar contra velhos inimigos.',
         imdb: 'tt6275002',
         imagem: 'https://image.tmdb.org/t/p/w300/56aYP5usPlSwq95Cn4GZCNdBM0o.jpg'
     },
     {
         titulo: 'Akhirat: A Love Story',
-        descricao: 'Descrição do filme 5',
+        descricao: '',
         imdb: 'tt12993456',
         imagem: 'https://image.tmdb.org/t/p/w300/rmX7JTxAQOkFKXQL1bxDKsxPB7M.jpg'
     },
     {
         titulo: 'Aldeia Maldita',
-        descricao: 'Descrição do filme 6',
+        descricao: 'A anciã de um vilarejo luta contra a loucura e o macabro para salvar seu povo de um monstruoso ser que chega para tomar conta do local e levar todos para a escuridão.',
         imdb: 'tt12700358',
         imagem: 'https://image.tmdb.org/t/p/w300/nf4w2flxKHpzX7C2OCTiqzUl9xn.jpg'
     },
     {
         titulo: 'Antes da Tempestade',
-        descricao: 'Descrição do filme 7',
+        descricao: 'À beira do divórcio, Gia e Shane fazem uma última tentativa de salvar a relação e viajam para comemorar o aniversário de casamento em uma casa no lago. Mas, quando eles ficam presos na casa por algum motivo misterioso, os dois são forçados a enfrentar seus demônios, tanto reais quanto imaginários.',
         imdb: 'tt6708828',
         imagem: 'https://image.tmdb.org/t/p/w300/jlv2NocfTnL9w37Ej2mgrUCyKxk.jpg'
     },
     {
         titulo: 'Apaches: Gangues de Paris',
-        descricao: 'Descrição do filme 8',
+        descricao: 'O filme acompanha uma jovem que se infiltra no clã criminoso que matou seu irmão. Seu plano: matar cada um deles, um a um, até chegar perto demais do fascinante líder.',
         imdb: 'tt13823990',
         imagem: 'https://image.tmdb.org/t/p/w300/7BnKMBD5WRY3lpVDOHDDuMTIhMs.jpg'
     },
     {
         titulo: 'Arekalar',
-        descricao: 'Descrição do filme 9',
+        descricao: '',
         imdb: 'tt16341216',
         imagem: 'https://image.tmdb.org/t/p/w300/1EH0sk5v0sHCUXK0WqPXfWgITSa.jpg'
     },
     {
         titulo: 'As Boas Intenções',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Em Buenos Aires, no início dos anos 1990, Amanda, uma garota de 10 anos, e seus dois irmãos mais novos se dividem entre a casa da mãe Cecilia, uma mulher responsável e casada com outro homem, e o pai Gustavo, um roqueiro que vive de bicos numa loja de discos.',
         imdb: 'tt10888554',
         imagem: 'https://image.tmdb.org/t/p/w300/qhfoHRQSkOb9d9CMWyFqJa8OCib.jpg'
     },
     {
         titulo: 'Brincando de Deus',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Micah e Rachel, dois irmãos vigaristas, estão em uma nova missão: enganar um bilionário em luto e convencê-lo de que podem colocá-lo cara a cara com Deus. Eles recrutam seu mentor de longa data, Frank, para brincar de Deus, colocando em prática o maior golpe de suas vidas.',
         imdb: 'tt8371236',
         imagem: 'https://image.tmdb.org/t/p/w300/fwmndae3Q1Cn9aKpfjLxjr2u52d.jpg'
     },
     {
         titulo: 'Caçada Humana',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Kimberly, Owen e Brooke juntam-se aos amigos Levi e Memphis para uma viagem de caça em um rancho isolado. Mas o que o eles ainda não sabem é que os seus amigos na verdade estão caçando humanos e para sobreviver a este sádico jogo, o trio precisará adotar medidas drásticas e inesperadas.',
         imdb: 'tt8918392',
         imagem: 'https://image.tmdb.org/t/p/w300/eDdEa740BlFTvSSXj1QlmkUYtQr.jpg'
     },
     {
         titulo: 'Conexão',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Ana e Tom são um jovem casal norte-americano viajando pela França. Sem muito dinheiro, eles aceitam o convite para trabalhar na mansão de Richard. Mas quando os segredos obscuros da propriedade e de seu dono começam a vir à tona, Tom faz uma perigosa descoberta que mudará a vida deles para sempre.',
         imdb: 'tt7373818',
         imagem: 'https://image.tmdb.org/t/p/w300/3kY3rX2qAlZDTpgFnrjmD1XHild.jpg'
     },
     {
         titulo: 'Dampyr: O Filho do Vampiro',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Assombrado por pesadelos, o vigarista Harlan Draka vaga pelo campo devastado pela guerra dos Bálcãs, ganhando dinheiro livrando aldeões supersticiosos de monstros imaginários. Mas depois de ser contratado por soldados que estão sob ataque de vampiros reais, Harlan descobre a verdade: ele é um Dampyr, meio humano e meio vampiro. Enquanto tenta parar um Mestre da Noite e seu exército de mortos-vivos, Harlan terá que aprender a gerenciar seus novos poderes e descobrir suas origens.',
         imdb: 'tt10315050',
         imagem: 'https://image.tmdb.org/t/p/w300/msPaqyt06Na9wT6hIyUZak3Smfv.jpg'
     },
     {
         titulo: 'Dashcam',
-        descricao: 'Descrição do filme 15',
+        descricao: '',
         imdb: 'tt15174116',
         imagem: 'https://image.tmdb.org/t/p/w300/ex7AuAClgyMn3WqZ3nN9L3VksMM.jpg'
     },
     {
         titulo: 'Decisões Extremas',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Uma mulher caminhando por uma trilha isolada encontra problemas quando sua mochila é sequestrada por dois homens escondidos na floresta, desesperados e fugindo. Agora, encalhada e deixada para cuidar de si mesma, ela tem uma escolha: rastejar de volta à sua vida normal na derrota, ou empurrar para a frente e tomar de volta o que foi roubado dela.',
         imdb: 'tt7434506',
         imagem: 'https://image.tmdb.org/t/p/w300/nnRl70haLHVPvIey6VvjjuLVDAN.jpg'
     },
     {
         titulo: 'Uma Aula de Harmonia',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Um boxeador problemático vai morar com a mãe e o irmão autista, mas precisa se encaixar em uma família com a qual não convive há anos.',
         imdb: 'tt29025883',
         imagem: 'https://image.tmdb.org/t/p/w300/ioyG44XHBqXpGvbEKkj8ai6vrFZ.jpg'
     },
