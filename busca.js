@@ -8,19 +8,19 @@ function searchMovies(event) {
 var filmes = [
     {
         titulo: 'The Pod Generation',
-        descricao: 'Descrição do filme 1',
+        descricao: 'Ambientado em um futuro próximo onde a IA está na moda e a natureza vai se tornando uma memória distante, Rachel e Alvy são um casal de Nova York pronto para levar seu relacionamento para o próximo nível e começar uma família.',
         imdb: 'tt15768848',
         imagem: 'https://image.tmdb.org/t/p/w300/8A1gNoYBjmwcShNtxYCfkZkMKIj.jpg'
     },
     {
         titulo: 'A Médium',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Uma história horripilante sobre a herança de um xamã na região de Isan, na Tailândia, onde a Deusa que parece ter possuído um membro da família acaba não sendo tão benevolente quanto pensavam ser.',
         imdb: 'tt13446168',
         imagem: 'https://image.tmdb.org/t/p/w300/oCPAJFtmdjlMuye8hVI7LAjymgO.jpg'
     },
     {
         titulo: 'Rua dos Pecados',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Um criminoso endurecido que sai da junta arranja um emprego como faz-tudo em uma casa em ruínas; mas os horrores distorcidos que ele encontra lá dentro são suficientes para fazer alguém correr. Então, por que ele fica? E por que tantas pessoas são atraídas para Penance Lane?',
         imdb: 'tt1964995',
         imagem: 'https://image.tmdb.org/t/p/w300/d3fsra3Sv0L59AlIAS3GRKLCVyf.jpg'
     },
