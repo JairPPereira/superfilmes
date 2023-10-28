@@ -1,5 +1,125 @@
 var filmes = [
     {
+        titulo: 'The Pod Generation',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt15768848',
+        imagem: 'https://image.tmdb.org/t/p/w300/8A1gNoYBjmwcShNtxYCfkZkMKIj.jpg'
+    },
+    {
+        titulo: 'A Médium',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt13446168',
+        imagem: 'https://image.tmdb.org/t/p/w300/oCPAJFtmdjlMuye8hVI7LAjymgO.jpg'
+    },
+    {
+        titulo: 'Rua dos Pecados',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt1964995',
+        imagem: 'https://image.tmdb.org/t/p/w300/d3fsra3Sv0L59AlIAS3GRKLCVyf.jpg'
+    },
+    {
+        titulo: 'Perseguição em Malta',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt13515076',
+        imagem: 'https://image.tmdb.org/t/p/w300/oRgj0ZaCZxcRhRNMOnGwr495q4z.jpg'
+    },
+    {
+        titulo: 'Paciente, 316',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt6064744',
+        imagem: 'https://image.tmdb.org/t/p/w300/x01VoKCsBMVERVm2OrnPLlykFCx.jpg'
+    },
+    {
+        titulo: 'Outback',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt7336182',
+        imagem: 'https://image.tmdb.org/t/p/w300/1eEaliCKndXuINMjcb2ATXUMYIa.jpg'
+    },
+    {
+        titulo: 'Obrigada Por Tudo',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt11349958',
+        imagem: 'https://image.tmdb.org/t/p/w300/kb6b8x44yqHIglI2aMLk15RBy65.jpg'
+    },
+    {
+        titulo: 'O Viajante do Tempo',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt3484204',
+        imagem: 'https://image.tmdb.org/t/p/w300/b6SZ2fme18X5EPj7zN6bxeNHjEP.jpg'
+    },
+    {
+        titulo: 'O Tutor',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt19637278',
+        imagem: 'https://image.tmdb.org/t/p/w300/wmTOuCeJnTPaAPMK19Y8Ixpi3Gl.jpg'
+    },
+    {
+        titulo: 'O Hotel do Terror',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt5343532',
+        imagem: 'https://image.tmdb.org/t/p/w300/ktV0aYTTwkqdQceEvAHl2vsA66u.jpg'
+    },
+    {
+        titulo: 'O Estranho Caso de Cornelius Bloom',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt6012684',
+        imagem: 'https://image.tmdb.org/t/p/w300/wCRk3NcQgZgsND8ZL5zBzzwTkzy.jpg'
+    },
+    {
+        titulo: 'O Rei dos Clones',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt27846314',
+        imagem: 'https://image.tmdb.org/t/p/w300/jJAF2h2iLLCpKUocEnoJz7wKtWq.jpg'
+    },
+    {
+        titulo: 'O Matador: Missão Resgate',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt19713090',
+        imagem: 'https://image.tmdb.org/t/p/w300/9aVY0w3q2bxZX9rcGOGSWiM7mH8.jpg'
+    },
+    {
+        titulo: 'O Diário de um Banana: As Regras do Rodrick',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt15847828',
+        imagem: 'https://image.tmdb.org/t/p/w300/zL7uRZfIguunWKQDWbOcOqYg1AX.jpg'
+    },
+    {
+        titulo: 'Não Saia de Casa',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt6842126',
+        imagem: 'https://image.tmdb.org/t/p/w300/uVWuvy2lIMDmplgs51rSovZIhnW.jpg'
+    },
+    {
+        titulo: 'Não Descanse em Paz',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt10332690',
+        imagem: 'https://image.tmdb.org/t/p/w300/jx2zZmnofr8i1Tz9jA8rngpsfz4.jpg'
+    },
+    {
+        titulo: 'Na Linha de Frente',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt10405760',
+        imagem: 'https://image.tmdb.org/t/p/w300/flMRy43ua8UQOkp555xZAQ9fYQn.jpg'
+    },
+    {
+        titulo: 'Um Ato de Fé',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt15321028',
+        imagem: 'https://image.tmdb.org/t/p/w300/uMTHUzecoJgAlekqBu6EQDFzZ8E.jpg'
+    },
+    {
+        titulo: 'Um Jantar Quase Perfeito',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt8563656',
+        imagem: 'https://image.tmdb.org/t/p/w300/17J49tGsoIsBy0GIl7LcH9eR068.jpg'
+    },
+    {
+        titulo: 'The Unseen',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt13304086',
+        imagem: 'https://image.tmdb.org/t/p/w300/gHkkHjygqfgLbC8ST3VTdGh2pwd.jpg'
+    },
+    {
         titulo: 'Five Nights at Freddys - O Pesadelo Sem Fim',
         descricao: 'Enquanto passa sua primeira noite no trabalho, um problemático guarda de segurança da Pizzaria Freddy Fazbear logo percebe que não será uma tarefa fácil sobreviver ao seu primeiro turno.',
         imdb: 'tt4589218',
