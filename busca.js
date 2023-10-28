@@ -4111,145 +4111,145 @@ var filmes = [
 },
 {
     titulo: 'Um Cadáver para Sobreviver',
-    descricao: 'Descrição do filme 1',
+    descricao: 'Hank, um homem perdido no deserto, e sem esperanças, encontra um corpo no meio do caminho. Decidido em ficar amigo do morto, eles vão partir, juntos, em uma jornada surrealista para voltar para casa. Ao mesmo tempo em que Hank descobre que o corpo é a chave para sua sobrevivência, ele é forçado a convencer o morto o quanto vale a pena viver.',
     imdb: 'tt4034354',
     imagem: 'https://image.tmdb.org/t/p/w300/oFhdGecjFcxZlo7VE2nyQLz0aAx.jpg'
 },
 {
     titulo: 'Uma Canção Para Ela',
-    descricao: 'Descrição do filme 2',
+    descricao: 'O aspirante a cantor Jed King (Alan Powell) se apaixona pela filha do dono do vinhedo, no qual se apresentará em um festival. Após o casamento, Jed escreve "a música" para a esposa, que se tornará seu grande hit. Juntamente com a fama, tentações provocaram o cantor, e com ela a cantora Shelby Bale (Caitlin Nicol-Thomas).',
     imdb: 'tt2517044',
     imagem: 'https://image.tmdb.org/t/p/w300/19V63JLe7F5pW5tTrwaI05bVCXI.jpg'
 },
 {
     titulo: 'Sempre ao Seu Lado',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Quando Hachiko, um filhote de cachorro da raça akita, é encontrado perdido em uma estação de trem por Parker, ambos se identificam rapidamente. O filhote acaba conquistando todos na casa de Parker, mas é com ele que acaba criando um profundo laço de lealdade.',
     imdb: 'tt1028532',
     imagem: 'https://image.tmdb.org/t/p/w300/rJnXkbYPJoX76Q9D91iKVJaItyL.jpg'
 },
 {
     titulo: 'A Ilha do Dr Moreau',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Um sobrevivente de naufrágio descobre uma ilha remota de propriedade de um cientista louco que está realizando experiências sinistras nos habitantes da ilha.',
     imdb: 'tt0076210',
     imagem: 'https://image.tmdb.org/t/p/w300/JGeUd5jtzgeKR9SqAD8FXbA3VS.jpg'
 },
 {
     titulo: 'Deixe-o Partir',
-    descricao: 'Descrição do filme 5',
+    descricao: 'George e sua esposa Margaret perdem o filho, e deixam seu rancho em Montana para resgatar o neto das garras de uma família perigosa que vive em Dakota, chefiada pela matriarca Blanche Weboy. Quando descobrem que os Weboys não têm intenção de deixar a criança ir embora, George e Margaret não têm escolha a não ser lutar pela família.',
     imdb: 'tt9340860',
     imagem: 'https://image.tmdb.org/t/p/w300/fDVKqWgljauo1Frc1CbdeKr2G8O.jpg'
 },
 {
     titulo: 'O Grande Ditador',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Um barbeiro judeu passa anos em um hospital do exército se recuperando de suas feridas após ter servido na guerra, sem saber do crescimento de poder do ditador fascista Adenóide Hynkel e suas políticas antissemitas. Quando o barbeiro retorna ao seu bairro tranquilo, ele fica atordoado com as mudanças brutais e, de forma imprudente, se une a uma menina bonita e seus vizinhos para se rebelar.',
     imdb: 'tt0032553',
     imagem: 'https://image.tmdb.org/t/p/w300/ypiEVkeQd8NxI7AabS8eGkjNBf6.jpg'
 },
 {
     titulo: 'Eu Só Posso Imaginar',
-    descricao: 'Descrição do filme 7',
+    descricao: 'Baseado na história por trás da famosa canção I Can Only Imagine, da banda cristã norte-americana MercyMe, o filme gira em torno da vida de Bart Millard, o vocalista, e de seu relacionamento conturbado com seu pai, que sempre o tratou de maneira dura e nunca entendeu o amor do filho pela música. Conseguindo suas forças através de Deus, Bart resolveu eternizar a relação em uma canção.',
     imdb: 'tt6450186',
     imagem: 'https://image.tmdb.org/t/p/w300/7ZGJdRHNlVXApD4RzlTzwR25j3c.jpg'
 },
 {
     titulo: 'Distrito 9',
-    descricao: 'Descrição do filme 8',
+    descricao: 'Há 30 anos alienígenas chegam à Terra em busca de refúgio, pois seu planeta estava morrendo. Eles passam a viver separados dos humanos em uma área chamada Distrito 9, na África do Sul, comandada pela multinacional United, que não se importa com o bem-estar dos alienígenas, mas que está disposta a tudo para dominar a tecnologia que eles possuem. Quando um agente em campo contrai um vírus que altera o seu DNA, o Distrito 9 passa a ser o único lugar em que ele pode se esconder.',
     imdb: 'tt1136608',
     imagem: 'https://image.tmdb.org/t/p/w300/ngDzpIMeVlwv0B3JNWqNVTRNfcU.jpg'
 },
 {
     titulo: 'A Fuga do Planeta dos Macacos',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Dois cientistas símios, Cornelius (Roddy McDowall) e Zira (Kim Hunter) - na verdade havia mais um, Milo (Sal Mineo), que morreu acidentalmente - retornam no tempo e chegam no século XX, em Los Angeles. Quando eles revelam sua habilidade para falar primeiramente são tratados como curiosidade, mas depois como uma grande ameaça, quando o governo crê na história que a Terra será dominada por chimpanzés e assim tenta evitar o nascimento do bebê de Zira.',
     imdb: 'tt0067065',
     imagem: 'https://image.tmdb.org/t/p/w300/bZt5dYtbIZ03apuexPHvjrOI6vI.jpg'
 },
 {
     titulo: 'A Conquista do Planeta dos Macacos',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Uma praga exterminou os cães e os gatos da face da Terra, o que fez com que os macacos se tornassem animais de estimação. Eles são tratados como escravos, o que revolta Caesar (Roddy McDowall), o filho de Cornelius e Zira, que perdeu os pais ainda cedo e foi criado pelo dono de um circo. Ele passa a liderar uma rebelião dos macacos contra os humanos.',
     imdb: 'tt0068408',
     imagem: 'https://image.tmdb.org/t/p/w300/yDg8b2FgDQCVkLEkrUtqP6sdRew.jpg'
 },
 {
     titulo: 'O Planeta dos Macacos',
-    descricao: 'Descrição do filme 11',
+    descricao: 'George Taylor, um astronauta americano, viaja por séculos em estado de hibernação. Ao acordar, ele e seus companheiros se vêem em um planeta dominado por macacos, no qual os humanos são tratados como escravos e nem mesmo tem o dom da fala.',
     imdb: 'tt0063442',
     imagem: 'https://image.tmdb.org/t/p/w300/wTYTjSUqdra9WKzp7w2aOwYDosS.jpg'
 },
 {
     titulo: 'Babilônia',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Durante a era de ouro de Hollywood, em Los Angeles da década de 1920, um jovem latino está determinado a conseguir uma carreira enquanto o cinema entra em fase de transição dos filmes mudos para produções com falas.',
     imdb: 'tt10640346',
     imagem: 'https://image.tmdb.org/t/p/w300/qZUmMxJbGmkIYwnS7qRfSOREmvC.jpg'
 },
 {
     titulo: 'Creed III',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Depois de dominar o mundo do boxe, Adonis Creed tem prosperado em sua carreira e vida familiar. Quando um amigo de infância e ex-prodígio do boxe, Damien Anderson, ressurge depois de cumprir uma longa sentença na prisão, ele está ansioso para provar que merece sua chance no ringue. O confronto entre ex-amigos é mais do que apenas uma briga. Para acertar as contas, Adonis deve colocar seu futuro em risco para lutar contra Damien - um lutador que não tem nada a perder.',
     imdb: 'tt11145118',
     imagem: 'https://image.tmdb.org/t/p/w300/wDugyjvDQsuwm9j9hkmK4whCOti.jpg'
 },
 {
     titulo: 'Fantasma e CIA',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Após descobrir um fantasma com um passado obscuro em sua casa, uma família viraliza na internet e se torna alvo de uma agência do governo.',
     imdb: 'tt7798604',
     imagem: 'https://image.tmdb.org/t/p/w300/8tGZbqePTre2AnpMeC1nqAHhLhZ.jpg'
 },
 {
     titulo: 'Mistério em Paris',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Agora detetives particulares e donos de uma agência, Nick e Audrey Spitz se envolvem em uma investigação internacional após o sequestro de um amigo.',
     imdb: 'tt15255288',
     imagem: 'https://image.tmdb.org/t/p/w300/pf1dQDb55mJ13KQMEYa4O0fni64.jpg'
 },
 {
     titulo: 'Super Mario Bros.: O Filme',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.',
     imdb: 'tt6718170',
     imagem: 'https://image.tmdb.org/t/p/w300/i9XdxHsFrcqLkRWSF1coOHo4R39.jpg'
 },
 {
     titulo: 'Lar Doce Lar... Ou Não',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Victoria Tremont é uma barista que está entediada com seu estilo de vida e decide paquerar um freguês, mas ele não corresponde. Determinada a conquistá-lo, ela descobre que ele trabalha construindo casas para os necessitados e resolve ajudá-lo, visando assim ganhar seu coração.',
     imdb: 'tt9636630',
     imagem: 'https://image.tmdb.org/t/p/w300/wJ110kmsRTjM50DHoKmCtLheHDh.jpg'
 },
 {
     titulo: 'Eu Vi o Diabo',
-    descricao: 'Descrição do filme 18',
+    descricao: 'A noiva de um agente secreto é morta por um serial killer. Cego pela fúria, ele começa a investigar os possíveis suspeitos do crime, até finalmente identificar o culpado. Mas, ao invés de matá-lo, resolve pôr em prática uma terrível e lenta vingança.',
     imdb: 'tt1588170',
     imagem: 'https://image.tmdb.org/t/p/w300/ebODPzkfekZ9aXH6TMlXg7YzJM2.jpg'
 },
 {
     titulo: 'Espiral: O Legado de Jogos Mortais',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Sob o comando do veterano da polícia Marcus, o detetive Ezekiel "Zeke" Banks se une ao seu parceiro novato Willem para desvendar uma série de assassinatos terríveis que estão acontecendo na cidade. Durante as investigações, Zeke acaba se envolvendo no mórbido jogo do assassino.',
     imdb: 'tt10342730',
     imagem: 'https://image.tmdb.org/t/p/w300/jJ7eIqsVLtRwLCX6KeJNeQYjPar.jpg'
 },
 {
     titulo: 'O Céu é de Verdade',
-    descricao: 'Descrição do filme 20',
+    descricao: 'A história verdadeira do filho de 4 anos de um pastor de uma cidade pequena que, durante uma cirurgia de emergência, foge da consciência e entra no céu. Quando ele acorda, ele conta suas experiências do outro lado.',
     imdb: 'tt1929263',
     imagem: 'https://image.tmdb.org/t/p/w300/3V1S3j05kV5YqDEL2qyVFIy1x3m.jpg'
 },
 {
     titulo: 'Olhos Famintos 4: Renascimento',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Forçada a embarcar numa viagem até um festival de horror na Louisana com seu namorado, Laine começa a experienciar visões perturbadores associadas ao passado da cidade, em particular a uma lenda urbana local conhecida como o Creeper. Com a chegada do festival e o entretenimento sangrento se tornando um frenesi, Laine acredita que algo de outro mundo foi invocado... e ela está no centro de tudo.',
     imdb: 'tt14121726',
     imagem: 'https://image.tmdb.org/t/p/w300/p3JX4YPcJOCPp8MSjL6mg7ZhHgA.jpg'
 },
 {
     titulo: 'Até os Ossos',
-    descricao: 'Descrição do filme 22',
+    descricao: 'A história do primeiro amor de Maren, uma jovem mulher aprendendo a sobreviver à margem da sociedade, e do intenso Lee, um andarilho sem amarras. O casal se une numa odisseia de mil e quinhentos quilômetros por estradas, passagens ocultas e alçapões na América de Ronald Reagan, levando-os de volta aos seus passados traumáticos, e a uma reta final que vai determinar se o amor pode sobreviver às diferenças.',
     imdb: 'tt10168670',
     imagem: 'https://image.tmdb.org/t/p/w300/w0dCPc9J2R6wnoO9Joxz6ot703g.jpg'
 },
 {
     titulo: 'Amor Além da Vida',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Depois da morte de seus dois filhos, Chris Nielson e sua mulher Annie passam por insuperáveis dificuldades emocionais. Anos depois, acontece outra tragédia: Chris também morre. Ele vai para o Paraíso, onde conhece Albert, um rapaz de bom coração que vai ajudá-lo a se adaptar à nova existência. Para Annie, a morte do marido é a última gota que a prendia à vida, e ela acaba se suicidando. Porém, diferente de Chris, ela não vai ao Paraíso, mas sim a um lugar diferente, uma espécie de purgatório onde ficam as almas perturbadas. Quando descobre o destino da mulher, Chris pede ajuda a Albert e os dois saem em uma jornada em busca da salvação da alma de Annie, provando que o amor desafia qualquer infortúnio.',
     imdb: 'tt0120889',
     imagem: 'https://image.tmdb.org/t/p/w300/tnuZypYMGme4wK6wSSNt79awmp3.jpg'
 },
 {
     titulo: 'O Casamento dos Meus Sonhos',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Mary Fiore (Jennifer Lopez) é uma conceituada organizadora de casamentos, que consegue transformar qualquer casamento em um evento romântico inesquecível para os noivos e seus familiares. Mas quando ela se apaixona pelo noivo de um dos casamentos que está organizando, começa a perceber que falta amor em sua vida e, por causa disso, se envolve em uma série de confusões.',
     imdb: 'tt0209475',
     imagem: 'https://image.tmdb.org/t/p/w300/afrqngvnCJk50KkIAdb9NN5mMhi.jpg'
 },
