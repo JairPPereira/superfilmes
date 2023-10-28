@@ -26,103 +26,103 @@ var filmes = [
     },
     {
         titulo: 'Perseguição em Malta',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Um ex-policial durão e cansado tem um novo e entediante estilo de vida em Malta a bordo de um barco completamente transformado. No entanto, sua vida vira de ponta-cabeça quando se vê envolvido em uma rede de espionagem internacional de alto risco.',
         imdb: 'tt13515076',
         imagem: 'https://image.tmdb.org/t/p/w300/oRgj0ZaCZxcRhRNMOnGwr495q4z.jpg'
     },
     {
         titulo: 'Paciente, 316',
-        descricao: 'Descrição do filme 5',
+        descricao: 'A rotina de um hospital psiquiátrico se transforma quando um homem desconhecido é internado no quarto 316.',
         imdb: 'tt6064744',
         imagem: 'https://image.tmdb.org/t/p/w300/x01VoKCsBMVERVm2OrnPLlykFCx.jpg'
     },
     {
         titulo: 'Outback',
-        descricao: 'Descrição do filme 6',
+        descricao: 'Wade e Lisa são um casal que decidem fazer uma viagem romântica na Austrália. Após um problema no GPS, eles resolvem abandonar o carro e seguir viagem a pé, mas acabam se perdendo no meio do deserto australiano.',
         imdb: 'tt7336182',
         imagem: 'https://image.tmdb.org/t/p/w300/1eEaliCKndXuINMjcb2ATXUMYIa.jpg'
     },
     {
         titulo: 'Obrigada Por Tudo',
-        descricao: 'Descrição do filme 7',
+        descricao: 'As irmãs Marianne e Christine não se falam há um tempo, mas se reencontram após a morte inesperada de seu pai.',
         imdb: 'tt11349958',
         imagem: 'https://image.tmdb.org/t/p/w300/kb6b8x44yqHIglI2aMLk15RBy65.jpg'
     },
     {
         titulo: 'O Viajante do Tempo',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Um viajante do tempo e seu I.A. companheiro. Norman fica preso e isolado no passado, colocando em risco a vida no passado e no futuro. Ele deve inventar um caminho de volta ao futuro antes que o mundo entre em colapso.',
         imdb: 'tt3484204',
         imagem: 'https://image.tmdb.org/t/p/w300/b6SZ2fme18X5EPj7zN6bxeNHjEP.jpg'
     },
     {
         titulo: 'O Tutor',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Quando um tutor profissional aceita um emprego em uma mansão remota, ele logo se vê lutando contra as obsessões de seu aluno perturbado, que ameaça expor seus segredos mais obscuros e desvendar sua personalidade cuidadosamente elaborada.',
         imdb: 'tt19637278',
         imagem: 'https://image.tmdb.org/t/p/w300/wmTOuCeJnTPaAPMK19Y8Ixpi3Gl.jpg'
     },
     {
         titulo: 'O Hotel do Terror',
-        descricao: 'Descrição do filme 10',
+        descricao: 'O fim de semana romântico de um casal à espera do primeiro bebê se transforma em terror, quando descobrem que sua pousada rural isolada é uma maternidade assombrada, onde bebês e mães foram assassinados.',
         imdb: 'tt5343532',
         imagem: 'https://image.tmdb.org/t/p/w300/ktV0aYTTwkqdQceEvAHl2vsA66u.jpg'
     },
     {
         titulo: 'O Estranho Caso de Cornelius Bloom',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Um pequeno vilarejo recebe a visita de Cornelius Bloom, um misterioso homem que decide construir um moinho no local. Os habitantes o recebem com gentileza até descobrirem que ele possui o estranho hábito de uivar todas as noites para a Lua.',
         imdb: 'tt6012684',
         imagem: 'https://image.tmdb.org/t/p/w300/wCRk3NcQgZgsND8ZL5zBzzwTkzy.jpg'
     },
     {
         titulo: 'O Rei dos Clones',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Conheça a história do cientista mais famoso da Coreia, desde suas polêmicas pesquisas em clonagem humana aos escândalos que puseram um fim em sua carreira.',
         imdb: 'tt27846314',
         imagem: 'https://image.tmdb.org/t/p/w300/jJAF2h2iLLCpKUocEnoJz7wKtWq.jpg'
     },
     {
         titulo: 'O Matador: Missão Resgate',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Quando a garota de quem ele está cuidando é sequestrada, um assassino aposentado rapidamente recupera seus instintos assassinos, incendiando a cidade.',
         imdb: 'tt19713090',
         imagem: 'https://image.tmdb.org/t/p/w300/9aVY0w3q2bxZX9rcGOGSWiM7mH8.jpg'
     },
     {
         titulo: 'O Diário de um Banana: As Regras do Rodrick',
-        descricao: 'Descrição do filme 14',
+        descricao: 'As travessuras desenfreadas do estudante do ensino médio Greg Heffley, angustiado e propenso a desastres, continuam, concentrando-se desta vez em seu relacionamento complicado com o irmão mais velho, Rodrick. Agora, Greg assume um de seus maiores desafios - sobreviver um fim de semana sozinho com Rodrick e cumprir sua crescente lista de regras.',
         imdb: 'tt15847828',
         imagem: 'https://image.tmdb.org/t/p/w300/zL7uRZfIguunWKQDWbOcOqYg1AX.jpg'
     },
     {
         titulo: 'Não Saia de Casa',
-        descricao: 'Descrição do filme 15',
+        descricao: 'A obsessão da artista americana Melanie Thomas (Anna Margaret Hollyman) com uma lenda urbana perturbadora leva-a a uma investigação das origens da história na desmoronada propriedade de um pintor recluso na Irlanda.',
         imdb: 'tt6842126',
         imagem: 'https://image.tmdb.org/t/p/w300/uVWuvy2lIMDmplgs51rSovZIhnW.jpg'
     },
     {
         titulo: 'Não Descanse em Paz',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Um ano após perder sua esposa em um acidente de carro, Jamie convence sua cunhada a retornar ao local do acidente e ajudá-lo a realizar um estranho ritual para trazer sua esposa de volta à vida.',
         imdb: 'tt10332690',
         imagem: 'https://image.tmdb.org/t/p/w300/jx2zZmnofr8i1Tz9jA8rngpsfz4.jpg'
     },
     {
         titulo: 'Na Linha de Frente',
-        descricao: 'Descrição do filme 17',
+        descricao: 'Eden e Abdel são dois jovens terroristas que planejam um ataque a uma escola em Bruxelas. Porém, na hora do atentado, Abdel se explode antes do combinado e acaba ferindo Eden, que é socorrido por uma ambulância junto com outras vítimas. Os paramédicos não têm ideia de quem é o menino, mas, quando um deles percebe o cinto cheio de explosivos, já é tarde demais: Eden acordou e ameaça explodir a ambulância se os médicos não o fizerem o que ele manda.',
         imdb: 'tt10405760',
         imagem: 'https://image.tmdb.org/t/p/w300/flMRy43ua8UQOkp555xZAQ9fYQn.jpg'
     },
     {
         titulo: 'Um Ato de Fé',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Em 1950, o padre Leopold luta para reviver o cristianismo na Hungria comunista. Sob falsas acusações, ele é preso e submetido a sessões de tortura. Liutant Keller, seu antigo aluno que se voltou contra a igreja, é encarregado de conseguir uma confissão de culpa sua. Mas o poder da fé e da perseverança do padre transformará a vida de todos ao seu redor.',
         imdb: 'tt15321028',
         imagem: 'https://image.tmdb.org/t/p/w300/uMTHUzecoJgAlekqBu6EQDFzZ8E.jpg'
     },
     {
         titulo: 'Um Jantar Quase Perfeito',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Em uma mansão luxuosa de Hollywood, um jantar aparentemente amigável acaba se transformando em noite de terror e violência. A mistura perigosa de álcool, egos, luxúria e diferenças culturais leva os convidados a revelarem seus segredos mais obscuros e fazerem coisas inimagináveis enquanto tentam cumprir o desafio mais difícil de todos: escapar dessa noite com vida.',
         imdb: 'tt8563656',
         imagem: 'https://image.tmdb.org/t/p/w300/17J49tGsoIsBy0GIl7LcH9eR068.jpg'
     },
     {
         titulo: 'The Unseen',
-        descricao: 'Descrição do filme 20',
+        descricao: '',
         imdb: 'tt13304086',
         imagem: 'https://image.tmdb.org/t/p/w300/gHkkHjygqfgLbC8ST3VTdGh2pwd.jpg'
     },
