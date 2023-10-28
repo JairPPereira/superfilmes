@@ -3960,145 +3960,145 @@ var filmes = [
 },
 {
     titulo: 'Transformers',
-    descricao: 'Descrição do filme 1',
+    descricao: 'O destino da humanidade está em jogo quando duas raças de robôs, os Autobots e os vilões Decepticons, chegam à Terra. Os robôs possuem a capacidade de se transformarem em diferentes objetos mecânicos enquanto buscam a chave do poder supremo com a ajuda do jovem Sam.',
     imdb: 'tt0418279',
     imagem: 'https://image.tmdb.org/t/p/w300/ev7IMfMXRbddGLVw7xPL2PHpkWR.jpg'
 },
 {
     titulo: 'A Dança dos Vampiros',
-    descricao: 'Descrição do filme 2',
+    descricao: 'O famoso professor Abronsius (Jack MacGowran) e seu desastrado assistente Alfred (Roman Polanski) viajam para a remota Transilvânia para pesquisar vampiros. Eles são hospedados em uma pousada por Shagal e, logo, o tímido Alfred se apaixona por Sarah, a filha de cabelos ruivos. Quando Sarah é sequestrada pelo misterioso conde von Krolock, o professor Abronsius e Alfred dirigem-se para o seu assustador castelo. A dupla de cientistas é recebida pelo conde e pelo seu alegre filho Herbert que os convidam para um baile de vampiros logo mais a noite.',
     imdb: 'tt0061655',
     imagem: 'https://image.tmdb.org/t/p/w300/nh2lH0pwI3jef2Vm157ZsM9bWv.jpg'
 },
 {
     titulo: 'Transformers: A Vingança dos Derrotados',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Passaram-se dois anos desde que Sam Witwicky e os Autobots salvaram a raça humana e tentam ter uma vida normal: Sam está começando a faculdade, enquanto os Autobots trabalham com uma organização militar secreta e tentam construir uma casa para eles na Terra. Porém, um antigo Decepticon conhecido como The Fallen aparece para se vingar, então Sam e sua namorada Mikaela precisam desvendar a história dos Transformes e achar um caminho para derrotá-lo.',
     imdb: 'tt1055369',
     imagem: 'https://image.tmdb.org/t/p/w300/wZRc6MekG9uD56VtRqQysmHjdeI.jpg'
 },
 {
     titulo: 'Transformers: A Era da Extinção',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Após a batalha entre os Autobots e os Decepticons, que arrasou Chicago, os gigantescos robôs alienígenas desapareceram. Atualmente, eles são caçados pelos humanos, que não desejam passar por apuros novamente. Porém, enquanto a humanidade tenta se recuperar dessa terrível batalha, uma nova ameaça paira sobre a Terra.',
     imdb: 'tt2109248',
     imagem: 'https://image.tmdb.org/t/p/w300/gyDVzU2A8bdK4fsS4rWTsDcPPEB.jpg'
 },
 {
     titulo: 'Transformers: O Lado Oculto da Lua',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Sam Witwicky e sua nova namorada, Carly, entram na briga quando os Decepticons renovam sua guerra contra os Autobots. Optimus Prime acredita que ressuscitar o antigo Transformer Sentinel Prime, ex-líder dos Autobots, pode levar à vitória. Essa decisão tem consequências devastadoras e a guerra parece pender a favor dos Decepticons, causando um conflito épico em Chicago.',
     imdb: 'tt1399103',
     imagem: 'https://image.tmdb.org/t/p/w300/1B1o592zAr0pny4qPGceT56Ug2m.jpg'
 },
 {
     titulo: 'Ponto Final: Match Point',
-    descricao: 'Descrição do filme 6',
+    descricao: 'O instrutor de tênis Chris Wilton se casa com a jovem Chloé para conseguir um cargo na empresa do sogro milionário, mas começa a traí-la com Nola Rice, a sensual noiva americana do cunhado, que ameaça expor o romance.',
     imdb: 'tt0416320',
     imagem: 'https://image.tmdb.org/t/p/w300/tefwQtylm6045V3jO5GJWdeQ0SQ.jpg'
 },
 {
     titulo: 'Transformers: O Último Cavaleiro',
-    descricao: 'Descrição do filme 7',
+    descricao: 'Optimus Prime encontra seu planeta natal, Cybertron, agora um planeta morto, e descobre que foi responsável por matá-lo. Ele encontra uma maneira de trazer o planeta de volta à vida, mas para isso precisa encontrar um artefato que está na Terra.',
     imdb: 'tt3371366',
     imagem: 'https://image.tmdb.org/t/p/w300/iQ3Ko9GuKmGUHe5gFVSoR5NyOPT.jpg'
 },
 {
     titulo: 'Bom Comportamento',
-    descricao: 'Descrição do filme 8',
+    descricao: 'O plano de Constantine Nikas era assaltar um banco e descolar uma boa quantia em dinheiro, mas nada sai como o planejado e seu irmão mais novo acaba sendo preso. Decidido a resgatá-lo, Constantine embarca em uma perigosa corrida contra o relógio, onde ele mesmo é o próximo alvo da polícia.',
     imdb: 'tt4846232',
     imagem: 'https://image.tmdb.org/t/p/w300/lbuGKMPrnFa0xxukS8gk9jfyqpY.jpg'
 },
 {
     titulo: 'Cosmópolis',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Ao longo de um único dia catastrófico, um gestor de ativos bilionário de 28 anos atravessa a cidade de Nova Iorque na sua limusine para cortar o cabelo. Durante a viagem de carro, os encontros íntimos, o engarrafamento e a morte de uma estrela de rap perturbam a sua realidade.',
     imdb: 'tt1480656',
     imagem: 'https://image.tmdb.org/t/p/w300/nWCaRAY5ihCBZQHRXh6yTnplWYB.jpg'
 },
 {
     titulo: 'King Cobra',
-    descricao: 'Descrição do filme 10',
+    descricao: '',
     imdb: 'tt0138797',
     imagem: 'https://image.tmdb.org/t/p/w300/p5s5Vt1RLiqI3HQ9WaDm32e8zWH.jpg'
 },
 {
     titulo: 'Cinquenta Tons de Cinza',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Anastasia Steele (Dakota Johnson) é uma estudante de literatura de 21 anos, recatada e virgem. Uma dia ela deve entrevistar para o jornal da faculdade o poderoso magnata Christian Grey (Jamie Dornan). Nasce uma complexa relação entre ambos: com a descoberta amorosa e sexual, Anastasia conhece os prazeres do sadomasoquismo, tornando-se o objeto de submissão do sádico Grey.',
     imdb: 'tt2322441',
     imagem: 'https://image.tmdb.org/t/p/w300/t4kR6H71anOV85qzjOLlr9uVdFJ.jpg'
 },
 {
     titulo: 'A Caminho da Lua',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Uma garota constrói uma nave espacial e parte rumo ao espaço à procura da deusa da lua.',
     imdb: 'tt7488208',
     imagem: 'https://image.tmdb.org/t/p/w300/7jalZ1oVkuuVXek0B2BKrFWMUv9.jpg'
 },
 {
     titulo: 'Vida de Inseto',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Flik é uma formiga cheia de ideias que, em nome dos "insetos oprimidos de todo o mundo", precisa contratar guerreiros para defender sua colônia de um faminto bando de gafanhotos liderado por Hopper. Mas quando descobrem que o exército de insetos é na verdade um fracassado grupo de atores de um circo de pulgas, o cenário está armado para divertidas confusões... com estes improváveis heróis.',
     imdb: 'tt0120623',
     imagem: 'https://image.tmdb.org/t/p/w300/twzLdfNxyAa5xQWLLVQyapSqJJP.jpg'
 },
 {
     titulo: 'O Zoológico de Varsóvia',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Polônia, 1939. O zoológico de Varsóvia é mantido sob o comando de Jan Zabinski e cuidados de Antonina, sua esposa. Quando o país é invadido pelos nazistas, eles são forçados a se reportar para o zoologista, Lutz Heck. Logo, Jan e Antonina começam a trabalhar com a resistência e planejam salvar centenas de vidas ameaçadas pela invasão.',
     imdb: 'tt1730768',
     imagem: 'https://image.tmdb.org/t/p/w300/6hM1XynlvPHvRD5dIKE883YXBS2.jpg'
 },
 {
     titulo: 'Os Fantasmas se Divertem',
-    descricao: 'Descrição do filme 15',
+    descricao: 'O casarão de uma dupla de fantasmas super atrapalhados foi invadido por novaiorquinos sofisticados. Para espantá-los, eles contratam um profissional: um fantasma especialista em assustar humanos (Michael Keaton), que vai tentar de tudo - adotar formas estranhas, armar ciladas e engraçadíssimas armadilhas. Dirigido por Tim Burton, Os Fantasmas se Divertem é uma comédia hilariante, vencedora do OSCAR de melhor maquiagem em 1988 que ainda conta com um elenco de estrelas: Alec Baldwin, Geena Davis e Winona Ryder. Crie coragem e invoque os espíritos. Você terá uma experiência inesquecível!',
     imdb: 'tt0094721',
     imagem: 'https://image.tmdb.org/t/p/w300/yUBUbtdeUxFK8CWyuV3Ca37LpiQ.jpg'
 },
 {
     titulo: 'Batman: A Piada Mortal',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Do produtor executivo Bruce Timm e baseado na aclamada graphic novel da DC Comics, “Batman: A Piada Mortal” é uma jornada adentro da sombria psique do Príncipe Palhaço do Crime. Acompanhando desde o seu humilde começo, quando era um comediante esforçado, até seu fatídico encontro com o Cavaleiro das Trevas, que mudou tudo. Agora fugitivo do Asilo Arkham, o Coringa planeja provar para todos que um dia ruim é capaz de tornar qualquer um tão insano quanto ele.',
     imdb: 'tt4853102',
     imagem: 'https://image.tmdb.org/t/p/w300/coBGOvmAfSVC5nnmsSm6RO4YMXx.jpg'
 },
 {
     titulo: 'Casal Improvável',
-    descricao: 'Descrição do filme 17',
+    descricao: 'O jornalista Fred Flarsky reencontra sua paixão de infância, Charlotte Field, agora uma das mulheres mais influentes do mundo. Enquanto se prepara para tentar a presidência, Charlotte contrata Fred como seu redator de discursos.',
     imdb: 'tt2139881',
     imagem: 'https://image.tmdb.org/t/p/w300/wt050OjvLsiP2pS39CvsKuNLwcp.jpg'
 },
 {
     titulo: 'InuYasha 1: Sentimentos que Transcendem o Tempo',
-    descricao: 'Descrição do filme 18',
+    descricao: 'A história é interessante,e conta com três novos personagens: Menomaru e suas ajudantes Hari e Ruri. Ela gira em torno do triângulo Kagome-Inuyasha-Kikyou. No entanto,os traços do filme estão bastante diferentes que os do mangá, fielmente seguido pelo anime-o que pode desagradar a muitos fãs. Já o design do Menomaru, este foi projetado pela própria Rumiko-sensei. A história conta os embates entre Inuyasha-Kagome e Menomaru por causa da insana busca deste por mais poderes.Fortalecimento, seqüestros,batalhas,perseguições e fraquezas permeiam todo este longa metragem.',
     imdb: 'tt0322645',
     imagem: 'https://image.tmdb.org/t/p/w300/krSgIB3AD35sKh9iXT5x7Io1xHF.jpg'
 },
 {
     titulo: 'InuYasha 2: O Castelo das Ilusões Dentro do Espelho',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Com seu maior inimigo supostamente derrotado, InuYasha e seus amigos retornam à rotina do dia-a-dia. Mas a paz é logo abalada pela chegada de um novo adversário.',
     imdb: 'tt0366621',
     imagem: 'https://image.tmdb.org/t/p/w300/u8zFbyQnIKRRPxRRweQ6ODtAUhc.jpg'
 },
 {
     titulo: 'InuYasha 3: A Espada Dominadora do Mundo',
-    descricao: 'Descrição do filme 20',
+    descricao: 'O Grande Youkai Canino deixou duas das três espadas das presas para seus dois filhos, mas agora o poder malévolo da terceira espada foi despertado.',
     imdb: 'tt0396659',
     imagem: 'https://image.tmdb.org/t/p/w300/kDN5vNEuNNvkNo4tSygGfGYHfDi.jpg'
 },
 {
     titulo: 'Pavilhão 7',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Em 1944, o capitão. Josiah J. Newman é o médico responsável pelo Pavilhão 7, a ala neuropsiquiátrica, em um hospital da Força Aérea Americana, no Arizona. O hospital está com poucos recursos e Newman surrupia o que precisa com a ajuda de sua equipe criativa, especialmente o Cabo Jake Leibowitz. Os militares, em geral, estão apenas começando a aceitar transtornos psiquiátricos como uma doença legítima e Newman geralmente tem 6 semanas para curá-los ou enviá-los para outra unidade. Há muitos pacientes na enfermaria e seus mais recentes incluem o coronel Norville Bliss que está dissociado do seu passado; o Cap. Paul Winston, que ficou quase catatônico depois de passar 13 meses escondidos em um porão por trás das linhas inimigas; e o Cabo de 20 anos de idade. Jim Tompkins que ficou severamente traumatizado após seu avião ser abatido.',
     imdb: 'tt0056903',
     imagem: 'https://image.tmdb.org/t/p/w300/ovXBWbk3YjOZB5cmiTvdNaDYGKu.jpg'
 },
 {
     titulo: 'A Espiã Que Sabia de Menos',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Analista interna da CIA, Susan Cooper está prestes a tornar-se a mais nova – e improvável – arma secreta do governo dos EUA. Quando seu parceiro fica fora de combate e outro agente tem sua situação comprometida, Susan se candidata para participar de uma operação, como agente disfarçada, e prender o chefe do tráfico de armas.',
     imdb: 'tt3079380',
     imagem: 'https://image.tmdb.org/t/p/w300/bft6EuB96z0ureK832edqwAplDS.jpg'
 },
 {
     titulo: 'As Ruínas',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Curtindo as férias no México, um grupo de amigos vai enfrentar o maior pesadelo quando um turista os convence a penetrar num floresta e participar de uma escavação arqueológica. Eles só não esperavam que algo demoníaco vive sob as ruínas.',
     imdb: 'tt0963794',
     imagem: 'https://image.tmdb.org/t/p/w300/yZg6812ZI9MXWUI4NQMb1JyRYpk.jpg'
 },
 {
     titulo: 'Sangue Negro',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Daniel Plainview e seu filho são caçadores de petróleo, que perfuram poços na Califórnia no início do século XX. Eles são desafiados por um jovem pastor, Eli Sunday, cuja ambição pessoal é confrontada por Plainview. A luta entre os dois é o centro dessa conflitante, trágica e histórica jornada ao abismo da loucura causada pela corrupção, fraude e petróleo.',
     imdb: 'tt0469494',
     imagem: 'https://image.tmdb.org/t/p/w300/cOEbxHAm8CfbpAE9fKv9vTZaWeL.jpg'
 },
