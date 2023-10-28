@@ -1,5 +1,251 @@
 var filmes = [
     {
+        titulo: 'Five Nights at Freddys - O Pesadelo Sem Fim',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt4589218',
+        imagem: 'https://image.tmdb.org/t/p/w300/1yUbmAiw2cUSpyXNIaiST7JzCtG.jpg'
+    },
+    {
+        titulo: 'Desvio de Conduta',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt5915444',
+        imagem: 'https://image.tmdb.org/t/p/w300/1dJuX3YlWxfK54r6GbTaxoEwgGA.jpg'
+    },
+    {
+        titulo: 'Dignitate',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt10816420',
+        imagem: 'https://image.tmdb.org/t/p/w300/gatofk9nify9JpBBURFbjLqpIpV.jpg'
+    },
+    {
+        titulo: 'Do Outro Lado da Fronteira',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt4072296',
+        imagem: 'https://image.tmdb.org/t/p/w300/1z8PDr9hiM4LHmOSU26fibuSer5.jpg'
+    },
+    {
+        titulo: 'É Culpa da Alegria',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt3009772',
+        imagem: 'https://image.tmdb.org/t/p/w300/sp2JMBYeOAPf38zAGSF0cNyEhtW.jpg'
+    },
+    {
+        titulo: 'Encontrando o Caminho',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt7838654',
+        imagem: 'https://image.tmdb.org/t/p/w300/fTfac1Oy6gm0jWEsxzH94fMRi8l.jpg'
+    },
+    {
+        titulo: 'Era Uma Vez em Londres',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt4444956',
+        imagem: 'https://image.tmdb.org/t/p/w300/8SSEYwqCYNJDjhRbXR93DNEEKWX.jpg'
+    },
+    {
+        titulo: 'Everything Is Both',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt14783444',
+        imagem: 'https://image.tmdb.org/t/p/w300/7U4nNHX1PQjSto9XMIAucv83TmF.jpg'
+    },
+    {
+        titulo: 'Family History Mysteries: Buried Past',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt23870962',
+        imagem: 'https://image.tmdb.org/t/p/w300/tNLKLnpu5byyekxPsV0Lbpr1GTG.jpg'
+    },
+    {
+        titulo: 'Guerreiro Virtual',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt18933046',
+        imagem: 'https://image.tmdb.org/t/p/w300/5ITRvcMqKUETNskzw2mcU6C9k6d.jpg'
+    },
+    {
+        titulo: 'Histórias de Meninas',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt10434142',
+        imagem: 'https://image.tmdb.org/t/p/w300/aGeud4Kor6RKhx2jXWyDo7Dyryy.jpg'
+    },
+    {
+        titulo: 'Hudson – Os Altos e Baixos da Vida',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt7391126',
+        imagem: 'https://image.tmdb.org/t/p/w300/50srGK3wzqcKz7po5OQ7fn43CLf.jpg'
+    },
+    {
+        titulo: 'Impuros: O Filme',
+        descricao: 'Descrição do filme 13',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/9UFRFJ8PoXdy1OA6XW0i1hGjyFF.jpg'
+    },
+    {
+        titulo: '纹身',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt8619856',
+        imagem: 'https://image.tmdb.org/t/p/w300/o9KJmNTMM9wlWFZ8yTEgewxS2sE.jpg'
+    },
+    {
+        titulo: 'Já Estou Te Vendo',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt21938086',
+        imagem: 'https://image.tmdb.org/t/p/w300/wOPgbD5xTjbRCcGAJ6k3rQJk11O.jpg'
+    },
+    {
+        titulo: 'Kursk: A Última Missão',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt4951982',
+        imagem: 'https://image.tmdb.org/t/p/w300/e2IfN9oSfu7n1raLplXx4hjRdUc.jpg'
+    },
+    {
+        titulo: 'Maior que o Mundo',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt7265272',
+        imagem: 'https://image.tmdb.org/t/p/w300/4kBYriZGKavfk27qg2IBsVO6Xan.jpg'
+    },
+    {
+        titulo: 'Luciferina',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt8072078',
+        imagem: 'https://image.tmdb.org/t/p/w300/jDjiT5dVwL0B3CgBHhBQo9yB1Yv.jpg'
+    },
+    {
+        titulo: 'Missão Despedida de Solteira',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt13250314',
+        imagem: 'https://image.tmdb.org/t/p/w300/3u8wB2GbfwLfmsN0Ihta7YZdb9T.jpg'
+    },
+    {
+        titulo: '落魄保镖之危机疑云',
+        descricao: 'Descrição do filme 20',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/gGP1goqJGGPD2YMp6YLxtmHW1WX.jpg'
+    },
+    {
+        titulo: 'Desencontros Amorosos',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt9011040',
+        imagem: 'https://image.tmdb.org/t/p/w300/43PGEGYAvgpUE9EvET2YkfITWU7.jpg'
+    },
+    {
+        titulo: 'Verão 2003',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt7284204',
+        imagem: 'https://image.tmdb.org/t/p/w300/yGWszbTJRmQVJv98abEyfdLOsHh.jpg'
+    },
+    {
+        titulo: 'Vingança em Duas Rodas',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt13930868',
+        imagem: 'https://image.tmdb.org/t/p/w300/essd7DICfIsaE5iJgwdDr03vygy.jpg'
+    },
+    {
+        titulo: 'Você Não Está Sozinha',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt6332158',
+        imagem: 'https://image.tmdb.org/t/p/w300/m2IJvRrBm3oxdL0vCvSZsgkWEHC.jpg'
+    },
+    {
+        titulo: 'A Cor da Vingança',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt2793072',
+        imagem: 'https://image.tmdb.org/t/p/w300/w65phx3T8pvrdtuOQFniNElssNr.jpg'
+    },
+    {
+        titulo: 'Women Is Losers',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt9024096',
+        imagem: 'https://image.tmdb.org/t/p/w300/8Q0nxmmRvCpUiO9HuUvFV4khIQa.jpg'
+    },
+    {
+        titulo: 'A Fuga do Prisioneiro 614',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt7375578',
+        imagem: 'https://image.tmdb.org/t/p/w300/t9l2H6uOsGBUPT4rWmv98TM6fOn.jpg'
+    },
+    {
+        titulo: 'A Última Fronteira do Oeste',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt6275002',
+        imagem: 'https://image.tmdb.org/t/p/w300/56aYP5usPlSwq95Cn4GZCNdBM0o.jpg'
+    },
+    {
+        titulo: 'Akhirat: A Love Story',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt12993456',
+        imagem: 'https://image.tmdb.org/t/p/w300/rmX7JTxAQOkFKXQL1bxDKsxPB7M.jpg'
+    },
+    {
+        titulo: 'Aldeia Maldita',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt12700358',
+        imagem: 'https://image.tmdb.org/t/p/w300/nf4w2flxKHpzX7C2OCTiqzUl9xn.jpg'
+    },
+    {
+        titulo: 'Antes da Tempestade',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt6708828',
+        imagem: 'https://image.tmdb.org/t/p/w300/jlv2NocfTnL9w37Ej2mgrUCyKxk.jpg'
+    },
+    {
+        titulo: 'Apaches: Gangues de Paris',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt13823990',
+        imagem: 'https://image.tmdb.org/t/p/w300/7BnKMBD5WRY3lpVDOHDDuMTIhMs.jpg'
+    },
+    {
+        titulo: 'Arekalar',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt16341216',
+        imagem: 'https://image.tmdb.org/t/p/w300/1EH0sk5v0sHCUXK0WqPXfWgITSa.jpg'
+    },
+    {
+        titulo: 'As Boas Intenções',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt10888554',
+        imagem: 'https://image.tmdb.org/t/p/w300/qhfoHRQSkOb9d9CMWyFqJa8OCib.jpg'
+    },
+    {
+        titulo: 'Brincando de Deus',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt8371236',
+        imagem: 'https://image.tmdb.org/t/p/w300/fwmndae3Q1Cn9aKpfjLxjr2u52d.jpg'
+    },
+    {
+        titulo: 'Caçada Humana',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt8918392',
+        imagem: 'https://image.tmdb.org/t/p/w300/eDdEa740BlFTvSSXj1QlmkUYtQr.jpg'
+    },
+    {
+        titulo: 'Conexão',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt7373818',
+        imagem: 'https://image.tmdb.org/t/p/w300/3kY3rX2qAlZDTpgFnrjmD1XHild.jpg'
+    },
+    {
+        titulo: 'Dampyr: O Filho do Vampiro',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt10315050',
+        imagem: 'https://image.tmdb.org/t/p/w300/msPaqyt06Na9wT6hIyUZak3Smfv.jpg'
+    },
+    {
+        titulo: 'Dashcam',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt15174116',
+        imagem: 'https://image.tmdb.org/t/p/w300/ex7AuAClgyMn3WqZ3nN9L3VksMM.jpg'
+    },
+    {
+        titulo: 'Decisões Extremas',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt7434506',
+        imagem: 'https://image.tmdb.org/t/p/w300/nnRl70haLHVPvIey6VvjjuLVDAN.jpg'
+    },
+    {
+        titulo: 'Uma Aula de Harmonia',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt29025883',
+        imagem: 'https://image.tmdb.org/t/p/w300/ioyG44XHBqXpGvbEKkj8ai6vrFZ.jpg'
+    },
+    {
         titulo: 'Um Broto Legal',
         descricao: 'Um Broto Legal conta a história da primeira cantora de rock nacional, Celly Campello. Ela, junto ao seu irmão Tony Campello, tem sua história e trajetória contada, desde Taubaté até outros estados do Brasil.',
         imdb: 'tt21220538',
