@@ -4255,145 +4255,145 @@ var filmes = [
 },
 {
     titulo: 'O Fazendeiro e Deus',
-    descricao: 'Descrição do filme 1',
+    descricao: 'Frank Rautenbach lidera um elenco forte como Angus Buchan, um fazendeiro zambiano de herança escocesa, que deixa sua fazenda em meio a distúrbios políticos e recuperação de terras racialmente carregadas e viaja para o sul com sua família para começar uma vida melhor em KwaZulu Natal, África do Sul.',
     imdb: 'tt0850667',
     imagem: 'https://image.tmdb.org/t/p/w300/ffedCjjDzOYTafremGfkwAuDflM.jpg'
 },
 {
     titulo: 'Gremlins 2: A Nova Geração',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Se passaram cinco anos desde o incidente dos Gremlins em Kingston Falls. Agora Billy e Kate se mudaram para Nova York. Com o falecimento do velho chinês, Gizmo foge da loja e é pego e levado para o mesmo prédio onde Billy trabalha, quando um funcionário da empresa, ao tentar consertar um bebedouro, acaba molhando Gizmo. Logo uma nova espécie de Gremlins é criada e eles logo aprisionam Gizmo. Kate leva para casa um destes novos Gremlins, pensando que é Gizmo. Quando Billy chega em casa e vê que aquele Mogwai não é Gizmo, conclui logo que algo grave aconteceu e algo infinitamente mais grave acontecerá se os Gremlins se alimentarem após a meia-noite.',
     imdb: 'tt0099700',
     imagem: 'https://image.tmdb.org/t/p/w300/hDVXvZoNz6o00I6JCJ99KkLIjmS.jpg'
 },
 {
     titulo: 'Antes do Pôr do Sol',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Um escritor e uma ambientalista, que se conheceram em um trem nove anos atrás, reencontram-se em Paris. Apesar de ambos estarem comprometidos com outras pessoas, percebem que ainda existe um forte sentimento entre os dois.',
     imdb: 'tt0381681',
     imagem: 'https://image.tmdb.org/t/p/w300/6ERp6bGQ9HjfuJqgGkhSljelDCr.jpg'
 },
 {
     titulo: 'Deu a Louca nos Bichos',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Um corretor de imóveis fará de tudo para ser sócio na imobiliária onde trabalha. E dessa vez ele se prontificou a levar o progresso a uma primitiva floresta. Porém, o que ele não esperava é que os animais habitantes da floresta seriam tão hostis, destruindo tudo para que não leve a modernidade à floresta.',
     imdb: 'tt0492389',
     imagem: 'https://image.tmdb.org/t/p/w300/zX95nyovPV4vV8UHR25IfnpjSSw.jpg'
 },
 {
     titulo: 'O Touro Ferdinando',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Ferdinando é um touro com um temperamento calmo e tranquilo, que prefere sentar-se embaixo de uma árvore e relaxar ao invés de correr por aí bufando e batendo cabeça com os outros. A medida que vai crescendo, ele se torna forte e grande, mas com o mesmo pensamento. Quando cinco homens vão até sua fazenda para escolher o melhor animal para touradas em Madri, Ferdinando é selecionado acidentalmente.',
     imdb: 'tt3411444',
     imagem: 'https://image.tmdb.org/t/p/w300/rnoYZvoSbS6uogrESSbKOpwg0sB.jpg'
 },
 {
     titulo: 'A Maldição do Peregrino',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Na tentativa de sua família lembrar de seus privilégios, uma mãe convida um ator vestido de peregrino para passar o Dia de Ação de Graças com eles.',
     imdb: 'tt11045340',
     imagem: 'https://image.tmdb.org/t/p/w300/xRmGjXnUvhszhOkABqEHfWQ7IDk.jpg'
 },
 {
     titulo: 'Pânico VI',
-    descricao: 'Descrição do filme 7',
+    descricao: 'Sam, Tara, Chad e Mindy, os quatro sobreviventes do massacre realizado pelo Ghostface, decidem deixar Woodsboro para trás em busca de um novo começo em uma cidade diferente. Mas não demora muito para eles se tornarem alvo de um novo serial killer mascarado.',
     imdb: 'tt17663992',
     imagem: 'https://image.tmdb.org/t/p/w300/oWPBXgmRxFIeo9Ad4EUye8JWs7v.jpg'
 },
 {
     titulo: '65: Ameaça Pré-Histórica',
-    descricao: 'Descrição do filme 8',
+    descricao: 'Após um acidente catastrófico em um planeta desconhecido, o piloto Mills rapidamente descobre que está preso na Terra há 65 milhões de anos. Agora, com apenas uma chance de resgate, Mills e o único outro sobrevivente, Koa, devem atravessar um terreno desconhecido cheio de perigosas criaturas pré-históricas (incluindo dinossauros) em uma luta épica para sobreviver.',
     imdb: 'tt12261776',
     imagem: 'https://image.tmdb.org/t/p/w300/uMMIeMVk1TCG3CZilpxbzFh0JKT.jpg'
 },
 {
     titulo: 'Luther: O Cair da Noite',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Um terrível serial killer está aterrorizando Londres, enquanto o brilhante, mas desgraçado, detetive John Luther está atrás das grades. Assombrado por seu fracasso em capturar o psicopata cibernético que agora o provoca, Luther decide fugir da prisão para terminar o trabalho por qualquer meio necessário.',
     imdb: 'tt3155298',
     imagem: 'https://image.tmdb.org/t/p/w300/dX7vIS0HfCIJ4l1VEBoSLs9DnLe.jpg'
 },
 {
     titulo: 'Tubarão: Mar de Sangue',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Um grupo de jovens que está passando as férias no México. Depois de uma noite de muita curtição, os amigos furtam dois jetskis e os levam para o alto-mar, mas eles acabam batendo em um acidente terrível. Depois que um dos jetskis afunda, o grupo se encontra a mais de três quilômetros da costa, com um jetski quebrado e um amigo gravemente ferido. Sem poder nada de volta para terra firme e com predadores circulando nas agitadas águas abaixo, o verdadeiro terror começa.',
     imdb: 'tt12550376',
     imagem: 'https://image.tmdb.org/t/p/w300/qUBOPVsMT9OgsUVqZWUBLkgYrb6.jpg'
 },
 {
     titulo: 'O Babadook',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Amelia, viúva e ainda atormentada pela violenta morte do marido, tenta lidar com o medo de monstros que aterroriza seu único filho, o pequeno rebelde Samuel, e enfrenta dificuldades em amar o garoto. Após encontrar um misterioso livro, o menino, certo de que há um monstro que deseja matá-lo, começa a agir irracionalmente para o desespero de sua mãe. Mas logo Amelia percebe que realmente há uma sinistra presença na casa e ao redor deles.',
     imdb: 'tt2321549',
     imagem: 'https://image.tmdb.org/t/p/w300/3dnkHdiyvdUK3oHkxTnjjnNXaq.jpg'
 },
 {
     titulo: 'Os Batutinhas: Uma Nova Aventura',
-    descricao: 'Descrição do filme 12',
+    descricao: 'A trupe mais famosa dos anos 90 está de volta! Spanky (Jet Jurgensmeyer), Alfalfa (Drew Justice), Darla (Eden Wood) e toda a turma agora tem uma nova missão: salvar a confeitaria da Vovó Larson (Doris Roberts) da falência. Após uma série de tentativas atrapalhadas, a maior esperança do grupo está no show de talentos da cidade, onde eles podem ganhar o prêmio de dez mil dólares e impedir os planos de um rico empresário que quer destruiir a confeitaria, e o clubinho dos garotos que fica no quintal, para construir um grande estabelecimento comercial.',
     imdb: 'tt2490004',
     imagem: 'https://image.tmdb.org/t/p/w300/cc4BnONgtqt7FzZbCLh5IqOKHcA.jpg'
 },
 {
     titulo: 'Tempestade',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Durante uma chuva torrencial, que deixa uma pequena cidade totalmente ilhada, Tom (Christian Slater), um guarda de segurança de um carro blindado que ficou preso na chuva, vê assaltantes matarem seu parceiro, pois desejam roubar os US$ 3 milhões que estavam sendo transportados. Tom foge com o dinheiro e o esconde em um cemitério, que já está quase submerso. Porém ele logo depois é preso, sob suspeita de ter roubado o dinheiro. É quando quase todos decidem se apossar da grana, inclusive o xerife local (Randy Quaid), que decidiu ter esta fortuna para sua aposentadoria.',
     imdb: 'tt0120696',
     imagem: 'https://image.tmdb.org/t/p/w300/5JiVOVgzk99xLHiFYI2eJFEfUj3.jpg'
 },
 {
     titulo: 'Loucuras de Verão',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Três famílias acabam na mesma casa alugada. Ao longo do verão, eles se tornam amigos e redescobrem como aproveitar a vida.',
     imdb: 'tt10492998',
     imagem: 'https://image.tmdb.org/t/p/w300/hjAZkGVEh1SlJ0hWfANPYf1GPOh.jpg'
 },
 {
     titulo: 'O Caminho de Volta',
-    descricao: 'Descrição do filme 15',
+    descricao: 'História sobre o técnico de um time basquete de um colégio de ensino médio que anteriormente foi atleta do mesmo esporte. Por conta de vícios, sua carreira promissora como jogador foi tragicamente ao fim, assim como seu relacionamento com sua esposa e a fundação de sua família. Ao tornar-se treinador do time de escola, o ex-atleta tenta encontrar estímulos para seguir em frente e refazer sua vida.',
     imdb: 'tt8544498',
     imagem: 'https://image.tmdb.org/t/p/w300/htwqnN0zyM1zpY9DgO7dWwq4m2S.jpg'
 },
 {
     titulo: 'A Árvore dos Desejos',
-    descricao: 'Descrição do filme 16',
+    descricao: 'O desejo equivocado por neve em uma data especial feito por uma jovem marsupial não apenas congela toda a sua cidade natal, Sanctuary City, como também ameaça a vida de todos os que vivem lá. Antes que a mágica Árvore dos Desejos morra, ela deve empreender uma jornada perigosa pelas terras selvagens; lutar contra a dúvida sobre si mesma, predadores fantasmagóricos e, por fim, Extinção em si, para reverter o dano que causou e salvar sua cidade!',
     imdb: 'tt9239422',
     imagem: 'https://image.tmdb.org/t/p/w300/jbNYpZoe1TMw2L78VGS8NTspAwj.jpg'
 },
 {
     titulo: 'Grease: Nos Tempos da Brilhantina',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Na Califórnia de 1959, a boa moça Sandy e o metido Danny se apaixonam e aproveitam um verão inesquecível na praia. Quando voltam às aulas, eles descobrem que frequentam a mesma escola. Danny lidera a gangue dos T-Birds, um grupo que gosta de jaquetas de couro e muito gel no cabelo, e Sandy passa tempo com as Pink Ladies, lideradas pela firme e sarcástica Rizzo. Quando os dois se reúnem, Sandy percebe que Danny não é o mesmo por quem se apaixonou, e ambos precisam mudar caso queiram ficar juntos.',
     imdb: 'tt0077631',
     imagem: 'https://image.tmdb.org/t/p/w300/r0IDTh1zrhxSZKYRQZjewvsrvUS.jpg'
 },
 {
     titulo: 'O Juiz',
-    descricao: 'Descrição do filme 18',
+    descricao: 'No terceiro milênio, o mundo mudou. O clima, as nações, tudo entrou em revolta e o planeta se transformou em um deserto insalubre e desolado, conhecido como "A Terra Maldita". Milhões de pessoas habitavam as escassas megacidades, onde bandos errantes e selvagens urbanos geravam tamanha violência que o sistema judiciário não podia controlá-los. A lei como conhecemos entrou em colapso. Da decadência surgiu uma nova ordem, uma sociedade regida por uma nova força de elite da polícia, que atua como juiz, júri e carrasco, que são conhecidos como "Os Juízes". Dredd, o mais lendário dos juízes, é vítima de um plano que o incrimina como assassino e acaba banindo-o da cidade onde vive.',
     imdb: 'tt0113492',
     imagem: 'https://image.tmdb.org/t/p/w300/wVLxNo53QniZxxRaYPB3vY7PRFN.jpg'
 },
 {
     titulo: 'Anelka - O incompreendido',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Impenetrável ou incomparável? Este documentário explora as controvérsias que permeiam a vida da estrela do futebol francês Nicolas Anelka.',
     imdb: 'tt12724622',
     imagem: 'https://image.tmdb.org/t/p/w300/q6mk7JtdWu2cUZV7vk6VN7cJNen.jpg'
 },
 {
     titulo: 'McQuade: O Lobo Solitário',
-    descricao: 'Descrição do filme 20',
+    descricao: 'O lendário Ranger do Texas renegado J.J. McQuade é terrível com a arma - mas letal com o seu cinturão negro! Quando a vida da sua filha adolescente é ameaçada por ladrões de estrada na tentativa de roubarem um camião cheio de armas e munições, o serviço torna-se pessoal para McQuade. Pondo a descoberto uma operação de tráfico e venda ilegal de armas a terroristas um pouco por todo o mundo, McQuade fica frente a frente com o rei desta rede gigantesca, Rawley - um nome afamado mundialmente nas artes marciais, por nunca ter perdido um combate! Terá o Ranger o que é necessário para salvar a filha e a honra - ou será que finalmente encontrou um adversário à altura, e consequentemente... a sua própria derrota?',
     imdb: 'tt0085862',
     imagem: 'https://image.tmdb.org/t/p/w300/ddsKrcL7iiK66cJyj3JVyZKdm2q.jpg'
 },
 {
     titulo: 'O Pai que Move Montanhas',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Um agente de inteligência aposentado arrisca a própria vida para salvar o filho que desapareceu no meio da neve durante uma caminhada nas montanhas.',
     imdb: 'tt8886670',
     imagem: 'https://image.tmdb.org/t/p/w300/mFuFgPVuPmcYw0QtTub7HVj77AW.jpg'
 },
 {
     titulo: 'Perfume de Mulher',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Frank é um militar aposentado, cego e impossível de se conviver junto. Sua sobrinha contrata Charlie para cuidar dele no dia de Ação de Graças. Charlie aceita o trabalho para poder pagar por uma viagem de volta pra casa no Natal, porém eles não contavam com a ideia de Frank em passar o dia em Nova York.',
     imdb: 'tt0105323',
     imagem: 'https://image.tmdb.org/t/p/w300/7vYWmKziZCfuXuIesRdVHUtXaLY.jpg'
 },
 {
     titulo: 'Um Crime Americano',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Baseado na história real que chocou a nação em 1965, o filme reconstrói um dos crimes mais chocantes já cometidos a uma só vítima. Sylvia (Ellen Page) e Jennie Fae Likens (Hayley McFarland), as duas filhas de um casal que trabalha com um circo são deixadas para uma estadia demorada em Indianápolis, na casa Gertrude Baniszewski, uma mãe solteira com sete crianças. Tempos difíceis, e as necessidades financeiras de Gerturdes (Catherine Keener), obrigam-na a fazer este arranjo antes de perceber como esta obrigação levará sua natureza instável a um ponto de ruptura.',
     imdb: 'tt0802948',
     imagem: 'https://image.tmdb.org/t/p/w300/vJx8tA2JtEQeEg6wR3uwEgf18hv.jpg'
 },
 {
     titulo: 'O Incrível Homem que Derreteu',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Como único sobrevivente da missão e com o corpo todo coberto de feridas pútridas, ele acorda no leito de um hospital do exército todo enfaixado, com o governo mantendo em sigilo o fracasso da expedição e a morte dos outros dois astronautas, isolando a imprensa e a população dos fatos reais.',
     imdb: 'tt0076191',
     imagem: 'https://image.tmdb.org/t/p/w300/thXkryX2V1A2PkLIR6xkGQpwUgT.jpg'
 },
