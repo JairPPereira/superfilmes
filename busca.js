@@ -7,6 +7,78 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'A Menina Que Matou os Pais: A Confissão',
+        descricao: 'Veja o que Suzane von Richthofen, Daniel Cravinhos e Cristian Cravinhos fizeram nos dias que sucederam o crime brutal que levou o casal Richthofen à morte. Este filme revela momentos cruciais da investigação policial, depoimentos e a confissão do crime.',
+        imdb: 'tt25153888',
+        imagem: 'https://image.tmdb.org/t/p/w300/hcdF2VcSwv4hUGBAhQiZSYw9OeH.jpg'
+    },
+    {
+        titulo: 'O Lado Bom de Ser Traída',
+        descricao: 'Nesta adaptação do livro de Sue Hecker, uma contadora vê a traição do noivo como uma oportunidade de transformar sua vida sexual, resultando em consequências arriscadas.',
+        imdb: 'tt26787296',
+        imagem: 'https://image.tmdb.org/t/p/w300/boPkFKrDSUeRxc9ltZRsuVSdRkz.jpg'
+    },
+    {
+        titulo: 'Golda - A Mulher de uma Nação',
+        descricao: 'Ambientado na Guerra do Yom Kippur, em 1973, o drama mostra como a primeira-ministra Golda Meir conhecida como a “Dama de Ferro” de Israel enfrenta uma possível destruição do Estado, tomando decisões de alto risco, enquanto luta contra o câncer.',
+        imdb: 'tt14454876',
+        imagem: 'https://image.tmdb.org/t/p/w300/7nB9OWfLWbbyfk0MYv2czQCeKZ3.jpg'
+    },
+    {
+        titulo: 'Irmã Morte',
+        descricao: 'Após uma infância milagrosa, Narcisa se torna freira e começa a ensinar meninas em um antigo convento assombrado por uma presença perturbadora',
+        imdb: 'tt19175696',
+        imagem: 'https://image.tmdb.org/t/p/w300/jZXjucSt0SLxZjKa74lvxPsyKeg.jpg'
+    },
+    {
+        titulo: 'LEGO Marvel Vingadores: Código Vermelho',
+        descricao: 'Os Vingadores se reúnem para comemorar sua última vitória, mas a comemoração é rapidamente interrompida pelo misterioso desaparecimento do pai da Viúva Negra, o Guardião Vermelho. À medida que os Vingadores investigam, eles descobrem que o Guardião Vermelho não é o único desaparecido quando encontram um novo inimigo perigoso, muito diferente de tudo que já encontraram antes.',
+        imdb: 'tt28477867',
+        imagem: 'https://image.tmdb.org/t/p/w300/bhs2CZWqoee3JFMvSZd1Vg7HLfL.jpg'
+    },
+    {
+        titulo: 'Máfia da Dor',
+        descricao: 'Uma mãe solo falida, mas ambiciosa, encontra uma oportunidade de ganhar dinheiro vendendo um analgésico potente. Mas até onde ela vai para ficar rica?',
+        imdb: 'tt15257160',
+        imagem: 'https://image.tmdb.org/t/p/w300/m3JAB0LIofPUaka941lyZb7yZlo.jpg'
+    },
+    {
+        titulo: 'ONEFOUR: Contra Tudo e Contra Todos',
+        descricao: 'Este documentário mostra a ascensão meteórica dos primeiros astros do drill na Austrália, que resistiram à pressão da polícia para impedir suas apresentações.',
+        imdb: 'tt28703558',
+        imagem: 'https://image.tmdb.org/t/p/w300/jyGwp6crW97VwexQWuUVmC4CcSO.jpg'
+    },
+    {
+        titulo: 'Organ Trail: Sobrevivência',
+        descricao: 'Uma jovem sozinha no inverno de Montana durante a década de 1870, luta por sua sobrevivência e para recuperar seu único bem terreno: um cavalo da família, que está em posse de uma gangue de bandidos sedentos por sangue.',
+        imdb: 'tt18071972',
+        imagem: 'https://image.tmdb.org/t/p/w300/s9nwiVMOVvnS2Jt6hdy7UHoFSD0.jpg'
+    },
+    {
+        titulo: 'South Park: Joining the Panderverse',
+        descricao: '',
+        imdb: 'tt29474455',
+        imagem: 'https://image.tmdb.org/t/p/w300/6Tr6QdYMQTjmoM0NsZ5L6jM3Yhn.jpg'
+    },
+    {
+        titulo: 'The Adults',
+        descricao: 'Conta a história de Eric que volta para sua cidade natal para visitar suas irmãs, mas seu plano para que a viagem seja curta começa a dar errado quando ele encontra novas formas de avivar seu vício em pôquer. Enquanto permanece na cidade, Eric passa muito tempo de qualidade prometido com suas irmãs e é forçado a encarar que relacionamentos da infância nem sempre se traduzem em conexões na idade adulta.',
+        imdb: 'tt26443107',
+        imagem: 'https://image.tmdb.org/t/p/w300/iA8HDbXgQE6RIEwqCMBZwPbpfxT.jpg'
+    },
+    {
+        titulo: 'Uma Jornada de Fé',
+        descricao: 'Um treinador de beisebol de uma pequena cidade muda sua família para treinar em uma grande escola, mas fica feio quando o superintendente o torna o alvo de sua raiva contra Deus.',
+        imdb: 'tt8110900',
+        imagem: 'https://image.tmdb.org/t/p/w300/t0xbmsuoMRDYVx0hMmQZuFDve09.jpg'
+    },
+    {
+        titulo: 'Um Dia dos Mortos Nada Tradicional',
+        descricao: 'Uma morte repentina reúne as famílias García e San Román. Lidia e Manuel tentam manter vivo o romance, mas Francisco foi morar com eles. Lidia é promovida no emprego, mas isso requer uma mudança para Monterrey. Rosa lida com a memória do marido e tenta encontrar um lugar para Jaime em sua vida. As famílias celebram a memória dos mortos e se preparam para uma vida que nunca mais será a mesma.',
+        imdb: 'tt29621888',
+        imagem: 'https://image.tmdb.org/t/p/w300/xM1yX980L50kjyGuvhykkz4utry.jpg'
+    },
+    {
         titulo: 'The Pod Generation',
         descricao: 'Ambientado em um futuro próximo onde a IA está na moda e a natureza vai se tornando uma memória distante, Rachel e Alvy são um casal de Nova York pronto para levar seu relacionamento para o próximo nível e começar uma família.',
         imdb: 'tt15768848',
