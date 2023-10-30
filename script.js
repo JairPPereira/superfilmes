@@ -4464,145 +4464,145 @@ var filmes = [
 },
 {
     titulo: 'Quarto de Guerra',
-    descricao: 'Descrição do filme 1',
+    descricao: 'Elizabeth (Priscilla Evans Shirer) e Tony (T.C. Stallings) formam um casal em crise de relacionamento. A filha pequena percebe que ambos estão à beira do divórcio, mas eles não conseguem chegar a um acordo. Um dia, Elizabeth conhece uma mulher idosa que lhe apresenta o poder da oração e, a partir deste momento, a jovem mãe decide depositar a sua fé nas preces divinas.',
     imdb: 'tt3832914',
     imagem: 'https://image.tmdb.org/t/p/w300/kyssvvCXc13c9VC7QTWjRo12FyE.jpg'
 },
 {
     titulo: 'Um Grande Garoto',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Will Freeman (Hugh Grant) é um homem na faixa dos trinta anos metido a galã que inventa ter um filho apenas para poder ir às reuniões de pais solteiros, onde tem a oportunidade de conhecer mães também solteiras. Will sempre segue a mesma tática: vive com elas um rápido romance e quando elas começam a falar em compromisso ele acaba o namoro. Até que, em um de seus relacionamentos, Will conhece o jovem Marcus (Nicholas Hoult), um garoto de 12 anos que é completamente o seu oposto e tem muitos problemas em casa e na escola. Com o tempo Will e Marcus se envolvem cada vez mais, aprendendo que um pode ensinar muito ao outro.',
     imdb: 'tt0276751',
     imagem: 'https://image.tmdb.org/t/p/w300/38idKGSXqTUUMy0gqbUfmNOBhwh.jpg'
 },
 {
     titulo: 'Banzé no Oeste',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Rock Ridge é uma pequena cidade do oeste americano onde todos os seus moradores se chamam Johnson. A estrada de ferro está prestes a passar pelo local, o que faz com que Hedley Lamarr (Harvey Korman) aterrorize os moradores. Sua intenção é obter as terras da cidade, que serão bastante valorizadas após a conclusão das obras. Para controlar a situação, o governador William J. Lepetomane (Mel Brooks) contrata um novo xerife, Bart (Cleavon Little). Só que Bart é negro e passa a ser hostilizado pela população racista. Ele recebe apenas a ajuda de Jim (Gene Wilder), conhecido como The Waco Kid, o pistoleiro bêbado mais rápido da região.',
     imdb: 'tt0071230',
     imagem: 'https://image.tmdb.org/t/p/w300/tgPPqdMgOutIGmUnnhJi4uXgtrg.jpg'
 },
 {
     titulo: 'O Exterminador do Futuro 3: A Rebelião das Máquinas',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Na intenção de concluir a missão ainda inacabada, a bela e perigosa máquina mortífera T-X é enviada para matar John Connor, líder da resistência humana contra as máquinas da Skynet. Para protegê-lo mais uma vez o ciborgue T-800 volta à cena.',
     imdb: 'tt0181852',
     imagem: 'https://image.tmdb.org/t/p/w300/lzzuKhx8Ly6SZa8LxkT5Fvouc5z.jpg'
 },
 {
     titulo: 'O Exterminador do Futuro 4: A Salvação',
-    descricao: 'Descrição do filme 5',
+    descricao: 'John Connor é designado para liderar a resistência humana ao domínio das máquinas, coordenadas pela Skynet e seu exército de exterminadores. Quando surge um estranho homem chamado Marcus Wright, cuja última memória que possui é de estar no corredor da morte. John Connor precisa descobrir se ele foi enviado do futuro ou resgatado do passado, ao mesmo tempo em que a Skynet prepara seu ataque definitivo, que pode aniquilar a humanidade.',
     imdb: 'tt0438488',
     imagem: 'https://image.tmdb.org/t/p/w300/tNKoEs9ovTLpJURT9WKJASUDktM.jpg'
 },
 {
     titulo: 'Re/Member',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Seis estudantes japoneses do ensino médio têm que vivenciar o mesmo dia repetidamente: o espírito de uma vítima de assassinato os amaldiçoou e os jovens aparentemente só escaparão da dobra do tempo cada vez mais sangrenta se se envolverem em atividades criminosas. Para fazer isso, eles devem encontrar as partes decepadas dos mortos que foram despejadas em vários locais da área, enquanto figuras horríveis estão atrás deles.',
     imdb: 'tt21250176',
     imagem: 'https://image.tmdb.org/t/p/w300/pRNSIJyGM7cR8xAHee0obKXpzIl.jpg'
 },
 {
     titulo: 'O Preço da Traição',
-    descricao: 'Descrição do filme 7',
+    descricao: 'Catherine, uma médica de sucesso, suspeita que seu marido David, um belo professor de música, está lhe traindo. Para comprovar suas suspeitas ela contrata uma jovem irresistível, Chloe, para testar a fidelidade de David. Mas eventos imprevistos começarão a colocar a família em perigo…',
     imdb: 'tt1352824',
     imagem: 'https://image.tmdb.org/t/p/w300/u0zwbjG47lPFK0dnIajMVUvbNRK.jpg'
 },
 {
     titulo: 'Trovão Azul',
-    descricao: 'Descrição do filme 8',
+    descricao: 'O Trovão Azul é um helicóptero especialmente modificado para trabalho policial, criado para controlar rebeliões. O piloto da polícia que deve ser treinado para comandá-lo tem diferenças com o criador do projeto desde a época do Vietnã, e elas pioram.',
     imdb: 'tt0085255',
     imagem: 'https://image.tmdb.org/t/p/w300/5ZVFskWRNXsOEdUXrfi3JX6ohNr.jpg'
 },
 {
     titulo: 'O Menino que Descobriu o Vento',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Inspirado por um livro de ciências, um garoto constrói uma turbina eólica para salvar seu vilarejo da fome. Baseado em uma história real.',
     imdb: 'tt7533152',
     imagem: 'https://image.tmdb.org/t/p/w300/jZofpz4gmiH7MQAYWrgvTtdIq3l.jpg'
 },
 {
     titulo: 'Pantera Negra',
-    descricao: 'Descrição do filme 10',
+    descricao: 'O príncipe TChalla retorna a Wakanda para ser coroado rei. Assumindo o manto de Pantera Negra, ele vai à caça de um vilão que roubou um precioso metal de seu país.',
     imdb: 'tt1825683',
     imagem: 'https://image.tmdb.org/t/p/w300/9D40jv8pi9uKnrVDPiN3JYYad72.jpg'
 },
 {
     titulo: 'A Guerra do Amanhã',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Em 2051, a humanidade está perdendo uma guerra global contra uma espécie mortal de alienígenas. Para garantir a sobrevivência dos humanos, soldados e civis do presente são transportados para o futuro e se juntam à luta, entre eles Dan Forester, um pai de família determinado a salvar o mundo para sua filha.',
     imdb: 'tt9777666',
     imagem: 'https://image.tmdb.org/t/p/w300/lWQ3hI78Az2RHfzDpEuvougqUz7.jpg'
 },
 {
     titulo: 'Esquema de Risco: Operação Fortune',
-    descricao: 'Descrição do filme 12',
+    descricao: 'O agente secreto Orson Fortune e seus companheiros recrutam uma das maiores estrelas de Hollywood para ajudá-los em uma missão importante - e arriscada. Quando a venda de uma nova tecnologia de armamento mortal ameaça perturbar a ordem mundial, todos os recursos se mostram necessários para combater esse inimigo.',
     imdb: 'tt7985704',
     imagem: 'https://image.tmdb.org/t/p/w300/fLxXvMcpsK8fGKguP3wZ7Urb2ao.jpg'
 },
 {
     titulo: 'O Homem da Meia Noite',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Grady (Will Kemp) é um assassino com uma doença genética que o torna imune a sensação física da dor. Após ser enviado para uma missão e ser atacado, ele acorda e descobre que o seu poderoso dom se foi. Agora com o relógio contando as horas, ele precisará vencer seus maiores medos e dominar um mundo antes desconhecido para vencer seus terríveis inimigos que não economizarão esforços para lhe infligirem dor e pânico.',
     imdb: 'tt3685586',
     imagem: 'https://image.tmdb.org/t/p/w300/mNdzxgctIds9uLDbwGGmFj7kd2F.jpg'
 },
 {
     titulo: 'Vestida Para Matar',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Um terapeuta de Manhattan, o Dr. Robert Elliott, enfrenta o momento mais aterrorizante de sua vida, quando um assassino psicopata começa a atacar as mulheres de sua vida - usando uma navalha roubada de seu escritório. Desesperado para encontrar o assassino antes que outra pessoa seja ferida, Elliott logo se vê envolvido em um mundo de escusos e perturbadores desejos.',
     imdb: 'tt0080661',
     imagem: 'https://image.tmdb.org/t/p/w300/3wlVVkyxACA2yB4mxZZYS05kXnH.jpg'
 },
 {
     titulo: 'Tony Parker - Entre os Maiores',
-    descricao: 'Descrição do filme 15',
+    descricao: 'O histórico e a carreira de Tony Parker, cuja determinação o levou a se tornar indiscutivelmente o maior jogador de basquete francês.',
     imdb: 'tt13696668',
     imagem: 'https://image.tmdb.org/t/p/w300/p4lqK6xugHQNXmhKkoDHbi9a7BD.jpg'
 },
 {
     titulo: 'O Crime de Georgetown',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Inspirado no artigo de Franklin Foer para a New York Times Magazine, o filme vai acompanhar Albrecht Muth, um excêntrico alpinista social que seduz e se casa com uma viúva rica e mais velha, Viola Drath. Juntos, Muth e Drath passam a sediar eventos pomposos para a alta sociedade e ingressam nos círculos políticos mais privilegiados — ocasiões em que Muth mentirá extensivamente sobre um passado que só virá à tona quando Drath for encontrada morta, em Georgetown.',
     imdb: 'tt4669252',
     imagem: 'https://image.tmdb.org/t/p/w300/iOWbf5oPwCpUznpXJD2snOODprk.jpg'
 },
 {
     titulo: 'A Porteira',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Uma mulher retorna do combate e faz amizade com uma família em Nova York. Quando uma quadrilha de ladrões planeja levar os objetos de valor da família, ela luta para defender a família.',
     imdb: 'tt6222118',
     imagem: 'https://image.tmdb.org/t/p/w300/lh9jmB0FVXjjs4z9ehX6O5wN915.jpg'
 },
 {
     titulo: 'Jogos Entre Amigos',
-    descricao: 'Descrição do filme 18',
+    descricao: 'Um grupo de amigos se reencontra para jogar o Buddy Game. Essa é uma variedade selvagem de desafios físicos e mentais absurdos. No processo, eles curam feridas antigas e logo após os erros descobrem o verdadeiro significado da amizade - ou morrem tentando.',
     imdb: 'tt7070818',
     imagem: 'https://image.tmdb.org/t/p/w300/qrFr8NVI5EuHbCn5dDpO2fNPhSg.jpg'
 },
 {
     titulo: 'Em Busca da Fama',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Arielle é uma sonhadora azarada que anseia por popularidade. Dean é um ex-presidiário que trabalha para seu pai abusivo. Os dois têm uma conexão instantânea, e após a morte acidental do pai de Dean, são forçados a fugir.',
     imdb: 'tt7703924',
     imagem: 'https://image.tmdb.org/t/p/w300/rsC7KMIRVCyCfDhogZm8Ovg9war.jpg'
 },
 {
     titulo: 'O Guardião dos Mundos',
-    descricao: 'Descrição do filme 20',
+    descricao: 'O jovem moscovita Kirill é um talentoso designer de jogos de computador. Um dia, ele é completamente apagado da memória de todos que ele conhecia e amava. Kirill descobre que ele foi escolhido para uma missão importante e misteriosa: tornar-se um funcionário da alfândega entre mundos paralelos, dos quais existem dezenas no universo. Kirill desvendará o mistério desses mundos e quem os controla? E a nossa Terra é realmente apenas um rascunho imaginário - um mundo paralelo - que na realidade não existe ...',
     imdb: 'tt6270596',
     imagem: 'https://image.tmdb.org/t/p/w300/6McPx1oITdAFuaDlzl5NRCrcTOO.jpg'
 },
 {
     titulo: 'Até as Últimas Consequências',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Quatro amigas (Jada Pinkett Smith, Queen Latifah, Kimberly Elise e Vivica A. Fox.) estão passando por um período de adversidades em suas vídas, que incluem traumas como perda de familiares e severas dificuldades financeiras. Para saírem desse inferno, elas decidem assaltar um banco. A empreitada criminosa é bem sucedida, mas o quarteto precisará lidar com o cerco armado pela polícia.',
     imdb: 'tt0117603',
     imagem: 'https://image.tmdb.org/t/p/w300/g6v8HNLCw03b0y022czoPOyww8C.jpg'
 },
 {
     titulo: 'Destemida',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Talento e paixão pela música podem levar um ao topo. No caminho, no entanto, haverá armadilhas do showbiz.',
     imdb: 'tt11692986',
     imagem: 'https://image.tmdb.org/t/p/w300/sYZafUrWu2Oj6gOMa4b6mzg0blp.jpg'
 },
 {
     titulo: 'Mank',
-    descricao: 'Descrição do filme 23',
+    descricao: 'A Hollywood da década de 1930 é vista pelo olhar crítico do roteirista Herman J. Mankiewicz, em meio aos seus esforços para terminar o roteiro de Cidadão Kane.',
     imdb: 'tt10618286',
     imagem: 'https://image.tmdb.org/t/p/w300/4yzTcAtvzyZLLto4z04xobUK9el.jpg'
 },
 {
     titulo: 'Pode Guardar um Segredo?',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Emma Corrigan é uma mulher cheia de segredos e acaba contando todos eles para um estranho, durante uma viagem turbulenta de avião, com medo de morrer. O que a protagonista não esperava era que tal homem, com conhecimento sobre todos os detalhes humilhantes sobre ela, seria Jack Harper, o novo presidente da empresa onde trabalha.',
     imdb: 'tt8707922',
     imagem: 'https://image.tmdb.org/t/p/w300/ohVc9Y5cFLGyEf4941U1ox2l2Dp.jpg'
 },
