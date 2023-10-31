@@ -4615,97 +4615,97 @@ var filmes = [
 },
 {
     titulo: 'Acredite em Mim: A História de Lisa Mcvey',
-    descricao: 'Descrição do filme 1',
+    descricao: 'Na noite em que planeja tirar a própria vida, uma garota de 17 anos é sequestrada e se vê lutando para se manter viva. Ela consegue convencer seu agressor a libertá-la, mas quando ela volta para casa ninguém acredita em sua história, exceto por um detetive, que suspeita que ela tenha sido sequestrada por um serial killer.',
     imdb: 'tt9072202',
     imagem: 'https://image.tmdb.org/t/p/w300/uvHhYA3dpSX13KB0rtr1awgHT1r.jpg'
 },
 {
     titulo: 'The Minute You Wake Up Dead',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Um corretor da bolsa em uma pequena cidade do sul que se envolve em um golpe de seguro com um vizinho que leva a vários assassinatos.',
     imdb: 'tt11833408',
     imagem: 'https://image.tmdb.org/t/p/w300/pUPwTbnAqfm95BZjNBnMMf39ChT.jpg'
 },
 {
     titulo: 'O Cão e a Raposa',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Raposa e cão crescem juntos como amigos, mas descobrem aos poucos que são inimigos na ordem natural das coisas. Quando adultos, põe a amizade em jogo.',
     imdb: 'tt0082406',
     imagem: 'https://image.tmdb.org/t/p/w300/AgLaNr1DEEKUvBlWmfk3NiLdpJp.jpg'
 },
 {
     titulo: 'Cidade dos Sonhos',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Uma jovem atriz viaja para Hollywood e se vê emaranhada numa intriga secreta com uma mulher que escapou por pouco de ser assassinada, e que agora se encontra com amnésia devido a um acidente de carro. Seu mundo se torna um pesadelo e surreal.',
     imdb: 'tt0166924',
     imagem: 'https://image.tmdb.org/t/p/w300/bqsgFIMKsWyba6XDaZLKoaeNk7r.jpg'
 },
 {
     titulo: 'Uma Garota Encantada',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Ella ganha o dom da obediência de sua madrinha. Após seu pai se casar novamente, sua vida piora ainda mais. Sua madrasta Olga e as filhas dela descobrem que Ella está sob o efeito do dom da obediência e passam a explorá-la cada vez mais. Decidida a mudar de vida, a garota sai de casa e inicia uma viagem para reencontrar sua madrinha, pois apenas ela pode desfazer o feitiço. No caminho, ela encontra o elfo Slannen, que decide acompanhar a viagem de Ella, e o Príncipe Char, por quem se apaixona.',
     imdb: 'tt0327679',
     imagem: 'https://image.tmdb.org/t/p/w300/z8erzsD2aMQwo6W309oM19g7qMF.jpg'
 },
 {
     titulo: 'O Misterioso Assassinato de Uma Família',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Em 4 de abril de 2010, a familia Quintanilla foi encontrada morta em sua casa de campo. A polícia relatou a existência de 37 horas de evidências em vídeos. "O Misterioso Assassinato de Uma Família" mostra as imagens reais dessas evidências. A família Quintanilla viajou para sua casa na fazenda em Sitges, onde Christian e July investigam sobre A Lenda da Garota na Floresta Garraf. Ambos gravavam qualquer coisa que faziam. No quinto dia de sua chegada,foram encontrados mortos em circunstâncias estranhas. O filme mostra os últimos 5 dias de Cristian Quintanilla e seus irmãos. Também mostra as estranhas situações que viveram, que continuam sem explicações.',
     imdb: 'tt1734067',
     imagem: 'https://image.tmdb.org/t/p/w300/oaDnDWYendYQ8peqplOOE1V3keS.jpg'
 },
 {
     titulo: 'Pequena Grande Vida',
-    descricao: 'Descrição do filme 7',
+    descricao: 'Na cidade de Omaha, as pessoas descobrem a possibilidade de reduzir de tamanho para uma versão minúscula, a fim de terem menos gastos vivendo em pequenas comunidades que se espalham pelo mundo. Encantado após ter contato com amigos que passaram por pelo processo, um homem (Matt Damon) decide convencer sua esposa (Kristen Wiig) a adotar o curioso novo estilo econômico de vida.',
     imdb: 'tt1389072',
     imagem: 'https://image.tmdb.org/t/p/w300/8P3Z0UEvx03Iqh8yHD54Tr16Dcv.jpg'
 },
 {
     titulo: 'Na Selva',
-    descricao: 'Descrição do filme 8',
+    descricao: 'O mochileiro israelense Yossi Ghinsberg, acompanhado de dois amigos, viaja até a cidade de La Paz, na Bolívia, para o que seria uma aventura inesquecível. Guiados pelos caminhos desconhecidos da Amazônia por um austríaco que mora no local há anos, os amigos embarcam numa viagem pela selva que se transforma em uma das mais assustadores jornadas de suas vidas.',
     imdb: 'tt3758172',
     imagem: 'https://image.tmdb.org/t/p/w300/ztVMXVNCIYK0CgXOjEmJlWupn95.jpg'
 },
 {
     titulo: 'O Pior Vizinho do Mundo',
-    descricao: 'Descrição do filme 9',
+    descricao: 'A história de Otto Anderson, um viúvo mal-humorado que está muito preso aos seus hábitos. Quando uma jovem família animada se muda ao lado, ele conhece sua igual em Marisol, esperta e grávida, o que leva a uma amizade improvável que vai deixar o mundo de Otto de cabeça para baixo.',
     imdb: 'tt7405458',
     imagem: 'https://image.tmdb.org/t/p/w300/oXHNdN1hjg6RFQ5NP618KSAIrdE.jpg'
 },
 {
     titulo: 'No Ritmo do Coração',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Como CODA (Filhos de Adultos Surdos), Ruby é a única pessoa com audição em sua família. Quando o negócio de pesca da família é ameaçado, Ruby se vê dividida entre seguir seu amor pela música e seu medo de abandonar seus pais.',
     imdb: 'tt10366460',
     imagem: 'https://image.tmdb.org/t/p/w300/rnEcFnQYgZ6mmxeeaEeLNSZdgD8.jpg'
 },
 {
     titulo: 'Extraordinário',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Auggie Pullman é um garoto que nasceu com uma deformação facial. Pela primeira vez, ele irá frequentar uma escola regular, como qualquer outra criança. No quinto ano, ele irá precisar se esforçar para conseguir se encaixar em sua nova realidade.',
     imdb: 'tt2543472',
     imagem: 'https://image.tmdb.org/t/p/w300/eB1vhoNrN2oR82fxsHp7vvLgMhz.jpg'
 },
 {
     titulo: 'A Cor Púrpura',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Em 1906, em uma pequena cidade da Georgia, sul dos Estados Unidos, a quase adolescente Celie, violentada pelo próprio pai, torna-se mãe de duas crianças. Separada dos filhos, Celie (Whoopi Goldberg, que foi indicada ao Oscar de melhor atriz por este filme em 1985), é doada à Mister (Danny Glover, de Máquina Mortífera), que a trata como companheira e escrava ao mesmo tempo. Cada vez mais calada e solitária, Celie passa a compartilhar sua tristeza em carta.',
     imdb: 'tt0088939',
     imagem: 'https://image.tmdb.org/t/p/w300/xMiXnyVOIM8ZXr1DlnsKKcwHuil.jpg'
 },
 {
     titulo: 'Bem-vindo à Selva',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Travis (Seann William Scott) é um jovem de família rica que foi para a Amazônia em busca de uma mina de ouro perdida, popularmente chamada de Helldorado. Para encontrá-lo sua família contrata Beck (The Rock), que parte para o Brasil à sua busca. Após alguns desentendimentos iniciais, Travis convence Beck a ajudá-lo em sua busca. Porém eles precisarão enfrentar Hatcher (Christopher Walken), o chefe de uma mineradora, que também está em busca de Helldorado.',
     imdb: 'tt0327850',
     imagem: 'https://image.tmdb.org/t/p/w300/5CgCYCiObKgst1UIdqibU8ZeKAX.jpg'
 },
 {
     titulo: 'Comer, Rezar, Amar',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Elizabeth (Julia Roberts) descobre que sempre teve problemas nos seus relacionamentos amorosos. Um dia, ela larga tudo, marido, trabalho, amigos, decidida a viver novas experiências em lugares diferentes por um ano inteiro. E parte para a Índia, Itália e Bali, para se reencontrar numa grande viagem de auto conhecimento.',
     imdb: 'tt0879870',
     imagem: 'https://image.tmdb.org/t/p/w300/5CMhiQnnLsKx5bgtndz6C5vhgRr.jpg'
 },
 {
     titulo: 'A Vizinhança Assombrada',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Os moradores de uma pequena cidade descobrem que algo mais sinistro do que os lobos assassinos estão à espreita no sertão : primeiro os lobos começam a aparecer mortos …… então as pessoas .',
     imdb: 'tt5113086',
     imagem: 'https://image.tmdb.org/t/p/w300/kBpvdyMx7hD0zuTf1XrbHyxMx1Q.jpg'
 },
 {
     titulo: 'La Bamba',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Richard Stephen Valenzuela, mais conhecido como Ritchie Valens, marcou o final dos anos 50 com uma carreira meteórica, recheada de sucessos e pontuada por uma das canções mais famosas de todos os tempos: "La Bamba".',
     imdb: 'tt0093378',
     imagem: 'https://image.tmdb.org/t/p/w300/jsEB1d2NspwskoovkUqLAPA1YZE.jpg'
 },
