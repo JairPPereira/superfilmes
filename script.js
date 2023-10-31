@@ -4704,49 +4704,49 @@ var filmes = [
 },
 {
     titulo: 'Os Estagiários',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Billy (Vince Vaughn) e Nick (Owen Wilson) são grandes amigos e trabalham juntos como vendedores de relógios. Eles são pegos de surpresa quando seu chefe (John Goodman) fecha a empresa, por acreditar que o negócio esteja ultrapassado. Com problemas financeiros, eles conseguem a inscrição em uma seleção de estágio no Google. Mesmo sem terem a garantia que serão contratados, eles partem para a sede da empresa e lá precisam lidar com a diferença de idade entre eles e os demais competidores.',
     imdb: 'tt2234155',
     imagem: 'https://image.tmdb.org/t/p/w300/eJ2yNRyP3QJ36lO81f19ep98eWw.jpg'
 },
 {
     titulo: 'É o Fim',
-    descricao: 'Descrição do filme 18',
+    descricao: 'Durante uma festa na casa de James Franco, uma série de eventos catastróficos se iniciam e aos poucos destroem Los Angeles. Seis amigos conseguem escapar, porém a falta de suprimentos traz à tona intrigas do passado. Eventualmente, eles são forçados a sair da casa, encarando seu destino e o verdadeiro significado de amizade e redenção.',
     imdb: 'tt1245492',
     imagem: 'https://image.tmdb.org/t/p/w300/Lo4M5BETSchjGz5Mlm0Jh8QzDF.jpg'
 },
 {
     titulo: 'Vizinhos Imediatos de 3º Grau',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Quatro amigos formam um grupo de vigilância do bairro. Equipados, levam sua missão a sério. Mas quando descobrem que alienígenas vivem entre eles e ninguém acredita, precisam agir sozinhos para salvar o mundo.',
     imdb: 'tt1298649',
     imagem: 'https://image.tmdb.org/t/p/w300/s7ICZYFXI0h1EMfQ4ApJGtOar1m.jpg'
 },
 {
     titulo: 'Bom Dia, Vietnã',
-    descricao: 'Descrição do filme 20',
+    descricao: 'Convocado pelo exército para transmitir um programa de rádio, Cronauer acaba com a caretice das ondas pasteurizadas da rádio, com suas piadas e os últimos sucessos musicais da América. Os soldados o veneram enquanto as altas patentes o consideram um ultraje.',
     imdb: 'tt0093105',
     imagem: 'https://image.tmdb.org/t/p/w300/nCGK7GwtjCu2gvdfyvxLX3JkxE9.jpg'
 },
 {
     titulo: 'Sete Noivas Para Sete Irmãos',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Depois que Adam (Howard Keel), o irmão mais velho de uma família de caipiras, volta para sua fazenda com uma noiva, seus outros seis irmãos solteirões decidem ir para a cidade e arrumar seis noivas para morarem com eles na fazenda também.',
     imdb: 'tt0047472',
     imagem: 'https://image.tmdb.org/t/p/w300/eExiNiIMAQ6ArzudNG3G3ehPTc.jpg'
 },
 {
     titulo: 'O Guarda-Costas em Ação',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Hui Ching, é um guarda-costas contratado para proteger a linda, porém mimada Michelle, uma testemunha chave em um julgamento envolvendo um poderoso gangster. Hui, instala um verdadeiro arsenal de equipamentos eletrônicos, desde câmeras de segurança até detectores de bombas. Porém, ela não concorda com essas precauções, mas sabe de todo o real perigo em que se encontra. Hui, terá que enfrentar Wong Kin-Kwan, que está obcecado pelo desejo de vingança, em um explosivo ataque final.',
     imdb: 'tt0111835',
     imagem: 'https://image.tmdb.org/t/p/w300/eJOtGPybhBaMQyaJe0CGmkYBM28.jpg'
 },
 {
     titulo: 'O Confronto',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Não existe um só universo, existem muitos. Foi criada uma tecnologia para viajar através destes universos, mas a viagem é muito restrita e controlada. Da mesma forma existem várias versões de cada pessoa, cada uma habitando no tempo presente um destes mundos paralelos. O equilíbrio neste sistema sempre foi mantido, mas Gabriel Yulaw quer destruí-lo para que possa se tornar o Único e absorver a força de suas versões pelos diversos universos.',
     imdb: 'tt0267804',
     imagem: 'https://image.tmdb.org/t/p/w300/74K8HmqhYv9RE97Buqt8N1NDvo3.jpg'
 },
 {
     titulo: 'Janela Indiscreta',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Em Greenwich Village, Nova York, L.B. Jeffries, um fotógrafo profissional, está de molho em seu apartamento por ter quebrado a perna enquanto trabalhava. Como não tem muito o que fazer, fica bisbilhotando a vida dos seus vizinhos com um binóculo. Porém vê algumas coisas que o fazem suspeitar que um assassinato foi cometido.',
     imdb: 'tt0047396',
     imagem: 'https://image.tmdb.org/t/p/w300/smxs9rGSTvBOQryBi2DF7xAuuRr.jpg'
 },
