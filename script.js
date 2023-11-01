@@ -4752,145 +4752,145 @@ var filmes = [
 },
 {
     titulo: 'A Lenda de Golem',
-    descricao: 'Descrição do filme 1',
+    descricao: 'No século XV, para salvar o seu povo de uma ameaça, uma mulher conjura uma criatura com bases nas suas crenças judaicas. A criatura porém torna-se algo muito mais poderoso e demoníaco do que eles podiam esperar.',
     imdb: 'tt8329290',
     imagem: 'https://image.tmdb.org/t/p/w300/rQ8Nk709kWuMMk0IMQmbJbZe7pa.jpg'
 },
 {
     titulo: 'Até Que A Fuga Os Separe',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Ray Gibson (Eddie Murphy) e Claude Banks (Martin Lawrence) vivem de pequenos golpes. Certa noite, aceitam transportar ilegalmente um carregamento de bebida destilada para ganhar uns trocados, mas são parados pela polícia e terminam caindo numa armadilha. Acusados de assassinato, ganham pena de prisão perpétua. O filme acompanha então as desventuras da dupla dentro da prisão durante 65 anos.',
     imdb: 'tt0123964',
     imagem: 'https://image.tmdb.org/t/p/w300/nzkqudQHddBc4pOfJzjwHW2Me96.jpg'
 },
 {
     titulo: 'Raymond & Ray',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Os meio-irmãos Raymond e Ray se reencontram quando seu pai distante morre - e descobrem que seu último desejo era que eles cavassem sua cova. Juntos, eles processam quem eles se tornaram como homens, tanto por causa de seu pai quanto apesar dele.',
     imdb: 'tt15334032',
     imagem: 'https://image.tmdb.org/t/p/w300/fdKZmSQHD17JjGUYkluhpttgJRi.jpg'
 },
 {
     titulo: 'Cascavel',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Como retribuição a uma mulher misteriosa que salvou sua filha picada por uma cobra mortal, uma mãe solteira tem de matar um desconhecido antes do pôr do sol.',
     imdb: 'tt9257484',
     imagem: 'https://image.tmdb.org/t/p/w300/ca9IhQ2H72TRmnHf2ZDJXbffIdX.jpg'
 },
 {
     titulo: 'Madame Satã',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Rio de Janeiro, 1932. No bairro da Lapa vive encarcerado na prisão João Francisco (Lázaro Ramos), artista transformista que sonha em se tornar um grande astro dos palcos. Após deixar o cárcere, João passa a viver com Laurita (Marcélia Cartaxo), prostituta e sua "esposa"; Firmina, a filha de Laurita; Tabu (Flávio Bauraqui), seu cúmplice; Renatinho (Felippe Marques), sem amante e também traidor; e ainda Amador (Emiliano Queiroz), dono do bar Danúbio Azul. É neste ambiente que João Francisco irá se transformar no mito Madame Satã, nome retirado do filme (1932), dirigido por Cecil B. deMille, que João Francisco viu e adorou.',
     imdb: 'tt0317887',
     imagem: 'https://image.tmdb.org/t/p/w300/wbbEBwXxt51rVblXMWkgT0xFyBc.jpg'
 },
 {
     titulo: 'Valiant - Um Herói que Vale a Pena',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Valiant (Ewan McGregor) é um jovem pombo que sonha em se alistar na Força Aérea Britânica, para poder ajudar no combate aos nazistas na 2ª Guerra Mundial. Devido ao grande número de baixas Valiant é aceito, sendo encaminhado para treinamento. Seu trabalho a partir de agora será sobrevoar o campo inimigo, de forma a levar mensagens entre integrantes da Aliança.',
     imdb: 'tt0361089',
     imagem: 'https://image.tmdb.org/t/p/w300/r9VNtY1qUflzWIWgOvPe3PUKMi0.jpg'
 },
 {
     titulo: 'Os Fantasmas de Scrooge',
-    descricao: 'Descrição do filme 7',
+    descricao: 'O Natal se aproxima e, como sempre, Ebenezer Scrooge (Jim Carrey) mantém seu desprezo pela data. Milionário e muito mesquinho, ele só pensa em dinheiro e não dá espaço para a emoção em seu coração, maltratando Bob Cratchit (Gary Oldman), seu fiel assistente, e ignorando seu sobrinho Fred (Colin Firth). Com a morte de seu sócio, Ebenezer recebe a visita de três fantasmas do Natal: do passado, do presente e do futuro. Cada um deles, levará o velho ranzinza para uma viagem que o ajudará a refletir melhor sobre sua vida passada e a escolha que fará para o futuro.',
     imdb: 'tt1067106',
     imagem: 'https://image.tmdb.org/t/p/w300/1qhU3VJo10sISkHIyANLsHioq0Y.jpg'
 },
 {
     titulo: 'Os Irmãos Grimm',
-    descricao: 'Descrição do filme 8',
+    descricao: 'Famosos por seus contos cheios de criaturas sobrenaturais, os Grimm são mandados para uma floresta encantada quando o governo de Napoleão Bonaparte descobre que eles ganham dinheiro contando mentiras.',
     imdb: 'tt0355295',
     imagem: 'https://image.tmdb.org/t/p/w300/jerDxzhAVtNGPtDV0n9ePWCLlyK.jpg'
 },
 {
     titulo: 'Um Crush para o Natal',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Desesperado para evitar o julgamento da família por estar solteiro, Peter convence o melhor amigo Nick a fingir que é seu namorado durante as festas de fim de ano.',
     imdb: 'tt14315756',
     imagem: 'https://image.tmdb.org/t/p/w300/pv7QI2fQOZIG0QSbHv7Ot65O8YN.jpg'
 },
 {
     titulo: 'Certas Pessoas',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Um casal e suas famílias examinam o amor moderno e dinâmicas familiares em meio a conflitos culturais, expectativas da sociedade e diferenças de geração nesta comédia de Kenya Barris.',
     imdb: 'tt14826022',
     imagem: 'https://image.tmdb.org/t/p/w300/49Km62y53mW1eOWSVzmPnWN01vY.jpg'
 },
 {
     titulo: 'Os Goonies',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Após encontrar um mapa do tesouro no sótão de sua casa, Mickey, Brand, Bocão (Mouth), Dado (Data) e Gordo (Chunk) partem em busca do tesouro de Willy Caolho. Juntam-se a eles nessa aventura Andy e Stef mas, além das armadilhas deixadas por Willy Caolho por entre as cavernas e trilhas subterrâneas, os garotos terão de enfrentar também uma família de bandidos italianos, os Fratelli. Para salvá-los resta somente o valente e destemido Sloth.',
     imdb: 'tt0089218',
     imagem: 'https://image.tmdb.org/t/p/w300/6YGlQxEzEqQ5VYj64NvzbItXKPX.jpg'
 },
 {
     titulo: 'John e o Potrinho Mágico',
-    descricao: 'Descrição do filme 12',
+    descricao: 'John e seu amigo vivem uma série de aventuras imprevisíveis em mundos mágicos. Os dois amigos terão que ser mais espertos que um rei tirano, capturar o pássaro de fogo e encontrar o verdadeiro amor de John.',
     imdb: 'tt11390180',
     imagem: 'https://image.tmdb.org/t/p/w300/t66a8QPn7V8NzxoDEA7IANc4ixI.jpg'
 },
 {
     titulo: 'Estou Me Guardando para Quando o Carnaval Chegar',
-    descricao: 'Descrição do filme 13',
+    descricao: 'A cada ano, mais de 20 milhões de jeans são produzidos em fábricas de fundo de quintal em Toritama, no agreste de Pernambuco. Os moradores locais trabalham sem parar, orgulhosos de serem os donos do seu próprio tempo. Durante o Carnaval, eles transgridem a lógica da acumulação de bens, vendem seus pertences sem arrependimentos e fogem para as praias em busca de uma felicidade efêmera.',
     imdb: 'tt9786006',
     imagem: 'https://image.tmdb.org/t/p/w300/pePGCu7krrUcg4EDgV6Wi9hiSYP.jpg'
 },
 {
     titulo: 'Limite Vertical',
-    descricao: 'Descrição do filme 14',
+    descricao: 'K2, a montanha paquistanesa de 28.250 pés na Cordilheira karakoram, é o cenário desta aventura aditivada com pura adrenalina. É uma corrida contra o tempo de um ex-alpinista que lidera uma missão para resgatar a irmã e outros membros de uma expedição que ficaram presos no K2 depois de uma terrível avalanche.',
     imdb: 'tt0190865',
     imagem: 'https://image.tmdb.org/t/p/w300/8c2qdHK0zzCf40ALc3KxIb0eFUO.jpg'
 },
 {
     titulo: 'Cinderela',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Cinderela vive com sua madrasta, Lady Tremaine, e as duas filhas dela. Obrigada a trabalhar como empregada da casa, ela tem como amigos apenas os animais que a rodeiam. O local em que vive está agitado devido ao baile que será realizado no castelo, o qual contará com a presença do príncipe. Como Lady Tremaine pretende que uma das filhas se case com ele, elas se preparam com requinte para o evento. Cinderela, entretanto, não pode ir. Até que surge a Fada-madrinha, que dá a Cinderela um vestido e condições para que possa ir ao baile em alto estilo. Entretanto há uma condição: Cinderela precisa retornar antes da meia-noite, caso contrário o feitiço será desfeito.',
     imdb: 'tt0042332',
     imagem: 'https://image.tmdb.org/t/p/w300/Acj5mmoZQ5lKLNpU2y0XQCt5rNb.jpg'
 },
 {
     titulo: 'A Pequena Sereia',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Ariel é a filha caçula do Rei Tritão, comandante dos sete mares, que está insatisfeita com sua vida. Ela deseja caminhar entre os humanos para conhecê-los melhor, mas sempre é proibida por seu pai, que considera os humanos como sendo "bárbaros comedores de peixe". Até que ela se apaixona por um jovem príncipe e, no intuito de conhecê-lo, resolve firmar um pacto com Úrsula, a bruxa do reino, que faz com que ela ganhe pernas e se torne uma verdadeira humana. Porém, Úrsula também tem seus planos e eles incluem a conquista do reino de Tritão.',
     imdb: 'tt0097757',
     imagem: 'https://image.tmdb.org/t/p/w300/oBFAs9hMdSgHKMvW6VLnh5SOfof.jpg'
 },
 {
     titulo: 'Os Instrumentos Mortais: Cidade dos Ossos',
-    descricao: 'Descrição do filme 17',
+    descricao: 'A vida de Clary muda completamente quando sua mãe é sequestrada e ela descobre, ao conhecer Jace, que é uma caçadora de sombras. Para salvar sua mãe, ela deve encontrar a Taça da Mortalidade, mas primeiro deve descobrir sua força interior.',
     imdb: 'tt1538403',
     imagem: 'https://image.tmdb.org/t/p/w300/glHqwsvFkQHFMFpA0FjFp8hPu6P.jpg'
 },
 {
     titulo: 'Purity Falls',
-    descricao: 'Descrição do filme 18',
+    descricao: 'Após a morte do marido, uma mãe se muda com o casal de filhos para a idílica Purity Falls, onde o menino se envolve em uma espiral de acontecimentos que cercam um negócio local.',
     imdb: 'tt8589474',
     imagem: 'https://image.tmdb.org/t/p/w300/7zjKdP6mXzpeATxsbDUfMyenbJe.jpg'
 },
 {
     titulo: 'O Pai da Rita',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Roque e Pudim, compositores da velha guarda da Vai-Vai, partilham uma quitinete, décadas de amizade, o amor pela escola de samba e uma dúvida do passado: o que aconteceu com a passista Rita, paixão de ambos. O surgimento de Ritinha, filha da dançarina, e as sombras do compositor Chico Buarque, ameaçam desmoronar essa grande amizade.',
     imdb: 'tt11153132',
     imagem: 'https://image.tmdb.org/t/p/w300/t1Xs4xqE7pk3A6cbq5ohJagoNt2.jpg'
 },
 {
     titulo: 'O Contador',
-    descricao: 'Descrição do filme 20',
+    descricao: 'O matemático Christian Wolff sente-se muito mais à vontade lidando com números do que com pessoas. Atualmente, trabalha como contador autônomo para uma das maiores organizações criminosas do mundo. Com a receita federal no encalço, ele resolve mudar de ares e atender um novo cliente, uma empresa de equipamentos robóticos onde um dos funcionários descobriu um desvio gigantesco de recursos. À medida que Christian se aprofunda nos registros da empresa e se aproxima da verdade, o número de cadáveres começa a crescer rapidamente.',
     imdb: 'tt2140479',
     imagem: 'https://image.tmdb.org/t/p/w300/vgJt4ADIjm5U2y3oPLu6kXEXOCY.jpg'
 },
 {
     titulo: 'Me Tira da Mira',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Determinada a desvendar os mistérios por trás da morte da atriz Antuérpia Fox, uma policial dedicada infiltra-se em uma clínica de realinhamento energético e descobre que pode estar na mira de um esquema muito maior.',
     imdb: 'tt14257960',
     imagem: 'https://image.tmdb.org/t/p/w300/gxr04nWw0BuGVqdFNK8W4na4FYD.jpg'
 },
 {
     titulo: 'Ultravioleta',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Uma mulher no meio de uma guerra civil futurística entre o governo e uma subcultura de humanos geneticamente modificados dotados de mais velocidade, força e inteligência. Na tentativa de proteger um garoto que foi jurado de morte, ela precisa se defender do governo humano.',
     imdb: 'tt0370032',
     imagem: 'https://image.tmdb.org/t/p/w300/oUjrVXrASYin8N7kJZ3gqgxIeHp.jpg'
 },
 {
     titulo: 'Quase Deuses',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Um ambicioso cirurgião branco e um talentoso carpinteiro negro desenvolvem uma técnica que revoluciona a cirurgia de coração. Embora trabalhem lado a lado no centro cirúrgico, os dois não estão lado a lado diante da sociedade.',
     imdb: 'tt0386792',
     imagem: 'https://image.tmdb.org/t/p/w300/ab6Wmvhn1zyXz16hSicwjAqBAsS.jpg'
 },
 {
     titulo: 'Nas Profundezas',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Uma jovem desesperada por uma fuga, conhece um estranho misterioso e atraente que promete uma viagem romântica. O que se segue é engano, desconfiança e violência.',
     imdb: 'tt11005128',
     imagem: 'https://image.tmdb.org/t/p/w300/b2IGeffDTCje0sEJdjBVwBPMUoW.jpg'
 },
