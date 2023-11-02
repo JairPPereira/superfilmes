@@ -4903,145 +4903,145 @@ var filmes = [
 },
 {
     titulo: 'O Mágico de Oz',
-    descricao: 'Descrição do filme 1',
+    descricao: 'Dorothy e seu cachorro Totó são levados para a terra mágica de Oz quando um ciclone passa pela fazenda de seus avós no Kansas. Eles viajam em direção à Cidade Esmeralda para encontrar o Mago Oz e no caminho encontram um Espantalho, que precisa de um cérebro, um Homem de Lata sem um coração e um Leão Covarde que quer coragem. O Mago pede ao grupo que tragam a vassoura da Bruxa Malvada do Oeste a fim de ganharem sua ajuda.',
     imdb: 'tt0032138',
     imagem: 'https://image.tmdb.org/t/p/w300/7sYIjWRzqClPK6hiqpOJOnaGUcO.jpg'
 },
 {
     titulo: 'Os Cavaleiros do Zodíaco: A Lenda do Santuário',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Na luta para defender Atena e colocá-la em seu lugar de direito, os Cavaleiros de Bronze lutam para superar o Mestre do Santuário e os poderosos Cavaleiros de Ouro, guardiões das 12 casas.',
     imdb: 'tt2231489',
     imagem: 'https://image.tmdb.org/t/p/w300/ozSUEsKgMNOdL4em13Xd7uKf9TW.jpg'
 },
 {
     titulo: 'Os Cavaleiros do Zodíaco: Prólogo do Céu',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Os defensores da deusa Atena ainda estão se recuperando de uma batalha contra Hades quando são obrigados a enfrentar um novo inimigo: Apolo, que lidera os cavaleiros celestiais e quer tomar o controle do santuário. Sem poder contar com a ajuda dos cavaleiros de ouro, cujas almas foram seladas para sempre pelos deuses, Seiya e os demais cavaleiros de bronze precisarão enfrentar sozinhos este desafio.',
     imdb: 'tt0805605',
     imagem: 'https://image.tmdb.org/t/p/w300/rRJKrlFqW9nBh6UTkEexLXGazrH.jpg'
 },
 {
     titulo: 'Os Cavaleiros do Zodíaco: Os Guerreiros do Armageddon',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Os cosmos de Poseidon, Abel e Éris, todos mandados ao inferno pelos Cavaleiros de Bronze, são usados para reviver Lúcifer, o mais cruel dos demônios. Decidido a se vingar de Atena, Lúcifer resolve destruir a Terra e enfrenta os Cavaleiros de Bronze.',
     imdb: 'tt0326101',
     imagem: 'https://image.tmdb.org/t/p/w300/cXCWqtb7oRtkQfpxjdPS4G2c3RR.jpg'
 },
 {
     titulo: 'Os Cavaleiros do Zodíaco: A Lenda dos Defensores de Atena',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Abel, irmão de Atena, tentou em um passado distante tornar-se o deus dos deuses. Sua ambição fez com que Zeus se unisse a Apolo para derrotá-lo. Após sua morte, Zeus ordenou que todos os registros sobre Abel fossem apagados, para que as futuras gerações jamais soubessem de sua existência. Porém, devido às blasfêmias cometidas pelos humanos, os deuses resolvem ressuscitar Abel, que tem por função punir a humanidade. Para ajudá-lo em sua missão Abel ressuscita três cavaleiros da era mitológica, que são protegidos por armaduras de bronze de Atena e reforçados como Armaduras do Sol, e ainda um grupo de Cavaleiros de Ouro. Abel, juntamente com seus guerreiros, leva Atena ao Santuário, o que a faz abandonar os Cavaleiros de Bronze. Liderados por Seiya, os Cavaleiros de Bronze partem em sua busca e tentam impedir que a humanidade atinja seu juízo final.',
     imdb: 'tt0326143',
     imagem: 'https://image.tmdb.org/t/p/w300/724kXHDFaSJw1WdYX2qi5XkYMLb.jpg'
 },
 {
     titulo: 'Os Cavaleiros do Zodíaco: A Grande Batalha dos Deuses',
-    descricao: 'Descrição do filme 6',
+    descricao: 'O filme começa com Hyoga salvando um soldado de Odin, mas este morre dizendo que a batalha dos deuses iria começar. O cavaleiro de cisne desaparece e, então, os outros Cavaleiros de Bronze vão para Asgard tentar descobrir o seu paradeiro, porém Saori Kido é sequestrada pelo representante de Odin, Durval. Assim começa uma batalha contra os Guerreiros de Asgard.',
     imdb: 'tt0322918',
     imagem: 'https://image.tmdb.org/t/p/w300/1RsREkIc1t0oJLbYlz0tE8uZTbG.jpg'
 },
 {
     titulo: 'Os Cavaleiros do Zodíaco: O Santo Guerreiro',
-    descricao: 'Descrição do filme 7',
+    descricao: 'A deusa Éris encarna na jovem Eiri e sequestra Saori, com o objetivo de roubar seus poderes usando o pomo dourado. Os Cavaleiros de Bronze vão até o santuário de Éris para resgatar a Saori, precisando enfrentar um grupo de cavaleiros traidores que agora são fantasmas a mando de Éris.',
     imdb: 'tt0323869',
     imagem: 'https://image.tmdb.org/t/p/w300/nziTxFxx0l2hO7ZddZo903kVVU0.jpg'
 },
 {
     titulo: 'Invasores',
-    descricao: 'Descrição do filme 8',
+    descricao: 'A colisão de um ônibus espacial faz com que algo alienígena penetre em seus destroços, sendo que todos que entram em contato mudam de maneira inexplicável. A psiquiatra Carol Bennell (Nicole Kidman) e seu colega Ben Driscoll (Daniel Craig) descobrem que a epidemia alienígena ataca suas vítimas quando elas estão dormindo. A epidemia não altera fisicamente suas vítimas, mas faz com que as pessoas fiquem insensíveis e sem qualquer traço de humanidade. À medida que a epidemia se espalha fica cada vez mais difícil saber quem está infectado. Para sobreviver Carol precisa ficar acordada o maior tempo possível, para que possa encontrar seu filho.',
     imdb: 'tt0427392',
     imagem: 'https://image.tmdb.org/t/p/w300/3zDDAOIi8fTnWsqkwfRCYGT3l0s.jpg'
 },
 {
     titulo: 'Os Banshees de Inisherin',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Embora Pádraic e Colm tenham sido amigos de longa data, eles se encontram num impasse quando um deles abruptamente rompe o relacionamento, trazendo consequências graves para ambos.',
     imdb: 'tt11813216',
     imagem: 'https://image.tmdb.org/t/p/w300/rakuuNLbDX0OdQ9QQjnVH6YwVzt.jpg'
 },
 {
     titulo: 'O Plano Perfeito',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Assaltantes vestidos com uniformes de pintor invadem um movimentado banco em Nova York e fazem reféns. A polícia chega ao local esperando resolver a situação rapidamente, mas os detetives Frazier e Mitchell se surpreendem com a inteligência e a frieza do líder dos bandidos, Dalton Russell, que parece estar sempre um passo à frente das ações da polícia.',
     imdb: 'tt0454848',
     imagem: 'https://image.tmdb.org/t/p/w300/76z8q24vMul7IPguc0QUODF3THk.jpg'
 },
 {
     titulo: 'Matilda: O Musical',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Uma jovem extraordinária descobre seu superpoder e convoca a coragem notável, contra todas as probabilidades, para ajudar os outros a mudar suas histórias, ao mesmo tempo em que assume o controle de seu próprio destino. Defendendo o que é certo, ela obteve resultados milagrosos.',
     imdb: 'tt3447590',
     imagem: 'https://image.tmdb.org/t/p/w300/x5GR75CM0FbATtHjnAaE7WwUXkX.jpg'
 },
 {
     titulo: 'Wendell & Wild',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Dois irmãos demoníacos e ardilosos recrutam Kat Elliot, no auge da sua problemática adolescência, para invocá-los até a terra dos vivos. Só que Kat pede algo em troca — algo que os levará para uma aventura brilhante, bizarra e hilária.',
     imdb: 'tt5181830',
     imagem: 'https://image.tmdb.org/t/p/w300/5dsX6UAHqkQz1kiV8bs8SvjyVNa.jpg'
 },
 {
     titulo: 'Sharper: Uma Vida de Trapaças',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Madeline é uma golpista envolvida em trapaças do mundo dos bilionários de Manhattan, nos Estados Unidos. Enquanto isso, Max é um especialista em complexos planos fraudulentos que costumam render muito dinheiro. Juntos eles viverão uma trama cheia de traições, roubos, conflitos familiares, manipulações e jogos cruéis de poder.',
     imdb: 'tt12573454',
     imagem: 'https://image.tmdb.org/t/p/w300/nkvg5RbmDcLMfu5gfJHhMqdWBpK.jpg'
 },
 {
     titulo: 'Amnésia',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Leonard está caçando o homem que estuprou e matou sua esposa. Ele tem dificuldades em encontrar o assassino pois sofre de uma forma intratável de perda de memória. Mesmo que ele possa lembrar detalhes da vida antes do acidente, Leonard não consegue lembrar o que aconteceu quinze minutos atrás, onde está indo ou a razão.',
     imdb: 'tt0209144',
     imagem: 'https://image.tmdb.org/t/p/w300/7leBWM27Q0TUnvmhw6WnFNgGn4G.jpg'
 },
 {
     titulo: 'Alex Strangelove',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Alex Truelove (Daniel Doheny) é um aluno exemplar do último ano do Ensino Médio. Ele tem um grande futuro pela frente, mas antes de se formar ele quer alcançar o último marco da adolescência: perder a virgindade com a sua namorada, Claire (Madeline Weinstein). Tudo se complica quando ele conhece Elliot (Antionio Marziale), um charmoso menino gay que sem querer põe Alex em uma jornada de autodescoberta.',
     imdb: 'tt5688996',
     imagem: 'https://image.tmdb.org/t/p/w300/6OemqmvthXswt5KFmtXBCMMloJ4.jpg'
 },
 {
     titulo: 'Glass Onion: Um Mistério Knives Out',
-    descricao: 'Descrição do filme 16',
+    descricao: 'O famoso detetive Benoit Blanc vai à Grécia para desvendar um mistério que envolve um bilionário e seu eclético círculo de amizades.',
     imdb: 'tt11564570',
     imagem: 'https://image.tmdb.org/t/p/w300/zQJcENHbZUpLQ8RKYt9wTzcXCwv.jpg'
 },
 {
     titulo: 'Bem-Vinda a Quixeramobim',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Aimée é uma influencer milionária que tem todos os bens da família bloqueados, exceto uma fazenda no interior do Ceará que herdou de seu avô. Ela parte para o sertão na tentativa de vender a propriedade, mas com vergonha da nova realidade, inventa que irá tirar um "período sabático", por um ano. Assim, terá que lidar com sua nova vida e sustentar a mentira nas redes sociais.',
     imdb: 'tt18573106',
     imagem: 'https://image.tmdb.org/t/p/w300/7vdr6W7bs8LJMOGgwIJiAQUfG3Q.jpg'
 },
 {
     titulo: 'Amor Além do Tempo',
-    descricao: 'Descrição do filme 18',
+    descricao: 'Em um futuro próximo, um político recém-saído de uma derrota eleitoral foge para a casa de verão de sua família no lago. Suas férias são interrompidas pelo aparecimento de seu primeiro amor, que acaba de voltar de uma viagem espacial de 20 anos e não envelheceu um dia.',
     imdb: 'tt10418680',
     imagem: 'https://image.tmdb.org/t/p/w300/qb2esYfCjkz2RhXDQCPz1evsQfY.jpg'
 },
 {
     titulo: 'Jung_E',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Num futuro pós-apocalíptico, uma pesquisadora lidera os esforços de pôr fim a uma guerra civil. Para isso, clona o cérebro de uma destemida capitã do exército: sua mãe.',
     imdb: 'tt22352848',
     imagem: 'https://image.tmdb.org/t/p/w300/qEkatvFb6hrebLBAanb25ea26yh.jpg'
 },
 {
     titulo: 'Na Sua Casa ou na Minha?',
-    descricao: 'Descrição do filme 20',
+    descricao: 'Grandes amigos e totalmente opostos, Debbie e Peter trocam de casa por uma semana. Será que essa experiência vai abrir as portas para o amor?',
     imdb: 'tt12823454',
     imagem: 'https://image.tmdb.org/t/p/w300/m7OCBWL0CngPMwe4b0iEsGxrlYg.jpg'
 },
 {
     titulo: 'Amor² Outra Vez',
-    descricao: 'Descrição do filme 21',
+    descricao: 'O relacionamento de um jornalista famoso com uma professora bem discreta é colocado à prova quando um novo trabalho acaba interferindo na vida a dois.',
     imdb: 'tt26369131',
     imagem: 'https://image.tmdb.org/t/p/w300/dxor2vaqkXLA6Z2VoJnqZWUTCKe.jpg'
 },
 {
     titulo: 'Casamento Armado',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Durante a cerimônia de casamento, Darcy e Tom estão reunidos com seus familiares para celebrar o grande momento, quando são surpreendidos por sequestradores. Agora, os noivos têm a missão de salvar as suas famílias do perigo, trazendo a lembrança de quando se apaixonaram um pelo outro.',
     imdb: 'tt9686790',
     imagem: 'https://image.tmdb.org/t/p/w300/i3OgPuen3vi7UkAQCMZou2NkPUm.jpg'
 },
 {
     titulo: 'Mais Cedo Morto do que Casado',
-    descricao: 'Descrição do filme 23',
+    descricao: 'A Mariana acha que casamentos são uma farsa e por isso ela se dedica a planejá-los. Quando o Luis, seu namorado, a pede em casamento, ela se nega a fazer parte do negócio que ela tanto menospreza. Para fingir que o rompimento não a magoou, ela aceita planejar o casamento do seu ex-namorado. Só que a Mariana não sabe que a razão pela qual o Luis vai se casar é somente para se vingar dela.',
     imdb: 'tt26448700',
     imagem: 'https://image.tmdb.org/t/p/w300/ewS8BeUqoNmzF7JQm07CiukwONb.jpg'
 },
 {
     titulo: 'O Lobo Viking',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Uma adolescente que acabou de se mudar para uma cidadezinha testemunha um assassinato brutal. Depois disso, ela começa a ter visões e desejos bizarros.',
     imdb: 'tt13051810',
     imagem: 'https://image.tmdb.org/t/p/w300/gWfa1uahpIXlNkv7AMEvQt4VMde.jpg'
 },
