@@ -5040,145 +5040,145 @@ var filmes = [
 },
 {
     titulo: 'Whindersson Nunes: Isso não é um culto',
-    descricao: 'Descrição do filme 1',
+    descricao: 'É o fim do mundo, e ele sabe disso. Neste especial de stand-up, Whindersson Nunes reflete sobre atualidades, redes sociais, religião e muito mais.',
     imdb: 'tt26440342',
     imagem: 'https://image.tmdb.org/t/p/w300/om3ojwYvXOkEifztuSIFKqUruly.jpg'
 },
 {
     titulo: 'Até a Morte: Sobreviver é a Melhor Vingança',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Depois de uma noite romântica em sua casa isolada no lago, uma mulher acorda algemada ao marido morto. Presa e isolada no auge do inverno, ela deve lutar contra assassinos contratados para escapar do plano distorcido de seu falecido esposo.',
     imdb: 'tt11804152',
     imagem: 'https://image.tmdb.org/t/p/w300/blWUQPSyv4vWJ8S8MS9lU9BD9Mf.jpg'
 },
 {
     titulo: 'Minority Report: A Nova Lei',
-    descricao: 'Descrição do filme 3',
+    descricao: 'Não há crimes em Washington D.C. há seis anos, graças a impressionante tecnologia que identifica os assassinos antes que eles possam cometer seus crimes. Mas quando o próprio chefe da Divisão de Pré-Crime é acusado de um futuro assassinato, ele tem apenas 36 horas para descobrir quem está querendo destruí-lo ou tornar-se-á uma vítima do sistema "perfeito" que ele ajudou a criar.',
     imdb: 'tt0181689',
     imagem: 'https://image.tmdb.org/t/p/w300/zJhHMqaAKnIZ1egGTRk7jOH80xH.jpg'
 },
 {
     titulo: 'Imersão',
-    descricao: 'Descrição do filme 4',
+    descricao: 'Ricardo levou suas filhas para sua casa à beira de um lago no sul do Chile. Enquanto navegam, eles avistam um barco afundando, mas ele se recusa a ajudar as pessoas porque elas parecem suspeitas.',
     imdb: 'tt13845792',
     imagem: 'https://image.tmdb.org/t/p/w300/gTa2Vt5PSYRbOKG7WygvA6yiTuF.jpg'
 },
 {
     titulo: 'Junglee - Protegendo a Selva',
-    descricao: 'Descrição do filme 5',
+    descricao: 'Dipankar Nair administra um santuário de elefantes, mas as coisas começam a ir mal, pois caçadores estão matando elefantes por causa do marfim das presas dos animais. Raj, filho de Nair, é um veterinário bem-sucedido em Mumbai. O rapaz chega ao santuário para o 10º aniversário da morte de sua mãe e faz amizade com os elefantes Bhola e Didi. Um caçador quer as presas de Bhola e para isso mata o animal, matando também Dipankar, que tentava salvar o elefante. Quando policiais chegam ao funeral, revelam que não só o falecido estava com os caçadores, como também Raj estaria envolvido. Perseguido, o veterinário agora terá que descobrir quem matou seu pai e ainda limpar o próprio nome da história.',
     imdb: 'tt7463730',
     imagem: 'https://image.tmdb.org/t/p/w300/8SX0Yd6D6YFR3EyXlJmDoaKRwbL.jpg'
 },
 {
     titulo: 'Beijos Escondidos',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Nathan, 16 anos, vive sozinho com seu pai Stephane. Novato na escola, ele é convidado para uma festa e se apaixona por Louis, um menino de sua turma. Eles se encontram escondidos e se beijam, mas alguém tira uma foto deles. Rapidamente a foto é publicada no Facebook e uma tempestade surge em suas vidas enquanto eles enfrentam bullying e rejeição.',
     imdb: 'tt5572566',
     imagem: 'https://image.tmdb.org/t/p/w300/o1MYewl9UfEKJBNYneeJJG1CDGA.jpg'
 },
 {
     titulo: 'A Dama de Vermelho',
-    descricao: 'Descrição do filme 7',
+    descricao: 'O executivo Teddy Pierce (Gene Wilder) sempre andou na linha, até conhecer Charlotte (Kelly LeBrock), a Dama de Vermelho. Com pernas maravilhosas e um estilo de arrasar, a sexy Charlotte é tudo aquilo que a fantasia ousa imaginar. Teddy está fadado a se encrencar, após ter decidido ceder, só esta única vez, à tentação, e ele está ansioso pelo momento mais romântico de sua vida. Mas o que Teddy não pode antever são as hilárias complicações que ocorrem quando seus amigos, sua secretária e o marido de Charlotte se envolvem na história.',
     imdb: 'tt0088414',
     imagem: 'https://image.tmdb.org/t/p/w300/9CCvGclc8YmOmdoAqjCUda0LnQK.jpg'
 },
 {
     titulo: 'Roberto Carlos em Ritmo de Aventura',
-    descricao: 'Descrição do filme 8',
+    descricao: 'Roberto Carlos, ídolo da música jovem brasileira, é perseguido por um bando que pretende utilizá-lo para a produção em massa de canções, com a ajuda de um cérebro eletrônico. Roberto, que está fazendo um filme com o vilão francês Pierre, é obrigado a fugir de helicóptero, avião, automóvel, tanque e até foguete espacial, indo do Rio a São Paulo e a Nova York e Cabo Kennedy, mas no fim, tudo acaba bem, para ele, seus amigos e os adversários." (Guia de Filmes, 14) (Cinemateca Brasileira)',
     imdb: 'tt0188180',
     imagem: 'https://image.tmdb.org/t/p/w300/jPfxsd7agja7tYJV76LahR3mfko.jpg'
 },
 {
     titulo: 'O Franco Atirador',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Três amigos recrutados para a guerra do Vietnã são capturados pelos vietcongues. Além de maltratados fisicamente, é a tortura psicológica e um jogo de roleta russa entre eles que os fará repensar o motivo de tudo aquilo.',
     imdb: 'tt0077416',
     imagem: 'https://image.tmdb.org/t/p/w300/xjeaIyoZOWnPCX5E1JvzmkNv4QC.jpg'
 },
 {
     titulo: 'Cinderela e o Príncipe Secreto',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Com a ajuda da Fada Madrinha, Cinderela e seus amigos camundongos conseguem escapar do sótão onde vivem para ir ao Baile Mágico no palácio real. Tudo parece perfeito, mas eles logo descobrem um segredo terrível: o verdadeiro príncipe encantado foi transformado em um rato pela Bruxa Má, aquele príncipe no baile não passa de um impostor. Cinderela e seus leais amigos agora embarcam em uma perigosa aventura para derrotar as forças do mal e ajudar o príncipe a voltar a sua verdadeira forma.',
     imdb: 'tt6241270',
     imagem: 'https://image.tmdb.org/t/p/w300/caMtietnPdDz8EHSgH3nzijhEws.jpg'
 },
 {
     titulo: '400 Contra 1: Uma História do Crime Organizado',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Anos 70, presídio da Ilha Grande, no Rio de Janeiro. Um grupo de presos resolve se unir para lutar por direitos e ideais coletivos. William (Daniel de Oliveira) é um dos líderes deste grupo, que fundou o Comando Vermelho. A nova organização cria uma conduta de solidariedade entre os presos, algo inédito até então. No início dos anos 80 o Comando Vermelho passa a agir nas ruas do Rio de Janeiro, realizando ousados assaltos.',
     imdb: 'tt1781755',
     imagem: 'https://image.tmdb.org/t/p/w300/sMncURxEueGeBxdmx2gTFaNUgzF.jpg'
 },
 {
     titulo: 'Mundo Estranho',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Uma lendária família de exploradores, os Clades, enquanto eles tentam navegar por uma terra inexplorada e traiçoeira ao lado de uma equipe heterogênea, incluindo uma bolha travessa, um cachorro de três patas e uma enorme quantidade de criaturas famintas.',
     imdb: 'tt10298840',
     imagem: 'https://image.tmdb.org/t/p/w300/4KXsKY8j87jr1oX2uwO1tMbl4Px.jpg'
 },
 {
     titulo: 'A Bolha Assassina',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Em uma cidade da Califórnia, estudantes descobrem uma estranha substância gelatinosa que derrete a carne humana. A substância começa a crescer descontroladamente atacando alguns moradores, até que uma equipe do exército é enviada para detê-la.',
     imdb: 'tt0094761',
     imagem: 'https://image.tmdb.org/t/p/w300/qHVFeoVN0UvzjpDnGNWx9f2scUZ.jpg'
 },
 {
     titulo: 'Python: A Cobra Assassina',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Uma secreta organização cria uma máquina-assassina: uma cobra python com seu tamanho e resistência alterados. Agora, a experiência está fora de controle. Quem poderá salvá-los desse grande mal?',
     imdb: 'tt0209264',
     imagem: 'https://image.tmdb.org/t/p/w300/lDbTpRHTRFWBK4j0FAWpE4M5WT2.jpg'
 },
 {
     titulo: 'A Maldição: Despertar dos Mortos',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Uma série de assassinatos são cometidos por mortos-vivos. No primeiro caso, o corpo do suspeito é encontrado ao lado da vítima na cena do crime, mas a polícia descobre que o cadáver morreu há três meses. Enquanto isso, a jornalista LIM Jin-hee recebe uma ligação misteriosa de um homem que afirma ser o culpado do assassinato. O suspeito avisa que mais três assassinatos estão por vir, e que serão executados por cadáveres que ressuscitaram dos mortos, os Jaechaui. No dia do primeiro assassinato anunciado, a polícia está apostos para capturar o assassino quando é surpreendida por um ataque de um exército Jaechaui. Quem está por trás de tudo isso e qual o motivo?',
     imdb: 'tt17640714',
     imagem: 'https://image.tmdb.org/t/p/w300/k3IgF9W8ZD6BBdz2bljQAHydFCe.jpg'
 },
 {
     titulo: 'A Madrasta',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Holly está animada para finalmente conhecer os três filhos do seu noivo, Richard, no aniversário do caçula, que será comemorado na casa da ex-esposa. Apesar de estar um pouco nervosa, Holly quer causar boa impressão a todos. No entanto, quando o casal chega à casa, localizada em uma região isolada do interior da Inglaterra, as circunstâncias estão longe de ser ideais.',
     imdb: 'tt4788734',
     imagem: 'https://image.tmdb.org/t/p/w300/xx3s9HORABYz3F3ZVPtomSANpYu.jpg'
 },
 {
     titulo: 'Homem-Formiga e a Vespa: Quantumania',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Scott Lang e Hope van Dyne em suas jornadas como super-heróis. Scott e sua família são puxados para o Reino Quântico, onde eles precisarão enfrentar um novo e terrível vilão: Kang, o Conquistador e M.O.D.O.K..',
     imdb: 'tt10954600',
     imagem: 'https://image.tmdb.org/t/p/w300/mZBO9lcWAYEZ5F15xPQOQfA3Dm4.jpg'
 },
 {
     titulo: 'Krull',
-    descricao: 'Descrição do filme 18',
+    descricao: 'No planeta Krull, uma criatura maligna chamada A Besta dizima o exército mundial e sequestra a doce princesa Lyssa, destinada a ser rainha. Seu amado, o príncipe Colwyn, lidera um bando de rebeldes para resgatá-la.',
     imdb: 'tt0085811',
     imagem: 'https://image.tmdb.org/t/p/w300/b1anwwbh00R3iOgM88L5jf7qHBt.jpg'
 },
 {
     titulo: 'O Mundo de Andy',
-    descricao: 'Descrição do filme 19',
+    descricao: 'O filme conta a história do mestre em manipular sua platéia, Andy Kaufman que conseguia provocar gargalhadas, silêncios profundos, lágrimas e até gritos. Ao convidar o público para ir tomar leite com biscoitos ou desafiar mulheres para lutas mistas, ele se especializou em criar atuações tão reais que até seus amigos mais íntimos nunca estavam certo de onde estava a verdade. Embora tido, entre outras descrições, como duende niilista, guerrilheiro Zen, comediante dadaísta e o primeiro artista de verdade, Kaufman sempre preferiu pensar que era simplesmente um homem da música e da dança.',
     imdb: 'tt0125664',
     imagem: 'https://image.tmdb.org/t/p/w300/qwabM2f4OHtm2c6PT2yd9qBw0TZ.jpg'
 },
 {
     titulo: 'O Homem da Califórnia',
-    descricao: 'Descrição do filme 20',
+    descricao: 'Os estudantes Stoney (Pauly Shore) e Dave (Sean Astin) encontram um homem das cavernas congelado no fundo do quintal e o reabilitam. Batizado como Link (Brendan Fraser), o rapaz tem dificuldades em assimilar todas as informações da vida moderna, mas seu carisma e aspecto peculiar logo o transformam no cara mais popular do colégio.',
     imdb: 'tt0104187',
     imagem: 'https://image.tmdb.org/t/p/w300/fnyUrMLaaCGoZiqDhzy8xxTnJpw.jpg'
 },
 {
     titulo: 'O Milagre de Anne Sullivan',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Uma história verdadeira. A jovem Helen Keller (Patty Duke), cega, surda e muda desde a infância, corre o risco de ser enviada para uma instituição. A incapacidade de comunicar deixou sua frustração e violência. Em desespero, seus pais procuram ajuda do Instituto Perkins, o que lhes envia uma "aluna Yankee meio cega", chamada Annie Sullivan (Anne Bancroft), para ensinar sua filha. Através da persistência e do amor, e de pura teimosia, Annie rompe as paredes de silêncio e escuridão de Helen e a ensina a se comunicar.',
     imdb: 'tt0056241',
     imagem: 'https://image.tmdb.org/t/p/w300/3dI6UVM5W1sz3MU9gNK5nVDcAyQ.jpg'
 },
 {
     titulo: 'Esta Noite Encarnarei no Teu Cadáver',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Zé do Caixão ainda está em busca da mulher perfeita para dar a luz ao seu filho, e, com a ficha limpa pelos crimes cometidos no passado no primeiro filme (À Meia-Noite Levarei Tua Alma), continua aterrorizando a população de sua pequena cidade com suas sádicas e iconoclastas práticas.',
     imdb: 'tt0060380',
     imagem: 'https://image.tmdb.org/t/p/w300/kph6N2xuTUSCjrSCSnecrkf9WZs.jpg'
 },
 {
     titulo: 'Mac and Me',
-    descricao: 'Descrição do filme 23',
+    descricao: '',
     imdb: 'tt0095560',
     imagem: 'https://image.tmdb.org/t/p/w300/gZsIgK2W9K6e1ebNro3WT7u5yGX.jpg'
 },
 {
     titulo: 'Furyo: Em Nome da Honra',
-    descricao: 'Descrição do filme 24',
+    descricao: 'David Bowie incorpora o major Celliers, um oficial britânico mantido pelos japoneses como prisioneiro de guerra. O comandante está obcecado com o misterioso loiro estranho, enquanto o tenente-coronel britânico Lawrence tenta superar as diferenças emocionais e linguísticas entre ele e seu captor.',
     imdb: 'tt0085933',
     imagem: 'https://image.tmdb.org/t/p/w300/wsHWDTn8dcdKNzxAMZm0gEwxmIr.jpg'
 },
