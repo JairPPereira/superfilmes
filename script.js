@@ -5208,121 +5208,121 @@ var filmes = [
 },
 {
     titulo: 'De Volta pra Casa',
-    descricao: 'Descrição do filme 5',
+    descricao: 'O mimado e arrogante Doyle tem tudo que o dinheiro pode comprar, mas desde que seus pais (Natalie e Reed) se separaram, lhe falta a figura paterna, já que seu pai vem se distanciado a cada dia. Tudo piora quando Doyle descobre que seu pai prefere viajar a passar o feriado com ele. Revoltado, o garoto se nega a ir para casa da sua mãe. É quando o atrapalhado e divertido Dutch, namorado de Natalie, decide buscá-lo, no colégio interno, e trazê-lo para o feriado de ação de graças. Contrariado, Doyle promete não ceder e pretende transformar uma simples viagem de carro em uma verdadeira guerra.',
     imdb: 'tt0101786',
     imagem: 'https://image.tmdb.org/t/p/w300/waNhDcxcZGBSbpo1mW6C5jHafBD.jpg'
 },
 {
     titulo: 'Um Limite Entre Nós',
-    descricao: 'Descrição do filme 6',
+    descricao: 'Ambientado na Pittsburgh de 1950, o filme é uma visão apaixonada do ex-jogador de beisebol Troy Maxson, lutando para sustentar os que ama, em um mundo que ameaça puxá-lo para baixo.',
     imdb: 'tt2671706',
     imagem: 'https://image.tmdb.org/t/p/w300/4ymzdsNVg0NhXB72nfWHXE2TShq.jpg'
 },
 {
     titulo: 'Kondom des Grauens',
-    descricao: 'Descrição do filme 7',
+    descricao: '',
     imdb: 'tt0116791',
     imagem: 'https://image.tmdb.org/t/p/w300/rgSa6G8PeslNvF73P0tWMBJoj5M.jpg'
 },
 {
     titulo: 'M3GAN',
-    descricao: 'Descrição do filme 8',
+    descricao: 'Uma brilhante roboticista de uma empresa de brinquedos usa inteligência artificial para desenvolver M3GAN, uma boneca realista programada para se relacionar emocionalmente com sua sobrinha recém-órfã. Mas quando a programação da boneca funciona muito bem, ela se torna superprotetora de sua nova amiga... com resultados aterrorizantes.',
     imdb: 'tt8760708',
     imagem: 'https://image.tmdb.org/t/p/w300/d9nBoowhjiiYc4FBNtQkPY7c11H.jpg'
 },
 {
     titulo: 'Julgamento em Nuremberg',
-    descricao: 'Descrição do filme 9',
+    descricao: 'Após a 2ª Guerra Mundial, um juiz americano é convocado para chefiar o julgamento de quatro juristas alemães responsáveis pela legalização dos crimes cometidos pelos nazistas durante a guerra. À medida que surgem provas de esterilização e assassinatos de judeus, a pressão política vai-se tornando cada vez maior, pois a Guerra Fria está chegando e ninguém quer mais julgamentos como os da Alemanha. Além disso, os governos aliados querem fortemente esquecer o passado, mas a coisa certa a ser feita é a questão que esse tribunal tentará responder. Baseado em fatos reais, principalmente no caso Katzenberger, o último julgamento dos Processos de Guerra de Nuremberg, que ocorreram depois da Segunda Guerra Mundial para julgar os criminosos nazistas.',
     imdb: 'tt0055031',
     imagem: 'https://image.tmdb.org/t/p/w300/3ollXGoWPfbZZrNCLH6Y7o3ufoU.jpg'
 },
 {
     titulo: 'O Pássaro Pintado',
-    descricao: 'Descrição do filme 10',
+    descricao: 'Baseado no livro O Pássaro Pintado, de Jerzy Kosinski, o filme acompanha as desventuras de um menino judeu durante a Segunda Guerra Mundial. Perseguidos, seus pais o deixam com uma mãe adotiva. Mas a mulher morre, e o garoto é obrigado a sobreviver sozinho. Ele anda pelo interior, visitando vilas e fazendas. Pelo caminho, encontra várias pessoas e sofre com a brutalidade de camponeses supersticiosos e testemunha a violência de soldados russos e alemães.',
     imdb: 'tt1667354',
     imagem: 'https://image.tmdb.org/t/p/w300/h5E5kqVGH5DYic95C6EQMFqFbc6.jpg'
 },
 {
     titulo: 'Sete Anos em Maio',
-    descricao: 'Descrição do filme 11',
+    descricao: 'Em uma noite de Maio, sete anos atrás, Rafael chegava em casa depois do trabalho. Quando abria o portão, alguém chamou seu nome. Ele olhou pro lado e viu pessoas que não conhecia. Rafael saiu da sua casa carregado pelos desconhecidos e nunca mais voltou. Desde então ele vive como se aquela noite nunca tivesse terminado.',
     imdb: 'tt11327962',
     imagem: 'https://image.tmdb.org/t/p/w300/qMo8I1knXmhkKf0xINTAYJqBdaf.jpg'
 },
 {
     titulo: 'Limite da Honra',
-    descricao: 'Descrição do filme 12',
+    descricao: 'Um policial de Hong Kong segue uma pista do mercado negro do ouro para encontrar um cassino flutuante em alto mar. A bordo do navio, ele procura capturar seu suspeito enquanto descobre um grande conflito interno entre os criminosos.',
     imdb: 'tt7223050',
     imagem: 'https://image.tmdb.org/t/p/w300/gv5NhsZfE9obeb1c3PXNOmQDtTg.jpg'
 },
 {
     titulo: 'Errementari: O Ferreiro e o Diabo',
-    descricao: 'Descrição do filme 13',
+    descricao: 'Um ferreiro cruel tortura um demônio que ele culpa por sua desgraça. Mas uma órfã aparece por engano e pode mudar tudo.',
     imdb: 'tt5592878',
     imagem: 'https://image.tmdb.org/t/p/w300/bedYbbNKNbQFWWJ2lHTC1rSXFUy.jpg'
 },
 {
     titulo: 'O Chefe',
-    descricao: 'Descrição do filme 14',
+    descricao: 'Um empresário rude e egocêntrico está prestes a perder tudo pelo que lutou até receber a inesperada ajuda de uma servente de limpeza do escritório.',
     imdb: 'tt7527538',
     imagem: 'https://image.tmdb.org/t/p/w300/jvHzkK0VvKQ3noByKaRnKB2VYYt.jpg'
 },
 {
     titulo: 'Garotos de Lugar Nenhum: O Livro das Sombras',
-    descricao: 'Descrição do filme 15',
+    descricao: 'Um ano depois dos meninos cruzarem as dimensões, descobrirem a magia e lutarem contra o demônio restaurador, eles surgem crescidos e mais maduros. Dessa vez eles são deverão unir quando Felix (Dougie Baldwin) descobre um Livro de Sombras e involuntariamente libera uma poderosa força do caos. Agora, os garotos devem defender seu mundo e seus entes queridos.',
     imdb: 'tt4836736',
     imagem: 'https://image.tmdb.org/t/p/w300/l2kSOBNefdnecApywIZV8EnuJuR.jpg'
 },
 {
     titulo: 'Apartamento 212 - A Infestação',
-    descricao: 'Descrição do filme 16',
+    descricao: 'Jennifer Conrad é uma jovem que planeja fugir de um relacionamento abusivo e recomeçar sua vida na cidade grande. No seu novo apartamento, ela percebe uma intensa infecção em sua pele após as primeiras noites de sono. Mas, o que parecia ser apenas uma alergia, logo se revela como um grave caso de possessão corporal por alguma espécie desconhecida de força maligna.',
     imdb: 'tt5641542',
     imagem: 'https://image.tmdb.org/t/p/w300/fnFWKwdkuiZ9OU2ZoyEmxQdFUyT.jpg'
 },
 {
     titulo: 'Um Pequeno Favor',
-    descricao: 'Descrição do filme 17',
+    descricao: 'Quando a nova amiga de Stephanie (Anna Kendrick) pede para ela pegar seu filho na escola e depois desaparece misteriosamente, Stephanie procura descobrir a verdade por trás do súbito desaparecimento de Emily (Blake Lively). Stephanie é acompanhada pelo marido de Emily, Sean (Henry Golding) neste thriller cheio de reviravoltas e traições, segredos e revelações, amor e lealdade, assassinato e vingança.',
     imdb: 'tt7040874',
     imagem: 'https://image.tmdb.org/t/p/w300/13vGKhA7Y3XWXSRwl43Z8HoTNnI.jpg'
 },
 {
     titulo: 'Matador de Aluguel',
-    descricao: 'Descrição do filme 18',
+    descricao: 'Chris está em dívida com um traficante de drogas e decide contratar um assassino para matar a própria mãe e receber o seguro de vida. Chris contrata um policial de Dallas chamado Joe Cooper, que também trabalha como assassino. Porém, o plano complica quando Joe se interessa pela irmã de Chris.',
     imdb: 'tt1726669',
     imagem: 'https://image.tmdb.org/t/p/w300/vr470u3L5govXLpoqtUe8S9GyxE.jpg'
 },
 {
     titulo: 'A Invasora',
-    descricao: 'Descrição do filme 19',
+    descricao: 'Sarah, uma jovem fotógrafa, está sozinha na noite de Natal. Ela está assim desde que seu marido morreu num acidente de carro. Só e grávida, recebe apenas as visitas de sua mãe dominadora e de seu chefe egocêntrico. A noite de Natal é o último dia antes de ir para o hospital ter seu bebê. Mas o silêncio de sua casa é quebrado quando uma misteriosa mulher bate à sua porta. Sarah desconfia e não atende. Todavia, a mulher se recusa a ir embora. Quando as coisas começam a se complicar, Sarah fica temerosa e chama a polícia, enquanto a mulher a observa pela janela.',
     imdb: 'tt0856288',
     imagem: 'https://image.tmdb.org/t/p/w300/O4ignaPtoqBTsaF6h7JWuduzCg.jpg'
 },
 {
     titulo: 'O Menino, a Toupeira, a Raposa e o Cavalo',
-    descricao: 'Descrição do filme 20',
+    descricao: 'Acompanhe a improvável união de quatro amigos, enquanto eles exploram o significado de gentileza, coragem e esperança.',
     imdb: 'tt22667880',
     imagem: 'https://image.tmdb.org/t/p/w300/765XUik0cbyWHITgE22FhpA8elG.jpg'
 },
 {
     titulo: 'A Noiva de Frankenstein',
-    descricao: 'Descrição do filme 21',
+    descricao: 'Dr. Frankenstein (Colin Clive) e seu monstro (Boris Karloff) retornam, pois não estavam mortos como inicialmente se acreditava. O pesquisador planeja parar suas demoníacas experiências, mas quando um cientista louco (Ernest Thesiger) seqüestra sua esposa (Valerie Hobson), ele concorda em ajudá-lo em criar uma nova criatura, uma mulher (Elsa Lanchester), para ser companheira do monstro.',
     imdb: 'tt0026138',
     imagem: 'https://image.tmdb.org/t/p/w300/459XH176R35BwUhdjvAT7oBfoJL.jpg'
 },
 {
     titulo: 'Teen Wolf: O Filme',
-    descricao: 'Descrição do filme 22',
+    descricao: 'Um terrível mal surgiu na cidade de Beacon Hills. Os lobos estão uivando mais uma vez pedindo o retorno de Banshees, Werecoyotes, Hellhounds, Kitsunes e todos os outros metamorfos da noite. Mas apenas um lobisomem como Scott McCall, que agora não é mais um adolescente, e sim um Alfa, pode reunir novos aliados e reunir amigos de confiança para lutar contra o que poderia ser o inimigo mais poderoso e mortal que eles já enfrentaram.',
     imdb: 'tt15486810',
     imagem: 'https://image.tmdb.org/t/p/w300/e4M1YCKc07PeBoUs7ST2QgCiZFB.jpg'
 },
 {
     titulo: 'Ad Astra - Rumo às Estrelas',
-    descricao: 'Descrição do filme 23',
+    descricao: 'Roy McBride é um engenheiro espacial, portador de um leve grau de autismo, que decide empreender a maior jornada de sua vida: viajar para o espaço, cruzar a galáxia e tentar descobrir o que aconteceu com seu pai, um astronauta que se perdeu há vinte anos atrás no caminho para Netuno.',
     imdb: 'tt2935510',
     imagem: 'https://image.tmdb.org/t/p/w300/wigZBAmNrIhxp2FNGOROUAeHvdh.jpg'
 },
 {
     titulo: 'O Homem Que Fazia Chover',
-    descricao: 'Descrição do filme 24',
+    descricao: 'Rudy Baylor acabou de sair da faculdade de Direito, passou no exame da Ordem e começa sua carreira, trabalhando para um advogado que está sendo investigado pelo FBI. Nada melhor, então, que seu primeiro caso seja uma denúncia de corrupção contra um todo-poderoso conglomerado de seguro-saúde, acusado de negar os direitos de pacientes terminais. Com apenas um aliado, Deck Shifflet – cinco vezes reprovado no exame da Ordem – Rudy se prepara para desafiar a forte burocracia securitária. Será que a verdade e o espírito combativo vão ser suficientes para vencer um exército de caríssimos advogados, em causas como vida, morte e justiça?',
     imdb: 'tt0119978',
     imagem: 'https://image.tmdb.org/t/p/w300/iP6GUNprqvyKyQawiiBv426FVXG.jpg'
 },
