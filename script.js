@@ -5184,25 +5184,25 @@ var filmes = [
 },
 {
     titulo: 'Uma Cidade Contra o Xerife',
-    descricao: 'Descrição do filme 1',
+    descricao: 'James Garner é o protagonista desta paródia de faroeste, onde ele é o xerife de uma cidade fronteiriça que deve se defender dos vilões (liderados por Walter Brennen) de todos os lados, tudo isso sem suar nem sujar suas botas pretas brilhantes!',
     imdb: 'tt0065051',
     imagem: 'https://image.tmdb.org/t/p/w300/o0o188F7ZuplQI171sbBxVn4kYu.jpg'
 },
 {
     titulo: 'Atração Fatal',
-    descricao: 'Descrição do filme 2',
+    descricao: 'Aproveitando o fato de Beth Gallagher (Anne Archer), sua mulher, estar viajando Dan Gallagher (Michael Douglas), um advogado, tem um rápido caso com Alex Forrest (Glenn Close), uma executiva que demostra ser desequilibrada emocionalmente e até mesmo perigosa, quando decide fazer parte da vida dele custe o que custar.',
     imdb: 'tt0093010',
     imagem: 'https://image.tmdb.org/t/p/w300/tSfJwVpXW1QqUV4ldAQScv5gmjj.jpg'
 },
 {
     titulo: 'O Homem da Casa',
-    descricao: 'Descrição do filme 3',
+    descricao: 'A vida está ótima para o advogado Jack Sturges (Chevy Chase). Está noivo de uma linda mulher (Farrah Fawcett) e ansioso com a alegre expectativa de sua nova vida como padrasto. Mas Ben (Jonathan Taylor Thomas) de 11 anos tem outros planos para o novo pai. Ele está determinado em assustá-lo com um hilariante e frustante teste de resistência num acompanhamento indígena. Calamidades e o caos acontecem ao mesmo tempo que as lições de vida, amor e confiança neste filme irresistível, que agrada a todas as idades!',
     imdb: 'tt0113755',
     imagem: 'https://image.tmdb.org/t/p/w300/uDf2IgyE7flYRAycliPw3LIcPfi.jpg'
 },
 {
     titulo: 'Elvis É Assim',
-    descricao: 'Descrição do filme 4',
+    descricao: 'É noite de estréia. Elvis Presley vestindo sua radiante jaqueta nova, aguarda com ansiedade sua entrada no palco. Se as músicas não funcionarem, ironiza, a gente pode fazer um desfile de moda. As músicas funcionam demais. Nesta Edição Especial do lendário Show filmado no verão de 1970 em Las Vegas. Rick Schmidlin, montador e restaurador , conseguiu recuperar mais de 30 minutos das músicas originais do filme, que permaneciam guardado nos cofres do estúdio à espera de sua renovação. As cenas adicionais mostram entre outras, performances das músicas Get Back, One Night e Suspicius Mind, em diferentes versões ao show original.',
     imdb: 'tt0065687',
     imagem: 'https://image.tmdb.org/t/p/w300/8qwwp5fOPNXDfaqta5x34nDXEDI.jpg'
 },
