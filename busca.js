@@ -7,6 +7,48 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'A Fada do Dente',
+        descricao: 'Violetta, uma fada curiosa e atrevida, se perde no mundo humano. Para encontrar o caminho de volta ao mundo das fadas, ela se junta à garota humana Maxie e descobre seu verdadeiro destino.',
+        imdb: 'tt20199226',
+        imagem: 'https://image.tmdb.org/t/p/w300/7Biyu5aP0o86GjxnffsHThYN4h1.jpg'
+    },
+    {
+        titulo: 'As Ladras',
+        descricao: 'Cansada de viver se escondendo, uma ladra profissional decide se aposentar. Mas só depois de um último roubo com a parceira no crime e uma nova motorista para a fuga.',
+        imdb: 'tt21638298',
+        imagem: 'https://image.tmdb.org/t/p/w300/wnLJ7nVObgbAD7cgF87XW1t9JT2.jpg'
+    },
+    {
+        titulo: 'David contra os Bancos',
+        descricao: 'A história real de Dave Fishwick, um empresário idealista que decidiu lutar contra o sistema e abrir seu próprio banco para ajudar sua comunidade. Ao lado de seu advogado, ele se tornará um herói local.',
+        imdb: 'tt14308636',
+        imagem: 'https://image.tmdb.org/t/p/w300/nYM7ooxIqyMcywcC1QDanyc9Hh8.jpg'
+    },
+    {
+        titulo: 'Nuovo Olimpo',
+        descricao: 'Na Roma da década de 1970, um encontro casual entre Enea e Pietro no cinema se transforma em um romance inesquecível. Até que o destino separa o casal.',
+        imdb: 'tt18394610',
+        imagem: 'https://image.tmdb.org/t/p/w300/3nx8pSvAARYOLlZ2MNBlH7vW9jv.jpg'
+    },
+    {
+        titulo: 'Paralisia',
+        descricao: 'Ao tentar entender o que realmente aconteceu com uma paciente em coma, uma enfermeira acaba descobrindo uma trama de rivalidade, infidelidade, traição e assassinato.',
+        imdb: 'tt24870072',
+        imagem: 'https://image.tmdb.org/t/p/w300/cjEpz3rZNOae9SghNhoUqxpEjlY.jpg'
+    },
+    {
+        titulo: 'Retorno a Seul',
+        descricao: 'Uma coreana que foi criada na França retorna à Coreia do Sul pela primeira vez. Ela decide procurar seus pais biológicos, mas sua jornada toma um rumo surpreendente.',
+        imdb: 'tt19719836',
+        imagem: 'https://image.tmdb.org/t/p/w300/ylWKMdWk4Ac30JzPP4fx7RIEEOX.jpg'
+    },
+    {
+        titulo: 'Temporada de Furacões',
+        descricao: 'Quando um grupo de adolescentes encontra um corpo flutuando em um canal, a dura realidade por trás de um crime perverso revela os segredos ocultos de uma cidade.',
+        imdb: 'tt28657882',
+        imagem: 'https://image.tmdb.org/t/p/w300/bbfcDxGCvCuhMphluVOMkuPy6hF.jpg'
+    },
+    {
         titulo: 'A Menina Que Matou os Pais: A Confissão',
         descricao: 'Veja o que Suzane von Richthofen, Daniel Cravinhos e Cristian Cravinhos fizeram nos dias que sucederam o crime brutal que levou o casal Richthofen à morte. Este filme revela momentos cruciais da investigação policial, depoimentos e a confissão do crime.',
         imdb: 'tt25153888',
