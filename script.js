@@ -1,73 +1,73 @@
 var filmes = [
     {
         titulo: 'A Família Noel 3',
-        descricao: 'Descrição do filme 1',
+        descricao: 'A entrega dos presentes dá errado e o Vovô Noel fica em apuros. Para salvar o Natal, os irmãos Jules e Norah vão ter que trabalhar juntos… mas será que eles conseguem?',
         imdb: 'tt19072084',
         imagem: 'https://image.tmdb.org/t/p/w300/fhARqtq7lAdahwGgTPMVWmpd5LG.jpg'
     },
     {
         titulo: 'Acampamento de Teatro',
-        descricao: 'Descrição do filme 2',
+        descricao: 'Rebecca-Diane e Amos Klobuchar são melhores amigos de longa data e instrutores de teatro em um acampamento decadente no norte do estado de Nova York. Quando um empresário sem noção chega para administrar (mal) a propriedade, os amigos e o gerente de produção se unem com a equipe e aos alunos para encenar uma obra-prima e manter o acampamento de verão funcionando.',
         imdb: 'tt21232992',
         imagem: 'https://image.tmdb.org/t/p/w300/j0vEroDi8SepB3lXQGrrWQVRTSm.jpg'
     },
     {
         titulo: 'Crimes em Hollywood',
-        descricao: 'Descrição do filme 3',
+        descricao: 'Um ex-detetive da polícia de Los Angeles vive uma vida minimalista na mata. Sua vida tranquila chega a um sobressalto surpreendente quando ele volta a trabalhar como detetive particular, para investigar o assassinato da excêntrica esposa de uma estrela de televisão.',
         imdb: 'tt9244554',
         imagem: 'https://image.tmdb.org/t/p/w300/7g2dtDG3yiCpIAPOGaTFjY2kfJ1.jpg'
     },
     {
         titulo: 'Festa do Pijama Muito Louca',
-        descricao: 'Descrição do filme 4',
+        descricao: 'Quando uma brincadeira numa festa do pijama dá errado, um grupo de amigas acorda sem lembrança nenhuma da noite anterior e precisa refazer seus passos para encontrar a aniversariante que desapareceu.',
         imdb: 'tt22375620',
         imagem: 'https://image.tmdb.org/t/p/w300/1i7dglSbXeDUJrGd4rKGhLKzqGJ.jpg'
     },
     {
         titulo: 'Fundo do Poço',
-        descricao: 'Descrição do filme 5',
+        descricao: 'Uma comédia absurda sobre uma noite selvagem com resultados hilariantes. Gary, um divorciado reprimido de meia-idade, contrata Cameron, um garoto de programa divertido e sem filtro, para lhe fazer uma massagem erótica. Quando Cameron descobre o quanto Gary é inexperiente, ele decide dar um curso intensivo sobre a vida queer sem remorso. A “grade curricular” de Cameron, que envolve aplicativos de sexo e muita gíria gay, rapidamente faz com que o dia tome rumos cada vez mais obscuros. A dupla enfrenta um vizinho intrometido viciado em remédios, um intruso da dark web e outras figuras em uma noite engraçadíssima, cheia de consequências e confrontos.',
         imdb: 'tt14592044',
         imagem: 'https://image.tmdb.org/t/p/w300/ijXKi02M7HIAHtjpBCWKTQj5L3X.jpg'
     },
     {
         titulo: 'Game of Deceit',
-        descricao: 'Descrição do filme 6',
+        descricao: '',
         imdb: 'tt22168778',
         imagem: 'https://image.tmdb.org/t/p/w300/vm9UevgNtoeZJhXYzJlnAmCFDc1.jpg'
     },
     {
         titulo: 'Na Ponta dos Dedos',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Como sabemos ao certo que encontramos o verdadeiro amor? Imagine um exame que consegue responder essa questão definitivamente comparando uma unha de cada pessoa. Você gostaria de saber o resultado—e conseguiria aceitá-lo?',
         imdb: 'tt13968674',
         imagem: 'https://image.tmdb.org/t/p/w300/t1CrJNPsoofVWFiNb3JpXmZgu9W.jpg'
     },
     {
         titulo: 'NYAD',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Aos 60 anos, a atleta Diana Nyad se prepara para realizar o sonho da sua vida: nadar de Cuba até a Flórida, uma travessia em águas abertas de mais de 160 km.',
         imdb: 'tt5302918',
         imagem: 'https://image.tmdb.org/t/p/w300/eh1IjDZfDRjgv5NzMBkjN1GzKgy.jpg'
     },
     {
         titulo: 'O Sequestro',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Julio Levy retorna do exílio político para assumir um cargo nos grandes negócios da família quando seu irmão mais velho, como outros argentinos, é sequestrado. Encarregado de organizar o resgate e com todo o peso da família sobre os ombros, Julio descobre as forças que ainda operam por trás da recém-recuperada democracia argentina. Ele então inicia uma luta desfavorecida contra o sistema vigente.',
         imdb: 'tt21340020',
         imagem: 'https://image.tmdb.org/t/p/w300/k5vgkmlaOSDOMqgKPUhWBXEYTpR.jpg'
     },
     {
         titulo: 'Quiz Lady',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Anne é uma moça brilhante, mas que vive estressada e é obcecada por programas de jogos na TV. Jenny, a irmã dela, mora longe e leva uma vida que é um desastre. Agora, as duas precisam se unir para pagar uma dívida de jogo da mãe delas. Quando o amado cachorro de Anne é sequestrado, elas partem numa aventura e cruzam o país para conseguir o dinheiro da única maneira que sabem: transformando Anne em campeã do programa de jogos da TV.',
         imdb: 'tt13405810',
         imagem: 'https://image.tmdb.org/t/p/w300/2kkz5jZwKkwYxV8sw6EGMyHjSzO.jpg'
     },
     {
         titulo: 'Sharkula',
-        descricao: 'Descrição do filme 11',
+        descricao: 'A maldição do Conde Drácula vive em águas infestadas de tubarões, ceifando a vida de uma comunidade turística. Uma caça ao mar para a nova espécie resulta em monstros, loucura e derramamento de sangue.',
         imdb: 'tt14096132',
         imagem: 'https://image.tmdb.org/t/p/w300/uEAMS8gvPPDt7sMjBdzgCzO0Dnr.jpg'
     },
     {
         titulo: 'She Came to Me',
-        descricao: 'Descrição do filme 12',
+        descricao: '',
         imdb: 'tt6689014',
         imagem: 'https://image.tmdb.org/t/p/w300/2lG18RqCK8qTk7R5jA1L7ZRMWXu.jpg'
     },
