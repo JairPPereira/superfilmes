@@ -80,73 +80,73 @@ var filmes = [
     },
     {
         titulo: 'Terror nas Profundezas',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Navegando sozinha pelo Caribe num barco a vela, uma mulher enfrenta perigos dentro e fora d água quando sua viagem se torna uma luta por sobrevivência.',
         imdb: 'tt14865406',
         imagem: 'https://image.tmdb.org/t/p/w300/1ZZFTMqbQaP59yGTqKOcfqVE7NC.jpg'
     },
     {
         titulo: 'A Última Montanha',
-        descricao: 'Descrição do filme 14',
+        descricao: 'A história convincente do alpinista Tom Ballard, de 30 anos, que desapareceu em uma das montanhas mais mortais do Himalaia, Nanga Parbat, em fevereiro de 2019. Tom era filho da alpinista Alison Hargreaves, que morreu no K2 em 1995. Mãe e filho , dois dos maiores escaladores de todos os tempos, morreram quase com a mesma idade nas cadeias montanhosas vizinhas, ambos fazendo o que mais gostavam. Eles agora estão para sempre envoltos no gelo de duas das montanhas mais altas do mundo. Deixados para trás, para lidar com a tragédia duradoura, estão a irmã de Tom, Kate, e seu pai, Jim.',
         imdb: 'tt15509560',
         imagem: 'https://image.tmdb.org/t/p/w300/adNemSIVVpQ1EwiBjygJCh6N9iF.jpg'
     },
     {
         titulo: 'As Marvels',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Quando suas obrigações a levam a uma fenda espacial anômala ligada a um revolucionário Kree, os poderes de Carol Danvers, a Capitã Marvel, se entrelaçam aos de Kamala Khan, a Ms. Marvel, e aos da sobrinha de Carol, astronauta da S.A.B.E.R., Capitã Monica Rambeau. Juntas, esse trio improvável deve ser unir para salvar o universo como As Marvels.',
         imdb: 'tt10676048',
         imagem: 'https://image.tmdb.org/t/p/w300/sPmmgdmApfjX9x2mg02bo0aUOU9.jpg'
     },
     {
         titulo: 'Verdades Dolorosas',
-        descricao: 'Descrição do filme 16',
+        descricao: 'O casamento de longa data de uma romancista é repentinamente abalado quando ela ouve seu marido dando sua reação honesta ao seu último livro.',
         imdb: 'tt15771916',
         imagem: 'https://image.tmdb.org/t/p/w300/h0nB00M7n1jjKc0PHXF3cSZPbb8.jpg'
     },
     {
         titulo: 'Pense como Eles',
-        descricao: 'Descrição do filme 17',
+        descricao: 'O livro Act Like a Lady, Think Like a Man (Comporte-se como uma dama, pense como um homem) transforma a vida de um grupo de amigos quando suas namoradas decidem usar as dicas do autor Steve Harvey contra eles. Agora é a vez dos rapazes lerem o livro e verem como podem dar uma lição nas mulheres.',
         imdb: 'tt1621045',
         imagem: 'https://image.tmdb.org/t/p/w300/flTmZdq5oERiXR0Rv5o8rmhKzMg.jpg'
     },
     {
         titulo: 'Sly',
-        descricao: 'Descrição do filme 18',
+        descricao: 'O amor pelo cinema foi o passaporte de saída da infância traumática. De jovem sem futuro a lenda de Hollywood, Sylvester Stallone conta sua história neste documentário.',
         imdb: 'tt28254460',
         imagem: 'https://image.tmdb.org/t/p/w300/flnrKe85SfgcRCW2KgUhz2Bn9yE.jpg'
     },
     {
         titulo: 'Férias de Verão',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Ao perderem os empregos, dois amigos fazem bico como animadores infantis em um hotel de luxo e levam os filhos escondidos para aproveitar as férias de verão.',
         imdb: 'tt26756609',
         imagem: 'https://image.tmdb.org/t/p/w300/mcMj1XhDPyxa0xuZ9aNrbPVs1CJ.jpg'
     },
     {
         titulo: 'Baywatch: S.O.S. Malibu',
-        descricao: 'Descrição do filme 20',
+        descricao: 'Quando uma perigosa onda de crime atinge o local, o lendário tenente Mitch Buchannon aciona seu esquadrão de elite de salva-vidas durões, para provar que não é preciso usar um distintivo para cumprir sua missão. Junto com um trio de fortes recrutas, incluindo o ex-olímpico Matt Brody, eles vão deixar o surfe de lado e fazer de tudo para derrotar uma cruel empresária, cujos planos infames ameaçam o futuro da praia.',
         imdb: 'tt1469304',
         imagem: 'https://image.tmdb.org/t/p/w300/7178I9T3a27Td5kyjrT207F3hwP.jpg'
     },
     {
         titulo: 'Os Bons Companheiros',
-        descricao: 'Descrição do filme 21',
+        descricao: 'Um jovem cresce na máfia e trabalha arduamente para crescer entre seus companheiros. Ele gosta da vida de dinheiro e luxo, mas não liga para o horror que provoca. Infelizmente, a dependência de drogas e alguns erros finalmente destroem sua escalada até o topo. Baseado no livro Wiseguy por Nicholas Pileggi.',
         imdb: 'tt0099685',
         imagem: 'https://image.tmdb.org/t/p/w300/fnJcBTbNNUkcNmjqc7fF5ozzLDk.jpg'
     },
     {
         titulo: 'Patrulha Canina: Um Filme Superpoderoso',
-        descricao: 'Descrição do filme 22',
+        descricao: 'Um meteoro mágico cai em Adventure City, dá superpoderes aos filhotes da Patrulha Canina e os transforma em Os Super Filhotes. Quando o arquirrival da Patrulha Canina, Humdinger, foge da prisão e se junta a um cientista maluco para roubar os poderes para si, Os Super Filhotes devem salvar Adventure City e deter os supervilões antes que seja tarde demais.',
         imdb: 'tt15837338',
         imagem: 'https://image.tmdb.org/t/p/w300/uzqjYjnnA3fpXFvd4JfMEc1fBhj.jpg'
     },
     {
         titulo: 'Agente Stone',
-        descricao: 'Descrição do filme 23',
+        descricao: 'Rachel Stone é uma agente de inteligência, a única mulher que se interpõe entre sua poderosa organização global de manutenção da paz e a perda de seu ativo mais valioso - e perigoso.',
         imdb: 'tt13603966',
         imagem: 'https://image.tmdb.org/t/p/w300/9EpaPaKozP2b8L1hJekBFI75gCm.jpg'
     },
     {
         titulo: 'Agente Infiltrado',
-        descricao: 'Descrição do filme 24',
+        descricao: 'Um homem enfrenta um dilema moral depois de se infiltrar em um grupo criminoso. A situação piora quando o filho do chefe, um garoto de oito anos, entra na jogada.',
         imdb: 'tt27197387',
         imagem: 'https://image.tmdb.org/t/p/w300/mOP3FjJuOe38grWMgdtuVGNMFzZ.jpg'
     },
