@@ -1,5 +1,155 @@
 var filmes = [
     {
+        titulo: 'A Família Noel 3',
+        descricao: 'Descrição do filme 1',
+        imdb: 'tt19072084',
+        imagem: 'https://image.tmdb.org/t/p/w300/fhARqtq7lAdahwGgTPMVWmpd5LG.jpg'
+    },
+    {
+        titulo: 'Acampamento de Teatro',
+        descricao: 'Descrição do filme 2',
+        imdb: 'tt21232992',
+        imagem: 'https://image.tmdb.org/t/p/w300/j0vEroDi8SepB3lXQGrrWQVRTSm.jpg'
+    },
+    {
+        titulo: 'Crimes em Hollywood',
+        descricao: 'Descrição do filme 3',
+        imdb: 'tt9244554',
+        imagem: 'https://image.tmdb.org/t/p/w300/7g2dtDG3yiCpIAPOGaTFjY2kfJ1.jpg'
+    },
+    {
+        titulo: 'Festa do Pijama Muito Louca',
+        descricao: 'Descrição do filme 4',
+        imdb: 'tt22375620',
+        imagem: 'https://image.tmdb.org/t/p/w300/1i7dglSbXeDUJrGd4rKGhLKzqGJ.jpg'
+    },
+    {
+        titulo: 'Fundo do Poço',
+        descricao: 'Descrição do filme 5',
+        imdb: 'tt14592044',
+        imagem: 'https://image.tmdb.org/t/p/w300/ijXKi02M7HIAHtjpBCWKTQj5L3X.jpg'
+    },
+    {
+        titulo: 'Game of Deceit',
+        descricao: 'Descrição do filme 6',
+        imdb: 'tt22168778',
+        imagem: 'https://image.tmdb.org/t/p/w300/vm9UevgNtoeZJhXYzJlnAmCFDc1.jpg'
+    },
+    {
+        titulo: 'Na Ponta dos Dedos',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt13968674',
+        imagem: 'https://image.tmdb.org/t/p/w300/t1CrJNPsoofVWFiNb3JpXmZgu9W.jpg'
+    },
+    {
+        titulo: 'NYAD',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt5302918',
+        imagem: 'https://image.tmdb.org/t/p/w300/eh1IjDZfDRjgv5NzMBkjN1GzKgy.jpg'
+    },
+    {
+        titulo: 'O Sequestro',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt21340020',
+        imagem: 'https://image.tmdb.org/t/p/w300/k5vgkmlaOSDOMqgKPUhWBXEYTpR.jpg'
+    },
+    {
+        titulo: 'Quiz Lady',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt13405810',
+        imagem: 'https://image.tmdb.org/t/p/w300/2kkz5jZwKkwYxV8sw6EGMyHjSzO.jpg'
+    },
+    {
+        titulo: 'Sharkula',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt14096132',
+        imagem: 'https://image.tmdb.org/t/p/w300/uEAMS8gvPPDt7sMjBdzgCzO0Dnr.jpg'
+    },
+    {
+        titulo: 'She Came to Me',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt6689014',
+        imagem: 'https://image.tmdb.org/t/p/w300/2lG18RqCK8qTk7R5jA1L7ZRMWXu.jpg'
+    },
+    {
+        titulo: 'Terror nas Profundezas',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt14865406',
+        imagem: 'https://image.tmdb.org/t/p/w300/1ZZFTMqbQaP59yGTqKOcfqVE7NC.jpg'
+    },
+    {
+        titulo: 'A Última Montanha',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt15509560',
+        imagem: 'https://image.tmdb.org/t/p/w300/adNemSIVVpQ1EwiBjygJCh6N9iF.jpg'
+    },
+    {
+        titulo: 'As Marvels',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt10676048',
+        imagem: 'https://image.tmdb.org/t/p/w300/sPmmgdmApfjX9x2mg02bo0aUOU9.jpg'
+    },
+    {
+        titulo: 'Verdades Dolorosas',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt15771916',
+        imagem: 'https://image.tmdb.org/t/p/w300/h0nB00M7n1jjKc0PHXF3cSZPbb8.jpg'
+    },
+    {
+        titulo: 'Pense como Eles',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt1621045',
+        imagem: 'https://image.tmdb.org/t/p/w300/flTmZdq5oERiXR0Rv5o8rmhKzMg.jpg'
+    },
+    {
+        titulo: 'Sly',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt28254460',
+        imagem: 'https://image.tmdb.org/t/p/w300/flnrKe85SfgcRCW2KgUhz2Bn9yE.jpg'
+    },
+    {
+        titulo: 'Férias de Verão',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt26756609',
+        imagem: 'https://image.tmdb.org/t/p/w300/mcMj1XhDPyxa0xuZ9aNrbPVs1CJ.jpg'
+    },
+    {
+        titulo: 'Baywatch: S.O.S. Malibu',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt1469304',
+        imagem: 'https://image.tmdb.org/t/p/w300/7178I9T3a27Td5kyjrT207F3hwP.jpg'
+    },
+    {
+        titulo: 'Os Bons Companheiros',
+        descricao: 'Descrição do filme 21',
+        imdb: 'tt0099685',
+        imagem: 'https://image.tmdb.org/t/p/w300/fnJcBTbNNUkcNmjqc7fF5ozzLDk.jpg'
+    },
+    {
+        titulo: 'Patrulha Canina: Um Filme Superpoderoso',
+        descricao: 'Descrição do filme 22',
+        imdb: 'tt15837338',
+        imagem: 'https://image.tmdb.org/t/p/w300/uzqjYjnnA3fpXFvd4JfMEc1fBhj.jpg'
+    },
+    {
+        titulo: 'Agente Stone',
+        descricao: 'Descrição do filme 23',
+        imdb: 'tt13603966',
+        imagem: 'https://image.tmdb.org/t/p/w300/9EpaPaKozP2b8L1hJekBFI75gCm.jpg'
+    },
+    {
+        titulo: 'Agente Infiltrado',
+        descricao: 'Descrição do filme 24',
+        imdb: 'tt27197387',
+        imagem: 'https://image.tmdb.org/t/p/w300/mOP3FjJuOe38grWMgdtuVGNMFzZ.jpg'
+    },
+    {
+        titulo: 'A Filha da Noiva',
+        descricao: 'Diane e sua filha Kate são melhores amigas, mas o relacionamento das duas vira de pernas para o ar quando a jovem tenta arruinar os planos de casamento de Diane e seu namorado Bruce.',
+        imdb: 'tt21106970',
+        imagem: 'https://image.tmdb.org/t/p/w300/u3N82ILIbrUaE7DWG46jjXdFWpY.jpg'
+    },
+    {
         titulo: 'A Fada do Dente',
         descricao: 'Violetta, uma fada curiosa e atrevida, se perde no mundo humano. Para encontrar o caminho de volta ao mundo das fadas, ela se junta à garota humana Maxie e descobre seu verdadeiro destino.',
         imdb: 'tt20199226',
