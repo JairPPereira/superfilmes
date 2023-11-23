@@ -7,6 +7,102 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Jogos Vorazes: A Cantiga dos Pássaros e das Serpentes',
+        descricao: 'Anos antes de se tornar o tirânico presidente de Panem, Coriolanus Snow aos 18 anos vê uma chance de mudança de sorte quando é escolhido para ser mentor de Lucy Gray Baird, a garota tributo do empobrecido Distrito 12.',
+        imdb: 'tt10545296',
+        imagem: 'https://image.tmdb.org/t/p/w300/nNNxK2NwqHmAjuStya7SwOQeMwq.jpg'
+    },
+    {
+        titulo: 'Um Chamado Natalino',
+        descricao: 'Eddie Garrick é um homem de bom coração que deixou de acreditar na maravilha do Natal. Enquanto ele passa um tempo com sua filha Charlotte, de nove anos, na noite de Natal, ele faz amizade com um homem misterioso de terno vermelho chamado Nick.',
+        imdb: 'tt5608166',
+        imagem: 'https://image.tmdb.org/t/p/w300/hRKyfZoHndndMbvUGqjVbmuuOT9.jpg'
+    },
+    {
+        titulo: 'Seja Meus Olhos',
+        descricao: 'Jael é uma jovem que sofre de agorafobia e trabalha em casa em uma empresa de tecnologia que coneta pessoas cegas para conseguir um emprego. Uma noite, ela recebe uma ligação de Alejandra, uma misteriosa garota cega que está sendo perseguida por assassinos que querem matá-la. Jael e Alejandra precisam unir forças e superar os seus medos para sobreviver.',
+        imdb: 'tt17220590',
+        imagem: 'https://image.tmdb.org/t/p/w300/gJqDeuPGddm2ORNqYRkTxRRsTkL.jpg'
+    },
+    {
+        titulo: 'Tem Algo de Errado com as Crianças',
+        descricao: 'Uma família viaja para encontrar com velhos amigos. Em dado momento, as crianças desaparecerem na floresta e voltam com comportamentos estranhos, e todos começam a desconfiar que algo sobrenatural está acontecendo.',
+        imdb: 'tt16127696',
+        imagem: 'https://image.tmdb.org/t/p/w300/8ZFb1xE1D3HZl41dlpCfRZrXNdU.jpg'
+    },
+    {
+        titulo: 'Rustin',
+        descricao: 'Mesmo com o racismo e a homofobia, o ativista Bayard Rustin ajudou a mudar o curso da história dos Direitos Civis ao orquestrar a Marcha sobre Washington em 1963.',
+        imdb: 'tt14160834',
+        imagem: 'https://image.tmdb.org/t/p/w300/lCawCmTJhKT7c2ZOzLBTXDIR8JS.jpg'
+    },
+    {
+        titulo: 'Respect: A História de Aretha Franklin',
+        descricao: 'A incrível história real da jornada de um ícone da música em busca de sua voz, desde criança cantando no coral da igreja até seu estrelato internacional.',
+        imdb: 'tt2452150',
+        imagem: 'https://image.tmdb.org/t/p/w300/1u672qYJpk2Ru4ejNo7eHl1zVws.jpg'
+    },
+    {
+        titulo: 'Os Reis de Queenstown',
+        descricao: 'Depois da morte do pai, um jogador de futebol desacreditado retorna à pacata Queenstown e tenta se reconectar com o filho, um jovem cheio de talento e grandes sonhos.',
+        imdb: 'tt21448346',
+        imagem: 'https://image.tmdb.org/t/p/w300/3TuRHUEecBSZgPx40JZWOemzAwx.jpg'
+    },
+    {
+        titulo: 'Novos Ricos',
+        descricao: 'Um golpista precisando de grana e uma mulher cheia de criptomoedas se encontram. Será que ela é o alvo perfeito ou desta vez quem vai levar o golpe é ele?',
+        imdb: 'tt27921620',
+        imagem: 'https://image.tmdb.org/t/p/w300/jfEuk5VdwaDN4UAGBPqUwZWAteg.jpg'
+    },
+    {
+        titulo: 'Nos Vemos Em Vênus',
+        descricao: 'Uma menina órfã de 18 anos quer viajar para a Europa para rastrear sua mãe biológica, então, quando ela conhece um jovem de bom coração, sofrendo com a culpa de um acidente fatal, ela o convence a acompanhá-la na viagem.',
+        imdb: 'tt14960612',
+        imagem: 'https://image.tmdb.org/t/p/w300/nAhxlttDRAoJlP0IL1li460cMt3.jpg'
+    },
+    {
+        titulo: 'Natal no Restaurante Chinês',
+        descricao: 'Irmãos se veem reavaliando o futuro quando os pais os surpreendem com a notícia de que vão fechar o restaurante chinês que administram há décadas.',
+        imdb: 'tt13937754',
+        imagem: 'https://image.tmdb.org/t/p/w300/gvWai64abofTjpZERA4xh6APzH5.jpg'
+    },
+    {
+        titulo: 'Mercy: Golpe de Misericórdia',
+        descricao: 'Uma ex-médica militar se vê em uma batalha mortal pela sobrevivência quando a máfia irlandesa assume o controle do hospital em que ela trabalha. Quando seu filho é feito refém, ela é forçada a confiar em seu passado endurecido pela batalha e habilidades letais depois de perceber que não há mais ninguém para salvar o dia além dela.',
+        imdb: 'tt26439204',
+        imagem: 'https://image.tmdb.org/t/p/w300/dXqeLm3Eq0HYKLfp9AeVdtd3eId.jpg'
+    },
+    {
+        titulo: 'Luccas Neto em: Uma Aventura no Zoológico',
+        descricao: 'Luccas compra um novo jogo de tabuleiro para experimentar com seus amigos. O que eles não esperavam é que fossem viver uma aventura mágica e repleta de perigos para salvar os animais do Zoológico. Levados para dentro do game, todos precisam correr contra o tempo para derrotar players malvados que estão presos no jogo há muitos anos, e que planejam destruir tudo para tentar escapar.',
+        imdb: 'tt29952387',
+        imagem: 'https://image.tmdb.org/t/p/w300/c13uqs7p5cNiuLBKKHsYYNcaZ1q.jpg'
+    },
+    {
+        titulo: 'Bihter: A Forbidden Passion',
+        descricao: 'Este filme dá uma nova perspectiva do romance de Halid Ziya Uşaklıgil, Aşk-ı Memnu (Amor Proibido). Explora o amor mergulhando nos pensamentos da heroína. Bihter vê o casamento com Adnan, rico e mais velho, como uma chance de escapar dos rótulos sociais, mas se apaixona por Behlül, um charmoso parente de Adnan.',
+        imdb: 'tt26258488',
+        imagem: 'https://image.tmdb.org/t/p/w300/jfn5p0uC7cuxQSLvBNSWWQ7Iz6j.jpg'
+    },
+    {
+        titulo: 'Believer 2',
+        descricao: 'Um detetive determinado procura a verdade por detrás da maior organização de tráfico de droga da Ásia e do seu esquivo cabecilha, com quem tem contas a acertar.',
+        imdb: 'tt26258204',
+        imagem: 'https://image.tmdb.org/t/p/w300/h3G2rjJoOOMOKweAY3YTK0Tnaa0.jpg'
+    },
+    {
+        titulo: 'Amor em Águas Turvas',
+        descricao: 'A bordo de um navio luxuoso rumo ao Mar Egeu, um funcionário e uma passageira investigam um assassinato chocante, em meio a muito romance, mistério e caos.',
+        imdb: 'tt21211474',
+        imagem: 'https://image.tmdb.org/t/p/w300/oABVKUveQbAPaQtzG3M3QevBg0D.jpg'
+    },
+    {
+        titulo: 'O Assassino',
+        descricao: 'Depois de um erro desastroso, um assassino enfrenta quem o contratou e a si mesmo em uma caçada internacional por vingança. Mas ele jura que nada disso é pessoal.',
+        imdb: 'tt1136617',
+        imagem: 'https://image.tmdb.org/t/p/w300/mkEQgdQcvmxSYvY4bMhabxLjjXY.jpg'
+    },
+    {
         titulo: 'A Família Noel 3',
         descricao: 'A entrega dos presentes dá errado e o Vovô Noel fica em apuros. Para salvar o Natal, os irmãos Jules e Norah vão ter que trabalhar juntos… mas será que eles conseguem?',
         imdb: 'tt19072084',
