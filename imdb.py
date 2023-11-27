@@ -3,242 +3,201 @@ import re
 
 html = """
 <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Jogos Vorazes: A Cantiga dos Pássaros e das Serpentes', 'https://embedder.net/e/movie?imdb=tt10545296')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/nNNxK2NwqHmAjuStya7SwOQeMwq.jpg);"></div>
-    <a onclick="openMovie('Jogos Vorazes: A Cantiga dos Pássaros e das Serpentes', 'https://embedder.net/e/movie?imdb=tt10545296')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Jogos Vorazes: A Cantiga dos Pássaros e das Serpentes</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Um Chamado Natalino', 'https://embedder.net/e/movie?imdb=tt5608166')" class="full-click"></a>       
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/hRKyfZoHndndMbvUGqjVbmuuOT9.jpg);"></div>
-    <a onclick="openMovie('Um Chamado Natalino', 'https://embedder.net/e/movie?imdb=tt5608166')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Um Chamado Natalino</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Seja Meus Olhos', 'https://embedder.net/e/movie?imdb=tt17220590')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gJqDeuPGddm2ORNqYRkTxRRsTkL.jpg);"></div>
-    <a onclick="openMovie('Seja Meus Olhos', 'https://embedder.net/e/movie?imdb=tt17220590')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Seja Meus Olhos</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Tem Algo de Errado com as Crianças', 'https://embedder.net/e/movie?imdb=tt16127696')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/8ZFb1xE1D3HZl41dlpCfRZrXNdU.jpg);"></div>
-    <a onclick="openMovie('Tem Algo de Errado com as Crianças', 'https://embedder.net/e/movie?imdb=tt16127696')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Tem Algo de Errado com as Crianças</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Rustin', 'https://embedder.net/e/movie?imdb=tt14160834')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/lCawCmTJhKT7c2ZOzLBTXDIR8JS.jpg);"></div>
-    <a onclick="openMovie('Rustin', 'https://embedder.net/e/movie?imdb=tt14160834')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Rustin</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Respect: A História de Aretha Franklin', 'https://embedder.net/e/movie?imdb=tt2452150')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/1u672qYJpk2Ru4ejNo7eHl1zVws.jpg);"></div>
-    <a onclick="openMovie('Respect: A História de Aretha Franklin', 'https://embedder.net/e/movie?imdb=tt2452150')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Respect: A História de Aretha Franklin</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Os Reis de Queenstown', 'https://embedder.net/e/movie?imdb=tt21448346')" class="full-click"></a>    
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/3TuRHUEecBSZgPx40JZWOemzAwx.jpg);"></div>
-    <a onclick="openMovie('Os Reis de Queenstown', 'https://embedder.net/e/movie?imdb=tt21448346')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Os Reis de Queenstown</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Novos Ricos', 'https://embedder.net/e/movie?imdb=tt27921620')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/jfEuk5VdwaDN4UAGBPqUwZWAteg.jpg);"></div>
-    <a onclick="openMovie('Novos Ricos', 'https://embedder.net/e/movie?imdb=tt27921620')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Novos Ricos</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Nos Vemos Em Vênus', 'https://embedder.net/e/movie?imdb=tt14960612')" class="full-click"></a>       
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/nAhxlttDRAoJlP0IL1li460cMt3.jpg);"></div>
-    <a onclick="openMovie('Nos Vemos Em Vênus', 'https://embedder.net/e/movie?imdb=tt14960612')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Nos Vemos Em Vênus</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Natal no Restaurante Chinês', 'https://embedder.net/e/movie?imdb=tt13937754')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gvWai64abofTjpZERA4xh6APzH5.jpg);"></div>
-    <a onclick="openMovie('Natal no Restaurante Chinês', 'https://embedder.net/e/movie?imdb=tt13937754')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Natal no Restaurante Chinês</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Mercy: Golpe de Misericórdia', 'https://embedder.net/e/movie?imdb=tt26439204')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/dXqeLm3Eq0HYKLfp9AeVdtd3eId.jpg);"></div>
-    <a onclick="openMovie('Mercy: Golpe de Misericórdia', 'https://embedder.net/e/movie?imdb=tt26439204')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Mercy: Golpe de Misericórdia</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Luccas Neto em: Uma Aventura no Zoológico', 'https://embedder.net/e/movie?imdb=tt29952387')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/c13uqs7p5cNiuLBKKHsYYNcaZ1q.jpg);"></div>
-    <a onclick="openMovie('Luccas Neto em: Uma Aventura no Zoológico', 'https://embedder.net/e/movie?imdb=tt29952387')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Luccas Neto em: Uma Aventura no Zoológico</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Casa do Carvalho - O Filme', 'https://embedder.net/e/movie?imdb=None')" class="full-click"></a>     
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ueYgWeUbaNTam7mtG8AXH9vt6Hk.jpg);"></div>
-    <a onclick="openMovie('Casa do Carvalho - O Filme', 'https://embedder.net/e/movie?imdb=None')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Casa do Carvalho - O Filme</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Bihter: A Forbidden Passion', 'https://embedder.net/e/movie?imdb=tt26258488')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/jfn5p0uC7cuxQSLvBNSWWQ7Iz6j.jpg);"></div>
-    <a onclick="openMovie('Bihter: A Forbidden Passion', 'https://embedder.net/e/movie?imdb=tt26258488')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Bihter: A Forbidden Passion</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Believer 2', 'https://embedder.net/e/movie?imdb=tt26258204')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/h3G2rjJoOOMOKweAY3YTK0Tnaa0.jpg);"></div>
-    <a onclick="openMovie('Believer 2', 'https://embedder.net/e/movie?imdb=tt26258204')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Believer 2</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('Amor em Águas Turvas', 'https://embedder.net/e/movie?imdb=tt21211474')" class="full-click"></a>     
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/oABVKUveQbAPaQtzG3M3QevBg0D.jpg);"></div>
-    <a onclick="openMovie('Amor em Águas Turvas', 'https://embedder.net/e/movie?imdb=tt21211474')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">Amor em Águas Turvas</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
-    
-    <div class="col mt-3">
-    <!-- start media-box -->
-    <div class="media-box">
-    <a onclick="openMovie('O Assassino', 'https://embedder.net/e/movie?imdb=tt1136617')" class="full-click"></a>
-    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/mkEQgdQcvmxSYvY4bMhabxLjjXY.jpg);"></div>
-    <a onclick="openMovie('O Assassino', 'https://embedder.net/e/movie?imdb=tt1136617')" class="media-play"><i class="icofont-ui-play"></i></a>
-    <!-- Start rate-quality-info -->
-    <div class="media-info">
-    <h5 class="media-box-title">O Assassino</h5>
-    </div>
-    <!-- end media-box -->
-    </div>
-    </div>
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Rock Dog: Uma Batida Animal', 'https://embedder.net/e/movie?imdb=tt11207270')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/q69N7l4ioEqs5Tlz7lH61DL01eh.jpg);"></div>
+<a onclick="openMovie('Rock Dog: Uma Batida Animal', 'https://embedder.net/e/movie?imdb=tt11207270')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Rock Dog: Uma Batida Animal</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Nosso Sonho', 'https://embedder.net/e/movie?imdb=tt15060662')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/oB4KWKaMwYL9B606oP2R2tukzCB.jpg);"></div>
+<a onclick="openMovie('Nosso Sonho', 'https://embedder.net/e/movie?imdb=tt15060662')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Nosso Sonho</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Liga da Justiça: Mundo Bélico', 'https://embedder.net/e/movie?imdb=tt27687527')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/yxXOMGosmqgjFicfmde61wnwQQ4.jpg);"></div>
+<a onclick="openMovie('Liga da Justiça: Mundo Bélico', 'https://embedder.net/e/movie?imdb=tt27687527')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Liga da Justiça: Mundo Bélico</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Leo', 'https://embedder.net/e/movie?imdb=tt5755238')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg);"></div>
+<a onclick="openMovie('Leo', 'https://embedder.net/e/movie?imdb=tt5755238')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Leo</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Jogos Entre Amigos 2: Eulogia Atrapalhada', 'https://embedder.net/e/movie?imdb=tt21241942')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/kjyOtmWbP8CtJUywDBf1bh4QPmT.jpg);"></div>
+<a onclick="openMovie('Jogos Entre Amigos 2: Eulogia Atrapalhada', 'https://embedder.net/e/movie?imdb=tt21241942')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Jogos Entre Amigos 2: Eulogia Atrapalhada</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Harmonia Silenciosa', 'https://embedder.net/e/movie?imdb=tt6051918')" class="full-click"></a>       
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ye8ztkPkvGvI9i8ESOTnFep3GwI.jpg);"></div>
+<a onclick="openMovie('Harmonia Silenciosa', 'https://embedder.net/e/movie?imdb=tt6051918')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Harmonia Silenciosa</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Heróis da Máscara Dourada', 'https://embedder.net/e/movie?imdb=tt6349210')" class="full-click"></a> 
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/wuuC2UVWsCSvAQNxvJiRJZLuYD3.jpg);"></div>
+<a onclick="openMovie('Heróis da Máscara Dourada', 'https://embedder.net/e/movie?imdb=tt6349210')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Heróis da Máscara Dourada</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Ele Vem à Noite', 'https://embedder.net/e/movie?imdb=tt9750368')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/2ocm4qhruZrDODyAPWQmJa3lXsL.jpg);"></div>
+<a onclick="openMovie('Ele Vem à Noite', 'https://embedder.net/e/movie?imdb=tt9750368')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Ele Vem à Noite</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Destacamento Blood', 'https://embedder.net/e/movie?imdb=tt9777644')" class="full-click"></a>        
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/sl2qDR4aRHW5bAJdfiFC4H2NKWZ.jpg);"></div>
+<a onclick="openMovie('Destacamento Blood', 'https://embedder.net/e/movie?imdb=tt9777644')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Destacamento Blood</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Contos Sombrios', 'https://embedder.net/e/movie?imdb=tt8954352')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/2hXLV4PMgu8blPtvGEDlIVumwul.jpg);"></div>
+<a onclick="openMovie('Contos Sombrios', 'https://embedder.net/e/movie?imdb=tt8954352')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Contos Sombrios</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Batem à Porta', 'https://embedder.net/e/movie?imdb=tt15679400')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/94Gfu9vxUAVeL8EHc9toT9nGLkv.jpg);"></div>
+<a onclick="openMovie('Batem à Porta', 'https://embedder.net/e/movie?imdb=tt15679400')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Batem à Porta</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Acampamento Maldito', 'https://embedder.net/e/movie?imdb=tt2789014')" class="full-click"></a>       
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ayMAxYTvCMWCQKG84dRT8ZEa0GC.jpg);"></div>
+<a onclick="openMovie('Acampamento Maldito', 'https://embedder.net/e/movie?imdb=tt2789014')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Acampamento Maldito</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('A Lista de Beijos', 'https://embedder.net/e/movie?imdb=tt19753884')" class="full-click"></a>        
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/xVNUvJpvfu1ggHz1NZ0ilFfmFeW.jpg);"></div>
+<a onclick="openMovie('A Lista de Beijos', 'https://embedder.net/e/movie?imdb=tt19753884')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">A Lista de Beijos</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
+<div class="col mt-3">
+<!-- start media-box -->
+<div class="media-box">
+<a onclick="openMovie('Aqua Teen Forever: Plantasm', 'https://embedder.net/e/movie?imdb=tt14636190')" class="full-click"></a>
+<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/dzMfgDxEOfFdw6WIaoC94CayYWL.jpg);"></div>
+<a onclick="openMovie('Aqua Teen Forever: Plantasm', 'https://embedder.net/e/movie?imdb=tt14636190')" class="media-play"><i class="icofont-ui-play"></i></a>
+<!-- Start rate-quality-info -->
+<div class="media-info">
+<h5 class="media-box-title">Aqua Teen Forever: Plantasm</h5>
+</div>
+<!-- end media-box -->
+</div>
+</div>
+
 """
 
 # Parse o HTML usando BeautifulSoup

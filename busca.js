@@ -7,6 +7,90 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Rock Dog: Uma Batida Animal',
+        descricao: 'Depois de viajar pelo mundo, Bodi tira uma folga e volta para sua aldeia. Quando ele descobre que o grupo feminino, K-9, não sabe quem é a lenda do rock Angus Scattergood, ele é obrigado a se juntar ao concurso musical “Battle the Beat”, para inspirar uma nova geração de estrelas do rock. Mas depois de ingressar no programa, Bodi rapidamente percebe que mordeu mais do que pode mastigar quando se torna uma sensação de personalidade da TV da noite para o dia.',
+        imdb: 'tt11207270',
+        imagem: 'https://image.tmdb.org/t/p/w300/q69N7l4ioEqs5Tlz7lH61DL01eh.jpg'
+    },
+    {
+        titulo: 'Nosso Sonho',
+        descricao: 'A cinebiografia de Claudinho e Buchecha, dupla de maior sucesso do funk melody nacional em todos os tempos e ícone máximo do gênero na música popular brasileira. A história de uma amizade que se transforma em força de superação e conquista. Um filme que mostra como o ritmo e a poesia da periferia conquistaram o Brasil. Uma história real repleta de fantasia. Um longa-metragem musical, emocionante e divertido, feito de drama e tragédias, mas também de muito humor, surpresas e redenção.',
+        imdb: 'tt15060662',
+        imagem: 'https://image.tmdb.org/t/p/w300/oB4KWKaMwYL9B606oP2R2tukzCB.jpg'
+    },
+    {
+        titulo: 'Liga da Justiça: Mundo Bélico',
+        descricao: 'Até agora, a Liga da Justiça tem sido uma associação informal de indivíduos superpoderosos. Mas quando eles são arrastados para Warworld, um lugar de interminável combate brutal de gladiadores, Batman, Superman, Mulher-Maravilha e os outros devem de alguma forma se unir para formar uma resistência imbatível capaz de levar um planeta inteiro à liberdade.',
+        imdb: 'tt27687527',
+        imagem: 'https://image.tmdb.org/t/p/w300/yxXOMGosmqgjFicfmde61wnwQQ4.jpg'
+    },
+    {
+        titulo: 'Leo',
+        descricao: 'Adam Sandler interpreta um lagarto chamado Leo na versão em inglês desta comédia que narra o último ano do fundamental pelos olhos do bichinho de estimação da sala.',
+        imdb: 'tt5755238',
+        imagem: 'https://image.tmdb.org/t/p/w300/gSOVog7ydsaF1YpgAqBqnKYFGY.jpg'
+    },
+    {
+        titulo: 'Jogos Entre Amigos 2: Eulogia Atrapalhada',
+        descricao: 'Após a perda de um dos amigos, o Bobfather e os caras roubam a urna e partem em uma viagem para homenagear a vida dele no local onde os Buddy Games começaram, mas tudo dá errado quando se veem no meio das festas de primavera.',
+        imdb: 'tt21241942',
+        imagem: 'https://image.tmdb.org/t/p/w300/kjyOtmWbP8CtJUywDBf1bh4QPmT.jpg'
+    },
+    {
+        titulo: 'Harmonia Silenciosa',
+        descricao: 'O guitarrista Noah se decepciona com sua carreira de músico em uma banda pop e decide voltar para a casa de sua mãe, com quem tem constantes brigas por causa de velhas feridas. Até que Noah se encanta por Finn, um jovem trans e surdo, que luta para manter aberta sua boate para pessoas com deficiência auditiva. À medida em que se aproximam, eles tentam se comunicar de maneira verdadeira, ainda que em linguagens diferentes.',
+        imdb: 'tt6051918',
+        imagem: 'https://image.tmdb.org/t/p/w300/ye8ztkPkvGvI9i8ESOTnFep3GwI.jpg'
+    },
+    {
+        titulo: 'Heróis da Máscara Dourada',
+        descricao: 'Charlie, um órfão que vive nas ruas de Chicago, viaja no tempo para a China. Lá, ele aceita ajudar um grupo de heróis a defender o local, enquanto planeja roubar o artefato que dá poder a eles.',
+        imdb: 'tt6349210',
+        imagem: 'https://image.tmdb.org/t/p/w300/wuuC2UVWsCSvAQNxvJiRJZLuYD3.jpg'
+    },
+    {
+        titulo: 'Ele Vem à Noite',
+        descricao: 'Um carpinteiro problemático aceita um trabalho para restaurar um antigo moinho de água na floresta, mas ele esconde segredos que ressoarão com seu misterioso passado.',
+        imdb: 'tt9750368',
+        imagem: 'https://image.tmdb.org/t/p/w300/2ocm4qhruZrDODyAPWQmJa3lXsL.jpg'
+    },
+    {
+        titulo: 'Destacamento Blood',
+        descricao: 'Spike Lee conta a história de quatro veteranos de guerra afro-americanos que voltam ao Vietnã à procura dos restos mortais de seu comandante e de um tesouro enterrado.',
+        imdb: 'tt9777644',
+        imagem: 'https://image.tmdb.org/t/p/w300/sl2qDR4aRHW5bAJdfiFC4H2NKWZ.jpg'
+    },
+    {
+        titulo: 'Contos Sombrios',
+        descricao: 'Durante uma viagem para o Havaí, três estudantes decidem participar de um jogo para ver quem consegue contar a melhor história de terror. Os estudantes contam três histórias diferentes sobre fantasmas japoneses, mas conforme o jogo avança, as coisas começam a ficar cada vez mais sinistras.',
+        imdb: 'tt8954352',
+        imagem: 'https://image.tmdb.org/t/p/w300/2hXLV4PMgu8blPtvGEDlIVumwul.jpg'
+    },
+    {
+        titulo: 'Batem à Porta',
+        descricao: 'Durante as férias em uma cabana remota, uma jovem e seus pais são feitos reféns por quatro estranhos armados que exigem que a família faça uma escolha impensável para evitar o apocalipse. Com acesso limitado ao mundo exterior, a família deve decidir no que acredita antes que tudo esteja perdido.',
+        imdb: 'tt15679400',
+        imagem: 'https://image.tmdb.org/t/p/w300/94Gfu9vxUAVeL8EHc9toT9nGLkv.jpg'
+    },
+    {
+        titulo: 'Acampamento Maldito',
+        descricao: 'O ex-lutador profissional Buck Severs viaja para passar o fim de semana com seus amigos em uma reserva florestal abandonada.',
+        imdb: 'tt2789014',
+        imagem: 'https://image.tmdb.org/t/p/w300/ayMAxYTvCMWCQKG84dRT8ZEa0GC.jpg'
+    },
+    {
+        titulo: 'A Lista de Beijos',
+        descricao: 'Quando um rumor expõe sua falta de técnica para beijar, Camila (Megan Suri), uma adolescente de 16 anos com pouca experiência romântica, planeja beijar os estudantes mais desejados da escola para desmentir os boatos.',
+        imdb: 'tt19753884',
+        imagem: 'https://image.tmdb.org/t/p/w300/xVNUvJpvfu1ggHz1NZ0ilFfmFeW.jpg'
+    },
+    {
+        titulo: 'Aqua Teen Forever: Plantasm',
+        descricao: 'Os Aqua Teens se separaram e depois voltam a reunir-se para lutar contra o líder supremo do mundo corporativo favorito de todos, Amazin, liberados pelo magnata da tecnologia favorito de todos, Neil, e o seu fiel parceiro cientista, Elmer.',
+        imdb: 'tt14636190',
+        imagem: 'https://image.tmdb.org/t/p/w300/dzMfgDxEOfFdw6WIaoC94CayYWL.jpg'
+    },
+    {
         titulo: 'Jogos Vorazes: A Cantiga dos Pássaros e das Serpentes',
         descricao: 'Anos antes de se tornar o tirânico presidente de Panem, Coriolanus Snow aos 18 anos vê uma chance de mudança de sorte quando é escolhido para ser mentor de Lucy Gray Baird, a garota tributo do empobrecido Distrito 12.',
         imdb: 'tt10545296',
