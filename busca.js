@@ -7,6 +7,150 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: '80 for Brady: Quatro Amigas e uma Paixão',
+        descricao: 'Um quarteto de melhores amigas idosas decide viver a vida ao máximo fazendo uma viagem louca ao Super Bowl 51 para ver seu herói Tom Brady jogar.',
+        imdb: 'tt18079362',
+        imagem: 'https://image.tmdb.org/t/p/w300/sZBOc7sXmK618zujlxaiyLTq2e0.jpg'
+    },
+    {
+        titulo: 'A Flauta Mágica',
+        descricao: 'O jovem estudante de música londrino Tim chega ao internato austríaco de Mozart e descobre uma porta secreta. Transportado para uma terra mística, ele embarca em uma emocionante aventura em busca da lendária flauta mágica.',
+        imdb: 'tt8206398',
+        imagem: 'https://image.tmdb.org/t/p/w300/5cSgFlXAMTv8M1jbfkJ25lqaLC1.jpg'
+    },
+    {
+        titulo: 'Vítima 3/19',
+        descricao: 'Camila é uma advogada de sucesso que se envolve em um acidente de trânsito que resulta na morte de um jovem. Na tentativa de descobrir a identidade da vítima, ela conhecerá Bruno, o diretor do necrotério, descobrirá lugares que não costuma frequentar e começará uma jornada de autoconhecimento.',
+        imdb: 'tt15715020',
+        imagem: 'https://image.tmdb.org/t/p/w300/zr6CYGPRajDdcbXJreaUfJfqCOB.jpg'
+    },
+    {
+        titulo: 'Vida de Campeã',
+        descricao: 'Enquanto jovem e em seu auge, Nadia decide se aposentar da natação profissional após os Jogos Olímpicos para escapar de uma vida rígida de sacrifícios. Depois de sua última corrida, Nadia mergulha em noites de excesso pontuadas por episódios de insegurança. Mas mesmo esse entorpecimento transicional não pode esconder sua verdadeira busca interior: definir sua identidade fora do mundo dos esportes de elite.',
+        imdb: 'tt12439508',
+        imagem: 'https://image.tmdb.org/t/p/w300/e9M6XCr2YEJAu6LIE2IlLXOaXPX.jpg'
+    },
+    {
+        titulo: 'Uma Boa Pessoa',
+        descricao: 'Uma amizade improvável surge entre Daniel, que sofre para criar sua neta adolescente e ainda tenta lidar com os obstáculos da vida mesmo em idade avançada, e Alisson, uma jovem com um futuro brilhante que se envolveu em um grave acidente e perdeu sua filha pequena. A dor e a redenção unirá os dois em uma jornada inesperada de cumplicidade e apoio.',
+        imdb: 'tt14153080',
+        imagem: 'https://image.tmdb.org/t/p/w300/8hvgyHipLe26eOF8O9SSqQBw0tb.jpg'
+    },
+    {
+        titulo: 'De Volta à Ativa',
+        descricao: 'Um jovem mágico que luta e de coração partido muda-se para Las Vegas para se tornar famoso, mas por causa de seu talento dado por Deus, ele acaba se tornando o homem de frente para o renascimento de uma famosa, mas combativa trupe de stripers negros, The Chocolate Chips.',
+        imdb: 'tt6048442',
+        imagem: 'https://image.tmdb.org/t/p/w300/ssav9soOaIzXGbqrpt3jIbe1eI1.jpg'
+    },
+    {
+        titulo: 'Doi Boy',
+        descricao: 'Na Tailândia, um refugiado cria uma nova identidade como profissional do sexo e se vê envolvido nos esquemas perigosos de um cliente, que podem levar a uma vida melhor.',
+        imdb: 'tt10235688',
+        imagem: 'https://image.tmdb.org/t/p/w300/79Fpqtpw1bpnzAkqz2vcxplzI84.jpg'
+    },
+    {
+        titulo: 'Elena Sabe',
+        descricao: 'Elena quer descobrir quem é a pessoa responsável pela morte repentina da filha Rita. Sem respostas e ignorando seu diagnóstico terminal de doença de Parkinson, ela assume o papel de detetive e viaja de trem até o centro da cidade para pedir ajuda a uma antiga amiga da filha. Nessa busca pela verdade, as lembranças inevitavelmente a obrigam a confrontar o tipo de mãe que ela foi.',
+        imdb: 'tt28081899',
+        imagem: 'https://image.tmdb.org/t/p/w300/nm90M4WPMXk9B4xjuaQQee4YvGF.jpg'
+    },
+    {
+        titulo: 'Elis & Tom - Só Tinha de Ser com Você',
+        descricao: 'Los Angeles, 1974. Tom Jobim, a encarnação da Bossa Nova e Elis Regina, uma das cantoras mais populares do Brasil, se encontraram para gravar aquele que se tornaria um dos álbuns mais icônicos da história da música brasileira. Através de imagens raras e inéditas, Elis & Tom revela os conflitos e as alegrias de um momento único, numa viagem no tempo, revelando a intimidade do processo criativo e as personalidades extraordinárias destes fantásticos artistas.',
+        imdb: 'tt26255088',
+        imagem: 'https://image.tmdb.org/t/p/w300/uhrT7TXMOERTP20o7j1LvVStN73.jpg'
+    },
+    {
+        titulo: 'Good Burger 2',
+        descricao: '',
+        imdb: 'tt25289836',
+        imagem: 'https://image.tmdb.org/t/p/w300/pcwOHNTIy6pVOLj6Tjp8tSL9bwF.jpg'
+    },
+    {
+        titulo: 'Meu Novo Brinquedo',
+        descricao: 'Sami vive feliz em uma propriedade suburbana, entre seus amigos, vizinhos e sua esposa Alice. Para o aniversário do filho, o homem mais rico da França abre a loja de departamentos que lhe pertence. Alexandre escolhe Sami, o vigia noturno, como seu novo brinquedo...',
+        imdb: 'tt13361648',
+        imagem: 'https://image.tmdb.org/t/p/w300/veMy3OYfYnVi8G2R8q4w9ZN8k4d.jpg'
+    },
+    {
+        titulo: 'Napoleão',
+        descricao: 'Um olhar pessoal sobre as origens do líder militar francês e sua rápida e implacável ascensão a imperador. A história é vista através do prisma do relacionamento dependente e volátil de Napoleão com sua esposa e amor verdadeiro, Josefina.',
+        imdb: 'tt13287846',
+        imagem: 'https://image.tmdb.org/t/p/w300/5lkM8eyWLdzHwvhB1jBUxpCLmLR.jpg'
+    },
+    {
+        titulo: 'O Coelhinho de Veludo',
+        descricao: 'Quando o menino de sete anos, William, ganha um novo brinquedo favorito de Natal, ele descobre um amigo para toda a vida e encontra um mundo de magia.',
+        imdb: 'tt9900816',
+        imagem: 'https://image.tmdb.org/t/p/w300/aMOIiDPPAE6oHDQ3taaBtLQ21QF.jpg'
+    },
+    {
+        titulo: 'O Rei Piu-Piu',
+        descricao: 'Para a surpresa de todos, o Piu-Piu é o próximo na linha de sucessão da coroa. Ele está pronto para abrir suas asinhas e assumir o trono neste filme alucinante.',
+        imdb: 'tt18951472',
+        imagem: 'https://image.tmdb.org/t/p/w300/jJatuRAVIsxAIszL3QTxrbIzxzc.jpg'
+    },
+    {
+        titulo: 'Santuário',
+        descricao: 'Confinado em quarto de hotel claustrofóbico, o herdeiro de um império hoteleiro, Hal, e sua dominatrix, que o preparou para o sucesso, ficam presos em uma batalha de inteligência e vontade, enquanto ele tenta terminar seu relacionamento com ela.',
+        imdb: 'tt15364972',
+        imagem: 'https://image.tmdb.org/t/p/w300/nSoqhQ10L3YoxASIuKOMlwYIda3.jpg'
+    },
+    {
+        titulo: 'That Time I Get Reincarnated as a Slime: O Filme',
+        descricao: 'Hiiro é um dos ogros que sobreviveram ao ataque dos orcs e, após ser salvo pela benevolente rainha de um pequeno país chamado Raja, passou a servi-la. Mas o país e sua governante estão em apuros - uma antiga e misteriosa maldição consome a monarca e envenena as águas de seu território. Hiiro parte para Tempest em busca de ajuda, e descobre que Benimaru e outros ogros de seu passado também sobreviveram aos orcs. Com Rimuru ao seu lado, os ogros partirão para salvar o pequeno vizinho e sua rainha.',
+        imdb: 'tt15467380',
+        imagem: 'https://image.tmdb.org/t/p/w300/13SyU6DvAwgI5MZdYJPTjhk6N50.jpg'
+    },
+    {
+        titulo: 'A Queda',
+        descricao: 'Um casal enfrenta um teste de casamento quando um deles deixa cair um bebê no chão durante um casório em uma ilha tropical.',
+        imdb: 'tt19758112',
+        imagem: 'https://image.tmdb.org/t/p/w300/xLQ674ObzFnyxNb6vcofEEbLHZ4.jpg'
+    },
+    {
+        titulo: 'Três Mulheres: Uma Esperança',
+        descricao: 'Na primavera de 1945, um trem deportando centenas de prisioneiros judeus fica preso perto de uma pequena vila alemã ocupada pelo Exército Vermelho. Condenados uns aos outros e em um contexto de profunda desconfiança, desespero e vingança, surge uma amizade inesperada entre a franco-atiradora russa Vera, a garota da vila Winnie e a mulher judia-holandesa Simone.',
+        imdb: 'tt14852188',
+        imagem: 'https://image.tmdb.org/t/p/w300/u6AIND02DUvtYUBHQSKu8ZAeFbo.jpg'
+    },
+    {
+        titulo: 'Última Chamada para Istambul',
+        descricao: 'Após um encontro casual no aeroporto, duas pessoas casadas vivenciam uma noite inesquecível, emocionante e cheia de desejo em Nova York.',
+        imdb: 'tt23334616',
+        imagem: 'https://image.tmdb.org/t/p/w300/2SUs5rHpId4bxiO0r8fXFZlDvUq.jpg'
+    },
+    {
+        titulo: 'Um Dia Cinco Estrelas',
+        descricao: 'Pedro Paulo decide colocar o seu carro na rua, um Opala anos 80, e trabalhar como motorista de aplicativo. O que ele não esperava era pegar passageiros que pudessem transformar o seu dia de pernas pro ar.',
+        imdb: 'tt21650856',
+        imagem: 'https://image.tmdb.org/t/p/w300/fbG5hNO9CsKcmIRzPyw8aN592MJ.jpg'
+    },
+    {
+        titulo: 'Uma Família Extraordinária',
+        descricao: 'A história de Bea Johnson desde o seu nascimento até a formatura enquanto ela navega pela vida com pais que possuem deficiência intelectual e uma família extensa que não consegue chegar a um acordo sobre a melhor maneira de ajuda-la.',
+        imdb: 'tt12024308',
+        imagem: 'https://image.tmdb.org/t/p/w300/nLhq8uU0gfYuNhefh8fqQXtfEno.jpg'
+    },
+    {
+        titulo: 'União Instável',
+        descricao: 'Alex e Eva resolveram se casar no exato lugar em que se conheceram, só que uma série de erros hilários vai arruinar essa jornada até o altar.',
+        imdb: 'tt27719673',
+        imagem: 'https://image.tmdb.org/t/p/w300/mAx0lwIlgGc2UtfR3VFaT25hu8R.jpg'
+    },
+    {
+        titulo: 'Terra das Oportunidades',
+        descricao: 'Kiran, um motorista de caminhão e futuro pai de família, encontra Elena, uma mexicana-americana de 10 anos de idade, escondida em seu caminhão e descobre o que significa ser pai enquanto tenta levá-la até sua família em Boston.',
+        imdb: 'tt14597532',
+        imagem: 'https://image.tmdb.org/t/p/w300/fpAbETuB9OtmIMCeYGFrIWItIKS.jpg'
+    },
+    {
+        titulo: 'Ruim pra Cachorro',
+        descricao: 'Quando Reggie, um Border Terrier ingênuo e implacavelmente otimista, é abandonado nas ruas da cidade por seu dono, Doug, Reggie tem certeza de que seu amado dono nunca o deixaria de propósito.',
+        imdb: 'tt15153532',
+        imagem: 'https://image.tmdb.org/t/p/w300/hfSkDDJiCf6cJpd4R9O9lM1T6hz.jpg'
+    },
+    {
         titulo: 'Rock Dog: Uma Batida Animal',
         descricao: 'Depois de viajar pelo mundo, Bodi tira uma folga e volta para sua aldeia. Quando ele descobre que o grupo feminino, K-9, não sabe quem é a lenda do rock Angus Scattergood, ele é obrigado a se juntar ao concurso musical “Battle the Beat”, para inspirar uma nova geração de estrelas do rock. Mas depois de ingressar no programa, Bodi rapidamente percebe que mordeu mais do que pode mastigar quando se torna uma sensação de personalidade da TV da noite para o dia.',
         imdb: 'tt11207270',
