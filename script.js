@@ -1,5 +1,119 @@
 var filmes = [
     {
+        titulo: 'Uma Fada Veio Me Visitar',
+        descricao: 'Depois de quatro décadas congelada, a Fada Tatu é escolhida para uma missão: fazer Luna e Lara, duas adolescentes que se odeiam, virarem melhores amigas. Enquanto Tatu tenta se adaptar aos tempos atuais, percebe que os problemas da adolescência continuam os piores do mundo.',
+        imdb: 'tt28515096',
+        imagem: 'https://image.tmdb.org/t/p/w300/atxRkJD5gvBDl8m02UZtoA6jwNr.jpg'
+    },
+    {
+        titulo: 'Trocados',
+        descricao: 'Uma família encara uma situação caótica depois que um raro evento cósmico faz os pais trocarem de corpo com os filhos adolescentes, logo antes do Natal.',
+        imdb: 'tt14227048',
+        imagem: 'https://image.tmdb.org/t/p/w300/qvzfsE88SJAKql3IGl2Y2KdQpAV.jpg'
+    },
+    {
+        titulo: 'Travessuras de Natal',
+        descricao: 'No dia de Natal, Andy, um garoto arteiro da quinta série, descobre que não recebeu um presente sequer do Papai Noel. Sentindo-se injustamente julgado ao se dar conta que deve ter entrado na lista de crianças desobedientes do Bom Velhinho, Andy convoca mais oito crianças da lista para ajudá-lo a colocar um plano elaborado em prática, para invadir a Vila do Papai Noel no Polo Norte e roubar os presentes que eles acham que merecem.',
+        imdb: 'tt16491414',
+        imagem: 'https://image.tmdb.org/t/p/w300/l3qGXGEE6GgcLBdlsmhR2NuZZIy.jpg'
+    },
+    {
+        titulo: 'Tempos de Barbárie – Ato I: Terapia de Vingança',
+        descricao: 'Durante uma tentativa de assalto, a filha da advogada Carla é baleada e fica em estado grave. Sem respostas, Carla tenta seguir a vida buscando ajuda em grupos de apoio. Sem conseguir aceitar o destino da filha e a falta de soluções por parte da polícia, transforma a busca por justiça em uma procura por vingança e testa o seu próprio limite para ver até onde poderia ir.',
+        imdb: 'tt28697115',
+        imagem: 'https://image.tmdb.org/t/p/w300/fB4SsQK4OW1CZYGySRfJmMs2hhx.jpg'
+    },
+    {
+        titulo: 'Ritmo de Natal',
+        descricao: 'A cantora de funk do momento Mileny se envolve com o violinista Dante. Eles enfrentam uma prova de fogo no primeiro Natal juntos, com suas famílias de universos muito distintos.',
+        imdb: 'tt29491281',
+        imagem: 'https://image.tmdb.org/t/p/w300/yVw1ZoyQ6dF6qVRFsD36Ye3ifdH.jpg'
+    },
+    {
+        titulo: 'Paisagem com Mão Invisível',
+        descricao: 'Em um futuro próximo, quando o governo burocrático e a tecnologia avançada de uma espécie alienígena ocupante deixam a maior parte da Terra pobre e sem empregos, dois adolescentes traçam um plano arriscado para garantir o futuro de suas famílias.',
+        imdb: 'tt7645334',
+        imagem: 'https://image.tmdb.org/t/p/w300/qAdpCl52gwMV3JFFRB7UXOb3AjE.jpg'
+    },
+    {
+        titulo: 'Os Caras Malvados: Um Natal do Mal',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt28863512',
+        imagem: 'https://image.tmdb.org/t/p/w300/tHTEgWMPg7AdeotObEUqdOo98Zx.jpg'
+    },
+    {
+        titulo: 'Ninguém é de Ninguém',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt24325846',
+        imagem: 'https://image.tmdb.org/t/p/w300/wBkP0yXOywAAU9tcqgXaJJjtfqz.jpg'
+    },
+    {
+        titulo: 'Não Enche!',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt28444644',
+        imagem: 'https://image.tmdb.org/t/p/w300/jX8vNKif3C8UPc5pNHnyCz0sr5X.jpg'
+    },
+    {
+        titulo: 'Na Hora da Virada',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt9783730',
+        imagem: 'https://image.tmdb.org/t/p/w300/jbAoqJUA6mOJTKhVbJXaqNPmW6Z.jpg'
+    },
+    {
+        titulo: 'Minha Família Quer que Eu Case',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt13430858',
+        imagem: 'https://image.tmdb.org/t/p/w300/uPnDVNrtIZDHKmvCWN5dMGzI4Uu.jpg'
+    },
+    {
+        titulo: 'George Foreman: Sua História',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt12226632',
+        imagem: 'https://image.tmdb.org/t/p/w300/65k7FeAQfYCUXml5vT1vvHAYJoD.jpg'
+    },
+    {
+        titulo: 'Fluxo',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt14399538',
+        imagem: 'https://image.tmdb.org/t/p/w300/mDBN58VZHct93SyqWGj4fpOgLlu.jpg'
+    },
+    {
+        titulo: 'Doce Amor de Inverno',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt22189742',
+        imagem: 'https://image.tmdb.org/t/p/w300/Sp2vUXCAKvma23CUxWUW7QjShL.jpg'
+    },
+    {
+        titulo: 'Dias Difíceis',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt26594589',
+        imagem: 'https://image.tmdb.org/t/p/w300/4UpMPxy0K1XFdH6OgcnWZgCbqg3.jpg'
+    },
+    {
+        titulo: 'Baby Ruby',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt21448540',
+        imagem: 'https://image.tmdb.org/t/p/w300/qUizkrlKbT4nHXUElvnIrjcPsDd.jpg'
+    },
+    {
+        titulo: 'O Natal Prometido 2',
+        descricao: 'Descrição do filme 17',
+        imdb: 'tt29483952',
+        imagem: 'https://image.tmdb.org/t/p/w300/lOhpKjDk32Ly9Q5PCXWGcXRasbe.jpg'
+    },
+    {
+        titulo: 'Meu Nome é Gal',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt18244348',
+        imagem: 'https://image.tmdb.org/t/p/w300/zWKWDxF2oCYvl7PoShG253oIp27.jpg'
+    },
+    {
+        titulo: 'Eulália',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt28570523',
+        imagem: 'https://image.tmdb.org/t/p/w300/vk09bOU0CM0FIzQZhnjURlQmcxs.jpg'
+    },
+    {
         titulo: '80 for Brady: Quatro Amigas e uma Paixão',
         descricao: 'Um quarteto de melhores amigas idosas decide viver a vida ao máximo fazendo uma viagem louca ao Super Bowl 51 para ver seu herói Tom Brady jogar.',
         imdb: 'tt18079362',
