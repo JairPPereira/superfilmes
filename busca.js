@@ -44,79 +44,79 @@ var filmes = [
     },
     {
         titulo: 'Os Caras Malvados: Um Natal do Mal',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Para manter o tradicional Natal da Malandragem, Sr. Lobo e seu bando precisam recuperar o espírito natalino na cidade. E tem que ser rápido!',
         imdb: 'tt28863512',
         imagem: 'https://image.tmdb.org/t/p/w300/tHTEgWMPg7AdeotObEUqdOo98Zx.jpg'
     },
     {
         titulo: 'Ninguém é de Ninguém',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Gabriela, esposa de Roberto, é chamada para trabalhar no escritório de Renato, advogado bem-sucedido casado com Gioconda. Após a vida dos casais se entrelaçarem, o quarteto passa a sofrer com mentiras, relacionamentos desgastantes e tragédias.',
         imdb: 'tt24325846',
         imagem: 'https://image.tmdb.org/t/p/w300/wBkP0yXOywAAU9tcqgXaJJjtfqz.jpg'
     },
     {
         titulo: 'Não Enche!',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Após se conhecerem em um grupo de controle da raiva, duas mulheres se unem para expor um cirurgião plástico picareta e se tornam amigas em uma jornada transformadora.',
         imdb: 'tt28444644',
         imagem: 'https://image.tmdb.org/t/p/w300/jX8vNKif3C8UPc5pNHnyCz0sr5X.jpg'
     },
     {
         titulo: 'Na Hora da Virada',
-        descricao: 'Descrição do filme 10',
+        descricao: 'A jovem Bri quer seguir os passos do pai e sonha em ser uma rapper. Quando sua primeira música faz sucesso, ela precisa lidar com as consequências que a fama traz.',
         imdb: 'tt9783730',
         imagem: 'https://image.tmdb.org/t/p/w300/jbAoqJUA6mOJTKhVbJXaqNPmW6Z.jpg'
     },
     {
         titulo: 'Minha Família Quer que Eu Case',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Uma jovem cineasta e viciada em apps de relacionamento acompanha seu melhor amigo de infância de família paquistanesa em sua jornada por um casamento arranjado. No processo, ela começa questionar sua própria atitude sobre o amor.',
         imdb: 'tt13430858',
         imagem: 'https://image.tmdb.org/t/p/w300/uPnDVNrtIZDHKmvCWN5dMGzI4Uu.jpg'
     },
     {
         titulo: 'George Foreman: Sua História',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Após uma infância pobre, Foreman canaliza sua raiva e se torna medalhista de ouro olímpico e campeão mundial de pesos-pesados. Logo após, vive uma experiência de quase morte que o leva dos ringues de boxe aos púlpitos. No entanto, ao ver sua comunidade lutando espiritual e financeiramente, Foreman volta aos ringues e faz história reivindicando seu título e tornando-se o mais velho e improvável Campeão Mundial de Boxe Peso-Pesado de todos os tempos.',
         imdb: 'tt12226632',
         imagem: 'https://image.tmdb.org/t/p/w300/65k7FeAQfYCUXml5vT1vvHAYJoD.jpg'
     },
     {
         titulo: 'Fluxo',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Primeiro volume de uma trilogia sobre a angústia, Fluxo é uma distopia política-conjugal que acompanha um casal em crise. Carla expulsa Rodrigo de casa, mas ele não pode deixar o apartamento por conta de um lockdown imposto pelas autoridades. Assim, os dois são obrigados a conviver e acabam revendo seus conceitos, até que as coisas ao redor tomam um rumo jamais imaginado.',
         imdb: 'tt14399538',
         imagem: 'https://image.tmdb.org/t/p/w300/mDBN58VZHct93SyqWGj4fpOgLlu.jpg'
     },
     {
         titulo: 'Doce Amor de Inverno',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Quando um antigo crush decide investir na loja de doces da família de Kerrie, ela não gosta nem um pouco. Será que esses dois conseguem trabalhar juntos?',
         imdb: 'tt22189742',
         imagem: 'https://image.tmdb.org/t/p/w300/Sp2vUXCAKvma23CUxWUW7QjShL.jpg'
     },
     {
         titulo: 'Dias Difíceis',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Cheio de problemas, um policial desesperado se envolve num acidente de trânsito e foge sem prestar socorro. Mas uma testemunha pode complicar a vida dele.',
         imdb: 'tt26594589',
         imagem: 'https://image.tmdb.org/t/p/w300/4UpMPxy0K1XFdH6OgcnWZgCbqg3.jpg'
     },
     {
         titulo: 'Baby Ruby',
-        descricao: 'Descrição do filme 16',
+        descricao: 'O mundo rigidamente roteirizado de uma vlogger e influenciadora se desenrola como depressão pós-parto, falta de apoio daqueles em sua órbita e aparente hostilidade de seu bebê.',
         imdb: 'tt21448540',
         imagem: 'https://image.tmdb.org/t/p/w300/qUizkrlKbT4nHXUElvnIrjcPsDd.jpg'
     },
     {
         titulo: 'O Natal Prometido 2',
-        descricao: 'Descrição do filme 17',
+        descricao: '',
         imdb: 'tt29483952',
         imagem: 'https://image.tmdb.org/t/p/w300/lOhpKjDk32Ly9Q5PCXWGcXRasbe.jpg'
     },
     {
         titulo: 'Meu Nome é Gal',
-        descricao: 'Descrição do filme 18',
+        descricao: 'Retrata a trajetória de Maria da Graça Costa Penna Burgos, Gracinha, como era chamada pela mãe Mariah. Com 20 anos, Gal viaja para o Rio de Janeiro, onde se junta aos companheiros de vida Caetano Veloso, Maria Bethânia, Gilberto Gil e Dedé Gadelha.',
         imdb: 'tt18244348',
         imagem: 'https://image.tmdb.org/t/p/w300/zWKWDxF2oCYvl7PoShG253oIp27.jpg'
     },
     {
         titulo: 'Eulália',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Uma mulher simples se vê presa a um casamento tóxico, vivendo uma jornada diária de submissão e infelicidade. Com poucos vínculos sociais e nenhuma perspectiva de futuro, ela busca um emprego para se tornar independente.',
         imdb: 'tt28570523',
         imagem: 'https://image.tmdb.org/t/p/w300/vk09bOU0CM0FIzQZhnjURlQmcxs.jpg'
     },
