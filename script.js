@@ -1,5 +1,149 @@
 var filmes = [
     {
+        titulo: '過時·過節',
+        descricao: '',
+        imdb: 'tt22398080',
+        imagem: 'https://image.tmdb.org/t/p/w300/rXsbzkVnGWly43I40PBAtHUZA6T.jpg'
+    },
+    {
+        titulo: 'มายาพิศวง',
+        descricao: '',
+        imdb: 'tt22084794',
+        imagem: 'https://image.tmdb.org/t/p/w300/oLV7twdo1u79QH4Luierfn5GbcL.jpg'
+    },
+    {
+        titulo: '該死的阿修羅',
+        descricao: '',
+        imdb: 'tt15742308',
+        imagem: 'https://image.tmdb.org/t/p/w300/hDMZ6VRbYu30yx64ZRs9WrbdgiX.jpg'
+    },
+    {
+        titulo: 'A Farsa',
+        descricao: 'Quando um jovem gigolô cai no feitiço de uma tentadora vigarista, um esquema desonesto começa a ser planejado sob o sol ardente da Riviera Francesa. Em busca de uma vida de luxo, os dois amantes iriam tão longe a ponto de sacrificar o sustento de uma ex-estrela de cinema e de um corretor de imóveis? Paixão, crime, traição dão o tom neste romance cheio de reviravoltas.',
+        imdb: 'tt14534796',
+        imagem: 'https://image.tmdb.org/t/p/w300/7ZBfjV7pJMXnuftpDr35gUHe8Pe.jpg'
+    },
+    {
+        titulo: '13 Exorcismos',
+        descricao: 'Depois de invocar espíritos com um grupo de amigos, Laura Villegas começa a se comportar de forma estranha. Presenças sombrias, visões aterrorizantes, vozes sinistras, marcas dolorosas em sua pele e outros fenômenos paranormais começam a assombrá-la por onde quer que ela vá. Sua família aceita chamar um exorcista sancionado pelo Vaticano para intervir no caso de possessão demoníaca. Para salvar Laura e libertá-la, o padre terá que realizar uma série de exorcismos, cada um mais aterrorizante que o outro.',
+        imdb: 'tt21199996',
+        imagem: 'https://image.tmdb.org/t/p/w300/8LpnMIqpRiwxpbGR33ALCmVl7gj.jpg'
+    },
+    {
+        titulo: 'Aníkúlápó',
+        descricao: 'Depois de ser assassinado por ter um caso com a rainha, um viajante encontra um pássaro místico com o poder de lhe conceder uma segunda chance.',
+        imdb: 'tt21432050',
+        imagem: 'https://image.tmdb.org/t/p/w300/xb30hkUpBm23stnVgDJGYGsC0R0.jpg'
+    },
+    {
+        titulo: 'A Gestora',
+        descricao: 'Uma jovem ambiciosa faz um acordo inusitado com a chefe. Mas quando começam a surgir dúvidas, pode ser tarde demais para voltar atrás.',
+        imdb: 'tt15006754',
+        imagem: 'https://image.tmdb.org/t/p/w300/hRqvE6dABictKuLwqQMzq6AptiZ.jpg'
+    },
+    {
+        titulo: 'As Verdades',
+        descricao: 'As Verdades conta a história de um crime em um pequeno município baiano. É o primeiro caso de Josué, o delegado recém-chegado na cidade. A história é contada de pontos de vista diferentes, dos três personagens presentes no momento do crime: Cícero, o matador de aluguel; Francisca, a noiva do político e Vladmir, a vítima.',
+        imdb: 'tt21139960',
+        imagem: 'https://image.tmdb.org/t/p/w300/of9YFiZW10xZ6sxeImLl1r7M9XQ.jpg'
+    },
+    {
+        titulo: 'Um ano, uma noite',
+        descricao: 'Ramón e Céline são um jovem casal que assistiu a um concerto no teatro Bataclan em Paris na fatídica noite de 13 de novembro de 2015. Eles sobrevivem ao ataque, mas quando saem do teatro não são mais os mesmos. Aquela noite deixa uma cicatriz profunda na vida de ambos e cada um tenta lidar com as consequências da melhor maneira possível. Céline tenta desesperadamente deixar os eventos para trás, agarrando-se à sua vida anterior, enquanto Ramón repetidamente volta para aquela noite, tentando lembrar e entender o que aconteceu. No entanto, ambos enfrentam a mesma questão-chave: como seguir em frente juntos?',
+        imdb: 'tt14104600',
+        imagem: 'https://image.tmdb.org/t/p/w300/e56720Fkue43Gb1Hop2YYwWsvCA.jpg'
+    },
+    {
+        titulo: 'Juang',
+        descricao: 'Em 18 de março de 2020, a Malásia entrou em um lockdown nacional sem precedentes. Toda a Malásia pareceu parar da noite para o dia. Mas por trás do país está um grupo de heróis anônimos que carregam a missão de combater a pandemia por seu povo. Intercalando cinco histórias, este filme traz a mais comovente história antiepidêmica.',
+        imdb: 'tt16566428',
+        imagem: 'https://image.tmdb.org/t/p/w300/A3viWkDsRt886XATPXj049Td19a.jpg'
+    },
+    {
+        titulo: 'Terapia da Dança',
+        descricao: 'Raquel é uma terapeuta solteira e em luto pela filha que se suicidou. Ela está determinada a enfrentar sua dor e culpa para ajudar um adolescente com comportamento autodestrutivo. Com a ajuda de Deus, de um pastor e de um instrutor de dança, ambos descobrirão que podem ter uma segunda chance.',
+        imdb: 'tt12362542',
+        imagem: 'https://image.tmdb.org/t/p/w300/eiAl7F1eCPrddNOvcJwlXLGXaPP.jpg'
+    },
+    {
+        titulo: 'Os Fabelmans',
+        descricao: 'Crescendo no Arizona pós-Segunda Guerra Mundial, o jovem Sammy Fabelman aspira a se tornar um cineasta ao atingir a adolescência, mas logo descobre um segredo de família devastador e explora como o poder dos filmes pode ajudá-lo a ver a verdade.',
+        imdb: 'tt14208870',
+        imagem: 'https://image.tmdb.org/t/p/w300/BWHoAAcKnGtowRXju2c2RBrT0m.jpg'
+    },
+    {
+        titulo: 'Sra. Harris Vai a Paris',
+        descricao: 'A história de uma faxineira viúva que mora em Londres dos anos 1950. Ela se apaixona perdidamente por um vestido de alta costura da Dior e decide que deve ter um para si. Depois de trabalhar dia e noite para arrecadar fundos para realizar seu sonho, ela embarca em uma aventura a Paris que mudará não apenas sua própria vida, mas o próprio futuro da Maison Dior.',
+        imdb: 'tt5151570',
+        imagem: 'https://image.tmdb.org/t/p/w300/dCp4P08sqOeazheX4GiRRyg5PMm.jpg'
+    },
+    {
+        titulo: 'Um Amor de Filhote',
+        descricao: 'Um bandido chamado Mercer está envolvido em uma briga ilegal de cães. Seu pastor alemão é mordido enquanto luta e consegue fugir. A jovem Paige Crowley encontra o cachorro remexendo no lixo e gosta dele, então, ela o leva para casa, mas o esconde de seu pai Travis. A família de Paige é pequena, mas todos têm problemas: o pai dela é um homem ausente e frustrado, que deposita no futuro de seu filho Decklin, estrela do esporte da escola, a esperança de conquistar algo que ele mesmo não conseguiu. Paige perdeu a mãe cedo, então sua avó, Hazel, faz o papel materno na casa. A chegada de Mercer traz nova alegria a todos, mesmo que alguns demorem para perceber isso.',
+        imdb: 'tt5878194',
+        imagem: 'https://image.tmdb.org/t/p/w300/zlu2aoiKCDs1QTB3ZQnB6xFe9FI.jpg'
+    },
+    {
+        titulo: 'Uma Paixão Inesperada',
+        descricao: 'Enquanto luta para salvar a fazenda de sua família, uma jovem professora do ensino médio se apaixona por um corretor imobiliário. Mas as coisas começas a ficar complicadas quando ele é designado a tomar a fazenda para desenvolver um novo empreendimento.',
+        imdb: 'tt14406418',
+        imagem: 'https://image.tmdb.org/t/p/w300/o2e66XBZRq5imsJ8gwKvJBltCyg.jpg'
+    },
+    {
+        titulo: 'Camisa de Ouro',
+        descricao: 'Na esperança de satisfazer o desejo do filho, um ex-rebatedor talentoso tenta voltar a fazer parte do time nacional de críquete dez anos depois de abandonar o esporte.',
+        imdb: 'tt5301942',
+        imagem: 'https://image.tmdb.org/t/p/w300/1wbtzkeabooVQj4d5z1Qh6ieEbd.jpg'
+    },
+    {
+        titulo: 'Dog - A Aventura de Uma Vida',
+        descricao: 'Dois ex-Rangers do Exército são emparelhados contra sua vontade na viagem de uma vida. Briggs e Lulu correm pela costa do Pacífico para chegar a tempo ao funeral de um companheiro soldado.',
+        imdb: 'tt11252248',
+        imagem: 'https://image.tmdb.org/t/p/w300/gln0b5rezteLuyv9kO1q0h0vqnA.jpg'
+    },
+    {
+        titulo: 'Império da Luz',
+        descricao: 'Ambientado dentro e em torno de um decadente cinema de uma cidade litorânea inglesa no início dos anos 1980, aí está Hilary, uma gerente de cinema que tenta lidar com sua saúde mental, e Stephen, um novo funcionário que deseja escapar dessa cidade provinciana onde enfrenta adversidades diárias. Hilary e Stephen encontram um sentimento de pertencimento por meio do relacionamento carinhoso e improvável entre eles, e experimentam o poder curativo da música, do cinema e da comunidade.',
+        imdb: 'tt14402146',
+        imagem: 'https://image.tmdb.org/t/p/w300/9hoNGfSq3ZiolERu1yFEOWhGLPL.jpg'
+    },
+    {
+        titulo: 'Bandido',
+        descricao: 'Depois de escapar de uma prisão em Michigan, um ousado criminoso assume uma nova identidade no Canadá, e rouba um recorde de 63 bancos e joalherias enquanto é caçado por uma força-tarefa desonesta. Baseado na história de The Flying Bandit.',
+        imdb: 'tt9853500',
+        imagem: 'https://image.tmdb.org/t/p/w300/y1EnJdRe9qm3VFEbDXc6PotfDhz.jpg'
+    },
+    {
+        titulo: 'Inspetor Aranha',
+        descricao: 'O maior detetive do mundo dos insetos tem que aprender a trabalhar com uma nova parceira para desvendar um misterioso assassinato a bordo de um avião e salvar tanto o mundo dos insetos quanto o dos humanos de um perigoso vilão.',
+        imdb: 'tt6661616',
+        imagem: 'https://image.tmdb.org/t/p/w300/2mRCD2Hn9eaeZszKc6AsFo0VAkM.jpg'
+    },
+    {
+        titulo: 'Deslizando pela Vida',
+        descricao: 'Desesperada, uma mãe solo com problemas de dinheiro decide participar de uma corrida de esquis com seu irmão perfeccionista (que de perfeito não tem nada).',
+        imdb: 'tt13316790',
+        imagem: 'https://image.tmdb.org/t/p/w300/6Q53nx651SCGCZFWIbethzQhyfZ.jpg'
+    },
+    {
+        titulo: 'Darby: A Jovem Sensitiva',
+        descricao: 'Depois de sofrer uma experiência de quase-morte, Darby Harper adquire a capacidade de ver pessoas mortas e passa seu tempo livre aconselhando espíritos solitários com negócios inacabados. Mas quando a "inimiga" de Darby, Capri, a Abelha Rainha do grupo mais popular da escola, morre inesperadamente em um estranho acidente com uma prancha de cabelo, a diva morta-viva pede ajuda a Darby.',
+        imdb: 'tt15745226',
+        imagem: 'https://image.tmdb.org/t/p/w300/dfgKwPUMc8WVzm40eJ5ox6DSk1L.jpg'
+    },
+    {
+        titulo: 'Força de Pai para Filha',
+        descricao: 'Um empresário luta para desistir do controle de sua filha e confiar em Deus com seu futuro.',
+        imdb: 'tt7472122',
+        imagem: 'https://image.tmdb.org/t/p/w300/fV638xlTJDKIGwURcs3y7AmWUGt.jpg'
+    },
+    {
+        titulo: 'Em um Passe de Mágica',
+        descricao: 'Para se casar com o amor de sua vida, um mágico que nem gosta de futebol precisa dar um jeito de levar o time local às finais de um campeonato.',
+        imdb: 'tt13793230',
+        imagem: 'https://image.tmdb.org/t/p/w300/lfprZ6p6rliMRgnhE09kVV57Q1o.jpg'
+    },
+    {
         titulo: 'Desconectados',
         descricao: 'Desconectados é uma comédia familiar que conta a história de uma mulher divorciada de 42 anos que tem dois filhos e é viciada em internet. No dia em que está prestes a conseguir o emprego dos sonhos, uma tempestade solar destrói todos os satélites geoestacionários, e o mundo fica sem internet. Então ela tem que aprender a sobreviver offline e a se conectar com seus filhos.',
         imdb: 'tt22442442',
