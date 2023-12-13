@@ -7,6 +7,108 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Desconectados',
+        descricao: 'Desconectados é uma comédia familiar que conta a história de uma mulher divorciada de 42 anos que tem dois filhos e é viciada em internet. No dia em que está prestes a conseguir o emprego dos sonhos, uma tempestade solar destrói todos os satélites geoestacionários, e o mundo fica sem internet. Então ela tem que aprender a sobreviver offline e a se conectar com seus filhos.',
+        imdb: 'tt22442442',
+        imagem: 'https://image.tmdb.org/t/p/w300/8Wad2HeJg4Y67dFRGC6oGKqLJWO.jpg'
+    },
+    {
+        titulo: 'Amor em Tempos de Polarização',
+        descricao: 'Um membro de um grupo nacionalista de Varsóvia engata um romance proibido com uma ativista de esquerda, provocando uma série de consequências inesperadas.',
+        imdb: 'tt20816202',
+        imagem: 'https://image.tmdb.org/t/p/w300/5KL3ewJAgjoXrThUBJfQadGq6B.jpg'
+    },
+    {
+        titulo: '30 Noites com a Minha Ex',
+        descricao: 'Após três anos separado de La Loba, que apresenta um longo histórico de internações psiquiátricas, El Turbo aceita conviver durante 30 dias com sua ex-mulher a pedido de sua filha. La Loba deve fazer a transição entre a internação e sua reinserção social. A nova estrutura familiar fará com que El Turbo e La Loba revivam os sentimentos de amor e despertem a ilusão de que seguem juntos.',
+        imdb: 'tt15977950',
+        imagem: 'https://image.tmdb.org/t/p/w300/9GUOSsdQrchL57N4HTAncDEWxKO.jpg'
+    },
+    {
+        titulo: 'ผ้าผีบอก',
+        descricao: '',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/o1ZqapMkAqIRoJMRecwbpeb1FkD.jpg'
+    },
+    {
+        titulo: 'ポプラン',
+        descricao: '',
+        imdb: 'tt13167612',
+        imagem: 'https://image.tmdb.org/t/p/w300/hZDBIMkmKLDopCMPTPLAkhF6Bhs.jpg'
+    },
+    {
+        titulo: 'O Festival dos Trovadores',
+        descricao: 'Um reencontro inesperado entre um músico itinerante e seu filho vai acabar abrindo feridas do passado.',
+        imdb: 'tt15335282',
+        imagem: 'https://image.tmdb.org/t/p/w300/70JB1IwPg5Ivf2D1Txk2VTAbbVI.jpg'
+    },
+    {
+        titulo: 'O Segundo Homem',
+        descricao: 'Em um futuro próximo, onde o porte de armas é liberado no Brasl e a violência no país cresce de uma forma nunca vista antes. Nesse cenário, Miro decide proteger sua família se alistando na Legião Estrangeira, que chega ao Brasil para ajudar as forças de segurança.',
+        imdb: 'tt12935690',
+        imagem: 'https://image.tmdb.org/t/p/w300/9Yw0YP4pbWbbGBcHmNvfCA97ZRD.jpg'
+    },
+    {
+        titulo: 'O Mestre das Sombras',
+        descricao: 'Depois de ser morto por um grupo de criminosos, um homem renasce com superpoderes semelhantes a animais e tem como missão corrigir os erros de sua cidade.',
+        imdb: 'tt19879786',
+        imagem: 'https://image.tmdb.org/t/p/w300/yFQ3mmGtZsNluNwfbh8i35b8up.jpg'
+    },
+    {
+        titulo: 'Scarlett Cross: Agents of D.E.A.T.H.',
+        descricao: 'Depois de ser morto por um grupo de criminosos, um homem renasce com superpoderes semelhantes a animais e tem como missão corrigir os erros de sua cidade.',
+        imdb: 'tt4962720',
+        imagem: 'https://image.tmdb.org/t/p/w300/4gOo5hViQ1rK4kom6z0QawuZ66H.jpg'
+    },
+    {
+        titulo: 'Downton Abbey II: Uma Nova Era',
+        descricao: 'Em uma grande jornada ao sul da França, os Crawleys buscam desvendar o mistério da villa recém-herdada da Condessa Viúva.',
+        imdb: 'tt11703710',
+        imagem: 'https://image.tmdb.org/t/p/w300/bbYN97IJhezFG9bGnSSG42Cz3lm.jpg'
+    },
+    {
+        titulo: 'Ela Disse',
+        descricao: 'Inspirado na investigação do New York Times, este filme segue a incrível história verídica de como as repórteres Megan Twohey e Jodi Kantor passaram de desconhecidas a inspirações, quebrando o silêncio em torno do assunto de agressão sexual em Hollywood. Determinadas em expor a verdade que muitos tinham medo de contar, a parceria entre Megan e Jodi agita o sistema, dando poder às mulheres corajosas para recuperar sua força através de histórias de sobrevivência, neste filme extraordinário da diretora vencedora de um Emmy®, Maria Schrader, que conta com os desempenhos cativantes de Carey Mulligan, nomeada duas vezes para um Prêmio da Academia®, e Zoe Kazan.',
+        imdb: 'tt11198810',
+        imagem: 'https://image.tmdb.org/t/p/w300/8BNJjZRfNoD0bskwuY3Oekzz2Ih.jpg'
+    },
+    {
+        titulo: 'Notre-Dame: Desastre em Paris',
+        descricao: 'Um relato do dia em que a catedral mais famosa do mundo pegou fogo. Combinando cenas reais e ficção, o filme mostra o trabalho árduo dos bombeiros e envolvidos em salvar o monumento cultural e religioso de Notre-Dame, em Paris.',
+        imdb: 'tt12264966',
+        imagem: 'https://image.tmdb.org/t/p/w300/4Qe6fhD4seSPhprEx6VPTjfIXWo.jpg'
+    },
+    {
+        titulo: 'BlackBerry',
+        descricao: 'A história dos empresários canadenses Mike Lazaridis (Jay Baruchel) e Jim Balsillie (Glenn Howerton), dois homens interessados em tecnologia que traçaram o plano de ascensão espetacular do primeiro smartphone do mundo, o modelo BlackBerry. No entanto, em apenas poucos anos, sua invenção enfrentou uma queda catastrófica com a chegada de outros dispositivos ao mercado.',
+        imdb: 'tt21867434',
+        imagem: 'https://image.tmdb.org/t/p/w300/neV35lK7em4rIY9QIoH1cruErPA.jpg'
+    },
+    {
+        titulo: 'Diário de um Banana no Natal: Casa dos Horrores',
+        descricao: 'As férias de inverno estão sendo especialmente estressantes para Greg Heffley este ano. Depois de danificar acidentalmente um limpa-neves enquanto fazia um boneco de neve com o melhor amigo Rowley Jefferson, Greg teme não conseguir o novo console de videogame que tanto deseja no Natal. Para piorar a situação, ele fica preso com sua família, incluindo seu mal-humorado irmão mais velho, Rodrick, e o irritante irmão mais novo, Manny.',
+        imdb: 'tt29033964',
+        imagem: 'https://image.tmdb.org/t/p/w300/1tbFuwWZOcAXySQ2A1KpxExUirH.jpg'
+    },
+    {
+        titulo: 'Mavka: Aventura na Floresta',
+        descricao: 'Mavka é uma Alma da Floresta e foi escolhida como a nova guardiã do reino, sendo sua principal missão proteger a floresta. Mas quando Mavka se apaixona pelo jovem Lucas, a avarenta Kylina decide assumir o controle da floresta.',
+        imdb: 'tt6685538',
+        imagem: 'https://image.tmdb.org/t/p/w300/adyriBXnBuhdRgAllYAurnDQtQb.jpg'
+    },
+    {
+        titulo: 'Missão Condor',
+        descricao: 'Uma década após o fim da Segunda Guerra Mundial, um aviador americano viaja pela América do Sul em busca de vingança contra os nazistas.',
+        imdb: 'tt8032034',
+        imagem: 'https://image.tmdb.org/t/p/w300/dX4zUmTl86s1ao92aKJG1pbrjhO.jpg'
+    },
+    {
+        titulo: 'Navio de Sangue',
+        descricao: 'Reunidas por acaso, seis pessoas que fugiam de uma cidade devastada pela poluição por petróleo se esconderam em um navio misterioso - sem perceber os perigos que o aguardam.',
+        imdb: 'tt30096240',
+        imagem: 'https://image.tmdb.org/t/p/w300/z40Iwyn9XpwUumPnA4BmGMpvDRF.jpg'
+    },
+    {
         titulo: 'Uma Fada Veio Me Visitar',
         descricao: 'Depois de quatro décadas congelada, a Fada Tatu é escolhida para uma missão: fazer Luna e Lara, duas adolescentes que se odeiam, virarem melhores amigas. Enquanto Tatu tenta se adaptar aos tempos atuais, percebe que os problemas da adolescência continuam os piores do mundo.',
         imdb: 'tt28515096',
