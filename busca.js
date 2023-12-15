@@ -7,6 +7,126 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Ardente Paciência',
+        descricao: 'Ao se tornar carteiro de Pablo Neruda, um jovem mergulha em um mundo que alimenta seu sonho de ser poeta e conquistar a mulher que sempre quis.',
+        imdb: 'tt15939090',
+        imagem: 'https://image.tmdb.org/t/p/w300/plSUrCv17GRqFph7qSKfhT0jwcH.jpg'
+    },
+    {
+        titulo: 'Como Agradar Uma Mulher',
+        descricao: 'Quando seu negócio de faxina (só para homens) fica fora de controle, uma mulher madura deve abraçar sua própria sexualidade, se quiser construir uma nova vida para si mesma.',
+        imdb: 'tt10530838',
+        imagem: 'https://image.tmdb.org/t/p/w300/9PONfgIdAx01DJ0Ld93PVXxoU9r.jpg'
+    },
+    {
+        titulo: 'O Amante de Júlia',
+        descricao: 'Após um acidente que faz Cassio perder a mobilidade, seu relacionamento com Júlia passa por dificuldades. Sentido-se rejeitada, ela começa um novo romance.',
+        imdb: 'tt17127518',
+        imagem: 'https://image.tmdb.org/t/p/w300/qcXamFmCTlSybSvyboN6PaS1bJG.jpg'
+    },
+    {
+        titulo: 'The Flood',
+        descricao: 'Os jacarés famintos impedem uma fuga valente de uma prisão durante uma tempestade ameaçadora.',
+        imdb: 'tt15670222',
+        imagem: 'https://image.tmdb.org/t/p/w300/mvjqqklMpHwOxc40rn7dMhGT0Fc.jpg'
+    },
+    {
+        titulo: 'Duro de Atuar',
+        descricao: 'Kevin Hart, fazendo uma versão de si mesmo, vai encarar o desafio da sua vida para se tornar um herói de ação. E só com a ajuda de John Travolta, Nathalie Emmanuel e Josh Hartnett que ele poderá alcançar o sucesso.',
+        imdb: 'tt27116016',
+        imagem: 'https://image.tmdb.org/t/p/w300/hcuZ68ymJgohTerR8Oo1mb76SJv.jpg'
+    },
+    {
+        titulo: 'Missão de Sobrevivência',
+        descricao: 'Um agente disfarçado da CIA chamado Tom Harris, que está designado para o Oriente Médio. Um vazamento de inteligência expõe perigosamente sua missão secreta e revela sua identidade secreta. Preso no coração de um território hostil, Harris e seu tradutor devem lutar para sair do deserto e chegar a um ponto de extração em Kandahar, no Afeganistão, enquanto escapam das forças especiais de elite que os caçam.',
+        imdb: 'tt5761544',
+        imagem: 'https://image.tmdb.org/t/p/w300/xsmNNU5UbnurOnCOdUHbpv2XyFI.jpg'
+    },
+    {
+        titulo: 'Inverno',
+        descricao: 'Descrição do filme 7',
+        imdb: 'tt17043138',
+        imagem: 'https://image.tmdb.org/t/p/w300/sXtEMHqIJ1CQ1EagoPofA2KUpek.jpg'
+    },
+    {
+        titulo: 'Os Reis do Mundo',
+        descricao: 'Descrição do filme 8',
+        imdb: 'tt15399372',
+        imagem: 'https://image.tmdb.org/t/p/w300/s4QmLssxhPS9BlUvUQFvyZnv91a.jpg'
+    },
+    {
+        titulo: 'O Pretendente',
+        descricao: 'Descrição do filme 9',
+        imdb: 'tt14958172',
+        imagem: 'https://image.tmdb.org/t/p/w300/bPlPJn8ruIwovyYeKjghbnYJs5Y.jpg'
+    },
+    {
+        titulo: 'Como Pétalas que Caem',
+        descricao: 'Descrição do filme 10',
+        imdb: 'tt14227972',
+        imagem: 'https://image.tmdb.org/t/p/w300/24kV2SUWZN1GTsoEIg6Y90CO8v.jpg'
+    },
+    {
+        titulo: 'O Rio do Desejo',
+        descricao: 'Descrição do filme 11',
+        imdb: 'tt19855324',
+        imagem: 'https://image.tmdb.org/t/p/w300/eg3ECsQNNrch7NFRpOYZMKsmWk9.jpg'
+    },
+    {
+        titulo: 'Padre Pio',
+        descricao: 'Descrição do filme 12',
+        imdb: 'tt18272884',
+        imagem: 'https://image.tmdb.org/t/p/w300/hRrCrLtbhIPelONxL8MEFif1JZC.jpg'
+    },
+    {
+        titulo: 'O Vilarejo',
+        descricao: 'Descrição do filme 13',
+        imdb: 'tt27506951',
+        imagem: 'https://image.tmdb.org/t/p/w300/4v3XqPkRZyVuIijbvrl5GHOHw7B.jpg'
+    },
+    {
+        titulo: 'Correndo Contra o Vento',
+        descricao: 'Descrição do filme 14',
+        imdb: 'tt9723240',
+        imagem: 'https://image.tmdb.org/t/p/w300/qCH1BFZ98GzYBm3tJb23ELpHGLm.jpg'
+    },
+    {
+        titulo: 'A Princesa Encantada: Era Uma Vez…',
+        descricao: 'Descrição do filme 15',
+        imdb: 'tt26341934',
+        imagem: 'https://image.tmdb.org/t/p/w300/pfMgyj2afebT8LVrDVYHniDk3XJ.jpg'
+    },
+    {
+        titulo: 'Detetive Knight: Vilão',
+        descricao: 'Descrição do filme 16',
+        imdb: 'tt21435436',
+        imagem: 'https://image.tmdb.org/t/p/w300/deuqT4q8GS0hXvaSqi97tq3VvTc.jpg'
+    },
+    {
+        titulo: '曼谷风云',
+        descricao: 'Descrição do filme 17',
+        imdb: 'None',
+        imagem: 'https://image.tmdb.org/t/p/w300/9SOMw90TxkqdZ2N5LehWtBkMwJN.jpg'
+    },
+    {
+        titulo: '掃毒3︰人在天涯',
+        descricao: 'Descrição do filme 18',
+        imdb: 'tt26929966',
+        imagem: 'https://image.tmdb.org/t/p/w300/kPjZsEni0KF0IXGXh0kaxNESdGE.jpg'
+    },
+    {
+        titulo: 'Jagun Jagun: O Guerreiro',
+        descricao: 'Descrição do filme 19',
+        imdb: 'tt28546464',
+        imagem: 'https://image.tmdb.org/t/p/w300/2NrM70jJ4NPST409wHER8ZVZiKo.jpg'
+    },
+    {
+        titulo: 'Sede Assassina',
+        descricao: 'Descrição do filme 20',
+        imdb: 'tt10275534',
+        imagem: 'https://image.tmdb.org/t/p/w300/kVGrAqS2C0tEWyuZ7kf7sFLA3CQ.jpg'
+    },
+    {
         titulo: '過時·過節',
         descricao: '',
         imdb: 'tt22398080',
