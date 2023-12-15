@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
+
 # URL da página web que você deseja raspar
 url = "https://embedder.net/lib/movies?page=1"
 
@@ -29,7 +30,8 @@ if response.status_code == 200:
 
         # Verifica se há descrição disponível
         descricao = f'Descrição do filme {index + 1}'  # Descrição padrão
-        descricao_tag = film_poster.find('p', class_='descricao-classe')  # Substitua 'descricao-classe' pela classe real
+        # Substitua 'descricao-classe' pela classe real
+        descricao_tag = film_poster.find('p', class_='descricao-classe')
         if descricao_tag:
             descricao = descricao_tag.text.strip()
 
