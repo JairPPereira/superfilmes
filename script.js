@@ -37,85 +37,79 @@ var filmes = [
     },
     {
         titulo: 'Inverno',
-        descricao: 'Descrição do filme 7',
+        descricao: 'Um casal em quarentena hospeda uma amiga em casa. O que poderia ser um escape se torna um pesadelo quando o nome de um deles aparece numa lista de mortos pela Covid-19.',
         imdb: 'tt17043138',
         imagem: 'https://image.tmdb.org/t/p/w300/sXtEMHqIJ1CQ1EagoPofA2KUpek.jpg'
     },
     {
         titulo: 'Os Reis do Mundo',
-        descricao: 'Descrição do filme 8',
+        descricao: 'Cinco amigos deixam as ruas de Medellín e embarcam em uma jornada perigosa pela Colômbia para recuperar um terreno deixado pela avó de um deles.',
         imdb: 'tt15399372',
         imagem: 'https://image.tmdb.org/t/p/w300/s4QmLssxhPS9BlUvUQFvyZnv91a.jpg'
     },
     {
         titulo: 'O Pretendente',
-        descricao: 'Descrição do filme 9',
+        descricao: 'Uma história de romance da virada do século baseada no romance homônimo de Géza Gárdonyi. Seu pai encontra um marido para Ida, de dezenove anos, por meio de um anúncio de emprego, mas o casamento contratual pode se transformar em amor?',
         imdb: 'tt14958172',
         imagem: 'https://image.tmdb.org/t/p/w300/bPlPJn8ruIwovyYeKjghbnYJs5Y.jpg'
     },
     {
         titulo: 'Como Pétalas que Caem',
-        descricao: 'Descrição do filme 10',
+        descricao: 'Um aspirante a fotógrafo se apaixona por uma cabeleireira alegre e cheia de vida. Eles têm o futuro todo pela frente, até que uma reviravolta do destino muda tudo.',
         imdb: 'tt14227972',
         imagem: 'https://image.tmdb.org/t/p/w300/24kV2SUWZN1GTsoEIg6Y90CO8v.jpg'
     },
     {
         titulo: 'O Rio do Desejo',
-        descricao: 'Descrição do filme 11',
+        descricao: 'Ao se apaixonar pela bela e misteriosa Anaíra, Dalberto abandona seu trabalho na polícia e se torna comandante de um barco. O casal passa a viver na casa que Dalberto divide com os dois irmãos, às margens do Rio Negro, mas quando Dalberto é obrigado a se arriscar em uma longa viagem rio acima, desejos proibidos vêm à tona. Enquanto Dalmo, o irmão mais velho, luta para controlar a atração que sente pela cunhada, Anaíra e Armando, o caçula, se aproximam. A volta de Dalberto reúne, sob o mesmo teto, os três irmãos apaixonados pela mesma mulher.',
         imdb: 'tt19855324',
         imagem: 'https://image.tmdb.org/t/p/w300/eg3ECsQNNrch7NFRpOYZMKsmWk9.jpg'
     },
     {
         titulo: 'Padre Pio',
-        descricao: 'Descrição do filme 12',
+        descricao: 'Nascido Francesco Forgione no sul da Itália no final do século XIX, São Padre Pio despertou devoção e controvérsia ao longo de sua vida. Tornou-se famoso no mundo católico por apresentar estigmas, ou chagas de crucificação correspondentes ás do corpo de Jesus Cristo, antes de se tornar símbolo de esperança para o povo italiano durante o difícil período do entre-guerras. Morreu em 1968 aos 81 anos, foi beatificado pelo Papa João Paulo II em 1999 e canonizado em 2002.',
         imdb: 'tt18272884',
         imagem: 'https://image.tmdb.org/t/p/w300/hRrCrLtbhIPelONxL8MEFif1JZC.jpg'
     },
     {
         titulo: 'O Vilarejo',
-        descricao: 'Descrição do filme 13',
+        descricao: 'Um jovem precisa trabalhar no aterro sanitário que destruiu a beleza do seu vilarejo, mas tudo o que ele quer é escapar desse destino.',
         imdb: 'tt27506951',
         imagem: 'https://image.tmdb.org/t/p/w300/4v3XqPkRZyVuIijbvrl5GHOHw7B.jpg'
     },
     {
         titulo: 'Correndo Contra o Vento',
-        descricao: 'Descrição do filme 14',
+        descricao: 'Na Etiópia, dois homens correm para realizar seus sonhos.',
         imdb: 'tt9723240',
         imagem: 'https://image.tmdb.org/t/p/w300/qCH1BFZ98GzYBm3tJb23ELpHGLm.jpg'
     },
     {
         titulo: 'A Princesa Encantada: Era Uma Vez…',
-        descricao: 'Descrição do filme 15',
+        descricao: 'Antes de se tornar rainha, Uberta tinha uma vida humilde com seu marido Maximilian quando, de repente, foi jogada na realeza. Com vitórias e tragédias, ela aprende as lições que precisa para ser uma rainha amada enquanto cria a próxima geração de regentes. Quando chega a hora de Uberta passar o cetro real para Odette e Derek, a rival rainha Wixom tem planos para arruinar a maior coroação do reino.',
         imdb: 'tt26341934',
         imagem: 'https://image.tmdb.org/t/p/w300/pfMgyj2afebT8LVrDVYHniDk3XJ.jpg'
     },
     {
         titulo: 'Detetive Knight: Vilão',
-        descricao: 'Descrição do filme 16',
+        descricao: 'Perseguindo bandidos de Los Angeles a Nova York, o Detetive Knight se depara com seu passado sombrio, colocando em risco seu caso... e sua vida.',
         imdb: 'tt21435436',
         imagem: 'https://image.tmdb.org/t/p/w300/deuqT4q8GS0hXvaSqi97tq3VvTc.jpg'
     },
     {
-        titulo: '曼谷风云',
-        descricao: 'Descrição do filme 17',
-        imdb: 'None',
-        imagem: 'https://image.tmdb.org/t/p/w300/9SOMw90TxkqdZ2N5LehWtBkMwJN.jpg'
-    },
-    {
         titulo: '掃毒3︰人在天涯',
-        descricao: 'Descrição do filme 18',
+        descricao: '',
         imdb: 'tt26929966',
         imagem: 'https://image.tmdb.org/t/p/w300/kPjZsEni0KF0IXGXh0kaxNESdGE.jpg'
     },
     {
         titulo: 'Jagun Jagun: O Guerreiro',
-        descricao: 'Descrição do filme 19',
+        descricao: 'Determinado a se tornar um grande guerreiro, um jovem entra em um exército de elite. Nesse processo, ele enfrenta a ira de um comandante violento e encontra o amor.',
         imdb: 'tt28546464',
         imagem: 'https://image.tmdb.org/t/p/w300/2NrM70jJ4NPST409wHER8ZVZiKo.jpg'
     },
     {
         titulo: 'Sede Assassina',
-        descricao: 'Descrição do filme 20',
+        descricao: 'A polícia e o FBI lançam uma desesperada caçada para identificar e capturar um assassino em massa que está aterrorizando a população. Frustrado pelo comportamento enigmático e sem precedentes do criminoso, o investigador-chefe do FBI (Ben Mendelsohn) recruta Eleanor (Shailene Woodley), uma talentosa policial que está lutando contra os demônios de seu passado, para ajudá-lo no caso. Mesmo inexperiente, Eleanor pode ser a única capaz de entender a mente desse assassino enigmático.',
         imdb: 'tt10275534',
         imagem: 'https://image.tmdb.org/t/p/w300/kVGrAqS2C0tEWyuZ7kf7sFLA3CQ.jpg'
     },
