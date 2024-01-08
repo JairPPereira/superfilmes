@@ -1,5 +1,149 @@
 var filmes = [
     {
+        titulo: 'A Batalha de Natal',
+        descricao: 'Depois que Chris faz um acordo com uma elfo travessa chamada Pepper para aumentar suas chances de vitória, ela lança um feitiço que dá vida aos 12 dias de Natal e causa estragos em toda a cidade. Correndo o risco de arruinar as férias de sua família, Chris, sua esposa Carol e seus três filhos devem correr contra o relógio para quebrar o feitiço de Pepper, lutar contra personagens mágicos e salvar o Natal para todos.',
+        imdb: 'tt21328106',
+        imagem: 'https://image.tmdb.org/t/p/w300/7xz7evAsp4wqwSBSZLnNd13wBZt.jpg'
+    },
+    {
+        titulo: '15 Cameras',
+        descricao: '',
+        imdb: 'tt28255598',
+        imagem: 'https://image.tmdb.org/t/p/w300/muQrASlFPg4Hx0BEDwXjUsBMSHM.jpg'
+    },
+    {
+        titulo: '3 Days in Malay',
+        descricao: '',
+        imdb: 'tt21158192',
+        imagem: 'https://image.tmdb.org/t/p/w300/hqnfqeCILvgKGWKOut5lVdxdeJh.jpg'
+    },
+    {
+        titulo: 'Todas as Formas de Amor',
+        descricao: 'Um conto entrelaçado de três histórias, todas unidas pelo amor, perdão, comprometimento e lealdade entre casais, parentes e amigos. Enquanto novas jornadas começam, o amor persiste e evoluiu, tomando várias formas.',
+        imdb: 'tt7686376',
+        imagem: 'https://image.tmdb.org/t/p/w300/r5tZx6s8vrkBVjuJO5UNnrZEdxO.jpg'
+    },
+    {
+        titulo: 'A Primeira Dama',
+        descricao: 'Uma clássica comédia romântica que tem como pano de fundo a política internacional e o charme realeza. Mesmo não sendo casada com o presidente, Katherine Morales se candidata para ser a Primeira Dama. Mas, quando ela recebe uma proposta muito melhor do que esperava, acaba reencontrando um grande amor do passado.',
+        imdb: 'tt9068272',
+        imagem: 'https://image.tmdb.org/t/p/w300/gNqDtZ6GP1lOttUC7wSnEH7vpAq.jpg'
+    },
+    {
+        titulo: 'Ângela: O Anjo da Morte',
+        descricao: 'Arturo é um homem de quarenta anos que recebe a visita inesperada de Ângela, um anjo da morte na forma de uma atraente mulher.',
+        imdb: 'tt14631460',
+        imagem: 'https://image.tmdb.org/t/p/w300/ayF40WBDkCrwO8821LnUbES1Keg.jpg'
+    },
+    {
+        titulo: 'Coincidências da Vida e Grandes Amores',
+        descricao: 'Nessa versão atualizada de um romance do século XIX, uma mulher vive uma batalha entre razão e paixão. Os temas universais de amor, honestidade e saudade aparecem na vida das pessoas que vivem numa longínqua ilha de um arquipélago da Finlândia, isolada do mundo afetado por uma pandemia.',
+        imdb: 'tt12453124',
+        imagem: 'https://image.tmdb.org/t/p/w300/h2rOrmUqsdFoMQjKb93UPw6i9Gv.jpg'
+    },
+    {
+        titulo: 'Criaturas do Senhor',
+        descricao: 'Em uma vila de pescadores varrida pelo vento, uma mãe está dividida entre proteger seu filho amado e seu próprio senso de certo e errado. Uma mentira que ela conta para ele despedaça sua família e a unidade de sua comunidade.',
+        imdb: 'tt10375396',
+        imagem: 'https://image.tmdb.org/t/p/w300/rrlBIHAZ8yvqbhgzrMMGtMG9mO5.jpg'
+    },
+    {
+        titulo: 'Crescendo Juntas',
+        descricao: 'Quando sua família se muda da cidade para os subúrbios, Margaret, de 11 anos, navega entre novos amigos, sentimentos e o início da adolescência.',
+        imdb: 'tt9185206',
+        imagem: 'https://image.tmdb.org/t/p/w300/7dmr6Pl9XWDzQNWTjtq118Gkfd9.jpg'
+    },
+    {
+        titulo: 'Do Outro Lado do Espelho',
+        descricao: 'Um ano depois que a filha de Charlie desaparece, outra garota de Elrod, Georgia desaparece. Convencido de que há uma conexão, Charlie atrai suspeitas e desprezo das autoridades locais e da cidade.',
+        imdb: 'tt5585272',
+        imagem: 'https://image.tmdb.org/t/p/w300/tMwVRJ0LG9kFDjFoXAT5lKT2Zc8.jpg'
+    },
+    {
+        titulo: 'Dois Amigos Bem Chapados',
+        descricao: 'O encrenqueiro Alec e o neurótico Nate são dois amigos obrigados a lidar com policiais excêntricos, vizinhos gananciosos, traficantes e psicopatas se quiserem comparecer ao casamento de um antigo colega do Ensino Médio.',
+        imdb: 'tt5673432',
+        imagem: 'https://image.tmdb.org/t/p/w300/q2VYpYxarNwErLI5fcwApDtLuUP.jpg'
+    },
+    {
+        titulo: 'Eu, Eu Mesma e Diana',
+        descricao: 'Quando Janet ganha uma viagem, sua melhor amiga tenta convencê-la de que fingir ser uma outra pessoa é a melhor maneira de arranjar um namorado. Mas Janet perceberá que ao ser ela mesma, ficará mais próxima de um final feliz.',
+        imdb: 'tt10565666',
+        imagem: 'https://image.tmdb.org/t/p/w300/amK92ja6UVjQVAtNefh4JiLGesW.jpg'
+    },
+    {
+        titulo: 'Guerra Entre Herdeiros',
+        descricao: 'Duas irmãs tentam conquistar sua tia doente terminal e difícil de agradar na esperança de se tornarem beneficiárias de sua rica propriedade, apenas para descobrir que o resto de seus gananciosos membros da família tem a mesma ideia.',
+        imdb: 'tt16302202',
+        imagem: 'https://image.tmdb.org/t/p/w300/mQQvSozFKxJZmWrmnnrE5LV8CKG.jpg'
+    },
+    {
+        titulo: 'Jim Knopf e os 13 Piratas',
+        descricao: 'Um ano se passou desde que Jim Button e seu melhor amigo, o maquinista Luke, retornaram de sua perigosa aventura em Dragon City. A vida em Morrowland segue seu caminho tranquilo novamente. De repente, nuvens negras se acumulam sobre a tranquila ilha de Morrowland: a famosa gangue pirata The Wild 13 descobriu que o dragão Sra. Grindtooth foi conquistado por Jim e Luke e agora jura vingança. Para proteger Morrowland de outra ameaça, os dois partem com suas locomotivas a vapor Emma e Molly em uma perigosa jornada onde reencontram velhos amigos.',
+        imdb: 'tt9839038',
+        imagem: 'https://image.tmdb.org/t/p/w300/x759qHxGAd8PzKj0dugJom3BheT.jpg'
+    },
+    {
+        titulo: 'Maigret e a Jovem Morta',
+        descricao: 'O Comissário Maigret (Gérard Depardieu) investiga a morte de uma jovem de vestido de noite encontrada numa praça parisiense. Nada permite identificá-la, ninguém parece conhecê-la. Durante a investigação, conhece uma jovem delinquente que se assemelha estranhamente à vítima, despertando nele a memória de outro desaparecimento, mais antigo, que lhe deixou marcas profundas. Baseado no romance de Georges Simenon.',
+        imdb: 'tt10545696',
+        imagem: 'https://image.tmdb.org/t/p/w300/zG17L04rdnD5PFgOEzpAViEAqX0.jpg'
+    },
+    {
+        titulo: 'Meus Irmãos',
+        descricao: 'Os dias de glória dos irmãos Eddy e Rocco no mundo do rock independente terminaram nos anos 90, e agora, anos depois, eles moram em uma ilha e comandam uma banda local. Até que a irmã deles, Lola, reaparece em suas vidas e conhece o filho de Rocco, o jovem Simon. As histórias desta família carregam sofrimento, corações partidos , corpos feridos e muitas mágoas guardadas. Reunidos novamente, os irmãos precisam usar a força da fraternidade para trazer alegria de volta a suas vidas.',
+        imdb: 'tt7724516',
+        imagem: 'https://image.tmdb.org/t/p/w300/f2ou2HVjMOCDRhbd6tjzGMBHXry.jpg'
+    },
+    {
+        titulo: 'Ninguém Precisa Acreditar em Mim',
+        descricao: 'A carreira de escritor sai dos trilhos depois que ele cai vítima de uma perigosa rede de criminosos. Tudo isso um pouco antes dele se mudar para Barcelona.',
+        imdb: 'tt21738294',
+        imagem: 'https://image.tmdb.org/t/p/w300/jS8YfaaGFiqimhph4VCrsRaF42l.jpg'
+    },
+    {
+        titulo: 'O Espaço Infinito',
+        descricao: 'Internada em uma clínica psiquiátrica, Nina desencadeia o início de uma jornada em seu próprio inconsciente, uma busca para encontrar um caminho para a realidade compartilhada.',
+        imdb: 'tt29174442',
+        imagem: 'https://image.tmdb.org/t/p/w300/vypsKlYXaTX7LBlBOq5EsjXvZ4U.jpg'
+    },
+    {
+        titulo: 'Pequena Solange',
+        descricao: 'Solange é curiosa e animada, mas também muito sentimental. Porém, quando seus pais começam a brigar e se distanciar, a ameaça de um divórcio assusta a garota. Solange então faz de tudo para que a família continue unida.',
+        imdb: 'tt10376800',
+        imagem: 'https://image.tmdb.org/t/p/w300/jwvmKs9zzzNdR0v6UGuAgpuXHXt.jpg'
+    },
+    {
+        titulo: 'O Padeiro',
+        descricao: 'Um homem quieto e estóico, vive uma existência de monge em um exílio auto-imposto. Quando seu filho afastado é morto em um negócio de drogas que deu errado, ele fica encarregado de cuidar de uma neta que ele nunca soube que existia e é forçado a voltar a uma vida que tentou deixar para trás.',
+        imdb: 'tt3917710',
+        imagem: 'https://image.tmdb.org/t/p/w300/2deqSt3Z3OXgBfLvUn9jASrKa1c.jpg'
+    },
+    {
+        titulo: 'Ritual das Bruxas',
+        descricao: 'Um grupo de bruxas se dedica a encontrar alguém para reencarnar o espírito de sua ancestral Ashura.',
+        imdb: 'tt6844138',
+        imagem: 'https://image.tmdb.org/t/p/w300/k62yO2mrZys4h6atx955kr3GoHv.jpg'
+    },
+    {
+        titulo: 'Templo do Perigo',
+        descricao: 'Estamos em 1985 e o aventureiro, Jonathan Danger, cai em uma ilha em busca de um templo que contém seu bilhete para viajar no tempo, mas ele deve alcançá-lo antes que os soviéticos coloquem suas mãos na máquina e alterem a história.',
+        imdb: 'tt10974674',
+        imagem: 'https://image.tmdb.org/t/p/w300/bqwFMsRPTXIBCnFj82EIpCjDO85.jpg'
+    },
+    {
+        titulo: 'A Última Esperança Soviética',
+        descricao: 'No ápice da Segunda Guerra Mundial, os russos já não conseguem mais resistir à investida alemã.',
+        imdb: 'tt17074644',
+        imagem: 'https://image.tmdb.org/t/p/w300/dYAIG6RxtSRPcge3Rzw9fxPSUzE.jpg'
+    },
+    {
+        titulo: 'A Versão Persa',
+        descricao: 'Nesta história festiva de uma jovem mulher no Brooklyn, Leila (Layla Mohammadi) se esforça para encontrar o equilíbrio e aceitar suas culturas opostas enquanto desafia os rótulos que a sociedade projeta sobre ela. Quando sua família barulhenta se reúne na cidade de Nova York para o transplante de coração de seu pai, Leila mantém sua vida "real" separada da vida familiar. Mas quando seu...',
+        imdb: 'tt24076146',
+        imagem: 'https://image.tmdb.org/t/p/w300/fmHNcjt08oWz9Q619ZSXqQxLgMT.jpg'
+    },
+    {
         titulo: 'A Filha do Papai Noel',
         descricao: 'A filha do Papai Noel recebe a oportunidade de frequentar a faculdade por um semestre, antes de voltar ao Polo Norte para se casar com o filho do Jack Frost e assumir os negócios da família.',
         imdb: 'tt7315570',
