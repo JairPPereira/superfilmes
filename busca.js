@@ -7,6 +7,120 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'South Park (Não Recomendado Para Menores)',
+        descricao: 'Após descobrirem que uma professora da Escola de South Park possui uma página na rede social OnlyFans, Randy é levado a ver de perto o lado oculto do mundo dos influenciadores digitais.',
+        imdb: 'tt30505159',
+        imagem: 'https://image.tmdb.org/t/p/w300/opc6DIkByOp9vOt14jzfu8oVjbM.jpg'
+    },
+    {
+        titulo: 'The Mission',
+        descricao: 'O missionário americano John Chau tenta fazer contato com um grupo indígena na costa da Índia, uma das últimas comunidades na Terra que ainda vivem em isolamento, com consequências imprevisíveis.',
+        imdb: 'tt28097834',
+        imagem: 'https://image.tmdb.org/t/p/w300/kSLbmZ6R1VaNM1Kr1EJcdvHV94v.jpg'
+    },
+    {
+        titulo: 'Marinette',
+        descricao: '',
+        imdb: 'tt20251542',
+        imagem: 'https://image.tmdb.org/t/p/w300/opijCRwdFICFPhROwHEEjocgIeo.jpg'
+    },
+    {
+        titulo: 'Um Natal com Teddy',
+        descricao: 'Mariann, uma criança, vive um momento mágico quando, em uma feira de Natal, vê o ursinho de pelúcia mais fofo se mexendo e deseja ganhar o brinquedo vivo. Mas Teddy quer encontrar um dono rico que possa lhe mostrar tudo o que o mundo tem a oferecer.',
+        imdb: 'tt21054736',
+        imagem: 'https://image.tmdb.org/t/p/w300/ltk2gZxM0UEXvbyptuviGMBiRqk.jpg'
+    },
+    {
+        titulo: 'Mil e Um',
+        descricao: 'Depois que a implacável e feroz Inez sequestra seu filho Terry do sistema de adoção, mãe e filho partem para recuperar seu senso de lar, identidade e estabilidade, em uma cidade de Nova York em constante mudança.',
+        imdb: 'tt12427158',
+        imagem: 'https://image.tmdb.org/t/p/w300/5zshgJxnUp409zZ9ULRKsLuLVWf.jpg'
+    },
+    {
+        titulo: 'Minha Casa',
+        descricao: 'Carla vive se escondendo com seu pai. Quando um estranho misterioso aparece, ela começa a questionar a razão do isolamento de sua família.',
+        imdb: 'tt13431018',
+        imagem: 'https://image.tmdb.org/t/p/w300/qbDfpHOgvnxIhVJLunxXFDL6fG5.jpg'
+    },
+    {
+        titulo: 'Quatro Histórias de Desejo 2',
+        descricao: 'Quatro histórias de mulheres, luxúria e desejo. Mergulhe nas vidas de seis mulheres fortes e seus contos sobre amor, poder e anseios.',
+        imdb: 'tt27989067',
+        imagem: 'https://image.tmdb.org/t/p/w300/hPJ8I4ehMFEp9bmOg12Ay7gg021.jpg'
+    },
+    {
+        titulo: 'Sex Games',
+        descricao: '',
+        imdb: 'tt27551883',
+        imagem: 'https://image.tmdb.org/t/p/w300/9U47u3cDXTPgxAFqns0Sur9DvyV.jpg'
+    },
+    {
+        titulo: '12 Horas Para o Fim do Mundo',
+        descricao: 'Um pai que trabalha em uma estação espacial precisa salvar sua filha de 15 anos após uma devastadora chuva de meteoros atingir a Terra. Usando apenas telefones e câmeras via satélite, ele embarca numa jornada emocionante para resgatá-la.',
+        imdb: 'tt15296186',
+        imagem: 'https://image.tmdb.org/t/p/w300/gurQloozD4oBjjCBhqm3KPjxWxL.jpg'
+    },
+    {
+        titulo: 'A Fuga das Galinhas: A Ameaça dos Nuggets',
+        descricao: 'Um grupo de galinhas destemidas se une para enfrentar uma nova ameaça: uma fazenda muito suspeita, com cheiro de fritura no ar.',
+        imdb: 'tt8337264',
+        imagem: 'https://image.tmdb.org/t/p/w300/3ZpbQ571GHAYIZl1zqZ3Non75Y7.jpg'
+    },
+    {
+        titulo: 'A Megera Domada 2',
+        descricao: 'O romance de Kasia e Patryk é colocado à prova quando os dois suspeitam de traição. Para piorar, a vizinhança não para de se meter em suas vidas.',
+        imdb: 'tt30225700',
+        imagem: 'https://image.tmdb.org/t/p/w300/k00QQRSHFbz1miYda8QxclXLAyk.jpg'
+    },
+    {
+        titulo: 'A Bruxa do Gelo',
+        descricao: 'Uma jornalista retorna à sua aldeia ancestral isolada para investigar uma série de assassinatos nas florestas vizinhas.',
+        imdb: 'tt9383752',
+        imagem: 'https://image.tmdb.org/t/p/w300/nE8kvNUcEQ1HhILzT5gDPM5Lj25.jpg'
+    },
+    {
+        titulo: 'A Ressurreição de Charles Manson',
+        descricao: 'Com Frank Grillo. Um jovem casal viaja até o deserto para gravar um vídeo de audição para um filme sobre Charles Manson e acabam envolvidos em um sinistro plano do serial killer.',
+        imdb: 'tt18362708',
+        imagem: 'https://image.tmdb.org/t/p/w300/pB090ok6FEOAqPG2rVMdW7jxJe9.jpg'
+    },
+    {
+        titulo: 'Aquaman 2: O Reino Perdido',
+        descricao: 'Agora mais temível do que nunca, Arraia Negra detém o poder do mítico Tridente Preto e sua ancestral força malévola. Para derrotá-lo, Aquaman recorrerá a seu irmão Orm, o ex-Rei da Atlântida, ainda na prisão, para forjar uma aliança improvável. Juntos, eles vão ter que deixar de lado suas diferenças para proteger seu reino, salvar a família de Aquaman e o mundo da irreversível destruição.',
+        imdb: 'tt9663764',
+        imagem: 'https://image.tmdb.org/t/p/w300/2Mys5JCHhUH6DE9YxLFFZaCsOHu.jpg'
+    },
+    {
+        titulo: 'Casamento Grego 3',
+        descricao: 'Os membros da família Portokalos se reúnem na Grécia para uma viagem hilária e emocionante, cheia de amor e reviravoltas.',
+        imdb: 'tt21103300',
+        imagem: 'https://image.tmdb.org/t/p/w300/hVmsjW1QEIJ8ixG0H6ymqBqaxEc.jpg'
+    },
+    {
+        titulo: 'O Homem dos Sonhos',
+        descricao: 'O infeliz homem de família Paul Matthews vê sua vida virada de cabeça para baixo quando milhões de estranhos de repente começam a vê-lo em seus sonhos. Mas quando suas aparições noturnas tomam um rumo de pesadelo, Paul é forçado a navegar em seu novo estrelato.',
+        imdb: 'tt21942866',
+        imagem: 'https://image.tmdb.org/t/p/w300/zEq3hBlXMD22Oq0Z3KXzHQDR4g4.jpg'
+    },
+    {
+        titulo: 'Família',
+        descricao: 'Enquanto a família discute o futuro do seu idílico olival durante uma refeição, a complexidade de suas relações vem à tona entre risadas e confissões.',
+        imdb: 'tt27828085',
+        imagem: 'https://image.tmdb.org/t/p/w300/5LyiadeCXEsoqmph0fZZhoCBWJa.jpg'
+    },
+    {
+        titulo: 'Finestkind',
+        descricao: 'Dois irmãos fecham um perigoso acordo com uma organização criminosa que os atrai para o submundo de Boston. À medida que as pressões aumentam, os sacrifícios devem ser feitos e os vínculos - entre irmão e irmão, e entre pai e filho - são colocados à prova.',
+        imdb: 'tt7991508',
+        imagem: 'https://image.tmdb.org/t/p/w300/90D6sXfbXKhDpd4S1cHICdAe8VD.jpg'
+    },
+    {
+        titulo: 'Godzilla Minus One',
+        descricao: 'Em um Japão social e economicamente devastado após o término da Segunda Guerra Mundial, a situação chega a um nível ainda mais crítico quando uma gigantesca e misteriosa criatura surge do mar para assolar o país.',
+        imdb: 'tt23289160',
+        imagem: 'https://image.tmdb.org/t/p/w300/iXrCBynsyRGbOtoBeWjt1bRINuA.jpg'
+    },
+    {
         titulo: 'Ardente Paciência',
         descricao: 'Ao se tornar carteiro de Pablo Neruda, um jovem mergulha em um mundo que alimenta seu sonho de ser poeta e conquistar a mulher que sempre quis.',
         imdb: 'tt15939090',

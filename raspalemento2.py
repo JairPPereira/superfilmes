@@ -4,7 +4,7 @@ import re
 
 
 # URL da página web que você deseja raspar
-url = "https://embedder.net/lib/movies?page=1"
+url = "https://embedder.net/lib/movies?page=5"
 
 # Faz uma requisição GET para a página web
 response = requests.get(url)
