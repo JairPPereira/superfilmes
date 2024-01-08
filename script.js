@@ -1,5 +1,143 @@
 var filmes = [
     {
+        titulo: 'Segredos de um Escândalo',
+        descricao: '20 anos após um grande romance midiático, um casal enfrenta a pressão quando uma atriz viaja até seu lar para se preparar para um filme sobre o passado deles.',
+        imdb: 'tt13651794',
+        imagem: 'https://image.tmdb.org/t/p/w300/eroW8nDnZ31OLVwiHRCrIB3RBJV.jpg'
+    },
+    {
+        titulo: 'Miyamoto Musashi e os 400 Samurais',
+        descricao: 'Em 1604, Miyamoto Musashi atacou a família Yoshioka em seu dojo e derrotou o mestre Seijūrō e seu irmão mais novo Denshichirō em dois duelos. Para salvar sua reputação, a família Yoshioka decide revidar com todos os 100 membros da família e contratar mais 300 samurais. Agora Musashi se propõe a derrotar todos os 400 inimigos em sua batalha mais famosa.',
+        imdb: 'tt12015352',
+        imagem: 'https://image.tmdb.org/t/p/w300/6K0LhZglkxZ1SwKXKNyOjTAzuMx.jpg'
+    },
+    {
+        titulo: 'Manodrome',
+        descricao: 'Ralphie é um motorista de Uber e aspirante a fisiculturista que é introduzido em um culto libertário de masculinidade e perde o controle da realidade quando seus desejos reprimidos são despertados.',
+        imdb: 'tt14813150',
+        imagem: 'https://image.tmdb.org/t/p/w300/w5hACqUlPbpHiGLYbtoQHF0SNWe.jpg'
+    },
+    {
+        titulo: 'Karim, O Infiltrado',
+        descricao: 'Depois de anos vivendo na Síria, Karim decide deixar o seu passado para trás e retorna para a Itália. Ele consegue trabalho dentro de uma organização criminosa, mas se quiser mudar de vida, terá que pagar um preço mais alto do que gostaria.',
+        imdb: 'tt10937496',
+        imagem: 'https://image.tmdb.org/t/p/w300/qql5LcwpfooxQFk8RKimSduHUsP.jpg'
+    },
+    {
+        titulo: 'Hotel do Medo',
+        descricao: 'Durante seu primeiro dia de trabalho no turno da noite de um hotel, a jovem Amy, descobre que ocorreram diversos crimes misteriosos no local que jamais foram solucionados. Conforme ela vai se aprofundando em sua investigação, percebe que está sendo perseguida por um maníaco mascarado que pretende matá-la a qualquer custo.',
+        imdb: 'tt6688304',
+        imagem: 'https://image.tmdb.org/t/p/w300/tQTUHmnB2l8YRgO8qE8V6aqyMOC.jpg'
+    },
+    {
+        titulo: 'FPS: First Person Shooter',
+        descricao: '',
+        imdb: 'tt28681130',
+        imagem: 'https://image.tmdb.org/t/p/w300/jBV9V2MBUQelh65lWQOEtvsVvdP.jpg'
+    },
+    {
+        titulo: 'Do Ut Des',
+        descricao: '',
+        imdb: 'tt16008564',
+        imagem: 'https://image.tmdb.org/t/p/w300/bQxBSr2oiRT1creXScCE4S2VeS.jpg'
+    },
+    {
+        titulo: 'Intruso',
+        descricao: 'Henrietta e Junior cultivam um pedaço de terra isolado que está na família de Junior há gerações, mas sua vida tranquila é transformada em tumulto quando um estranho indesejado aparece à sua porta com uma proposta surpreendente. Eles arriscarão seu relacionamento e identidade pessoal por uma chance de sobreviver em um novo mundo?',
+        imdb: 'tt8258502',
+        imagem: 'https://image.tmdb.org/t/p/w300/7he2IBkpbedIOJiBBq5LjY4ZCC5.jpg'
+    },
+    {
+        titulo: 'Efeitos Colaterais de um Casamento',
+        descricao: 'Kathrin sofre de uma doença renal e precisa urgentemente de um transplante. Ela espera que seu marido Arnold a ajude, mas ele é um arquiteto de sucesso no meio de um grande projeto e tem medo de fazer a doação. Até que Götz, um amigo do casal, se voluntaria imediatamente para salvar a vida de Kathrin, causando uma briga descontrolada entre o casal que expõe todas as fragilidades do relacionamento.',
+        imdb: 'tt13582614',
+        imagem: 'https://image.tmdb.org/t/p/w300/z3eKohlfAFVBwDUqbfbk51f69rd.jpg'
+    },
+    {
+        titulo: 'Depois da Aula',
+        descricao: 'Jane Shipley é uma aluna brilhante que deseja retomar a amizade com sua amiga de infância e se enturmar com seus amigos rebeldes. Eles decidem realizar uma festa na escola depois da aula, sem saber das terríveis consequências que os aguardam.',
+        imdb: 'tt11010888',
+        imagem: 'https://image.tmdb.org/t/p/w300/gmV7Y98E5L0aVavRyVseD3WKyxJ.jpg'
+    },
+    {
+        titulo: 'Dark Parasite',
+        descricao: '',
+        imdb: 'tt23128514',
+        imagem: 'https://image.tmdb.org/t/p/w300/rhkL2T66YZOk0WkKYXVBuFZZQ7W.jpg'
+    },
+    {
+        titulo: 'O Coletivo',
+        descricao: 'Um jovem é recrutado para uma misteriosa agência de assassinos implacáveis. Com a ajuda de colegas, ele comete um ato de rebeldia e justiça ao rastrear uma rede de tráfico de pessoas que é apoiada por bilionários poderosos e intocáveis. Sua missão é destruir essas pessoas que causam tanto mal à vida inocentes ao redor do mundo.',
+        imdb: 'tt23556408',
+        imagem: 'https://image.tmdb.org/t/p/w300/araUzE6drxWABCMSKvnKHV11vr1.jpg'
+    },
+    {
+        titulo: 'Coisas Divertidas Sobre o Amor',
+        descricao: 'Uma mulher de negócios de sucesso leva seu namorado para casa no Dia de Ação de Graças e descobre que sua família está planejando reuni-la com seu amor perdido.',
+        imdb: 'tt13891338',
+        imagem: 'https://image.tmdb.org/t/p/w300/uIUFGA0G124m52CEJmNlsp3ui9W.jpg'
+    },
+    {
+        titulo: 'Cidade das Trevas',
+        descricao: 'Quando Claire retorna para a cidade do interior onde foi criada, ela descobre sua antiga casa dominada por uma terrível bruxaria. Claire chega para encontrar a cidade dominada pelo medo, decadência e loucura. As ruas estão desertas, o gado está morrendo, os moradores fugiram – e os restantes sussurram histórias malucas de uma sombra que visita a cidade à noite em busca de sangue. Com seu tio agora uma casca do homem que ele foi, vivendo em um asilo abandonado, Claire busca respostas sobre o destino de sua mãe morta – apenas para ficar cara a cara com um clã terrível do qual sua mãe é a líder .',
+        imdb: 'tt8115996',
+        imagem: 'https://image.tmdb.org/t/p/w300/jQoUqpBZxF1rloQadqJfSMzPu95.jpg'
+    },
+    {
+        titulo: 'Cara a Cara com o ETA',
+        descricao: 'Uma entrevista aprofundada com José Antonio Urrutikoetxea, conhecido como Josu Ternera, um dos líderes mais importantes da gangue terrorista ETA.',
+        imdb: 'tt29295010',
+        imagem: 'https://image.tmdb.org/t/p/w300/pUThEccecvgCERVJEUzZUBdqFO2.jpg'
+    },
+    {
+        titulo: 'Boudica',
+        descricao: 'Boudica governa o povo Iceniano com seu marido, Prasutagus. O rei morre nas mãos de soldados romanos, deixando o reino de Boudica sem um herdeiro do sexo masculino, e os romanos se apoderam de suas terras e propriedades.',
+        imdb: 'tt22688572',
+        imagem: 'https://image.tmdb.org/t/p/w300/adMcxfUonnm9RvPImGHy25wYUks.jpg'
+    },
+    {
+        titulo: '战地：异种浩劫',
+        descricao: '',
+        imdb: 'tt27727400',
+        imagem: 'https://image.tmdb.org/t/p/w300/8VTUd9kTBySAedlM3gsPi6EVte4.jpg'
+    },
+    {
+        titulo: 'Atomic Poop',
+        descricao: '',
+        imdb: 'tt28683949',
+        imagem: 'https://image.tmdb.org/t/p/w300/le47veBLKalWgZzFCCh2Oy7UMTm.jpg'
+    },
+    {
+        titulo: 'Até o Limite da Honra',
+        descricao: 'Durante a Segunda Guerra Mundial, o tenente Adi Sharipov e o seu pelotão são atraídos pelo exército nazista até um pântano. O desânimo toma conta de todos, mas eles logo percebem que a inatividade os destruirá mais rápido do que as balas inimigas.',
+        imdb: 'tt19770590',
+        imagem: 'https://image.tmdb.org/t/p/w300/7fZxEnhh8VY1N5ftRIkTMaC7xAA.jpg'
+    },
+    {
+        titulo: 'Abandonada',
+        descricao: 'Depois que um jovem casal se muda para uma casa de fazenda remota com seu filho recém-nascido, as lutas da mulher com a psicose e depressão pós-parto começam a se intensificar... à medida que a casa revela seus próprios segredos.',
+        imdb: 'tt2980152',
+        imagem: 'https://image.tmdb.org/t/p/w300/rC3O8VIPhLhJOO68XsPruBoirDR.jpg'
+    },
+    {
+        titulo: 'A Modelo e o Fotógrafo',
+        descricao: 'Kai é um talentoso fotógrafo, que possui aversão às mulheres. Ao conhecer Kyoko, uma bonita modelo que sofre de dismorfia corporal, eles dão início a um romance.',
+        imdb: 'tt13129114',
+        imagem: 'https://image.tmdb.org/t/p/w300/pwWAzpOGbO9quvzOjmE5ledaqUA.jpg'
+    },
+    {
+        titulo: 'A Fuga de Alice',
+        descricao: 'Uma mulher problemática encontra refúgio em uma fazenda isolada, com a ajuda de seus donos idealísticos - até que uma figura violenta de seu passado a alcança.',
+        imdb: 'tt6550978',
+        imagem: 'https://image.tmdb.org/t/p/w300/5LM3AZZAVSVVu3Nea0y3AP0oXte.jpg'
+    },
+    {
+        titulo: 'A Informante',
+        descricao: 'River, uma jovem mãe flagrada em uma pequena apreensão de drogas, é forçada a trabalhar para a polícia como informante secreta e é enviada para uma perigosa operação encoberta que pode lhe custar tudo, até mesmo sua filha.',
+        imdb: 'tt14316486',
+        imagem: 'https://image.tmdb.org/t/p/w300/bfziuazNnGF9ASMoaSLtwZHGp9T.jpg'
+    },
+    {
         titulo: 'A Batalha de Natal',
         descricao: 'Depois que Chris faz um acordo com uma elfo travessa chamada Pepper para aumentar suas chances de vitória, ela lança um feitiço que dá vida aos 12 dias de Natal e causa estragos em toda a cidade. Correndo o risco de arruinar as férias de sua família, Chris, sua esposa Carol e seus três filhos devem correr contra o relógio para quebrar o feitiço de Pepper, lutar contra personagens mágicos e salvar o Natal para todos.',
         imdb: 'tt21328106',
