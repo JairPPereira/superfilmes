@@ -7,6 +7,144 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'A Filha do Papai Noel',
+        descricao: 'A filha do Papai Noel recebe a oportunidade de frequentar a faculdade por um semestre, antes de voltar ao Polo Norte para se casar com o filho do Jack Frost e assumir os negócios da família.',
+        imdb: 'tt7315570',
+        imagem: 'https://image.tmdb.org/t/p/w300/aLBNhfYtyBOHdePncblmijrDljQ.jpg'
+    },
+    {
+        titulo: 'Agradecimento e Desculpas',
+        descricao: 'Solitária no final da gestação, Sara recebe uma ajuda inesperada com a chegada de Linda, sua irmã distante.',
+        imdb: 'tt23735436',
+        imagem: 'https://image.tmdb.org/t/p/w300/24WSZJyiQbLuH1esYnVhJOvQXNx.jpg'
+    },
+    {
+        titulo: 'Câmera Indiscreta',
+        descricao: 'Phil Waterhouse é um diretor de cinema bem-sucedido que grava o assassinato de um adolescente negro. Enquanto filma seu novo projeto, sua vida é ameaçada por alguém que parece seguir todos os seus passos e gravar todas as suas ações.',
+        imdb: 'tt10314344',
+        imagem: 'https://image.tmdb.org/t/p/w300/jyOSszi8FsMetUONo6VB6Qutnle.jpg'
+    },
+    {
+        titulo: 'Curry com Cianeto',
+        descricao: 'O caso da vida real de Jolly Joseph, uma senhora suspeita de planejar o envenenamento por cianeto de seis membros da família ao longo de mais de dez anos, incluindo seu filho de dois anos.',
+        imdb: 'tt30177031',
+        imagem: 'https://image.tmdb.org/t/p/w300/sdXu8YeDqg1qxEP9LJuTIFBtR5L.jpg'
+    },
+    {
+        titulo: 'Desejo e Obsessão',
+        descricao: 'Demir acorda assustado e sem memória em uma casa estranha, até que e se depara com Andrew, que diz ser seu colega de quarto, e sua ficante Drew.',
+        imdb: 'tt9733108',
+        imagem: 'https://image.tmdb.org/t/p/w300/4CMYFwp6tJuufQViFceAtGE9rOZ.jpg'
+    },
+    {
+        titulo: 'Desencaixados',
+        descricao: 'Três amigos vivem seus 20 e poucos anos em Mumbai, encarando romances, sonhos e decepções na era das redes sociais.',
+        imdb: 'tt15434074',
+        imagem: 'https://image.tmdb.org/t/p/w300/qQo7PrvRRGSnNYJqFX0cd5LGiy3.jpg'
+    },
+    {
+        titulo: 'Feriado Sangrento',
+        descricao: 'Depois que um motim da Black Friday termina em tragédia, um misterioso assassino inspirado no Dia de Ação de Graças aterroriza Plymouth, Massachusetts – o berço do infame feriado.',
+        imdb: 'tt1448754',
+        imagem: 'https://image.tmdb.org/t/p/w300/xPLOOSM49kz4LAlCbg3CsgD0ayD.jpg'
+    },
+    {
+        titulo: 'Jornada Para Belém',
+        descricao: 'Uma jovem carregando uma responsabilidade inimaginável. Um jovem dividido entre o amor e a honra. Um rei ciumento que não se deterá diante de nada para manter sua coroa. Esta aventura musical de Natal em live-action para toda a família mescla melodias clássicas de Natal com humor, fé e novas canções pop em uma releitura da maior história já contada, a história de Maria e José e o nascimento de Jesus. Uma nova entrada única na coleção de filmes clássicos de férias, este musical épico de Natal é diferente de todos os anteriores.',
+        imdb: 'tt13848804',
+        imagem: 'https://image.tmdb.org/t/p/w300/tv0Ta1lAIZYuLKAcQhnRTe8bUTV.jpg'
+    },
+    {
+        titulo: 'Marcados: A História do Racismo nos EUA',
+        descricao: 'Com técnicas de animação inovadoras e depoimentos de especialistas, este documentário baseado no best-seller de X. Kendi explora a história das ideias racistas nos EUA.',
+        imdb: 'tt13871094',
+        imagem: 'https://image.tmdb.org/t/p/w300/zKr6pPEtvyc0wGiiFseLNPvYhz9.jpg'
+    },
+    {
+        titulo: 'Meu Cunhado é Um Vampiro',
+        descricao: 'Um ex-jogador de futebol medroso precisa criar coragem para bancar o herói ao descobrir que o cunhado é um vampiro que pretende dominar o mundo.',
+        imdb: 'tt23744022',
+        imagem: 'https://image.tmdb.org/t/p/w300/w1hyHgP4fyrW9tEqlX472bMgLO9.jpg'
+    },
+    {
+        titulo: 'O Clube dos Milagres',
+        descricao: 'A jornada de um grupo de mulheres da classe trabalhadora de Dublin, em peregrinação a Lourdes na França descobrem a amizade uma da outra, e seus próprios milagres.',
+        imdb: 'tt12712604',
+        imagem: 'https://image.tmdb.org/t/p/w300/fQwEEKyZ5WVIs9UscUg7fUbyduW.jpg'
+    },
+    {
+        titulo: 'Prancer: Um Conto de Natal',
+        descricao: 'A jovem Grace é forçada a passar o natal na casa de Bud, seu avô rabugento. A festa parece fadada ao fracasso até ela conhecer Prancer, uma rena mágica que é amiga de Bud. Mas um caçador impiedoso está caçando o animal.',
+        imdb: 'tt14668196',
+        imagem: 'https://image.tmdb.org/t/p/w300/vdubjRZoszEOHFYr6FpIdqrKvxJ.jpg'
+    },
+    {
+        titulo: 'Sol Lunar',
+        descricao: 'Quando Kelsey é deixada no altar, a dor e a humilhação a fazem questionar os planos de Deus para ela. Em busca de propósito e esperança, ela viaja para Taiwan para dar aulas de inglês. Que coisas virão desse salto de fé?',
+        imdb: 'tt14999006',
+        imagem: 'https://image.tmdb.org/t/p/w300/x29rKMGLUrQ2W2U8oNPpMC2guwR.jpg'
+    },
+    {
+        titulo: 'Um Natal 5 Estrelas',
+        descricao: 'Durante o Natal, uma blogueira visita uma pousada em uma cidadezinha para uma resenha e encontra mais do que esperava: uma missão de resgate e um amor inesperado.',
+        imdb: 'tt22333954',
+        imagem: 'https://image.tmdb.org/t/p/w300/rg2qXwnGHm6H2kYiy66yJqDo0Sh.jpg'
+    },
+    {
+        titulo: 'Vivo ou Morto',
+        descricao: 'Para fugir das dívidas, um artesão forjou a própria morte. Ele só não esperava descobrir que é apenas na hora da morte, que a gente encontra aquilo que procurou a vida inteira.',
+        imdb: 'tt30613964',
+        imagem: 'https://image.tmdb.org/t/p/w300/fl6akfUcmfuTgLw2FromKDct8tS.jpg'
+    },
+    {
+        titulo: 'Jester: A Morte Sorri',
+        descricao: 'Depois da recente morte de seu pai, duas irmãs separadas se encontram sendo perseguidas por um ser maligno conhecido como "O Jester". A entidade maligna começa a atormentar os habitantes de uma pequena cidade na noite de Halloween.',
+        imdb: 'tt26533869',
+        imagem: 'https://image.tmdb.org/t/p/w300/xMvd6QBbXFsRG1LHoEVJafWj6Xj.jpg'
+    },
+    {
+        titulo: 'Maestro',
+        descricao: 'Esta história de amor acompanha o complexo relacionamento entre Leonard Bernstein e Felicia Montealegre Cohn Bernstein.',
+        imdb: 'tt5535276',
+        imagem: 'https://image.tmdb.org/t/p/w300/kxj7rMco6RNYsVcNwuGAIlfWu64.jpg'
+    },
+    {
+        titulo: 'Mussum: O Filmis',
+        descricao: 'A trajetória de Antônio Carlos Bernardes Gomes, o Mussum, dos Trapalhões. A infância pobre, a carreira militar, a relação com a Mangueira e o sucesso com o grupo Originais do Samba, além dos bastidores como integrante dos Trapalhões.',
+        imdb: 'tt18560202',
+        imagem: 'https://image.tmdb.org/t/p/w300/olETegpIsLwrApT1ldOKIwFE8lY.jpg'
+    },
+    {
+        titulo: 'Perder é Ganhar um Pouco',
+        descricao: 'Miguel, homem bem-sucedido, acaba preso, acusado injustamente de lavagem de dinheiro. Com sua sentença cumprida, sem dinheiro e sem ter para onde ir, retorna ao seu antigo bairro. Lá, ele encontra seus amigos de infância, que continuam jogando futsal, e nunca ganham uma partida. Miguel decide treiná-los, levando-os à vitória. Ele descobre as consequências inesperadas do sucesso.',
+        imdb: 'tt30422156',
+        imagem: 'https://image.tmdb.org/t/p/w300/d45rHJsby26TSakc5ahkdmE72YH.jpg'
+    },
+    {
+        titulo: 'Plano em Família',
+        descricao: 'Dan Morgan é muitas coisas: um marido dedicado, um pai amoroso, um reconhecido vendedor de carros. Ele também é um ex-assassino. E quando seu passado encontra seu presente, ele é forçado a levar sua desavisada família em uma viagem diferente de qualquer outra.',
+        imdb: 'tt16431870',
+        imagem: 'https://image.tmdb.org/t/p/w300/3CezGI4ORSgVKk5Ch3UUWtL7SET.jpg'
+    },
+    {
+        titulo: 'Saltburn',
+        descricao: 'Uma história perversa sobre privilégio e desejo. Lutando para encontrar seu lugar na Faculdade de Oxford, o aluno Oliver Quick (Barry Keoghan) é atraído para o mundo do encantador e aristocrata Felix Catton (Jacob Elordi), que o convida para Saltburn, a enorme mansão de sua família excêntrica, para passar um verão inesquecível.',
+        imdb: 'tt17351924',
+        imagem: 'https://image.tmdb.org/t/p/w300/qjhahNLSZ705B5JP92YMEYPocPz.jpg'
+    },
+    {
+        titulo: 'O Silêncio da Vingança',
+        descricao: 'Godlock é um pai em uma missão para vingar seu filho que foi tragicamente pego no fogo cruzado da violência de gangues na véspera de Natal. Baleado e quase morto enquanto perseguia os assassinos, Godlock promete vingar seu filho por qualquer meio necessário.',
+        imdb: 'tt15799866',
+        imagem: 'https://image.tmdb.org/t/p/w300/7W2fdpbWV2MiaCpjYakbudP3Ywx.jpg'
+    },
+    {
+        titulo: 'Sistema Bruto',
+        descricao: 'Bruna e Rosa são duas amigas que frequentam os mais badalados bares e festas sertanejas do interior, mas também são apaixonadas por velocidade e adrenalina. Em uma noite, elas fazem uma aposta com seus amigos homens. Bruna e Rosa decidem participar de uma competição de corridas de caminhonetes para provar que são melhores que os rapazes atrás do volante.',
+        imdb: 'tt15129154',
+        imagem: 'https://image.tmdb.org/t/p/w300/hEK0FLgnOXqy4RT0qvRMJi5iSAF.jpg'
+    },
+    {
         titulo: 'South Park (Não Recomendado Para Menores)',
         descricao: 'Após descobrirem que uma professora da Escola de South Park possui uma página na rede social OnlyFans, Randy é levado a ver de perto o lado oculto do mundo dos influenciadores digitais.',
         imdb: 'tt30505159',
