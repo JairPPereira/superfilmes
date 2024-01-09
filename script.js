@@ -1,5 +1,149 @@
 var filmes = [
     {
+        titulo: 'Ritual Maldito',
+        descricao: 'Um grupo de estudantes desce aos subterrâneos de São Petersburgo para encontrar o lendário Atakan, a pedra amaldiçoada. Explorando os corredores escuros, eles percebem com horror que não estão sozinhos neste lugar.',
+        imdb: 'tt12980286',
+        imagem: 'https://image.tmdb.org/t/p/w300/lxkSuHgWDNWIoJ6hu6wEaUSqZ1k.jpg'
+    },
+    {
+        titulo: 'Valentina Despertando Para Os Sonhos',
+        descricao: 'Valentina sonha em se tornar uma trapezista, mas acredita que não conseguirá devido à Síndrome de Down. Sua falecida avó sempre a inspirou, então Valentina embarca em uma aventura emocionante para descobrir que ela é diferente e única.',
+        imdb: 'tt16277374',
+        imagem: 'https://image.tmdb.org/t/p/w300/lPslknj3CohVLrKwElVJwRvafPe.jpg'
+    },
+    {
+        titulo: 'A Lenda da Serpente',
+        descricao: 'Um dia, uma jovem chamada Blanca é salva por Xuan, um caçador de cobras de um vilarejo próximo. Ela perdeu a memória e, juntos, eles partem em uma jornada para descobrir sua verdadeira identidade, desenvolvendo sentimentos mais profundos um pelo outro ao longo do caminho. Mas à medida que aprendem mais sobre seu passado, eles descobrem um enredo mais sombrio de forças sobrenaturais competindo pelo poder, com o destino do mundo em jogo.',
+        imdb: 'tt9288776',
+        imagem: 'https://image.tmdb.org/t/p/w300/lmJsSOQtuU7xwN48ATCPrI96ENM.jpg'
+    },
+    {
+        titulo: 'Um Romance Perfeito',
+        descricao: 'Riley é uma diretora artística que procura uma maneira de impedir que o teatro em que trabalha seja vendido.',
+        imdb: 'tt14460090',
+        imagem: 'https://image.tmdb.org/t/p/w300/8sFlJzuVXsva7z154JN9eLWBUfH.jpg'
+    },
+    {
+        titulo: 'Um Novo Conto de Natal',
+        descricao: 'Uma empreendedora rica e descaradamente franca se tornou uma mulher bem-sucedida, mas não um ser humano melhor. Na véspera do Natal, seus passado, presente e futuro estão prestes a colidir drasticamente.',
+        imdb: 'tt23752770',
+        imagem: 'https://image.tmdb.org/t/p/w300/t8DhkXo7xKFKLeBqHddHz1VM1eh.jpg'
+    },
+    {
+        titulo: 'Um Natal para Chueco',
+        descricao: 'Chueco está muito feliz, finalmente chegou o Natal, sua época favorita do ano. Mas suas ilusões terminam quando Juan o informa que não se comemora o Natal naquela casa, até mesmo o Papai Noel sabe que não precisa ir lá. Amanda explica, para um Chueco desconcertado, que desde que Lorena morreu, o espírito natalino desapareceu dos corações dos Gustozzi. Chueco não consegue ficar de braços cruzados e decide preparar uma terapia de choque para trazer a esperança de volta: ele decora a casa com enfeites de Natal e pede ao próprio Papai Noel que traga presentes para a casa novamente, mas tudo em vão. O que Chueco não suspeita é que Amanda será sua melhor aliada para trazer de volta o espírito natalino.',
+        imdb: 'tt30399498',
+        imagem: 'https://image.tmdb.org/t/p/w300/1kkSj7KAWRR9fWmyPYfp4bLJKQr.jpg'
+    },
+    {
+        titulo: 'Um Lugar para Voltar',
+        descricao: 'Cole Baird tem de tudo: uma bela esposa, carreira de sucesso, casa grande, associação a clubes de campo e brinquedos caros. Por trás da fachada, no entanto, é um homem preso ao seu entorno e ficando sempre para trás na busca do sonho de sua vida. Não tendo forças o suficiente para enfrentar as expectativas de seu pai, ele deixou seu verdadeiro amor, seu melhor amigo e sua visão da vida na pequena cidade dos Estados Unidos, e partiu para uma carreira jurídica com a intenção de, um dia, voltar. Agora a estrela em ascensão nos círculos sociais de Washington e o sócio-gerente mais jovem da história de um poderoso escritório de advocacia de Washington DC, ele tem a escolha: continuar o caminho do sucesso em uma vida à qual nunca tem sossego, ou retornar à comunidade que o criou.',
+        imdb: 'tt13615030',
+        imagem: 'https://image.tmdb.org/t/p/w300/zD46NlpUEDKwZxP9HMzuTNKVA2B.jpg'
+    },
+    {
+        titulo: 'Os Rejeitados',
+        descricao: 'Acompanha a desventura de um professor mal-humorado de uma prestigiada escola americana, forçado a permanecer no campus para cuidar do grupo de alunos que não tem para onde ir durante as férias de Natal. Ele acaba criando um vínculo improvável com um deles - um encrenqueiro magoado e muito inteligente - e com o cozinheiro-chefe da escola, que acaba de perder um filho no Vietnã.',
+        imdb: 'tt14849194',
+        imagem: 'https://image.tmdb.org/t/p/w300/nuljFk9VbHR8JPPl2uNbu9aMlqg.jpg'
+    },
+    {
+        titulo: 'Tempos Super Modernos',
+        descricao: 'Sem saber, Arturo cria um algoritmo para sua empresa que acaba tornando inútil o seu próprio trabalho. Após ser demitido e ainda perder os amigos e a namorada, ele começa a trabalhar em uma multinacional de tecnologia. Agora, sua única companhia para evitar a solidão é Stella, um holograma inteligente criado pela própria empresa. Mas, quando o período de teste grátis do serviço acaba, Arturo precisa encontrar uma maneira de custear a presença de Stella, enquanto repensa seus conceitos sobre amor e liberdade.',
+        imdb: 'tt10960102',
+        imagem: 'https://image.tmdb.org/t/p/w300/n2lmXVxfXcTk9lnlGbWUuS8JTNF.jpg'
+    },
+    {
+        titulo: 'Sem Ar',
+        descricao: 'Duas irmãs vão mergulhar em um local lindo e remoto. Uma das irmãs é atingida por uma pedra, deixando-a presa 28 metros abaixo. Com níveis perigosamente baixos de oxigênio e baixas temperaturas, cabe à irmã lutar por sua vida.',
+        imdb: 'tt13566172',
+        imagem: 'https://image.tmdb.org/t/p/w300/PSCKrkl3jPqe3f6Dbx3Tic1I5i.jpg'
+    },
+    {
+        titulo: 'Scrooge: Um Conto de Natal',
+        descricao: 'O pão-duro Ebenezer Scrooge tem uma última chance de aprender com o passado e mudar o futuro antes que a noite de Natal acabe.',
+        imdb: 'tt20917338',
+        imagem: 'https://image.tmdb.org/t/p/w300/2jR1JmDCOKbOIfTc3a9pQV36EpZ.jpg'
+    },
+    {
+        titulo: 'Rumble Through the Dark',
+        descricao: 'Na paisagem sombria do Delta do Mississippi, um lutador de gaiola sem luvas procura pagar suas dívidas em uma tentativa final e desesperada de salvar a casa da família de sua mãe adotiva moribunda.',
+        imdb: 'tt10950320',
+        imagem: 'https://image.tmdb.org/t/p/w300/19UbYIT9WEQS5qSD3BREDxVXk8g.jpg'
+    },
+    {
+        titulo: 'Priscilla',
+        descricao: 'Quando Priscilla Beaulieu conheceu Elvis Presley, ele já era a grande estrela do rock que conhecemos, mas logo se revela uma pessoa completamente para Priscilla: um aliado durante momentos ruins, um amigo que se pode contar e claro, uma grande paixão.',
+        imdb: 'tt22041854',
+        imagem: 'https://image.tmdb.org/t/p/w300/gn5Qt8X7cltcYC5HYBXgLQZEogM.jpg'
+    },
+    {
+        titulo: 'Presságios',
+        descricao: 'Jian, um lutador de artes marciais que nasceu com o dom da clarividência, investiga a morte de seu irmão, com a ajuda da detetive Abby. Juntos, eles buscam justiça enquanto lutam contra um criminoso armado com a mais alta tecnologia.',
+        imdb: 'tt3963674',
+        imagem: 'https://image.tmdb.org/t/p/w300/dinY8mjw6NLMmyPZHjyQYlGmKaN.jpg'
+    },
+    {
+        titulo: 'Иванов катер',
+        descricao: '',
+        imdb: 'tt0176861',
+        imagem: 'https://image.tmdb.org/t/p/w300/1d6tpDYQvX3JxGniSlPp7DWUmIH.jpg'
+    },
+    {
+        titulo: 'Ouija - Invocando o Mal',
+        descricao: 'Durante um ritual de bruxaria, duas jovens testemunham a aterrorizante morte da amiga. Agora, terão que enfrentar uma entidade maligna que passa a aterrorizá-las.',
+        imdb: 'tt10990970',
+        imagem: 'https://image.tmdb.org/t/p/w300/Ah0HQiYAgjfi9PwdznzXSLW70xn.jpg'
+    },
+    {
+        titulo: 'O Rio do Terror',
+        descricao: 'É pedido a um guia local para levar um grupo de influenciadores por um rio, em um vale remoto. À medida que eles se aprofundam na região selvagem sua aventura tem uma reviravolta assustadora.',
+        imdb: 'tt16106000',
+        imagem: 'https://image.tmdb.org/t/p/w300/AaXAYapF1bmSMekElaCuj1P1Xon.jpg'
+    },
+    {
+        titulo: 'Os Aventureiros do Bairro Proibido',
+        descricao: 'Jack Burton (Kurt Russel) é um motorista de caminhão durão e esperto, cuja vida errante pelas estradas leva a uma inesperada corrida contra o tempo quando a noiva de seu melhor amigo é raptada. Em uma busca frenética, Jack encontra-se em Chinatown, São Francisco, em um mundo mágico e repleto de seres estranhos governados por Lo Pan (James Hong), um mago de dois mil anos de idade que implacavelmente controla um império de espíritos. Lutando contra demônios e enfrentando horrores indescritíveis, Jack penetra no mundo obscuro de Lo Pan em uma aventura a todo vapor para resgatar a garota. Esse espetáculo da ficção e dos efeitos especiais tem um final inesperado.',
+        imdb: 'tt0090728',
+        imagem: 'https://image.tmdb.org/t/p/w300/wjziUc5HK1emyez9lBGHre3jD4i.jpg'
+    },
+    {
+        titulo: 'O Piloto - Uma Batalha Pela Sobrevivência',
+        descricao: 'Dezembro de 1941, Frente Noroeste. Uma coluna de tanques alemães avança em direção a Moscou. Durante uma missão para impedir o avanço inimigo, o lL-2 de Nikolai Komlev é abatido. O piloto russo consegue fazer um pouso forçado com seu avião em uma clareira remota na floresta. Ele está vivo, mas em território inimigo.',
+        imdb: 'tt14303882',
+        imagem: 'https://image.tmdb.org/t/p/w300/mRV9tKNpxRvN8ezShKkwaFBsrw5.jpg'
+    },
+    {
+        titulo: 'O Mistério da Floresta',
+        descricao: 'Ao realizar um intercâmbio para a mesma floresta onde seu pai desapareceu quando ela ainda era criança, Anja descobre um perigoso segredo escondido há anos pelos moradores da cidade.',
+        imdb: 'tt9145510',
+        imagem: 'https://image.tmdb.org/t/p/w300/59ZFASEFZWoB4QJQglVJeSwM57U.jpg'
+    },
+    {
+        titulo: 'O Culto de Amityville',
+        descricao: 'Depois de, inesperada e misteriosamente, herdar a mansão de sua avó distante, Stanley DeFeo se encontra na pequena cidade de Amityville - cercado por segredos de família enterrados e uma trama sinistra contra ele.',
+        imdb: 'tt13729068',
+        imagem: 'https://image.tmdb.org/t/p/w300/8tLosHyehDDWtM3GfrVlmlPEKuX.jpg'
+    },
+    {
+        titulo: 'O Jantar Está Servido',
+        descricao: 'Broil segue uma família disfuncional de demônios que competem para controlar o futuro de sua riqueza.',
+        imdb: 'tt8997712',
+        imagem: 'https://image.tmdb.org/t/p/w300/d0Ebzxx0YrBM7KP8SCmeIqkER5t.jpg'
+    },
+    {
+        titulo: 'Noite Infeliz',
+        descricao: 'Uma equipe de elite de mercenários invade um complexo familiar na véspera de Natal, deixando todos reféns. No entanto, eles não estão preparados para um combatente surpresa: Papai Noel está no local.',
+        imdb: 'tt12003946',
+        imagem: 'https://image.tmdb.org/t/p/w300/ooWaKY6CgJVamHg1hnnNf4pl2xR.jpg'
+    },
+    {
+        titulo: 'Não Odeie',
+        descricao: 'Simone Segre, uma renomada cirurgiã de origem judaica, mora em uma cidade no nordeste da Itália. Uma vida tranquila, um apartamento elegante e sem conexão com seu passado. Um dia, ele se viu ajudando um homem vítima de um acidente de atropelamento. Mas quando ele descobre uma tatuagem nazista em seu peito, Simone o abandona ao seu destino. Cheio de culpa, ele acaba traçando a família do homem: Marica, a filha mais velha; Marcello, um adolescente atormentado pelo ódio racial; e o pequeno Paolo. Chegará a noite em que Marica baterá na porta de Simone e, sem saber, pedirá vingança.',
+        imdb: 'tt8571674',
+        imagem: 'https://image.tmdb.org/t/p/w300/a8lQe4db7tqHiov2tHw6vqQllps.jpg'
+    },
+    {
         titulo: 'Segredos de um Escândalo',
         descricao: '20 anos após um grande romance midiático, um casal enfrenta a pressão quando uma atriz viaja até seu lar para se preparar para um filme sobre o passado deles.',
         imdb: 'tt13651794',
