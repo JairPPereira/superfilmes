@@ -1,5 +1,41 @@
 var filmes = [
     {
+        titulo: 'Sequestrando Chaplin',
+        descricao: 'A inacreditável história real de dois vigaristas que decidem criar um plano para roubar e vender o cadáver de Charlie Chaplin por uma fortuna.',
+        imdb: 'tt10205046',
+        imagem: 'https://image.tmdb.org/t/p/w300/zjzrYxwyxzWMcdeGQpKCutQP42o.jpg'
+    },
+    {
+        titulo: 'Mais Um Tiro Certo',
+        descricao: 'Após o ataque ao local negro na Polónia, o SEAL da Marinha Jake Harris é condenado a escoltar o suspeito terrorista Amin Mansur a Washington DC para interrogatório.',
+        imdb: 'tt27110516',
+        imagem: 'https://image.tmdb.org/t/p/w300/zkHkMLoC41euiPZG62wslcHLreH.jpg'
+    },
+    {
+        titulo: 'A Filha do Rei do Pântano',
+        descricao: 'Helena, uma mulher que vive uma vida aparentemente comum, esconde um segredo obscuro: seu pai é o infame “Rei do Pântano”, o homem que manteve ela e sua mãe em cativeiro na selva durante anos. Depois de uma vida inteira tentando escapar de seu passado, Helena é forçada a enfrentar seus demônios quando seu pai escapa inesperadamente da prisão.',
+        imdb: 'tt8002382',
+        imagem: 'https://image.tmdb.org/t/p/w300/rm6iGsOUe9v2I0jqHyGRUliAMJO.jpg'
+    },
+    {
+        titulo: 'Lift: Roubo nas Alturas',
+        descricao: 'Uma equipe internacional de ladrões liderada por Cyrus Whitaker corre contra o tempo para roubar 500 milhões de dólares em barras de ouro de um avião a mais de 12 mil metros de altitude.',
+        imdb: 'tt14371878',
+        imagem: 'https://image.tmdb.org/t/p/w300/ca74jjIYRVDdsnlWk8JzyVY49dE.jpg'
+    },
+    {
+        titulo: 'O Jogo do Disfarce',
+        descricao: 'Emma e Dave apimentam seu aniversário de casamento com uma noite disfarçados em Nova York. Mas as coisas se tornam perigosas quando a vida secreta de Emma como assassina de aluguel, que Dave desconhece, é exposta por Bob, colocando sua família em risco. Emma terá que contar com suas habilidades letais e determinação para proteger a família a todo custo.',
+        imdb: 'tt12964320',
+        imagem: 'https://image.tmdb.org/t/p/w300/rHS23wVWUrLwKu8Fu6oLH5uQJTO.jpg'
+    },
+    {
+        titulo: 'Liga da Justiça: Crise nas Infinitas Terras - Parte 1',
+        descricao: 'A morte está chegando. Pior do que a morte: o esquecimento. Não apenas para a nossa Terra, mas para todos, em todos os lugares, em cada universo! Contra essa destruição definitiva, o misterioso Monitor reuniu a maior equipe de Super-Heróis já montada. Mas o que a força combinada de Superman, Mulher Maravilha, Batman, Flash, Lanterna Verde e centenas de Super-Heróis de múltiplas Terras pode fazer para salvar toda a realidade de um armagedom de antimatéria imparável?!',
+        imdb: 'tt29195117',
+        imagem: 'https://image.tmdb.org/t/p/w300/vsiDOIO4APrPQQ4xx8vJW8N0uHV.jpg'
+    },
+    {
         titulo: 'Ritual Maldito',
         descricao: 'Um grupo de estudantes desce aos subterrâneos de São Petersburgo para encontrar o lendário Atakan, a pedra amaldiçoada. Explorando os corredores escuros, eles percebem com horror que não estão sozinhos neste lugar.',
         imdb: 'tt12980286',
