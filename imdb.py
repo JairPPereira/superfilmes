@@ -3,88 +3,116 @@ import re
 
 html = """
 <div class="col mt-3">
-<!-- start media-box -->
-<div class="media-box">
-<a onclick="openMovie('Sequestrando Chaplin', 'https://embedder.net/e/movie?imdb=tt10205046')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zjzrYxwyxzWMcdeGQpKCutQP42o.jpg);"></div>
-<a onclick="openMovie('Sequestrando Chaplin', 'https://embedder.net/e/movie?imdb=tt10205046')" class="media-play"><i class="icofont-ui-play"></i></a>
-<!-- Start rate-quality-info -->
-<div class="media-info">
-<h5 class="media-box-title">Sequestrando Chaplin</h5>
-</div>
-<!-- end media-box -->
-</div>
-</div>
-
-<div class="col mt-3">
-<!-- start media-box -->
-<div class="media-box">
-<a onclick="openMovie('Mais Um Tiro Certo', 'https://embedder.net/e/movie?imdb=tt27110516')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zkHkMLoC41euiPZG62wslcHLreH.jpg);"></div>
-<a onclick="openMovie('Mais Um Tiro Certo', 'https://embedder.net/e/movie?imdb=tt27110516')" class="media-play"><i class="icofont-ui-play"></i></a>
-<!-- Start rate-quality-info -->
-<div class="media-info">
-<h5 class="media-box-title">Mais Um Tiro Certo</h5>
-</div>
-<!-- end media-box -->
-</div>
-</div>
-
-<div class="col mt-3">
-<!-- start media-box -->
-<div class="media-box">
-<a onclick="openMovie('A Filha do Rei do Pântano', 'https://embedder.net/e/movie?imdb=tt8002382')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/rm6iGsOUe9v2I0jqHyGRUliAMJO.jpg);"></div>
-<a onclick="openMovie('A Filha do Rei do Pântano', 'https://embedder.net/e/movie?imdb=tt8002382')" class="media-play"><i class="icofont-ui-play"></i></a>     
-<!-- Start rate-quality-info -->
-<div class="media-info">
-<h5 class="media-box-title">A Filha do Rei do Pântano</h5>
-</div>
-<!-- end media-box -->
-</div>
-</div>
-
-<div class="col mt-3">
-<!-- start media-box -->
-<div class="media-box">
-<a onclick="openMovie('Lift: Roubo nas Alturas', 'https://embedder.net/e/movie?imdb=tt14371878')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/ca74jjIYRVDdsnlWk8JzyVY49dE.jpg);"></div>
-<a onclick="openMovie('Lift: Roubo nas Alturas', 'https://embedder.net/e/movie?imdb=tt14371878')" class="media-play"><i class="icofont-ui-play"></i></a>      
-<!-- Start rate-quality-info -->
-<div class="media-info">
-<h5 class="media-box-title">Lift: Roubo nas Alturas</h5>
-</div>
-<!-- end media-box -->
-</div>
-</div>
-
-<div class="col mt-3">
-<!-- start media-box -->
-<div class="media-box">
-<a onclick="openMovie('O Jogo do Disfarce', 'https://embedder.net/e/movie?imdb=tt12964320')" class="full-click"></a>
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/rHS23wVWUrLwKu8Fu6oLH5uQJTO.jpg);"></div>
-<a onclick="openMovie('O Jogo do Disfarce', 'https://embedder.net/e/movie?imdb=tt12964320')" class="media-play"><i class="icofont-ui-play"></i></a>
-<!-- Start rate-quality-info -->
-<div class="media-info">
-<h5 class="media-box-title">O Jogo do Disfarce</h5>
-</div>
-<!-- end media-box -->
-</div>
-</div>
-
-<div class="col mt-3">
-<!-- start media-box -->
-<div class="media-box">
-<a onclick="openMovie('Liga da Justiça: Crise nas Infinitas Terras - Parte 1', 'https://embedder.net/e/movie?imdb=tt29195117')" class="full-click"></a>       
-<div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/vsiDOIO4APrPQQ4xx8vJW8N0uHV.jpg);"></div>
-<a onclick="openMovie('Liga da Justiça: Crise nas Infinitas Terras - Parte 1', 'https://embedder.net/e/movie?imdb=tt29195117')" class="media-play"><i class="icofont-ui-play"></i></a>
-<!-- Start rate-quality-info -->
-<div class="media-info">
-<h5 class="media-box-title">Liga da Justiça: Crise nas Infinitas Terras - Parte 1</h5>
-</div>
-<!-- end media-box -->
-</div>
-</div>
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('Lima Barreto ao Terceiro Dia', 'https://embedder.net/e/movie?imdb=tt10925780')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/9Hld1VFMK2sUdwXSwQ6VjhLUkvJ.jpg);"></div>
+    <a onclick="openMovie('Lima Barreto ao Terceiro Dia', 'https://embedder.net/e/movie?imdb=tt10925780')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">Lima Barreto ao Terceiro Dia</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('Loop Track', 'https://embedder.net/e/movie?imdb=tt13592970')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/7cCztHZK3VKCECAV9YRDq1yAOP8.jpg);"></div>
+    <a onclick="openMovie('Loop Track', 'https://embedder.net/e/movie?imdb=tt13592970')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">Loop Track</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('maboroshi', 'https://embedder.net/e/movie?imdb=tt14935892')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/piDXkSvBA56NTIC6D3uA1eECwtd.jpg);"></div>
+    <a onclick="openMovie('maboroshi', 'https://embedder.net/e/movie?imdb=tt14935892')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">maboroshi</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('Meu Peda�o de Terra', 'https://embedder.net/e/movie?imdb=tt13625932')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/s3WU7sSonmAxGsEggPwuiOHRv9m.jpg);"></div>
+    <a onclick="openMovie('Meu Peda�o de Terra', 'https://embedder.net/e/movie?imdb=tt13625932')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">Meu Peda�o de Terra</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('Nina: A Hero�na dos Sete Mares', 'https://embedder.net/e/movie?imdb=tt22360682')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/hCRZCkQScaK0cg2tfgqNZKYgff4.jpg);"></div>
+    <a onclick="openMovie('Nina: A Hero�na dos Sete Mares', 'https://embedder.net/e/movie?imdb=tt22360682')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">Nina: A Hero�na dos Sete Mares</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('57 Segundos', 'https://embedder.net/e/movie?imdb=tt18083578')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/kRLNtJ0dWUHhNt20NijeWhnLJ5E.jpg);"></div>
+    <a onclick="openMovie('57 Segundos', 'https://embedder.net/e/movie?imdb=tt18083578')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">57 Segundos</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('A Felicidade das Coisas', 'https://embedder.net/e/movie?imdb=tt14667700')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg);"></div>
+    <a onclick="openMovie('A Felicidade das Coisas', 'https://embedder.net/e/movie?imdb=tt14667700')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">A Felicidade das Coisas</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
+    
+    <div class="col mt-3">
+    <!-- start media-box -->
+    <div class="media-box">
+    <a onclick="openMovie('A F�ria de Dr�cula', 'https://embedder.net/e/movie?imdb=tt27547215')" class="full-click"></a>
+    <div class="media-thumb" style="background-image: url(https://image.tmdb.org/t/p/w300/zOThazY5PDAjhYftw43nv17Gb57.jpg);"></div>
+    <a onclick="openMovie('A F�ria de Dr�cula', 'https://embedder.net/e/movie?imdb=tt27547215')" class="media-play"><i class="icofont-ui-play"></i></a>
+    <!-- Start rate-quality-info -->
+    <div class="media-info">
+    <h5 class="media-box-title">A F�ria de Dr�cula</h5>
+    </div>
+    <!-- end media-box -->
+    </div>
+    </div>
 """
 
 # Parse o HTML usando BeautifulSoup

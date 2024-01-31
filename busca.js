@@ -7,6 +7,54 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Lima Barreto ao Terceiro Dia',
+        descricao: 'Descri��o do filme 1',
+        imdb: 'tt10925780',
+        imagem: 'https://image.tmdb.org/t/p/w300/9Hld1VFMK2sUdwXSwQ6VjhLUkvJ.jpg'
+    },
+    {
+        titulo: 'Loop Track',
+        descricao: 'Descri��o do filme 2',
+        imdb: 'tt13592970',
+        imagem: 'https://image.tmdb.org/t/p/w300/7cCztHZK3VKCECAV9YRDq1yAOP8.jpg'
+    },
+    {
+        titulo: 'maboroshi',
+        descricao: 'Descri��o do filme 3',
+        imdb: 'tt14935892',
+        imagem: 'https://image.tmdb.org/t/p/w300/piDXkSvBA56NTIC6D3uA1eECwtd.jpg'
+    },
+    {
+        titulo: 'Meu Pedaço de Terra',
+        descricao: 'Descri��o do filme 4',
+        imdb: 'tt13625932',
+        imagem: 'https://image.tmdb.org/t/p/w300/s3WU7sSonmAxGsEggPwuiOHRv9m.jpg'
+    },
+    {
+        titulo: 'Nina: A Heroína dos Sete Mares',
+        descricao: 'Descri��o do filme 5',
+        imdb: 'tt22360682',
+        imagem: 'https://image.tmdb.org/t/p/w300/hCRZCkQScaK0cg2tfgqNZKYgff4.jpg'
+    },
+    {
+        titulo: '57 Segundos',
+        descricao: 'Descri��o do filme 6',
+        imdb: 'tt18083578',
+        imagem: 'https://image.tmdb.org/t/p/w300/kRLNtJ0dWUHhNt20NijeWhnLJ5E.jpg'
+    },
+    {
+        titulo: 'A Felicidade das Coisas',
+        descricao: 'Descri��o do filme 7',
+        imdb: 'tt14667700',
+        imagem: 'https://image.tmdb.org/t/p/w300/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg'
+    },
+    {
+        titulo: 'A Fúria de Drácula',
+        descricao: 'Descri��o do filme 8',
+        imdb: 'tt27547215',
+        imagem: 'https://image.tmdb.org/t/p/w300/zOThazY5PDAjhYftw43nv17Gb57.jpg'
+    },
+    {
         titulo: 'Sequestrando Chaplin',
         descricao: 'A inacreditável história real de dois vigaristas que decidem criar um plano para roubar e vender o cadáver de Charlie Chaplin por uma fortuna.',
         imdb: 'tt10205046',
