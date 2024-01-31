@@ -8,49 +8,49 @@ function searchMovies(event) {
 var filmes = [
     {
         titulo: 'Lima Barreto ao Terceiro Dia',
-        descricao: 'Descri��o do filme 1',
+        descricao: 'O filme transcorre por três dias da última internação hospitalar de Lima Barreto, passados no manicômio D. Pedro II, no ano de 1919, na cidade do Rio de Janeiro, motivada por uma forte crise de alucinação, em que se encontram o velho Lima Barreto, a versão mais jovem do escritor e o protagonista de sua obra-prima, O Triste Fim de Policarpo Quaresma.',
         imdb: 'tt10925780',
         imagem: 'https://image.tmdb.org/t/p/w300/9Hld1VFMK2sUdwXSwQ6VjhLUkvJ.jpg'
     },
     {
         titulo: 'Loop Track',
-        descricao: 'Descri��o do filme 2',
+        descricao: '',
         imdb: 'tt13592970',
         imagem: 'https://image.tmdb.org/t/p/w300/7cCztHZK3VKCECAV9YRDq1yAOP8.jpg'
     },
     {
         titulo: 'maboroshi',
-        descricao: 'Descri��o do filme 3',
+        descricao: 'A explosão de uma fábrica deixa uma cidadezinha congelada no tempo. Agora, o adolescente Masamune e seus amigos precisam se adaptar a essa realidade',
         imdb: 'tt14935892',
         imagem: 'https://image.tmdb.org/t/p/w300/piDXkSvBA56NTIC6D3uA1eECwtd.jpg'
     },
     {
         titulo: 'Meu Pedaço de Terra',
-        descricao: 'Descri��o do filme 4',
+        descricao: 'Joan é um velho e rabugento camponês que, cansado de ver sua propriedade sendo roubada, decide se juntar a uma patrulha de camponeses.',
         imdb: 'tt13625932',
         imagem: 'https://image.tmdb.org/t/p/w300/s3WU7sSonmAxGsEggPwuiOHRv9m.jpg'
     },
     {
         titulo: 'Nina: A Heroína dos Sete Mares',
-        descricao: 'Descri��o do filme 5',
+        descricao: 'Nina é uma ratinha aventureira que sonha em se tornar uma grande heroína. Ao lado de seu fiel companheiro, o gato Sam, ela decide ajudar o velho herói Jasão e seus soldados a salvar a cidade de Yolcos da fúria de Poseidon. Mesmo que todos ao seu redor duvidem dela, Nina está decidida a provar que tem coragem de sobra para embarcar nesta missão pelos 7 mares e proteger a sua cidade.',
         imdb: 'tt22360682',
         imagem: 'https://image.tmdb.org/t/p/w300/hCRZCkQScaK0cg2tfgqNZKYgff4.jpg'
     },
     {
         titulo: '57 Segundos',
-        descricao: 'Descri��o do filme 6',
+        descricao: 'Quando um blogueiro de tecnologia consegue uma entrevista com um guru da tecnologia e interrompe um ataque contra ele, ele encontra um anel misterioso que o leva de volta 57 segundos no passado.',
         imdb: 'tt18083578',
         imagem: 'https://image.tmdb.org/t/p/w300/kRLNtJ0dWUHhNt20NijeWhnLJ5E.jpg'
     },
     {
         titulo: 'A Felicidade das Coisas',
-        descricao: 'Descri��o do filme 7',
+        descricao: 'Paula sonha em construir uma piscina para os filhos na sua modesta casa de praia. No entanto, seus planos se desfazem por conta de problemas financeiros, e ela se vê cada vez mais sufocada pelo peso das responsabilidades.',
         imdb: 'tt14667700',
         imagem: 'https://image.tmdb.org/t/p/w300/8Jjd0ebhZwHFT0PYsOVVRBGQ1su.jpg'
     },
     {
         titulo: 'A Fúria de Drácula',
-        descricao: 'Descri��o do filme 8',
+        descricao: 'O ano é 1897. Quando seu marido Jonathan desaparece após viajar da Inglaterra para a Transilvânia a mando do misterioso Conde Drácula, Mina Harker viaja para a Transilvânia para encontrá-lo. Ao chegar, ela encontra uma vila dizimada e um certo Van Helsing, que está caçando Drácula. Van Helsing começa a treinar Mina na arte de matar vampiros, e a dupla improvável parte para resgatar Jonathan do Conde e suas noivas, e acabar com o reinado de terror do vampiro para sempre.',
         imdb: 'tt27547215',
         imagem: 'https://image.tmdb.org/t/p/w300/zOThazY5PDAjhYftw43nv17Gb57.jpg'
     },
