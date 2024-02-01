@@ -80,73 +80,73 @@ var filmes = [
     },
     {
         titulo: 'A Pequena Indomável',
-        descricao: 'Descri��o do filme 13',
+        descricao: 'No interior da Virgínia, Estados Unidos, Jo é uma menina de dez anos que passa seus dias à beira do rio com sua melhor amiga, Selma, pescando e recolhendo sucata para sobreviver. Quando seu padrasto viciado e abusivo morre, Jo decide, acompanhada por Selma, largar o corpo, roubar o carro e partir numa viagem para o outro lado do país em busca de seu pai verdadeiro, um lendário cantor folk de Los Angeles.',
         imdb: 'tt6002094',
         imagem: 'https://image.tmdb.org/t/p/w300/7ImB1LyrYaHhIem3mfnmRneEySu.jpg'
     },
     {
         titulo: 'A Verdade Sobre o Caso Deventer',
-        descricao: 'Descri��o do filme 14',
+        descricao: 'Baseado na história real do notório Caso Deventer. Em 1999, na Holanda, o jornalista Bas Haan investiga o assassinato de uma viúva que foi morta em sua casa, e começa a suspeitar de Ernest Louwes, última pessoa a falar com a vítima. Após uma reportagem de Bas, Ernest começa a ser difamado pela mídia, que transforma a vida dele e de sua esposa em um verdadeiro pesadelo. Arrependido, Bas decide lutar contra as conspirações, a polícia, a mídia e até os juízes para descobrir a verdade, mas acaba percebendo que a imagem às vezes é mais forte do que os fatos.',
         imdb: 'tt6851410',
         imagem: 'https://image.tmdb.org/t/p/w300/ttfPfgduSmQI3phKbCFLBVWr2GI.jpg'
     },
     {
-        titulo: 'Águia e Jaguar: Os Guerreiros Lend�rios',
-        descricao: 'Descri��o do filme 15',
+        titulo: 'Águia e Jaguar: Os Guerreiros Lendários',
+        descricao: 'Num futuro sedento por água, dois sobreviventes viajam no tempo em busca do poder do Deus pré-hispânico da água, mas descobrem que um implacável empresário já o controla. A irmandade Aztaya – herdeiros modernos dos guerreiros astecas e maias – une forças para frustrar o plano dele, despertando guerreiros míticos para salvá-los de um futuro sombrio.',
         imdb: 'tt21230032',
         imagem: 'https://image.tmdb.org/t/p/w300/1UnP6AtY3DHYjOVDEEF0Age7RKJ.jpg'
     },
     {
         titulo: 'Aniquilação',
-        descricao: 'Descri��o do filme 16',
+        descricao: 'Depois que seu marido desaparece em uma missão secreta, a bióloga Lena embarca numa expedição à uma misteriosa região interditada pelo governo dos EUA.',
         imdb: 'tt2798920',
         imagem: 'https://image.tmdb.org/t/p/w300/5DUGK2WvnyiBJwKOYhTR9FHx2Mh.jpg'
     },
     {
         titulo: 'As Aventuras de Poliana: O Filme',
-        descricao: 'Descri��o do filme 17',
+        descricao: 'Poliana e seus amigos vão precisar definir o que farão agora que se formaram no ensino médio. A jovem quer cursar uma faculdade no exterior, porém Otto não permite que a filha estude fora do país por não achar que ela seja madura o suficiente. Para tentar realizar seu sonho, Poliana tem uma ideia: trabalhar no Maya Palace, um resort paradisíaco à beira-mar, para provar sua independência. Ela leva o namorado, João, e os amigos Kessya e Luigi, que topam ir junto. Porém, nada no hotel é o que parece ser, e Poliana e seus amigos viverão muitas aventuras em uma jornada de autodescoberta e amadurecimento.',
         imdb: 'tt30431349',
         imagem: 'https://image.tmdb.org/t/p/w300/dLfgd33vg7PxnWf6guh8deiuBkM.jpg'
     },
     {
         titulo: 'Caçadores de Lobisomem',
-        descricao: 'Descri��o do filme 18',
+        descricao: 'Quando o ataque de um animal deixa um corpo mutilado na floresta, o detetive Connor Ryan pede ajuda à Maggie Talbot, uma especialista em lobos, para desvendar o caso. O passado de Maggie envolvendo os animais e o seu desejo em reencontrar seu pai desaparecido, levam ela a acreditar que se trata de um ataque de lobisomem.',
         imdb: 'tt9898844',
         imagem: 'https://image.tmdb.org/t/p/w300/nCxQiLsYXHAPls4RyVsv0Pcok4Q.jpg'
     },
     {
         titulo: 'As Superpoderosas',
-        descricao: 'Descri��o do filme 19',
+        descricao: 'Quatro amigas partem para uma viagem emocionante na paradisíaca Tailândia. Mas uma das garotas é sequestrada por traficantes. Sem poder ligar para a polícia, as mulheres se armam e usam suas habilidades de guerra para resgatar a amiga.',
         imdb: 'tt16970906',
         imagem: 'https://image.tmdb.org/t/p/w300/itUAkQmihFmRxMYTa3AkvIzMCV4.jpg'
     },
     {
         titulo: 'Carona Aterrorizante',
-        descricao: 'Descri��o do filme 20',
+        descricao: 'Randy (Johnny Berchtold, GASLIT) prefere uma vida discreta, mas seu colega de trabalho Benson (Kyle Gallner, SORRIA) entra numa onda repentina de violência e ele é obrigado a enfrentar seus medos e confrontar seu passado problemático para sobreviver.',
         imdb: 'tt21979910',
         imagem: 'https://image.tmdb.org/t/p/w300/2fyv8VPNOMZRoL239rJZqBgycSu.jpg'
     },
     {
         titulo: 'Criaturas',
-        descricao: 'Descri��o do filme 21',
+        descricao: 'Durante uma excursão escolar, uma turma de estudantes presencia a queda de uma espaçonave e encontra um alienígena felpudo chamado Mumpy, mas logo os estudantes descobrem que esse pequeno extraterrestre está sendo caçado por um impiedoso exército de criaturas do espaço.',
         imdb: 'tt11252490',
         imagem: 'https://image.tmdb.org/t/p/w300/4tWlLE2jphhziZbFQrgWZ0GFIlA.jpg'
     },
     {
         titulo: 'Do Outro Lado da Dor',
-        descricao: 'Descri��o do filme 22',
+        descricao: 'Marc era feliz vivendo às sombras do marido, o extravagante Oliver. Após a morte inesperada de Oliver, a vida de Marc virou de cabeça para baixo. Para enfrentar o luto, ele vai a Paris com seus melhores amigos, Sophie e Thomas, em uma viagem de autoconhecimento que revela verdades difíceis de encarar.',
         imdb: 'tt19887550',
         imagem: 'https://image.tmdb.org/t/p/w300/4loAQSV9tLQbVPvWrAntNn0kBIO.jpg'
     },
     {
         titulo: 'Esculturas da Vida',
-        descricao: 'Descri��o do filme 23',
+        descricao: 'Uma escultora se prepara para abrir uma nova exposição enquanto tenta equilibrar o trabalho com a vida pessoal. Aos poucos, ela transforma o caos em inspiração.',
         imdb: 'tt13923216',
         imagem: 'https://image.tmdb.org/t/p/w300/cA9ihYHlTBfbWKXxjgmVpl7QJGx.jpg'
     },
     {
         titulo: 'Herança de Família',
-        descricao: 'Descri��o do filme 24',
+        descricao: 'Sete irmãos distantes retornam a sua antiga casa para o funeral de sua mãe, mas acabam descobrindo que a escritura da propriedade está escondida no local.',
         imdb: 'tt11353050',
         imagem: 'https://image.tmdb.org/t/p/w300/1n1BJc3wbetxKyyjZ2dDnNZs5JE.jpg'
     },
