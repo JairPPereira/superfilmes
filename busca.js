@@ -7,6 +7,150 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'Um Estranho Acidente',
+        descricao: 'Um thriller psicológico sombrio baseado na premiada peça Life s A Gatecrash, de Terry Hughes. Durante uma noite escura, o casal Nicole e Steve se envolve em uma confusa situação de atropelamento.',
+        imdb: 'tt7358576',
+        imagem: 'https://image.tmdb.org/t/p/w300/oQofiWOVl5GqntIMVetdhY5GTvi.jpg'
+    },
+    {
+        titulo: 'Um Verão Só Para Nós',
+        descricao: 'Descri��o do filme 2',
+        imdb: 'tt17348934',
+        imagem: 'https://image.tmdb.org/t/p/w300/2WZs7fG3iMLWLPxcU8ux9Qc9omE.jpg'
+    },
+    {
+        titulo: 'Vai Ter Troco',
+        descricao: 'Descri��o do filme 3',
+        imdb: 'tt28184491',
+        imagem: 'https://image.tmdb.org/t/p/w300/5z7uFzBp30UFzOJPzsyZalr0GU0.jpg'
+    },
+    {
+        titulo: 'A Sociedade da Neve',
+        descricao: 'Descri��o do filme 4',
+        imdb: 'tt16277242',
+        imagem: 'https://image.tmdb.org/t/p/w300/7fQTmvKgVGxifieVryqqlxohkoW.jpg'
+    },
+    {
+        titulo: 'Ferrari',
+        descricao: 'Descri��o do filme 5',
+        imdb: 'tt3758542',
+        imagem: 'https://image.tmdb.org/t/p/w300/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg'
+    },
+    {
+        titulo: 'Gatos no Museu',
+        descricao: 'Descri��o do filme 6',
+        imdb: 'tt24069962',
+        imagem: 'https://image.tmdb.org/t/p/w300/fzFkvkr8RBZfpgDNx65wxiZjnnU.jpg'
+    },
+    {
+        titulo: 'Patos!',
+        descricao: 'Descri��o do filme 7',
+        imdb: 'tt6495056',
+        imagem: 'https://image.tmdb.org/t/p/w300/2KPvdtGjeFT8IwxUkUWmifokXG0.jpg'
+    },
+    {
+        titulo: 'Minha Solidão Tem Asas',
+        descricao: 'Descri��o do filme 8',
+        imdb: 'tt21964260',
+        imagem: 'https://image.tmdb.org/t/p/w300/6v1U61XbrCXVF7CVAjRBTslUmaA.jpg'
+    },
+    {
+        titulo: 'Prisão Domiciliar',
+        descricao: 'Descri��o do filme 9',
+        imdb: 'tt14323258',
+        imagem: 'https://image.tmdb.org/t/p/w300/vnFz9ky4Z5vQE5XAPcnt2qryFac.jpg'
+    },
+    {
+        titulo: 'O Lobo Solitário',
+        descricao: 'Descri��o do filme 10',
+        imdb: 'tt14640358',
+        imagem: 'https://image.tmdb.org/t/p/w300/o2BEjGcNxyNWu1BbQNcWIw8A4i0.jpg'
+    },
+    {
+        titulo: 'The Iron Claw',
+        descricao: 'Descri��o do filme 11',
+        imdb: 'tt21064584',
+        imagem: 'https://image.tmdb.org/t/p/w300/hRaEEt7wZN2Iyyh23Ge8Dqwzqlk.jpg'
+    },
+    {
+        titulo: 'Beekeeper - Rede de Vingança',
+        descricao: 'Descri��o do filme 12',
+        imdb: 'tt15314262',
+        imagem: 'https://image.tmdb.org/t/p/w300/cCGFvoxzaBbYM3I68s6F939fybN.jpg'
+    },
+    {
+        titulo: 'The Kitchen',
+        descricao: 'Descri��o do filme 13',
+        imdb: 'tt4460800',
+        imagem: 'https://image.tmdb.org/t/p/w300/tV0hK1BiqYrYlehChv4WJXIWgmZ.jpg'
+    },
+    {
+        titulo: 'Os Underdoggs',
+        descricao: 'Descri��o do filme 14',
+        imdb: 'tt21434318',
+        imagem: 'https://image.tmdb.org/t/p/w300/4Eg4fntbZ6xOngbXta0irzqGM5N.jpg'
+    },
+    {
+        titulo: 'Porta-malas: Trancada',
+        descricao: 'Descri��o do filme 15',
+        imdb: 'tt27214365',
+        imagem: 'https://image.tmdb.org/t/p/w300/sQ2FqmB98T8bAjhYHa3DIf2TS4H.jpg'
+    },
+    {
+        titulo: 'Em Ruínas',
+        descricao: 'Descri��o do filme 16',
+        imdb: 'tt29722855',
+        imagem: 'https://image.tmdb.org/t/p/w300/vT3xahepzP796ei0NiZIZ6t8vsl.jpg'
+    },
+    {
+        titulo: 'Capitu e o Capítulo',
+        descricao: 'Descrio do filme 17',
+        imdb: 'tt14763720',
+        imagem: 'https://image.tmdb.org/t/p/w300/cTRJN5741gtMrd3WcTHg2Pfn2jQ.jpg'
+    },
+    {
+        titulo: 'Bons Companheiros',
+        descricao: 'Descri��o do filme 18',
+        imdb: 'tt15430628',
+        imagem: 'https://image.tmdb.org/t/p/w300/mr36VdEQw2Un3hiQ8ozPzXnVRy7.jpg'
+    },
+    {
+        titulo: 'Todos Menos Voce',
+        descricao: 'Descri��o do filme 19',
+        imdb: 'tt26047818',
+        imagem: 'https://image.tmdb.org/t/p/w300/f5e8cT4vBQ1ZRSXC658CvUnzzkl.jpg'
+    },
+    {
+        titulo: 'Alarme de Incêndio',
+        descricao: 'Descri��o do filme 20',
+        imdb: 'tt30629563',
+        imagem: 'https://image.tmdb.org/t/p/w300/qXB0yZbECic73jLrqvCgcpL9dhU.jpg'
+    },
+    {
+        titulo: 'Visões Mortais',
+        descricao: 'Descri��o do filme 21',
+        imdb: 'tt7986046',
+        imagem: 'https://image.tmdb.org/t/p/w300/aG68lR36HbEASelSpwK7PHi8N9H.jpg'
+    },
+    {
+        titulo: '60 Minutos',
+        descricao: 'Descri��o do filme 22',
+        imdb: 'tt29538571',
+        imagem: 'https://image.tmdb.org/t/p/w300/n5wjsuYh954HLagCnqrLpPT8xi7.jpg'
+    },
+    {
+        titulo: 'Unit 262',
+        descricao: 'Descri��o do filme 23',
+        imdb: 'tt28567651',
+        imagem: 'https://image.tmdb.org/t/p/w300/paXIdSUhvuFNgNUn6cz2N2HHq0V.jpg'
+    },
+    {
+        titulo: 'Uma Noite Sem Limites',
+        descricao: 'Descri��o do filme 24',
+        imdb: 'tt4160608',
+        imagem: 'https://image.tmdb.org/t/p/w300/6z9utEbOSkXrSdvUugWUkj0sOUb.jpg'
+    },    
+    {
         titulo: 'O Enigma do Medo',
         descricao: 'O famoso agente de Hollywood, Matthew Blake, tem um passado sombrio. Ele acha que está a caminho de um encontro duplo com seu amigo mais antigo para um novo Escape Room em Los Angeles. Quando os casais são trancados na Escape Room, Matthew rapidamente se vê no centro de uma trama de vingança destinada a corrigir os erros de seu passado, com resultados mortais.',
         imdb: 'tt6846978',
