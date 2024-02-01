@@ -14,31 +14,31 @@ var filmes = [
     },
     {
         titulo: 'Um Verão Só Para Nós',
-        descricao: 'Descri��o do filme 2',
+        descricao: 'Vanya, Marsha e Kirill são três adolescentes que, durante sua viagem anual de férias, decidem passar o resto do verão sem celular.',
         imdb: 'tt17348934',
         imagem: 'https://image.tmdb.org/t/p/w300/2WZs7fG3iMLWLPxcU8ux9Qc9omE.jpg'
     },
     {
         titulo: 'Vai Ter Troco',
-        descricao: 'Descri��o do filme 3',
+        descricao: 'Tonha e Zildete trabalham há anos para a família de Afonso, sua esposa socialite Sarita e os filhos John John e Miranda. Após meses sem receber salário e atentos aos caprichos dos patrões, que alegam estarem falidos, mas vivem esbanjando em festas e jantares para a alta sociedade, as domésticas decidem cobrar o pagamento de uma forma mais veemente. Para isso, contam com a ajuda de Nivaldo, o motorista faz-tudo que conhece todas as armações do patrão, incluindo suas relações misteriosas com políticos. Com o clima esquentando entre patrões e empregados, a situação sai do controle, levando o conflito para um caminho inusitado, com diálogos e situações hilárias, expondo de forma bem-humorada a relação entre eles.',
         imdb: 'tt28184491',
         imagem: 'https://image.tmdb.org/t/p/w300/5z7uFzBp30UFzOJPzsyZalr0GU0.jpg'
     },
     {
         titulo: 'A Sociedade da Neve',
-        descricao: 'Descri��o do filme 4',
+        descricao: 'Em 13 de outubro de 1972, o voo 571 da Força Aérea Uruguaia, fretado para levar um time de rúgbi ao Chile, cai em uma geleira no coração da Cordilheira dos Andes.',
         imdb: 'tt16277242',
         imagem: 'https://image.tmdb.org/t/p/w300/7fQTmvKgVGxifieVryqqlxohkoW.jpg'
     },
     {
         titulo: 'Ferrari',
-        descricao: 'Descri��o do filme 5',
+        descricao: 'O ex-piloto de corrida, Enzo Ferrari está em crise. A falência assombra a empresa que ele e sua mulher, Laura, construíram do nada 10 anos atrás. O casamento tempestuoso dos dois sofre com o luto pela morte de um filho e a dificuldade de reconhecer outro. Ele decide contrapor essas perdas apostando tudo em uma corrida - a icônica Mille Miglia, na Itália.',
         imdb: 'tt3758542',
         imagem: 'https://image.tmdb.org/t/p/w300/xBFyJHvXCTgf9Vmq5uCnXRHrMQ4.jpg'
     },
     {
         titulo: 'Gatos no Museu',
-        descricao: 'Descri��o do filme 6',
+        descricao: 'Em uma de suas aventuras, o gato Vincent precisará mostrar toda a sua coragem e enfrentar desafios emocionantes para proteger seu amigo, o ratinho Maurice e também um tesouro de valor inestimável: a Mona Lisa.',
         imdb: 'tt24069962',
         imagem: 'https://image.tmdb.org/t/p/w300/fzFkvkr8RBZfpgDNx65wxiZjnnU.jpg'
     },
