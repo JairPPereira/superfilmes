@@ -7,6 +7,150 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        titulo: 'O Enigma do Medo',
+        descricao: 'O famoso agente de Hollywood, Matthew Blake, tem um passado sombrio. Ele acha que está a caminho de um encontro duplo com seu amigo mais antigo para um novo Escape Room em Los Angeles. Quando os casais são trancados na Escape Room, Matthew rapidamente se vê no centro de uma trama de vingança destinada a corrigir os erros de seu passado, com resultados mortais.',
+        imdb: 'tt6846978',
+        imagem: 'https://image.tmdb.org/t/p/w300/pDaHNUgDHvhVHryMBPm3WFXtFT6.jpg'
+    },
+    {
+        titulo: 'O Pastor e o Guerrilheiro',
+        descricao: 'Na década de 1970, um guerrilheiro comunista se encontra na mesma cela que um cristão evangélico, preso por engano. Em meio a torturas e conflitos ideológicos, eles se ajudam e marcam um encontro para o réveillon do ano 2000. Nos últimos dias do milênio, Juliana, ativista estudantil e filha ilegítima de um coronel que acabara de se suicidar, é surpreendida com uma herança deixada para ela. Por meio de um livro encontrado na casa do coronel, ela descobrirá que seu pai foi o torturador dos dois presos e que o encontro marcado não acontecerá como previsto.',
+        imdb: 'tt14589900',
+        imagem: 'https://image.tmdb.org/t/p/w300/527ORgyx6yrdSbJ459DlpOrC8p9.jpg'
+    },
+    {
+        titulo: 'Palau: Um Homem de Fé',
+        descricao: 'A história real da vida, do trabalho e da coragem implacável de Luis Palau, um homem religioso que nasceu em um pequeno povoado na Argentina.',
+        imdb: 'tt8109800',
+        imagem: 'https://image.tmdb.org/t/p/w300/sOi2rRKMujdE7AAOfuT345LMjoH.jpg'
+    },
+    {
+        titulo: 'Possessão Demoníaca',
+        descricao: 'Jacob Chandler é um homem comum com um dom extraordinário.',
+        imdb: 'tt14438348',
+        imagem: 'https://image.tmdb.org/t/p/w300/yR4jOsVYdXoEUvYkgCx2ymbpEwa.jpg'
+    },
+    {
+        titulo: 'Relaxe, Eu Sou Do Futuro',
+        descricao: 'Casper, um encantador, mas extremamente inexperiente viajante no tempo vindo do futuro, chega nos dias atuais com a intenção de prevenir uma enorme catástrofe no futuro.',
+        imdb: 'tt13786042',
+        imagem: 'https://image.tmdb.org/t/p/w300/lF0xbAJatRiBk8UNQ82ufi2vdjP.jpg'
+    },
+    {
+        titulo: 'Tequila Repasado',
+        descricao: 'Um workaholic precisa enganar seus clones depois que uma tequila mágica o leva em uma viagem ao passado – de novo e de novo – para consertar seu relacionamento.',
+        imdb: 'tt13006472',
+        imagem: 'https://image.tmdb.org/t/p/w300/7onQmk5ZzUjx6SEAiqILWQFTaYC.jpg'
+    },
+    {
+        titulo: 'The Kill Room',
+        descricao: 'Patrice é uma negociante de arte que se une a um assassino de aluguel, Reggie, e seu chefe Gordon para montar um esquema de lavagem de dinheiro. No entanto, a situação transforma, acidentalmente, Reggie em uma sensação da arte da noite para o dia. Então Patrice se vê forçada a jogar o mundo da arte contra o submundo ilícito.',
+        imdb: 'tt11908172',
+        imagem: 'https://image.tmdb.org/t/p/w300/qKpdy7N6zX05eisopvvviiTwPxb.jpg'
+    },
+    {
+        titulo: 'A Terra Prometida',
+        descricao: 'Em 1755, o empobrecido capitão Ludvig Kahlen parte para conquistar o inabitável charco dinamarquês em nome do rei. Mas o único governante da área, o impiedoso Frederik de Schinkel, que acredita que a terra lhe pertence, e jura vingança quando a empregada Ann Barbara e o seu marido servo fogem para se refugiar com Kahlen.',
+        imdb: 'tt20561198',
+        imagem: 'https://image.tmdb.org/t/p/w300/llXvirrQKyKSmRf9kxYzb7EUWDl.jpg'
+    },
+    {
+        titulo: 'Um Plano Por água Abaixo',
+        descricao: 'Beth retorna para a sua família e se reconecta com seu antigo amor em uma cidade costeira dos Estados Unidos.',
+        imdb: 'tt8191850',
+        imagem: 'https://image.tmdb.org/t/p/w300/gNu1KmRtg70URO0wwrKWfbGhRn4.jpg'
+    },
+    {
+        titulo: 'Tia Virgínia',
+        descricao: 'Tia Virgínia tem como protagonista uma mulher de 70 anos que nunca se casou nem teve filhos e, convencida pelas irmãs, mudou-se de cidade para cuidar dos pais. O filme se passa em um único dia, o dia em que Virgínia se prepara para receber as irmãs Vanda e Valquíria que viajam para celebrar o Natal.',
+        imdb: 'tt28582081',
+        imagem: 'https://image.tmdb.org/t/p/w300/ibAyBZyxph1zcWZX7Eo4F8tCKmJ.jpg'
+    },
+    {
+        titulo: 'A Maldição de Ravens Hollow',
+        descricao: 'O cadete de West Point, Edgar Allan Poe, e quatro outros cadetes em um exercício de treinamento no interior do estado de Nova York são atraídos por uma descoberta horrível em uma comunidade esquecida, onde encontram um local que guarda um segredo assustador.',
+        imdb: 'tt15245390',
+        imagem: 'https://image.tmdb.org/t/p/w300/8N9qjYLujTFwawY95mHxQUPO1sj.jpg'
+    },
+    {
+        titulo: 'A Maldição do Boneco Robert',
+        descricao: 'Robert é o boneco mais assombrado do mundo. Por mais de um século, ele aterrorizou Key West, na Flórida, com uma maldição poderosa. Agora, a médium Cindy Kaza revelará os mistérios de sua origem e de sua força maligna.',
+        imdb: 'tt21967800',
+        imagem: 'https://image.tmdb.org/t/p/w300/zrEpRwFOKDKzDStnHRwFhZKkY1O.jpg'
+    },
+    {
+        titulo: 'A Pequena Indomável',
+        descricao: 'Descri��o do filme 13',
+        imdb: 'tt6002094',
+        imagem: 'https://image.tmdb.org/t/p/w300/7ImB1LyrYaHhIem3mfnmRneEySu.jpg'
+    },
+    {
+        titulo: 'A Verdade Sobre o Caso Deventer',
+        descricao: 'Descri��o do filme 14',
+        imdb: 'tt6851410',
+        imagem: 'https://image.tmdb.org/t/p/w300/ttfPfgduSmQI3phKbCFLBVWr2GI.jpg'
+    },
+    {
+        titulo: 'Águia e Jaguar: Os Guerreiros Lend�rios',
+        descricao: 'Descri��o do filme 15',
+        imdb: 'tt21230032',
+        imagem: 'https://image.tmdb.org/t/p/w300/1UnP6AtY3DHYjOVDEEF0Age7RKJ.jpg'
+    },
+    {
+        titulo: 'Aniquilação',
+        descricao: 'Descri��o do filme 16',
+        imdb: 'tt2798920',
+        imagem: 'https://image.tmdb.org/t/p/w300/5DUGK2WvnyiBJwKOYhTR9FHx2Mh.jpg'
+    },
+    {
+        titulo: 'As Aventuras de Poliana: O Filme',
+        descricao: 'Descri��o do filme 17',
+        imdb: 'tt30431349',
+        imagem: 'https://image.tmdb.org/t/p/w300/dLfgd33vg7PxnWf6guh8deiuBkM.jpg'
+    },
+    {
+        titulo: 'Caçadores de Lobisomem',
+        descricao: 'Descri��o do filme 18',
+        imdb: 'tt9898844',
+        imagem: 'https://image.tmdb.org/t/p/w300/nCxQiLsYXHAPls4RyVsv0Pcok4Q.jpg'
+    },
+    {
+        titulo: 'As Superpoderosas',
+        descricao: 'Descri��o do filme 19',
+        imdb: 'tt16970906',
+        imagem: 'https://image.tmdb.org/t/p/w300/itUAkQmihFmRxMYTa3AkvIzMCV4.jpg'
+    },
+    {
+        titulo: 'Carona Aterrorizante',
+        descricao: 'Descri��o do filme 20',
+        imdb: 'tt21979910',
+        imagem: 'https://image.tmdb.org/t/p/w300/2fyv8VPNOMZRoL239rJZqBgycSu.jpg'
+    },
+    {
+        titulo: 'Criaturas',
+        descricao: 'Descri��o do filme 21',
+        imdb: 'tt11252490',
+        imagem: 'https://image.tmdb.org/t/p/w300/4tWlLE2jphhziZbFQrgWZ0GFIlA.jpg'
+    },
+    {
+        titulo: 'Do Outro Lado da Dor',
+        descricao: 'Descri��o do filme 22',
+        imdb: 'tt19887550',
+        imagem: 'https://image.tmdb.org/t/p/w300/4loAQSV9tLQbVPvWrAntNn0kBIO.jpg'
+    },
+    {
+        titulo: 'Esculturas da Vida',
+        descricao: 'Descri��o do filme 23',
+        imdb: 'tt13923216',
+        imagem: 'https://image.tmdb.org/t/p/w300/cA9ihYHlTBfbWKXxjgmVpl7QJGx.jpg'
+    },
+    {
+        titulo: 'Herança de Família',
+        descricao: 'Descri��o do filme 24',
+        imdb: 'tt11353050',
+        imagem: 'https://image.tmdb.org/t/p/w300/1n1BJc3wbetxKyyjZ2dDnNZs5JE.jpg'
+    },
+    {
         titulo: 'Lima Barreto ao Terceiro Dia',
         descricao: 'O filme transcorre por três dias da última internação hospitalar de Lima Barreto, passados no manicômio D. Pedro II, no ano de 1919, na cidade do Rio de Janeiro, motivada por uma forte crise de alucinação, em que se encontram o velho Lima Barreto, a versão mais jovem do escritor e o protagonista de sua obra-prima, O Triste Fim de Policarpo Quaresma.',
         imdb: 'tt10925780',
