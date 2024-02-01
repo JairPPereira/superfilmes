@@ -37,109 +37,109 @@ var filmes = [
     },
     {
         titulo: 'Patos!',
-        descricao: 'Descri��o do filme 7',
+        descricao: 'A família Mallard está um pouco refém da rotina. Enquanto Mack, o pai, se contenta em manter sua família segura nos arredores de um lago da Nova Inglaterra para sempre, Pam, a mãe, está ansiosa para agitar as coisas e mostrar a seus filhos – o adolescente Dax e a patinha Gwen – o mundo inteiro. Quando uma família de patos migratórios aterrissa em seu lago com histórias emocionantes de lugares distantes, Pam convence Mack a embarcar em uma viagem em família, via Nova York, para a Jamaica tropical.',
         imdb: 'tt6495056',
         imagem: 'https://image.tmdb.org/t/p/w300/2KPvdtGjeFT8IwxUkUWmifokXG0.jpg'
     },
     {
         titulo: 'Minha Solidão Tem Asas',
-        descricao: 'Descri��o do filme 8',
+        descricao: 'Dan, um artista de rua em ascensão, garante seu sustento praticando roubos. Mas a saída de seu pai da prisão ressuscita seus demônios, forçando-o a fugir.',
         imdb: 'tt21964260',
         imagem: 'https://image.tmdb.org/t/p/w300/6v1U61XbrCXVF7CVAjRBTslUmaA.jpg'
     },
     {
         titulo: 'Prisão Domiciliar',
-        descricao: 'Descri��o do filme 9',
+        descricao: 'David é um professor russo que começa a usar as redes sociais para criticar a administração de sua cidade. Mas logo ele é acusado de fraude pelos governantes e colocado em prisão domiciliar. Agora, David precisa encontrar uma maneira de se fazer ouvir novamente.',
         imdb: 'tt14323258',
         imagem: 'https://image.tmdb.org/t/p/w300/vnFz9ky4Z5vQE5XAPcnt2qryFac.jpg'
     },
     {
         titulo: 'O Lobo Solitário',
-        descricao: 'Descri��o do filme 10',
+        descricao: '',
         imdb: 'tt14640358',
         imagem: 'https://image.tmdb.org/t/p/w300/o2BEjGcNxyNWu1BbQNcWIw8A4i0.jpg'
     },
     {
         titulo: 'The Iron Claw',
-        descricao: 'Descri��o do filme 11',
+        descricao: '',
         imdb: 'tt21064584',
         imagem: 'https://image.tmdb.org/t/p/w300/hRaEEt7wZN2Iyyh23Ge8Dqwzqlk.jpg'
     },
     {
         titulo: 'Beekeeper - Rede de Vingança',
-        descricao: 'Descri��o do filme 12',
+        descricao: 'Clay está em busca de vingança e não vai parar até acabar com o sistema criminoso responsável pela morte de sua amiga. O plano brutal de Clay, um ex-agente de uma organização secreta poderosa conhecida como “Beekeepers”, ganha dimensões nacionais envolvendo governos e as instituições mais influentes do mundo. Determinado a fazer justiça com suas próprias mãos, ele está disposto a tudo e não vai poupar ninguém para concluir seu plano.',
         imdb: 'tt15314262',
         imagem: 'https://image.tmdb.org/t/p/w300/cCGFvoxzaBbYM3I68s6F939fybN.jpg'
     },
     {
         titulo: 'The Kitchen',
-        descricao: 'Descri��o do filme 13',
+        descricao: 'Izi está prestes a sair do The Kitchen, um dos últimos conjuntos habitacionais de Londres. Mas precisa tomar decisões difíceis quando o jovem Benji entra em sua vida.',
         imdb: 'tt4460800',
         imagem: 'https://image.tmdb.org/t/p/w300/tV0hK1BiqYrYlehChv4WJXIWgmZ.jpg'
     },
     {
         titulo: 'Os Underdoggs',
-        descricao: 'Descri��o do filme 14',
+        descricao: 'Snoop Dogg interpreta Jaycen "Two Js" Jennings, um aposentado jogador de futebol americano profissional que vê seu status de grande astro decair até chegar na pior fase de sua vida.',
         imdb: 'tt21434318',
         imagem: 'https://image.tmdb.org/t/p/w300/4Eg4fntbZ6xOngbXta0irzqGM5N.jpg'
     },
     {
         titulo: 'Porta-malas: Trancada',
-        descricao: 'Descri��o do filme 15',
+        descricao: 'Malina, uma estudante de medicina de 28 anos, acorda desorientada dentro de um porta-malas e descobre, para seu horror, que perdeu muito mais do que apenas a memória. Tendo apenas um celular como meio de contato com o mundo exterior, a moça vai travar uma batalha pela sobrevivência enquanto o veículo corre incessantemente em direção a um terrível segredo.',
         imdb: 'tt27214365',
         imagem: 'https://image.tmdb.org/t/p/w300/sQ2FqmB98T8bAjhYHa3DIf2TS4H.jpg'
     },
     {
         titulo: 'Em Ruínas',
-        descricao: 'Descri��o do filme 16',
+        descricao: 'Após um terremoto transformar Seul em uma terra sem lei, um caçador decide resgatar uma adolescente sequestrada por um médico insano.',
         imdb: 'tt29722855',
         imagem: 'https://image.tmdb.org/t/p/w300/vT3xahepzP796ei0NiZIZ6t8vsl.jpg'
     },
     {
         titulo: 'Capitu e o Capítulo',
-        descricao: 'Descrio do filme 17',
+        descricao: 'Olhares, atitudes, vicissitude e passionalidade, novas e antigas percepções. Trama que permeia a inquietude trazida pelo sentimento mais primitivo que o ser humano pode experimentar, criando e sorvendo o fantasma criado pelo ciúme, desdobrando-se em intrigas capitulares criadas por Bentinho em devaneios que o tomam sobremaneira pelo amor doentio por sua Capitu.',
         imdb: 'tt14763720',
         imagem: 'https://image.tmdb.org/t/p/w300/cTRJN5741gtMrd3WcTHg2Pfn2jQ.jpg'
     },
     {
         titulo: 'Bons Companheiros',
-        descricao: 'Descri��o do filme 18',
+        descricao: 'Um dublê fracassado e seu cavalo dublê se tornam uma sensação da mídia social da noite para o dia quando sua briga na vida real com cobradores de dívidas se torna viral.',
         imdb: 'tt15430628',
         imagem: 'https://image.tmdb.org/t/p/w300/mr36VdEQw2Un3hiQ8ozPzXnVRy7.jpg'
     },
     {
         titulo: 'Todos Menos Voce',
-        descricao: 'Descri��o do filme 19',
+        descricao: 'Bea e Ben parecem o casal perfeito, mas depois de um primeiro encontro incrível, algo acontece que transforma sua atração ardente em gelo - até que eles se encontram inesperadamente juntos em um casamento na Austrália. Então eles fazem o que dois adultos maduros fariam: fingem ser um casal.',
         imdb: 'tt26047818',
         imagem: 'https://image.tmdb.org/t/p/w300/f5e8cT4vBQ1ZRSXC658CvUnzzkl.jpg'
     },
     {
         titulo: 'Alarme de Incêndio',
-        descricao: 'Descri��o do filme 20',
+        descricao: 'Um incêndio misterioso sai do controle em uma escola para meninas. Agora, todos se perguntam se foi acidente ou intencional.',
         imdb: 'tt30629563',
         imagem: 'https://image.tmdb.org/t/p/w300/qXB0yZbECic73jLrqvCgcpL9dhU.jpg'
     },
     {
         titulo: 'Visões Mortais',
-        descricao: 'Descri��o do filme 21',
+        descricao: 'Depois de acordar em um hospital psiquiátrico, sem se lembrar de como foi parar lá, uma mulher tem visões assustadoras e tenta, desesperadamente, fugir delas.',
         imdb: 'tt7986046',
         imagem: 'https://image.tmdb.org/t/p/w300/aG68lR36HbEASelSpwK7PHi8N9H.jpg'
     },
     {
         titulo: '60 Minutos',
-        descricao: 'Descri��o do filme 22',
+        descricao: 'Desesperado para não perder a guarda da filha, um lutador de MMA abandona uma luta importante e corre por Berlim para chegar à festa de aniversário da menina.',
         imdb: 'tt29538571',
         imagem: 'https://image.tmdb.org/t/p/w300/n5wjsuYh954HLagCnqrLpPT8xi7.jpg'
     },
     {
         titulo: 'Unit 262',
-        descricao: 'Descri��o do filme 23',
+        descricao: '',
         imdb: 'tt28567651',
         imagem: 'https://image.tmdb.org/t/p/w300/paXIdSUhvuFNgNUn6cz2N2HHq0V.jpg'
     },
     {
         titulo: 'Uma Noite Sem Limites',
-        descricao: 'Descri��o do filme 24',
+        descricao: 'O músico fracassado Kyle Cassidy está apaixonado pela carismática Nikki Duke, esposa de um abusivo astro do rock, que saiu em turnê com a banda. Após uma noite de excessos na mansão de Nikki, ela desmaia e Kyle liga para a emergência. Os dois acabam sendo roubados pelos paramédicos, o que resultará em uma noite de desventuras pelas ruas de Los Angeles.',
         imdb: 'tt4160608',
         imagem: 'https://image.tmdb.org/t/p/w300/6z9utEbOSkXrSdvUugWUkj0sOUb.jpg'
     },
