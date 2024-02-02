@@ -203,9 +203,9 @@
           <div id="sinopse" class="inline-block"></div>
         <div id="player"></div>
         <p id="titulo"></p>
+        <p style="color: bisque;">URL do Filme: <a id="urlLink" target="_blank" rel="noopener noreferrer"></a></p>
             </div>
    
- 
             <style>
                 #titulo{
                     background-color: #0000CD;
@@ -213,7 +213,8 @@
                     font-family:"Arial";
                     color: white;
                 }
-             </style>  
+             </style>
+          
      
        
             <br class="container-fluid mt-2">  
@@ -257,44 +258,45 @@
 
     </footer>
     <!-- Login Modal -->
-    
     <script>
-     function getParametroDaUrl(parametro) {
-         const queryString = window.location.search;
-         const urlParams = new URLSearchParams(queryString);
-         return urlParams.get(parametro);
-     }
- 
-     const titulo = getParametroDaUrl('titulo');
-     const url = getParametroDaUrl('url');
- 
-     function openMovie(titulo, url) {
-         document.getElementById('titulo').innerHTML = titulo;
-         const player = document.createElement('iframe');
-         player.src = url;
-         player.style.width = '100%';
-         player.style.border = 'none';
-         player.setAttribute('allowfullscreen', '');
-         player.setAttribute('allow', 'autoplay; encrypted-media; fullscreen; picture-in-picture');
-         player.setAttribute('target', '_blank');
-         player.setAttribute('scrolling', 'no');
-         player.setAttribute('data-draggable', 'none');
-         player.setAttribute('marginwidth', '0');
-         player.setAttribute('marginheight', '0');
-         player.setAttribute('data-popup', 'none');
-         player.setAttribute('frameborder', '0');
-         const divPlayer = document.getElementById('player');
-         divPlayer.innerHTML = '';
-         divPlayer.appendChild(player);
- 
-         
-     }
- 
-     openMovie(titulo, url);
-
-   
-
- </script>
+        function getParametroDaUrl(parametro) {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return urlParams.get(parametro);
+        }
+    
+        const titulo = getParametroDaUrl('titulo');
+        const url = getParametroDaUrl('url');
+    
+        function openMovie(titulo, url) {
+            document.getElementById('titulo').innerHTML = titulo;
+            
+            const player = document.createElement('iframe');
+            player.src = url;
+            player.style.width = '100%';
+            player.style.border = 'none';
+            player.setAttribute('allowfullscreen', '');
+            player.setAttribute('allow', 'autoplay; encrypted-media; fullscreen; picture-in-picture');
+            player.setAttribute('target', '_blank');
+            player.setAttribute('scrolling', 'no');
+            player.setAttribute('data-draggable', 'none');
+            player.setAttribute('marginwidth', '0');
+            player.setAttribute('marginheight', '0');
+            player.setAttribute('data-popup', 'none');
+            player.setAttribute('frameborder', '0');
+            
+            const divPlayer = document.getElementById('player');
+            divPlayer.innerHTML = '';
+            divPlayer.appendChild(player);
+    
+            // Atualizar o link com a URL do filme
+            const urlLink = document.getElementById('urlLink');
+            urlLink.href = url;
+            urlLink.textContent = url;
+        }
+    
+        openMovie(titulo, url);
+    </script>
 
     <script src="https://superfilmes.pages.dev/assets/js/jquery-3.6.1.min.js"></script>
     <script src="https://superfilmes.pages.dev/assets/js/jquery.nicescroll.min.js"></script>
