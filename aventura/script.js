@@ -1,5 +1,191 @@
 var filmes = [
     {
+        titulo: 'Patos!',
+        descricao: 'Descri��o do filme 1',
+        imdb: 'tt6495056',
+        imagem: 'https://image.tmdb.org/t/p/w300/2KPvdtGjeFT8IwxUkUWmifokXG0.jpg'
+    },
+    {
+        titulo: 'The Kitchen',
+        descricao: 'Descri��o do filme 2',
+        imdb: 'tt4460800',
+        imagem: 'https://image.tmdb.org/t/p/w300/tV0hK1BiqYrYlehChv4WJXIWgmZ.jpg'
+    },
+    {
+        titulo: 'Águia e Jaguar: Os Guerreiros Lendários',
+        descricao: 'Descri��o do filme 3',
+        imdb: 'tt21230032',
+        imagem: 'https://image.tmdb.org/t/p/w300/1UnP6AtY3DHYjOVDEEF0Age7RKJ.jpg'
+    },
+    {
+        titulo: 'As Aventuras de Poliana: O Filme',
+        descricao: 'Descri��o do filme 4',
+        imdb: 'tt30431349',
+        imagem: 'https://image.tmdb.org/t/p/w300/dLfgd33vg7PxnWf6guh8deiuBkM.jpg'
+    },
+    {
+        titulo: 'As Superpoderosas',
+        descricao: 'Descri��o do filme 5',
+        imdb: 'tt16970906',
+        imagem: 'https://image.tmdb.org/t/p/w300/itUAkQmihFmRxMYTa3AkvIzMCV4.jpg'
+    },
+    {
+        titulo: 'Nina: A Heroína dos Sete Mares',
+        descricao: 'Descri��o do filme 6',
+        imdb: 'tt22360682',
+        imagem: 'https://image.tmdb.org/t/p/w300/hCRZCkQScaK0cg2tfgqNZKYgff4.jpg'
+    },
+    {
+        titulo: 'Os Aventureiros do Bairro Proibido',
+        descricao: 'Descri��o do filme 7',
+        imdb: 'tt0090728',
+        imagem: 'https://image.tmdb.org/t/p/w300/wjziUc5HK1emyez9lBGHre3jD4i.jpg'
+    },
+    {
+        titulo: 'Luccas Neto em: Uma Aventura no Zoológico',
+        descricao: 'Descri��o do filme 1',
+        imdb: 'tt29952387',
+        imagem: 'https://image.tmdb.org/t/p/w300/c13uqs7p5cNiuLBKKHsYYNcaZ1q.jpg'
+    },
+    {
+        titulo: 'As Marvels',
+        descricao: 'Descri��o do filme 2',
+        imdb: 'tt10676048',
+        imagem: 'https://image.tmdb.org/t/p/w300/sPmmgdmApfjX9x2mg02bo0aUOU9.jpg'
+    },
+    {
+        titulo: 'A Fada do Dente',
+        descricao: 'Descri��o do filme 3',
+        imdb: 'tt20199226',
+        imagem: 'https://image.tmdb.org/t/p/w300/7Biyu5aP0o86GjxnffsHThYN4h1.jpg'
+    },
+    {
+        titulo: 'Perseguição em Malta',
+        descricao: 'Descri��o do filme 4',
+        imdb: 'tt13515076',
+        imagem: 'https://image.tmdb.org/t/p/w300/oRgj0ZaCZxcRhRNMOnGwr495q4z.jpg'
+    },
+    {
+        titulo: 'A Fuga do Prisioneiro 614',
+        descricao: 'Descri��o do filme 5',
+        imdb: 'tt7375578',
+        imagem: 'https://image.tmdb.org/t/p/w300/t9l2H6uOsGBUPT4rWmv98TM6fOn.jpg'
+    },
+    {
+        titulo: 'Os Peludos',
+        descricao: 'Descri��o do filme 6',
+        imdb: 'tt15547806',
+        imagem: 'https://image.tmdb.org/t/p/w300/q0poNkSayOtlwRzY6MKHTQcBauq.jpg'
+    },
+    {
+        titulo: 'Os Reis da Rua Mulberry: Que Reine o Amor',
+        descricao: 'Descri��o do filme 7',
+        imdb: 'tt13014820',
+        imagem: 'https://image.tmdb.org/t/p/w300/3Tr5ziHzI6nEJyXwcyr0z29mA77.jpg'
+    },
+    {
+        titulo: 'Aventura em Legacy Peak',
+        descricao: 'Descri��o do filme 8',
+        imdb: 'tt21104674',
+        imagem: 'https://image.tmdb.org/t/p/w300/9tMLvle4KpP210u647x5yQ4bTM3.jpg'
+    },
+    {
+        titulo: 'A Elefanta do Mágico',
+        descricao: 'Descri��o do filme 9',
+        imdb: 'tt2560092',
+        imagem: 'https://image.tmdb.org/t/p/w300/g7weieVLynnkcFqOWA5WAmjffNB.jpg'
+    },
+    {
+        titulo: 'As Múmias e o Anel Perdido',
+        descricao: 'Descri��o do filme 10',
+        imdb: 'tt23177868',
+        imagem: 'https://image.tmdb.org/t/p/w300/olT9HuXfnMVFqDGjLhllKe5EuQP.jpg'
+    },
+    {
+        titulo: 'Scarygirl',
+        descricao: 'Descri��o do filme 11',
+        imdb: 'tt4556264',
+        imagem: 'https://image.tmdb.org/t/p/w300/1tcLXVaXFG9OObnCN3a5KrymrQG.jpg'
+    },
+    {
+        titulo: 'Jumper',
+        descricao: 'Descri��o do filme 12',
+        imdb: 'tt0489099',
+        imagem: 'https://image.tmdb.org/t/p/w300/3pPZ9JhNz3VMmASVir5SMHvTDUU.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja: O Retorno',
+        descricao: 'Descri��o do filme 13',
+        imdb: 'tt0453556',
+        imagem: 'https://image.tmdb.org/t/p/w300/vNSwMohSS0XMXXbcmw3RsBaE35q.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja III',
+        descricao: 'Descri��o do filme 14',
+        imdb: 'tt0108308',
+        imagem: 'https://image.tmdb.org/t/p/w300/vQ4DQb617N4ipB7LPfUIfGR3X9P.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja II: O Segredo do Ooze',
+        descricao: 'Descri��o do filme 15',
+        imdb: 'tt0103060',
+        imagem: 'https://image.tmdb.org/t/p/w300/RPXIoMjVtT7OOPnbcXceyoFRTh.jpg'
+    },
+    {
+        titulo: 'As Tartarugas Ninja',
+        descricao: 'Descri��o do filme 16',
+        imdb: 'tt0100758',
+        imagem: 'https://image.tmdb.org/t/p/w300/dkCdKgl24TMzwEfAtKrBNxqujv8.jpg'
+    },
+    {
+        titulo: 'Zerando a Vida',
+        descricao: 'Descri��o do filme 17',
+        imdb: 'tt4769836',
+        imagem: 'https://image.tmdb.org/t/p/w300/moWEJfrNnywDAJAiFZ1r2OfF5s4.jpg'
+    },
+    {
+        titulo: 'A Incrível História de Henry Sugar',
+        descricao: 'Descri��o do filme 18',
+        imdb: 'tt16968450',
+        imagem: 'https://image.tmdb.org/t/p/w300/azRL9bmByicPRzP0ljDNzFCwyUX.jpg'
+    },
+    {
+        titulo: 'Os Mercenários 4',
+        descricao: 'Descri��o do filme 19',
+        imdb: 'tt3291150',
+        imagem: 'https://image.tmdb.org/t/p/w300/dQxlUkhKGILgq9jbVEe3WPaiW2q.jpg'
+    },
+    {
+        titulo: 'Sayen',
+        descricao: 'Descri��o do filme 20',
+        imdb: 'tt19869024',
+        imagem: 'https://image.tmdb.org/t/p/w300/aCy61aU7BMG7SfhkaAaasS0KzUO.jpg'
+    },
+    {
+        titulo: 'Pequenos Espiões: Apocalipse',
+        descricao: 'Descri��o do filme 21',
+        imdb: 'tt13978520',
+        imagem: 'https://image.tmdb.org/t/p/w300/cwCKYjIPXapuBtO51S81GNhoGxV.jpg'
+    },
+    {
+        titulo: 'Bob Esponja Calça Quadrada apresenta: Zona das Marés',
+        descricao: 'Descri��o do filme 22',
+        imdb: 'tt22640250',
+        imagem: 'https://image.tmdb.org/t/p/w300/rozwpOPiTEYnXygWGvUPST4lVQa.jpg'
+    },
+    {
+        titulo: 'Em uma Terra Muito Distante... Havia um Crime',
+        descricao: 'Descri��o do filme 23',
+        imdb: 'tt15944018',
+        imagem: 'https://image.tmdb.org/t/p/w300/8r9yZ6cmZ6bxIhqfo69X1m9jYNJ.jpg'
+    },
+    {
+        titulo: 'Feitiçaria',
+        descricao: 'Descri��o do filme 24',
+        imdb: 'tt20395798',
+        imagem: 'https://image.tmdb.org/t/p/w300/99wdStgFDTnrPbgpBt29lI87vai.jpg'
+    },
+    {
         titulo: 'A Cidade Dourada',
         descricao: 'Descri��o do filme 1',
         imdb: 'tt4113346',
