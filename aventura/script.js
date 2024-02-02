@@ -1,5 +1,293 @@
 var filmes = [
     {
+        titulo: 'O Filho do Batman',
+        descricao: 'Descri��o do filme 1',
+        imdb: 'tt3139072',
+        imagem: 'https://image.tmdb.org/t/p/w300/oPfc2Q0FZ1QObSLhGq9mAv7L2GV.jpg'
+    },
+    {
+        titulo: 'Batman vs Superman: A Origem da Justiça',
+        descricao: 'Descri��o do filme 2',
+        imdb: 'tt2975590',
+        imagem: 'https://image.tmdb.org/t/p/w300/vh6pjeGH0GQupLepPCZn5PylcRg.jpg'
+    },
+    {
+        titulo: 'Thor',
+        descricao: 'Descri��o do filme 3',
+        imdb: 'tt0800369',
+        imagem: 'https://image.tmdb.org/t/p/w300/yI6jOYR9xDpxXPKAO17YuIBfROd.jpg'
+    },
+    {
+        titulo: 'Kick-Ass 2',
+        descricao: 'Descri��o do filme 4',
+        imdb: 'tt1650554',
+        imagem: 'https://image.tmdb.org/t/p/w300/ch18ICcbiA5z089LrJH5Hed7ZJl.jpg'
+    },
+    {
+        titulo: 'O Chamado da Floresta',
+        descricao: 'Descri��o do filme 5',
+        imdb: 'tt7504726',
+        imagem: 'https://image.tmdb.org/t/p/w300/1SIlV2p8355FAuKTGje9ZgtXujN.jpg'
+    },
+    {
+        titulo: 'As Peripécias de um Ratinho Detetive',
+        descricao: 'Descri��o do filme 6',
+        imdb: 'tt0091149',
+        imagem: 'https://image.tmdb.org/t/p/w300/fZc1k1rgsILmy2iXQoRHnjuNcGX.jpg'
+    },
+    {
+        titulo: 'A Carga da Brigada Ligeira',
+        descricao: 'Descri��o do filme 7',
+        imdb: 'tt0027438',
+        imagem: 'https://image.tmdb.org/t/p/w300/c1qLEgqNwlpSd0FRkUotFBX1x0r.jpg'
+    },
+    {
+        titulo: 'Pets: A Vida Secreta dos Bichos 2',
+        descricao: 'Descri��o do filme 8',
+        imdb: 'tt5113040',
+        imagem: 'https://image.tmdb.org/t/p/w300/gs0iSjc9tbpbAElolwbDwPDpNXo.jpg'
+    },
+    {
+        titulo: 'Pets: A Vida Secreta dos Bichos',
+        descricao: 'Descri��o do filme 9',
+        imdb: 'tt2709768',
+        imagem: 'https://image.tmdb.org/t/p/w300/xKpQ8fDDu1qCvBl5bF2vpsZPSUj.jpg'
+    },
+    {
+        titulo: 'Como Virei Super-Herói',
+        descricao: 'Descri��o do filme 10',
+        imdb: 'tt10345590',
+        imagem: 'https://image.tmdb.org/t/p/w300/iYl4YJ1BnuJEKjn0dmKlMa1Bwuo.jpg'
+    },
+    {
+        titulo: 'Velocidade Máxima',
+        descricao: 'Descri��o do filme 11',
+        imdb: 'tt0111257',
+        imagem: 'https://image.tmdb.org/t/p/w300/d30AWcDezR0qM6OgXovulfA4z8N.jpg'
+    },
+    {
+        titulo: 'O Grande Dave',
+        descricao: 'Descri��o do filme 12',
+        imdb: 'tt0765476',
+        imagem: 'https://image.tmdb.org/t/p/w300/sEzO5ls8mjsUbgdcYEbg57FQr7v.jpg'
+    },
+    {
+        titulo: 'Up: Altas Aventuras',
+        descricao: 'Descri��o do filme 13',
+        imdb: 'tt1049413',
+        imagem: 'https://image.tmdb.org/t/p/w300/kms7XVDS6v7ic2jEw6N4DslQrWx.jpg'
+    },
+    {
+        titulo: 'Agentes Vanguard',
+        descricao: 'Descri��o do filme 14',
+        imdb: 'tt9695722',
+        imagem: 'https://image.tmdb.org/t/p/w300/slR16xWVy7kc3xr1GlSK41ZSjpa.jpg'
+    },
+    {
+        titulo: 'Porco Rosso: O último Herói Romântico',
+        descricao: 'Descri��o do filme 15',
+        imdb: 'tt0104652',
+        imagem: 'https://image.tmdb.org/t/p/w300/ts1oKmmSr2tM9qmzDUNzMWs9EDq.jpg'
+    },
+    {
+        titulo: 'No Limite do Mundo',
+        descricao: 'Descri��o do filme 16',
+        imdb: 'tt3006472',
+        imagem: 'https://image.tmdb.org/t/p/w300/ans5FpsTvfhznxQdM297K3xy1kD.jpg'
+    },
+    {
+        titulo: 'Joe Bell',
+        descricao: 'Descri��o do filme 17',
+        imdb: 'tt4651466',
+        imagem: 'https://image.tmdb.org/t/p/w300/9HfQD60w6f6PPkfdiI6ipJSw0bD.jpg'
+    },
+    {
+        titulo: 'Divertida Mente',
+        descricao: 'Descri��o do filme 18',
+        imdb: 'tt2096673',
+        imagem: 'https://image.tmdb.org/t/p/w300/62SAZfLfzhxJWUFJvfIPMw6QUpE.jpg'
+    },
+    {
+        titulo: 'Spawn: O Soldado do Inferno',
+        descricao: 'Descri��o do filme 19',
+        imdb: 'tt0120177',
+        imagem: 'https://image.tmdb.org/t/p/w300/653tt7EeQZ2LqLMeiGApxkdsKB2.jpg'
+    },
+    {
+        titulo: 'Sex Drive: Rumo ao Sexo',
+        descricao: 'Descri��o do filme 20',
+        imdb: 'tt1135985',
+        imagem: 'https://image.tmdb.org/t/p/w300/6D5FuwuZR7BEAbiyNfLKuV5KGN.jpg'
+    },
+    {
+        titulo: '007: Cassino Royale',
+        descricao: 'Descri��o do filme 21',
+        imdb: 'tt0381061',
+        imagem: 'https://image.tmdb.org/t/p/w300/7b3qmLlvm2lvJ2gxsKQ42S3RTKR.jpg'
+    },
+    {
+        titulo: 'Top Gun - Ases Indomáveis',
+        descricao: 'Descri��o do filme 22',
+        imdb: 'tt0092099',
+        imagem: 'https://image.tmdb.org/t/p/w300/dDrMtnVgtDeecIgNchb9F8JcO5w.jpg'
+    },
+    {
+        titulo: 'Mr. Bean - O Filme',
+        descricao: 'Descri��o do filme 23',
+        imdb: 'tt0118689',
+        imagem: 'https://image.tmdb.org/t/p/w300/yoFGuw59e1KPFSwzrQexBL5khMx.jpg'
+    },
+    {
+        titulo: 'Chernobyl: O Filme',
+        descricao: 'Descri��o do filme 24',
+        imdb: 'tt10648714',
+        imagem: 'https://image.tmdb.org/t/p/w300/bnB2EkaY6HEdzwVkkH7dBHy6HmZ.jpg'
+    },
+    {
+        titulo: 'Hotel Transilvânia: Transformonstrão',
+        descricao: 'Descri��o do filme 1',
+        imdb: 'tt9848626',
+        imagem: 'https://image.tmdb.org/t/p/w300/9PbtCo5IIkd26WPQfZUpPyn6fTz.jpg'
+    },
+    {
+        titulo: 'Herbie: Meu Fusca Turbinado',
+        descricao: 'Descri��o do filme 2',
+        imdb: 'tt0400497',
+        imagem: 'https://image.tmdb.org/t/p/w300/z3dDSU387L19TNEJkYhYAMjU4Sr.jpg'
+    },
+    {
+        titulo: 'Hellboy',
+        descricao: 'Descri��o do filme 3',
+        imdb: 'tt2274648',
+        imagem: 'https://image.tmdb.org/t/p/w300/lmh8wXm6f3z7wcRqQ8NSXrB8tMQ.jpg'
+    },
+    {
+        titulo: 'Hellboy II: O Exército Dourado',
+        descricao: 'Descri��o do filme 4',
+        imdb: 'tt0411477',
+        imagem: 'https://image.tmdb.org/t/p/w300/2ZFnYUkYDlwJQvODkQ0JyTRZDSO.jpg'
+    },
+    {
+        titulo: 'Thor: Ragnarok',
+        descricao: 'Descri��o do filme 5',
+        imdb: 'tt3501632',
+        imagem: 'https://image.tmdb.org/t/p/w300/jrF3WW4lJkIFtIY3nIyapZ7q0N8.jpg'
+    },
+    {
+        titulo: 'Malévola: Dona do Mal',
+        descricao: 'Descri��o do filme 6',
+        imdb: 'tt4777008',
+        imagem: 'https://image.tmdb.org/t/p/w300/llHTFUeUCWmkW5fR4J9kpa6Asep.jpg'
+    },
+    {
+        titulo: 'Malévola',
+        descricao: 'Descri��o do filme 7',
+        imdb: 'tt1587310',
+        imagem: 'https://image.tmdb.org/t/p/w300/kqifqRhUWjx5WT0OJPxWbcnzc2O.jpg'
+    },
+    {
+        titulo: 'Vira-Lata',
+        descricao: 'Descri��o do filme 8',
+        imdb: 'tt0467110',
+        imagem: 'https://image.tmdb.org/t/p/w300/lcedkHKYYatdNrUE91CMDahxAg9.jpg'
+    },
+    {
+        titulo: 'Encantado',
+        descricao: 'Descri��o do filme 9',
+        imdb: 'tt4086018',
+        imagem: 'https://image.tmdb.org/t/p/w300/3r4IXWsSCgNrONPn9RV99SpDsZP.jpg'
+    },
+    {
+        titulo: 'Avatar',
+        descricao: 'Descri��o do filme 10',
+        imdb: 'tt0499549',
+        imagem: 'https://image.tmdb.org/t/p/w300/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg'
+    },
+    {
+        titulo: 'Mad Max: Além da Cúpula do Trovão',
+        descricao: 'Descri��o do filme 11',
+        imdb: 'tt0089530',
+        imagem: 'https://image.tmdb.org/t/p/w300/tYF4AeArodeSHy9hGlPz5PdVF0T.jpg'
+    },
+    {
+        titulo: 'Mad Max 2: A Caçada Continua',
+        descricao: 'Descri��o do filme 12',
+        imdb: 'tt0082694',
+        imagem: 'https://image.tmdb.org/t/p/w300/5inW7xf2kRoZDojXWfXLXK0fZ9z.jpg'
+    },
+    {
+        titulo: 'Mad Max',
+        descricao: 'Descri��o do filme 13',
+        imdb: 'tt0079501',
+        imagem: 'https://image.tmdb.org/t/p/w300/hdQqa9ZfmEPbE4q62lntueI2CUM.jpg'
+    },
+    {
+        titulo: 'Resident Evil 4: Recomeço',
+        descricao: 'Descri��o do filme 14',
+        imdb: 'tt1220634',
+        imagem: 'https://image.tmdb.org/t/p/w300/eLUc5to0p5LhbXJMXtgltg7P4g4.jpg'
+    },
+    {
+        titulo: 'My Little Pony: Nova Geração',
+        descricao: 'Descri��o do filme 15',
+        imdb: 'tt10101702',
+        imagem: 'https://image.tmdb.org/t/p/w300/gsd8CzmWi4daZbEvuH4rgWbu5yT.jpg'
+    },
+    {
+        titulo: 'O Espetacular Homem-Aranha 2: A Ameaça de Electro',
+        descricao: 'Descri��o do filme 16',
+        imdb: 'tt1872181',
+        imagem: 'https://image.tmdb.org/t/p/w300/lDbcaBs1IdBZccCM1R417XmPxKF.jpg'
+    },
+    {
+        titulo: 'O Espetacular Homem-Aranha',
+        descricao: 'Descri��o do filme 17',
+        imdb: 'tt0948470',
+        imagem: 'https://image.tmdb.org/t/p/w300/dODKvv9o9BOemWavnulutJBHM80.jpg'
+    },
+    {
+        titulo: 'Homem-Aranha 3',
+        descricao: 'Descri��o do filme 18',
+        imdb: 'tt0413300',
+        imagem: 'https://image.tmdb.org/t/p/w300/63O5iixxXSmyOaBas7ek1tkeVra.jpg'
+    },
+    {
+        titulo: 'Interestelar',
+        descricao: 'Descri��o do filme 19',
+        imdb: 'tt0816692',
+        imagem: 'https://image.tmdb.org/t/p/w300/nCbkOyOMTEwlEV0LtCOvCnwEONA.jpg'
+    },
+    {
+        titulo: 'Turma da Mônica: Laços',
+        descricao: 'Descri��o do filme 20',
+        imdb: 'tt8169552',
+        imagem: 'https://image.tmdb.org/t/p/w300/1ksQfIiWmyu9x4FbNBW5aNclVqu.jpg'
+    },
+    {
+        titulo: 'Quarteto Fantástico',
+        descricao: 'Descri��o do filme 21',
+        imdb: 'tt0120667',
+        imagem: 'https://image.tmdb.org/t/p/w300/7LYL7iZMPWX1IR3ISiPR1FkjfP3.jpg'
+    },
+    {
+        titulo: 'Viagem ao Centro da Terra: O Filme',
+        descricao: 'Descri��o do filme 22',
+        imdb: 'tt0373051',
+        imagem: 'https://image.tmdb.org/t/p/w300/35AI4Bmo1JrEzgMOxOARRUT9Pn6.jpg'
+    },
+    {
+        titulo: 'Warcraft - O Primeiro Encontro de Dois Mundos',
+        descricao: 'Descri��o do filme 23',
+        imdb: 'tt0803096',
+        imagem: 'https://image.tmdb.org/t/p/w300/2cPJhbIwsmMXsV9vihoPEFBFFHm.jpg'
+    },
+    {
+        titulo: 'X-Men Origens: Wolverine',
+        descricao: 'Descri��o do filme 24',
+        imdb: 'tt0458525',
+        imagem: 'https://image.tmdb.org/t/p/w300/3xjVVXVXWU8qt1umkeTJd8sImBC.jpg'
+    },
+    {
         titulo: 'Jujutsu Kaisen 0: O Filme',
         descricao: 'Descri��o do filme 1',
         imdb: 'tt14331144',
