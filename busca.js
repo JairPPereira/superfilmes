@@ -7,6 +7,34 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "O Menino e a Gar\u00e7a",
+        "descricao": "Depois de perder a m\u00e3e durante a guerra, o jovem Mahito muda-se para a propriedade de sua fam\u00edlia no campo. L\u00e1, uma s\u00e9rie de eventos misteriosos o levam a uma torre antiga e isolada, lar de uma travessa gar\u00e7a cinzenta. Quando a nova madrasta de Mahito desaparece, ele segue a gar\u00e7a at\u00e9 a torre e entra num mundo fant\u00e1stico partilhado pelos vivos e pelos mortos. Ao embarcar em uma jornada \u00e9pica com a gar\u00e7a como guia, Mahito deve descobrir os segredos deste mundo e a verdade sobre si mesmo.",
+        "imdb": "tt6587046",
+        "imagem": "https://image.tmdb.org/t/p/w300//qPNmxw9Ag66rmaYPKDpob9HIpth.jpg"
+    }
+    ,
+    {
+        "titulo": "Um Homem Implac\u00e1vel",
+        "descricao": "Ap\u00f3s 10 anos de encarceramento em nome de seu empregador, tudo o que Su-hyuk deseja \u00e9 uma vida normal - uma vida que ele espera que inclua sua ex-namorada, Min-seo, e sua filha, In-bi. Mas uma vez que voc\u00ea penetrou nos escal\u00f5es superiores do submundo, o normal pode ser dif\u00edcil de encontrar. Enquanto isso, em algum momento da \u00faltima d\u00e9cada, o empregador de Su-hyuk adotou um ar de legitimidade. Hoje em dia, a velha gangue rouba e mata em nome do desenvolvimento urbano. E eles querem o relutante Su-hyuk a bordo.",
+        "imdb": "tt21387514",
+        "imagem": "https://image.tmdb.org/t/p/w300//woL8DLY4NLJCg8qKiSrOF4QfMkz.jpg"
+    }
+    ,
+    {
+        "titulo": "Dinheiro F\u00e1cil",
+        "descricao": "O vlogger Keith Gill investe suas economias em a\u00e7\u00f5es da GameStop e posta sobre isso.  Quando a m\u00eddia social come\u00e7a a explodir, o mesmo acontece com a vida dele e a de todos que o seguem.  \u00c0 medida que uma dica sobre a\u00e7\u00f5es se transforma num movimento, todos ficam ricos \u2013 at\u00e9 que os multimilion\u00e1rios revidam e ambos os lados v\u00eaem os seus mundos virados do avesso.",
+        "imdb": "tt13957560",
+        "imagem": "https://image.tmdb.org/t/p/w300//l3pI4Nbe9vRC2cd7WsHtiMGZW0T.jpg"
+    }
+    ,
+    {
+        "titulo": "Mamonas Assassinas: O Filme",
+        "descricao": "Estamos em Guarulhos na d\u00e9cada de 90. Dinho, S\u00e9rgio, Samuel, Julio e Bento s\u00e3o garotos t\u00edpicos da \u00e9poca com pouco dinheiro e muitos sonhos. Eles nem imaginam que o humor debochado e inteligente, t\u00e3o caracter\u00edstico do grupo de amigos, ir\u00e1 mudar suas vidas para sempre. De algumas tentativas fracassadas ao sucesso absoluto, em pouco tempo, eles se tornaram o maior fen\u00f4meno musical brasileiro da d\u00e9cada: os Mamonas Assassinas.",
+        "imdb": "tt29713426",
+        "imagem": "https://image.tmdb.org/t/p/w300//ayrEg6LdzNjCSdgHGMlEihzwjJg.jpg"
+    }
+    ,
+    {
         titulo: 'Um Estranho Acidente',
         descricao: 'Um thriller psicológico sombrio baseado na premiada peça Life s A Gatecrash, de Terry Hughes. Durante uma noite escura, o casal Nicole e Steve se envolve em uma confusa situação de atropelamento.',
         imdb: 'tt7358576',
