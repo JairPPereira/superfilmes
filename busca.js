@@ -7,6 +7,342 @@ function searchMovies(event) {
 // Seu array de filmes
 var filmes = [
     {
+        "titulo": "Cinzas",
+        "descricao": "De uma fantasia empolgante a um caso perigoso, uma mulher casada e rica v\u00ea sua vida desmoronar ap\u00f3s come\u00e7ar a ler um livro n\u00e3o publicado.",
+        "imdb": "tt21308718",
+        "imagem": "https://image.tmdb.org/t/p/w300//44BquVRWlRN3B3Xh6yZxNxFdTER.jpg"
+    }
+    ,
+    {
+        "titulo": "Benny Loves You",
+        "descricao": "Jack est\u00e1 enfrentando uma crise de meia-idade e buscando desesperadamente um recome\u00e7o para sua vida. Nesta reorganiza\u00e7\u00e3o, ele joga fora Benny, o boneco de pel\u00facia favorito de sua inf\u00e2ncia, gerando consequ\u00eancias mortais. Afinal, Benny o ama.",
+        "imdb": "tt3917506",
+        "imagem": "https://image.tmdb.org/t/p/w300//3RE9DNBCvuso5OPZPg71ryntNjx.jpg"
+    }
+    ,
+    {
+        "titulo": "O Sequestro do Voo 375",
+        "descricao": "Plano Sarney. Brasil em dificuldades econ\u00f4micas, como sempre acontece. Sem emprego, Nonato resolve protestar de medida dram\u00e1tica: sequestrar o voo 375, da Vasp, com mais de cem passageiros - e ordena ao comandante Murilo que jogue o avi\u00e3o em cima do Pal\u00e1cio do Planalto. Para evitar a trag\u00e9dia, o piloto acaba sendo obrigado a executar manobras que jamais haviam sido tentadas com um avi\u00e3o daquele tamanho.",
+        "imdb": "tt13073252",
+        "imagem": "https://image.tmdb.org/t/p/w300//nY5v3pTXZjms3m1ZrUMlt3teL7X.jpg"
+    }
+    ,
+    {
+        "titulo": "Irm\u00e3os de Guerra",
+        "descricao": "Os irm\u00e3os Sultan e Bekzat continuam a tradi\u00e7\u00e3o familiar: o mais velho, Sultan, \u00e9 um valente oficial de intelig\u00eancia, o mais novo \u00e9 um talentoso piloto de ca\u00e7a. O pai morreu no cumprimento do dever, mas a mem\u00f3ria dele e do servi\u00e7o \u00e9 a \u00fanica coisa que une os irm\u00e3os, que de forma alguma conseguem encontrar uma linguagem comum. Quando a seguran\u00e7a do pa\u00eds \u00e9 amea\u00e7ada por um grupo terrorista internacional, os irm\u00e3os t\u00eam de se unir para salvar vidas humanas e perceber que a fam\u00edlia, os entes queridos e a P\u00e1tria s\u00e3o o que t\u00eam de mais valioso.",
+        "imdb": "tt19878422",
+        "imagem": "https://image.tmdb.org/t/p/w300//ozHweLTPGEWRQyr1z4npGjm6ko0.jpg"
+    }
+    ,
+    {
+        "titulo": "Esse \u00e9 o Meu Lugar",
+        "descricao": "Quando Rae, uma garota de 22 anos, descendente de sobreviventes do Holocausto, \u00e9 visada por neonazistas na cidade de Billings, em Montana, o trauma de seus ancestrais se torna real. Rae, ent\u00e3o, volta para a casa da m\u00e3e e descobre a verdade sobre um acidente da inf\u00e2ncia. \u00c0 medida que o antissemitismo continua a crescer na comunidade, seguimos Rae em uma jornada para perdoar a si mesma, a m\u00e3e e o mundo despeda\u00e7ado ao seu redor. Inspirado em eventos reais, essa hist\u00f3ria de amadurecimento mostra os efeitos herdados de um trauma hist\u00f3rico e a for\u00e7a da sobreviv\u00eancia e da cura.",
+        "imdb": "tt10426580",
+        "imagem": "https://image.tmdb.org/t/p/w300//whPI5co6ZISWCA39jvDw4c6qdzp.jpg"
+    }
+    ,
+    {
+        "titulo": "Ca\u00e7adores",
+        "descricao": "Os Arsenaults s\u00e3o uma fam\u00edlia de ca\u00e7adores, que administram diversas atividades ilegais em uma cidade rural do Canad\u00e1. Enquanto s\u00e3o investigados pelas autoridades locais, eles precisam lidar com a volta do irrespons\u00e1vel filho mais novo.",
+        "imdb": "tt14624330",
+        "imagem": "https://image.tmdb.org/t/p/w300//5CNyDfoMb4bqo6AZs0Y3OOL5oqb.jpg"
+    }
+    ,
+    {
+        "titulo": "A Arma Secreta",
+        "descricao": "Baseado em uma hist\u00f3ria real. Em meados do s\u00e9culo XIX, Sardinia, uma surda-muda marginalizada, para surpresa de todos, torna-se a assassina mais temida e perigosa na rixa entre duas fam\u00edlias.",
+        "imdb": "tt15980462",
+        "imagem": "https://image.tmdb.org/t/p/w300//a6TTj8rNPaS6GhcQFdgKO3w2DnS.jpg"
+    }
+    ,
+    {
+        "titulo": "Aporia",
+        "descricao": "Desde a perda de seu marido Sophie tem lutado para administrar a dor, um emprego de tempo integral e cuidados com sua filha devastada mas, quando um ex-f\u00edsico revela uma m\u00e1quina secreta que dobra o tempo, Sophie se depara com uma escolha imposs\u00edvel.",
+        "imdb": "tt8511466",
+        "imagem": "https://image.tmdb.org/t/p/w300//8BnoaS3M8zEVE6pCkOoyyEjswCH.jpg"
+    }
+    ,
+    {
+        "titulo": "Lados Opostos",
+        "descricao": "O Estado Isl\u00e2mico destruiu a vila dos irm\u00e3os Jose e Luis no sudeste da \u00c1frica. O irm\u00e3o mais velho se junta a organiza\u00e7\u00e3o, mas o mais novo consegue escapar e \u00e9 encontrado por militares russos. Ele agora teme que ao revelar a localiza\u00e7\u00e3o do grupo terrorista, est\u00e1 colocando a vida de seu irm\u00e3o em perigo.",
+        "imdb": "tt17352384",
+        "imagem": "https://image.tmdb.org/t/p/w300//4LLBtwwAqMfou51XQax0Axr2dSo.jpg"
+    }
+    ,
+    {
+        "titulo": "Assassinato do Bolo de Cenoura: Um Mist\u00e9rio de Hannah Swensen",
+        "descricao": "Para desespero de seu noivo, Hannah investiga a descoberta de um esqueleto encontrado entre os escombros de um pr\u00e9dio que est\u00e1 em reforma.",     
+        "imdb": "tt26928076",
+        "imagem": "https://image.tmdb.org/t/p/w300//hZGyYkniGFfpf4WnO3hhscvr8du.jpg"
+    }
+    ,
+    {
+        "titulo": "Ningu\u00e9m Vai te Salvar",
+        "descricao": "Brynn \u00e9 uma jovem talentosa que vive isolada pela sua comunidade. Solit\u00e1ria, mas cheia de esperan\u00e7a, ela se refugia na casa onde cresceu, at\u00e9 o dia em que \u00e9 despertada por barulhos estranhos que s\u00f3 podem ser oriundos de invasores alien\u00edgenas. O que se desenrola a partir da\u00ed \u00e9 um duelo incessante entre Brynn e os seres extraterrestres que amea\u00e7am seu futuro enquanto a obrigam a encarar seu passado.",
+        "imdb": "tt14509110",
+        "imagem": "https://image.tmdb.org/t/p/w300//hkIwPpdmGI1BaZeR2yrPSnNcv4v.jpg"
+    }
+    ,
+    {
+        "titulo": "Charlie: Um Cachorro Especial",
+        "descricao": "Dharma est\u00e1 preso em uma rotina com seu estilo de vida negativo e solit\u00e1rio e passa cada dia no conforto de sua solid\u00e3o. Um filhote chamado Charlie que \u00e9 travesso e en\u00e9rgico, o que \u00e9 um completo contraste com o personagem do Dharma, entra em sua vida e lhe d\u00e1 uma nova perspectiva em rela\u00e7\u00e3o a isso.",
+        "imdb": "tt7466810",
+        "imagem": "https://image.tmdb.org/t/p/w300//6jSjNlbScgnR4w8VSO0lcJdhHJI.jpg"
+    }
+    ,
+    {
+        "titulo": "A Noite que Mudou o Pop",
+        "descricao": "Em uma noite de janeiro de 1985, as maiores estrelas da m\u00fasica se reuniram para gravar \"We Are the World\". Este document\u00e1rio mostra os bastidores desse evento hist\u00f3rico.",
+        "imdb": "tt30796448",
+        "imagem": "https://image.tmdb.org/t/p/w300//c5Dz7xZMxPbdaLn5nte4DCa61Gy.jpg"
+    }
+    ,
+    {
+        "titulo": "At\u00e9 Marte por Amor",
+        "descricao": "O sonho do jovem Alex de viajar at\u00e9 Marte est\u00e1 prestes a se tornar realidade, mas ao buscar uma companhia de seguros para poder concretizar sua expedi\u00e7\u00e3o, ele conhece uma garota que amea\u00e7a mant\u00ea-lo com o cora\u00e7\u00e3o e os p\u00e9s na terra.",
+        "imdb": "tt6317762",
+        "imagem": "https://image.tmdb.org/t/p/w300//jmvjmR50c3vIegMbfoEoNns84lM.jpg"
+    }
+    ,
+    {
+        "titulo": "O Oper\u00e1rio",
+        "descricao": "O oper\u00e1rio Trevor Reznik sofre tanto de ins\u00f4nia, que est\u00e1 prejudicando seu peso e sua sa\u00fade mental. Quando Trevor involuntariamente provoca um acidente de trabalho que fere um colega, ele come\u00e7a a se tornar ainda mais problem\u00e1tico e, apesar de um relacionamento com Stevie, uma bonita prostituta, Trevor come\u00e7a a culpar seus problemas em uma figura enigm\u00e1tica chamada Ivan.",
+        "imdb": "tt0361862",
+        "imagem": "https://image.tmdb.org/t/p/w300//xU4BxDFlEVxdUfWN8pLtBcFI5zB.jpg"
+    }
+    ,
+    {
+        "titulo": "Criptofraude",
+        "descricao": "Neste document\u00e1rio sobre um crime real, tr\u00eas homens exploram o mercado de criptomoedas para aplicar golpes em investidores e bancar uma vida de luxo.",
+        "imdb": "tt30317302",
+        "imagem": "https://image.tmdb.org/t/p/w300//5HHMl8k7cugjUUXQYx85eD0A0tf.jpg"
+    }
+    ,
+    {
+        "titulo": "A Vingan\u00e7a da Bab\u00e1",
+        "descricao": "Josie Jane, a jovem bab\u00e1 de uma fam\u00edlia rica, acabou de encontrar o esconderijo perfeito para uma brincadeira de esconde-esconde com a crian\u00e7a sob seus cuidados. Segundos depois, a casa da fam\u00edlia \u00e9 invadida por um bando de cultistas brutais, ca\u00e7ando um segredo apocal\u00edptico escondido dentro de suas paredes. Eles aterrorizam a fam\u00edlia. Mas eles n\u00e3o sabem sobre Josie \u2026 Presa dentro de uma casa escura, ampla e isolada e confrontada com o mal do pr\u00f3ximo n\u00edvel, Josie tem duas op\u00e7\u00f5es: ficar escondida e esperar sobreviver \u00e0 noite \u2026 ou revide das sombras, derrote o culto , e salvar a fam\u00edlia. Armado com um punhado de habilidades \u00fateis que ela aprendeu na inf\u00e2ncia, Josie luta contra o culto \u2013 e seus pr\u00f3prios medos \u2013 atrav\u00e9s de uma longa noite de terror e uma reviravolta mundial.",
+        "imdb": "tt11505682",
+        "imagem": "https://image.tmdb.org/t/p/w300//iYCM9JYdz20U476tSpfeGQ5iTrM.jpg"
+    }
+    ,
+    {
+        "titulo": "A Luta",
+        "descricao": "Ap\u00f3s a morte de sua esposa, o chef Cheng viaja com seu filho para uma aldeia remota na Finl\u00e2ndia a convite de um velho amigo que conheceu em Xangai. Mas ningu\u00e9m na aldeia parece conhecer o tal amigo, ent\u00e3o a dona do caf\u00e9 local oferece alojamento a Cheng em troca de ajuda na cozinha. O chef acaba surpreendendo os moradores locais com as del\u00edcias da culin\u00e1ria chinesa e, com o tempo, passa a se conectar com os finlandeses, se tornando um membro c\u00e9lebre da comunidade. Quando o visto de Cheng fica prestes a expirar, cabe aos moradores tra\u00e7ar um plano para ajud\u00e1-lo a ficar.",
+        "imdb": "tt7935770",
+        "imagem": "https://image.tmdb.org/t/p/w300//u7hSjwNjMYtORwOErHNLpAXeIEp.jpg"
+    }
+    ,
+    {
+        "titulo": "A Maldi\u00e7\u00e3o do Queen Mary",
+        "descricao": "Explora os incidentes misteriosos e violentos que ocorreram durante o cruzeiro de uma fam\u00edlia na noite de Halloween em 1938, e como esses eventos se conectam ao destino de outra fam\u00edlia no mesmo navio at\u00e9 os dias atuais.",
+        "imdb": "tt3463938",
+        "imagem": "https://image.tmdb.org/t/p/w300//52Sd1DLBn2zlPsUB9mnvtKHgh8O.jpg"
+    }
+    ,
+    {
+        "titulo": "George, o Curioso: Aventuras no Mar",
+        "descricao": "Embarque nesta aventura \u00e9pica com o macaco mais travesso e adorado do mundo! Ted leva George ao seu local favorito para passar as f\u00e9rias no litoral e fica desapontado quando nem tudo sai como planejado. Mas n\u00e3o se preocupe, a curiosidade de George os levar\u00e1 a uma inesperada aventura em busca do navio naufragado e h\u00e1 muito tempo desaparecido do lend\u00e1rio capit\u00e3o do mar Trumpet Tooter. Com ajuda de um pescador local, de sua sobrinha e de uma ador\u00e1vel foca beb\u00ea, George conduz a tripula\u00e7\u00e3o a uma s\u00e9rie de aventuras emocionantes, enquanto exploram o oceano \u00e0 procura do navio perdido.",
+        "imdb": "tt15437042",
+        "imagem": "https://image.tmdb.org/t/p/w300//539klzkpRB4KvpsiWaFjKjeGWwc.jpg"
+    }
+    ,
+    {
+        "titulo": "Fic\u00e7\u00e3o Americana",
+        "descricao": "A carreira do escritor Thelonious \Monk\ Ellison estagnou porque seu trabalho n\u00e3o \u00e9 \negro o suficiente\. Sendo assim, Monk publica um livro sat\u00edrico usando um pseud\u00f4nimo, com o objetivo de expor as hipocrisias do mundo editorial. O grande sucesso do livro o obriga a permanecer por mais tempo sob sua nova identidade, o que o faz questionar seus sua vis\u00e3o do mundo.",
+        "imdb": "tt23561236",
+        "imagem": "https://image.tmdb.org/t/p/w300//bndwT7YCJv9nEHGSXuzvx9PJ013.jpg"
+    }
+    ,
+    {
+        "titulo": "Incompat\u00edvel com a Vida",
+        "descricao": "A partir do registro de sua gravidez, a diretora Eliza Capai conversa com outras mulheres que tiveram viv\u00eancias parecidas \u00e0 sua, criando um potente e tocante coral de vozes que refletem sobre temas universais: vida, morte, luto e pol\u00edticas p\u00fablicas que nos afetam.",
+        "imdb": "tt27788763",
+        "imagem": "https://image.tmdb.org/t/p/w300//s3hjvbZuXRVmfGanJyx0AdGzoPB.jpg"
+    }
+    ,
+    {
+        "titulo": "Upgrade: As Cores do Amor",
+        "descricao": "Ana, aspirante a curadora de arte, \u00e9 inesperadamente promovida para a primeira classe em um voo para uma viagem de trabalho de \u00faltima hora para Londres. Ao se acomodar neste estilo de vida mais confort\u00e1vel na cabine da primeira classe, ela conhece o bonito e rico William e decide viver a fantasia um pouco mais do que deveria.",
+        "imdb": "tt21830902",
+        "imagem": "https://image.tmdb.org/t/p/w300//rqfqLTNpueBtdtMO0QZ8XzQaDi1.jpg"
+    }
+    ,
+    {
+        "titulo": "Caminhos da Sobreviv\u00eancia",
+        "descricao": "Wilfried Wils era policial auxiliar em Antu\u00e9rpia no in\u00edcio da Segunda Guerra Mundial. A cidade est\u00e1 sob o dom\u00ednio da viol\u00eancia e da desconfian\u00e7a. Wilfried faz o que pode por si mesmo, evitando caminhos muito escorregadios. Ele recebe aten\u00e7\u00e3o e apoio material de um homem que se aliou ao ocupante alem\u00e3o, Meanbeard, mas tamb\u00e9m conta com a confian\u00e7a de seu colega anti-nazista Lode, irm\u00e3o da amada de Wilfried, Yvette. Wilfried luta para sobreviver enquanto a persegui\u00e7\u00e3o aos judeus continua inabal\u00e1vel.",
+        "imdb": "tt26067432",
+        "imagem": "https://image.tmdb.org/t/p/w300//FSFhUQD96WlDLfYfheod05WOQo.jpg"
+    }
+    ,
+    {
+        "titulo": "Amante, Stalker e Mortal",
+        "descricao": "Neste document\u00e1rio, um mec\u00e2nico entra em um aplicativo de relacionamentos pela primeira vez e conhece uma mulher que leva sua obsess\u00e3o amorosa a um n\u00edvel extremo e fatal.",
+        "imdb": "tt30852970",
+        "imagem": "https://image.tmdb.org/t/p/w300//6kQodHV31ffIaE1vhEBo3as8Hon.jpg"
+    }
+    ,
+    {
+        "titulo": "Indiferen\u00e7a",
+        "descricao": "Uma jornalista local come\u00e7a uma investiga\u00e7\u00e3o sobre casos de abuso encobertos em um abrigo para meninas.",
+        "imdb": "tt27936770",
+        "imagem": "https://image.tmdb.org/t/p/w300//ufFrD3NgeFZdNlORyOgXkjCyeJA.jpg"
+    }
+    ,
+    {
+        "titulo": "Segredos de Espi\u00f5es",
+        "descricao": "Durante o memorial do espi\u00e3o James Prentis, um her\u00f3i da Segunda Guerra Mundial, o seu filho decide revelar o segredo que o seu pai escondeu de toda sua fam\u00edlia por mais de 20 anos.",
+        "imdb": "tt14732108",
+        "imagem": "https://image.tmdb.org/t/p/w300//iPtwg29ai63UOo7X9BQI6UvVlwJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Consequ\u00eancias Irrevers\u00edveis",
+        "descricao": "Um dia, a adolescente Magda oferece seu colar extremamente caro para uma crian\u00e7a doente no hospital onde ela \u00e9 volunt\u00e1ria. Seu pai tem certeza de que ela est\u00e1 mentindo novamente, e quando Magda prova sua inoc\u00eancia, ele se sente envergonhado e culpado, mas \u00e9 incapaz de admitir que estava errado. Consertar essa rela\u00e7\u00e3o ca\u00f3tica entre pai e filha n\u00e3o ser\u00e1 nada f\u00e1cil, e as decis\u00f5es que ambos tomam levam a consequ\u00eancias irrevers\u00edveis.",
+        "imdb": "tt15399614",
+        "imagem": "https://image.tmdb.org/t/p/w300//AekJC3BUrt9XLxcmq8agVKtIp8W.jpg"
+    }
+    ,
+    {
+        "titulo": "T\u00e1 Escrito",
+        "descricao": "Alice \u00e9 uma leonina insegura que acha que os astros erraram com ela, at\u00e9 que um dia ela recebe um livro em branco, apenas com instru\u00e7\u00f5es que prometem que qualquer previs\u00e3o astrol\u00f3gica escrita naquelas p\u00e1ginas se concretizar\u00e1. Com o poder de influenciar a todos com as previs\u00f5es que agora ela tem acesso, Alice se torna um fen\u00f4meno online, mas tamb\u00e9m deixa o mundo ao seu redor de cabe\u00e7a para baixo.",
+        "imdb": "tt28260733",
+        "imagem": "https://image.tmdb.org/t/p/w300//Am2iGBeWpkJg0SBI2PbLzMnVxZY.jpg"
+    }
+    ,
+    {
+        "titulo": "Realidades Paralelas",
+        "descricao": "Arlene \u00e9 uma mulher que perdeu tudo de mais importante em sua vida: seu filho, sua casa e seu marido. Ela recebe a chance de voltar no tempo e salvar a vida de seu filho, sem se dar conta das consequ\u00eancias que suas a\u00e7\u00f5es no passado podem causar.",
+        "imdb": "tt13678976",
+        "imagem": "https://image.tmdb.org/t/p/w300//wooUeYNdV2zxyKtiHrMDzQEbsM3.jpg"
+    }
+    ,
+    {
+        "titulo": "Escondido no Acampamento",
+        "descricao": "Noah \u00e9 um adolescente problem\u00e1tico que quase \u00e9 pego roubando um aparelho ultrassecreto de alguns bandidos da cidade grande. Depois de escapar por pouco, ele decide se esconder em um acampamento de ver\u00e3o dirigido pelo exc\u00eantrico Falco e pelos conselheiros Jake e Selena. Enquanto Noah tenta se misturar com o resto dos campistas desordeiros, seus parceiros desonestos aparecem para roubar o item classificado, agora em sua posse.",
+        "imdb": "tt14051976",
+        "imagem": "https://image.tmdb.org/t/p/w300//vewc24PINgGkyTfvWP1MyAhPjLX.jpg"
+    }
+    ,
+    {
+        "titulo": "Uma Quest\u00e3o de Fam\u00edlia",
+        "descricao": "Os Meyersons s\u00e3o uma fam\u00edlia como outra qualquer de Nova Iorque, repleta de desaven\u00e7as, inseguran\u00e7as e momentos de ternura. Mas uma surpreendente descoberta cient\u00edfica ir\u00e1 alterar essa din\u00e2mica familiar e mudar\u00e1 a vida de cada membro de uma maneira diferente.",
+        "imdb": "tt8293590",
+        "imagem": "https://image.tmdb.org/t/p/w300//jotZ4a4KeZ3I436mjOz1PQDg1pf.jpg"
+    }
+    ,
+    {
+        "titulo": "Shin Kamen Rider",
+        "descricao": "Um homem \u00e9 for\u00e7ado a ter poder e foi destitu\u00eddo de sua humanidade. Uma mulher \u00e9 c\u00e9tica em rela\u00e7\u00e3o \u00e0 felicidade. Takeshi Hongo, o homem que sofreu o processo \"Augment\" feito pela SHOCKER, e Ruriko Midorikawa, uma rebelde da organiza\u00e7\u00e3o, scapam enquanto lutam contra assassinos. O que \u00e9 a justi\u00e7a? O que \u00e9 o mal? Essa viol\u00eancia ter\u00e1 fim? Apesar de seu poder, Hongo tenta permanecer humano. Junto com a liberdade, Ruriko recuperou seu cora\u00e7\u00e3o. Que caminhos eles escolher\u00e3o?",
+        "imdb": "tt14379088",
+        "imagem": "https://image.tmdb.org/t/p/w300//rIpGaksuyaPH13QAHtE8ouVgA62.jpg"
+    }
+    ,
+    {
+        "titulo": "O Nomade",
+        "descricao": "Quando uma rep\u00f3rter que est\u00e1 filmando uma hist\u00f3ria sobre um serial killer que tem como alvo os padres da cidade fica cara a cara com o assassino, ela deve escolher entre denunci\u00e1-lo - ou direcion\u00e1-lo para seu pai abusivo.",
+        "imdb": "tt13009174",
+        "imagem": "https://image.tmdb.org/t/p/w300//uzML477yx9CAwg5UqkRqobz0TrJ.jpg"
+    }
+    ,
+    {
+        "titulo": "O Protetor do Irm\u00e3o",
+        "descricao": "Yusuf e seu melhor amigo Memo s\u00e3o alunos de um internato para meninos curdos, isolado nas montanhas do leste da Anat\u00f3lia. Quando Memo adoece misteriosamente, Yusuf \u00e9 for\u00e7ado a enfrentar os obst\u00e1culos burocr\u00e1ticos colocados pelas autoridades repressivas da escola para tentar ajudar seu amigo. Mas quando os adultos respons\u00e1veis \u200b\u200bfinalmente entendem a gravidade da condi\u00e7\u00e3o de Memo e tentam lev\u00e1-lo ao hospital, a escola foi soterrada por uma forte e repentina nevasca. Sem sa\u00edda e agora desesperados por ajuda, professores e alunos envolvem-se num jogo de culpa onde ressentimentos, sentimentos de culpa e segredos escondidos emergem, \u00e0 medida que o tempo passa impiedosamente e amea\u00e7a acabar.",
+        "imdb": "tt10311018",
+        "imagem": "https://image.tmdb.org/t/p/w300//kUuCk4LQQcOgJ3bZ3smQkYBtyJe.jpg"
+    }
+    ,
+    {
+        "titulo": "O Tesouro da Montanha Nebulosa",
+        "descricao": "Quando tr\u00eas amigos que moram juntos percebem que n\u00e3o gostam de sua trajet\u00f3ria de vida, eles partem em busca de um tesouro de ouro que, segundo rumores, est\u00e1 enterrado em uma montanha pr\u00f3xima.",
+        "imdb": "tt21335356",
+        "imagem": "https://image.tmdb.org/t/p/w300//1mMG78tbmYUN5VSy61MeUVzLNco.jpg"
+    }
+    ,
+    {
+        "titulo": "Luta e Sobreviv\u00eancia",
+        "descricao": "Uma enfermeira sobrecarregada retorna para casa para encontrar um man\u00edaco se escondendo com um ref\u00e9m machucado e espancado. Quando uma onda inesperada de invasores violentos desce sobre sua casa, torna-se uma luta pela sobreviv\u00eancia.",
+        "imdb": "tt11014390",
+        "imagem": "https://image.tmdb.org/t/p/w300//b5AP8jqUiy2WRkS7fimI3weoVkJ.jpg"
+    }
+    ,
+    {
+        "titulo": "Contos Macabros Para Quem Ama o Dia das Bruxas",
+        "descricao": "Tr\u00eas crian\u00e7as planejam ter a melhor noite de Dia das Bruxas de suas vidas. Elas entram na casa de uma assustadora lenda local, que conta seis hist\u00f3rias de terror com finais imprevis\u00edveis.",
+        "imdb": "tt16404438",
+        "imagem": "https://image.tmdb.org/t/p/w300//sAzojQlEua2Aps1qJ2tRp6J4Beo.jpg"
+    }
+    ,
+    {
+        "titulo": "Segredos de Fam\u00edlia",
+        "descricao": "Uma filha sequestrada, um passado oculto revelado e uma chance aparentemente f\u00fatil de resgate. Agora, o Reverendo Jeremiah Jacobs e sua esposa Martha devem superar as mentiras do passado para encontrar sua esperan\u00e7a para o futuro.",
+        "imdb": "tt28078052",
+        "imagem": "https://image.tmdb.org/t/p/w300//nP2rqnnkCZz5U55I5xD1QqAeFSH.jpg"
+    }
+    ,
+    {
+        "titulo": "Seguran\u00e7a M\u00e1xima",
+        "descricao": "Steve Mackleson \u00e9 um perigoso criminoso, encarcerado em uma pris\u00e3o de seguran\u00e7a m\u00e1xima. Sua jornada de reden\u00e7\u00e3o come\u00e7a quando um jovem de 19 anos se torna o seu novo colega de cela e a filha que ele nunca conheceu resolve procur\u00e1-lo.",
+        "imdb": "tt12708382",
+        "imagem": "https://image.tmdb.org/t/p/w300//y7Wq8boLNOqlFhGGIhzV2YtZ4ki.jpg"
+    }
+    ,
+    {
+        "titulo": "N\u00e3o Tem Volta",
+        "descricao": "Henrique n\u00e3o consegue superar a separa\u00e7\u00e3o de Gabriela e, mesmo um ano depois, est\u00e1 t\u00e3o devastado que \u00e9 incapaz de se animar com mais nada, nem ningu\u00e9m. Para acabar com o sofrimento, ele decide tirar a pr\u00f3pria vida, mas como n\u00e3o tem coragem, contrata uma empresa de assassinos de aluguel que tem apenas uma \u00fanica regra: Ap\u00f3s a assinatura e o pagamento, a decis\u00e3o n\u00e3o tem volta. Por\u00e9m, ap\u00f3s assinar o contrato, Henrique e Gabriela se cruzam ao acaso e ela descobre que quer reatar a rela\u00e7\u00e3o. Desesperado para descobrir quem ser\u00e1 o seu carrasco, Henrique envolve-se em uma trajet\u00f3ria repleta de situa\u00e7\u00f5es tensas e mirabolantes para se salvar e, finalmente, ficar com a mulher que ama.",
+        "imdb": "tt29639785",
+        "imagem": "https://image.tmdb.org/t/p/w300//8g1or9dR9KYRJy0lFXQpZ0kAqtC.jpg"
+    }
+    ,
+    {
+        "titulo": "The Windigo",
+        "descricao": "",
+        "imdb": "tt10094388",
+        "imagem": "https://image.tmdb.org/t/p/w300//n9CEFtMNROmv9S2GVhEsNhrJurP.jpg"
+    }
+    ,
+    {
+        "titulo": "Pesadelos Reais",
+        "descricao": "Ap\u00f3s o assassinato de seu av\u00f4, Alma decide passar um fim de semana sozinha com seu marido em uma cabana na floresta, mas as coisas come\u00e7am a ficar fora de controle e os seus pesadelos parecem cada vez mais reais.",
+        "imdb": "tt18952404",
+        "imagem": "https://image.tmdb.org/t/p/w300//bgtyyIzmu01ALSl0MRZuJMdbasf.jpg"
+    }
+    ,
+    {
+        "titulo": "Orion e o Escuro",
+        "descricao": "Com uma imagina\u00e7\u00e3o f\u00e9rtil, um garoto encara seus medos em uma jornada inesquec\u00edvel pela noite ao lado do novo amigo Escuro, uma criatura gigante e sorridente.",
+        "imdb": "tt28066777",
+        "imagem": "https://image.tmdb.org/t/p/w300//ulUmkLFtT1Y0YGtmO6lBkMwLsBR.jpg"
+    }
+    ,
+    {
+        "titulo": "Cult Killer",
+        "descricao": "Uma investigadora particular \u00e9 for\u00e7ada a uma alian\u00e7a perigosa com um assassino para descobrir o terr\u00edvel ponto fraco do crime em uma cidade pacata e limpar o nome de seu mentor, que est\u00e1 implicado nos crimes.",
+        "imdb": "tt21151212",
+        "imagem": "https://image.tmdb.org/t/p/w300//jSR06FpV1H36OmW0jfEmvG73l2r.jpg"
+    }
+    ,
+    {
+        "titulo": "Dinheiro F\u00e1cil",
+        "descricao": "O vlogger Keith Gill investe suas economias em a\u00e7\u00f5es da GameStop e posta sobre isso.  Quando a m\u00eddia social come\u00e7a a explodir, o mesmo acontece com a vida dele e a de todos que o seguem.  \u00c0 medida que uma dica sobre a\u00e7\u00f5es se transforma num movimento, todos ficam ricos \u2013 at\u00e9 que os multimilion\u00e1rios revidam e ambos os lados v\u00eaem os seus mundos virados do avesso.",
+        "imdb": "tt13957560",
+        "imagem": "https://image.tmdb.org/t/p/w300//l3pI4Nbe9vRC2cd7WsHtiMGZW0T.jpg"
+    }
+    ,
+    {
+        "titulo": "Natureza Humana",
+        "descricao": "Uma hist\u00f3ria de maioridade contada atrav\u00e9s dos olhos de uma jovem cuja fam\u00edlia fica fora de controle depois que eles decidem viver fora da rede.",
+        "imdb": "tt12164416",
+        "imagem": "https://image.tmdb.org/t/p/w300//lAxUEIHjzqYcatkYKKEOudJW2mA.jpg"
+    }
+    ,
+    {
+        "titulo": "The Vampire Next Door",
+        "descricao": "",
+        "imdb": "tt26902267",
+        "imagem": "https://image.tmdb.org/t/p/w300//nBrzD4DOsj1lbXvjODGAbA8ddm8.jpg"
+    }
+    ,
+    {
         "titulo": "O Menino e a Gar\u00e7a",
         "descricao": "Depois de perder a m\u00e3e durante a guerra, o jovem Mahito muda-se para a propriedade de sua fam\u00edlia no campo. L\u00e1, uma s\u00e9rie de eventos misteriosos o levam a uma torre antiga e isolada, lar de uma travessa gar\u00e7a cinzenta. Quando a nova madrasta de Mahito desaparece, ele segue a gar\u00e7a at\u00e9 a torre e entra num mundo fant\u00e1stico partilhado pelos vivos e pelos mortos. Ao embarcar em uma jornada \u00e9pica com a gar\u00e7a como guia, Mahito deve descobrir os segredos deste mundo e a verdade sobre si mesmo.",
         "imdb": "tt6587046",
